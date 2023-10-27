@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:25
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,250 @@ head_title: "Java Dokumentkonvertierungs-API | Konvertieren Sie PDF Word Excel P
 head_description: "Java Dokumentkonvertierungs-API. Konvertieren Sie PDF, Word, DOC, DOCX, Excel-Tabellen, PPT, PPTX, HTML, PSD, MPT, MPP, E-Mail, MSG, EMLX, AutoCAD und Bilddateiformate."
 
 ############################# Header ############################
-title: "Java-API zum Konvertieren von über 80 Dateiformaten"
+title: "{header.title_1}<br>{header.title_2}"
 description: "Einfache API zur Integration von Dokumenten- und Bildkonvertierungsfunktionen in Java-Anwendungen ohne Installation externer Software."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download kostenlose Testversion"
-    link: "https://downloads.groupdocs.com/conversion/java"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
+
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
+
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-conversion</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // {code.comment_1}
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
+    // {code.comment_2}
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Überblick"
-
-            # button loop
-            - link: "#features"
-              text: "Merkmale"
-
-            # button loop
-            - link: "#support"
-              text: "Die Unterstützung"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Live-Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Preisgestaltung"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // {code.comment_3}
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for Java kombiniert einen leistungsstarken Satz von Dokumentkonvertierungs-APIs, um Bilder und Dokumentformate in Ihren Java-Anwendungen anzuzeigen, ohne dass zusätzliche Software installiert werden muss. Es rastert die Dokumente nativ und konvertiert sie in SVG+HTML+CSS, um die Qualität der Dokumentenanzeige zu verbessern und gleichzeitig eine High-Fidelity-Ausgabe in Echttext zu liefern. Verwenden der Dokumenten-Rendering-API – schnelles Anzeigen von PDF-, HTML-, XML-, Microsoft Office Word-, Excel-Arbeitsblättern, PowerPoint-Präsentationen, Outlook-E-Mails, Visio-Diagrammen, Project, Metadateien, Bildern und verschiedenen anderen Dateiformaten mit Leichtigkeit und weniger Programmierrisiken. Es kann auch passwortgeschützte Dateien anzeigen und nach dem Rendern die Dokumentdarstellung als HTML-, Bild- oder PDF-Formular erhalten. Unsere Dateikonvertierungsbibliothek ist sehr anpassbar, da Sie das gesamte Dokument anzeigen oder teilweise rendern können, um den Prozess zu beschleunigen. Über die GroupDocs.Conversion für Java-API können Sie Seiten oder bestimmte Zellbereiche in einer Tabelle anzeigen oder sogar eine einzelne Dokumentebene in Formaten wie PDF und CAD rendern.
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      Die GroupDocs.Conversion for Java-API ermöglicht es Ihnen, Dokumente mit/ohne Anmerkungen oder Kommentare für unterstützte Dateiformate zu rendern. Außerdem können Sie benutzerdefinierte Schriftartenverzeichnisse hinzufügen und grundlegende Dokumentinformationen wie Dateityp, Erweiterung, Name, Seitenzahl usw. extrahieren.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Nachfolgend finden Sie eine Übersicht über GroupDocs.Conversion for Java:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Überblick"
-          content: |
-            * Dateityp automatisch erkennen
-            * Dokumente konvertieren
-            * Konvertieren Sie Präsentationen
-            * Tabellenkalkulationen konvertieren
-            * Rasterbilder konvertieren
-            * Konvertieren Sie PDF-Dokumente
-            * Andere Formate konvertieren
-            * Wasserzeichen anwenden
-            * Geben Sie das Dateikennwort an
-            * Konvertierung anpassen
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for Java unterstützt die Konvertierung zwischen allen gängigen und häufig verwendeten [Dokumentdateiformaten](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Konvertieren von:"
-              content: |
-                * **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Tabellen**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Präsentationen**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Bilder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Tragbar**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Metadateien**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **Projekt**: MPP, MPT, MPX
-                * **Ausblick**: PST, OST
-                * **E-Mail**: MSG, EML, EMLX
-                * **Diagramme**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Andere**: VCF, PLT, LGS, OTG, MD, AI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Konvertieren zu:"
-              content: |
-                * **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Tabellen**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Präsentationen**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Bilder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metadateien**: EMF, WMF, EMZ, WMZ
-                * **Diagramme**: SVGZ
-                * **Tragbar**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                * **Andere**: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for Java unterstützt folgende Betriebssysteme, Frameworks und Paketmanager:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Betriebssysteme"
-              content: |
-                Windows Desktop, Windows Server, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Unterstützte Frameworks"
-              content: |
-                Java runtime: J2SE 6.0 and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Paket-Manager"
-              content: |
-                Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Paket-Manager"
-              content: |
-                NetBeans, Intellij IDEA, Eclipse, etc.
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Conversion for Java-Funktionen"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Einfache Integration und gebührenpflichtige Lizenzierung"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Legen Sie die Standard-Zoomoption beim Konvertieren in Wörter, Folien oder Zellen fest"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Konvertieren Sie in/von allen gängigen Rasterbildformaten und weisen Sie Bild-DPI, -Höhe und -Breite zu"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Konvertieren Sie PDF und Bilder in Graustufen und linearisieren Sie PDF-Dokumente für das Web"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Geben Sie Lesezeichenebene, Überschriftenebene und erweiterte Ebene bei der Word-zu-PDF/XPS-Konvertierung an"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Konfigurieren und platzieren Sie Wasserzeichen in konvertierten Dokumenten als Hintergrund, um sie hinter Text anzuzeigen"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Rendern Sie den E-Mail-Header während der Konvertierung von E-Mail"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Legen Sie benutzerdefinierte Schriftartenverzeichnisse fest und laden/ersetzen Sie Schriftarten explizit während der Dokumentkonvertierung"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Legen Sie die Standardschrift fest, um fehlende Schriftarten für die Konvertierung von Dokumenten, Folien und Tabellenkalkulationen zu ersetzen"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Konvertieren Sie eine Tabelle mit Rasterlinien und entfernen Sie während der Konvertierung Kommentare von Folien"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Konvertieren Sie bestimmte Dokumentseiten in das PDF-Format und konvertieren Sie bestimmte Zellbereiche in Tabellenkalkulationen"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Zeigen Sie ausgeblendete Blätter und überspringen Sie leere Zeilen und Spalten beim Konvertieren von Tabellenkalkulationen"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Zählen Sie die Gesamtseiten eines Dokuments und setzen Sie das Passwort während der Konvertierung auf ein ungeschütztes Dokument"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Option zum Entfernen von Anmerkungen und eingebetteten Dateien aus PDF"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Erstellen Sie HTML 5-konformes Markup beim Konvertieren in HTML"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Automatische Erkennung des Quelltyps und Rückgabe aller möglichen Konvertierungen beim Konvertieren von Stream"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Möglichkeit, beim Konvertieren in PDF oder HTML jede Seite in einem separaten Stream zurückzugeben"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Anzeigen/Ausblenden von Markierungen, Kommentaren und Verfolgen von Änderungen beim Konvertieren aus Word"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Konvertierung von DOCX in Tiff G3 mit Schattierungsoption"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Konvertieren Sie bestimmte Layouts beim Konvertieren aus einem CAD-Dokument"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Automatische Benennung beim Speichern des konvertierten Dokuments in einer Datei"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Gemessene Lizenzierung wird unterstützt, um basierend auf der Nutzung der API abgerechnet zu werden"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Konvertieren Sie Diagramme in Textverarbeitungsdateiformate"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Fügen Sie Seitenzahlen hinzu, während Sie HTML in ein Textverarbeitungsdokument konvertieren"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Konvertieren Sie XML-Dokumente ohne Transformation in ein beliebiges Format"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Überwachen Sie den Fortschritt der Dateikonvertierung (Start, Ende) direkt von der clientseitigen Anwendung"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Einfache Dokumentenformatkonvertierung mit Java"
-        content: |
-          Mit der GroupDocs.Conversion for Java-API können Sie das Dateiformat einer Vielzahl von Dokumenttypen konvertieren. Hier werden Ihnen einige Codezeilen präsentiert, um eine grundlegende Dokumentenkonvertierung mit Java durchzuführen.  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```java    
-           // Quelldatei DOCX zur Konvertierung laden
-          Converter converter = new Converter("input.docx");
-          // Konvertierungsoptionen für das Zielformat PDF vorbereiten
-          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-          // In das PDF-Format konvertieren
-          converter.convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "Dokument von URL oder Pfad zur Konvertierung lesen"
-        content: "Mit der GroupDocs.Conversion for Java-API können Sie Eingabedokumente sowohl aus einem Dateipfad als auch aus einer URL lesen. Während Sie das Ausgabedokument als Datei speichern oder die Ausgabe direkt in einen Stream senden können."
-
-      # more_feature_loop
-      - title: "Umfassender technischer Support"
-        content: |
-          GroupDocs.Conversion for Java ist eine einfache und auf den Punkt gebrachte API, die Sie ganz einfach in Ihre Java-basierten Anwendungen integrieren können. Damit Sie jedoch im Handumdrehen einsatzbereit sind, bieten wir auch leicht verständliche Codebeispiele und eine umfassende API-Dokumentation.  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion bietet Dokumentenkonvertierungs-APIs für andere beliebte Entwicklungsumgebungen"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion für .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-          product: "GroupDocs.Conversion"
-          platform: ".NETZ"
-          link: "/conversion/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Conversion for Java-Funktionen"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```java {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        Merger merger = new Merger("sample1.docx");
+        // {code_samples.sample_1.comment_2}
+        merger.join("sample2.docx");
+        // {code_samples.sample_1.comment_3}
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        ```java {style=abap}   
+        // {code_samples.sample_2.comment_1}
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // {code_samples.sample_2.comment_2}
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // {code_samples.sample_2.comment_3}
+        Merger merger = new Merger(filePath);
+
+        // {code_samples.sample_2.comment_4}
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

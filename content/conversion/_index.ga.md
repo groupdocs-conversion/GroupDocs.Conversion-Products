@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-10-27T14:09:26
 draft: false
 
 product: "Conversion"
@@ -40,14 +40,6 @@ apis:
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "Cumasaigh d'fheidhmchláir Java a thiontú go héasca idir gach formáid doiciméad de chaighdeán tionscail lena n-áirítear Microsoft Office, PDF, HTML, íomhánna agus go leor eile."
-        
-        # api_product loop
-        - link: "/conversion/nodejs-java/"
-          img_alt: "GroupDocs.Conversion for Node.js via Java"
-          image: "https://products.groupdocs.com/border/groupdocs-conversion-nodejs-java.svg"
-          product: "GroupDocs.Conversion for"
-          platform: "Node.js via Java"
-          content: "Ligeann cumhachtaí do do chuid feidhmeannachtaí JavaScript na comhréire a dhéanamh go héasca idir gach príomhfhormáid cáipéisí, mar shampla Microsoft Office, PDF, HTML, íomhán, agus níos mó."
 
     # api loop
     - title: "Cuir APIs Cód Ísle GroupDocs.Conversion san áireamh"

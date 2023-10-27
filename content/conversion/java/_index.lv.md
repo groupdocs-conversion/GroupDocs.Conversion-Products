@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:26
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,250 @@ head_title: "Java Dokumentu konvertēšanas API | Konvertējiet PDF Word Excel P
 head_description: "Java Dokumentu konvertēšanas API. Konvertējiet PDF Word DOC DOCX, Excel izklājlapas PPT PPTX, HTML, PSD, MPT MPP, e-pastu MSG EMLX, AutoCAD un attēlu failu formātus."
 
 ############################# Header ############################
-title: "Java API, lai konvertētu vairāk nekā 80 failu formātus"
+title: "{header.title_1}<br>{header.title_2}"
 description: "Vienkāršs API, lai integrētu dokumentu un attēlu konvertēšanas funkcionalitāti Java lietojumprogrammās, neinstalējot ārēju programmatūru."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Lejupielādēt bezmaksas izmēģinājuma versiju"
-    link: "https://downloads.groupdocs.com/conversion/java"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
+
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
+
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-conversion</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // {code.comment_1}
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
+    // {code.comment_2}
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Pārskats"
-
-            # button loop
-            - link: "#features"
-              text: "Iespējas"
-
-            # button loop
-            - link: "#support"
-              text: "Atbalsts"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Demo tiešraide"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Cenu noteikšana"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // {code.comment_3}
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for Java apvieno jaudīgu dokumentu konvertēšanas API kopu, lai jūsu Java lietojumprogrammās parādītu attēlus un dokumentu formātus, neinstalējot papildu programmatūru. Tā sākotnēji rasterizē dokumentus un pārvērš tos par SVG+HTML+CSS, lai uzlabotu dokumentu skatīšanas kvalitāti, vienlaikus nodrošinot patiesa teksta, augstas precizitātes izvadi. Izmantojot dokumentu renderēšanas API — ātri apskatiet PDF, HTML, XML, Microsoft Office Word, Excel darblapas, PowerPoint prezentācijas, Outlook e-pastus, Visio diagrammas, projektu, metafailus, attēlus un dažādus citus failu formātus ar vieglu un mazāku programmēšanas risku. Tas var arī parādīt ar paroli aizsargātus failus un ļaut pēc renderēšanas iegūt dokumentu HTML, attēla vai PDF formātā. Mūsu failu konvertēšanas bibliotēka ir diezgan pielāgojama, jo tā ļauj parādīt visu dokumentu vai atveidot to daļēji, lai paātrinātu procesu. Izmantojot GroupDocs.Conversion for Java API, varat skatīt lapas, noteiktu šūnu diapazonu izklājlapā vai pat renderēt atsevišķu dokumenta slāni tādos formātos kā PDF un CAD.
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      GroupDocs.Conversion for Java API ļauj renderēt dokumentus ar/bez anotācijām vai komentāriem atbalstītajos failu formātos. Tas arī ļauj pievienot pielāgotus fontu direktorijus un iegūt dokumenta pamatinformāciju, piemēram, faila tipu, paplašinājumu, nosaukumu, lappušu skaitu utt.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Tālāk ir sniegts produkta GroupDocs.Conversion for Java pārskats:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Pārskats"
-          content: |
-            * Automātiski noteikt faila tipu
-            * Konvertēt dokumentus
-            * Konvertēt prezentācijas
-            * Konvertēt izklājlapas
-            * Konvertējiet rastra attēlus
-            * Konvertēt PDF dokumentus
-            * Konvertējiet citus formātus
-            * Lietojiet ūdenszīmi
-            * Norādiet faila paroli
-            * Pielāgot reklāmguvumu
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for Java atbalsta visu populāro un bieži lietoto [dokumentu failu formātu] konvertēšanu (https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Konvertēt no:"
-              content: |
-                * **Dokumenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Izklājlapas**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Prezentācijas**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Attēli**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Pārnēsājams**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Metafaili**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **Projekts**: MPP, MPT, MPX
-                * **Outlook**: PST, OST
-                * **E-pasts**: MSG, EML, EMLX
-                * **Diagrammas**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Cits**: VCF, PLT, LGS, OTG, MD, AI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Konvertēt uz:"
-              content: |
-                * **Dokumenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Izklājlapas**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Prezentācijas**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Attēli**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metafaili**: EMF, WMF, EMZ, WMZ
-                * **Diagrammas**: SVGZ
-                * **Pārnēsājams**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                **Cits**: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for Java atbalsta šādas operētājsistēmas, ietvarus un pakotņu pārvaldniekus:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operētājsistēmas"
-              content: |
-                Windows Desktop, Windows Server, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Atbalstītie ietvari"
-              content: |
-                Java runtime: J2SE 6.0 and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Pakešu pārvaldnieks"
-              content: |
-                Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Pakešu pārvaldnieks"
-              content: |
-                NetBeans, Intellij IDEA, Eclipse, etc.
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Conversion for Java līdzekļi"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Vienkārša integrācija un mērītā licencēšana"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Iestatiet noklusējuma tālummaiņas opciju, konvertējot uz vārdiem, slaidiem vai šūnām"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Konvertēt uz/no visiem populārajiem rastra attēlu formātiem un piešķirt attēla DPI, augstumu un platumu"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Konvertējiet PDF un attēlu uz pelēktoņu un linearizējiet PDF dokumentu tīmeklim"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Norādiet grāmatzīmju līmeni, virsraksta līmeni un izvērsto līmeni Word konvertēšanā uz PDF/XPS"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Konfigurējiet un novietojiet ūdenszīmi konvertētajā dokumentā kā fonu, lai parādītu aiz teksta"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Renderējiet e-pasta galveni konvertēšanas laikā no e-pasta"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Iestatiet pielāgotus fontu katalogus un skaidri ielādējiet/aizvietojiet fontu dokumenta konvertēšanas laikā"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Iestatiet noklusējuma fontu, lai aizstātu trūkstošos fontus dokumentu, slaidu un izklājlapu konvertēšanai"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Konvertējiet izklājlapu ar režģa līnijām un noņemiet komentārus no slaidiem konvertēšanas laikā"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Konvertējiet noteiktas dokumenta lapas kā PDF formātu un konvertējiet noteiktu šūnu diapazonu izklājlapās"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Rādīt slēptās lapas un izlaist tukšās rindas un kolonnas, konvertējot izklājlapas"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Saskaitiet dokumenta lapas un iestatiet paroli uz neaizsargātu dokumentu konvertēšanas laikā"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Iespēja noņemt anotācijas un iegultos failus no PDF"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Izveidojiet HTML 5 saderīgu marķējumu, pārvēršot par HTML"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Automātiski noteikt avota veidu un atgriezt visus iespējamos reklāmguvumus, konvertējot no straumes"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Iespēja atgriezt katru lapu atsevišķā straumē, konvertējot uz PDF vai HTML"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Rādīt/slēpt marķējumu, komentārus un izsekot izmaiņām, konvertējot no Word"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "DOCX konvertēšana uz Tiff G3 ar ēnošanas opciju"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Konvertējiet konkrētus izkārtojumus, konvertējot no CAD dokumenta"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Automātiska nosaukumu piešķiršana, saglabājot konvertēto dokumentu failā"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Maksas licencēšana tiek atbalstīta, lai iekasētu rēķinu, pamatojoties uz API lietojumu"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Konvertējiet diagrammas tekstapstrādes failu formātos"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Pievienojiet lappušu numurus, pārvēršot HTML par tekstapstrādes dokumentu"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Konvertējiet XML dokumentus jebkurā formātā bez pārveidošanas"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Pārraugiet failu konvertēšanas gaitu (sākums, beigas) tieši no klienta puses lietojumprogrammas"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Vienkārša dokumentu formāta konvertēšana, izmantojot Java"
-        content: |
-          Izmantojot GroupDocs.Conversion for Java API, varat konvertēt dažādu dokumentu veidu failu formātus. Šeit tiek parādītas dažas koda rindiņas, lai veiktu pamata dokumenta konvertēšanu, izmantojot Java.  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```java    
-           // Ielādēt avota failu DOCX konvertēšanai
-          Converter converter = new Converter("input.docx");
-          // Sagatavojiet reklāmguvumu opcijas mērķa formātam PDF
-          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-          // Konvertēt uz PDF formātu
-          converter.convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "Lasiet dokumentu no URL vai reklāmguvuma ceļa"
-        content: "Izmantojot GroupDocs.Conversion for Java API, varat nolasīt ievades dokumentu no faila ceļa, kā arī URL. Lai gan jūs varat saglabāt izvades dokumentu kā failu vai nosūtīt izvadi tieši straumē."
-
-      # more_feature_loop
-      - title: "Visaptverošs tehniskais atbalsts"
-        content: |
-          GroupDocs.Conversion for Java ir vienkārša un precīza API, ko varat viegli integrēt savās Java lietojumprogrammās. Tomēr, lai ātri sāktu darbu, mēs piedāvājam arī viegli izpildāmus koda paraugus un visaptverošu API dokumentāciju.  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion piedāvā dokumentu konvertēšanas API citām populārām izstrādes vidēm"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-          product: "GroupDocs.Conversion"
-          platform: ".TĪKLS"
-          link: "/conversion/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Conversion for Java līdzekļi"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```java {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        Merger merger = new Merger("sample1.docx");
+        // {code_samples.sample_1.comment_2}
+        merger.join("sample2.docx");
+        // {code_samples.sample_1.comment_3}
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        ```java {style=abap}   
+        // {code_samples.sample_2.comment_1}
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // {code_samples.sample_2.comment_2}
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // {code_samples.sample_2.comment_3}
+        Merger merger = new Merger(filePath);
+
+        // {code_samples.sample_2.comment_4}
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

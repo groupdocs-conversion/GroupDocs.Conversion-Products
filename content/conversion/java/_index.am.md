@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:25
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,250 @@ head_title: "Java ሰነድ ልወጣ API | ፒዲኤፍ ቃል ኤክሴል PPT
 head_description: "Java ሰነድ ልወጣ ኤፒአይ። PDF Word DOC DOCX፣ Excel ተመን ሉሆች PPT PPTX፣ HTML፣ PSD፣ MPT MPP፣ ኢሜል MSG EMLX፣ AutoCAD እና የምስል ፋይል ቅርጸቶችን ቀይር።"
 
 ############################# Header ############################
-title: "80+ የፋይል ቅርጸቶችን ለመቀየር Java ኤፒአይ"
+title: "{header.title_1}<br>{header.title_2}"
 description: "ምንም ውጫዊ ሶፍትዌር ሳይጭኑ ሰነድ እና ምስል የመቀየር ተግባርን ወደ Java መተግበሪያዎች ለማዋሃድ ቀላል ኤፒአይ።"
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "ነጻ ሙከራ ያውርዱ"
-    link: "https://downloads.groupdocs.com/conversion/java"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
+
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
+
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-conversion</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // {code.comment_1}
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
+    // {code.comment_2}
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "አጠቃላይ እይታ"
-
-            # button loop
-            - link: "#features"
-              text: "ዋና መለያ ጸባያት"
-
-            # button loop
-            - link: "#support"
-              text: "ድጋፍ"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "የቀጥታ ማሳያ"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "የዋጋ አሰጣጥ"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // {code.comment_3}
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for Java ተጨማሪ ሶፍትዌሮችን መጫን ሳያስፈልጋቸው በእርስዎ ጃቫ መተግበሪያዎች ውስጥ ምስሎችን እና የሰነድ ቅርጸቶችን ለማሳየት ኃይለኛ የሰነድ ልወጣ ኤፒአይዎችን ያዋህዳል። የሰነድ እይታን ጥራት ለማሻሻል የሰነድ እይታን ጥራት ለማሻሻል ሰነዶቹን ቤተኛ በራስ ሰር ይቀይራቸዋል እና ወደ SVG+HTML+CSS ይቀይራቸዋል እውነተኛ ጽሑፍ እና ከፍተኛ ታማኝነት። የሰነድ አተረጓጎም ኤፒአይን በመጠቀም - ፒዲኤፍ፣ ኤችቲኤምኤል፣ ኤክስኤምኤል፣ ማይክሮሶፍት ኦፊስ ዎርድ፣ ኤክሴል የስራ ሉሆችን፣ የፓወር ፖይንት አቀራረቦችን፣ አውትሉክ ኢሜይሎችን፣ Visio ዲያግራሞችን፣ ፕሮጄክትን፣ ሜታፋይሎችን፣ ምስሎችን እና የተለያዩ የፋይል ቅርጸቶችን በቀላል እና ባነሰ የፕሮግራም አደጋ ይመልከቱ። እንዲሁም በይለፍ ቃል የተጠበቁ ፋይሎችን ማሳየት እና የሰነድ ውክልና እንደ ኤችቲኤምኤል፣ ምስል ወይም ፒዲኤፍ ቅጽ ከተሰራ በኋላ እንዲያገኝ ያስችላል። የፋይል ልወጣ ቤተ-መጽሐፍታችን ሙሉ ሰነዱን እንዲያሳዩ ወይም ሂደቱን ለማፋጠን በከፊል እንዲሰሩ ስለሚያደርግ በጣም ሊበጅ የሚችል ነው። በGroupDocs.Conversion for Java API፣ ገጾችን፣ የተወሰኑ የሕዋስ ክልልን በተመን ሉህ ውስጥ ማየት ወይም እንደ ፒዲኤፍ እና CAD ባሉ ቅርጸቶች የግለሰብ የሰነድ ንብርብር መስራት ይችላሉ።
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      GroupDocs.Conversion for Java ኤፒአይ ሰነዶችን ያለ ማብራሪያ ወይም ለሚደገፉ የፋይል ቅርጸቶች ያለ አስተያየት እንዲሰጡ ይፈቅድልዎታል። እንዲሁም ብጁ የቅርጸ-ቁምፊ ማውጫዎችን ለመጨመር እና እንደ FileType፣ Extension፣ Name፣ PageCount ወዘተ ያሉ መሰረታዊ የሰነድ መረጃዎችን ለማውጣት ያስችላል።
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          የሚከተለው የGroupDocs.Conversion for Java አጠቃላይ እይታ ነው፡-
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "አጠቃላይ እይታ"
-          content: |
-            * የፋይል ዓይነትን በራስ-ሰር ፈልግ
-            * ሰነዶችን ይለውጡ
-            * የዝግጅት አቀራረቦችን ቀይር
-            * የተመን ሉሆችን ቀይር
-            * ራስተር ምስሎችን ይለውጡ
-            * ፒዲኤፍ ሰነዶችን ይለውጡ
-            * ሌሎች ቅርጸቶችን ይለውጡ
-            * Watermark ተግብር
-            * የፋይል ይለፍ ቃል ይግለጹ
-            * ልወጣን አብጅ
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for Java በሁሉም ታዋቂ እና በብዛት ጥቅም ላይ የዋሉ [የሰነድ ፋይል ቅርጸቶች](https://docs.groupdocs.com/conversion/net/supported-document-formats/) መካከል መቀየርን ይደግፋል።
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "ቀይር ከ፡"
-              content: |
-                ** ሰነዶች ***: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                ** የተመን ሉህ ***፡ XLS፣ XLSX፣ XLSM፣ XLSB፣ CSV፣ XLS2003፣ ODS፣ TSV፣ XLT፣ XLTX፣ XLTM፣ XLAM፣ FODS፣ SXC
-                ** የዝግጅት አቀራረቦች ***፡ PPT፣ PPTX፣ PPS፣ PPSX፣ ODP፣ POT፣ POTX፣ POTM፣ PPTM፣ PPSM፣ FODP
-                ** ምስሎች ***፡ TIF፣ TIFF፣ JPG፣ JPEG፣ PNG፣ GIF፣ BMP፣ ICO፣ DIB፣ JPC፣ JPEG-LS፣ JPEG2000
-                ** ተንቀሳቃሽ ***፡ ፒዲኤፍ፣ ኤክስፒኤስ፣ ኦክስፒኤስ፣ EPUB
-                **HTML**: ኤችቲኤምኤል፣ ኤችቲኤምኤል፣ ኤምኤችቲኤምኤል
-                ** ሜታፋይሎች ***፡ EMZ፣ WMZ
-                ** PhotoShop ***: PSD
-                ** ፕሮጀክት ***: MPP, MPT, MPX
-                ** እይታ ***፡ PST፣ OST
-                ** ኢሜል ***: MSG, EML, EMLX
-                ** ሥዕላዊ መግለጫዎች**፡ VSD፣ VSDX፣ VSDM፣ VSS፣ VSSM፣ VST፣ VSTM፣ VSX፣ VTX፣ VDW፣ VDX፣ SVG፣ SVGZ
-                ** AutoCAD ***: DXF፣ DWG፣ DWF፣ STL፣ IFC፣ DWT
-                ** ፖስትስክሪፕት ***: EPS, PS, PSL, CGM
-                ** CorelDRAW ***: ሲዲአር፣ ሲኤምኤክስ
-                ** ሌላ ***፡ VCF፣ PLT፣ LGS፣ OTG፣ MD፣ AI፣ LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "ቀይር ወደ፡"
-              content: |
-                ** ሰነዶች ***: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                ** የተመን ሉሆች**፡ XLS፣ XLSX፣ XLSM፣ XLSB፣ CSV፣ XLS2003፣ TSV፣ XLTX፣ ODS፣ XLAM፣ FODS፣ DIF፣ SXC
-                ** የዝግጅት አቀራረቦች ***፡ PPT፣ PPTX፣ PPS፣ PPSX፣ ODP፣ POTX፣ POTM፣ PPTM፣ PPSM፣ FODP
-                ** ምስሎች ***፡ TIF፣ TIFF፣ JPG፣ JPEG፣ PNG፣ GIF፣ BMP፣ ICO፣ JPEG2000
-                ** ሜታፋይሎች ***፡ EMF፣ WMF፣ EMZ፣ WMZ
-                ** ሥዕላዊ መግለጫዎች ***: SVGZ
-                ** ተንቀሳቃሽ ***: ፒዲኤፍ ፣ ኤክስፒኤስ
-                **HTML**: ኤችቲኤምኤል፣ ኤችቲኤምኤል፣ ኤምኤችቲኤምኤል
-                ** ሌላ ***: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for Java የሚከተሉትን ስርዓተ ክወናዎች፣ ማዕቀፎች እና የጥቅል አስተዳዳሪዎች ይደግፋል፡
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "ስርዓተ ክወናዎች"
-              content: |
-                Windows Desktop, Windows Server, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "የሚደገፉ Frameworks"
-              content: |
-                Java runtime: J2SE 6.0 and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "የጥቅል አስተዳዳሪ"
-              content: |
-                Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "የጥቅል አስተዳዳሪ"
-              content: |
-                NetBeans, Intellij IDEA, Eclipse, etc.
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Conversion for Java ባህሪያት"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "ቀላል ውህደት እና የሚለካ ፈቃድ አሰጣጥ"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "ወደ ቃላት፣ ስላይዶች ወይም ህዋሶች በሚቀይሩበት ጊዜ ነባሪ የማጉላት አማራጭን ያዘጋጁ"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "ወደ/ከሁሉም ታዋቂ ራስተር የምስል ቅርጸቶች ቀይር እና ምስል ዲፒአይ፣ ቁመት እና ስፋትን መድብ"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "ፒዲኤፍ እና ምስልን ወደ ግራጫ ሚዛን ቀይር እና ፒዲኤፍ ሰነድ ለድር መስመራዊ አድርግ"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "የዕልባት ደረጃን፣ ርእስ ደረጃን እና የተዘረጋውን ደረጃ በ Word ወደ ፒዲኤፍ/XPS መለወጥ ይግለጹ"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "ያዋቅሩ እና በተቀየረ ሰነድ ውስጥ የውሃ ምልክትን ከጽሑፍ በስተጀርባ ለማሳየት እንደ ዳራ ያስቀምጡ"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "ከኢሜል በሚቀየርበት ጊዜ የኢሜል ራስጌን ይስሩ"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "በሰነድ ልወጣ ወቅት ብጁ የቅርጸ-ቁምፊ ማውጫዎችን ያቀናብሩ እና በግልጽ የሚጫኑ/የሚተኩ ቅርጸ-ቁምፊን ያቀናብሩ"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "የጎደሉትን ቅርጸ ቁምፊዎች ለሰነዶች፣ ስላይዶች እና የተመን ሉሆች ለመለወጥ ነባሪ ቅርጸ-ቁምፊን ያቀናብሩ"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "የተመን ሉህ በግሪድ-መስመሮች ቀይር እና በሚቀየርበት ጊዜ ከስላይዶች አስተያየቶችን አስወግድ"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "የተወሰኑ የሰነድ ገጾችን እንደ ፒዲኤፍ ቅርጸት ይለውጡ እና የተወሰነ የሕዋስ ክልል በተመን ሉሆች ውስጥ ይለውጡ"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "የተመን ሉሆችን በሚቀይሩበት ጊዜ የተደበቁ ሉሆችን አሳይ እና ባዶ ረድፎችን እና አምዶችን ዝለል"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "የሰነድ ጠቅላላ ገጾችን ይቁጠሩ እና በሚቀየርበት ጊዜ የይለፍ ቃል ወደ ያልተጠበቀ ሰነድ ያዘጋጁ"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "ማብራሪያዎችን እና የተከተቱ ፋይሎችን ከፒዲኤፍ የማስወገድ አማራጭ"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "ወደ ኤችቲኤምኤል ሲቀየር HTML 5 Compliant Markup ይፍጠሩ"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "የምንጭን አይነት በራስ ሰር አግኝ እና ከዥረት ሲቀይሩ ሁሉንም ሊሆኑ የሚችሉ ልወጣዎችን ይመልሱ"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "ወደ ፒዲኤፍ ወይም ኤችቲኤምኤል በሚቀየርበት ጊዜ እያንዳንዱን ገጽ በተለየ ዥረት የመመለስ ችሎታ"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "ከቃል በሚቀይሩበት ጊዜ ምልክት ማድረጊያን፣ አስተያየቶችን ያሳዩ/ደብቅ እና ለውጦችን ይከታተሉ"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "DOCX ወደ Tiff G3 መቀየር ከሻዲንግ አማራጭ ጋር"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "ከCAD ሰነድ ሲቀይሩ የተወሰኑ አቀማመጦችን ይለውጡ"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "የተቀየረ ሰነድ ወደ ፋይል በሚቀመጥበት ጊዜ በራስ-ሰር መሰየም"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "በኤፒአይ አጠቃቀም ላይ ተመስርተው እንዲከፈሉ የሚለካ ፍቃድ መስጠት ይደገፋል"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "ንድፎችን ወደ የቃል ማቀናበሪያ ፋይል ቅርጸቶች ቀይር"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "ኤችቲኤምኤል ወደ ዎርድ ፕሮሰሲንግ ሰነድ በሚቀይሩበት ጊዜ የገጽ ቁጥሮችን ያክሉ"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "የኤክስኤምኤል ሰነዶችን ያለ ትራንስፎርሜሽን ወደ ማንኛውም ቅርጸት ይለውጡ"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "የፋይል ልወጣ ሂደትን (ጀምር፣ መጨረሻ) በቀጥታ ከደንበኛ ወገን መተግበሪያ ተቆጣጠር"
-
-    more_feature:
-      # more_feature_loop
-      - title: "ጃቫን በመጠቀም ቀላል የሰነድ ቅርጸት መለወጥ"
-        content: |
-          GroupDocs.Conversion for Java ኤፒአይን በመጠቀም የበርካታ የሰነድ አይነቶችን የፋይል ቅርጸት መቀየር ትችላለህ። እዚህ ጃቫን በመጠቀም መሰረታዊ የሰነድ ልወጣን ለማከናወን ጥቂት የኮድ መስመሮች ቀርበዋል.  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```java    
-           // ለመለወጥ የምንጭ ፋይል DOCXን ጫን
-          Converter converter = new Converter("input.docx");
-          // ለታለመ ቅርጸት PDF የልወጣ አማራጮችን ያዘጋጁ
-          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-          // ወደ PDF ቅርጸት ቀይር
-          converter.convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "ሰነድ ከዩአርኤል ወይም የልወጣ መንገድ ያንብቡ"
-        content: "GroupDocs.Conversion for Java ኤፒአይን በመጠቀም፣ ከፋይል ዱካ እና ዩአርኤል የግቤት ሰነድ ማንበብ ይችላሉ። የውጤት ሰነዱን እንደ ፋይል ማስቀመጥ ወይም ውጤቱን በቀጥታ ወደ ዥረት መላክ ሲችሉ።"
-
-      # more_feature_loop
-      - title: "አጠቃላይ የቴክኒክ ድጋፍ"
-        content: |
-          GroupDocs.Conversion for Java ቀላል እና ወደ-ነጥብ ኤፒአይ ሲሆን በቀላሉ ወደ ጃቫ-ተኮር መተግበሪያዎችዎ ማዋሃድ ይችላሉ። ነገር ግን፣ በአጭር ጊዜ ውስጥ እንዲነሱ እና እንዲሮጡ፣ እንዲሁም በቀላሉ ለመከተል የኮድ ናሙናዎችን እና አጠቃላይ የኤፒአይ ሰነዶችን እናቀርባለን።  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion የሰነድ ቅየራ ኤፒአይዎችን ለሌሎች ታዋቂ የልማት አካባቢዎች ያቀርባል"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.ልወጣ ለ .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-          product: "GroupDocs.Conversion"
-          platform: ".NET"
-          link: "/መቀየር/ኔት/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Conversion for Java ባህሪያት"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```java {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        Merger merger = new Merger("sample1.docx");
+        // {code_samples.sample_1.comment_2}
+        merger.join("sample2.docx");
+        // {code_samples.sample_1.comment_3}
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        ```java {style=abap}   
+        // {code_samples.sample_2.comment_1}
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // {code_samples.sample_2.comment_2}
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // {code_samples.sample_2.comment_3}
+        Merger merger = new Merger(filePath);
+
+        // {code_samples.sample_2.comment_4}
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

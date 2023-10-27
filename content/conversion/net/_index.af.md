@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:25
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,313 @@ head_title: "C# .NET Document Conversion API | Skakel PDF Word Excel PPTX HTML-b
 head_description: "C# .NET Document Conversion API. Omskep PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-pos MSG EMLX, AutoCAD en beeldlêerformate."
 
 ############################# Header ############################
-title: ".NET API om 80+ lêerformate om te skakel"
+title: "{header.title_1}<br>{header.title_2}"
 description: "Eenvoudige API om dokument- en beeldomskakelingsfunksionaliteit in .NET-toepassings te integreer sonder om enige eksterne sagteware te installeer."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Laai gratis proeflopie af"
-    link: "https://downloads.groupdocs.com/conversion/net"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Oorsig"
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Kenmerke"
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  install: "dotnet add package GroupDocs.Conversion"
+  content: |
+    ```csharp {style=abap}   
+    // {code.comment_1}
+    using (var converter = new Converter("sample.pdf"))
+    {
+      // {code.comment_2}
+      var options = new WordProcessingConvertOptions();
 
-            # button loop
-            - link: "#support"
-              text: "Ondersteuning"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Regstreekse Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Pryse"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // {code.comment_3}
+      converter.Convert("converted.docx", options);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for .NET bied eenvoudige stel API's, wat ontwikkelaars in staat stel om kragtige dokumentomskakelingstoepassings in C#, ASP.NET en ander .NET-verwante tegnologieë te bou. GroupDocs.Conversion for .NET API bied vinnige, doeltreffende en betroubare lêeromskakelingsoplossing aan jou eindgebruikers. Dit ondersteun die uitvoer van akkurate omskakelings onder alle gewilde besigheidsdokumentformate, insluitend: PDF, HTML, e-pos, Microsoft Word-dokumente, Excel-sigblaaie, PowerPoint-aanbiedings, Project, Photoshop, CorelDraw, AutoCAD, diagramme, rasterbeeldlêerformate en vele meer. Die dokumentomskakelingsbiblioteek bespeur outomaties brondokumentformaat en gee jou al die beheer om óf die hele dokument óf spesifieke bladsye na die verlangde uitvoerformaat om te skakel. Dit is makliker om ontbrekende lettertipes met voorkeurletters te vervang en teks- of beeldwatermerke by enige dokumentbladsy te voeg.
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      GroupDocs.Conversion for .NET kan gebruik word om toepassings te ontwikkel in enige ontwikkelingsomgewing wat .NET-platform teiken. Dit is versoenbaar met alle .NET-gebaseerde tale en ondersteun gewilde bedryfstelsels (Windows, Linux, MacOS) waar Mono- of .NET-raamwerke (insluitend .NET Core) geïnstalleer kan word.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Hier volg 'n oorsig van GroupDocs.Conversion for .NET:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Oorsig"
-          content: |
-            * Bespeur lêertipe outomaties
-            * Skakel dokumente om
-            * Skakel aanbiedings om
-            * Skakel sigblaaie om
-            * Skakel rasterbeelde om
-            * Skakel PDF-dokumente om
-            * Skakel ander formate om
-            * Pas watermerk toe
-            * Spesifiseer lêerwagwoord
-            * Pas omskakeling aan
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for .NET ondersteun omskakeling tussen alle gewilde en algemeen gebruikte [dokumentlêerformate](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Skakel om van:"
-              content: |
-                * **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Sigblaaie**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Aanbiedings**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Prente**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Draagbaar**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Metalêers**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **Projek**: MPP, MPT, MPX
-                * **Vooruitsigte**: PST, OST
-                * **E-pos**: MSG, EML, EMLX
-                * **Diagramme**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Ander**: VCF, PLT, LGS, OTG, MD, KI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Verander na:"
-              content: |
-                * **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Sigblaaie**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Aanbiedings**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Prente**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metalêers**: EMF, WMF, EMZ, WMZ
-                * **Diagramme**: SVGZ
-                * ** Draagbaar**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                **Ander**: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for .NET ondersteun die volgende bedryfstelsels, raamwerke en pakketbestuurders:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Bedryfstelsels"
-              content: |
-                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Ondersteunde raamwerke"
-              content: |
-                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Pakketbestuurder"
-              content: |
-                Nuget
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Pakketbestuurder"
-              content: |
-                Microsoft Visual Studio, Xamarin, MonoDevelop
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Conversion for .NET Kenmerke"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Maklike integrasie en gemete lisensiëring"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Stel verstekzoemopsie wanneer u na woorde, skyfies of selle omskakel"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Skakel om na/van alle gewilde rasterbeeldformate en ken beeld-DPI, hoogte en breedte toe"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Skakel PDF en beeld om na grysskaal en lineariseer PDF-dokument vir die web"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Spesifiseer boekmerkvlak, opskrifvlak en uitgebreide vlak in Word na PDF/XPS-omskakeling"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Konfigureer en plaas watermerk in omgeskakelde dokument as agtergrond om agter teks te vertoon"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Gee e-poskopskrif tydens omskakeling vanaf e-pos"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Stel pasgemaakte lettertipegidse en laai/vervang lettertipe eksplisiet tydens dokumentomskakeling"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Stel versteklettertipe om ontbrekende lettertipes vir dokumente, skyfies en sigblaaie-omskakeling te vervang"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Skakel sigblad om met roosterlyne en verwyder opmerkings van skyfies tydens omskakeling"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Skakel spesifieke dokumentbladsye om as PDF-formaat en omskep spesifieke selreeks in sigblaaie"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Wys versteekte velle en slaan leë rye en kolomme oor terwyl sigblaaie omgeskakel word"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Tel totale bladsye van 'n dokument en stel wagwoord na onbeskermde dokument tydens omskakeling"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Opsie om aantekeninge en ingebedde lêers uit PDF te verwyder"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Skep HTML 5-voldoende opmaak wanneer jy na HTML omskakel"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Bespeur brontipe outomaties en gee alle moontlike omskakelings terug wanneer u vanaf stroom omskakel"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Vermoë om elke bladsy in 'n aparte stroom terug te keer terwyl u na PDF of HTML omskakel"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Wys/versteek opmaak, opmerkings en spoor veranderinge na tydens omskakeling vanaf Word"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "DOCX na Tiff G3-omskakeling met skadu-opsie"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Skakel spesifieke uitlegte om tydens omskakeling vanaf CAD-dokument"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Outomatiese naamgewing wanneer omgeskakelde dokument na lêer gestoor word"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Gemeterde lisensiëring ondersteun om gefaktureer te word gebaseer op die gebruik van die API"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Skakel diagramme om na woordverwerkingslêerformate"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Voeg bladsynommers by terwyl u HTML na woordverwerkingsdokument omskakel"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Skakel XML-dokumente om na enige formaat sonder transformasie"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Monitor lêeromskakelingsvordering (begin, einde) direk vanaf die toepassing aan die kliëntkant"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Skakel dokumentformate maklik om"
-        content: |
-          Deur GroupDocs.Conversion for .NET te gebruik, is die omskakeling van dokumentlêerformaat baie maklik. Die volgende voorbeeld wys jou hoe om 'n PDF-lêer in 'n DOC-lêer om te skakel met behulp van C#:  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```csharp    
-           // Laai bronlêer DOCX vir omskakeling
-          var converter = new GroupDocs.Conversion.Converter("input.docx");
-          // Berei omskakelingsopsies voor vir teikenformaat PDF
-          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-          // Skakel om na PDF-formaat
-          converter.Convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "Omskakeling na beeldformate"
-        content: "GroupDocs.Conversion for .NET kan gebruik word om toepassings te ontwikkel in enige ontwikkelingsomgewing wat .NET-platform teiken. Dit is versoenbaar met alle .NET-gebaseerde tale en ondersteun gewilde bedryfstelsels (Windows, Linux, MacOS) waar Mono- of .NET-raamwerke (insluitend .NET Core) geïnstalleer kan word."
-
-      # more_feature_loop
-      - title: "Ondersteun verskeie PDF-formaattipes"
-        content: |
-          GroupDocs.Conversion for .NET API ondersteun dokumentomskakeling na die volgende PDF-tipes/formate:  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion bied dokumentomskakelings-API's vir ander gewilde ontwikkelingsomgewings"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion vir Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-          product: "GroupDocs.Conversion"
-          platform: "Java"
-          link: "/conversion/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Conversion for .NET Kenmerke"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} 
+        {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        using (var converter = new Converter("sample.pdf"))
+        {
+          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+
+          // {code_samples.sample_1.comment_2}
+          var options = new ImageConvertOptions { 
+              Format = ImageFileType.Png
+          };
+          
+          // {code_samples.sample_1.comment_3}
+          converter.Convert(getPageStream, options);
+        }
+        ```
+        {{< /landing/code >}}
+
+    # code sample loop        
+    - title: ""
+      content: |
+        {code_samples.sample_1.alternative_content_1}
+        {{< landing/code title="{code_samples.sample_1.alternative_code_title}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+          .Load("sample.pdf")
+          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
+          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
+          .Convert();
+        ```
+        {{< /landing/code >}}        
+
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} 
+        {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                           PageNumber = 2, 
+                                           PagesCount = 3 
+                                     };
+           converter.Convert("converted.pdf", options);
+        }  
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                             Pages = new List<int>{ 1, 3 } 
+                                       };
+           converter.Convert("converted.pdf", options); 
+        }  
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_3.title}"
+      content: |
+        {code_samples.sample_3.content_1} 
+        {code_samples.sample_3.content_2}
+        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.docx")
+            .ConvertTo("converted.pdf")
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_2}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .WithSettings(() => new ConverterSettings())
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertTo("converted.docx")
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_3}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

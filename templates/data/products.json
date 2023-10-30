@@ -24,8 +24,22 @@
             "devEnv": "NetBeans, Intellij IDEA, Eclipse, etc.",
             "runtime": "Java runtime: J2SE 6.0 and above",
             "repoName": "Maven",
-            "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion",
+            "repoUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/",
             "url": "https://products.groupdocs.com/conversion/java/",
+            "operatingSystem": "Windows Desktop, Windows Server, Linux, MacOS"
+        },
+        "nodejs-java": {
+            "name": "Node.js via Java",
+            "fullName": "GroupDocs.Conversion for Node.js via Java",
+            "code": "js",
+            "progLang": "JavaScript",
+            "srcFileExt": ".js",
+            "syntax": "javascript",
+            "devEnv": "NetBeans, Intellij IDEA, Eclipse, etc.",
+            "runtime": "Java runtime: J2SE 7.0 and above",
+            "repoName": "NPM",
+            "repoUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion",
+            "url": "https://products.groupdocs.com/conversion/nodejs-java/",
             "operatingSystem": "Windows Desktop, Windows Server, Linux, MacOS"
         }
     }

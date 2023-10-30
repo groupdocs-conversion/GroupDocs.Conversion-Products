@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-27T14:09:27
+date: 2023-10-30T15:10:39
 draft: false
 
 product: "Conversion"
@@ -74,8 +74,8 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Platform independence"
-  description: "GroupDocs.Merger for Java supports the following operating systems, frameworks and package managers"
+  title: "{platforms.title}"
+  description: "{platforms.description}"
   items:
     # platform loop
     - title: "Amazon"

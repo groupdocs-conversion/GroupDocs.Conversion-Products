@@ -40,6 +40,13 @@ apis:
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "<% "{apis.api1.product2_content}" %>"
+        # api_product loop
+        - link: "/conversion/nodejs-java/"
+          img_alt: "GroupDocs.Conversion for Node.js via Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
+          product: "GroupDocs.Conversion for"
+          platform: "Node.js via Java"
+          content: "<% "{apis.api1.product3_content}" %>"
 
     # api loop
     - title: "<% "{apis.api2.title}" %>"

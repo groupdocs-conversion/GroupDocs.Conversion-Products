@@ -1,346 +1,326 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:25
+layout: "landing"
+date: 2023-10-30T15:10:39
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: "Node.js via Java"
-platform_tag: nodejs-java
+platform: Node.js via Java
+platform_tag: js
 
 ############################# Head ############################
-head_title: "Node.js Document Conversion API | Convert PDF Word Excel PPTX HTML Images"
-head_description: "Node.js Document Conversion API. Convert PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & image file formats."
+head_title: "JavaScript .NET Document Conversion API | Convert PDF Word Excel PPTX HTML Images"
+head_description: "JavaScript .NET Document Conversion API. Convert PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & image file formats."
 
 ############################# Header ############################
-title: "Node.js API to Convert 80+ File Formats"
-description: "Simple API to Integrate Document & Image Conversion Functionality into Node.js Applications without Installing any External Software."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://releases.groupdocs.com/conversion/nodejs-java"
+title: "Document Conversion<br>via .NET API"
+description: "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files"
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Conversion for Node.js via Java"
-        image: "https://products.groupdocs.com/border/groupdocs-conversion-nodejs-java.svg"
-        product: "GroupDocs.Conversion"
-        platform: "Node.js via Java"
+actions:
+  main: "Free NuGet Download"
+  main_link: ""
+  alt: "Licensing"
+  alt_link: ""
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Conversion features for free or request a license"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#features"
-              text: "Features"
+code:
+  title: "How to convert PDF files in C#"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  install: "dotnet add package GroupDocs.Conversion"
+  content: |
+    ```csharp {style=abap}   
+    // Load the source PDF file
+    using (var converter = new Converter("sample.pdf"))
+    {
+      // Set the convert options for DOCX format
+      var options = new WordProcessingConvertOptions();
 
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/nodejs-java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // Convert to DOCX format
+      converter.Convert("converted.docx", options);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for Node.js via Java offers simple set of APIs, enabling developers to build powerful document conversion applications in JavaScript and TypeScript. GroupDocs.Conversion for Node.js via Java API provides fast, efficient and reliable file conversion solution to your end-users. It supports performing accurate conversions among all popular business document formats including: PDF, HTML, Email, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, Project, Photoshop, CorelDraw, AutoCAD, diagrams, raster image file formats and many more. The document converter library auto-detects source document format and gives you all the control to convert either the whole document or specific pages to the desired output format. It’s easier to replace missing fonts with preferred ones and add text or image watermarks to any document page.
+  enable: true
+  title: "GroupDocs.Conversion at a glance"
+  description: "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files in .NET applications"
+  features:
+    # feature loop
+    - title: "Streamlined Conversion"
+      content: "Incorporate effortless file conversion into your C# projects using GroupDocs.Conversion for .NET. Seamlessly transition between formats for improved compatibility."
 
-      GroupDocs.Conversion for Node.js via Java can be used to develop applications in any development environment that targets any platform. It is compatible with all JavaScript based languages and supports popular operating systems (Windows, Linux, MacOS) where Javascript could be executed.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Conversion for Node.js via Java:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Overview"
-          content: |
-            * Auto-detect File Type
-            * Convert Documents
-            * Convert Presentations
-            * Convert Spreadsheets
-            * Convert Raster Images
-            * Convert PDF Documents
-            * Convert Other Formats
-            * Apply Watermark
-            * Specify File Password
-            * Customize Conversion
+    # feature loop
+    - title: "Flexible Integration"
+      content: "Simplify the integration of PDF and Office file conversion. GroupDocs.Conversion for .NET enhances the versatility of your applications."
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for Node.js via Java supports converting between all popular and commonly used [document file formats](https://docs.groupdocs.com/conversion/java/supported-document-formats/).
+    # feature loop
+    - title: "Dependable Transformation"
+      content: "Ensure precise conversions while maintaining quality. GroupDocs.Conversion for .NET guarantees reliable transformations of file formats."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Convert From:"
-              content: |
-                * **Documents**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Spreadsheets**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Presentations**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Images**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Portable**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Metafiles**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **Project**: MPP, MPT, MPX
-                * **Outlook**: PST, OST
-                * **Email**: MSG, EML, EMLX
-                * **Diagrams**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Other**: VCF, PLT, LGS, OTG, MD, AI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Convert To:"
-              content: |
-                * **Documents**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Spreadsheets**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Presentations**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Images**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metafiles**: EMF, WMF, EMZ, WMZ
-                * **Diagrams**: SVGZ
-                * **Portable**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                * **Other**: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for Node.js via Java supports following Operating Systems, Frameworks & Package Managers:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                Java runtime: J2SE 6.0 and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Package Manager"
-              content: |
-                NPM
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Package Manager"
-              content: |
-                VS Code, NetBeans, Intellij IDEA, Eclipse, etc.
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    GroupDocs.Conversion for .NET supports operations with the following [file formats](https://docs.groupdocs.com/conversion/net/supported-file-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Document formats
+        * **Documents:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### Images & Multimedia
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### Other formats
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Conversion for Node.js via Java Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Easy Integration & Metered Licensing"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Set Default Zoom Option when Converting to Words, Slides or Cells"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Convert to/from all Popular Raster Image Formats & Assign Image DPI, Height & Width"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Convert PDF & Image to Grayscale & Linearize PDF Document for the Web"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Specify Bookmark Level, Heading Level and Expanded Level in Word to PDF/XPS Conversion"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Configure & Place Watermark in Converted Document as Background to Display Behind Text"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Render Email Header during Conversion from Email"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Set Custom Font Directories & Explicitly Load/Substitute Font during Document Conversion"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Set Default Font to Replace Missing Fonts for Documents, Slides & Spreadsheets Conversion"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Convert Spreadsheet with Grid-lines & Remove Comments from Slides While Conversion"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Convert Specific Document Pages as PDF Format & Convert Specific Cell Range in Spreadsheets"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Show Hidden Sheets & Skip Empty Rows and Columns while Converting Spreadsheets"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Count Total Pages of a Document & Set Password to Unprotected Document during Conversion"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Option to Remove Annotations & Embedded Files from PDF"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Create HTML 5 Compliant Markup when Converting to HTML"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Auto-detect Source Type & Return all Possible Conversions when Converting from Stream"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Ability to Return Each Page in Separate Stream while Converting to PDF or HTML"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Show/Hide Markup, Comments & Track Changes while Converting from Word"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "DOCX to Tiff G3 Conversion with Shading Option"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Convert Specific Layouts when Converting from CAD Document"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Automatic Naming when Saving Converted Document to File"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Metered Licensing Supported to be Billed based on the Usage of the API"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Convert Diagrams to Word Processing File Formats"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Add Page Numbers while Converting HTML to Wordprocessing Document"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Convert XML Documents to Any Format without Transformation"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Monitor File Conversion Progress (Start, End) Directly from Client-side Application"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Easily Convert Document Formats"
-        content: |
-          Using GroupDocs.Conversion for Node.js via Java, converting document file format is very easy. Following example shows you how to convert a PDF file into a DOC file using JavaScript:  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```js    
-           // Load source file DOCX for conversion
-          const converter = new groupdocs.conversion.Converter("input.docx")
-          // Prepare conversion options for target format PDF
-          const convertOptions = new groupdocs.conversion.PdfConvertOptions()
-          // Convert to PDF format
-          converter.convert("output.pdf", convertOptions)
-          ```
-            
-      # more_feature_loop
-      - title: "Conversion to Image Formats"
-        content: "GroupDocs.Conversion for Node.js via Java can be used to develop applications in any development environment that use JavaScript. It is compatible with all JavaScript based languages and supports popular operating systems (Windows, Linux, MacOS) where JavaScript can be executed."
-
-      # more_feature_loop
-      - title: "Supports various PDF Format Types"
-        content: |
-          GroupDocs.Conversion for Node.js via Java API supports document conversion to following PDF types/formats:  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion offers document conversion APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-          product: "GroupDocs.Conversion"
-          platform: ".NET"
-          link: "/conversion/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Conversion features"
+  description: "Seamlessly convert PDF and Office Documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. "
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Multi-format Conversion"
+      content: "Convert files between various formats, including PDF, DOCX, XLSX, PPTX, and more, with ease."
+
+    # feature loop
+    - icon: "split"
+      title: "High-fidelity Output"
+      content: "Preserve the original quality and formatting of documents during the conversion process."
+
+    # feature loop
+    - icon: "move"
+      title: "Converting Multiple Files"
+      content: "Convert multiple files and combine them into an archive, simplifying the organization of converted content."
+
+    # feature loop
+    - icon: "remove"
+      title: "Multipage Document to Images"
+      content: "Convert multipage documents to images page by page, enabling precise control over the transformation process and facilitating image-based document extraction and analysis."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Customizable Settings"
+      content: "Fine-tune conversion parameters such as resolution, quality, and layout to meet specific requirements."
+
+    # feature loop
+    - icon: "swap"
+      title: "Secure Processing"
+      content: "Ensure data privacy with password-protected file conversion options."
+
+    # feature loop
+    - icon: "extract"
+      title: "API Integration"
+      content: "Seamlessly integrate the conversion capabilities into your .NET applications, making it a seamless part of your workflow."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Robust Conversion"
+      content: "Ensure reliable and error-free file conversions, guaranteeing the accuracy and integrity of your transformed documents."
+
+    # feature loop
+    - icon: "preview"
+      title: "Convert Documents from Archives"
+      content: "Extract and convert documents from archives, enabling the transformation of content stored within compressed files."
+
+      # feature loop
+    - icon: "preview"
+      title: "Cross-platform Compatibility"
+      content: "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
+
+      # feature loop
+    - icon: "preview"
+      title: "Diverse Language Support"
+      content: "Enjoy support for multiple programming languages, including C#, VB.NET, and more, for enhanced flexibility in development."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Some use cases of typical GroupDocs.Conversion for .NET operations"
+  items:
+    # code sample loop
+    - title: "Convert PDF to Image"
+      content: |
+        A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for .NET offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more. 
+        Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
+        {{< landing/code title="Converting PDF to PNG in C#">}}
+        ```csharp {style=abap}   
+        // Load the source PDF file
+        using (var converter = new Converter("sample.pdf"))
+        {
+          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+
+          // Set the convert options for PNG format
+          var options = new ImageConvertOptions { 
+              Format = ImageFileType.Png
+          };
+          
+          // Convert to PNG format
+          converter.Convert(getPageStream, options);
+        }
+        ```
+        {{< /landing/code >}}
+
+    # code sample loop        
+    - title: ""
+      content: |
+        Alternatively, you can achieve the same using fluent syntax:
+        {{< landing/code title="Converting PDF to PNG in C# using fluent syntax:">}}
+        ```csharp {style=abap}   
+        FluentConverter
+          .Load("sample.pdf")
+          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
+          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
+          .Convert();
+        ```
+        {{< /landing/code >}}        
+
+    # code sample loop
+    - title: "Converting a Segment of a Large Document"
+      content: |
+        With GroupDocs.Conversion for .NET, you can effortlessly convert specific pages from a lengthy document. 
+        You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.
+        {{< landing/code title="Convert a consecutive range of pages">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                           PageNumber = 2, 
+                                           PagesCount = 3 
+                                     };
+           converter.Convert("converted.pdf", options);
+        }  
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="Convert specific pages">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                             Pages = new List<int>{ 1, 3 } 
+                                       };
+           converter.Convert("converted.pdf", options); 
+        }  
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Fluent Syntax: A Streamlined Approach"
+      content: |
+        Fluent syntax offers a concise notation for common actions within the GroupDocs.Conversion for .NET API. 
+        The code samples below demonstrate how to leverage the fluent syntax:
+        {{< landing/code title="Example 1: Convert DOCX to PDF using fluent syntax">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.docx")
+            .ConvertTo("converted.pdf")
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="Example 2: Convert PDF to DOCX by specifying converter settings, load options and convert options using fluent syntax">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .WithSettings(() => new ConverterSettings())
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertTo("converted.docx")
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="Example 3: Convert PDF to DOCX page by page using fluent syntax">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs products reviews"
+# description: "Don't just take our word for it. See what other developers say about our APIs"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Excellent service and excellent products. They were extremely helpful and responsive during the GroupDocs.Viewer for .NET implementation process, can’t recommend them highly enough."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "After implementing and using GroupDocs.Viewer for .NET in the project it looks to be working very well. I have tested with a lot of documents and so far so good. Everything I’ve thrown at it renders nicely and looks just as good as it would in a PDF viewer or MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

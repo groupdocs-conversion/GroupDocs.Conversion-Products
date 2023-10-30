@@ -12,7 +12,8 @@
             "title": "GroupDocs.Conversion High Code APIs Include",
             "label": "View All High Code APIs",
             "product1_content": "Native .NET API to accurately convert documents & image file formats in any types of .NET application. Supports adding image watermarks while conversion.",
-            "product2_content": "Enable your Java applications to easily convert between all industry-standard document formats including Microsoft Office, PDF, HTML, images and many others."
+            "product2_content": "Enable your Java applications to easily convert between all industry-standard document formats including Microsoft Office, PDF, HTML, images and many others.",
+            "product3_content": "Enable your JavaScript applications to easily convert between all industry-standard document formats including Microsoft Office, PDF, HTML, images and many others."
         },
         "api2": {
             "title": "GroupDocs.Conversion Low Code APIs Include",

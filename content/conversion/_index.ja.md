@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-10-27T14:09:26
+date: 2023-10-30T15:04:26
 draft: false
 
 product: "Conversion"
@@ -40,6 +40,13 @@ apis:
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "Java アプリケーションで、Microsoft Office、PDF、HTML、画像など、業界標準のすべてのドキュメント フォーマット間で簡単に変換できるようにします。"
+        # api_product loop
+        - link: "/conversion/nodejs-java/"
+          img_alt: "GroupDocs.Conversion for Node.js via Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
+          product: "GroupDocs.Conversion for"
+          platform: "Node.js via Java"
+          content: "{apis.api1.product3_content}"
 
     # api loop
     - title: "GroupDocs.Conversion ローコード API には以下が含まれます"

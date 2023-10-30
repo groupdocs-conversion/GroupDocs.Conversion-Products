@@ -1,0 +1,32 @@
+{
+  "code_samples": {
+    "title": "Code samples",
+    "description": "Some use cases of typical GroupDocs.Conversion for .NET operations",
+    "sample_1": {
+      "title": "Convert PDF to Image",
+      "content_1": "A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for .NET offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more.",
+      "content_2": "Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.",
+      "code_title": "Converting PDF to PNG in C#",
+      "comment_1": "Load the source PDF file",
+      "comment_2": "Set the convert options for PNG format",
+      "comment_3": "Convert to PNG format",
+      "alternative_content_1": "Alternatively, you can achieve the same using fluent syntax:",
+      "alternative_code_title": "Converting PDF to PNG in C# using fluent syntax:"
+    },
+    "sample_2": {
+      "title": "Converting a Segment of a Large Document",
+      "content_1": "With GroupDocs.Conversion for .NET, you can effortlessly convert specific pages from a lengthy document.",
+      "content_2": "You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.",
+      "code_title_1": "Convert a consecutive range of pages",
+      "code_title_2": "Convert specific pages"
+    },
+    "sample_3": {
+      "title": "Fluent Syntax: A Streamlined Approach",
+      "content_1": "Fluent syntax offers a concise notation for common actions within the GroupDocs.Conversion for .NET API.",
+      "content_2": "The code samples below demonstrate how to leverage the fluent syntax:",
+      "code_title_1": "Example 1: Convert DOCX to PDF using fluent syntax",
+      "code_title_2": "Example 2: Convert PDF to DOCX by specifying converter settings, load options and convert options using fluent syntax",
+      "code_title_3": "Example 3: Convert PDF to DOCX page by page using fluent syntax"
+    }
+  }
+}

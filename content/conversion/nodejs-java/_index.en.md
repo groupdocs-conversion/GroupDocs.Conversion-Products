@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-30T15:28:28
+date: 2023-10-30T20:36:51
 draft: false
 
 product: "Conversion"
@@ -10,11 +10,11 @@ platform: Node.js via Java
 platform_tag: js
 
 ############################# Head ############################
-head_title: "JavaScript .NET Document Conversion API | Convert PDF Word Excel PPTX HTML Images"
-head_description: "JavaScript .NET Document Conversion API. Convert PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & image file formats."
+head_title: "JavaScript Document Conversion API | Convert PDF Word Excel PPTX HTML Images"
+head_description: "JavaScript Document Conversion API. Convert PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & image file formats."
 
 ############################# Header ############################
-title: "Document Conversion<br>via .NET API"
+title: "Document Conversion<br>via Node.js API"
 description: "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files"
 words:
   for: "for"

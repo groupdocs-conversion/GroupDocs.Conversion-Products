@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-30T15:28:28
+date: 2023-10-30T20:36:51
 draft: false
 
 product: "Conversion"
@@ -28,7 +28,7 @@ actions:
   description: "Try GroupDocs.Conversion features for free or request a license"
 
 release:
-  title: "Version {0} released"
+  title: "Version {0} &nbsp;released"
   notes: "See what’s new"
   downloads: "Downloads"
 

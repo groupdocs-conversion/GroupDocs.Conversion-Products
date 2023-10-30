@@ -1,11 +1,11 @@
 {
     "head": {
-        "title": "{{ProgLang}} .NET Document Conversion API | Convert PDF Word Excel PPTX HTML Images",
-        "description": "{{ProgLang}} .NET Document Conversion API. Convert PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & image file formats."
+        "title": "{{ProgLang}} Document Conversion API | Convert PDF Word Excel PPTX HTML Images",
+        "description": "{{ProgLang}} Document Conversion API. Convert PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & image file formats."
     },
     "header": {
         "title_1": "Document Conversion",
-        "title_2": "via .NET API",
+        "title_2": "via Node.js API",
         "description": "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files",
         "words": {
           "for": "for"

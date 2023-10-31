@@ -18,7 +18,7 @@
         "description": "Try GroupDocs.Conversion features for free or request a license"
     },
     "release": {
-        "title": "Version {0} released",
+        "title": "Version {0} &nbsp;released",
         "notes": "See what’s new",
         "downloads": "Downloads"
     }

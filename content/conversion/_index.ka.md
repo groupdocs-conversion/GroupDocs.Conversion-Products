@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-10-30T20:36:43
+date: 2023-10-31T08:24:24
 draft: false
 
 product: "Conversion"
@@ -40,6 +40,7 @@ apis:
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "ჩართეთ თქვენი Java აპლიკაციების ადვილად კონვერტაცია ყველა ინდუსტრიის სტანდარტული დოკუმენტის ფორმატებს შორის, მათ შორის Microsoft Office, PDF, HTML, სურათები და მრავალი სხვა."
+          
         # api_product loop
         - link: "/conversion/nodejs-java/"
           img_alt: "GroupDocs.Conversion for Node.js via Java"

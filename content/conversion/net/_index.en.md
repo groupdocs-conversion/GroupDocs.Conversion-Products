@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-30T20:36:51
+date: 2023-10-31T08:24:29
 draft: false
 
 product: "Conversion"
@@ -70,8 +70,8 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Platform independence"
+  description: "GroupDocs.Conversion for .NET supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
     - title: "Amazon"

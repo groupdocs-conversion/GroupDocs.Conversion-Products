@@ -1,7 +1,7 @@
 {
   "formats": {
     "title": "Supported file formats",
-    "description": "GroupDocs.Conversion for .NET supports operations with the following [file formats](https://docs.groupdocs.com/conversion/net/supported-file-formats/).",
+    "description": "GroupDocs.Conversion for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/conversion/nodejs-java/supported-file-formats/).",
     "groups": {
       "title_1": "Document formats",
       "title_2": "Images & Multimedia",

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T10:52:19
+date: 2023-11-08T13:17:55
 draft: false
 
 product: "Conversion"
@@ -194,8 +194,8 @@ features:
 
       # feature loop
     - icon: "preview"
-      title: "Diverse Language Support"
-      content: "Enjoy support for multiple programming languages, including C#, VB.NET, and more, for enhanced flexibility in development."
+      title: "Metered Licensing Supported"
+      content: "Metered Licensing Supported to be billed based on the Usage of the API"
 
 ############################# Code samples ############################
 code_samples:
@@ -314,13 +314,13 @@ code_samples:
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "Excellent service and excellent products. They were extremely helpful and responsive during the GroupDocs.Viewer for .NET implementation process, can’t recommend them highly enough."
+#     content: "Excellent service and excellent products. They were extremely helpful and responsive during the GroupDocs.Conversion for .NET implementation process, can’t recommend them highly enough."
 #     author: "Martin Lasarga"
 #     company: "Product Manager at Axentria ECM by G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "After implementing and using GroupDocs.Viewer for .NET in the project it looks to be working very well. I have tested with a lot of documents and so far so good. Everything I’ve thrown at it renders nicely and looks just as good as it would in a PDF viewer or MS Word."
+#     content: "After implementing and using GroupDocs.Conversion for .NET in the project it looks to be working very well. I have tested with a lot of documents and so far so good. Everything I’ve thrown at it renders nicely and looks just as good as it would in a PDF viewer or MS Word."
 #     author: "Mats Oustad"
 #     company: "Senior Consultant/Partner at Novanet AS"
 ---

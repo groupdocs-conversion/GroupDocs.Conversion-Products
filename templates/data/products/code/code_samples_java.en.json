@@ -1,25 +1,32 @@
 {
   "code_samples": {
     "title": "Code samples",
-    "description": "Some use cases of typical GroupDocs.Merger for Java operations",
+    "description": "Some use cases of typical GroupDocs.Conversion for Java operations",
     "sample_1": {
-      "title": "Merge DOCX files into a single document",
-      "content_1": "With the [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) feature you can combine entire DOCX files into a single document by loading the source file, adding more DOCX files to join, and saving the merged document.",
-      "content_2": "Below is a Java code snippet demonstrating the merge process: ",
-      "code_title": "How to merge DOCX files in Java",
-      "comment_1": "Load the source DOCX file",
-      "comment_2": "Add another DOCX file to merge",
-      "comment_3": "Merge DOCX files and save result"
+      "title": "Convert PDF to Image",
+      "content_1": "A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more.",
+      "content_2": "Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.",
+      "code_title": "Converting PDF to PNG in Java",
+      "comment_1": "Load the source PDF file",
+      "comment_2": "Set the convert options for PNG format",
+      "comment_3": "Convert to PNG format",
+      "alternative_content_1": "Alternatively, you can achieve the same using fluent syntax:",
+      "alternative_code_title": "Converting PDF to PNG in Java using fluent syntax:"
     },
     "sample_2": {
-      "title": "Split PDF document into multiple files",
-      "content_1": "Divide a document into multiple files with the [Split Document](https://docs.groupdocs.com/merger/java/split-document/) feature to simplify the process of managing and extracting specific sections or pages from large documents.",
-      "content_2": "It allows you to divide documents into smaller parts based on various criteria - by page range, by start/end pages, by odd/even page numbers etc.",
-      "code_title": "Split the document to several one-page documents",
-      "comment_1": "Split PDF file using GroupDocs.Merger for Java API",
-      "comment_2": "Initialize SplitOptions class with output files path format",
-      "comment_3": "Instantiate Merger with input PDF document",
-      "comment_4": "Call split method and pass SplitOptions object to save resultant documents"
+      "title": "Converting a Segment of a Large Document",
+      "content_1": "With GroupDocs.Conversion for Java, you can effortlessly convert specific pages from a lengthy document.",
+      "content_2": "You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.",
+      "code_title_1": "Convert a consecutive range of pages",
+      "code_title_2": "Convert specific pages"
+    },
+    "sample_3": {
+      "title": "Fluent Syntax: A Streamlined Approach",
+      "content_1": "Fluent syntax offers a concise notation for common actions within the GroupDocs.Conversion for Java API.",
+      "content_2": "The code samples below demonstrate how to leverage the fluent syntax:",
+      "code_title_1": "Example 1: Convert DOCX to PDF using fluent syntax",
+      "code_title_2": "Example 2: Convert PDF to DOCX by specifying converter settings, load options and convert options using fluent syntax",
+      "code_title_3": "Example 3: Convert PDF to DOCX page by page using fluent syntax"
     }
   }
 }

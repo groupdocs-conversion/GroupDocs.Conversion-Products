@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T10:52:19
+date: 2023-11-08T13:17:55
 draft: false
 
 product: "Conversion"
@@ -48,7 +48,8 @@ code:
     Converter converter = new Converter("sample1.pdf");
     
     // Set the convert options for DOCX format
-    WordProcessingConvertOptions options = new WordProcessingConvertOptions();
+    WordProcessingConvertOptions options = 
+        new WordProcessingConvertOptions();
 
     // Convert to DOCX format
     converter.convert("converted.docx", options);
@@ -142,102 +143,102 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Merger features"
-  description: "Seamlessly merge, split, and manipulate PDF and Office Documents"
+  title: "GroupDocs.Conversion features"
+  description: "Seamlessly convert PDF and Office Documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. "
 
   items:
     # feature loop
     - icon: "merge"
-      title: "Combine files"
-      content: "Merge two or more documents into a single document, joining specific pages or page ranges from multiple source documents."
+      title: "Multi-format Conversion"
+      content: "Convert files between various formats, including PDF, DOCX, XLSX, PPTX, and more, with ease."
 
     # feature loop
     - icon: "split"
-      title: "Split document"
-      content: "Utilize the split operation to divide a source document into multiple resultant documents, enabling efficient organization and management of files."
+      title: "High-fidelity Output"
+      content: "Preserve the original quality and formatting of documents during the conversion process."
 
     # feature loop
     - icon: "move"
-      title: "Move pages"
-      content: "Smoothly reposition a page within a document by leveraging the MovePage feature."
+      title: "Converting Multiple Files"
+      content: "Convert multiple files and combine them into an archive, simplifying the organization of converted content."
 
     # feature loop
     - icon: "remove"
-      title: "Remove pages"
-      content: "Effectively remove individual pages or a collection of specific page numbers from the source document with the RemovePages feature."
+      title: "Multipage Document to Images"
+      content: "Convert multipage documents to images page by page, enabling precise control over the transformation process and facilitating image-based document extraction and analysis."
 
     # feature loop
     - icon: "rotate"
-      title: "Rotate pages"
-      content: "Take advantage of the RotatePages operation to easily rotate pages within a document by specifying the rotation angle as 90, 180, or 270 degrees"
+      title: "Customizable Settings"
+      content: "Fine-tune conversion parameters such as resolution, quality, and layout to meet specific requirements."
 
     # feature loop
     - icon: "swap"
-      title: "Swap pages"
-      content: "Rearrange the page order by exchanging the positions of two pages within the source document, producing a new document."
+      title: "Secure Processing"
+      content: "Ensure data privacy with password-protected file conversion options."
 
     # feature loop
     - icon: "extract"
-      title: "Extract pages"
-      content: "Generate a new document containing only the selected pages by extracting specific pages or page ranges from the source document."
+      title: "API Integration"
+      content: "Seamlessly integrate the conversion capabilities into your Java applications, making it a seamless part of your workflow."
 
     # feature loop
     - icon: "orientation"
-      title: "Change orientation"
-      content: "Modify the page orientation (portrait or landscape) for specific pages or all pages of the document by leveraging the ChangeOrientation operation."
+      title: "Robust Conversion"
+      content: "Ensure reliable and error-free file conversions, guaranteeing the accuracy and integrity of your transformed documents."
 
     # feature loop
     - icon: "preview"
-      title: "Preview pages"
-      content: "Gain a clearer understanding of the content and structure of the document by generating image representations of its pages. Make previews of all or just specific pages."
+      title: "Convert Documents from Archives"
+      content: "Extract and convert documents from archives, enabling the transformation of content stored within compressed files."
 
       # feature loop
     - icon: "preview"
-      title: "{features.feature_10.title}"
-      content: "{features.feature_10.content}"
+      title: "Cross-platform Compatibility"
+      content: "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
 
       # feature loop
     - icon: "preview"
-      title: "{features.feature_11.title}"
-      content: "{features.feature_11.content}"
+      title: "Metered Licensing Supported"
+      content: "Metered Licensing Supported to be billed based on the Usage of the API"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Merger for Java operations"
+  description: "Some use cases of typical GroupDocs.Conversion for Java operations"
   items:
     # code sample loop
-    - title: "Merge DOCX files into a single document"
+    - title: "Convert PDF to Image"
       content: |
-        With the [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) feature you can combine entire DOCX files into a single document by loading the source file, adding more DOCX files to join, and saving the merged document. Below is a Java code snippet demonstrating the merge process: 
-        {{< landing/code title="How to merge DOCX files in Java">}}
+        A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more. Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
+        {{< landing/code title="Converting PDF to PNG in Java">}}
         ```java {style=abap}   
-        // Load the source DOCX file
+        // Load the source PDF file
         Merger merger = new Merger("sample1.docx");
-        // Add another DOCX file to merge
+        // Set the convert options for PNG format
         merger.join("sample2.docx");
-        // Merge DOCX files and save result
+        // Convert to PNG format
         merger.save("merged.docx");
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Split PDF document into multiple files"
+    - title: "Converting a Segment of a Large Document"
       content: |
-        Divide a document into multiple files with the [Split Document](https://docs.groupdocs.com/merger/java/split-document/) feature to simplify the process of managing and extracting specific sections or pages from large documents. It allows you to divide documents into smaller parts based on various criteria - by page range, by start/end pages, by odd/even page numbers etc.
-        {{< landing/code title="Split the document to several one-page documents">}}
+        With GroupDocs.Conversion for Java, you can effortlessly convert specific pages from a lengthy document. You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.
+        {{< landing/code title="{code_samples.sample_2.code_title}">}}
         ```java {style=abap}   
-        // Split PDF file using GroupDocs.Merger for Java API
+        // {code_samples.sample_2.comment_1}
         String filePath = "input.pdf";
         String filePathOut = "output.pdf";
 
-        // Initialize SplitOptions class with output files path format
+        // {code_samples.sample_2.comment_2}
         SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 
-        // Instantiate Merger with input PDF document
+        // {code_samples.sample_2.comment_3}
         Merger merger = new Merger(filePath);
 
-        // Call split method and pass SplitOptions object to save resultant documents
+        // {code_samples.sample_2.comment_4}
         merger.split(splitOptions);
   
         ```
@@ -251,13 +252,13 @@ code_samples:
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "Excellent service and excellent products. They were extremely helpful and responsive during the GroupDocs.Viewer for .NET implementation process, can’t recommend them highly enough."
+#     content: "Excellent service and excellent products. They were extremely helpful and responsive during the GroupDocs.Viewer for Java implementation process, can’t recommend them highly enough."
 #     author: "Martin Lasarga"
 #     company: "Product Manager at Axentria ECM by G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "After implementing and using GroupDocs.Viewer for .NET in the project it looks to be working very well. I have tested with a lot of documents and so far so good. Everything I’ve thrown at it renders nicely and looks just as good as it would in a PDF viewer or MS Word."
+#     content: "After implementing and using GroupDocs.Viewer for Java in the project it looks to be working very well. I have tested with a lot of documents and so far so good. Everything I’ve thrown at it renders nicely and looks just as good as it would in a PDF viewer or MS Word."
 #     author: "Mats Oustad"
 #     company: "Senior Consultant/Partner at Novanet AS"
 ---

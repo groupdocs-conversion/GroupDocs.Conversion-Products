@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T10:52:19
+date: 2023-11-08T13:17:55
 draft: false
 
 product: "Conversion"
@@ -48,7 +48,8 @@ code:
     Converter converter = new Converter("sample1.pdf");
     
     // {code.comment_2}
-    WordProcessingConvertOptions options = new WordProcessingConvertOptions();
+    WordProcessingConvertOptions options = 
+        new WordProcessingConvertOptions();
 
     // {code.comment_3}
     converter.convert("converted.docx", options);

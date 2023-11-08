@@ -1,7 +1,7 @@
 {
   "features": {
     "title": "GroupDocs.Conversion features",
-    "description": "Seamlessly convert PDF and Office Documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. ",
+    "description": "Seamlessly convert PDF and Office Documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for Node.js via Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for Node.js via Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. ",
     "feature_1": {
       "title": "Multi-format Conversion",
       "content": "Convert files between various formats, including PDF, DOCX, XLSX, PPTX, and more, with ease."
@@ -28,7 +28,7 @@
     },
     "feature_7": {
       "title": "API Integration",
-      "content": "Seamlessly integrate the conversion capabilities into your .NET applications, making it a seamless part of your workflow."
+      "content": "Seamlessly integrate the conversion capabilities into your javascript applications, making it a seamless part of your workflow."
     },
     "feature_8": {
       "title": "Robust Conversion",
@@ -43,8 +43,8 @@
       "content": "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
     },
     "feature_11": {
-      "title": "Diverse Language Support",
-      "content": "Enjoy support for multiple programming languages, including C#, VB.NET, and more, for enhanced flexibility in development."
+      "title": "Metered Licensing Supported",
+      "content": "Metered Licensing Supported to be billed based on the Usage of the API"
     }
   }
 }

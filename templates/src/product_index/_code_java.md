@@ -14,7 +14,8 @@ code:
     Converter converter = new Converter("sample1.pdf");
     
     // <% "{code.comment_2}" %>
-    WordProcessingConvertOptions options = new WordProcessingConvertOptions();
+    WordProcessingConvertOptions options = 
+        new WordProcessingConvertOptions();
 
     // <% "{code.comment_3}" %>
     converter.convert("converted.docx", options);

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T10:52:19
+date: 2023-11-08T13:17:54
 draft: false
 
 product: "Conversion"
@@ -40,9 +40,11 @@ code:
   content: |
     ```csharp {style=abap}   
     // {code.comment_1}
-    const converter = new groupdocs.conversion.Converter("sample.pdf");
+    const converter = 
+      new groupdocs.conversion.Converter("sample.pdf");
     // {code.comment_2}
-    const options = new groupdocs.conversion.WordProcessingConvertOptions();
+    const options = 
+      new groupdocs.conversion.WordProcessingConvertOptions();
     // {code.comment_3}
     converter.convert("output.docx", options);
     ```

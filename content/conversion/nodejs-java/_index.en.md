@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T13:17:55
+date: 2023-11-08T13:55:09
 draft: false
 
 product: "Conversion"
@@ -33,7 +33,7 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "How to convert PDF files in <br />a javascript applications"
+  title: "How to convert PDF files in \ a javascript applications"
   more: "More examples"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "npm i @groupdocs/groupdocs.conversion"
@@ -42,9 +42,11 @@ code:
     // Load the source PDF file
     const converter = 
       new groupdocs.conversion.Converter("sample.pdf");
+    
     // Set the convert options for DOCX format
     const options = 
       new groupdocs.conversion.WordProcessingConvertOptions();
+    
     // Convert to DOCX format
     converter.convert("output.docx", options);
     ```
@@ -56,7 +58,7 @@ overview:
   features:
     # feature loop
     - title: "Streamlined Conversion"
-      content: "Incorporate effortless file conversion into your C# projects using GroupDocs.Conversion for Node.js via Java. Seamlessly transition between formats for improved compatibility."
+      content: "Incorporate effortless file conversion into your javascript projects using GroupDocs.Conversion for Node.js via Java. Seamlessly transition between formats for improved compatibility."
 
     # feature loop
     - title: "Flexible Integration"

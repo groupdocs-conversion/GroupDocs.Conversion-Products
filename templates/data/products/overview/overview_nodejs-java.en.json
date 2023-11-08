@@ -4,7 +4,7 @@
     "description": "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files in Javascript applications",
     "feature_1": {
       "title": "Streamlined Conversion",
-      "description": "Incorporate effortless file conversion into your C# projects using GroupDocs.Conversion for Node.js via Java. Seamlessly transition between formats for improved compatibility."
+      "description": "Incorporate effortless file conversion into your javascript projects using GroupDocs.Conversion for Node.js via Java. Seamlessly transition between formats for improved compatibility."
     },
     "feature_2": {
       "title": "Flexible Integration",

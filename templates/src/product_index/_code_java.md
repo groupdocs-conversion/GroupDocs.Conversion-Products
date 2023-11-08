@@ -11,11 +11,11 @@ code:
   content: |
     ```java {style=abap}   
     // <% "{code.comment_1}" %>
-    Merger merger = new Merger("sample1.pdf");
+    Converter converter = new Converter("sample1.pdf");
     
     // <% "{code.comment_2}" %>
-    merger.join("sample2.pdf");
+    WordProcessingConvertOptions options = new WordProcessingConvertOptions();
 
     // <% "{code.comment_3}" %>
-    merger.save("merged.pdf");
+    converter.convert("converted.docx", options);
     ```

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-31T08:24:30
+date: 2023-11-08T10:52:20
 draft: false
 
 product: "Conversion"
@@ -36,18 +36,15 @@ code:
   title: "{code.title}"
   more: "{code.more}"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
-  install: "dotnet add package GroupDocs.Conversion"
+  install: "npm i @groupdocs/groupdocs.conversion"
   content: |
     ```csharp {style=abap}   
     // {code.comment_1}
-    using (var converter = new Converter("sample.pdf"))
-    {
-      // {code.comment_2}
-      var options = new WordProcessingConvertOptions();
-
-      // {code.comment_3}
-      converter.Convert("converted.docx", options);
-    }
+    const converter = new groupdocs.conversion.Converter("sample.pdf");
+    // {code.comment_2}
+    const options = new groupdocs.conversion.WordProcessingConvertOptions();
+    // {code.comment_3}
+    converter.convert("output.docx", options);
     ```
 ############################# Overview ############################
 overview:
@@ -83,20 +80,20 @@ platforms:
     - title: "Azure"
       image: "azure"
     # platform loop
-    - title: "VS Code"
-      image: "vs_code"
+    - title: "Eclipse"
+      image: "eclipse"
     # platform loop
-    - title: "ReSharper"
-      image: "resharper"
+    - title: "IntelliJ"
+      image: "intellij"
     # platform loop
-    - title: "macOS"
-      image: "finder"
+    - title: "Windows"
+      image: "windows"
     # platform loop
     - title: "Linux"
       image: "linux"
     # platform loop
-    - title: "NuGet"
-      image: "nuget"
+    - title: "NPM"
+      image: "npm"
 ############################# File formats ############################
 formats:
   enable: true

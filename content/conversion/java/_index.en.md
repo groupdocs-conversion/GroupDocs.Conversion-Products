@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-31T08:24:29
+date: 2023-11-08T10:52:19
 draft: false
 
 product: "Conversion"
@@ -33,7 +33,7 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Merge PDF files in Java"
+  title: "How to convert PDF files in Java"
   more: "More examples"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
@@ -45,13 +45,13 @@ code:
   content: |
     ```java {style=abap}   
     // Load the source PDF file
-    Merger merger = new Merger("sample1.pdf");
+    Converter converter = new Converter("sample1.pdf");
     
-    //  Add another PDF file to merge
-    merger.join("sample2.pdf");
+    // Set the convert options for DOCX format
+    WordProcessingConvertOptions options = new WordProcessingConvertOptions();
 
-    // Merge PDF files and save result
-    merger.save("merged.pdf");
+    // Convert to DOCX format
+    converter.convert("converted.docx", options);
     ```
 ############################# Overview ############################
 overview:

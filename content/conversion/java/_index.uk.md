@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-31T08:24:30
+date: 2023-11-08T10:52:20
 draft: false
 
 product: "Conversion"
@@ -45,13 +45,13 @@ code:
   content: |
     ```java {style=abap}   
     // {code.comment_1}
-    Merger merger = new Merger("sample1.pdf");
+    Converter converter = new Converter("sample1.pdf");
     
     // {code.comment_2}
-    merger.join("sample2.pdf");
+    WordProcessingConvertOptions options = new WordProcessingConvertOptions();
 
     // {code.comment_3}
-    merger.save("merged.pdf");
+    converter.convert("converted.docx", options);
     ```
 ############################# Overview ############################
 overview:

@@ -1,10 +1,10 @@
 {
     "code": {
-      "title": "Merge PDF files in Java",
+      "title": "How to convert PDF files in Java",
       "more": "More examples",
       "notes": "See what’s new",
       "comment_1": "Load the source PDF file",
-      "comment_2": " Add another PDF file to merge",
-      "comment_3": "Merge PDF files and save result"
+      "comment_2": "Set the convert options for DOCX format",
+      "comment_3": "Convert to DOCX format"
     }
   }

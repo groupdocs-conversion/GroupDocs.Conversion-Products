@@ -1,18 +1,19 @@
 {
   "head": {
     "title": ".NET, Java, Wolk API's en Dokumentomskakelingstoepassings deur GroupDocs",
-    "description": "Skakel gewilde dokument- en beeldlêerformate om op enige platform met toepassings- en API-gebaseerde oplossings."
+    "description": "Omskep gewilde dokument- en beeldlêerformate op enige platform met toepassings- en API-gebaseerde oplossings."
   },
   "header": {
     "title": "Oplossing vir dokument- en beeldomskakeling",
-    "description": "Skakel gewilde dokument- en beeldlêerformate om op enige platform met toepassings- en API-gebaseerde oplossings."
+    "description": "Omskep gewilde dokument- en beeldlêerformate op enige platform met toepassings- en API-gebaseerde oplossings."
   },
   "apis": {
     "api1": {
       "title": "GroupDocs.Conversion High Code API's sluit in",
       "label": "Bekyk alle hoë kode API's",
       "product1_content": "Native .NET API om dokumente en beeldlêerformate in enige tipe .NET-toepassing akkuraat om te skakel. Ondersteun die byvoeging van beeldwatermerke tydens omskakeling.",
-      "product2_content": "Stel jou Java-toepassings in staat om maklik om te skakel tussen alle industriestandaard dokumentformate, insluitend Microsoft Office, PDF, HTML, beelde en vele ander."
+      "product2_content": "Stel jou Java-toepassings in staat om maklik om te skakel tussen alle industriestandaard dokumentformate, insluitend Microsoft Office, PDF, HTML, beelde en vele ander.",
+      "product3_content": "Aktiveer jou JavaScript-toepassings om maklik om te skakel tussen alle industriestandaard dokumentformate, insluitend Microsoft Office, PDF, HTML, beelde en vele ander."
     },
     "api2": {
       "title": "GroupDocs.Conversion Lae Kode API's sluit in",

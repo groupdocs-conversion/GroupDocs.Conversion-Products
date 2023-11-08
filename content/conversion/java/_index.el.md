@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T13:55:08
+date: 2023-11-08T16:46:19
 draft: false
 
 product: "Conversion"
@@ -211,36 +211,63 @@ code_samples:
     # code sample loop
     - title: "{code_samples.sample_1.title}"
       content: |
-        {code_samples.sample_1.content_1} {code_samples.sample_1.content_2}
+        {code_samples.sample_1.content_1} 
+        {code_samples.sample_1.content_2}
         {{< landing/code title="{code_samples.sample_1.code_title}">}}
-        ```java {style=abap}   
+        ```java {style=abap} 
+        import java.io.FileOutputStream;
+        import com.groupdocs.conversion.Converter;
+        import com.groupdocs.conversion.contracts.SavePageStream;
+        import com.groupdocs.conversion.options.convert.ImageConvertOptions;
+        import com.groupdocs.conversion.filetypes.ImageFileType;
+        ...
+
         // {code_samples.sample_1.comment_1}
-        Merger merger = new Merger("sample1.docx");
+        Converter converter = new Converter("sample.pdf");
+        SavePageStream getPageStream = page => new FileOutputStream(String.format("converted-page-%s.png", page));
+
         // {code_samples.sample_1.comment_2}
-        merger.join("sample2.docx");
+        ImageConvertOptions options = new ImageConvertOptions();
+        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+
         // {code_samples.sample_1.comment_3}
-        merger.save("merged.docx");
+        converter.convert(getPageStream, options);
         ```
         {{< /landing/code >}}
+
     # code sample loop
     - title: "{code_samples.sample_2.title}"
       content: |
-        {code_samples.sample_2.content_1} {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        {code_samples.sample_2.content_1} 
+        {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
         ```java {style=abap}   
-        // {code_samples.sample_2.comment_1}
-        String filePath = "input.pdf";
-        String filePathOut = "output.pdf";
+        import com.groupdocs.conversion.Converter;
+        import com.groupdocs.conversion.options.convert.PdfConvertOptions;
+        ...
 
-        // {code_samples.sample_2.comment_2}
-        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+        Converter converter = new Converter("sample.docx");
 
-        // {code_samples.sample_2.comment_3}
-        Merger merger = new Merger(filePath);
+        PdfConvertOptions options = new PdfConvertOptions();
+        options.setPageNumber(2);
+        options.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_4}
-        merger.split(splitOptions);
-  
+        converter.convert("converted.pdf", options);
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        ```java {style=abap}   
+        import com.groupdocs.conversion.Converter;
+        import com.groupdocs.conversion.options.convert.PdfConvertOptions;
+        ...
+
+        Converter converter = new Converter("sample.docx");
+        
+        PdfConvertOptions options = new PdfConvertOptions();
+        options.setPages(Arrays.asList( 1, 3));
+
+        converter.convert("converted.pdf", options);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

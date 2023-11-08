@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-08T13:55:05
+date: 2023-11-08T16:46:11
 draft: false
 
 product: "Conversion"
@@ -9,11 +9,11 @@ product_tag: "conversion"
 
 ############################# Head ############################
 head_title: ".NET, Java, Wolk API's en Dokumentomskakelingstoepassings deur GroupDocs"
-head_description: "Skakel gewilde dokument- en beeldlêerformate om op enige platform met toepassings- en API-gebaseerde oplossings."
+head_description: "Omskep gewilde dokument- en beeldlêerformate op enige platform met toepassings- en API-gebaseerde oplossings."
 
 ############################# Header ############################
 title: "Oplossing vir dokument- en beeldomskakeling"
-description: "Skakel gewilde dokument- en beeldlêerformate om op enige platform met toepassings- en API-gebaseerde oplossings."
+description: "Omskep gewilde dokument- en beeldlêerformate op enige platform met toepassings- en API-gebaseerde oplossings."
 
 ############################# APIs ###############################
 apis:
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Aktiveer jou JavaScript-toepassings om maklik om te skakel tussen alle industriestandaard dokumentformate, insluitend Microsoft Office, PDF, HTML, beelde en vele ander."
 
     # api loop
     - title: "GroupDocs.Conversion Lae Kode API's sluit in"

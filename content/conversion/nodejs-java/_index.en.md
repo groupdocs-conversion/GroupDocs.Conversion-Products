@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T13:55:09
+date: 2023-11-08T16:46:19
 draft: false
 
 product: "Conversion"
@@ -210,36 +210,20 @@ code_samples:
         A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Node.js via Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more. 
         Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
         {{< landing/code title="Converting PDF to PNG in Javascript">}}
-        ```csharp {style=abap}   
+        ```javascript {style=abap}   
         // Load the source PDF file
-        using (var converter = new Converter("sample.pdf"))
-        {
-          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+        const converter = new groupdocs.conversion.Converter("sample.pdf");
+        
+        const getPageStream = (page) => fs.createWriteStream(util.format("converted-page-%s.png", page));
 
-          // Set the convert options for PNG format
-          var options = new ImageConvertOptions { 
-              Format = ImageFileType.Png
-          };
-          
-          // Convert to PNG format
-          converter.Convert(getPageStream, options);
-        }
+        // Set the convert options for PNG format
+        const options = new groupdocs.conversion.ImageConvertOptions();
+        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+
+        // Convert to PNG format
+        converter.convert(getPageStream, options);
         ```
         {{< /landing/code >}}
-
-    # code sample loop        
-    - title: ""
-      content: |
-        Alternatively, you can achieve the same using fluent syntax:
-        {{< landing/code title="Converting PDF to PNG in Javascript using fluent syntax:">}}
-        ```csharp {style=abap}   
-        FluentConverter
-          .Load("sample.pdf")
-          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
-          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
-          .Convert();
-        ```
-        {{< /landing/code >}}        
 
     # code sample loop
     - title: "Converting a Segment of a Large Document"
@@ -247,63 +231,25 @@ code_samples:
         With GroupDocs.Conversion for Node.js via Java, you can effortlessly convert specific pages from a lengthy document. 
         You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.
         {{< landing/code title="Convert a consecutive range of pages">}}
-        ```csharp {style=abap}   
-        using (Converter converter = new Converter("sample.docx"))
-        {
-           PdfConvertOptions options = new PdfConvertOptions { 
-                                           PageNumber = 2, 
-                                           PagesCount = 3 
-                                     };
-           converter.Convert("converted.pdf", options);
-        }  
+        ```javascript {style=abap}   
+        const converter = new groupdocs.conversion.Converter("sample.docx");
+
+        const options = new groupdocs.conversion.PdfConvertOptions();
+        options.setPageNumber(2);
+        options.setPagesCount(3);
+
+        converter.convert("converted.pdf", options);
         ```
         {{< /landing/code >}}
 
         {{< landing/code title="Convert specific pages">}}
-        ```csharp {style=abap}   
-        using (Converter converter = new Converter("sample.docx"))
-        {
-           PdfConvertOptions options = new PdfConvertOptions { 
-                                             Pages = new List<int>{ 1, 3 } 
-                                       };
-           converter.Convert("converted.pdf", options); 
-        }  
-        ```
-        {{< /landing/code >}}
-    # code sample loop
-    - title: "Fluent Syntax: A Streamlined Approach"
-      content: |
-        Fluent syntax offers a concise notation for common actions within the GroupDocs.Conversion for Node.js via Java API. 
-        The code samples below demonstrate how to leverage the fluent syntax:
-        {{< landing/code title="Example 1: Convert DOCX to PDF using fluent syntax">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .Load("sample.docx")
-            .ConvertTo("converted.pdf")
-            .Convert();
-        ```
-        {{< /landing/code >}}
+        ```javascript {style=abap}   
+        const converter = new groupdocs.conversion.Converter("sample.docx");
+        
+        const options = new groupdocs.conversion.PdfConvertOptions();
+        options.setPages([1, 3]);
 
-        {{< landing/code title="Example 2: Convert PDF to DOCX by specifying converter settings, load options and convert options using fluent syntax">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .WithSettings(() => new ConverterSettings())
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertTo("converted.docx")
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Example 3: Convert PDF to DOCX page by page using fluent syntax">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();  
+        converter.convert("converted.pdf", options);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

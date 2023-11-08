@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T13:55:09
+date: 2023-11-08T16:46:19
 draft: false
 
 product: "Conversion"
@@ -211,36 +211,63 @@ code_samples:
     # code sample loop
     - title: "Convert PDF to Image"
       content: |
-        A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more. Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
+        A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more. 
+        Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
         {{< landing/code title="Converting PDF to PNG in Java">}}
-        ```java {style=abap}   
+        ```java {style=abap} 
+        import java.io.FileOutputStream;
+        import com.groupdocs.conversion.Converter;
+        import com.groupdocs.conversion.contracts.SavePageStream;
+        import com.groupdocs.conversion.options.convert.ImageConvertOptions;
+        import com.groupdocs.conversion.filetypes.ImageFileType;
+        ...
+
         // Load the source PDF file
-        Merger merger = new Merger("sample1.docx");
+        Converter converter = new Converter("sample.pdf");
+        SavePageStream getPageStream = page => new FileOutputStream(String.format("converted-page-%s.png", page));
+
         // Set the convert options for PNG format
-        merger.join("sample2.docx");
+        ImageConvertOptions options = new ImageConvertOptions();
+        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+
         // Convert to PNG format
-        merger.save("merged.docx");
+        converter.convert(getPageStream, options);
         ```
         {{< /landing/code >}}
+
     # code sample loop
     - title: "Converting a Segment of a Large Document"
       content: |
-        With GroupDocs.Conversion for Java, you can effortlessly convert specific pages from a lengthy document. You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.
-        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        With GroupDocs.Conversion for Java, you can effortlessly convert specific pages from a lengthy document. 
+        You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.
+        {{< landing/code title="Convert a consecutive range of pages">}}
         ```java {style=abap}   
-        // {code_samples.sample_2.comment_1}
-        String filePath = "input.pdf";
-        String filePathOut = "output.pdf";
+        import com.groupdocs.conversion.Converter;
+        import com.groupdocs.conversion.options.convert.PdfConvertOptions;
+        ...
 
-        // {code_samples.sample_2.comment_2}
-        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+        Converter converter = new Converter("sample.docx");
 
-        // {code_samples.sample_2.comment_3}
-        Merger merger = new Merger(filePath);
+        PdfConvertOptions options = new PdfConvertOptions();
+        options.setPageNumber(2);
+        options.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_4}
-        merger.split(splitOptions);
-  
+        converter.convert("converted.pdf", options);
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="Convert specific pages">}}
+        ```java {style=abap}   
+        import com.groupdocs.conversion.Converter;
+        import com.groupdocs.conversion.options.convert.PdfConvertOptions;
+        ...
+
+        Converter converter = new Converter("sample.docx");
+        
+        PdfConvertOptions options = new PdfConvertOptions();
+        options.setPages(Arrays.asList( 1, 3));
+
+        converter.convert("converted.pdf", options);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

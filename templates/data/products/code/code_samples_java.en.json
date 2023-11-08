@@ -19,14 +19,6 @@
       "content_2": "You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.",
       "code_title_1": "Convert a consecutive range of pages",
       "code_title_2": "Convert specific pages"
-    },
-    "sample_3": {
-      "title": "Fluent Syntax: A Streamlined Approach",
-      "content_1": "Fluent syntax offers a concise notation for common actions within the GroupDocs.Conversion for Java API.",
-      "content_2": "The code samples below demonstrate how to leverage the fluent syntax:",
-      "code_title_1": "Example 1: Convert DOCX to PDF using fluent syntax",
-      "code_title_2": "Example 2: Convert PDF to DOCX by specifying converter settings, load options and convert options using fluent syntax",
-      "code_title_3": "Example 3: Convert PDF to DOCX page by page using fluent syntax"
     }
   }
 }

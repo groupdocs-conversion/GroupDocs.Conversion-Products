@@ -37,7 +37,7 @@ for %%x in (%*) do (
     call :translate .\templates\data\products\overview overview_net %%~x
     call :translate .\templates\data\products\platforms platforms_net %%~x
     call :translate .\templates\data\products\reviews reviews_net %%~x  
-    REM call :translate .\templates\data\products\pair pair_net %%~x
+    REM call :translate .\templates\data\products\pairs pair_net %%~x
     
     call :translate .\templates\data\products index_java %%~x
     call :translate .\templates\data\products\code code_java %%~x
@@ -47,7 +47,7 @@ for %%x in (%*) do (
     call :translate .\templates\data\products\overview overview_java %%~x
     call :translate .\templates\data\products\platforms platforms_java %%~x
     call :translate .\templates\data\products\reviews reviews_java %%~x
-    REM call :translate .\templates\data\products\pair pair_java %%~x
+    REM call :translate .\templates\data\products\pairs pair_java %%~x
 
     call :translate .\templates\data\products index_nodejs-java %%~x
     call :translate .\templates\data\products\code code_nodejs-java %%~x
@@ -57,7 +57,7 @@ for %%x in (%*) do (
     call :translate .\templates\data\products\overview overview_nodejs-java %%~x
     call :translate .\templates\data\products\platforms platforms_nodejs-java %%~x
     call :translate .\templates\data\products\reviews reviews_nodejs-java %%~x  
-    REM call :translate .\templates\data\products\pair pair_net %%~x
+    REM call :translate .\templates\data\products\pairs pair_nodejs-java %%~x
     
     REM Res.Translator.exe -r .\templates\data\index.en.json -d %%~x  --overwrite
     REM del .\templates\data\index.%%~x.json

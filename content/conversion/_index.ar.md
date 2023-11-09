@@ -1,19 +1,19 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-08T17:08:32
+date: 2023-11-09T16:17:51
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
 
 ############################# Head ############################
-head_title: "NET و Java و Cloud APIs وتطبيقات تحويل المستندات بواسطة GroupDocs"
-head_description: "قم بتحويل تنسيقات ملفات المستندات والصور الشائعة على أي نظام أساسي باستخدام الحلول المستندة إلى التطبيقات وواجهة برمجة التطبيقات."
+head_title: ".NET وJava وCloud APIs وتطبيقات تحويل المستندات بواسطة GroupDocs"
+head_description: "قم بتحويل تنسيقات ملفات المستندات والصور الشائعة على أي نظام أساسي باستخدام الحلول المستندة إلى التطبيق وواجهة برمجة التطبيقات."
 
 ############################# Header ############################
 title: "حل تحويل المستندات والصور"
-description: "قم بتحويل تنسيقات ملفات المستندات والصور الشائعة على أي نظام أساسي باستخدام الحلول المستندة إلى التطبيقات وواجهة برمجة التطبيقات."
+description: "قم بتحويل تنسيقات ملفات المستندات والصور الشائعة على أي نظام أساسي باستخدام الحلول المستندة إلى التطبيق وواجهة برمجة التطبيقات."
 
 ############################# APIs ###############################
 apis:
@@ -21,9 +21,9 @@ apis:
 
   api:
     # api loop
-    - title: "تشمل GroupDocs.Conversion High Code APIs"
+    - title: "تتضمن واجهات برمجة التطبيقات ذات التعليمات البرمجية العالية GroupDocs.Conversion"
       link: "/conversion/"
-      label: "عرض جميع واجهات برمجة التطبيقات عالية الكود"
+      label: "عرض جميع واجهات برمجة التطبيقات ذات الكود العالي"
       api_product:
         # api_product loop
         - link: "/conversion/net/"
@@ -31,7 +31,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
-          content: "NET API الأصلي لتحويل المستندات وتنسيقات ملفات الصور بدقة في أي نوع من تطبيقات .NET. يدعم إضافة علامات مائية للصورة أثناء التحويل."
+          content: "واجهة برمجة تطبيقات .NET الأصلية لتحويل المستندات وتنسيقات ملفات الصور بدقة في أي نوع من تطبيقات .NET. يدعم إضافة علامات مائية للصورة أثناء التحويل."
 
         # api_product loop
         - link: "/conversion/java/"
@@ -39,7 +39,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Java"
-          content: "قم بتمكين تطبيقات Java الخاصة بك للتحويل بسهولة بين جميع تنسيقات المستندات القياسية بما في ذلك Microsoft Office و PDF و HTML والصور وغيرها الكثير."
+          content: "قم بتمكين تطبيقات Java الخاصة بك من التحويل بسهولة بين جميع تنسيقات المستندات المتوافقة مع معايير الصناعة بما في ذلك Microsoft Office وPDF وHTML والصور وغيرها الكثير."
           
         # api_product loop
         - link: "/conversion/nodejs-java/"
@@ -47,10 +47,10 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "قم بتمكين تطبيقات JavaScript الخاصة بك من التحويل بسهولة بين جميع تنسيقات المستندات المتوافقة مع معايير الصناعة بما في ذلك Microsoft Office وPDF وHTML والصور وغيرها الكثير."
 
     # api loop
-    - title: "GroupDocs.Conversion منخفضة كود API تشمل"
+    - title: "تتضمن واجهات برمجة التطبيقات ذات التعليمات البرمجية المنخفضة GroupDocs.Conversion"
       link: "https://products.groupdocs.cloud/conversion"
       label: "عرض جميع واجهات برمجة التطبيقات ذات التعليمات البرمجية المنخفضة"
       api_product:
@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "اعمل مع واجهة برمجة تطبيقات تحويل الملفات cURL RESTful لتحويل ملفات Microsoft Office و PDF والبريد الإلكتروني والمشروع و HTML وتنسيقات الملفات الشائعة الأخرى بسهولة في تطبيقاتك."
+          content: "اعمل مع واجهة برمجة تطبيقات تحويل الملفات cURL RESTful لتحويل Microsoft Office وPDF وEmail وProject وHTML وتنسيقات الملفات الشائعة الأخرى بسهولة في تطبيقاتك."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: "تحويل ملفات .NET API REST لتحويل Microsoft Office و PDF والبريد الإلكتروني والمشروع و HTML وتنسيقات الملفات الشائعة الأخرى بسهولة على أي نظام أساسي باستخدام Cloud SDK."
+          content: "تحويل ملفات .NET REST API لتحويل Microsoft Office وPDF وEmail وProject وHTML وتنسيقات الملفات الشائعة الأخرى بسهولة على أي نظام أساسي باستخدام Cloud SDK."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
@@ -76,12 +76,12 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for Java"
-          content: "قم بإثراء تطبيقات Java المستندة إلى السحابة بميزات متقدمة لتحويل المستندات على أي نظام أساسي قادر على استدعاء واجهات برمجة تطبيقات REST."
+          content: "قم بإثراء تطبيقات Java المستندة إلى السحابة الخاصة بك بميزات تحويل المستندات المتقدمة على أي نظام أساسي قادر على استدعاء واجهات برمجة تطبيقات REST."
 
     # api loop
-    - title: "GroupDocs.Conversion لا تتضمن تطبيقات الأكواد"
+    - title: "GroupDocs.Conversion لا تتضمن تطبيقات التعليمات البرمجية"
       link: "https://products.groupdocs.app/conversion"
-      label: "عرض جميع تطبيقات لا كود"
+      label: "عرض جميع تطبيقات No Code"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/total"
@@ -89,7 +89,7 @@ apis:
           image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png"
           product: "GroupDocs.Conversion"
           platform: "Total"
-          content: "قم بتحويل أكثر من 50 تنسيق مستند إلى PDF و XLSX و DOCX و XPS و HTML والمزيد."
+          content: "قم بتحويل أكثر من 50 تنسيقًا للمستندات إلى PDF وXLSX وDOCX وXPS وHTML والمزيد."
 
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/doc-to-xls"
@@ -97,7 +97,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Conversion"
           platform: "DOC to XLS"
-          content: "تطبيق مجاني لتحويل تنسيق DOC إلى تنسيق XLS من أي متصفح ويب."
+          content: "تطبيق مجاني لتحويل تنسيق DOC إلى XLS من أي متصفح ويب."
 
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/pdf-to-docx"
@@ -105,7 +105,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Conversion"
           platform: "PDF to DOCX"
-          content: "قم بتحميل مستندات PDF الخاصة بك لتحويل سلس إلى تنسيق Word (DOCX)."
+          content: "قم بتحميل مستندات PDF الخاصة بك للتحويل السلس إلى تنسيق Word (DOCX)."
 
 ############################# Testimonials ###############################
 testimonials:
@@ -116,7 +116,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "الطبيب النفسي"
-      content: "أنا أراقب بحماس نمو GroupDocs. لقد ساعدتني استجابة فريقك الكامل بشكل كبير ، عندما أتحدث إلى شخص ما في GroupDocs ، يمكنني أن أضمن أن شخصًا ما يستمع ويحدث الأشياء."
+      content: "أنا أشاهد بحماس نمو GroupDocs. لقد ساعدتني استجابة فريقك الكامل بشكل كبير، وعندما أتحدث إلى أحد الأشخاص في GroupDocs، يمكنني أن أضمن أن شخصًا ما يستمع ويحقق الأمور."
 
 ############################# Back to top ###############################
 back_to_top:

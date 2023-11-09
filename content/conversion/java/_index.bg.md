@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T17:08:35
+date: 2023-11-09T16:17:58
 draft: false
 
 product: "Conversion"
@@ -9,32 +9,45 @@ product_tag: "conversion"
 platform: Java
 platform_tag: java
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
 head_title: "Java API за конвертиране на документи | Конвертирайте PDF Word Excel PPTX HTML изображения"
 head_description: "Java API за конвертиране на документи. Конвертирайте PDF Word DOC DOCX, Excel електронни таблици PPT PPTX, HTML, PSD, MPT MPP, имейл MSG EMLX, AutoCAD и файлови формати с изображения."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Лесен API за интегриране на функцията за преобразуване на документи и изображения в приложения Java без инсталиране на външен софтуер."
+title: "Преобразуване на документи<br>чрез Java API"
+description: "Мощен API за конвертиране за конвертиране на PDF, Microsoft Office, HTML, електронни книги и файлове с изображения"
 words:
-  for: "{header.words.for}"
+  for: "за"
 
 actions:
-  main: "{actions.main}"
+  main: "Безплатно изтегляне на Maven"
   main_link: ""
-  alt: "{actions.alt}"
+  alt: "Лицензиране"
   alt_link: ""
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Готови ли сте да започнете?"
+  description: "Изпробвайте функциите на GroupDocs.Conversion безплатно или поискайте лиценз"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Версия {0}  издадена"
+  notes: "Вижте какво ново"
+  downloads: "Изтегляния"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Как да конвертирате PDF файлове в Java"
+  more: "Още примери"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -44,39 +57,39 @@ code:
     </dependency>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // Заредете изходния PDF файл
     Converter converter = new Converter("sample1.pdf");
     
-    // {code.comment_2}
+    // Задайте опциите за конвертиране за DOCX формат
     WordProcessingConvertOptions options = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // Конвертирайте във формат DOCX
     converter.convert("converted.docx", options);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion с един поглед"
+  description: "Мощен API за конвертиране за конвертиране на PDF, Microsoft Office, HTML, електронни книги и файлове с изображения в Java приложения"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Рационализирано преобразуване"
+      content: "Включете лесно преобразуване на файлове във вашите проекти с помощта на GroupDocs.Conversion за Java. Безпроблемно преминаване между формати за подобрена съвместимост."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Гъвкава интеграция"
+      content: "Опростете интегрирането на преобразуването на PDF и Office файлове. GroupDocs.Conversion за Java подобрява гъвкавостта на вашите приложения."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Надеждна трансформация"
+      content: "Осигурете прецизни преобразувания, като същевременно поддържате качеството. GroupDocs.Conversion за Java гарантира надеждни трансформации на файлови формати."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Независимост на платформата"
+  description: "GroupDocs.Conversion за Java поддържа следните операционни системи, рамки и мениджъри на пакети"
   items:
     # platform loop
     - title: "Amazon"
@@ -105,15 +118,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Поддържани файлови формати"
   description: |
-    {formats.description}
+    GroupDocs.Conversion за Java поддържа операции със следните [файлови формати](https://docs.groupdocs.com/conversion/java/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Формати на документи
+        * **Документи:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -122,98 +135,98 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Изображения и мултимедия
+        * **Изображения:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Диаграма:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **аудио:** MP3, WAV, FLAC, AAC, OGG
+        * **Видео:** MP4, AVI, MKV, MOV, WMV
+        * **3D и вектор:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Други формати
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Мрежа:**  HTML, MHTML, MHT
+        * **Архив:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Имейл и Outlook:** PST, OST, MSG, EML
+        * **Финанси:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Функции на GroupDocs.Conversion for Java"
-  description: "{features.description}"
+  title: "Функции на GroupDocs.Conversion"
+  description: "Преобразувайте безпроблемно PDF и Office документи в HTML, JPG, PNG, BMP, TIFF, SVG и много други формати. GroupDocs.Conversion за Java API е проектиран да бъде лесен за използване и интегриране във вашия проект. Поддържа всички популярни формати на документи с възможност за персонализиране на процеса на конвертиране. GroupDocs.Conversion за Java API е проектиран да бъде лесен за използване и интегриране във вашия проект. Поддържа всички популярни формати на документи с възможност за персонализиране на процеса на конвертиране."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Многоформатно преобразуване"
+      content: "Конвертирайте файлове между различни формати, включително PDF, DOCX, XLSX, PPTX и други, с лекота."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Изход с висока точност"
+      content: "Запазете оригиналното качество и форматиране на документите по време на процеса на конвертиране."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Конвертиране на множество файлове"
+      content: "Конвертирайте множество файлове и ги комбинирайте в архив, опростявайки организацията на конвертираното съдържание."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Многостраничен документ към изображения"
+      content: "Преобразувайте многостранични документи в изображения страница по страница, позволявайки прецизен контрол върху процеса на преобразуване и улеснявайки извличането и анализа на базирани на изображения документи."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Персонализируеми настройки"
+      content: "Настройте фино параметрите на преобразуване като разделителна способност, качество и оформление, за да отговарят на конкретни изисквания."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Сигурна обработка"
+      content: "Осигурете поверителност на данните с опции за конвертиране на файлове, защитени с парола."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API интеграция"
+      content: "Безпроблемно интегрирайте възможностите за преобразуване във вашите Java приложения, превръщайки ги в безпроблемна част от вашия работен процес."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Здраво преобразуване"
+      content: "Осигурете надеждни и безгрешни преобразувания на файлове, като гарантирате точността и целостта на вашите трансформирани документи."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Конвертиране на документи от архиви"
+      content: "Извличайте и конвертирайте документи от архиви, позволявайки трансформирането на съдържанието, съхранявано в компресирани файлове."
 
       # feature loop
     - icon: "preview"
-      title: "{features.feature_10.title}"
-      content: "{features.feature_10.content}"
+      title: "Съвместимост между платформи"
+      content: "Изпълнявайте реализации на платформи Windows, Linux и macOS, за да се погрижите за по-широка потребителска база."
 
       # feature loop
     - icon: "preview"
-      title: "{features.feature_11.title}"
-      content: "{features.feature_11.content}"
+      title: "Поддържано лицензиране с измерване"
+      content: "Измерено лицензиране Поддържа се таксуване въз основа на използването на API"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Примерни кодове"
+  description: "Някои случаи на употреба на типични операции на GroupDocs.Conversion за Java"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Конвертирайте PDF в изображение"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Често срещан сценарий включва конвертиране на цял PDF документ или конкретни страници в колекция от изображения. GroupDocs.Conversion за Java предлага възможност за конвертиране на PDF файлове в различни формати на изображения, като TIFF, JPG, PNG, GIF, BMP и други. 
+        За разлика от други преобразувания, този процес изисква декларирането на делегат SavePageStream, който указва формата за именуване на запазените изображения. Можете да изберете предпочитания от вас формат на изображение с помощта на класа ImageFileType.
+        {{< landing/code title="Конвертиране на PDF в PNG в Java">}}
         ```java {style=abap} 
         import java.io.FileOutputStream;
         import com.groupdocs.conversion.Converter;
@@ -222,25 +235,25 @@ code_samples:
         import com.groupdocs.conversion.filetypes.ImageFileType;
         ...
 
-        // {code_samples.sample_1.comment_1}
+        // Заредете изходния PDF файл
         Converter converter = new Converter("sample.pdf");
         SavePageStream getPageStream = page => new FileOutputStream(String.format("converted-page-%s.png", page));
 
-        // {code_samples.sample_1.comment_2}
+        // Задайте опциите за конвертиране за PNG формат
         ImageConvertOptions options = new ImageConvertOptions();
         options.setFormat(groupdocs.conversion.ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // Конвертиране във формат PNG
         converter.convert(getPageStream, options);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Конвертиране на сегмент от голям документ"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        С GroupDocs.Conversion за Java можете лесно да конвертирате конкретни страници от дълъг документ. 
+        Имате два метода да постигнете това, в зависимост от вашите изисквания. Можете или да конвертирате набор от страници, или да конвертирате конкретни страници.
+        {{< landing/code title="Преобразувайте последователен диапазон от страници">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
@@ -256,7 +269,7 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        {{< landing/code title="Конвертирайте конкретни страници">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
@@ -273,19 +286,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "Отзиви за продукти на GroupDocs"
+# description: "Не ни вярвайте просто на думата. Вижте какво казват други разработчици за нашите API"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Отлично обслужване и отлични продукти. Те бяха изключително полезни и отзивчиви по време на процеса на внедряване на GroupDocs.Viewer за Java, не мога да ги препоръчам достатъчно силно."
+#     author: "Мартин Ласарга"
+#     company: "Продуктов мениджър в Axentria ECM от G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "След внедряване и използване на GroupDocs.Viewer за Java в проекта изглежда, че работи много добре. Тествах с много документи и засега добре. Всичко, което съм хвърлил върху него, се изобразява добре и изглежда също толкова добре, колкото би било в PDF Viewer или MS Word."
+#     author: "Матс Оустад"
+#     company: "Старши консултант/партньор в Novanet AS"
 ---

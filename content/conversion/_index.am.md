@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-08T17:08:32
+date: 2023-11-09T16:17:51
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "ማይክሮሶፍት ኦፊስን፣ ​​ፒዲኤፍን፣ ኤችቲኤምኤልን፣ ምስሎችን እና ሌሎችንም ጨምሮ በሁሉም የኢንዱስትሪ ደረጃ የሰነድ ቅርጸቶች መካከል በቀላሉ ለመቀየር የጃቫ ስክሪፕት መተግበሪያዎችዎን ያንቁ።"
 
     # api loop
     - title: "የቡድንDocs.የልወጣ ዝቅተኛ ኮድ ኤፒአይዎች ያካትታሉ"

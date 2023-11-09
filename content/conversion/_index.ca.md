@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-08T17:08:32
+date: 2023-11-09T16:17:51
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Habiliteu les vostres aplicacions JavaScript per convertir fàcilment entre tots els formats de documents estàndard del sector, com ara Microsoft Office, PDF, HTML, imatges i molts altres."
 
     # api loop
     - title: "Les API de codi baix de GroupDocs.Conversion inclouen"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: "API REST de conversió de fitxers .NET per convertir fàcilment Microsoft Office, PDF, Correu electrònic, Projecte, HTML i altres formats de fitxer habituals en qualsevol plataforma utilitzant Cloud SDK."
+          content: "Conversió de fitxers .NET API REST per convertir fàcilment Microsoft Office, PDF, Correu electrònic, Projecte, HTML i altres formats de fitxer habituals en qualsevol plataforma utilitzant Cloud SDK."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"

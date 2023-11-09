@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T17:08:35
+date: 2023-11-09T16:17:57
 draft: false
 
 product: "Conversion"
@@ -9,69 +9,82 @@ product_tag: "conversion"
 platform: .NET
 platform_tag: net
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
 head_title: "C# .NET Document Conversion API | Skakel PDF Word Excel PPTX HTML-beelde om"
 head_description: "C# .NET Document Conversion API. Omskep PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-pos MSG EMLX, AutoCAD en beeldlêerformate."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Eenvoudige API om dokument- en beeldomskakelingsfunksionaliteit in .NET-toepassings te integreer sonder om enige eksterne sagteware te installeer."
+title: "Dokumentomskakeling<br>via .NET API"
+description: "Kragtige omskakelings-API om PDF-, Microsoft Office-, HTML-, e-boek- en beeldlêers om te skakel"
 words:
-  for: "{header.words.for}"
+  for: "vir"
 
 actions:
-  main: "{actions.main}"
+  main: "Gratis NuGet-aflaai"
   main_link: ""
-  alt: "{actions.alt}"
+  alt: "Lisensiëring"
   alt_link: ""
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Gereed om te begin?"
+  description: "Probeer GroupDocs.Conversion-kenmerke gratis of versoek 'n lisensie"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Weergawe {0}  vrygestel"
+  notes: "Kyk wat nuut is"
+  downloads: "Aflaaie"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Hoe om PDF-lêers in C# om te skakel"
+  more: "Meer voorbeelde"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Laai die bron-PDF-lêer
     using (var converter = new Converter("sample.pdf"))
     {
-      // {code.comment_2}
+      // Stel die omskakelopsies vir DOCX-formaat in
       var options = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // Skakel om na DOCX-formaat
       converter.Convert("converted.docx", options);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion in 'n oogopslag"
+  description: "Kragtige omskakelings-API om PDF-, Microsoft Office-, HTML-, e-boek- en beeldlêers in .NET-toepassings om te skakel"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Gestroomlynde omskakeling"
+      content: "Inkorporeer moeitelose lêeromskakeling in jou C#-projekte deur GroupDocs.Conversion vir .NET te gebruik. Soomlose oorgang tussen formate vir verbeterde versoenbaarheid."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Buigsame integrasie"
+      content: "Vereenvoudig die integrasie van PDF- en Office-lêeromskakeling. GroupDocs.Conversion for .NET verhoog die veelsydigheid van jou toepassings."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Betroubare transformasie"
+      content: "Verseker presiese omskakelings terwyl kwaliteit gehandhaaf word. GroupDocs.Conversion vir .NET waarborg betroubare transformasies van lêerformate."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Platform onafhanklikheid"
+  description: "GroupDocs.Conversion for .NET ondersteun die volgende bedryfstelsels, raamwerke en pakketbestuurders"
   items:
     # platform loop
     - title: "Amazon"
@@ -100,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Ondersteunde lêerformate"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for .NET ondersteun bedrywighede met die volgende [lêerformate](https://docs.groupdocs.com/conversion/net/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Dokumentformate
+        * **Dokumente:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -117,110 +130,110 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Beelde en multimedia
+        * **Beelde:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Oudio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D en vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Ander formate
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Argiewe:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-pos en Outlook:** PST, OST, MSG, EML
+        * **Finansies:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for .NET Kenmerke"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion kenmerke"
+  description: "Skakel PDF- en Office-dokumente naatloos na HTML, JPG, PNG, BMP, TIFF, SVG en baie ander formate om. GroupDocs.Conversion for .NET API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas. GroupDocs.Conversion for .NET API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Multi-formaat omskakeling"
+      content: "Omskep lêers tussen verskillende formate, insluitend PDF, DOCX, XLSX, PPTX, en meer, met gemak."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Hoë-getrou uitset"
+      content: "Behou die oorspronklike kwaliteit en formatering van dokumente tydens die omskakelingsproses."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Omskakeling van veelvuldige lêers"
+      content: "Skakel veelvuldige lêers om en kombineer dit in 'n argief, wat die organisasie van omgeskakelde inhoud vereenvoudig."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Meerbladdokument na prente"
+      content: "Omskep meerbladdokumente na prente bladsy vir bladsy, wat presiese beheer oor die transformasieproses moontlik maak en beeldgebaseerde dokumentonttrekking en ontleding vergemaklik."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Aanpasbare instellings"
+      content: "Verfyn omskakelingsparameters soos resolusie, kwaliteit en uitleg om aan spesifieke vereistes te voldoen."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Veilige verwerking"
+      content: "Verseker dataprivaatheid met wagwoordbeskermde lêeromskakelingsopsies."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API-integrasie"
+      content: "Integreer die omskakelingsvermoëns naatloos in jou .NET-toepassings, wat dit 'n naatlose deel van jou werkvloei maak."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Robuuste omskakeling"
+      content: "Verseker betroubare en foutvrye lêeromskakelings, wat die akkuraatheid en integriteit van u getransformeerde dokumente waarborg."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Omskep dokumente uit argiewe"
+      content: "Onttrek en omskep dokumente uit argiewe, wat die transformasie van inhoud in saamgeperste lêers moontlik maak."
 
       # feature loop
     - icon: "preview"
-      title: "{features.feature_10.title}"
-      content: "{features.feature_10.content}"
+      title: "Kruisplatform-versoenbaarheid"
+      content: "Begin omskakelings op Windows-, Linux- en macOS-platforms om voorsiening te maak vir 'n breër gebruikersbasis."
 
       # feature loop
     - icon: "preview"
-      title: "{features.feature_11.title}"
-      content: "{features.feature_11.content}"
+      title: "Meter Lisensiëring Ondersteun"
+      content: "Meter Lisensiëring Ondersteun om gefaktureer te word gebaseer op die gebruik van die API"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Kode monsters"
+  description: "Sommige gebruik gevalle van tipiese GroupDocs.Conversion vir .NET-bedrywighede"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Skakel PDF na beeld om"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        'n Algemene scenario behels die omskakeling van 'n hele PDF-dokument of spesifieke bladsye in 'n versameling beelde. GroupDocs.Conversion for .NET bied die vermoë om PDF's in verskeie beeldformate om te skakel, soos TIFF, JPG, PNG, GIF, BMP, en meer. 
+        Anders as ander omskakelings, vereis hierdie proses die verklaring van 'n SavePageStream-afgevaardigde, wat die naamformaat vir die gestoorde beelde spesifiseer. Jy kan jou voorkeurbeeldformaat kies deur die ImageFileType-klas te gebruik.
+        {{< landing/code title="Skakel PDF na PNG om in C#">}}
         ```csharp {style=abap}   
-        // {code_samples.sample_1.comment_1}
+        // Laai die bron-PDF-lêer
         using (var converter = new Converter("sample.pdf"))
         {
           var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
 
-          // {code_samples.sample_1.comment_2}
+          // Stel die omskakelopsies vir PNG-formaat in
           var options = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // Skakel om na PNG-formaat
           converter.Convert(getPageStream, options);
         }
         ```
@@ -229,8 +242,8 @@ code_samples:
     # code sample loop        
     - title: ""
       content: |
-        {code_samples.sample_1.alternative_content_1}
-        {{< landing/code title="{code_samples.sample_1.alternative_code_title}">}}
+        Alternatiewelik kan jy dieselfde bereik deur vlot sintaksis te gebruik:
+        {{< landing/code title="Omskakeling van PDF na PNG in C# met behulp van vlot sintaksis:">}}
         ```csharp {style=abap}   
         FluentConverter
           .Load("sample.pdf")
@@ -241,11 +254,11 @@ code_samples:
         {{< /landing/code >}}        
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Omskakeling van 'n segment van 'n groot dokument"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Met GroupDocs.Conversion for .NET, kan jy moeiteloos spesifieke bladsye van 'n lang dokument omskakel. 
+        Jy het twee metodes om dit te bereik, afhangende van jou vereistes. Jy kan óf 'n reeks bladsye omskakel óf spesifieke bladsye omskakel.
+        {{< landing/code title="Skakel 'n opeenvolgende reeks bladsye om">}}
         ```csharp {style=abap}   
         using (Converter converter = new Converter("sample.docx"))
         {
@@ -258,7 +271,7 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        {{< landing/code title="Skakel spesifieke bladsye om">}}
         ```csharp {style=abap}   
         using (Converter converter = new Converter("sample.docx"))
         {
@@ -270,11 +283,11 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "Vlot sintaksis: 'n vaartbelynde benadering"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        Vlot sintaksis bied 'n bondige notasie vir algemene aksies binne die GroupDocs.Conversion for .NET API. 
+        Die kodevoorbeelde hieronder demonstreer hoe om die vlot sintaksis te benut:
+        {{< landing/code title="Voorbeeld 1: Skakel DOCX na PDF om deur vlot sintaksis te gebruik">}}
         ```csharp {style=abap}   
         FluentConverter
             .Load("sample.docx")
@@ -283,7 +296,7 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="{code_samples.sample_3.code_title_2}">}}
+        {{< landing/code title="Voorbeeld 2: Skakel PDF na DOCX om deur omskakelaarinstellings, laaiopsies en omskakelopsies te spesifiseer deur vlot sintaksis te gebruik">}}
         ```csharp {style=abap}   
         FluentConverter
             .WithSettings(() => new ConverterSettings())
@@ -295,7 +308,7 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="{code_samples.sample_3.code_title_3}">}}
+        {{< landing/code title="Voorbeeld 3: Skakel PDF na DOCX bladsy vir bladsy om deur vlot sintaksis te gebruik">}}
         ```csharp {style=abap}   
         FluentConverter
             .Load("sample.pdf")
@@ -308,19 +321,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs produkte resensies"
+# description: "Moenie net ons woord daarvoor vat nie. Kyk wat ander ontwikkelaars oor ons API's sê"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Uitstekende diens en uitstekende produkte. Hulle was uiters behulpsaam en reageer tydens die GroupDocs.Conversion for .NET implementeringsproses, kan hulle nie sterk genoeg aanbeveel nie."
+#     author: "Martin Lasarga"
+#     company: "Produkbestuurder by Axentria ECM deur G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Nadat GroupDocs.Conversion vir .NET in die projek geïmplementeer en gebruik is, lyk dit of dit baie goed werk. Ek het met baie dokumente getoets en tot dusver so goed. Alles wat ek daarna gegooi het, word mooi weergegee en lyk net so goed soos in 'n PDF-kyker of MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior konsultant/vennoot by Novanet AS"
 ---

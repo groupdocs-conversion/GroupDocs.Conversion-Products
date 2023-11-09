@@ -1,13 +1,26 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T17:08:36
+date: 2023-11-09T16:17:58
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
 platform: Java
 platform_tag: java
+
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
 
 ############################# Head ############################
 head_title: "Java API chuyển đổi tài liệu | Chuyển đổi PDF Word Excel sang PPTX HTML Hình ảnh"

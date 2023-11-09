@@ -9,6 +9,19 @@ product_tag: "conversion"
 platform: <% dict "products.{product}.name" %>
 platform_tag: <% dict "products.{product}.code" %>
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
 head_title: "<% "{head.title}" %>"
 head_description: "<% "{head.description}" %>"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-08T17:08:35
+date: 2023-11-09T16:17:58
 draft: false
 
 product: "Conversion"
@@ -9,69 +9,82 @@ product_tag: "conversion"
 platform: .NET
 platform_tag: net
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java" 
+
 ############################# Head ############################
 head_title: "C# .NET ሰነድ ልወጣ API | ፒዲኤፍ ቃል ኤክሴል PPTX HTML ምስሎችን ቀይር"
 head_description: "C# .NET ሰነድ ልወጣ ኤፒአይ። PDF Word DOC DOCX፣ Excel ተመን ሉሆች PPT PPTX፣ HTML፣ PSD፣ MPT MPP፣ ኢሜል MSG EMLX፣ AutoCAD እና የምስል ፋይል ቅርጸቶችን ቀይር።"
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "ምንም ውጫዊ ሶፍትዌር ሳይጭኑ ሰነድ እና ምስል የመቀየር ተግባርን ወደ NET መተግበሪያዎች ለማዋሃድ ቀላል ኤፒአይ።"
+title: "የሰነድ ለውጥ<br>በ NET API በኩል"
+description: "ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ ኤችቲኤምኤል፣ ኢመጽሐፍ እና የምስል ፋይሎችን ለመቀየር ኃይለኛ የልወጣ ኤፒአይ"
 words:
-  for: "{header.words.for}"
+  for: "ለ"
 
 actions:
-  main: "{actions.main}"
+  main: "ነጻ NuGet ማውረድ"
   main_link: ""
-  alt: "{actions.alt}"
+  alt: "ፍቃድ መስጠት"
   alt_link: ""
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "ለመጀመር ዝግጁ ነዎት?"
+  description: "GroupDocs.Conversion ባህሪያትን በነጻ ይሞክሩ ወይም ፍቃድ ይጠይቁ"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "ስሪት {0} ተለቅቋል"
+  notes: "ምን አዲስ ነገር እንዳለ ይመልከቱ"
+  downloads: "ውርዶች"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "ፒዲኤፍ ፋይሎችን በ C # ውስጥ እንዴት መለወጥ እንደሚቻል"
+  more: "ተጨማሪ ምሳሌዎች"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // የምንጭ ፒዲኤፍ ፋይልን ጫን
     using (var converter = new Converter("sample.pdf"))
     {
-      // {code.comment_2}
+      // ለDOCX ቅርጸት የመቀየሪያ አማራጮችን ያዘጋጁ
       var options = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // ወደ DOCX ቅርጸት ቀይር
       converter.Convert("converted.docx", options);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.ልወጣ በጨረፍታ"
+  description: "ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ ኤችቲኤምኤል፣ ኢመጽሐፍ እና ምስል ፋይሎችን በ NET መተግበሪያዎች ለመለወጥ ኃይለኛ የልወጣ ኤፒአይ"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "የተስተካከለ ልወጣ"
+      content: "GroupDocs.Conversion for .NET በመጠቀም ልፋት የሌለበት የፋይል ልወጣን ወደ የእርስዎ C# ፕሮጀክቶች አካትት። ለተሻሻለ ተኳሃኝነት በቅርጸቶች መካከል ያለችግር ሽግግር።"
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "ተለዋዋጭ ውህደት"
+      content: "የፒዲኤፍ እና የቢሮ ፋይል ቅየራ ውህደትን ቀለል ያድርጉት። GroupDocs.Conversion for NET የመተግበሪያዎችዎን ሁለገብነት ያሻሽላል።"
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "ጥገኛ ለውጥ"
+      content: "ጥራትን በመጠበቅ ትክክለኛ ልወጣዎችን ያረጋግጡ። GroupDocs.Conversion for NET የፋይል ቅርጸቶችን አስተማማኝ ለውጦችን ዋስትና ይሰጣል።"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "የመድረክ ነፃነት"
+  description: "GroupDocs.Conversion for NET የሚከተሉትን ኦፕሬቲንግ ሲስተሞች፣ ማዕቀፎችን እና የጥቅል አስተዳዳሪዎችን ይደግፋል"
   items:
     # platform loop
     - title: "Amazon"
@@ -100,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "የሚደገፉ የፋይል ቅርጸቶች"
   description: |
-    {formats.description}
+    GroupDocs.Conversion ለ .NET ክዋኔዎችን ይደግፋል በሚከተሉት [የፋይል ቅርጸቶች](https://docs.groupdocs.com/conversion/net/supported-file-formats/)።
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### የሰነድ ቅርጸቶች
+        * **ሰነዶች:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -117,110 +130,110 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### ምስሎች እና መልቲሚዲያ
+        * **ምስሎች:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **ሥዕላዊ መግለጫ:** VSDX, DRAW, LUCIDCHART
+        * **CAD እና ጂአይኤስ:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **ኦዲዮ:** MP3, WAV, FLAC, AAC, OGG
+        * **ቪዲዮ:** MP4, AVI, MKV, MOV, WMV
+        * **3D & ቬክተር:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### ሌሎች ቅርጸቶች
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **ድር:**  HTML, MHTML, MHT
+        * **ማህደሮች:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **ኢሜይል እና አውትሉክ:** PST, OST, MSG, EML
+        * **ፋይናንስ:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for .NET ባህሪያት"
-  description: "{features.description}"
+  title: "የቡድንDocs.የመቀየር ባህሪያት"
+  description: "ፒዲኤፍ እና የቢሮ ሰነዶችን ያለምንም እንከን ወደ HTML፣ JPG፣ PNG፣ BMP፣ TIFF፣ SVG እና ሌሎች ብዙ ቅርጸቶች ይቀይሩ። GroupDocs.Conversion for NET API የተቀየሰው ለአጠቃቀም ቀላል እንዲሆን እና በፕሮጀክትዎ ውስጥ እንዲዋሃድ ነው። የመቀየሪያ ሂደቱን የማበጀት ችሎታ ሁሉንም ታዋቂ የሰነድ ቅርጸቶችን ይደግፋል። GroupDocs.Conversion for NET API የተቀየሰው ለአጠቃቀም ቀላል እንዲሆን እና በፕሮጀክትዎ ውስጥ እንዲዋሃድ ነው። የመቀየሪያ ሂደቱን የማበጀት ችሎታ ሁሉንም ታዋቂ የሰነድ ቅርጸቶችን ይደግፋል።"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "ባለብዙ-ቅርጸት ልወጣ"
+      content: "PDF፣ DOCX፣ XLSX፣ PPTX እና ሌሎችንም ጨምሮ በተለያዩ ቅርጸቶች መካከል በቀላሉ ፋይሎችን ይለውጡ።"
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "ከፍተኛ ታማኝነት ውፅዓት"
+      content: "በመቀየር ሂደት ውስጥ የሰነዶችን የመጀመሪያ ጥራት እና ቅርፀት ያቆዩ።"
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "በርካታ ፋይሎችን በመቀየር ላይ"
+      content: "ብዙ ፋይሎችን ይለውጡ እና ወደ ማህደር ያዋህዷቸው፣ የተለወጠውን ይዘት አደረጃጀት በማቃለል።"
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "ባለብዙ ገጽ ሰነድ ወደ ምስሎች"
+      content: "ባለብዙ ገጽ ሰነዶችን ወደ ምስሎች ገጽ በገጽ ይለውጡ፣ በለውጡ ሂደት ላይ ትክክለኛ ቁጥጥርን ለማንቃት እና በምስል ላይ የተመሰረተ ሰነድ ማውጣት እና ትንታኔን በማመቻቸት።"
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "ሊበጁ የሚችሉ ቅንብሮች"
+      content: "የተወሰኑ መስፈርቶችን ለማሟላት እንደ ጥራት፣ ጥራት እና አቀማመጥ ያሉ የልወጣ መለኪያዎችን ያስተካክሉ።"
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "ደህንነቱ የተጠበቀ ሂደት"
+      content: "በይለፍ ቃል ከተጠበቁ የፋይል ልወጣ አማራጮች ጋር የውሂብ ግላዊነትን ያረጋግጡ።"
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "የኤፒአይ ውህደት"
+      content: "የመቀየሪያ አቅሞችን ያለምንም እንከን ወደ .NET አፕሊኬሽኖችዎ ያዋህዱ፣ ይህም የስራ ሂደትዎ እንከን የለሽ አካል ያደርገዋል።"
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "ጠንካራ ልወጣ"
+      content: "ለተቀየሩ ሰነዶችዎ ትክክለኛነት እና ታማኝነት ዋስትና በመስጠት አስተማማኝ እና ከስህተት-ነጻ የፋይል ልወጣዎችን ያረጋግጡ።"
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "ሰነዶችን ከማህደር ቀይር"
+      content: "ሰነዶችን ከማህደር ያውጡ እና ይቀይሩ፣ ይህም በተጨመቁ ፋይሎች ውስጥ የተከማቸውን ይዘት ለመለወጥ ያስችላል።"
 
       # feature loop
     - icon: "preview"
-      title: "{features.feature_10.title}"
-      content: "{features.feature_10.content}"
+      title: "የመድረክ ተሻጋሪ ተኳኋኝነት"
+      content: "ሰፊ የተጠቃሚ መሰረትን ለማሟላት በዊንዶውስ፣ ሊኑክስ እና ማክኦኤስ መድረኮች ላይ ልወጣዎችን ያሂዱ።"
 
       # feature loop
     - icon: "preview"
-      title: "{features.feature_11.title}"
-      content: "{features.feature_11.content}"
+      title: "የሚለካ ፍቃድ መስጠት ይደገፋል"
+      content: "የሚለካ ፈቃድ በኤፒአይ አጠቃቀም ላይ ተመስርቶ እንዲከፍል ይደገፋል"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "የኮድ ናሙናዎች"
+  description: "አንዳንዶች ለ NET ኦፕሬሽኖች የተለመዱ የቡድንDocs.Conversion ጉዳዮችን ይጠቀማሉ"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "ፒዲኤፍ ወደ ምስል ቀይር"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        በተለምዶ የሚያጋጥመው ሁኔታ አንድን ሙሉ የፒዲኤፍ ሰነድ ወይም የተወሰኑ ገጾችን ወደ የምስሎች ስብስብ መቀየርን ያካትታል። GroupDocs.Conversion ለ NET ፒዲኤፎችን ወደ ተለያዩ የምስል ቅርጸቶች እንደ TIFF፣ JPG፣ PNG፣ GIF፣ BMP እና ሌሎች የመቀየር ችሎታ ይሰጣል። 
+        እንደሌሎች ልወጣዎች ይህ ሂደት የSavePageStream ውክልና ማወጅ ይጠይቃል፣ይህም ለተቀመጡ ምስሎች የስያሜ ቅርጸቱን ይገልጻል። ImageFileType ክፍልን በመጠቀም የመረጡትን የምስል ቅርጸት መምረጥ ይችላሉ።
+        {{< landing/code title="በC# ውስጥ ፒዲኤፍ ወደ PNG በመቀየር ላይ">}}
         ```csharp {style=abap}   
-        // {code_samples.sample_1.comment_1}
+        // የምንጭ ፒዲኤፍ ፋይልን ጫን
         using (var converter = new Converter("sample.pdf"))
         {
           var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
 
-          // {code_samples.sample_1.comment_2}
+          // ለ PNG ቅርጸት የመቀየሪያ አማራጮችን ያዘጋጁ
           var options = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // ወደ PNG ቅርጸት ቀይር
           converter.Convert(getPageStream, options);
         }
         ```
@@ -229,8 +242,8 @@ code_samples:
     # code sample loop        
     - title: ""
       content: |
-        {code_samples.sample_1.alternative_content_1}
-        {{< landing/code title="{code_samples.sample_1.alternative_code_title}">}}
+        በአማራጭ፣ አቀላጥፎ አገባብ በመጠቀም ተመሳሳይ ነገር ማሳካት ይችላሉ፡-
+        {{< landing/code title="አቀላጥፎ አገባብ በመጠቀም ፒዲኤፍ ወደ PNG በC# መለወጥ፡-">}}
         ```csharp {style=abap}   
         FluentConverter
           .Load("sample.pdf")
@@ -241,11 +254,11 @@ code_samples:
         {{< /landing/code >}}        
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "የአንድ ትልቅ ሰነድ ክፍል መለወጥ"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        በGroupDocs.Conversion for NET የተወሰኑ ገጾችን ከረዥም ሰነድ ያለምንም ልፋት መቀየር ትችላለህ። 
+        ይህንን ለማከናወን ሁለት መንገዶች አሉዎት, እንደ ፍላጎቶችዎ ይወሰናል. የተለያዩ ገጾችን መለወጥ ወይም የተወሰኑ ገጾችን መለወጥ ይችላሉ።
+        {{< landing/code title="ተከታታይ ገጾችን ቀይር">}}
         ```csharp {style=abap}   
         using (Converter converter = new Converter("sample.docx"))
         {
@@ -258,7 +271,7 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        {{< landing/code title="የተወሰኑ ገጾችን ቀይር">}}
         ```csharp {style=abap}   
         using (Converter converter = new Converter("sample.docx"))
         {
@@ -270,11 +283,11 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "ፍሉይ አገባብ፡ የተስተካከለ አቀራረብ"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        ቅልጥፍና ያለው አገባብ በቡድን ዶcs.Conversion for .NET API ውስጥ ለሚደረጉ የተለመዱ ድርጊቶች አጭር መግለጫ ይሰጣል። 
+        ከታች ያሉት የኮድ ናሙናዎች አቀላጥፈውን አገባብ እንዴት መጠቀም እንደሚቻል ያሳያሉ፡-
+        {{< landing/code title="ምሳሌ 1፡ አቀላጥፎ አገባብ በመጠቀም DOCX ወደ ፒዲኤፍ ቀይር">}}
         ```csharp {style=abap}   
         FluentConverter
             .Load("sample.docx")
@@ -283,7 +296,7 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="{code_samples.sample_3.code_title_2}">}}
+        {{< landing/code title="ምሳሌ 2፡ የመቀየሪያ ቅንብሮችን በመጥቀስ፣ የመጫን አማራጮችን እና አማራጮችን አቀላጥፎ በመጠቀም ፒዲኤፍ ወደ DOCX ቀይር">}}
         ```csharp {style=abap}   
         FluentConverter
             .WithSettings(() => new ConverterSettings())
@@ -295,7 +308,7 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="{code_samples.sample_3.code_title_3}">}}
+        {{< landing/code title="ምሳሌ 3፡ አቀላጥፎ አገባብ በመጠቀም ፒዲኤፍ ወደ DOCX ገጽ በገጽ ቀይር">}}
         ```csharp {style=abap}   
         FluentConverter
             .Load("sample.pdf")
@@ -308,19 +321,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "የቡድንDocs ምርቶች ግምገማዎች"
+# description: "ቃላችንን ለዛ ብቻ አትውሰድ። ሌሎች ገንቢዎች ስለእኛ ኤፒአይዎች ምን እንደሚሉ ይመልከቱ"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "በጣም ጥሩ አገልግሎት እና ምርጥ ምርቶች. በGroupDocs ወቅት እጅግ በጣም አጋዥ እና ምላሽ ሰጪ ነበሩ ለ NET ትግበራ ሂደት መለወጥ በበቂ ሁኔታ ሊመክሯቸው አይችሉም።"
+#     author: "ማርቲን ላሳርጋ"
+#     company: "የምርት አስተዳዳሪ በ Axentria ECM በጂ.ኤስ.አይ."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "በፕሮጀክቱ ውስጥ GroupDocs.Conversion for .NET ከተተገበረ እና ከተጠቀሙ በኋላ በጣም ጥሩ እየሰራ ይመስላል። በብዙ ሰነዶች ሞክሬያለሁ እናም እስካሁን ድረስ ጥሩ ነው። የወረወርኳቸው ነገሮች ሁሉ በፒዲኤፍ መመልከቻ ወይም በኤምኤስ ዎርድ ውስጥ እንደሚታዩት ሁሉ በጥሩ ሁኔታ ይቀርባሉ እና ጥሩ ይመስላል።"
+#     author: "ማትስ ኦስታድ"
+#     company: "ከፍተኛ አማካሪ/አጋር በ Novanet AS"
 ---

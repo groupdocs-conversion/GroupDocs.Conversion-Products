@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "{{ProgLang}} API за конвертиране на документи | Конвертирайте PDF Word Excel PPTX HTML изображения",
+    "description": "{{ProgLang}} API за конвертиране на документи. Конвертирайте PDF Word DOC DOCX, Excel електронни таблици PPT PPTX, HTML, PSD, MPT MPP, имейл MSG EMLX, AutoCAD и файлови формати с изображения."
+  },
+  "header": {
+    "title_1": "Преобразуване на документи",
+    "title_2": "чрез Node.js API",
+    "description": "Мощен API за конвертиране за конвертиране на PDF, Microsoft Office, HTML, електронни книги и файлове с изображения",
+    "words": {
+      "for": "за"
+    }
+  },
+  "actions": {
+    "main": "Безплатно изтегляне на NuGet",
+    "alt": "Лицензиране",
+    "title": "Готови ли сте да започнете?",
+    "description": "Изпробвайте функциите на GroupDocs.Conversion безплатно или поискайте лиценз"
+  },
+  "release": {
+    "title": "Версия {0}  издадена",
+    "notes": "Вижте какво ново",
+    "downloads": "Изтегляния"
+  }
+}

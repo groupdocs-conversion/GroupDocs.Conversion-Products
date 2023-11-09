@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion في لمحة",
+    "description": "واجهة برمجة تطبيقات تحويل قوية لتحويل ملفات PDF وMicrosoft Office وHTML والكتب الإلكترونية وملفات الصور في تطبيقات Javascript",
+    "feature_1": {
+      "title": "تحويل مبسط",
+      "description": "قم بدمج تحويل الملفات بسهولة في مشاريع جافا سكريبت الخاصة بك باستخدام GroupDocs.Conversion for Node.js عبر Java. الانتقال بسلاسة بين التنسيقات لتحسين التوافق."
+    },
+    "feature_2": {
+      "title": "التكامل المرن",
+      "description": "تبسيط عملية دمج تحويل ملفات PDF وOffice. يعمل GroupDocs.Conversion for Node.js عبر Java على تحسين تعدد استخدامات تطبيقاتك."
+    },
+    "feature_3": {
+      "title": "تحويل يمكن الاعتماد عليه",
+      "description": "ضمان تحويلات دقيقة مع الحفاظ على الجودة. يضمن GroupDocs.Conversion for Node.js عبر Java تحويلات موثوقة لتنسيقات الملفات."
+    }
+  }
+}

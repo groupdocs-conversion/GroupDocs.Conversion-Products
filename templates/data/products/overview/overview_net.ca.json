@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion d'un cop d'ull",
+    "description": "Potent API de conversió per convertir fitxers PDF, Microsoft Office, HTML, llibres electrònics i imatges en aplicacions .NET",
+    "feature_1": {
+      "title": "Conversió simplificada",
+      "description": "Incorporeu la conversió de fitxers sense esforç als vostres projectes C# mitjançant GroupDocs.Conversion per a .NET. Transició perfecta entre formats per millorar la compatibilitat."
+    },
+    "feature_2": {
+      "title": "Integració flexible",
+      "description": "Simplifica la integració de la conversió de fitxers PDF i Office. GroupDocs.Conversion per a .NET millora la versatilitat de les vostres aplicacions."
+    },
+    "feature_3": {
+      "title": "Transformació fiable",
+      "description": "Assegureu-vos conversions precises mantenint la qualitat. GroupDocs.Conversion per a .NET garanteix transformacions fiables dels formats de fitxer."
+    }
+  }
+}

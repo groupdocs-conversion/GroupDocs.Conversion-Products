@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.ልወጣ በጨረፍታ",
+    "description": "በጃቫ አፕሊኬሽኖች ውስጥ ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ ኤችቲኤምኤል፣ ኢመጽሐፍ እና ምስል ፋይሎችን ለመቀየር ኃይለኛ የልወጣ ኤፒአይ",
+    "feature_1": {
+      "title": "የተስተካከለ ልወጣ",
+      "description": "GroupDocs.Conversion for Javaን በመጠቀም ልፋት የሌለበት የፋይል ልወጣን ወደ ፕሮጀክቶችህ አካትት። ለተሻሻለ ተኳሃኝነት በቅርጸቶች መካከል ያለችግር ሽግግር።"
+    },
+    "feature_2": {
+      "title": "ተለዋዋጭ ውህደት",
+      "description": "የፒዲኤፍ እና የቢሮ ፋይል ቅየራ ውህደትን ቀለል ያድርጉት። GroupDocs.Conversion for Java የመተግበሪያዎችዎን ሁለገብነት ያሻሽላል።"
+    },
+    "feature_3": {
+      "title": "ጥገኛ ለውጥ",
+      "description": "ጥራትን በመጠበቅ ትክክለኛ ልወጣዎችን ያረጋግጡ። GroupDocs.Conversion ለጃቫ የፋይል ቅርጸቶች አስተማማኝ ለውጦችን ዋስትና ይሰጣል።"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "{{ProgLang}} API لتحويل المستندات | تحويل صور PDF Word Excel PPTX HTML",
+    "description": "{{ProgLang}} واجهة برمجة تطبيقات تحويل المستندات. تحويل PDF Word DOC DOCX وExcel Spreadsheets PPT PPTX وHTML وPSD وMPT MPP وEmail MSG EMLX وAutoCAD وتنسيقات ملفات الصور."
+  },
+  "header": {
+    "title_1": "تحويل الوثيقة",
+    "title_2": "عبر Node.js API",
+    "description": "واجهة برمجة تطبيقات تحويل قوية لتحويل ملفات PDF وMicrosoft Office وHTML والكتب الإلكترونية وملفات الصور",
+    "words": {
+      "for": "ل"
+    }
+  },
+  "actions": {
+    "main": "تحميل نوجيت مجانا",
+    "alt": "الترخيص",
+    "title": "على استعداد للبدء؟",
+    "description": "جرب ميزات GroupDocs.Conversion مجانًا أو اطلب ترخيصًا"
+  },
+  "release": {
+    "title": "تم إطلاق الإصدار {0}.",
+    "notes": "ترى ما هو الجديد",
+    "downloads": "التحميلات"
+  }
+}

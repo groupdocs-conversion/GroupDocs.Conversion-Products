@@ -4,152 +4,22 @@
     "description": "{{ProgLang}} API de conversió de documents. Converteix PDF Word DOC DOCX, fulls de càlcul Excel PPT PPTX, HTML, PSD, MPT MPP, correu electrònic MSG EMLX, AutoCAD i formats de fitxer d'imatge."
   },
   "header": {
-    "title": "{{ProgLang}} API per convertir més de 80 formats de fitxer",
-    "description": "API senzilla per integrar la funcionalitat de conversió de documents i imatges a les aplicacions {{ProgLang}} sense instal·lar cap programari extern.",
-    "button": {
-      "label": "Baixeu la prova gratuïta",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Conversió de documents",
+    "title_2": "mitjançant l'API de Java",
+    "description": "Potent API de conversió per convertir fitxers PDF, Microsoft Office, HTML, llibres electrònics i imatges",
+    "words": {
+      "for": "per"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Visió general"
-      },
-      "button2": {
-        "text": "Característiques"
-      },
-      "button3": {
-        "text": "Suport"
-      },
-      "button4": {
-        "text": "Demostració en directe"
-      },
-      "button5": {
-        "text": "Preus"
-      }
-    }
+  "actions": {
+    "main": "Descàrrega gratuïta de Maven",
+    "alt": "Llicència",
+    "title": "Preparat per començar?",
+    "description": "Proveu les funcions de GroupDocs.Conversion de manera gratuïta o sol·liciteu una llicència"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} combina un conjunt potent d'API de conversió de documents per mostrar imatges i formats de documents a les vostres aplicacions Java sense necessitat d'instal·lar programari addicional. Rasteritza els documents de manera nativa i els converteix en SVG+HTML+CSS per millorar la qualitat de visualització dels documents alhora que ofereix una sortida de text real i d'alta fidelitat. Utilitzant l'API de representació de documents: visualitzeu ràpidament PDF, HTML, XML, Microsoft Office Word, fulls de treball Excel, presentacions de PowerPoint, correus electrònics d'Outlook, diagrames de Visio, Projecte, metafitxers, imatges i diversos altres formats de fitxer amb facilitat i menys perills de programació. També pot mostrar fitxers protegits amb contrasenya i permetre obtenir la representació del document en format HTML, imatge o PDF després de la representació. La nostra biblioteca de conversió de fitxers és bastant personalitzable, ja que us permet mostrar tot el document o render-lo parcialment per accelerar el procés. Mitjançant l'API de GroupDocs.Conversion per a Java, podeu veure pàgines, un interval de cel·les específic en un full de càlcul o fins i tot representar una capa de document individual en formats, com ara PDF i CAD.",
-    "content2": "L'API {{ProductFullName}} us permet representar documents amb/sense anotacions o comentaris per als formats de fitxer compatibles. També us permet afegir directoris de tipus de lletra personalitzats i extreure informació bàsica del document, com ara FileType, Extension, Name, PageCount, etc.",
-    "tab_one": {
-      "description": "A continuació es mostra una visió general de {{ProductFullName}}:",
-      "right": {
-        "title": "Visió general",
-        "content1": "* Detecció automàtica del tipus de fitxer",
-        "content2": "* Convertir documents",
-        "content3": "* Convertir presentacions",
-        "content4": "* Converteix fulls de càlcul",
-        "content5": "* Converteix imatges ràster",
-        "content6": "* Converteix documents PDF",
-        "content7": "* Converteix altres formats",
-        "content8": "* Aplicar filigrana",
-        "content9": "* Especifiqueu la contrasenya del fitxer",
-        "content10": "* Personalitza la conversió"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} admet la conversió entre tots els [formats de fitxer de document] populars i d'ús habitual (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Convertir de:",
-        "content1": "* **Documents**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Fulls de càlcul**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Presentacions**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Imatges**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Portàtil**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metafitxers**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Projecte**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **Correu electrònic**: MSG, EML, EMLX",
-        "content12": "* **Diagrames**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Altres**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Converteix a:",
-        "content1": "* **Documents**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Fulls de càlcul**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Presentacions**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Imatges**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafitxers**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagrames**: SVGZ",
-        "content7": "* **Portàtil**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "* **Altres**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} admet els següents sistemes operatius, marcs i gestors de paquets:",
-      "left": {
-        "title1": "Sistemes operatius",
-        "title2": "Marcs suportats"
-      },
-      "right": {
-        "title1": "Gestor de paquets",
-        "title2": "Entorns de desenvolupament"
-      }
-    }
-  },
-  "features": {
-    "title": "{{ProductFullName}} Característiques",
-    "content1": "Fàcil integració i llicències mesurades",
-    "content2": "Estableix l'opció de zoom predeterminada quan es converteix en paraules, diapositives o cel·les",
-    "content3": "Converteix a/des de tots els formats d'imatge ràster populars i assigna DPI, alçada i amplada de la imatge",
-    "content4": "Converteix PDF i imatge a escala de grisos i linealitza el document PDF per al web",
-    "content5": "Especifiqueu el nivell d'adreces d'interès, el nivell d'encapçalament i el nivell ampliat a la conversió de Word a PDF/XPS",
-    "content6": "Configura i col·loca la marca d'aigua al document convertit com a fons per mostrar-lo darrere del text",
-    "content7": "Mostra la capçalera del correu electrònic durant la conversió des del correu electrònic",
-    "content8": "Establiu directoris de tipus de lletra personalitzats i carregueu/substituïu el tipus de lletra de manera explícita durant la conversió del document",
-    "content9": "Estableix el tipus de lletra predeterminat per substituir els tipus de lletra que falten per a la conversió de documents, diapositives i fulls de càlcul",
-    "content10": "Mètodes de conversió avançats per tornar la sortida com a ruta o flux d'E/S",
-    "content11": "Converteix el full de càlcul amb línies de quadrícula i elimina els comentaris de les diapositives durant la conversió",
-    "content12": "Converteix pàgines de documents específiques en format PDF i converteix un rang de cel·les específic en fulls de càlcul",
-    "content13": "Mostra els fulls ocults i salta les files i columnes buides mentre converteixes els fulls de càlcul",
-    "content14": "Compteu el total de pàgines d'un document i configureu la contrasenya com a document no protegit durant la conversió",
-    "content15": "Opció per eliminar anotacions i fitxers incrustats del PDF",
-    "content16": "Creeu un marcatge compatible amb HTML 5 quan feu la conversió a HTML",
-    "content17": "Detecteu automàticament el tipus de font i retorneu totes les conversions possibles quan feu una conversió des del tauler d'activitat",
-    "content18": "Possibilitat de tornar cada pàgina en un flux separat mentre es converteix a PDF o HTML",
-    "content19": "Mostra/amaga el marcatge, els comentaris i el seguiment dels canvis durant la conversió de Word",
-    "content20": "Conversió DOCX a Tiff G3 amb opció d'ombrejat",
-    "content21": "Converteix dissenys específics en convertir un document CAD",
-    "content22": "Denominació automàtica en desar el document convertit al fitxer",
-    "content23": "Llicència mesurada admesa per facturar en funció de l'ús de l'API",
-    "content24": "Converteix diagrames a formats de fitxer de processament de textos",
-    "content25": "Afegiu números de pàgina mentre convertiu HTML a document de processament de textos",
-    "content26": "Converteix documents XML a qualsevol format sense transformació",
-    "content27": "Superviseu el progrés de la conversió de fitxers (inici, finalització) directament des de l'aplicació del client",
-    "more_feature": {
-      "title1": "Fàcil conversió de format de document mitjançant Java",
-      "content1": "Podeu convertir el format de fitxer d'una multitud de tipus de documents mitjançant l'API {{ProductFullName}}. Aquí se us presenten unes quantes línies de codi per realitzar una conversió bàsica de documents amb Java.",
-      "step_1": "Creeu una instància de la classe Converter i proporcioneu el fitxer amb el camí complet",
-      "step_2": "Creeu i configureu ConvertOptions per al tipus d'objectiu desitjat.",
-      "step_3": "Truqueu al mètode Converter.Convert i passeu el camí i el format complets com a paràmetre",
-      "title2": "Llegiu el document des de l'URL o el camí per a la conversió",
-      "content2": "Mitjançant l'API {{ProductFullName}}, podeu llegir el document d'entrada des d'una ruta de fitxer així com un URL. Tot i que podeu desar el document de sortida com a fitxer o enviar la sortida directament a un flux.",
-      "title3": "Suport tècnic integral",
-      "content3": "{{ProductFullName}} és una API senzilla i precisa que podeu integrar a les vostres aplicacions basades en Java amb força facilitat. Tanmateix, per posar-vos en marxa en poc temps, també oferim mostres de codi fàcils de seguir i una documentació completa de l'API."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion ofereix API de conversió de documents per a altres entorns de desenvolupament populars",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion per a .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".NET",
-      "link": "/conversion/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Carregueu el fitxer font {{FROM}} per a la conversió",
-      "prepare_comment": "Prepareu opcions de conversió per al format objectiu {{TO}}",
-      "convert_comment": "Converteix al format {{TO}}"
-    }
+  "release": {
+    "title": "S'ha publicat la versió {0}",
+    "notes": "Mira què hi ha de nou",
+    "downloads": "Descàrregues"
   }
 }

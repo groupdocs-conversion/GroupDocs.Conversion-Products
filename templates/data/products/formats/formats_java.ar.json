@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "تنسيقات الملفات المدعومة",
+    "description": "يدعم GroupDocs.Conversion for Java العمليات باستخدام [تنسيقات الملفات] التالية (https://docs.groupdocs.com/conversion/java/supported-file-formats/).",
+    "groups": {
+      "title_1": "تنسيقات المستندات",
+      "title_2": "الصور والوسائط المتعددة",
+      "title_3": "تنسيقات أخرى",
+      "format_documents": "وثائق",
+      "format_images": "الصور",
+      "format_diagram": "رسم بياني",
+      "format_cad_gis": "CAD ونظم المعلومات الجغرافية",
+      "format_audio": "صوتي",
+      "format_video": "فيديو",
+      "format_vector_3d": "3D وناقلات",
+      "format_web": "ويب",
+      "format_archives": "أرشيف",
+      "format_email_outlook": "البريد الإلكتروني والتوقعات",
+      "format_finance": "تمويل"
+    }
+  }
+}

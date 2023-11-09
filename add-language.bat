@@ -19,7 +19,10 @@ goto :MAIN
         
         echo Adding %language% language for %fileName%
         Res.Translator.exe -r %englishSource% -d %language%  --overwrite
-        del %folder%\%targetFile%
+        
+        if exist "%folder%\%targetFile%" (
+            del %folder%\%targetFile%
+        )
         ren %redundantFile% %targetFile%
     ENDLOCAL
 goto :eof

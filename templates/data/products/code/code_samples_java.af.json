@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Kode monsters",
+    "description": "Sommige gebruik gevalle van tipiese GroupDocs.Conversion vir Java-bewerkings",
+    "sample_1": {
+      "title": "Skakel PDF na beeld om",
+      "content_1": "'n Algemene scenario behels die omskakeling van 'n hele PDF-dokument of spesifieke bladsye in 'n versameling beelde. GroupDocs.Conversion for Java bied die vermoë om PDF's in verskeie beeldformate om te skakel, soos TIFF, JPG, PNG, GIF, BMP, en meer.",
+      "content_2": "Anders as ander omskakelings, vereis hierdie proses die verklaring van 'n SavePageStream-afgevaardigde, wat die naamformaat vir die gestoorde beelde spesifiseer. Jy kan jou voorkeurbeeldformaat kies deur die ImageFileType-klas te gebruik.",
+      "code_title": "Omskakeling van PDF na PNG in Java",
+      "comment_1": "Laai die bron-PDF-lêer",
+      "comment_2": "Stel die omskakelopsies vir PNG-formaat in",
+      "comment_3": "Skakel om na PNG-formaat",
+      "alternative_content_1": "Alternatiewelik kan jy dieselfde bereik deur vlot sintaksis te gebruik:",
+      "alternative_code_title": "Omskakeling van PDF na PNG in Java met behulp van vlot sintaksis:"
+    },
+    "sample_2": {
+      "title": "Omskakeling van 'n segment van 'n groot dokument",
+      "content_1": "Met GroupDocs.Conversion vir Java kan jy moeiteloos spesifieke bladsye van 'n lang dokument omskakel.",
+      "content_2": "Jy het twee metodes om dit te bereik, afhangende van jou vereistes. Jy kan óf 'n reeks bladsye omskakel óf spesifieke bladsye omskakel.",
+      "code_title_1": "Skakel 'n opeenvolgende reeks bladsye om",
+      "code_title_2": "Skakel spesifieke bladsye om"
+    }
+  }
+}

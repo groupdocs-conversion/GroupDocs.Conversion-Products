@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion in 'n oogopslag",
+    "description": "Kragtige omskakelings-API om PDF-, Microsoft Office-, HTML-, e-boek- en beeldlêers in Javascript-toepassings om te skakel",
+    "feature_1": {
+      "title": "Gestroomlynde omskakeling",
+      "description": "Inkorporeer moeitelose lêeromskakeling in jou javascript-projekte deur GroupDocs.Conversion vir Node.js via Java te gebruik. Soomlose oorgang tussen formate vir verbeterde versoenbaarheid."
+    },
+    "feature_2": {
+      "title": "Buigsame integrasie",
+      "description": "Vereenvoudig die integrasie van PDF- en Office-lêeromskakeling. GroupDocs.Conversion vir Node.js via Java verbeter die veelsydigheid van jou toepassings."
+    },
+    "feature_3": {
+      "title": "Betroubare transformasie",
+      "description": "Verseker presiese omskakelings terwyl kwaliteit gehandhaaf word. GroupDocs.Conversion vir Node.js via Java waarborg betroubare transformasies van lêerformate."
+    }
+  }
+}

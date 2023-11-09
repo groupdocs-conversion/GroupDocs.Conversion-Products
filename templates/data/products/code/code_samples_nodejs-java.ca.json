@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Exemples de codi",
+    "description": "Alguns casos d'ús de GroupDocs.Conversion per a Node.js típics mitjançant operacions Java",
+    "sample_1": {
+      "title": "Converteix PDF a Imatge",
+      "content_1": "Un escenari que es troba habitualment consisteix a convertir un document PDF sencer o pàgines específiques en una col·lecció d'imatges. GroupDocs.Conversion per a Node.js mitjançant Java ofereix la capacitat de convertir PDF en diversos formats d'imatge, com ara TIFF, JPG, PNG, GIF, BMP i molt més.",
+      "content_2": "A diferència d'altres conversions, aquest procés requereix la declaració d'un delegat de SavePageStream, que especifica el format de nom per a les imatges desades. Podeu seleccionar el vostre format d'imatge preferit mitjançant la classe ImageFileType.",
+      "code_title": "Convertir PDF a PNG en Javascript",
+      "comment_1": "Carregueu el fitxer PDF d'origen",
+      "comment_2": "Estableix les opcions de conversió per al format PNG",
+      "comment_3": "Converteix a format PNG",
+      "alternative_content_1": "Alternativament, podeu aconseguir el mateix amb una sintaxi fluida:",
+      "alternative_code_title": "Convertir PDF a PNG en Javascript utilitzant una sintaxi fluida:"
+    },
+    "sample_2": {
+      "title": "Conversió d'un segment d'un document gran",
+      "content_1": "Amb GroupDocs.Conversion per a Node.js mitjançant Java, podeu convertir pàgines específiques d'un document extens sense esforç.",
+      "content_2": "Teniu dos mètodes per aconseguir-ho, depenent dels vostres requisits. Podeu convertir una sèrie de pàgines o convertir pàgines específiques.",
+      "code_title_1": "Converteix un rang consecutiu de pàgines",
+      "code_title_2": "Converteix pàgines específiques"
+    }
+  }
+}

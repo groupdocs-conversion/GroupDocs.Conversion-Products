@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "{{ProgLang}} Dokumentomskakeling-API | Skakel PDF Word Excel PPTX HTML-beelde om",
+    "description": "{{ProgLang}} Dokumentomskakeling-API. Omskep PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-pos MSG EMLX, AutoCAD en beeldlêerformate."
+  },
+  "header": {
+    "title_1": "Dokumentomskakeling",
+    "title_2": "via Node.js API",
+    "description": "Kragtige omskakelings-API om PDF-, Microsoft Office-, HTML-, e-boek- en beeldlêers om te skakel",
+    "words": {
+      "for": "vir"
+    }
+  },
+  "actions": {
+    "main": "Gratis NuGet-aflaai",
+    "alt": "Lisensiëring",
+    "title": "Gereed om te begin?",
+    "description": "Probeer GroupDocs.Conversion-kenmerke gratis of versoek 'n lisensie"
+  },
+  "release": {
+    "title": "Weergawe {0}  vrygestel",
+    "notes": "Kyk wat nuut is",
+    "downloads": "Aflaaie"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "{{ProgLang}} ሰነድ ልወጣ API | ፒዲኤፍ ቃል ኤክሴል PPTX HTML ምስሎችን ቀይር",
+    "description": "{{ProgLang}} ሰነድ ልወጣ ኤፒአይ። PDF Word DOC DOCX፣ Excel ተመን ሉሆች PPT PPTX፣ HTML፣ PSD፣ MPT MPP፣ ኢሜል MSG EMLX፣ AutoCAD እና የምስል ፋይል ቅርጸቶችን ቀይር።"
+  },
+  "header": {
+    "title_1": "የሰነድ ለውጥ",
+    "title_2": "በ Node.js API በኩል",
+    "description": "ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ ኤችቲኤምኤል፣ ኢመጽሐፍ እና የምስል ፋይሎችን ለመቀየር ኃይለኛ የልወጣ ኤፒአይ",
+    "words": {
+      "for": "ለ"
+    }
+  },
+  "actions": {
+    "main": "ነጻ NuGet ማውረድ",
+    "alt": "ፍቃድ መስጠት",
+    "title": "ለመጀመር ዝግጁ ነዎት?",
+    "description": "GroupDocs.Conversion ባህሪያትን በነጻ ይሞክሩ ወይም ፍቃድ ይጠይቁ"
+  },
+  "release": {
+    "title": "ስሪት {0} ተለቅቋል",
+    "notes": "ምን አዲስ ነገር እንዳለ ይመልከቱ",
+    "downloads": "ውርዶች"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.ልወጣ በጨረፍታ",
+    "description": "ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ ኤችቲኤምኤል፣ ኢመጽሐፍ እና ምስል ፋይሎችን በ NET መተግበሪያዎች ለመለወጥ ኃይለኛ የልወጣ ኤፒአይ",
+    "feature_1": {
+      "title": "የተስተካከለ ልወጣ",
+      "description": "GroupDocs.Conversion for .NET በመጠቀም ልፋት የሌለበት የፋይል ልወጣን ወደ የእርስዎ C# ፕሮጀክቶች አካትት። ለተሻሻለ ተኳሃኝነት በቅርጸቶች መካከል ያለችግር ሽግግር።"
+    },
+    "feature_2": {
+      "title": "ተለዋዋጭ ውህደት",
+      "description": "የፒዲኤፍ እና የቢሮ ፋይል ቅየራ ውህደትን ቀለል ያድርጉት። GroupDocs.Conversion for NET የመተግበሪያዎችዎን ሁለገብነት ያሻሽላል።"
+    },
+    "feature_3": {
+      "title": "ጥገኛ ለውጥ",
+      "description": "ጥራትን በመጠበቅ ትክክለኛ ልወጣዎችን ያረጋግጡ። GroupDocs.Conversion for NET የፋይል ቅርጸቶችን አስተማማኝ ለውጦችን ዋስትና ይሰጣል።"
+    }
+  }
+}

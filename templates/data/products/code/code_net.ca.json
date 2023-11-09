@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Com convertir fitxers PDF en C#",
+    "more": "Més exemples",
+    "notes": "Mira què hi ha de nou",
+    "comment_1": "Carregueu el fitxer PDF d'origen",
+    "comment_2": "Establiu les opcions de conversió per al format DOCX",
+    "comment_3": "Converteix a format DOCX"
+  }
+}

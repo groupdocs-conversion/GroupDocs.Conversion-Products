@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-13T11:45:04
+date: 2023-11-13T12:50:49
 draft: false
 
 product: "Conversion"
@@ -213,10 +213,14 @@ code_samples:
         እንደሌሎች ልወጣዎች ይህ ሂደት የSavePageStream ውክልና ማወጅ ይጠይቃል፣ይህም ለተቀመጡ ምስሎች የስያሜ ቅርጸቱን ይገልጻል። ImageFileType ክፍልን በመጠቀም የመረጡትን የምስል ቅርጸት መምረጥ ይችላሉ።
         {{< landing/code title="በC# ውስጥ ፒዲኤፍ ወደ PNG በመቀየር ላይ">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.FileTypes;
+        using GroupDocs.Conversion.Options.Convert;
+
         // የምንጭ ፒዲኤፍ ፋይልን ጫን
         using (var converter = new Converter("sample.pdf"))
         {
-          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+          var getPageStream = (int page) => File.Create($"converted-page-{page}.png");
 
           // ለ PNG ቅርጸት የመቀየሪያ አማራጮችን ያዘጋጁ
           var options = new ImageConvertOptions { 
@@ -236,9 +240,12 @@ code_samples:
         ይህንን ለማከናወን ሁለት መንገዶች አሉዎት, እንደ ፍላጎቶችዎ ይወሰናል. የተለያዩ ገጾችን መለወጥ ወይም የተወሰኑ ገጾችን መለወጥ ይችላሉ።
         {{< landing/code title="ተከታታይ ገጾችን ቀይር">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.Options.Convert;
+        
         using (Converter converter = new Converter("sample.docx"))
         {
-           PdfConvertOptions options = new PdfConvertOptions { 
+           var options = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
@@ -253,7 +260,9 @@ code_samples:
         ቅልጥፍና ያለው አገባብ በቡድን ዶcs.Conversion for .NET API ውስጥ ለሚደረጉ የተለመዱ ድርጊቶች አጭር መግለጫ ይሰጣል። 
         ከታች ያሉት የኮድ ናሙናዎች አቀላጥፈውን አገባብ እንዴት መጠቀም እንደሚቻል ያሳያሉ፡-
         {{< landing/code title="ምሳሌ 1፡ አቀላጥፎ አገባብ በመጠቀም DOCX ወደ ፒዲኤፍ ቀይር">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}  
+        using GroupDocs.Conversion;
+
         FluentConverter
             .Load("sample.docx")
             .ConvertTo("converted.pdf")

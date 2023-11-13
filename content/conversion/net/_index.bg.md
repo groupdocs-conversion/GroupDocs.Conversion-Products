@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-13T11:45:04
+date: 2023-11-13T12:50:49
 draft: false
 
 product: "Conversion"
@@ -213,10 +213,14 @@ code_samples:
         За разлика от други преобразувания, този процес изисква декларирането на делегат SavePageStream, който указва формата за именуване на запазените изображения. Можете да изберете предпочитания от вас формат на изображение с помощта на класа ImageFileType.
         {{< landing/code title="Конвертиране на PDF в PNG в C#">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.FileTypes;
+        using GroupDocs.Conversion.Options.Convert;
+
         // Заредете изходния PDF файл
         using (var converter = new Converter("sample.pdf"))
         {
-          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+          var getPageStream = (int page) => File.Create($"converted-page-{page}.png");
 
           // Задайте опциите за конвертиране за PNG формат
           var options = new ImageConvertOptions { 
@@ -236,9 +240,12 @@ code_samples:
         Имате два метода да постигнете това, в зависимост от вашите изисквания. Можете или да конвертирате набор от страници, или да конвертирате конкретни страници.
         {{< landing/code title="Преобразувайте последователен диапазон от страници">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.Options.Convert;
+        
         using (Converter converter = new Converter("sample.docx"))
         {
-           PdfConvertOptions options = new PdfConvertOptions { 
+           var options = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
@@ -253,7 +260,9 @@ code_samples:
         Синтаксисът на Fluent предлага кратка нотация за общи действия в рамките на GroupDocs.Conversion за .NET API. 
         Примерите на код по-долу демонстрират как да използвате плавния синтаксис:
         {{< landing/code title="Пример 1: Конвертирайте DOCX в PDF с помощта на плавен синтаксис">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}  
+        using GroupDocs.Conversion;
+
         FluentConverter
             .Load("sample.docx")
             .ConvertTo("converted.pdf")

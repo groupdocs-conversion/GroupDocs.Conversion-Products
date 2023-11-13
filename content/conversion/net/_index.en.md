@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-13T11:45:05
+date: 2023-11-13T12:50:49
 draft: false
 
 product: "Conversion"
@@ -78,7 +78,7 @@ overview:
 
     # feature loop
     - title: "Cross-platform Compatibility"
-      content: "{overview.feature_3.description}"
+      content: "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
 
 ############################# Platforms ############################
 platforms:
@@ -213,10 +213,14 @@ code_samples:
         Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
         {{< landing/code title="Convert PDF to PNG in C#">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.FileTypes;
+        using GroupDocs.Conversion.Options.Convert;
+
         // Load the source PDF file
         using (var converter = new Converter("sample.pdf"))
         {
-          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+          var getPageStream = (int page) => File.Create($"converted-page-{page}.png");
 
           // Set the convert options for PNG format
           var options = new ImageConvertOptions { 
@@ -236,9 +240,12 @@ code_samples:
         You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.
         {{< landing/code title="Convert a consecutive range of pages">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.Options.Convert;
+        
         using (Converter converter = new Converter("sample.docx"))
         {
-           PdfConvertOptions options = new PdfConvertOptions { 
+           var options = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
@@ -253,7 +260,9 @@ code_samples:
         Fluent syntax offers a concise notation for common actions within the GroupDocs.Conversion for .NET API. 
         The code samples below demonstrate how to leverage the fluent syntax:
         {{< landing/code title="Convert DOCX to PDF using fluent syntax">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}  
+        using GroupDocs.Conversion;
+
         FluentConverter
             .Load("sample.docx")
             .ConvertTo("converted.pdf")

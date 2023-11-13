@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-13T11:45:04
+date: 2023-11-13T12:50:49
 draft: false
 
 product: "Conversion"
@@ -213,10 +213,14 @@ code_samples:
         A diferència d'altres conversions, aquest procés requereix la declaració d'un delegat de SavePageStream, que especifica el format de nom per a les imatges desades. Podeu seleccionar el vostre format d'imatge preferit mitjançant la classe ImageFileType.
         {{< landing/code title="Convertir PDF a PNG en C#">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.FileTypes;
+        using GroupDocs.Conversion.Options.Convert;
+
         // Carregueu el fitxer PDF d'origen
         using (var converter = new Converter("sample.pdf"))
         {
-          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+          var getPageStream = (int page) => File.Create($"converted-page-{page}.png");
 
           // Estableix les opcions de conversió per al format PNG
           var options = new ImageConvertOptions { 
@@ -236,9 +240,12 @@ code_samples:
         Teniu dos mètodes per aconseguir-ho, depenent dels vostres requisits. Podeu convertir una sèrie de pàgines o convertir pàgines específiques.
         {{< landing/code title="Converteix un rang consecutiu de pàgines">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.Options.Convert;
+        
         using (Converter converter = new Converter("sample.docx"))
         {
-           PdfConvertOptions options = new PdfConvertOptions { 
+           var options = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
@@ -253,7 +260,9 @@ code_samples:
         La sintaxi fluida ofereix una notació concisa per a les accions habituals dins de l'API GroupDocs.Conversion per a .NET. 
         Els exemples de codi següents mostren com aprofitar la sintaxi fluida:
         {{< landing/code title="Exemple 1: Converteix DOCX a PDF utilitzant una sintaxi fluida">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}  
+        using GroupDocs.Conversion;
+
         FluentConverter
             .Load("sample.docx")
             .ConvertTo("converted.pdf")

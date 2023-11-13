@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-13T11:45:04
+date: 2023-11-13T12:50:49
 draft: false
 
 product: "Conversion"
@@ -213,10 +213,14 @@ code_samples:
         {code_samples.sample_1.content_2}
         {{< landing/code title="{code_samples.sample_1.code_title}">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.FileTypes;
+        using GroupDocs.Conversion.Options.Convert;
+
         // {code_samples.sample_1.comment_1}
         using (var converter = new Converter("sample.pdf"))
         {
-          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+          var getPageStream = (int page) => File.Create($"converted-page-{page}.png");
 
           // {code_samples.sample_1.comment_2}
           var options = new ImageConvertOptions { 
@@ -236,9 +240,12 @@ code_samples:
         {code_samples.sample_2.content_2}
         {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.Options.Convert;
+        
         using (Converter converter = new Converter("sample.docx"))
         {
-           PdfConvertOptions options = new PdfConvertOptions { 
+           var options = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
@@ -253,7 +260,9 @@ code_samples:
         {code_samples.sample_3.content_1} 
         {code_samples.sample_3.content_2}
         {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}  
+        using GroupDocs.Conversion;
+
         FluentConverter
             .Load("sample.docx")
             .ConvertTo("converted.pdf")

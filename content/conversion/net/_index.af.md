@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-13T11:45:04
+date: 2023-11-13T12:50:49
 draft: false
 
 product: "Conversion"
@@ -213,10 +213,14 @@ code_samples:
         Anders as ander omskakelings, vereis hierdie proses die verklaring van 'n SavePageStream-afgevaardigde, wat die naamformaat vir die gestoorde beelde spesifiseer. Jy kan jou voorkeurbeeldformaat kies deur die ImageFileType-klas te gebruik.
         {{< landing/code title="Skakel PDF na PNG om in C#">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.FileTypes;
+        using GroupDocs.Conversion.Options.Convert;
+
         // Laai die bron-PDF-lêer
         using (var converter = new Converter("sample.pdf"))
         {
-          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+          var getPageStream = (int page) => File.Create($"converted-page-{page}.png");
 
           // Stel die omskakelopsies vir PNG-formaat in
           var options = new ImageConvertOptions { 
@@ -236,9 +240,12 @@ code_samples:
         Jy het twee metodes om dit te bereik, afhangende van jou vereistes. Jy kan óf 'n reeks bladsye omskakel óf spesifieke bladsye omskakel.
         {{< landing/code title="Skakel 'n opeenvolgende reeks bladsye om">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.Options.Convert;
+        
         using (Converter converter = new Converter("sample.docx"))
         {
-           PdfConvertOptions options = new PdfConvertOptions { 
+           var options = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
@@ -253,7 +260,9 @@ code_samples:
         Vlot sintaksis bied 'n bondige notasie vir algemene aksies binne die GroupDocs.Conversion for .NET API. 
         Die kodevoorbeelde hieronder demonstreer hoe om die vlot sintaksis te benut:
         {{< landing/code title="Voorbeeld 1: Skakel DOCX na PDF om deur vlot sintaksis te gebruik">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}  
+        using GroupDocs.Conversion;
+
         FluentConverter
             .Load("sample.docx")
             .ConvertTo("converted.pdf")

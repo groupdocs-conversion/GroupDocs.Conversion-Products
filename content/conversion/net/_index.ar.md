@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-13T11:45:04
+date: 2023-11-13T12:50:49
 draft: false
 
 product: "Conversion"
@@ -213,10 +213,14 @@ code_samples:
         على عكس التحويلات الأخرى، تتطلب هذه العملية تصريحًا من مفوض SavePageStream، الذي يحدد تنسيق التسمية للصور المحفوظة. يمكنك تحديد تنسيق الصورة المفضل لديك باستخدام فئة ImageFileType.
         {{< landing/code title="تحويل PDF إلى PNG في C#">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.FileTypes;
+        using GroupDocs.Conversion.Options.Convert;
+
         // قم بتحميل ملف PDF المصدر
         using (var converter = new Converter("sample.pdf"))
         {
-          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+          var getPageStream = (int page) => File.Create($"converted-page-{page}.png");
 
           // اضبط خيارات التحويل لتنسيق PNG
           var options = new ImageConvertOptions { 
@@ -236,9 +240,12 @@ code_samples:
         لديك طريقتان لتحقيق ذلك، حسب متطلباتك. يمكنك إما تحويل نطاق من الصفحات أو تحويل صفحات معينة.
         {{< landing/code title="تحويل مجموعة متتالية من الصفحات">}}
         ```csharp {style=abap}   
+        using GroupDocs.Conversion;
+        using GroupDocs.Conversion.Options.Convert;
+        
         using (Converter converter = new Converter("sample.docx"))
         {
-           PdfConvertOptions options = new PdfConvertOptions { 
+           var options = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
@@ -253,7 +260,9 @@ code_samples:
         يقدم البناء السلس تدوينًا موجزًا ​​للإجراءات الشائعة داخل GroupDocs.Conversion for .NET API. 
         توضح نماذج التعليمات البرمجية أدناه كيفية الاستفادة من بناء الجملة بطلاقة:
         {{< landing/code title="مثال 1: تحويل DOCX إلى PDF باستخدام بناء الجملة بطلاقة">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}  
+        using GroupDocs.Conversion;
+
         FluentConverter
             .Load("sample.docx")
             .ConvertTo("converted.pdf")

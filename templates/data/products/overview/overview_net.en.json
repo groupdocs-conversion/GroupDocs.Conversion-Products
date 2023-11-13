@@ -12,7 +12,7 @@
     },
     "feature_3": {
       "title": "Cross-platform Compatibility",
-      "content": "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
+      "description": "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
     }
   }
 }

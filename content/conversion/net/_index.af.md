@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:57
+date: 2023-11-13T11:45:04
 draft: false
 
 product: "Conversion"
@@ -200,16 +200,6 @@ features:
       title: "Omskep dokumente uit argiewe"
       content: "Onttrek en omskep dokumente uit argiewe, wat die transformasie van inhoud in saamgeperste lêers moontlik maak."
 
-      # feature loop
-    - icon: "preview"
-      title: "Kruisplatform-versoenbaarheid"
-      content: "Begin omskakelings op Windows-, Linux- en macOS-platforms om voorsiening te maak vir 'n breër gebruikersbasis."
-
-      # feature loop
-    - icon: "preview"
-      title: "Meter Lisensiëring Ondersteun"
-      content: "Meter Lisensiëring Ondersteun om gefaktureer te word gebaseer op die gebruik van die API"
-
 ############################# Code samples ############################
 code_samples:
   enable: true
@@ -239,20 +229,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-    # code sample loop        
-    - title: ""
-      content: |
-        Alternatiewelik kan jy dieselfde bereik deur vlot sintaksis te gebruik:
-        {{< landing/code title="Omskakeling van PDF na PNG in C# met behulp van vlot sintaksis:">}}
-        ```csharp {style=abap}   
-        FluentConverter
-          .Load("sample.pdf")
-          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
-          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
-          .Convert();
-        ```
-        {{< /landing/code >}}        
-
     # code sample loop
     - title: "Omskakeling van 'n segment van 'n groot dokument"
       content: |
@@ -271,17 +247,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="Skakel spesifieke bladsye om">}}
-        ```csharp {style=abap}   
-        using (Converter converter = new Converter("sample.docx"))
-        {
-           PdfConvertOptions options = new PdfConvertOptions { 
-                                             Pages = new List<int>{ 1, 3 } 
-                                       };
-           converter.Convert("converted.pdf", options); 
-        }  
-        ```
-        {{< /landing/code >}}
     # code sample loop
     - title: "Vlot sintaksis: 'n vaartbelynde benadering"
       content: |
@@ -293,29 +258,6 @@ code_samples:
             .Load("sample.docx")
             .ConvertTo("converted.pdf")
             .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Voorbeeld 2: Skakel PDF na DOCX om deur omskakelaarinstellings, laaiopsies en omskakelopsies te spesifiseer deur vlot sintaksis te gebruik">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .WithSettings(() => new ConverterSettings())
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertTo("converted.docx")
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Voorbeeld 3: Skakel PDF na DOCX bladsy vir bladsy om deur vlot sintaksis te gebruik">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();  
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:58
+date: 2023-11-13T11:45:04
 draft: false
 
 product: "Conversion"
@@ -200,16 +200,6 @@ features:
       title: "Converteix documents d'arxius"
       content: "Extraieu i convertiu documents d'arxius, permetent la transformació del contingut emmagatzemat en fitxers comprimits."
 
-      # feature loop
-    - icon: "preview"
-      title: "Compatibilitat multiplataforma"
-      content: "Executeu conversions a les plataformes Windows, Linux i macOS per atendre una base d'usuaris més àmplia."
-
-      # feature loop
-    - icon: "preview"
-      title: "Admet llicències mesurades"
-      content: "Llicència mesurada admesa per facturar en funció de l'ús de l'API"
-
 ############################# Code samples ############################
 code_samples:
   enable: true
@@ -239,20 +229,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-    # code sample loop        
-    - title: ""
-      content: |
-        Alternativament, podeu aconseguir el mateix amb una sintaxi fluida:
-        {{< landing/code title="Convertir PDF a PNG en C# mitjançant una sintaxi fluida:">}}
-        ```csharp {style=abap}   
-        FluentConverter
-          .Load("sample.pdf")
-          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
-          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
-          .Convert();
-        ```
-        {{< /landing/code >}}        
-
     # code sample loop
     - title: "Conversió d'un segment d'un document gran"
       content: |
@@ -271,17 +247,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="Converteix pàgines específiques">}}
-        ```csharp {style=abap}   
-        using (Converter converter = new Converter("sample.docx"))
-        {
-           PdfConvertOptions options = new PdfConvertOptions { 
-                                             Pages = new List<int>{ 1, 3 } 
-                                       };
-           converter.Convert("converted.pdf", options); 
-        }  
-        ```
-        {{< /landing/code >}}
     # code sample loop
     - title: "Sintaxi fluida: un enfocament simplificat"
       content: |
@@ -293,29 +258,6 @@ code_samples:
             .Load("sample.docx")
             .ConvertTo("converted.pdf")
             .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Exemple 2: Converteix PDF a DOCX especificant la configuració del convertidor, les opcions de càrrega i les opcions de conversió mitjançant una sintaxi fluida">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .WithSettings(() => new ConverterSettings())
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertTo("converted.docx")
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Exemple 3: Converteix PDF a DOCX pàgina per pàgina utilitzant una sintaxi fluida">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();  
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

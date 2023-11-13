@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:58
+date: 2023-11-13T11:45:04
 draft: false
 
 product: "Conversion"
@@ -200,16 +200,6 @@ features:
       title: "تحويل المستندات من الأرشيف"
       content: "استخراج وتحويل المستندات من الأرشيف، مما يتيح تحويل المحتوى المخزن داخل الملفات المضغوطة."
 
-      # feature loop
-    - icon: "preview"
-      title: "التوافق عبر الأنظمة الأساسية"
-      content: "قم بإجراء التحويلات على منصات Windows وLinux وmacOS لتلبية احتياجات قاعدة مستخدمين أوسع."
-
-      # feature loop
-    - icon: "preview"
-      title: "دعم الترخيص المقنن"
-      content: "يتم دعم الترخيص المقنن ليتم إصدار فاتورة به بناءً على استخدام واجهة برمجة التطبيقات (API)."
-
 ############################# Code samples ############################
 code_samples:
   enable: true
@@ -239,20 +229,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-    # code sample loop        
-    - title: ""
-      content: |
-        وبدلاً من ذلك، يمكنك تحقيق نفس الشيء باستخدام بناء الجملة بطلاقة:
-        {{< landing/code title="تحويل PDF إلى PNG في C# باستخدام بناء الجملة بطلاقة:">}}
-        ```csharp {style=abap}   
-        FluentConverter
-          .Load("sample.pdf")
-          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
-          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
-          .Convert();
-        ```
-        {{< /landing/code >}}        
-
     # code sample loop
     - title: "تحويل جزء من وثيقة كبيرة"
       content: |
@@ -271,17 +247,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="تحويل صفحات محددة">}}
-        ```csharp {style=abap}   
-        using (Converter converter = new Converter("sample.docx"))
-        {
-           PdfConvertOptions options = new PdfConvertOptions { 
-                                             Pages = new List<int>{ 1, 3 } 
-                                       };
-           converter.Convert("converted.pdf", options); 
-        }  
-        ```
-        {{< /landing/code >}}
     # code sample loop
     - title: "بناء الجملة بطلاقة: نهج مبسط"
       content: |
@@ -293,29 +258,6 @@ code_samples:
             .Load("sample.docx")
             .ConvertTo("converted.pdf")
             .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="المثال 2: تحويل PDF إلى DOCX عن طريق تحديد إعدادات المحول وخيارات التحميل وخيارات التحويل باستخدام بناء الجملة بطلاقة">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .WithSettings(() => new ConverterSettings())
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertTo("converted.docx")
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="مثال 3: تحويل PDF إلى DOCX صفحة تلو الأخرى باستخدام بناء الجملة بطلاقة">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();  
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

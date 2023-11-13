@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:58
+date: 2023-11-13T11:45:04
 draft: false
 
 product: "Conversion"
@@ -200,16 +200,6 @@ features:
       title: "{features.feature_9.title}"
       content: "{features.feature_9.content}"
 
-      # feature loop
-    - icon: "preview"
-      title: "{features.feature_10.title}"
-      content: "{features.feature_10.content}"
-
-      # feature loop
-    - icon: "preview"
-      title: "{features.feature_11.title}"
-      content: "{features.feature_11.content}"
-
 ############################# Code samples ############################
 code_samples:
   enable: true
@@ -239,20 +229,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-    # code sample loop        
-    - title: ""
-      content: |
-        {code_samples.sample_1.alternative_content_1}
-        {{< landing/code title="{code_samples.sample_1.alternative_code_title}">}}
-        ```csharp {style=abap}   
-        FluentConverter
-          .Load("sample.pdf")
-          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
-          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
-          .Convert();
-        ```
-        {{< /landing/code >}}        
-
     # code sample loop
     - title: "{code_samples.sample_2.title}"
       content: |
@@ -271,17 +247,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
-        ```csharp {style=abap}   
-        using (Converter converter = new Converter("sample.docx"))
-        {
-           PdfConvertOptions options = new PdfConvertOptions { 
-                                             Pages = new List<int>{ 1, 3 } 
-                                       };
-           converter.Convert("converted.pdf", options); 
-        }  
-        ```
-        {{< /landing/code >}}
     # code sample loop
     - title: "{code_samples.sample_3.title}"
       content: |
@@ -293,29 +258,6 @@ code_samples:
             .Load("sample.docx")
             .ConvertTo("converted.pdf")
             .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="{code_samples.sample_3.code_title_2}">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .WithSettings(() => new ConverterSettings())
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertTo("converted.docx")
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="{code_samples.sample_3.code_title_3}">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();  
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

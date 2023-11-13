@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:57
+date: 2023-11-13T11:45:04
 draft: false
 
 product: "Conversion"
@@ -204,16 +204,6 @@ features:
     - icon: "preview"
       title: "Omskep dokumente uit argiewe"
       content: "Onttrek en omskep dokumente uit argiewe, wat die transformasie van inhoud in saamgeperste lêers moontlik maak."
-
-      # feature loop
-    - icon: "preview"
-      title: "Kruisplatform-versoenbaarheid"
-      content: "Begin omskakelings op Windows-, Linux- en macOS-platforms om voorsiening te maak vir 'n breër gebruikersbasis."
-
-      # feature loop
-    - icon: "preview"
-      title: "Meter Lisensiëring Ondersteun"
-      content: "Meter Lisensiëring Ondersteun om gefaktureer te word gebaseer op die gebruik van die API"
 
 ############################# Code samples ############################
 code_samples:

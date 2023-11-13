@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:58
+date: 2023-11-13T11:45:04
 draft: false
 
 product: "Conversion"
@@ -200,16 +200,6 @@ features:
     - icon: "preview"
       title: "{features.feature_9.title}"
       content: "{features.feature_9.content}"
-
-      # feature loop
-    - icon: "preview"
-      title: "{features.feature_10.title}"
-      content: "{features.feature_10.content}"
-
-      # feature loop
-    - icon: "preview"
-      title: "{features.feature_11.title}"
-      content: "{features.feature_11.content}"
 
 ############################# Code samples ############################
 code_samples:

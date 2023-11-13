@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:58
+date: 2023-11-13T11:45:04
 draft: false
 
 product: "Conversion"
@@ -200,16 +200,6 @@ features:
       title: "Конвертиране на документи от архиви"
       content: "Извличайте и конвертирайте документи от архиви, позволявайки трансформирането на съдържанието, съхранявано в компресирани файлове."
 
-      # feature loop
-    - icon: "preview"
-      title: "Съвместимост между платформи"
-      content: "Изпълнявайте реализации на платформи Windows, Linux и macOS, за да се погрижите за по-широка потребителска база."
-
-      # feature loop
-    - icon: "preview"
-      title: "Поддържано лицензиране с измерване"
-      content: "Измерено лицензиране Поддържа се таксуване въз основа на използването на API"
-
 ############################# Code samples ############################
 code_samples:
   enable: true
@@ -239,20 +229,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-    # code sample loop        
-    - title: ""
-      content: |
-        Като алтернатива можете да постигнете същото, като използвате плавен синтаксис:
-        {{< landing/code title="Конвертиране на PDF в PNG в C# с помощта на плавен синтаксис:">}}
-        ```csharp {style=abap}   
-        FluentConverter
-          .Load("sample.pdf")
-          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
-          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
-          .Convert();
-        ```
-        {{< /landing/code >}}        
-
     # code sample loop
     - title: "Конвертиране на сегмент от голям документ"
       content: |
@@ -271,17 +247,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="Конвертирайте конкретни страници">}}
-        ```csharp {style=abap}   
-        using (Converter converter = new Converter("sample.docx"))
-        {
-           PdfConvertOptions options = new PdfConvertOptions { 
-                                             Pages = new List<int>{ 1, 3 } 
-                                       };
-           converter.Convert("converted.pdf", options); 
-        }  
-        ```
-        {{< /landing/code >}}
     # code sample loop
     - title: "Плавен синтаксис: рационализиран подход"
       content: |
@@ -293,29 +258,6 @@ code_samples:
             .Load("sample.docx")
             .ConvertTo("converted.pdf")
             .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Пример 2: Конвертиране на PDF в DOCX чрез указване на настройките на конвертора, опциите за зареждане и опциите за конвертиране с помощта на плавен синтаксис">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .WithSettings(() => new ConverterSettings())
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertTo("converted.docx")
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Пример 3: Преобразувайте PDF в DOCX страница по страница с помощта на плавен синтаксис">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();  
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

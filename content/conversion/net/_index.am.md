@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:58
+date: 2023-11-13T11:45:04
 draft: false
 
 product: "Conversion"
@@ -200,16 +200,6 @@ features:
       title: "ሰነዶችን ከማህደር ቀይር"
       content: "ሰነዶችን ከማህደር ያውጡ እና ይቀይሩ፣ ይህም በተጨመቁ ፋይሎች ውስጥ የተከማቸውን ይዘት ለመለወጥ ያስችላል።"
 
-      # feature loop
-    - icon: "preview"
-      title: "የመድረክ ተሻጋሪ ተኳኋኝነት"
-      content: "ሰፊ የተጠቃሚ መሰረትን ለማሟላት በዊንዶውስ፣ ሊኑክስ እና ማክኦኤስ መድረኮች ላይ ልወጣዎችን ያሂዱ።"
-
-      # feature loop
-    - icon: "preview"
-      title: "የሚለካ ፍቃድ መስጠት ይደገፋል"
-      content: "የሚለካ ፈቃድ በኤፒአይ አጠቃቀም ላይ ተመስርቶ እንዲከፍል ይደገፋል"
-
 ############################# Code samples ############################
 code_samples:
   enable: true
@@ -239,20 +229,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-    # code sample loop        
-    - title: ""
-      content: |
-        በአማራጭ፣ አቀላጥፎ አገባብ በመጠቀም ተመሳሳይ ነገር ማሳካት ይችላሉ፡-
-        {{< landing/code title="አቀላጥፎ አገባብ በመጠቀም ፒዲኤፍ ወደ PNG በC# መለወጥ፡-">}}
-        ```csharp {style=abap}   
-        FluentConverter
-          .Load("sample.pdf")
-          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
-          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
-          .Convert();
-        ```
-        {{< /landing/code >}}        
-
     # code sample loop
     - title: "የአንድ ትልቅ ሰነድ ክፍል መለወጥ"
       content: |
@@ -271,17 +247,6 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="የተወሰኑ ገጾችን ቀይር">}}
-        ```csharp {style=abap}   
-        using (Converter converter = new Converter("sample.docx"))
-        {
-           PdfConvertOptions options = new PdfConvertOptions { 
-                                             Pages = new List<int>{ 1, 3 } 
-                                       };
-           converter.Convert("converted.pdf", options); 
-        }  
-        ```
-        {{< /landing/code >}}
     # code sample loop
     - title: "ፍሉይ አገባብ፡ የተስተካከለ አቀራረብ"
       content: |
@@ -293,29 +258,6 @@ code_samples:
             .Load("sample.docx")
             .ConvertTo("converted.pdf")
             .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="ምሳሌ 2፡ የመቀየሪያ ቅንብሮችን በመጥቀስ፣ የመጫን አማራጮችን እና አማራጮችን አቀላጥፎ በመጠቀም ፒዲኤፍ ወደ DOCX ቀይር">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .WithSettings(() => new ConverterSettings())
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertTo("converted.docx")
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="ምሳሌ 3፡ አቀላጥፎ አገባብ በመጠቀም ፒዲኤፍ ወደ DOCX ገጽ በገጽ ቀይር">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();  
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

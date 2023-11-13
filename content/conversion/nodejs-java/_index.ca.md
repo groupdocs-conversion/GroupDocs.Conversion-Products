@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:58
+date: 2023-11-13T11:45:04
 draft: false
 
 product: "Conversion"
@@ -200,16 +200,6 @@ features:
     - icon: "preview"
       title: "Converteix documents d'arxius"
       content: "Extraieu i convertiu documents d'arxius, permetent la transformació del contingut emmagatzemat en fitxers comprimits."
-
-      # feature loop
-    - icon: "preview"
-      title: "Compatibilitat multiplataforma"
-      content: "Executeu conversions a les plataformes Windows, Linux i macOS per atendre una base d'usuaris més àmplia."
-
-      # feature loop
-    - icon: "preview"
-      title: "Admet llicències mesurades"
-      content: "Llicència mesurada admesa per facturar en funció de l'ús de l'API"
 
 ############################# Code samples ############################
 code_samples:

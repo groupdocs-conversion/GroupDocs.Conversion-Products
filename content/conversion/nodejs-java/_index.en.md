@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:58
+date: 2023-11-13T11:45:05
 draft: false
 
 product: "Conversion"
@@ -200,16 +200,6 @@ features:
     - icon: "preview"
       title: "Convert Documents from Archives"
       content: "Extract and convert documents from archives, enabling the transformation of content stored within compressed files."
-
-      # feature loop
-    - icon: "preview"
-      title: "Cross-platform Compatibility"
-      content: "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
-
-      # feature loop
-    - icon: "preview"
-      title: "Metered Licensing Supported"
-      content: "Metered Licensing Supported to be billed based on the Usage of the API"
 
 ############################# Code samples ############################
 code_samples:

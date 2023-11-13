@@ -158,16 +158,6 @@ features:
       title: "<% "{features.feature_9.title}" %>"
       content: "<% "{features.feature_9.content}" %>"
 
-      # feature loop
-    - icon: "preview"
-      title: "<% "{features.feature_10.title}" %>"
-      content: "<% "{features.feature_10.content}" %>"
-
-      # feature loop
-    - icon: "preview"
-      title: "<% "{features.feature_11.title}" %>"
-      content: "<% "{features.feature_11.content}" %>"
-
 ############################# Code samples ############################
 <% include "_samples_{product}.md" %>
 

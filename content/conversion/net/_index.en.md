@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-09T16:17:58
+date: 2023-11-13T11:45:05
 draft: false
 
 product: "Conversion"
@@ -66,7 +66,7 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Conversion at a glance"
-  description: "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files in .NET applications"
+  description: "Explore the capabilities of the Conversion API for swift and flawless conversion of PDF, Microsoft Office, HTML, eBook, and Image files within .NET applications"
   features:
     # feature loop
     - title: "Streamlined Conversion"
@@ -77,8 +77,8 @@ overview:
       content: "Simplify the integration of PDF and Office file conversion. GroupDocs.Conversion for .NET enhances the versatility of your applications."
 
     # feature loop
-    - title: "Dependable Transformation"
-      content: "Ensure precise conversions while maintaining quality. GroupDocs.Conversion for .NET guarantees reliable transformations of file formats."
+    - title: "Cross-platform Compatibility"
+      content: "{overview.feature_3.description}"
 
 ############################# Platforms ############################
 platforms:
@@ -152,7 +152,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Conversion features"
-  description: "Seamlessly convert PDF and Office Documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. "
+  description: "Seamlessly convert PDF and Office Documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process."
 
   items:
     # feature loop
@@ -200,16 +200,6 @@ features:
       title: "Convert Documents from Archives"
       content: "Extract and convert documents from archives, enabling the transformation of content stored within compressed files."
 
-      # feature loop
-    - icon: "preview"
-      title: "Cross-platform Compatibility"
-      content: "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
-
-      # feature loop
-    - icon: "preview"
-      title: "Metered Licensing Supported"
-      content: "Metered Licensing Supported to be billed based on the Usage of the API"
-
 ############################# Code samples ############################
 code_samples:
   enable: true
@@ -221,7 +211,7 @@ code_samples:
       content: |
         A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for .NET offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more. 
         Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
-        {{< landing/code title="Converting PDF to PNG in C#">}}
+        {{< landing/code title="Convert PDF to PNG in C#">}}
         ```csharp {style=abap}   
         // Load the source PDF file
         using (var converter = new Converter("sample.pdf"))
@@ -239,22 +229,8 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-    # code sample loop        
-    - title: ""
-      content: |
-        Alternatively, you can achieve the same using fluent syntax:
-        {{< landing/code title="Converting PDF to PNG in C# using fluent syntax:">}}
-        ```csharp {style=abap}   
-        FluentConverter
-          .Load("sample.pdf")
-          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
-          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
-          .Convert();
-        ```
-        {{< /landing/code >}}        
-
     # code sample loop
-    - title: "Converting a Segment of a Large Document"
+    - title: "Convert a Segment of a Large Document"
       content: |
         With GroupDocs.Conversion for .NET, you can effortlessly convert specific pages from a lengthy document. 
         You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.
@@ -271,51 +247,17 @@ code_samples:
         ```
         {{< /landing/code >}}
 
-        {{< landing/code title="Convert specific pages">}}
-        ```csharp {style=abap}   
-        using (Converter converter = new Converter("sample.docx"))
-        {
-           PdfConvertOptions options = new PdfConvertOptions { 
-                                             Pages = new List<int>{ 1, 3 } 
-                                       };
-           converter.Convert("converted.pdf", options); 
-        }  
-        ```
-        {{< /landing/code >}}
     # code sample loop
     - title: "Fluent Syntax: A Streamlined Approach"
       content: |
         Fluent syntax offers a concise notation for common actions within the GroupDocs.Conversion for .NET API. 
         The code samples below demonstrate how to leverage the fluent syntax:
-        {{< landing/code title="Example 1: Convert DOCX to PDF using fluent syntax">}}
+        {{< landing/code title="Convert DOCX to PDF using fluent syntax">}}
         ```csharp {style=abap}   
         FluentConverter
             .Load("sample.docx")
             .ConvertTo("converted.pdf")
             .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Example 2: Convert PDF to DOCX by specifying converter settings, load options and convert options using fluent syntax">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .WithSettings(() => new ConverterSettings())
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertTo("converted.docx")
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Example 3: Convert PDF to DOCX page by page using fluent syntax">}}
-        ```csharp {style=abap}   
-        FluentConverter
-            .Load("sample.pdf")
-                .WithOptions(new PdfLoadOptions())
-            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
-                .WithOptions(new WordProcessingConvertOptions())
-            .Convert();  
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

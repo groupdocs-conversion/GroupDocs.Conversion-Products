@@ -1,7 +1,7 @@
 {
   "features": {
     "title": "GroupDocs.Conversion features",
-    "description": "Seamlessly convert PDF and Office Documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. ",
+    "description": "Seamlessly convert PDF and Office Documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for .NET API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process.",
     "feature_1": {
       "title": "Multi-format Conversion",
       "content": "Convert files between various formats, including PDF, DOCX, XLSX, PPTX, and more, with ease."
@@ -37,14 +37,6 @@
     "feature_9": {
       "title": "Convert Documents from Archives",
       "content": "Extract and convert documents from archives, enabling the transformation of content stored within compressed files."
-    },
-    "feature_10": {
-      "title": "Cross-platform Compatibility",
-      "content": "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
-    },
-    "feature_11": {
-      "title": "Metered Licensing Supported",
-      "content": "Metered Licensing Supported to be billed based on the Usage of the API"
-    }
+    }    
   }
 }

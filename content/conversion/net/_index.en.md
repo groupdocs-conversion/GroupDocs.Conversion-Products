@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-13T12:50:49
+date: 2023-11-14T13:19:34
 draft: false
 
 product: "Conversion"
@@ -66,19 +66,19 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Conversion at a glance"
-  description: "Explore the capabilities of the Conversion API for swift and flawless conversion of PDF, Microsoft Office, HTML, eBook, and Image files within .NET applications"
+  description: "Explore the capabilities of the API for swift and flawless conversion of PDF, Microsoft Office, HTML, eBook, and Image files within .NET applications"
   features:
     # feature loop
     - title: "Streamlined Conversion"
-      content: "Incorporate effortless file conversion into your C# projects using GroupDocs.Conversion for .NET. Seamlessly transition between formats for improved compatibility."
+      content: "With GroupDocs.Conversion API you can effortlessly convert documents of diverse formats to PDF, Microsoft Office, HTML, eBook, and Image files. The API provides flexible and robust options, ensuring the integrity of content and document structure throughout the conversion process."
 
     # feature loop
-    - title: "Flexible Integration"
-      content: "Simplify the integration of PDF and Office file conversion. GroupDocs.Conversion for .NET enhances the versatility of your applications."
+    - title: "Effortless switch between formats"
+      content: "The process of using GroupDocs.Conversion API is incredibly straightforward, requiring just one method and a set of options to effortlessly switch between different formats."
 
     # feature loop
     - title: "Cross-platform Compatibility"
-      content: "Run conversions on Windows, Linux, and macOS platforms to cater to a broader user base."
+      content: "Explore a conversion solution with inherent cross-platform compatibility, catering to the broader user base and ensuring optimal performance across various environments for all your document conversion requirements."
 
 ############################# Platforms ############################
 platforms:

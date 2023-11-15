@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-14T13:19:33
+date: 2023-11-15T10:34:35
 draft: false
 
 product: "Conversion"
@@ -215,9 +215,9 @@ code_samples:
         {{< landing/code title="Convertir PDF a PNG en Javascript">}}
         ```javascript {style=abap}   
         // Carregueu el fitxer PDF d'origen
-        const converter = new groupdocs.conversion.Converter("sample.pdf");
+        const converter = new groupdocs.conversion.Converter("resume.pdf");
         
-        const getPageStream = (page) => fs.createWriteStream(util.format("converted-page-%s.png", page));
+        const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // Estableix les opcions de conversió per al format PNG
         const options = new groupdocs.conversion.ImageConvertOptions();
@@ -235,24 +235,13 @@ code_samples:
         Teniu dos mètodes per aconseguir-ho, depenent dels vostres requisits. Podeu convertir una sèrie de pàgines o convertir pàgines específiques.
         {{< landing/code title="Converteix un rang consecutiu de pàgines">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
+        const converter = new groupdocs.conversion.Converter("booklet.docx");
 
         const options = new groupdocs.conversion.PdfConvertOptions();
         options.setPageNumber(2);
         options.setPagesCount(3);
 
-        converter.convert("converted.pdf", options);
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Converteix pàgines específiques">}}
-        ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
-        
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPages([1, 3]);
-
-        converter.convert("converted.pdf", options);
+        converter.convert("booklet.pdf", options);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

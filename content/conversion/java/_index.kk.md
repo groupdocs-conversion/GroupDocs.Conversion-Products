@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-14T13:19:34
+date: 2023-11-15T10:34:35
 draft: false
 
 product: "Conversion"
@@ -226,8 +226,8 @@ code_samples:
         ...
 
         // {code_samples.sample_1.comment_1}
-        Converter converter = new Converter("sample.pdf");
-        SavePageStream getPageStream = page => new FileOutputStream(String.format("converted-page-%s.png", page));
+        Converter converter = new Converter("resume.pdf");
+        SavePageStream getPageStream = page => new FileOutputStream(String.format("resume-page-%s.png", page));
 
         // {code_samples.sample_1.comment_2}
         ImageConvertOptions options = new ImageConvertOptions();
@@ -249,28 +249,13 @@ code_samples:
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         ...
 
-        Converter converter = new Converter("sample.docx");
+        Converter converter = new Converter("booklet.docx");
 
         PdfConvertOptions options = new PdfConvertOptions();
         options.setPageNumber(2);
         options.setPagesCount(3);
 
-        converter.convert("converted.pdf", options);
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
-        ```java {style=abap}   
-        import com.groupdocs.conversion.Converter;
-        import com.groupdocs.conversion.options.convert.PdfConvertOptions;
-        ...
-
-        Converter converter = new Converter("sample.docx");
-        
-        PdfConvertOptions options = new PdfConvertOptions();
-        options.setPages(Arrays.asList( 1, 3));
-
-        converter.convert("converted.pdf", options);
+        converter.convert("booklet.pdf", options);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

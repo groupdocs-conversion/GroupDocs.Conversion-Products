@@ -3,22 +3,19 @@
     "title": "Code samples",
     "description": "Some use cases of typical GroupDocs.Conversion for Node.js via Java operations",
     "sample_1": {
-      "title": "Convert PDF to Image",
+      "title": "Convert PDF to image",
       "content_1": "A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Node.js via Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more.",
       "content_2": "Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.",
       "code_title": "Converting PDF to PNG in Javascript",
       "comment_1": "Load the source PDF file",
       "comment_2": "Set the convert options for PNG format",
-      "comment_3": "Convert to PNG format",
-      "alternative_content_1": "Alternatively, you can achieve the same using fluent syntax:",
-      "alternative_code_title": "Converting PDF to PNG in Javascript using fluent syntax:"
+      "comment_3": "Convert to PNG format"
     },
     "sample_2": {
-      "title": "Converting a Segment of a Large Document",
+      "title": "Convert a segment of a large document",
       "content_1": "With GroupDocs.Conversion for Node.js via Java, you can effortlessly convert specific pages from a lengthy document.",
       "content_2": "You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.",
-      "code_title_1": "Convert a consecutive range of pages",
-      "code_title_2": "Convert specific pages"
+      "code_title_1": "Convert DOCX (pages 2-4) to PDF in Javascript"
     }
   }
 }

@@ -3,7 +3,7 @@
     "title": "Code samples",
     "description": "Some use cases of typical GroupDocs.Conversion for .NET operations",
     "sample_1": {
-      "title": "Convert PDF to Image",
+      "title": "Convert PDF to image",
       "content_1": "A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for .NET offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more.",
       "content_2": "Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.",
       "code_title": "Convert PDF to PNG in C#",
@@ -12,16 +12,16 @@
       "comment_3": "Convert to PNG format"
     },
     "sample_2": {
-      "title": "Convert a Segment of a Large Document",
+      "title": "Convert a segment of a large document",
       "content_1": "With GroupDocs.Conversion for .NET, you can effortlessly convert specific pages from a lengthy document.",
       "content_2": "You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.",
-      "code_title_1": "Convert a consecutive range of pages"
+      "code_title_1": "Convert DOCX (pages 2-4) to PDF in C#"
     },
     "sample_3": {
-      "title": "Fluent Syntax: A Streamlined Approach",
+      "title": "Fluent syntax: A streamlined approach",
       "content_1": "Fluent syntax offers a concise notation for common actions within the GroupDocs.Conversion for .NET API.",
       "content_2": "The code samples below demonstrate how to leverage the fluent syntax:",
-      "code_title_1": "Convert DOCX to PDF using fluent syntax"
+      "code_title_1": "Convert DOCX to PDF in C# using fluent syntax"
     }
   }
 }

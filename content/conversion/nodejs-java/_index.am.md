@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-14T13:19:33
+date: 2023-11-15T10:34:35
 draft: false
 
 product: "Conversion"
@@ -215,9 +215,9 @@ code_samples:
         {{< landing/code title="በጃቫስክሪፕት ፒዲኤፍ ወደ PNG በመቀየር ላይ">}}
         ```javascript {style=abap}   
         // የምንጭ ፒዲኤፍ ፋይልን ጫን
-        const converter = new groupdocs.conversion.Converter("sample.pdf");
+        const converter = new groupdocs.conversion.Converter("resume.pdf");
         
-        const getPageStream = (page) => fs.createWriteStream(util.format("converted-page-%s.png", page));
+        const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // ለ PNG ቅርጸት የመቀየሪያ አማራጮችን ያዘጋጁ
         const options = new groupdocs.conversion.ImageConvertOptions();
@@ -235,24 +235,13 @@ code_samples:
         ይህንን ለማከናወን ሁለት መንገዶች አሉዎት, እንደ ፍላጎቶችዎ ይወሰናል. የተለያዩ ገጾችን መለወጥ ወይም የተወሰኑ ገጾችን መለወጥ ይችላሉ።
         {{< landing/code title="ተከታታይ ገጾችን ቀይር">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
+        const converter = new groupdocs.conversion.Converter("booklet.docx");
 
         const options = new groupdocs.conversion.PdfConvertOptions();
         options.setPageNumber(2);
         options.setPagesCount(3);
 
-        converter.convert("converted.pdf", options);
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="የተወሰኑ ገጾችን ቀይር">}}
-        ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
-        
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPages([1, 3]);
-
-        converter.convert("converted.pdf", options);
+        converter.convert("booklet.pdf", options);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

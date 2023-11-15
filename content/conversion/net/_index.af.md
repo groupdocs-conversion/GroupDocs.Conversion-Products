@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-14T13:19:33
+date: 2023-11-15T10:34:35
 draft: false
 
 product: "Conversion"
@@ -218,9 +218,9 @@ code_samples:
         using GroupDocs.Conversion.Options.Convert;
 
         // Laai die bron-PDF-lêer
-        using (var converter = new Converter("sample.pdf"))
+        using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"converted-page-{page}.png");
+          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
           // Stel die omskakelopsies vir PNG-formaat in
           var options = new ImageConvertOptions { 
@@ -243,13 +243,13 @@ code_samples:
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        using (Converter converter = new Converter("sample.docx"))
+        using (Converter converter = new Converter("booklet.docx"))
         {
            var options = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
-           converter.Convert("converted.pdf", options);
+           converter.Convert("booklet.pdf", options);
         }  
         ```
         {{< /landing/code >}}
@@ -264,8 +264,8 @@ code_samples:
         using GroupDocs.Conversion;
 
         FluentConverter
-            .Load("sample.docx")
-            .ConvertTo("converted.pdf")
+            .Load("schedule.docx")
+            .ConvertTo("schedule.pdf")
             .Convert();
         ```
         {{< /landing/code >}}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-14T13:19:34
+date: 2023-11-15T10:34:35
 draft: false
 
 product: "Conversion"
@@ -153,52 +153,52 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Conversion features"
-  description: "Seamlessly convert PDF and Office Documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for Node.js via Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for Node.js via Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. "
+  description: "Seamlessly convert PDF and office documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for Node.js via Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for Node.js via Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. "
 
   items:
     # feature loop
     - icon: "merge"
-      title: "Multi-format Conversion"
+      title: "Multi-format conversion"
       content: "Convert files between various formats, including PDF, DOCX, XLSX, PPTX, and more, with ease."
 
     # feature loop
     - icon: "split"
-      title: "High-fidelity Output"
+      title: "High-fidelity output"
       content: "Preserve the original quality and formatting of documents during the conversion process."
 
     # feature loop
     - icon: "move"
-      title: "Converting Multiple Files"
+      title: "Converting multiple files"
       content: "Convert multiple files and combine them into an archive, simplifying the organization of converted content."
 
     # feature loop
     - icon: "remove"
-      title: "Multipage Document to Images"
+      title: "Multipage document to images"
       content: "Convert multipage documents to images page by page, enabling precise control over the transformation process and facilitating image-based document extraction and analysis."
 
     # feature loop
     - icon: "rotate"
-      title: "Customizable Settings"
+      title: "Customizable settings"
       content: "Fine-tune conversion parameters such as resolution, quality, and layout to meet specific requirements."
 
     # feature loop
     - icon: "swap"
-      title: "Secure Processing"
+      title: "Secure processing"
       content: "Ensure data privacy with password-protected file conversion options."
 
     # feature loop
     - icon: "extract"
-      title: "API Integration"
+      title: "API integration"
       content: "Seamlessly integrate the conversion capabilities into your javascript applications, making it a seamless part of your workflow."
 
     # feature loop
     - icon: "orientation"
-      title: "Robust Conversion"
+      title: "Robust conversion"
       content: "Ensure reliable and error-free file conversions, guaranteeing the accuracy and integrity of your transformed documents."
 
     # feature loop
     - icon: "preview"
-      title: "Convert Documents from Archives"
+      title: "Convert documents from archives"
       content: "Extract and convert documents from archives, enabling the transformation of content stored within compressed files."
 
 ############################# Code samples ############################
@@ -208,16 +208,16 @@ code_samples:
   description: "Some use cases of typical GroupDocs.Conversion for Node.js via Java operations"
   items:
     # code sample loop
-    - title: "Convert PDF to Image"
+    - title: "Convert PDF to image"
       content: |
         A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Node.js via Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more. 
         Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
         {{< landing/code title="Converting PDF to PNG in Javascript">}}
         ```javascript {style=abap}   
         // Load the source PDF file
-        const converter = new groupdocs.conversion.Converter("sample.pdf");
+        const converter = new groupdocs.conversion.Converter("resume.pdf");
         
-        const getPageStream = (page) => fs.createWriteStream(util.format("converted-page-%s.png", page));
+        const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // Set the convert options for PNG format
         const options = new groupdocs.conversion.ImageConvertOptions();
@@ -229,30 +229,19 @@ code_samples:
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "Converting a Segment of a Large Document"
+    - title: "Convert a segment of a large document"
       content: |
         With GroupDocs.Conversion for Node.js via Java, you can effortlessly convert specific pages from a lengthy document. 
         You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.
-        {{< landing/code title="Convert a consecutive range of pages">}}
+        {{< landing/code title="Convert DOCX (pages 2-4) to PDF in Javascript">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
+        const converter = new groupdocs.conversion.Converter("booklet.docx");
 
         const options = new groupdocs.conversion.PdfConvertOptions();
         options.setPageNumber(2);
         options.setPagesCount(3);
 
-        converter.convert("converted.pdf", options);
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="Convert specific pages">}}
-        ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
-        
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPages([1, 3]);
-
-        converter.convert("converted.pdf", options);
+        converter.convert("booklet.pdf", options);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

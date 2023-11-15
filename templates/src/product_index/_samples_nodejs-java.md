@@ -11,9 +11,9 @@ code_samples:
         {{< landing/code title="<% "{code_samples.sample_1.code_title}" %>">}}
         ```javascript {style=abap}   
         // <% "{code_samples.sample_1.comment_1}" %>
-        const converter = new groupdocs.conversion.Converter("sample.pdf");
+        const converter = new groupdocs.conversion.Converter("resume.pdf");
         
-        const getPageStream = (page) => fs.createWriteStream(util.format("converted-page-%s.png", page));
+        const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // <% "{code_samples.sample_1.comment_2}" %>
         const options = new groupdocs.conversion.ImageConvertOptions();
@@ -31,23 +31,12 @@ code_samples:
         <% "{code_samples.sample_2.content_2}" %>
         {{< landing/code title="<% "{code_samples.sample_2.code_title_1}" %>">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
+        const converter = new groupdocs.conversion.Converter("booklet.docx");
 
         const options = new groupdocs.conversion.PdfConvertOptions();
         options.setPageNumber(2);
         options.setPagesCount(3);
 
-        converter.convert("converted.pdf", options);
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="<% "{code_samples.sample_2.code_title_2}" %>">}}
-        ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
-        
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPages([1, 3]);
-
-        converter.convert("converted.pdf", options);
+        converter.convert("booklet.pdf", options);
         ```
         {{< /landing/code >}}

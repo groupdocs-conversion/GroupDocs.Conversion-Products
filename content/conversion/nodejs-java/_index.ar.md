@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-14T13:19:33
+date: 2023-11-15T10:34:35
 draft: false
 
 product: "Conversion"
@@ -215,9 +215,9 @@ code_samples:
         {{< landing/code title="تحويل PDF إلى PNG في جافا سكريبت">}}
         ```javascript {style=abap}   
         // قم بتحميل ملف PDF المصدر
-        const converter = new groupdocs.conversion.Converter("sample.pdf");
+        const converter = new groupdocs.conversion.Converter("resume.pdf");
         
-        const getPageStream = (page) => fs.createWriteStream(util.format("converted-page-%s.png", page));
+        const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // اضبط خيارات التحويل لتنسيق PNG
         const options = new groupdocs.conversion.ImageConvertOptions();
@@ -235,24 +235,13 @@ code_samples:
         لديك طريقتان لتحقيق ذلك، حسب متطلباتك. يمكنك إما تحويل نطاق من الصفحات أو تحويل صفحات معينة.
         {{< landing/code title="تحويل مجموعة متتالية من الصفحات">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
+        const converter = new groupdocs.conversion.Converter("booklet.docx");
 
         const options = new groupdocs.conversion.PdfConvertOptions();
         options.setPageNumber(2);
         options.setPagesCount(3);
 
-        converter.convert("converted.pdf", options);
-        ```
-        {{< /landing/code >}}
-
-        {{< landing/code title="تحويل صفحات محددة">}}
-        ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("sample.docx");
-        
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPages([1, 3]);
-
-        converter.convert("converted.pdf", options);
+        converter.convert("booklet.pdf", options);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T11:06:25
+date: 2023-11-17T11:15:18
 draft: false
 
 product: "Conversion"
@@ -151,7 +151,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Conversion features"
-  description: "Seamlessly convert PDF and office documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for Node.js via Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for Node.js via Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. "
+  description: "Seamlessly convert PDF and office documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for Node.js via Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process."
 
   items:
     # feature loop

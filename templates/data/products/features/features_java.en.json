@@ -1,7 +1,7 @@
 {
   "features": {
     "title": "GroupDocs.Conversion features",
-    "description": "Seamlessly convert PDF and office documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. GroupDocs.Conversion for Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process. ",
+    "description": "Seamlessly convert PDF and office documents to HTML, JPG, PNG, BMP, TIFF, SVG, and many other formats. GroupDocs.Conversion for Java API is designed to be easy to use and integrate into your project. It supports all popular document formats with the ability to customize the conversion process.",
     "feature_1": {
       "title": "Multi-format conversion",
       "content": "Convert files between various formats, including PDF, DOCX, XLSX, PPTX, and more, with ease."

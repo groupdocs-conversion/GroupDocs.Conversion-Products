@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T11:15:18
+date: 2023-11-17T13:56:04
 draft: false
 
 product: "Conversion"
@@ -216,14 +216,13 @@ code_samples:
         
         // Load the source PDF file
         const converter = new Converter("resume.pdf");
-        const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
-
+        
         // Set the convert options and specify the output image type
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
         // Convert each page of PDF document to PNG
-        converter.convert(getPageStream, convertOptions);
+        converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 

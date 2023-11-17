@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T11:15:18
+date: 2023-11-17T13:56:04
 draft: false
 
 product: "Conversion"
@@ -216,14 +216,13 @@ code_samples:
         
         // Carregueu el fitxer PDF d'origen
         const converter = new Converter("resume.pdf");
-        const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
-
+        
         // Estableix les opcions de conversió per al format PNG
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
         // Converteix a format PNG
-        converter.convert(getPageStream, convertOptions);
+        converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 

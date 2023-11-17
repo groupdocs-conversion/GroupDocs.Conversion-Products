@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T11:15:18
+date: 2023-11-17T13:56:04
 draft: false
 
 product: "Conversion"
@@ -235,14 +235,13 @@ code_samples:
 
         // Load the source PDF file
         Converter converter = new Converter("resume.pdf");
-        SavePageStream getPageStream = page => new FileOutputStream(String.format("resume-page-%s.png", page));
-
+        
         // Set the convert options and specify the output image type
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(groupdocs.conversion.ImageFileType.Png);
 
         // Convert each page of PDF document to PNG
-        converter.convert(getPageStream, convertOptions);
+        converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -256,13 +255,15 @@ code_samples:
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         ...
-
+        // Load the source DOCX file
         Converter converter = new Converter("booklet.docx");
 
+        // Set the convert options and specify the range of pages to render
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
+        // Convert pages 2-4 to PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}

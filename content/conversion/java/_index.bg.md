@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T11:15:18
+date: 2023-11-17T13:56:04
 draft: false
 
 product: "Conversion"
@@ -235,14 +235,13 @@ code_samples:
 
         // Заредете изходния PDF файл
         Converter converter = new Converter("resume.pdf");
-        SavePageStream getPageStream = page => new FileOutputStream(String.format("resume-page-%s.png", page));
-
+        
         // Задайте опциите за конвертиране за PNG формат
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(groupdocs.conversion.ImageFileType.Png);
 
         // Конвертиране във формат PNG
-        converter.convert(getPageStream, convertOptions);
+        converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -256,13 +255,15 @@ code_samples:
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         ...
-
+        // {code_samples.sample_2.comment_1}
         Converter converter = new Converter("booklet.docx");
 
+        // {code_samples.sample_2.comment_2}
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
+        // {code_samples.sample_2.comment_3}
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}

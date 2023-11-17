@@ -14,14 +14,13 @@ code_samples:
         
         // <% "{code_samples.sample_1.comment_1}" %>
         const converter = new Converter("resume.pdf");
-        const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
-
+        
         // <% "{code_samples.sample_1.comment_2}" %>
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
         // <% "{code_samples.sample_1.comment_3}" %>
-        converter.convert(getPageStream, convertOptions);
+        converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 

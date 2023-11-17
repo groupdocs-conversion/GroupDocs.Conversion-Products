@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T14:27:16
+date: 2023-11-17T14:34:35
 draft: false
 
 product: "Conversion"
@@ -243,12 +243,17 @@ code_samples:
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
+        // {code_samples.sample_2.comment_1}
         using (Converter converter = new Converter("booklet.docx"))
         {
-           var convertOptions = new PdfConvertOptions { 
-                                           PageNumber = 2, 
-                                           PagesCount = 3 
-                                     };
+           // {code_samples.sample_2.comment_2}
+           var convertOptions = new PdfConvertOptions 
+           { 
+              PageNumber = 2, 
+              PagesCount = 3 
+           };
+
+           // {code_samples.sample_2.comment_3}                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```

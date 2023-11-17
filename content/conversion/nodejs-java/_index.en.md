@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T14:34:35
+date: 2023-11-17T14:50:10
 draft: false
 
 product: "Conversion"
@@ -46,7 +46,7 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "How to convert PDF files in \ a JavaScript applications"
+  title: "How to convert PDF files in JavaScript"
   more: "More examples"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"

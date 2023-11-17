@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-15T10:34:35
+date: 2023-11-17T10:50:49
 draft: false
 
 product: "Conversion"
@@ -23,20 +23,20 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java Document Conversion API | Convert PDF Word Excel PPTX HTML Images"
-head_description: "Java Document Conversion API. Convert PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & image file formats."
+head_title: "Java document conversion API | Convert PDF, Word, Excel, PPTX, HTML, and images"
+head_description: "Java document conversion API. Convert PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, and image file formats."
 
 ############################# Header ############################
-title: "Document Conversion<br>via Java API"
-description: "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files"
+title: "Document conversion<br>via Java API"
+description: "Powerful conversion API to convert PDF, Microsoft Office, HTML, eBook, and image files"
 words:
   for: "for"
 
 actions:
   main: "Free Maven Download"
-  main_link: ""
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
   alt: "Licensing"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
   title: "Ready to get started?"
   description: "Try GroupDocs.Conversion features for free or request a license"
 
@@ -55,35 +55,43 @@ code:
       <artifactId>groupdocs-conversion</artifactId>
       <version>{0}</version>
     </dependency>
+
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
   content: |
     ```java {style=abap}   
     // Load the source PDF file
-    Converter converter = new Converter("sample1.pdf");
+    Converter converter = new Converter("resume.pdf");
     
-    // Set the convert options for DOCX format
-    WordProcessingConvertOptions options = 
+    // Set the convert options
+    WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // Convert to DOCX format
-    converter.convert("converted.docx", options);
+    // Convert PDF to DOCX
+    converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
   title: "GroupDocs.Conversion at a glance"
-  description: "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files in Java applications"
+  description: "Explore the capabilities of the API for swift and flawless conversion of PDF, Microsoft Office, HTML, eBook, and image files within Java applications"
   features:
     # feature loop
-    - title: "Streamlined Conversion"
-      content: "Incorporate effortless file conversion into your projects using GroupDocs.Conversion for Java. Seamlessly transition between formats for improved compatibility."
+    - title: "Streamlined conversion"
+      content: "With GroupDocs.Conversion API you can effortlessly convert documents of diverse formats to PDF, Microsoft Office, HTML, eBook, and image files. The API provides flexible and robust options, ensuring the integrity of content and document structure throughout the conversion process."
 
     # feature loop
-    - title: "Flexible Integration"
-      content: "Simplify the integration of PDF and Office file conversion. GroupDocs.Conversion for Java enhances the versatility of your applications."
+    - title: "Effortless switch between formats"
+      content: "The process of using GroupDocs.Conversion API is incredibly straightforward, requiring just one method and a set of options to effortlessly switch between different formats."
 
     # feature loop
-    - title: "Dependable Transformation"
-      content: "Ensure precise conversions while maintaining quality. GroupDocs.Conversion for Java guarantees reliable transformations of file formats."
+    - title: "Cross-platform compatibility"
+      content: "Explore a conversion solution with inherent cross-platform compatibility, catering to the broader user base and ensuring optimal performance across various environments for all your document conversion requirements."
 
 ############################# Platforms ############################
 platforms:
@@ -215,7 +223,7 @@ code_samples:
     - title: "Convert PDF to image"
       content: |
         A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more. 
-        Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
+        You can select your preferred image format using the ImageFileType class.
         {{< landing/code title="Converting PDF to PNG in Java">}}
         ```java {style=abap} 
         import java.io.FileOutputStream;
@@ -229,12 +237,12 @@ code_samples:
         Converter converter = new Converter("resume.pdf");
         SavePageStream getPageStream = page => new FileOutputStream(String.format("resume-page-%s.png", page));
 
-        // Set the convert options for PNG format
-        ImageConvertOptions options = new ImageConvertOptions();
-        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+        // Set the convert options and specify the output image type
+        ImageConvertOptions convertOptions = new ImageConvertOptions();
+        convertOptions.setFormat(groupdocs.conversion.ImageFileType.Png);
 
-        // Convert to PNG format
-        converter.convert(getPageStream, options);
+        // Convert each page of PDF document to PNG
+        converter.convert(getPageStream, convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -251,11 +259,11 @@ code_samples:
 
         Converter converter = new Converter("booklet.docx");
 
-        PdfConvertOptions options = new PdfConvertOptions();
-        options.setPageNumber(2);
-        options.setPagesCount(3);
+        PdfConvertOptions convertOptions = new PdfConvertOptions();
+        convertOptions.setPageNumber(2);
+        convertOptions.setPagesCount(3);
 
-        converter.convert("booklet.pdf", options);
+        converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

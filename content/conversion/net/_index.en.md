@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-15T10:34:35
+date: 2023-11-17T10:50:49
 draft: false
 
 product: "Conversion"
@@ -23,20 +23,20 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Conversion API | Convert PDF Word Excel PPTX HTML Images"
-head_description: "C# .NET Document Conversion API. Convert PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & image file formats."
+head_title: "C# .NET document conversion API | Convert PDF, Word, Excel, PPTX, HTML, and images"
+head_description: "C# .NET document conversion API. Convert PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, and image file formats."
 
 ############################# Header ############################
-title: "Document Conversion<br>via .NET API"
-description: "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files"
+title: "Document conversion<br>via .NET API"
+description: "Powerful conversion API to convert PDF, Microsoft Office, HTML, eBook, and image files"
 words:
   for: "for"
 
 actions:
   main: "Free NuGet Download"
-  main_link: ""
+  main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
   alt: "Licensing"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
   title: "Ready to get started?"
   description: "Try GroupDocs.Conversion features for free or request a license"
 
@@ -53,13 +53,13 @@ code:
   content: |
     ```csharp {style=abap}   
     // Load the source PDF file
-    using (var converter = new Converter("sample.pdf"))
+    using (var converter = new Converter("resume.pdf"))
     {
-      // Set the convert options for DOCX format
-      var options = new WordProcessingConvertOptions();
+      // Set the convert options
+      var convertOptions = new WordProcessingConvertOptions();
 
-      // Convert to DOCX format
-      converter.Convert("converted.docx", options);
+      // Convert PDF to DOCX
+      converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
@@ -69,7 +69,7 @@ overview:
   description: "Explore the capabilities of the API for swift and flawless conversion of PDF, Microsoft Office, HTML, eBook, and image files within .NET applications"
   features:
     # feature loop
-    - title: "Streamlined Conversion"
+    - title: "Streamlined conversion"
       content: "With GroupDocs.Conversion API you can effortlessly convert documents of diverse formats to PDF, Microsoft Office, HTML, eBook, and image files. The API provides flexible and robust options, ensuring the integrity of content and document structure throughout the conversion process."
 
     # feature loop
@@ -77,7 +77,7 @@ overview:
       content: "The process of using GroupDocs.Conversion API is incredibly straightforward, requiring just one method and a set of options to effortlessly switch between different formats."
 
     # feature loop
-    - title: "Cross-platform Compatibility"
+    - title: "Cross-platform compatibility"
       content: "Explore a conversion solution with inherent cross-platform compatibility, catering to the broader user base and ensuring optimal performance across various environments for all your document conversion requirements."
 
 ############################# Platforms ############################
@@ -222,13 +222,13 @@ code_samples:
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // Set the convert options for PNG format
-          var options = new ImageConvertOptions { 
+          // Set the convert options and specify the output image type
+          var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // Convert to PNG format
-          converter.Convert(getPageStream, options);
+          // Convert each page of PDF document to PNG
+          converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
@@ -245,11 +245,11 @@ code_samples:
         
         using (Converter converter = new Converter("booklet.docx"))
         {
-           var options = new PdfConvertOptions { 
+           var convertOptions = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
-           converter.Convert("booklet.pdf", options);
+           converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}

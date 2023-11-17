@@ -6,12 +6,12 @@ code:
   content: |
     ```csharp {style=abap}   
     // <% "{code.comment_1}" %>
-    using (var converter = new Converter("sample.pdf"))
+    using (var converter = new Converter("resume.pdf"))
     {
       // <% "{code.comment_2}" %>
-      var options = new WordProcessingConvertOptions();
+      var convertOptions = new WordProcessingConvertOptions();
 
       // <% "{code.comment_3}" %>
-      converter.Convert("converted.docx", options);
+      converter.Convert("resume.docx", convertOptions);
     }
     ```

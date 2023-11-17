@@ -12,7 +12,10 @@
             "repoName": "Nuget",
             "repoUrl": "https://www.nuget.org/packages/groupdocs.conversion",
             "url": "https://products.groupdocs.com/conversion/net/",
-            "operatingSystem": "Windows Desktop, Windows Server, Windows Azure, Linux, MacOS"
+            "operatingSystem": "Windows Desktop, Windows Server, Windows Azure, Linux, MacOS",
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
+            "main_link": "https://www.nuget.org/packages/GroupDocs.Conversion",
+            "alt_link": "https://purchase.groupdocs.com/pricing/conversion/net"
         },
         "java": {
             "name": "Java",
@@ -26,12 +29,15 @@
             "repoName": "Maven",
             "repoUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/",
             "url": "https://products.groupdocs.com/conversion/java/",
-            "operatingSystem": "Windows Desktop, Windows Server, Linux, MacOS"
+            "operatingSystem": "Windows Desktop, Windows Server, Linux, MacOS",
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
+            "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/",
+            "alt_link": "https://purchase.groupdocs.com/pricing/conversion/java"
         },
         "nodejs-java": {
             "name": "Node.js via Java",
             "fullName": "GroupDocs.Conversion for Node.js via Java",
-            "code": "js",
+            "code": "nodejs-java",
             "progLang": "JavaScript",
             "srcFileExt": ".js",
             "syntax": "javascript",
@@ -40,7 +46,10 @@
             "repoName": "NPM",
             "repoUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion",
             "url": "https://products.groupdocs.com/conversion/nodejs-java/",
-            "operatingSystem": "Windows Desktop, Windows Server, Linux, MacOS"
+            "operatingSystem": "Windows Desktop, Windows Server, Linux, MacOS",
+            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png",
+            "main_link": "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion",
+            "alt_link": "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
         }
     }
 }

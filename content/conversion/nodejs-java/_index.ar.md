@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-15T10:34:35
+date: 2023-11-17T10:50:49
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
 platform: Node.js via Java
-platform_tag: js
+platform_tag: nodejs-java
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -34,9 +34,9 @@ words:
 
 actions:
   main: "تحميل نوجيت مجانا"
-  main_link: ""
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
   alt: "الترخيص"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
   title: "على استعداد للبدء؟"
   description: "جرب ميزات GroupDocs.Conversion مجانًا أو اطلب ترخيصًا"
 
@@ -48,20 +48,20 @@ release:
 code:
   title: "كيفية تحويل ملفات PDF إلى تطبيقات جافا سكريبت"
   more: "مزيد من الأمثلة"
-  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
     ```csharp {style=abap}   
     // قم بتحميل ملف PDF المصدر
     const converter = 
-      new groupdocs.conversion.Converter("sample.pdf");
+      new groupdocs.conversion.Converter("resume.pdf");
     
     // اضبط خيارات التحويل لتنسيق DOCX
-    const options = 
+    const convertOptions = 
       new groupdocs.conversion.WordProcessingConvertOptions();
     
     // تحويل إلى تنسيق DOCX
-    converter.convert("output.docx", options);
+    converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
@@ -213,18 +213,19 @@ code_samples:
         يتضمن السيناريو الذي يتم مواجهته بشكل شائع تحويل مستند PDF بأكمله أو صفحات معينة إلى مجموعة من الصور. يوفر GroupDocs.Conversion for Node.js عبر Java القدرة على تحويل ملفات PDF إلى تنسيقات صور مختلفة، مثل TIFF وJPG وPNG وGIF وBMP والمزيد. 
         على عكس التحويلات الأخرى، تتطلب هذه العملية تصريحًا من مفوض SavePageStream، الذي يحدد تنسيق التسمية للصور المحفوظة. يمكنك تحديد تنسيق الصورة المفضل لديك باستخدام فئة ImageFileType.
         {{< landing/code title="تحويل PDF إلى PNG في جافا سكريبت">}}
-        ```javascript {style=abap}   
-        // قم بتحميل ملف PDF المصدر
-        const converter = new groupdocs.conversion.Converter("resume.pdf");
+        ```javascript {style=abap}  
+        import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
         
+        // قم بتحميل ملف PDF المصدر
+        const converter = new Converter("resume.pdf");
         const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // اضبط خيارات التحويل لتنسيق PNG
-        const options = new groupdocs.conversion.ImageConvertOptions();
-        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+        const convertOptions = new ImageConvertOptions();
+        convertOptions.setFormat(ImageFileType.Png);
 
         // تحويل إلى تنسيق PNG
-        converter.convert(getPageStream, options);
+        converter.convert(getPageStream, convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -235,13 +236,18 @@ code_samples:
         لديك طريقتان لتحقيق ذلك، حسب متطلباتك. يمكنك إما تحويل نطاق من الصفحات أو تحويل صفحات معينة.
         {{< landing/code title="تحويل مجموعة متتالية من الصفحات">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("booklet.docx");
+        import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPageNumber(2);
-        options.setPagesCount(3);
+        // {code_samples.sample_2.comment_1}
+        const converter = new Converter("booklet.docx");
 
-        converter.convert("booklet.pdf", options);
+        // {code_samples.sample_2.comment_2}
+        const convertOptions = new PdfConvertOptions();
+        convertOptions.setPageNumber(2);
+        convertOptions.setPagesCount(3);
+
+        // {code_samples.sample_2.comment_3}
+        converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

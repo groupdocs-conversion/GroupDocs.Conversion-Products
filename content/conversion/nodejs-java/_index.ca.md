@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-15T10:34:35
+date: 2023-11-17T10:50:49
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
 platform: Node.js via Java
-platform_tag: js
+platform_tag: nodejs-java
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -34,9 +34,9 @@ words:
 
 actions:
   main: "Descàrrega gratuïta de NuGet"
-  main_link: ""
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
   alt: "Llicència"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
   title: "Preparat per començar?"
   description: "Proveu les funcions de GroupDocs.Conversion de manera gratuïta o sol·liciteu una llicència"
 
@@ -48,20 +48,20 @@ release:
 code:
   title: "Com convertir fitxers PDF en \ a aplicacions javascript"
   more: "Més exemples"
-  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
     ```csharp {style=abap}   
     // Carregueu el fitxer PDF d'origen
     const converter = 
-      new groupdocs.conversion.Converter("sample.pdf");
+      new groupdocs.conversion.Converter("resume.pdf");
     
     // Establiu les opcions de conversió per al format DOCX
-    const options = 
+    const convertOptions = 
       new groupdocs.conversion.WordProcessingConvertOptions();
     
     // Converteix a format DOCX
-    converter.convert("output.docx", options);
+    converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
@@ -213,18 +213,19 @@ code_samples:
         Un escenari que es troba habitualment consisteix a convertir un document PDF sencer o pàgines específiques en una col·lecció d'imatges. GroupDocs.Conversion per a Node.js mitjançant Java ofereix la capacitat de convertir PDF en diversos formats d'imatge, com ara TIFF, JPG, PNG, GIF, BMP i molt més. 
         A diferència d'altres conversions, aquest procés requereix la declaració d'un delegat de SavePageStream, que especifica el format de nom per a les imatges desades. Podeu seleccionar el vostre format d'imatge preferit mitjançant la classe ImageFileType.
         {{< landing/code title="Convertir PDF a PNG en Javascript">}}
-        ```javascript {style=abap}   
-        // Carregueu el fitxer PDF d'origen
-        const converter = new groupdocs.conversion.Converter("resume.pdf");
+        ```javascript {style=abap}  
+        import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
         
+        // Carregueu el fitxer PDF d'origen
+        const converter = new Converter("resume.pdf");
         const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // Estableix les opcions de conversió per al format PNG
-        const options = new groupdocs.conversion.ImageConvertOptions();
-        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+        const convertOptions = new ImageConvertOptions();
+        convertOptions.setFormat(ImageFileType.Png);
 
         // Converteix a format PNG
-        converter.convert(getPageStream, options);
+        converter.convert(getPageStream, convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -235,13 +236,18 @@ code_samples:
         Teniu dos mètodes per aconseguir-ho, depenent dels vostres requisits. Podeu convertir una sèrie de pàgines o convertir pàgines específiques.
         {{< landing/code title="Converteix un rang consecutiu de pàgines">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("booklet.docx");
+        import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPageNumber(2);
-        options.setPagesCount(3);
+        // {code_samples.sample_2.comment_1}
+        const converter = new Converter("booklet.docx");
 
-        converter.convert("booklet.pdf", options);
+        // {code_samples.sample_2.comment_2}
+        const convertOptions = new PdfConvertOptions();
+        convertOptions.setPageNumber(2);
+        convertOptions.setPagesCount(3);
+
+        // {code_samples.sample_2.comment_3}
+        converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

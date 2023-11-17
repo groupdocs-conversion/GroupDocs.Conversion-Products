@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-15T10:34:35
+date: 2023-11-17T10:50:50
 draft: false
 
 product: "Conversion"
@@ -34,9 +34,9 @@ words:
 
 actions:
   main: "{actions.main}"
-  main_link: ""
+  main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
   alt: "{actions.alt}"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
   title: "{actions.title}"
   description: "{actions.description}"
 
@@ -53,13 +53,13 @@ code:
   content: |
     ```csharp {style=abap}   
     // {code.comment_1}
-    using (var converter = new Converter("sample.pdf"))
+    using (var converter = new Converter("resume.pdf"))
     {
       // {code.comment_2}
-      var options = new WordProcessingConvertOptions();
+      var convertOptions = new WordProcessingConvertOptions();
 
       // {code.comment_3}
-      converter.Convert("converted.docx", options);
+      converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
@@ -223,12 +223,12 @@ code_samples:
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
           // {code_samples.sample_1.comment_2}
-          var options = new ImageConvertOptions { 
+          var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
           // {code_samples.sample_1.comment_3}
-          converter.Convert(getPageStream, options);
+          converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
@@ -245,11 +245,11 @@ code_samples:
         
         using (Converter converter = new Converter("booklet.docx"))
         {
-           var options = new PdfConvertOptions { 
+           var convertOptions = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
-           converter.Convert("booklet.pdf", options);
+           converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}

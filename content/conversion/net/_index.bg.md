@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-15T10:34:35
+date: 2023-11-17T10:50:49
 draft: false
 
 product: "Conversion"
@@ -34,9 +34,9 @@ words:
 
 actions:
   main: "Безплатно изтегляне на NuGet"
-  main_link: ""
+  main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
   alt: "Лицензиране"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
   title: "Готови ли сте да започнете?"
   description: "Изпробвайте функциите на GroupDocs.Conversion безплатно или поискайте лиценз"
 
@@ -53,13 +53,13 @@ code:
   content: |
     ```csharp {style=abap}   
     // Заредете изходния PDF файл
-    using (var converter = new Converter("sample.pdf"))
+    using (var converter = new Converter("resume.pdf"))
     {
       // Задайте опциите за конвертиране за DOCX формат
-      var options = new WordProcessingConvertOptions();
+      var convertOptions = new WordProcessingConvertOptions();
 
       // Конвертирайте във формат DOCX
-      converter.Convert("converted.docx", options);
+      converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
@@ -223,12 +223,12 @@ code_samples:
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
           // Задайте опциите за конвертиране за PNG формат
-          var options = new ImageConvertOptions { 
+          var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
           // Конвертиране във формат PNG
-          converter.Convert(getPageStream, options);
+          converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
@@ -245,11 +245,11 @@ code_samples:
         
         using (Converter converter = new Converter("booklet.docx"))
         {
-           var options = new PdfConvertOptions { 
+           var convertOptions = new PdfConvertOptions { 
                                            PageNumber = 2, 
                                            PagesCount = 3 
                                      };
-           converter.Convert("booklet.pdf", options);
+           converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}

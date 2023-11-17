@@ -9,18 +9,19 @@ code_samples:
         <% "{code_samples.sample_1.content_1}" %> 
         <% "{code_samples.sample_1.content_2}" %>
         {{< landing/code title="<% "{code_samples.sample_1.code_title}" %>">}}
-        ```javascript {style=abap}   
-        // <% "{code_samples.sample_1.comment_1}" %>
-        const converter = new groupdocs.conversion.Converter("resume.pdf");
+        ```javascript {style=abap}  
+        import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
         
+        // <% "{code_samples.sample_1.comment_1}" %>
+        const converter = new Converter("resume.pdf");
         const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // <% "{code_samples.sample_1.comment_2}" %>
-        const options = new groupdocs.conversion.ImageConvertOptions();
-        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+        const convertOptions = new ImageConvertOptions();
+        convertOptions.setFormat(ImageFileType.Png);
 
         // <% "{code_samples.sample_1.comment_3}" %>
-        converter.convert(getPageStream, options);
+        converter.convert(getPageStream, convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -31,12 +32,17 @@ code_samples:
         <% "{code_samples.sample_2.content_2}" %>
         {{< landing/code title="<% "{code_samples.sample_2.code_title_1}" %>">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("booklet.docx");
+        import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPageNumber(2);
-        options.setPagesCount(3);
+        // <% "{code_samples.sample_2.comment_1}" %>
+        const converter = new Converter("booklet.docx");
 
-        converter.convert("booklet.pdf", options);
+        // <% "{code_samples.sample_2.comment_2}" %>
+        const convertOptions = new PdfConvertOptions();
+        convertOptions.setPageNumber(2);
+        convertOptions.setPagesCount(3);
+
+        // <% "{code_samples.sample_2.comment_3}" %>
+        converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}

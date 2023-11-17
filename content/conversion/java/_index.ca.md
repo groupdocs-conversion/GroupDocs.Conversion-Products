@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-15T10:34:35
+date: 2023-11-17T10:50:49
 draft: false
 
 product: "Conversion"
@@ -34,9 +34,9 @@ words:
 
 actions:
   main: "Descàrrega gratuïta de Maven"
-  main_link: ""
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
   alt: "Llicència"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
   title: "Preparat per començar?"
   description: "Proveu les funcions de GroupDocs.Conversion de manera gratuïta o sol·liciteu una llicència"
 
@@ -55,17 +55,25 @@ code:
       <artifactId>groupdocs-conversion</artifactId>
       <version>{0}</version>
     </dependency>
+
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
   content: |
     ```java {style=abap}   
     // Carregueu el fitxer PDF d'origen
-    Converter converter = new Converter("sample1.pdf");
+    Converter converter = new Converter("resume.pdf");
     
     // Establiu les opcions de conversió per al format DOCX
-    WordProcessingConvertOptions options = 
+    WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
     // Converteix a format DOCX
-    converter.convert("converted.docx", options);
+    converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
@@ -230,11 +238,11 @@ code_samples:
         SavePageStream getPageStream = page => new FileOutputStream(String.format("resume-page-%s.png", page));
 
         // Estableix les opcions de conversió per al format PNG
-        ImageConvertOptions options = new ImageConvertOptions();
-        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+        ImageConvertOptions convertOptions = new ImageConvertOptions();
+        convertOptions.setFormat(groupdocs.conversion.ImageFileType.Png);
 
         // Converteix a format PNG
-        converter.convert(getPageStream, options);
+        converter.convert(getPageStream, convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -251,11 +259,11 @@ code_samples:
 
         Converter converter = new Converter("booklet.docx");
 
-        PdfConvertOptions options = new PdfConvertOptions();
-        options.setPageNumber(2);
-        options.setPagesCount(3);
+        PdfConvertOptions convertOptions = new PdfConvertOptions();
+        convertOptions.setPageNumber(2);
+        convertOptions.setPagesCount(3);
 
-        converter.convert("booklet.pdf", options);
+        converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

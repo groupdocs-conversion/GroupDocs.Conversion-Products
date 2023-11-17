@@ -22,11 +22,11 @@ code_samples:
         SavePageStream getPageStream = page => new FileOutputStream(String.format("resume-page-%s.png", page));
 
         // <% "{code_samples.sample_1.comment_2}" %>
-        ImageConvertOptions options = new ImageConvertOptions();
-        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+        ImageConvertOptions convertOptions = new ImageConvertOptions();
+        convertOptions.setFormat(groupdocs.conversion.ImageFileType.Png);
 
         // <% "{code_samples.sample_1.comment_3}" %>
-        converter.convert(getPageStream, options);
+        converter.convert(getPageStream, convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -43,10 +43,10 @@ code_samples:
 
         Converter converter = new Converter("booklet.docx");
 
-        PdfConvertOptions options = new PdfConvertOptions();
-        options.setPageNumber(2);
-        options.setPagesCount(3);
+        PdfConvertOptions convertOptions = new PdfConvertOptions();
+        convertOptions.setPageNumber(2);
+        convertOptions.setPagesCount(3);
 
-        converter.convert("booklet.pdf", options);
+        converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}

@@ -8,15 +8,23 @@ code:
       <artifactId>groupdocs-conversion</artifactId>
       <version>{0}</version>
     </dependency>
+
+    <repositories>
+      <repository>
+        <id>repository.groupdocs.com</id>
+        <name>GroupDocs Repository</name>
+        <url>https://repository.groupdocs.com/repo/</url>
+      </repository>
+    </repositories>
   content: |
     ```java {style=abap}   
     // <% "{code.comment_1}" %>
-    Converter converter = new Converter("sample1.pdf");
+    Converter converter = new Converter("resume.pdf");
     
     // <% "{code.comment_2}" %>
-    WordProcessingConvertOptions options = 
+    WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
     // <% "{code.comment_3}" %>
-    converter.convert("converted.docx", options);
+    converter.convert("resume.docx", convertOptions);
     ```

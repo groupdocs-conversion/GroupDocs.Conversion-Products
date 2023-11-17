@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-15T10:34:35
+date: 2023-11-17T10:50:49
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
 platform: Node.js via Java
-platform_tag: js
+platform_tag: nodejs-java
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -34,9 +34,9 @@ words:
 
 actions:
   main: "ነጻ NuGet ማውረድ"
-  main_link: ""
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
   alt: "ፍቃድ መስጠት"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
   title: "ለመጀመር ዝግጁ ነዎት?"
   description: "GroupDocs.Conversion ባህሪያትን በነጻ ይሞክሩ ወይም ፍቃድ ይጠይቁ"
 
@@ -48,20 +48,20 @@ release:
 code:
   title: "ፒዲኤፍ ፋይሎችን በጃቫስክሪፕት አፕሊኬሽኖች ውስጥ እንዴት መቀየር እንደሚቻል"
   more: "ተጨማሪ ምሳሌዎች"
-  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
     ```csharp {style=abap}   
     // የምንጭ ፒዲኤፍ ፋይልን ጫን
     const converter = 
-      new groupdocs.conversion.Converter("sample.pdf");
+      new groupdocs.conversion.Converter("resume.pdf");
     
     // ለDOCX ቅርጸት የመቀየሪያ አማራጮችን ያዘጋጁ
-    const options = 
+    const convertOptions = 
       new groupdocs.conversion.WordProcessingConvertOptions();
     
     // ወደ DOCX ቅርጸት ቀይር
-    converter.convert("output.docx", options);
+    converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
@@ -213,18 +213,19 @@ code_samples:
         በተለምዶ የሚያጋጥመው ሁኔታ አንድን ሙሉ የፒዲኤፍ ሰነድ ወይም የተወሰኑ ገጾችን ወደ የምስሎች ስብስብ መቀየርን ያካትታል። GroupDocs.Conversion for Node.js በጃቫ በኩል ፒዲኤፎችን ወደ ተለያዩ የምስል ቅርጸቶች እንደ TIFF፣ JPG፣ PNG፣ GIF፣ BMP እና ሌሎች የመቀየር ችሎታ ይሰጣል። 
         እንደሌሎች ልወጣዎች ይህ ሂደት የSavePageStream ውክልና ማወጅ ይጠይቃል፣ይህም ለተቀመጡ ምስሎች የስያሜ ቅርጸቱን ይገልጻል። ImageFileType ክፍልን በመጠቀም የመረጡትን የምስል ቅርጸት መምረጥ ይችላሉ።
         {{< landing/code title="በጃቫስክሪፕት ፒዲኤፍ ወደ PNG በመቀየር ላይ">}}
-        ```javascript {style=abap}   
-        // የምንጭ ፒዲኤፍ ፋይልን ጫን
-        const converter = new groupdocs.conversion.Converter("resume.pdf");
+        ```javascript {style=abap}  
+        import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
         
+        // የምንጭ ፒዲኤፍ ፋይልን ጫን
+        const converter = new Converter("resume.pdf");
         const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // ለ PNG ቅርጸት የመቀየሪያ አማራጮችን ያዘጋጁ
-        const options = new groupdocs.conversion.ImageConvertOptions();
-        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+        const convertOptions = new ImageConvertOptions();
+        convertOptions.setFormat(ImageFileType.Png);
 
         // ወደ PNG ቅርጸት ቀይር
-        converter.convert(getPageStream, options);
+        converter.convert(getPageStream, convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -235,13 +236,18 @@ code_samples:
         ይህንን ለማከናወን ሁለት መንገዶች አሉዎት, እንደ ፍላጎቶችዎ ይወሰናል. የተለያዩ ገጾችን መለወጥ ወይም የተወሰኑ ገጾችን መለወጥ ይችላሉ።
         {{< landing/code title="ተከታታይ ገጾችን ቀይር">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("booklet.docx");
+        import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPageNumber(2);
-        options.setPagesCount(3);
+        // {code_samples.sample_2.comment_1}
+        const converter = new Converter("booklet.docx");
 
-        converter.convert("booklet.pdf", options);
+        // {code_samples.sample_2.comment_2}
+        const convertOptions = new PdfConvertOptions();
+        convertOptions.setPageNumber(2);
+        convertOptions.setPagesCount(3);
+
+        // {code_samples.sample_2.comment_3}
+        converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

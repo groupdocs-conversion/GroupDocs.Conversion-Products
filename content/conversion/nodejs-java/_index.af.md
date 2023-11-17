@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-15T10:34:35
+date: 2023-11-17T10:50:49
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
 platform: Node.js via Java
-platform_tag: js
+platform_tag: nodejs-java
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -34,9 +34,9 @@ words:
 
 actions:
   main: "Gratis NuGet-aflaai"
-  main_link: ""
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
   alt: "Lisensiëring"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
   title: "Gereed om te begin?"
   description: "Probeer GroupDocs.Conversion-kenmerke gratis of versoek 'n lisensie"
 
@@ -48,20 +48,20 @@ release:
 code:
   title: "Hoe om PDF-lêers om te skakel in \ a javascript toepassings"
   more: "Meer voorbeelde"
-  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
     ```csharp {style=abap}   
     // Laai die bron-PDF-lêer
     const converter = 
-      new groupdocs.conversion.Converter("sample.pdf");
+      new groupdocs.conversion.Converter("resume.pdf");
     
     // Stel die omskakelopsies vir DOCX-formaat in
-    const options = 
+    const convertOptions = 
       new groupdocs.conversion.WordProcessingConvertOptions();
     
     // Skakel om na DOCX-formaat
-    converter.convert("output.docx", options);
+    converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
@@ -213,18 +213,19 @@ code_samples:
         'n Algemene scenario behels die omskakeling van 'n hele PDF-dokument of spesifieke bladsye in 'n versameling beelde. GroupDocs.Conversion vir Node.js via Java bied die vermoë om PDF's in verskeie beeldformate om te skakel, soos TIFF, JPG, PNG, GIF, BMP, en meer. 
         Anders as ander omskakelings, vereis hierdie proses die verklaring van 'n SavePageStream-afgevaardigde, wat die naamformaat vir die gestoorde beelde spesifiseer. Jy kan jou voorkeurbeeldformaat kies deur die ImageFileType-klas te gebruik.
         {{< landing/code title="Omskakeling van PDF na PNG in Javascript">}}
-        ```javascript {style=abap}   
-        // Laai die bron-PDF-lêer
-        const converter = new groupdocs.conversion.Converter("resume.pdf");
+        ```javascript {style=abap}  
+        import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
         
+        // Laai die bron-PDF-lêer
+        const converter = new Converter("resume.pdf");
         const getPageStream = (page) => fs.createWriteStream(util.format("resume-page-%s.png", page));
 
         // Stel die omskakelopsies vir PNG-formaat in
-        const options = new groupdocs.conversion.ImageConvertOptions();
-        options.setFormat(groupdocs.conversion.ImageFileType.Png);
+        const convertOptions = new ImageConvertOptions();
+        convertOptions.setFormat(ImageFileType.Png);
 
         // Skakel om na PNG-formaat
-        converter.convert(getPageStream, options);
+        converter.convert(getPageStream, convertOptions);
         ```
         {{< /landing/code >}}
 
@@ -235,13 +236,18 @@ code_samples:
         Jy het twee metodes om dit te bereik, afhangende van jou vereistes. Jy kan óf 'n reeks bladsye omskakel óf spesifieke bladsye omskakel.
         {{< landing/code title="Skakel 'n opeenvolgende reeks bladsye om">}}
         ```javascript {style=abap}   
-        const converter = new groupdocs.conversion.Converter("booklet.docx");
+        import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        const options = new groupdocs.conversion.PdfConvertOptions();
-        options.setPageNumber(2);
-        options.setPagesCount(3);
+        // {code_samples.sample_2.comment_1}
+        const converter = new Converter("booklet.docx");
 
-        converter.convert("booklet.pdf", options);
+        // {code_samples.sample_2.comment_2}
+        const convertOptions = new PdfConvertOptions();
+        convertOptions.setPageNumber(2);
+        convertOptions.setPagesCount(3);
+
+        // {code_samples.sample_2.comment_3}
+        converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################

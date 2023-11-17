@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T14:50:10
+date: 2023-11-17T15:37:40
 draft: false
 
 product: "Conversion"
@@ -227,8 +227,8 @@ code_samples:
         {{< landing/code title="Converting PDF to PNG in Java">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
-        import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         import com.groupdocs.conversion.filetypes.ImageFileType;
+        import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
         // Load the source PDF file
@@ -236,7 +236,7 @@ code_samples:
         
         // Set the convert options and specify the output image type
         ImageConvertOptions convertOptions = new ImageConvertOptions();
-        convertOptions.setFormat(groupdocs.conversion.ImageFileType.Png);
+        convertOptions.setFormat(ImageFileType.Png);
 
         // Convert each page of PDF document to PNG
         converter.convert("page.png", convertOptions);

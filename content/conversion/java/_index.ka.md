@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T14:50:10
+date: 2023-11-17T15:37:40
 draft: false
 
 product: "Conversion"
@@ -227,8 +227,8 @@ code_samples:
         {{< landing/code title="{code_samples.sample_1.code_title}">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
-        import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         import com.groupdocs.conversion.filetypes.ImageFileType;
+        import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
         // {code_samples.sample_1.comment_1}
@@ -236,7 +236,7 @@ code_samples:
         
         // {code_samples.sample_1.comment_2}
         ImageConvertOptions convertOptions = new ImageConvertOptions();
-        convertOptions.setFormat(groupdocs.conversion.ImageFileType.Png);
+        convertOptions.setFormat(ImageFileType.Png);
 
         // {code_samples.sample_1.comment_3}
         converter.convert("page.png", convertOptions);

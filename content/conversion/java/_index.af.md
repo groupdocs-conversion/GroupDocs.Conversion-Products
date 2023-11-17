@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T14:50:09
+date: 2023-11-17T15:37:40
 draft: false
 
 product: "Conversion"
@@ -227,8 +227,8 @@ code_samples:
         {{< landing/code title="Omskakeling van PDF na PNG in Java">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
-        import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         import com.groupdocs.conversion.filetypes.ImageFileType;
+        import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
         // Laai die bron-PDF-lêer
@@ -236,7 +236,7 @@ code_samples:
         
         // Stel die omskakelopsies vir PNG-formaat in
         ImageConvertOptions convertOptions = new ImageConvertOptions();
-        convertOptions.setFormat(groupdocs.conversion.ImageFileType.Png);
+        convertOptions.setFormat(ImageFileType.Png);
 
         // Skakel om na PNG-formaat
         converter.convert("page.png", convertOptions);

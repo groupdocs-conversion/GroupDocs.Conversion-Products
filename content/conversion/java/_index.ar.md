@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T14:20:16
+date: 2023-11-17T14:27:16
 draft: false
 
 product: "Conversion"
@@ -226,12 +226,10 @@ code_samples:
         على عكس التحويلات الأخرى، تتطلب هذه العملية تصريحًا من مفوض SavePageStream، الذي يحدد تنسيق التسمية للصور المحفوظة. يمكنك تحديد تنسيق الصورة المفضل لديك باستخدام فئة ImageFileType.
         {{< landing/code title="تحويل PDF إلى PNG في جافا">}}
         ```java {style=abap} 
-        import java.io.FileOutputStream;
         import com.groupdocs.conversion.Converter;
-        import com.groupdocs.conversion.contracts.SavePageStream;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         import com.groupdocs.conversion.filetypes.ImageFileType;
-        ...
+        //...
 
         // قم بتحميل ملف PDF المصدر
         Converter converter = new Converter("resume.pdf");
@@ -254,7 +252,8 @@ code_samples:
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
-        ...
+        //...
+
         // {code_samples.sample_2.comment_1}
         Converter converter = new Converter("booklet.docx");
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T14:20:16
+date: 2023-11-17T14:27:16
 draft: false
 
 product: "Conversion"
@@ -226,12 +226,10 @@ code_samples:
         {code_samples.sample_1.content_2}
         {{< landing/code title="{code_samples.sample_1.code_title}">}}
         ```java {style=abap} 
-        import java.io.FileOutputStream;
         import com.groupdocs.conversion.Converter;
-        import com.groupdocs.conversion.contracts.SavePageStream;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         import com.groupdocs.conversion.filetypes.ImageFileType;
-        ...
+        //...
 
         // {code_samples.sample_1.comment_1}
         Converter converter = new Converter("resume.pdf");
@@ -254,7 +252,8 @@ code_samples:
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
-        ...
+        //...
+
         // {code_samples.sample_2.comment_1}
         Converter converter = new Converter("booklet.docx");
 

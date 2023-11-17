@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T14:20:16
+date: 2023-11-17T14:27:16
 draft: false
 
 product: "Conversion"
@@ -226,12 +226,10 @@ code_samples:
         За разлика от други преобразувания, този процес изисква декларирането на делегат SavePageStream, който указва формата за именуване на запазените изображения. Можете да изберете предпочитания от вас формат на изображение с помощта на класа ImageFileType.
         {{< landing/code title="Конвертиране на PDF в PNG в Java">}}
         ```java {style=abap} 
-        import java.io.FileOutputStream;
         import com.groupdocs.conversion.Converter;
-        import com.groupdocs.conversion.contracts.SavePageStream;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         import com.groupdocs.conversion.filetypes.ImageFileType;
-        ...
+        //...
 
         // Заредете изходния PDF файл
         Converter converter = new Converter("resume.pdf");
@@ -254,7 +252,8 @@ code_samples:
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
-        ...
+        //...
+
         // {code_samples.sample_2.comment_1}
         Converter converter = new Converter("booklet.docx");
 

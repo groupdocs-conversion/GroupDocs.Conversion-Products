@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T10:50:49
+date: 2023-11-17T11:06:25
 draft: false
 
 product: "Conversion"
@@ -53,12 +53,10 @@ code:
   content: |
     ```csharp {style=abap}   
     // Load the source PDF file
-    const converter = 
-      new groupdocs.conversion.Converter("resume.pdf");
+    const converter = new Converter("resume.pdf");
     
     // Set the convert options for DOCX format
-    const convertOptions = 
-      new groupdocs.conversion.WordProcessingConvertOptions();
+    const convertOptions = new WordProcessingConvertOptions();
     
     // Convert to DOCX format
     converter.convert("resume.docx", convertOptions);

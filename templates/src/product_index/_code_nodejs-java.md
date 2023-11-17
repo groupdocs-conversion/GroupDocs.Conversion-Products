@@ -6,12 +6,10 @@ code:
   content: |
     ```csharp {style=abap}   
     // <% "{code.comment_1}" %>
-    const converter = 
-      new groupdocs.conversion.Converter("resume.pdf");
+    const converter = new Converter("resume.pdf");
     
     // <% "{code.comment_2}" %>
-    const convertOptions = 
-      new groupdocs.conversion.WordProcessingConvertOptions();
+    const convertOptions = new WordProcessingConvertOptions();
     
     // <% "{code.comment_3}" %>
     converter.convert("resume.docx", convertOptions);

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T10:50:49
+date: 2023-11-17T11:06:24
 draft: false
 
 product: "Conversion"
@@ -53,12 +53,10 @@ code:
   content: |
     ```csharp {style=abap}   
     // Carregueu el fitxer PDF d'origen
-    const converter = 
-      new groupdocs.conversion.Converter("resume.pdf");
+    const converter = new Converter("resume.pdf");
     
     // Establiu les opcions de conversió per al format DOCX
-    const convertOptions = 
-      new groupdocs.conversion.WordProcessingConvertOptions();
+    const convertOptions = new WordProcessingConvertOptions();
     
     // Converteix a format DOCX
     converter.convert("resume.docx", convertOptions);

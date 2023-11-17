@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T10:50:49
+date: 2023-11-17T11:06:24
 draft: false
 
 product: "Conversion"
@@ -53,12 +53,10 @@ code:
   content: |
     ```csharp {style=abap}   
     // {code.comment_1}
-    const converter = 
-      new groupdocs.conversion.Converter("resume.pdf");
+    const converter = new Converter("resume.pdf");
     
     // {code.comment_2}
-    const convertOptions = 
-      new groupdocs.conversion.WordProcessingConvertOptions();
+    const convertOptions = new WordProcessingConvertOptions();
     
     // {code.comment_3}
     converter.convert("resume.docx", convertOptions);

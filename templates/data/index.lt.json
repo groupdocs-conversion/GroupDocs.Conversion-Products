@@ -12,13 +12,14 @@
       "title": "GroupDocs.Conversion High Code API apima",
       "label": "Peržiūrėkite visas aukšto kodo API",
       "product1_content": "Vietinė .NET API, skirta tiksliai konvertuoti dokumentus ir vaizdo failų formatus bet kokio tipo .NET programoje. Palaiko vaizdo vandens ženklų pridėjimą konvertuojant.",
-      "product2_content": "Leiskite savo Java programoms lengvai konvertuoti į visus pramonės standartinius dokumentų formatus, įskaitant Microsoft Office, PDF, HTML, vaizdus ir daugelį kitų."
+      "product2_content": "Leiskite savo Java programoms lengvai konvertuoti į visus pramonės standartinius dokumentų formatus, įskaitant Microsoft Office, PDF, HTML, vaizdus ir daugelį kitų.",
+      "product3_content": "Įgalinkite „JavaScript“ programas lengvai konvertuoti į visus pramonės standartinius dokumentų formatus, įskaitant „Microsoft Office“, PDF, HTML, vaizdus ir daugelį kitų."
     },
     "api2": {
       "title": "GroupDocs.Conversion žemo kodo API apima",
       "label": "Peržiūrėkite visas žemo kodo API",
       "product1_content": "Dirbkite su cURL RESTful failų konvertavimo API, kad lengvai konvertuotumėte Microsoft Office, PDF, el. paštą, projektą, HTML ir kitus įprastus failų formatus savo programose.",
-      "product2_content": ".NET failų konvertavimo REST API, kad būtų galima lengvai konvertuoti Microsoft Office, PDF, el. paštą, projektą, HTML ir kitus įprastus failų formatus bet kurioje platformoje naudojant debesies SDK.",
+      "product2_content": ".NET failų konvertavimo REST API, leidžianti lengvai konvertuoti „Microsoft Office“, PDF, el. pašto, projekto, HTML ir kitus įprastus failų formatus bet kurioje platformoje naudojant „Cloud SDK“.",
       "product3_content": "Praturtinkite savo debesyje pagrįstas Java programas pažangiomis dokumentų konvertavimo funkcijomis bet kurioje platformoje, galinčioje iškviesti REST API."
     },
     "api3": {
@@ -31,6 +32,6 @@
   },
   "testimonial": {
     "designation": "Psichologas",
-    "content": "Su džiaugsmu stebiu GroupDocs augimą. Jūsų visos komandos reagavimas man labai padėjo. Kai kalbuosi su kuo nors iš „GroupDocs“, galiu garantuoti, kad kažkas klauso ir daro viską."
+    "content": "Su džiaugsmu stebiu GroupDocs augimą. Jūsų visos komandos reagavimas man labai padėjo. Kai kalbuosi su kuo nors iš GroupDocs, galiu garantuoti, kad kažkas klauso ir daro viską."
   }
 }

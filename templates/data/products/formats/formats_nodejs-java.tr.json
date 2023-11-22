@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Desteklenen dosya formatları",
+    "description": "Java aracılığıyla GroupDocs.Conversion for Node.js, aşağıdaki [dosya biçimleriyle](https://docs.groupdocs.com/conversion/nodejs-java/supported-file-formats/) yapılan işlemleri destekler.",
+    "groups": {
+      "title_1": "Belge formatları",
+      "title_2": "Görseller ve Multimedya",
+      "title_3": "Diğer formatlar",
+      "format_documents": "Belgeler",
+      "format_images": "Görüntüler",
+      "format_diagram": "Diyagram",
+      "format_cad_gis": "CAD ve CBS",
+      "format_audio": "Ses",
+      "format_video": "Video",
+      "format_vector_3d": "3D ve Vektör",
+      "format_web": "ağ",
+      "format_archives": "Arşivler",
+      "format_email_outlook": "E-posta ve Outlook",
+      "format_finance": "Finans"
+    }
+  }
+}

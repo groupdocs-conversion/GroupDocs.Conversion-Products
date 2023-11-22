@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Formatos de archivo admitidos",
+    "description": "GroupDocs.Conversion para Java admite operaciones con los siguientes [formatos de archivo] (https://docs.groupdocs.com/conversion/java/supported-file-formats/).",
+    "groups": {
+      "title_1": "Formatos de documentos",
+      "title_2": "Imágenes y multimedia",
+      "title_3": "Otros formatos",
+      "format_documents": "Documentos",
+      "format_images": "Imágenes",
+      "format_diagram": "Diagrama",
+      "format_cad_gis": "CAD y SIG",
+      "format_audio": "Audio",
+      "format_video": "Video",
+      "format_vector_3d": "3D y vectores",
+      "format_web": "Web",
+      "format_archives": "Archivo",
+      "format_email_outlook": "Correo electrónico y Outlook",
+      "format_finance": "Finanzas"
+    }
+  }
+}

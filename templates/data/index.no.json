@@ -12,12 +12,13 @@
       "title": "GroupDocs.Conversion High Code APIer inkluderer",
       "label": "Se alle High Code APIer",
       "product1_content": "Native .NET API for nøyaktig konvertering av dokumenter og bildefilformater i alle typer .NET-applikasjoner. Støtter å legge til bildevannmerker under konvertering.",
-      "product2_content": "La Java-applikasjonene dine enkelt konvertere mellom alle industristandard dokumentformater, inkludert Microsoft Office, PDF, HTML, bilder og mange andre."
+      "product2_content": "La Java-applikasjonene dine enkelt konvertere mellom alle industristandard dokumentformater, inkludert Microsoft Office, PDF, HTML, bilder og mange andre.",
+      "product3_content": "Aktiver JavaScript-applikasjonene dine til å enkelt konvertere mellom alle industristandard dokumentformater, inkludert Microsoft Office, PDF, HTML, bilder og mange andre."
     },
     "api2": {
       "title": "GroupDocs.Conversion Low Code APIer inkluderer",
       "label": "Se alle lavkode-APIer",
-      "product1_content": "Arbeid med cURL RESTful filkonverterings-API for enkelt å konvertere Microsoft Office, PDF, E-post, Project, HTML og andre vanlige filformater i applikasjonene dine.",
+      "product1_content": "Arbeid med cURL RESTful filkonverterings-API for enkelt å konvertere Microsoft Office, PDF, e-post, Project, HTML og andre vanlige filformater i applikasjonene dine.",
       "product2_content": ".NET filkonvertering REST API for enkelt å konvertere Microsoft Office, PDF, e-post, Project, HTML og andre vanlige filformater på hvilken som helst plattform ved hjelp av Cloud SDK.",
       "product3_content": "Berik dine skybaserte Java-applikasjoner med avanserte dokumentkonverteringsfunksjoner på enhver plattform som kan kalle REST APIer."
     },
@@ -31,6 +32,6 @@
   },
   "testimonial": {
     "designation": "Psykolog",
-    "content": "Jeg ser spent på veksten til GroupDocs. Responsen til hele teamet ditt har hjulpet meg veldig, når jeg snakker med noen på GroupDocs kan jeg garantere at noen lytter og får ting til å skje."
+    "content": "Jeg følger spent med på veksten til GroupDocs. Responsen til hele teamet ditt har hjulpet meg veldig, når jeg snakker med noen på GroupDocs kan jeg garantere at noen lytter og får ting til å skje."
   }
 }

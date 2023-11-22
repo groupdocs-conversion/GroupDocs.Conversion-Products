@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 문서 변환 API | PDF, Word, Excel, PPTX, HTML 및 이미지 변환",
+    "description": "{{ProgLang}} 문서 변환 API입니다. PDF, Word, DOC, DOCX, Excel, 스프레드시트, PPT, PPTX, HTML, PSD, MPT, MPP, 이메일, MSG, EMLX, AutoCAD 및 이미지 파일 형식을 변환합니다."
+  },
+  "header": {
+    "title_1": "문서 변환",
+    "title_2": "Node.js API를 통해",
+    "description": "PDF, Microsoft Office, HTML, eBook 및 이미지 파일을 변환하는 강력한 변환 API",
+    "words": {
+      "for": "~을 위한"
+    }
+  },
+  "actions": {
+    "main": "무료 NPM 다운로드",
+    "alt": "라이선스",
+    "title": "시작할 준비가 되셨나요?",
+    "description": "GroupDocs.Conversion 기능을 무료로 사용해 보거나 라이선스를 요청하세요"
+  },
+  "release": {
+    "title": "버전 {0} 출시됨",
+    "notes": "새로운 소식 보기",
+    "downloads": "다운로드"
+  }
+}

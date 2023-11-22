@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Қолдау көрсетілетін файл пішімдері",
+    "description": "GroupDocs.Conversion for Java келесі [файл пішімдері](https://docs.groupdocs.com/conversion/java/supported-file-formats/) бар әрекеттерді қолдайды.",
+    "groups": {
+      "title_1": "Құжат форматтары",
+      "title_2": "Суреттер және мультимедиа",
+      "title_3": "Басқа форматтар",
+      "format_documents": "Құжаттар",
+      "format_images": "Суреттер",
+      "format_diagram": "Диаграмма",
+      "format_cad_gis": "CAD және GIS",
+      "format_audio": "Аудио",
+      "format_video": "Бейне",
+      "format_vector_3d": "3D және вектор",
+      "format_web": "желі",
+      "format_archives": "Мұрағаттар",
+      "format_email_outlook": "Электрондық пошта және Outlook",
+      "format_finance": "Қаржы"
+    }
+  }
+}

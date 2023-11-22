@@ -1,7 +1,7 @@
 {
   "head": {
-    "title": "{{ProgLang}} API de conversió de documents | Converteix imatges PDF Word Excel PPTX HTML",
-    "description": "{{ProgLang}} API de conversió de documents. Converteix PDF Word DOC DOCX, fulls de càlcul Excel PPT PPTX, HTML, PSD, MPT MPP, correu electrònic MSG EMLX, AutoCAD i formats de fitxer d'imatge."
+    "title": "{{ProgLang}} API de conversió de documents | Converteix PDF, Word, Excel, PPTX, HTML i imatges",
+    "description": "API de conversió de documents de {{ProgLang}}. Converteix PDF, Word, DOC, DOCX, Excel, Fulls de càlcul, PPT, PPTX, HTML, PSD, MPT, MPP, correu electrònic, MSG, EMLX, AutoCAD i formats de fitxer d'imatge."
   },
   "header": {
     "title_1": "Conversió de documents",

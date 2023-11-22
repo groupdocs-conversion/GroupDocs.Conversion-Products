@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "รูปแบบไฟล์ที่รองรับ",
+    "description": "GroupDocs.Conversion สำหรับ .NET รองรับการดำเนินการกับ [รูปแบบไฟล์](https://docs.groupdocs.com/conversion/net/supported-file-formats/) ต่อไปนี้",
+    "groups": {
+      "title_1": "รูปแบบเอกสาร",
+      "title_2": "รูปภาพและมัลติมีเดีย",
+      "title_3": "รูปแบบอื่นๆ",
+      "format_documents": "เอกสาร",
+      "format_images": "รูปภาพ",
+      "format_diagram": "แผนภาพ",
+      "format_cad_gis": "CAD และภูมิสารสนเทศ",
+      "format_audio": "เสียง",
+      "format_video": "วีดีโอ",
+      "format_vector_3d": "3 มิติและเวกเตอร์",
+      "format_web": "เว็บ",
+      "format_archives": "หอจดหมายเหตุ",
+      "format_email_outlook": "อีเมลและ Outlook",
+      "format_finance": "การเงิน"
+    }
+  }
+}

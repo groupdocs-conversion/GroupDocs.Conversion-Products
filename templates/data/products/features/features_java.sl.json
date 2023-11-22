@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funkcije GroupDocs.Conversion",
+    "description": "Brezhibno pretvorite PDF in pisarniške dokumente v HTML, JPG, PNG, BMP, TIFF, SVG in številne druge formate. GroupDocs.Conversion for Java API je zasnovan tako, da je enostaven za uporabo in integracijo v vaš projekt. Podpira vse priljubljene formate dokumentov z možnostjo prilagajanja postopka pretvorbe.",
+    "feature_1": {
+      "title": "Pretvorba več formatov",
+      "content": "Z lahkoto pretvarjajte datoteke med različnimi formati, vključno s PDF, DOCX, XLSX, PPTX in drugimi."
+    },
+    "feature_2": {
+      "title": "Izhod visoke ločljivosti",
+      "content": "Med postopkom pretvorbe ohranite izvirno kakovost in oblikovanje dokumentov."
+    },
+    "feature_3": {
+      "title": "Pretvarjanje več datotek",
+      "content": "Pretvorite več datotek in jih združite v arhiv, kar poenostavi organizacijo pretvorjene vsebine."
+    },
+    "feature_4": {
+      "title": "Večstranski dokument v slike",
+      "content": "Pretvorite večstranske dokumente v slike stran za stranjo, kar omogoča natančen nadzor nad procesom preoblikovanja in olajša ekstrakcijo in analizo dokumentov na podlagi slik."
+    },
+    "feature_5": {
+      "title": "Prilagodljive nastavitve",
+      "content": "Natančno nastavite parametre pretvorbe, kot so ločljivost, kakovost in postavitev, da izpolnite posebne zahteve."
+    },
+    "feature_6": {
+      "title": "Varna obdelava",
+      "content": "Zagotovite zasebnost podatkov z možnostmi pretvorbe datotek, zaščitenih z geslom."
+    },
+    "feature_7": {
+      "title": "API integracija",
+      "content": "Brezhibno integrirajte zmožnosti pretvorbe v svoje aplikacije Java, tako da postane brezhiben del vašega delovnega toka."
+    },
+    "feature_8": {
+      "title": "Robustna pretvorba",
+      "content": "Zagotovite zanesljive pretvorbe datotek brez napak, ki zagotavljajo točnost in celovitost vaših preoblikovanih dokumentov."
+    },
+    "feature_9": {
+      "title": "Pretvarjanje dokumentov iz arhivov",
+      "content": "Ekstrahirajte in pretvorite dokumente iz arhivov, kar omogoča preoblikovanje vsebine, shranjene v stisnjenih datotekah."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Taybetmendiyên GroupDocs.Conversion",
+    "description": "Belgeyên PDF û nivîsgehê bi yekdengî veguherînin HTML, JPG, PNG, BMP, TIFF, SVG, û gelek formatên din. GroupDocs.Conversion ji bo Java API-ê ji bo karanîna hêsan û entegrekirina projeya we hatî çêkirin. Ew hemî formatên belgeyên populer ên bi şiyana xweşkirina pêvajoya veguheztinê piştgirî dike.",
+    "feature_1": {
+      "title": "Veguherîna pir-format",
+      "content": "Pelên di navbera formatên cihêreng, di nav de PDF, DOCX, XLSX, PPTX, û hêj bêtir, bi hêsanî veguherînin."
+    },
+    "feature_2": {
+      "title": "Hilberîna pêbaweriya bilind",
+      "content": "Di pêvajoya veguheztinê de kalîteya orîjînal û formatkirina belgeyan biparêzin."
+    },
+    "feature_3": {
+      "title": "Veguherandina pelên pirjimar",
+      "content": "Gelek pelan veguherînin û wan di nav arşîvek de tevlihev bikin, rêxistina naveroka veguherî hêsan bikin."
+    },
+    "feature_4": {
+      "title": "Belgeya pirrûpel ji wêneyan re",
+      "content": "Belgeyên pirrûpelî rûpel bi rûpel veguherînin wêneyan, kontrolkirina rast a li ser pêvajoya veguherînê û hêsankirina derxistin û analîzkirina belge-based wêneyê hêsan dike."
+    },
+    "feature_5": {
+      "title": "Mîhengên xwerû",
+      "content": "Parametreyên veguheztinê yên wekî çareserî, kalîte, û sêwiranê xweş bikin da ku daxwazên taybetî bicîh bînin."
+    },
+    "feature_6": {
+      "title": "Pêvajoya ewledar",
+      "content": "Bi vebijarkên veguheztina pelê bi şîfreya parastî nepeniya daneyê piştrast bikin."
+    },
+    "feature_7": {
+      "title": "entegrasyona API",
+      "content": "Kapasîteyên veguheztinê di sepanên xwe yên Java-yê de bêkêmasî entegre bikin, û wê bikin beşek bêkêmasî ya xebata we."
+    },
+    "feature_8": {
+      "title": "Veguherîna bihêz",
+      "content": "Veguheztinên pelan ên pêbawer û bê-çewtî piştrast bikin, rastbûn û yekparebûna belgeyên weyên guhezbar garantî bikin."
+    },
+    "feature_9": {
+      "title": "Belgeyên ji arşîvan veguherînin",
+      "content": "Belgeyên ji arşîvan derxînin û veguherînin, veguherîna naveroka ku di nav pelên pêçandî de hatine hilanîn."
+    }
+  }
+}

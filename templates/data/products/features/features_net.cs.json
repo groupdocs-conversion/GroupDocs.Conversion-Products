@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Funkce GroupDocs.Conversion",
+    "description": "Bezproblémově převádějte PDF a kancelářské dokumenty do HTML, JPG, PNG, BMP, TIFF, SVG a mnoha dalších formátů. GroupDocs.Conversion for .NET API je navrženo tak, aby se snadno používalo a integrovalo do vašeho projektu. Podporuje všechny oblíbené formáty dokumentů s možností přizpůsobit proces převodu.",
+    "feature_1": {
+      "title": "Víceformátová konverze",
+      "content": "Snadno převádějte soubory mezi různými formáty, včetně PDF, DOCX, XLSX, PPTX a dalších."
+    },
+    "feature_2": {
+      "title": "Vysoce věrný výstup",
+      "content": "Zachovejte původní kvalitu a formátování dokumentů během procesu převodu."
+    },
+    "feature_3": {
+      "title": "Převod více souborů",
+      "content": "Převeďte více souborů a zkombinujte je do archivu, což zjednoduší organizaci převedeného obsahu."
+    },
+    "feature_4": {
+      "title": "Vícestránkový dokument k obrázkům",
+      "content": "Převádějte vícestránkové dokumenty na obrázky stránku po stránce, což umožňuje přesnou kontrolu nad procesem transformace a usnadňuje extrakci a analýzu dokumentů založených na obrázcích."
+    },
+    "feature_5": {
+      "title": "Přizpůsobitelné nastavení",
+      "content": "Dolaďte parametry převodu, jako je rozlišení, kvalita a rozvržení, aby splňovaly specifické požadavky."
+    },
+    "feature_6": {
+      "title": "Bezpečné zpracování",
+      "content": "Zajistěte soukromí dat pomocí možností převodu souborů chráněných heslem."
+    },
+    "feature_7": {
+      "title": "Integrace API",
+      "content": "Bezproblémově integrujte konverzní schopnosti do svých aplikací .NET a udělejte z nich bezproblémovou součást vašeho pracovního postupu."
+    },
+    "feature_8": {
+      "title": "Robustní přestavba",
+      "content": "Zajistěte spolehlivé a bezchybné převody souborů, zaručující přesnost a integritu vašich transformovaných dokumentů."
+    },
+    "feature_9": {
+      "title": "Převeďte dokumenty z archivů",
+      "content": "Extrahujte a převádějte dokumenty z archivů, což umožňuje transformaci obsahu uloženého v komprimovaných souborech."
+    }
+  }
+}

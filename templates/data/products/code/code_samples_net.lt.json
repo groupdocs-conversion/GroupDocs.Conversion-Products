@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Kodo pavyzdžiai",
+    "description": "Kai kurie naudojami tipiškų GroupDocs.Conversion atvejai .NET operacijoms",
+    "sample_1": {
+      "title": "Konvertuoti PDF į vaizdą",
+      "content_1": "Dažniausiai pasitaikantis scenarijus apima viso PDF dokumento arba konkrečių puslapių konvertavimą į vaizdų rinkinį. GroupDocs.Conversion for .NET siūlo galimybę konvertuoti PDF failus į įvairius vaizdo formatus, tokius kaip TIFF, JPG, PNG, GIF, BMP ir kt.",
+      "content_2": "Skirtingai nuo kitų konversijų, šiam procesui reikia deklaruoti SavePageStream įgaliotinį, kuris nurodo išsaugotų vaizdų pavadinimo formatą. Galite pasirinkti pageidaujamą vaizdo formatą naudodami ImageFileType klasę.",
+      "code_title": "Konvertuoti PDF į PNG C#",
+      "comment_1": "Įkelkite šaltinio PDF failą",
+      "comment_2": "Nustatykite konvertavimo parinktis ir nurodykite išvesties vaizdo tipą",
+      "comment_3": "Konvertuokite kiekvieną PDF dokumento puslapį į PNG"
+    },
+    "sample_2": {
+      "title": "Konvertuoti didelio dokumento segmentą",
+      "content_1": "Naudodami GroupDocs.Conversion for .NET galite be vargo konvertuoti konkrečius puslapius iš ilgo dokumento.",
+      "content_2": "Priklausomai nuo jūsų reikalavimų, galite tai padaryti dviem būdais. Galite konvertuoti puslapių diapazoną arba konkrečius puslapius.",
+      "code_title_1": "Konvertuoti DOCX (2-4 psl.) į PDF C#",
+      "comment_1": "Įkelkite šaltinio DOCX failą",
+      "comment_2": "Nustatykite konvertavimo parinktis ir nurodykite pateikiamų puslapių diapazoną",
+      "comment_3": "Konvertuoti 2-4 puslapius į PDF"
+    },
+    "sample_3": {
+      "title": "Sklandi sintaksė: supaprastintas metodas",
+      "content_1": "Sklandi sintaksė siūlo glaustą žymėjimą bendriems veiksmams GroupDocs.Conversion for .NET API.",
+      "content_2": "Toliau pateikti kodo pavyzdžiai parodo, kaip panaudoti sklandžią sintaksę:",
+      "code_title_1": "Konvertuokite DOCX į PDF C# naudodami sklandžią sintaksę"
+    }
+  }
+}

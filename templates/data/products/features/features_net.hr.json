@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Značajke GroupDocs.Conversion",
+    "description": "Besprijekorno pretvorite PDF i uredske dokumente u HTML, JPG, PNG, BMP, TIFF, SVG i mnoge druge formate. GroupDocs.Conversion za .NET API dizajniran je za jednostavno korištenje i integraciju u vaš projekt. Podržava sve popularne formate dokumenata s mogućnošću prilagođavanja procesa pretvorbe.",
+    "feature_1": {
+      "title": "Pretvorba više formata",
+      "content": "Pretvorite datoteke između različitih formata, uključujući PDF, DOCX, XLSX, PPTX i više, s lakoćom."
+    },
+    "feature_2": {
+      "title": "Izlaz visoke vjernosti",
+      "content": "Sačuvajte izvornu kvalitetu i formatiranje dokumenata tijekom procesa pretvorbe."
+    },
+    "feature_3": {
+      "title": "Pretvaranje više datoteka",
+      "content": "Pretvorite više datoteka i kombinirajte ih u arhivu, pojednostavljujući organizaciju pretvorenog sadržaja."
+    },
+    "feature_4": {
+      "title": "Dokument s više stranica u slike",
+      "content": "Pretvorite dokumente s više stranica u slike stranicu po stranicu, omogućujući preciznu kontrolu nad procesom transformacije i olakšavajući ekstrakciju i analizu dokumenata temeljenih na slikama."
+    },
+    "feature_5": {
+      "title": "Prilagodljive postavke",
+      "content": "Fino podesite parametre pretvorbe kao što su rezolucija, kvaliteta i izgled kako biste zadovoljili specifične zahtjeve."
+    },
+    "feature_6": {
+      "title": "Sigurna obrada",
+      "content": "Osigurajte privatnost podataka pomoću opcija pretvorbe datoteka zaštićenih lozinkom."
+    },
+    "feature_7": {
+      "title": "API integracija",
+      "content": "Besprijekorno integrirajte mogućnosti pretvorbe u svoje .NET aplikacije, čineći ih neprimjetnim dijelom vašeg tijeka rada."
+    },
+    "feature_8": {
+      "title": "Robusna pretvorba",
+      "content": "Osigurajte pouzdane pretvorbe datoteka bez grešaka, jamčeći točnost i cjelovitost vaših transformiranih dokumenata."
+    },
+    "feature_9": {
+      "title": "Pretvorite dokumente iz arhiva",
+      "content": "Izdvojite i pretvorite dokumente iz arhiva, omogućujući transformaciju sadržaja pohranjenog unutar komprimiranih datoteka."
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "features": {
     "title": "GroupDocs.Funcions de conversió",
-    "description": "Converteix perfectament documents PDF i Office a HTML, JPG, PNG, BMP, TIFF, SVG i molts altres formats. GroupDocs.Conversion per a Node.js mitjançant l'API de Java està dissenyat per ser fàcil d'utilitzar i d'integrar-se al vostre projecte. Admet tots els formats de document populars amb la possibilitat de personalitzar el procés de conversió. GroupDocs.Conversion per a Node.js mitjançant l'API de Java està dissenyat per ser fàcil d'utilitzar i d'integrar-se al vostre projecte. Admet tots els formats de document populars amb la possibilitat de personalitzar el procés de conversió.",
+    "description": "Converteix perfectament documents PDF i d'oficina a HTML, JPG, PNG, BMP, TIFF, SVG i molts altres formats. GroupDocs.Conversion per a Node.js mitjançant l'API de Java està dissenyat per ser fàcil d'utilitzar i d'integrar-se al vostre projecte. Admet tots els formats de document populars amb la possibilitat de personalitzar el procés de conversió.",
     "feature_1": {
       "title": "Conversió multiformat",
       "content": "Converteix fitxers entre diversos formats, inclosos PDF, DOCX, XLSX, PPTX i més, amb facilitat."
@@ -23,12 +23,12 @@
       "content": "Ajusteu els paràmetres de conversió, com ara la resolució, la qualitat i el disseny, per satisfer requisits específics."
     },
     "feature_6": {
-      "title": "Processament segur",
+      "title": "Tractament segur",
       "content": "Assegureu-vos la privadesa de les dades amb opcions de conversió de fitxers protegits amb contrasenya."
     },
     "feature_7": {
-      "title": "Integració d'API",
-      "content": "Integreu perfectament les capacitats de conversió a les vostres aplicacions javascript, fent-ho una part perfecta del vostre flux de treball."
+      "title": "Integració de l'API",
+      "content": "Integreu perfectament les capacitats de conversió a les vostres aplicacions JavaScript, fent-ho una part perfecta del vostre flux de treball."
     },
     "feature_8": {
       "title": "Conversió robusta",
@@ -37,14 +37,6 @@
     "feature_9": {
       "title": "Converteix documents d'arxius",
       "content": "Extraieu i convertiu documents d'arxius, permetent la transformació del contingut emmagatzemat en fitxers comprimits."
-    },
-    "feature_10": {
-      "title": "Compatibilitat multiplataforma",
-      "content": "Executeu conversions a les plataformes Windows, Linux i macOS per atendre una base d'usuaris més àmplia."
-    },
-    "feature_11": {
-      "title": "Admet llicències mesurades",
-      "content": "Llicència mesurada admesa per facturar en funció de l'ús de l'API"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Υποστηριζόμενες μορφές αρχείων",
+    "description": "Το GroupDocs.Conversion για το Node.js μέσω Java υποστηρίζει λειτουργίες με τις ακόλουθες [μορφές αρχείων](https://docs.groupdocs.com/conversion/nodejs-java/supported-file-formats/).",
+    "groups": {
+      "title_1": "Μορφές εγγράφων",
+      "title_2": "Εικόνες & Πολυμέσα",
+      "title_3": "Άλλες μορφές",
+      "format_documents": "Εγγραφα",
+      "format_images": "εικόνες",
+      "format_diagram": "Διάγραμμα",
+      "format_cad_gis": "CAD & GIS",
+      "format_audio": "Ήχος",
+      "format_video": "βίντεο",
+      "format_vector_3d": "3D & Vector",
+      "format_web": "Ιστός",
+      "format_archives": "Αρχεία",
+      "format_email_outlook": "Email & Outlook",
+      "format_finance": "Χρηματοδότηση"
+    }
+  }
+}

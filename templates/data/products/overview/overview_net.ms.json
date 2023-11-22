@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Penukaran sepintas lalu",
+    "description": "Terokai keupayaan API untuk penukaran fail PDF, Microsoft Office, HTML, eBook dan imej yang pantas dan sempurna dalam aplikasi .NET",
+    "feature_1": {
+      "title": "Penukaran diperkemas",
+      "description": "Dengan API GroupDocs.Conversion anda boleh menukar dokumen pelbagai format kepada fail PDF, Microsoft Office, HTML, eBook dan imej dengan mudah. API menyediakan pilihan yang fleksibel dan mantap, memastikan integriti kandungan dan struktur dokumen sepanjang proses penukaran."
+    },
+    "feature_2": {
+      "title": "Beralih dengan mudah antara format",
+      "description": "Proses menggunakan API GroupDocs.Conversion adalah sangat mudah, memerlukan hanya satu kaedah dan satu set pilihan untuk bertukar dengan mudah antara format yang berbeza."
+    },
+    "feature_3": {
+      "title": "Keserasian merentas platform",
+      "description": "Terokai penyelesaian penukaran dengan keserasian merentas platform yang wujud, memenuhi asas pengguna yang lebih luas dan memastikan prestasi optimum merentas pelbagai persekitaran untuk semua keperluan penukaran dokumen anda."
+    }
+  }
+}

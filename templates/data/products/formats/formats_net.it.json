@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Formati di file supportati",
+    "description": "GroupDocs.Conversion per .NET supporta operazioni con i seguenti [formati di file](https://docs.groupdocs.com/conversion/net/supported-file-formats/).",
+    "groups": {
+      "title_1": "Formati dei documenti",
+      "title_2": "Immagini e contenuti multimediali",
+      "title_3": "Altri formati",
+      "format_documents": "Documenti",
+      "format_images": "immagini",
+      "format_diagram": "Diagramma",
+      "format_cad_gis": "CAD E GIS",
+      "format_audio": "Audio",
+      "format_video": "video",
+      "format_vector_3d": "3D e vettoriale",
+      "format_web": "ragnatela",
+      "format_archives": "Archivi",
+      "format_email_outlook": "E-mail e Outlook",
+      "format_finance": "Finanza"
+    }
+  }
+}

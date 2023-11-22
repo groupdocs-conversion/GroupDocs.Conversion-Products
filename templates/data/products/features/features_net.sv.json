@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Conversion funktioner",
+    "description": "Konvertera sömlöst PDF- och kontorsdokument till HTML, JPG, PNG, BMP, TIFF, SVG och många andra format. GroupDocs.Conversion for .NET API är utformad för att vara enkel att använda och integrera i ditt projekt. Den stöder alla populära dokumentformat med möjligheten att anpassa konverteringsprocessen.",
+    "feature_1": {
+      "title": "Konvertering i flera format",
+      "content": "Konvertera filer mellan olika format, inklusive PDF, DOCX, XLSX, PPTX och mer, med lätthet."
+    },
+    "feature_2": {
+      "title": "High-fidelity-utgång",
+      "content": "Bevara originalkvaliteten och formateringen av dokument under konverteringsprocessen."
+    },
+    "feature_3": {
+      "title": "Konvertera flera filer",
+      "content": "Konvertera flera filer och kombinera dem till ett arkiv, vilket förenklar organisationen av konverterat innehåll."
+    },
+    "feature_4": {
+      "title": "Flersidigt dokument till bilder",
+      "content": "Konvertera flersidiga dokument till bilder sida för sida, vilket möjliggör exakt kontroll över omvandlingsprocessen och underlättar bildbaserad dokumentextraktion och analys."
+    },
+    "feature_5": {
+      "title": "Anpassningsbara inställningar",
+      "content": "Finjustera konverteringsparametrar som upplösning, kvalitet och layout för att möta specifika krav."
+    },
+    "feature_6": {
+      "title": "Säker bearbetning",
+      "content": "Säkerställ datasekretess med lösenordsskyddade filkonverteringsalternativ."
+    },
+    "feature_7": {
+      "title": "API-integration",
+      "content": "Integrera konverteringsfunktionerna sömlöst i dina .NET-applikationer, vilket gör det till en sömlös del av ditt arbetsflöde."
+    },
+    "feature_8": {
+      "title": "Robust konvertering",
+      "content": "Säkerställ tillförlitliga och felfria filkonverteringar, vilket garanterar noggrannheten och integriteten hos dina transformerade dokument."
+    },
+    "feature_9": {
+      "title": "Konvertera dokument från arkiv",
+      "content": "Extrahera och konvertera dokument från arkiv, vilket möjliggör omvandling av innehåll som lagras i komprimerade filer."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion bi awirek",
+    "description": "Kapasîteyên API-yê ji bo guheztina bilez û bêkêmasî ya PDF, Microsoft Office, HTML, eBook, û pelên wêneyê di nav sepanên Java de bigerin.",
+    "feature_1": {
+      "title": "Veguherîna birêkûpêk",
+      "description": "Bi GroupDocs.Conversion API-ê hûn dikarin bi hêsanî belgeyên bi formên cihêreng veguherînin pelên PDF, Microsoft Office, HTML, eBook û wêneyan. API vebijarkên maqûl û zexm peyda dike, yekbûna naverok û avahiya belgeyê li seranserê pêvajoya veguheztinê misoger dike."
+    },
+    "feature_2": {
+      "title": "Guhestina bi hêsanî di navbera formatan de",
+      "description": "Pêvajoya karanîna GroupDocs.Conversion API-ê pir hêsan e, tenê rêbazek û komek vebijarkan hewce dike ku bi hêsanî di navbera formatên cihêreng de biguhezîne."
+    },
+    "feature_3": {
+      "title": "Lihevhatina cross-platform",
+      "description": "Çareseriyek veguheztinê bi lihevhatina xaç-platformê ya xwerû bigerin, ji bingeha bikarhêner a berfireh re peyda bikin û ji bo hemî hewcedariyên veguheztina belgeyên we performansa çêtirîn li ser hawîrdorên cihêreng peyda bikin."
+    }
+  }
+}

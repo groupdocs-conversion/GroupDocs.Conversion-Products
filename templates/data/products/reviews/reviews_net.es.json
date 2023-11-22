@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "Reseñas de productos GroupDocs",
+    "description": "No confíe sólo en nuestra palabra. Vea lo que otros desarrolladores dicen sobre nuestras API",
+    "review_1": {
+      "content": "Excelente servicio y excelentes productos. Fueron extremadamente útiles y receptivos durante el proceso de implementación de GroupDocs.Conversion para .NET, no puedo recomendarlos lo suficiente.",
+      "author": "Martín Lasarga",
+      "company": "Product Manager en Axentria ECM by G.S.I."
+    },
+    "review_2": {
+      "content": "Después de implementar y usar GroupDocs.Conversion para .NET en el proyecto, parece estar funcionando muy bien. He probado con muchos documentos y hasta ahora todo bien. Todo lo que le he añadido se reproduce muy bien y se ve tan bien como en un visor de PDF o MS Word.",
+      "author": "Mats Oustad",
+      "company": "Consultor Senior/Socio en Novanet AS"
+    }
+  }
+}

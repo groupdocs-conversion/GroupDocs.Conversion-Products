@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "如何用C#转换PDF文件",
+    "more": "更多示例",
+    "notes": "看看有什么新鲜事",
+    "comment_1": "加载源 PDF 文件",
+    "comment_2": "设置转换选项",
+    "comment_3": "将 PDF 转换为 DOCX"
+  }
+}

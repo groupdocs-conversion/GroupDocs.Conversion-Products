@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} .NET Document Conversion API | Wêneyên PDF Word Excel PPTX HTML veguherînin",
-    "description": "{{ProgLang}} .NET Document Conversion API. PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-name MSG EMLX, AutoCAD & formatên pelê wêneyê veguherînin."
+    "title": "{{ProgLang}} API-ya veguherîna belgeya NET | PDF, Word, Excel, PPTX, HTML û wêneyan biguherînin",
+    "description": "{{ProgLang}} API-ya veguherîna belgeya NET. PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, E-name, MSG, EMLX, AutoCAD, û formatên pelê wêneyê veguherînin."
   },
   "header": {
-    "title": ".NET API ji bo Veguherandina 80+ Formatên Pelê",
-    "description": "API-ya hêsan ku fonksiyona Veguheztina Belge û Wêne di Serîlêdanên .NET-ê de bêyî Sazkirina Nermalava Derveyî yek bike.",
-    "button": {
-      "label": "Daxistina Doza Belaş",
-      "link": "https://downloads.groupdocs.com/conversion/net"
+    "title_1": "Veguherîna belgeyê",
+    "title_2": "bi rêya .NET API",
+    "description": "API-ya veguhertina hêzdar ku pelên PDF, Microsoft Office, HTML, eBook, û wêneyê veguherîne",
+    "words": {
+      "for": "bo"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Têgihiştinî"
-      },
-      "button2": {
-        "text": "Features"
-      },
-      "button3": {
-        "text": "Alîkarî"
-      },
-      "button4": {
-        "text": "Demo Bijî"
-      },
-      "button5": {
-        "text": "Pricing"
-      }
-    }
+  "actions": {
+    "main": "Daxistina NuGet Belaş",
+    "alt": "Lîsanskirin",
+    "title": "Amade ne ku dest pê bikin?",
+    "description": "Taybetmendiyên GroupDocs.Conversion belaş biceribîne an destûrnameyek bixwaze"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} komek API-yên hêsan pêşkêşî dike, ku pêşdebiran dihêle ku di {{ProgLang}}, ASP.NET û teknolojiyên din ên girêdayî .NET de serîlêdanên veguherîna belgeyên bihêz ava bikin. {{ProductFullName}} API çareseriya veguhertina pelê zû, bikêr û pêbawer ji bikarhênerên dawîn re peyda dike. Ew di nav hemî formên belgeyên karsaziya populer de pêkanîna veguhertinên rast piştgirî dike, di nav de: PDF, HTML, E-name, belgeyên Microsoft Word, pelgeyên Excel, pêşandanên PowerPoint, Proje, Photoshop, CorelDraw, AutoCAD, diagram, formatên pelên wêneya raster û hêj bêtir. Pirtûkxaneya veguherîna belgeyê bixweber formata belgeya çavkaniyê destnîşan dike û hemî kontrolê dide we ku hûn hemî belgeyê an rûpelên taybetî veguhezînin forma derketinê ya xwestî. Veguheztina tîpên wenda bi yên bijartî re hêsantir e û li her rûpelê belgeyê nîşaneyên nivîs an wêneyê zêde bikin.",
-    "content2": "{{ProductFullName}} dikare ji bo pêşdebirina sepanan li her hawîrdora pêşkeftinê ya ku platforma .NET dike hedef were bikar anîn. Ew bi hemî zimanên bingeha .NET re hevaheng e û pergalên xebitandinê yên populer (Windows, Linux, MacOS) piştgirî dike ku çarçoveyên Mono an .NET (di nav de .NET Core) dikarin werin sazkirin.",
-    "tab_one": {
-      "description": "Li jêr nêrînek li ser {{ProductFullName}} heye:",
-      "right": {
-        "title": "Têgihiştinî",
-        "content1": "* Tîpa Pelê bixweber vedîtin",
-        "content2": "* Belgeyên veguherînin",
-        "content3": "* Pêşniyaran veguherînin",
-        "content4": "* Spreadsheets veguherînin",
-        "content5": "* Wêneyên Raster veguherînin",
-        "content6": "* Belgeyên PDF-ê veguherînin",
-        "content7": "* Formên din veguherînin",
-        "content8": "* Watermarkê bicîh bikin",
-        "content9": "* Şîfreya Pelê diyar bikin",
-        "content10": "* Veguheztinê xweş bikin"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} veguhertina di navbera hemî [formatên pelgeya pelgeyê] yên populer û bi gelemperî têne bikar anîn de piştgirî dike (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Veguherandin Ji:",
-        "content1": "* ** Belge **: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Spreadsheets**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* ** Pêşkêşkirin **: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Wêne**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Portable **: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metafiles**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Proje **: MPP, MPT, MPX",
-        "content10": "* ** Outlook **: PST, OST",
-        "content11": "* ** E-name **: MSG, EML, EMLX",
-        "content12": "* **Diagram **: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* ** AutoCAD **: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* ** PostScript **: EPS, PS, PSL, CGM",
-        "content15": "* ** CorelDRAW **: CDR, CMX",
-        "content16": "* **Yên din **: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Veguherandin Bo:",
-        "content1": "* ** Belge **: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Spreadsheets**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* ** Pêşkêşkirin **: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Wêne**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafiles**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagram **: SVGZ",
-        "content7": "* **Portable **: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "* **Yên din **: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} Pergalên Xebatê, Çarçove û Rêvebirên Pakêtê yên jêrîn piştgirî dike:",
-      "left": {
-        "title1": "Pergalên Xebatê",
-        "title2": "Çarçoveyên Piştgirî"
-      },
-      "right": {
-        "title1": "Rêveberê pakêtê",
-        "title2": "Jîngehên Pêşveçûn"
-      }
-    }
-  },
-  "features": {
-    "title": "Taybetmendiyên {{ProductFullName}}",
-    "content1": "Yekbûnek hêsan & Lîsanskirina Metered",
-    "content2": "Dema Veguheztina Peyv, Slide an Hucreyan Vebijarka Pêşniyazkirina Pêşniyarê bicîh bikin",
-    "content3": "Veguherîne/ji hemî Formên Wêneyên Rasterê yên populer û DPI, Bilindî û Berfirehiya Wêne destnîşan bike",
-    "content4": "PDF & Wêne veguherînin Grayscale & Belgeya PDF-ê ji bo Webê Linearize",
-    "content5": "Di Veguherîna Word bo PDF/XPS de Asta Nîşan, Asta Sernav û Asta Berfirehkirî diyar bikin",
-    "content6": "Di Belgeya Veguhartî de wekî paşxaneyek ji bo Nîşandana Li pişt Nivîsê Vejmar û Bi cîh bikin",
-    "content7": "Di dema Veguheztina ji E-nameyê de Sernavê E-nameyê bidin",
-    "content8": "Di Veguherîna Belgeyê de Rêvebirên Curenivîsên Xwestî Set Bikin & Bi Eşkerayî Fontê Barkirin/Cigir Bikin",
-    "content9": "Ji bo Veguheztina Belge, Slide & Spreadsheets Fonta Pêşniyaz Bide Biguherîne Tîpên Wenda",
-    "content10": "Rêbazên Veguheztinê yên Pêşkeftî ji bo vegerandina Derketinê wekî Rê an IO Stream",
-    "content11": "Spreadsheet bi Grid-lines veguherînin & Dema Veguheztinê şîroveyan ji Slides derxînin",
-    "content12": "Rûpelên Belgeya Taybet wekî Forma PDF-ê Biguherînin & Rêzeya Hucreyê ya Taybet di Pekan de Biguherînin",
-    "content13": "Pelên Veşartî Nîşan Bide û Rêz û Stûnên Vala Derkeve Dema Veguherandina Pelan",
-    "content14": "Tevahiya Rûpelên Belgeyekê Bijmêre û Di Veguherînê de Şîfreyê Bike Belgeya Neparastî",
-    "content15": "Vebijarka Rakirina Annotasyon & Pelên Veguhastî ji PDF-ê",
-    "content16": "Dema Veguherîna HTML-ê Nîşanek Lihevhatî ya HTML 5 biafirînin",
-    "content17": "Dema Veguheztina ji Stream-ê Tîpa Çavkaniyê bixweber kifş bike û hemî Veguhertinên Mumkun vegerîne",
-    "content18": "Dema Veguheztina PDF an HTML-ê şiyana Vegerandina Her Rûpelê di Streamek Veqetandî de",
-    "content19": "Dema Veguhertina ji Wordê Nîşankirin, Şîrovekirin û Guhertinan Bişopînin/Veşêrin",
-    "content20": "Veguheztina DOCX bo Tiff G3 bi Vebijarka Shading",
-    "content21": "Dema Veguheztina ji Belgeya CAD-ê layoutên taybetî biguherînin",
-    "content22": "Dema ku Belgeya Veguhartî li Pelê hildigire navdêra otomatîk",
-    "content23": "Lîsanskirina Metered Piştevaniya ku li ser bingeha Bikaranîna API-ê tête dayîn",
-    "content24": "Diagraman veguherînin Formên Pelên Pêvajoya Peyv",
-    "content25": "Dema ku HTML-ê vediguhezînin Belgeya Pêvajoya Peyv Hejmarên Rûpelê zêde bikin",
-    "content26": "Belgeyên XML-ê bêyî Veguheztinê bi her Formatê veguherînin",
-    "content27": "Pêşveçûna Veguheztina Pelê (Destpêk, Dawî) rasterast ji Serlêdana Kêrî-Xerîdar bişopînin",
-    "more_feature": {
-      "title1": "Bi hêsanî Formên Belgeyê Biguherînin",
-      "content1": "Bi karanîna {{ProductFullName}} veguhertina pelê pelgeyê pir hêsan e. Mînaka jêrîn nîşanî we dide ka meriv çawa bi karanîna {{ProgLang}} pelek PDF-ê vediguhezîne pelek DOC:",
-      "step_1": "Nimûneyek ji çîna Converter biafirînin û pelê bi riya tevahî peyda bikin",
-      "step_2": "ConvertOptions ji bo celebê armanca xwestinê biafirînin û saz bikin.",
-      "step_3": "Banga rêbaza Converter.Convert bikin û riya tevahî û formatê wekî pîvanek derbas bikin",
-      "title2": "Veguherîna Formatên Wêne",
-      "content2": "{{ProductFullName}} dikare ji bo pêşdebirina sepanan li her hawîrdora pêşkeftinê ya ku platforma .NET dike hedef were bikar anîn. Ew bi hemî zimanên bingeha .NET re hevaheng e û pergalên xebitandinê yên populer (Windows, Linux, MacOS) piştgirî dike ku çarçoveyên Mono an .NET (di nav de .NET Core) dikarin werin sazkirin.",
-      "title3": "Cûreyên cûda yên Forma PDF-ê piştgirî dike",
-      "content3": "{{ProductFullName}} API guheztina belgeyê ji cûreyên/formatên PDF-ê yên jêrîn piştgirî dike:"
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion API-yên guheztina belgeyan ji bo hawîrdorên pêşkeftina populer ên din pêşkêşî dike",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion ji bo Java",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
-      "platform": "Java",
-      "link": "/veguhertin/java/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Ji bo veguhertinê pelê çavkaniyê {{FROM}} bar bike",
-      "prepare_comment": "Vebijarkên veguhertinê ji bo forma armancê amade bikin {{TO}}",
-      "convert_comment": "Biguherîne formata {{TO}}"
-    }
+  "release": {
+    "title": "Guhertoya {0}  derket",
+    "notes": "Binêrin ka çi nû ye",
+    "downloads": "Daxistin"
   }
 }

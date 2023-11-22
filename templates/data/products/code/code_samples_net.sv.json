@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Kodprover",
+    "description": "Vissa använder fall av typiska GroupDocs.Conversion för .NET-operationer",
+    "sample_1": {
+      "title": "Konvertera PDF till bild",
+      "content_1": "Ett vanligt scenario innebär att ett helt PDF-dokument eller specifika sidor konverteras till en samling bilder. GroupDocs.Conversion for .NET erbjuder möjligheten att konvertera PDF-filer till olika bildformat, såsom TIFF, JPG, PNG, GIF, BMP och mer.",
+      "content_2": "Till skillnad från andra konverteringar kräver denna process deklarationen av en SavePageStream-delegat, som anger namngivningsformatet för de sparade bilderna. Du kan välja önskat bildformat med klassen ImageFileType.",
+      "code_title": "Konvertera PDF till PNG i C#",
+      "comment_1": "Ladda käll-PDF-filen",
+      "comment_2": "Ställ in konverteringsalternativen och ange bildtypen för utdata",
+      "comment_3": "Konvertera varje sida i PDF-dokument till PNG"
+    },
+    "sample_2": {
+      "title": "Konvertera ett segment av ett stort dokument",
+      "content_1": "Med GroupDocs.Conversion för .NET kan du enkelt konvertera specifika sidor från ett långt dokument.",
+      "content_2": "Du har två metoder för att åstadkomma detta, beroende på dina krav. Du kan antingen konvertera ett antal sidor eller konvertera specifika sidor.",
+      "code_title_1": "Konvertera DOCX (sidorna 2-4) till PDF i C#",
+      "comment_1": "Ladda källfilen DOCX",
+      "comment_2": "Ställ in konverteringsalternativen och ange intervallet för sidor som ska renderas",
+      "comment_3": "Konvertera sidorna 2-4 till PDF"
+    },
+    "sample_3": {
+      "title": "Flytande syntax: Ett strömlinjeformat tillvägagångssätt",
+      "content_1": "Flytande syntax erbjuder en kortfattad notation för vanliga åtgärder inom GroupDocs.Conversion for .NET API.",
+      "content_2": "Kodexemplen nedan visar hur man utnyttjar den flytande syntaxen:",
+      "code_title_1": "Konvertera DOCX till PDF i C# med hjälp av flytande syntax"
+    }
+  }
+}

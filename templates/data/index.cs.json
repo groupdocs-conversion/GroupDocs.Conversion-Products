@@ -12,10 +12,11 @@
       "title": "GroupDocs.Conversion High Code API zahrnuje",
       "label": "Zobrazit všechna rozhraní API vysokého kódu",
       "product1_content": "Nativní rozhraní .NET API pro přesnou konverzi dokumentů a obrazových formátů v libovolných typech aplikací .NET. Podporuje přidávání vodoznaků během převodu.",
-      "product2_content": "Umožněte svým aplikacím Java snadno převádět mezi všemi standardními formáty dokumentů včetně Microsoft Office, PDF, HTML, obrázků a mnoha dalších."
+      "product2_content": "Umožněte svým aplikacím Java snadno převádět mezi všemi standardními formáty dokumentů včetně Microsoft Office, PDF, HTML, obrázků a mnoha dalších.",
+      "product3_content": "Umožněte svým aplikacím JavaScript snadno převádět mezi všemi standardními formáty dokumentů včetně Microsoft Office, PDF, HTML, obrázků a mnoha dalších."
     },
     "api2": {
-      "title": "GroupDocs.Conversion Low Code API zahrnují",
+      "title": "GroupDocs.Conversion Low Code API zahrnuje",
       "label": "Zobrazit všechna rozhraní API s nízkým kódem",
       "product1_content": "Pracujte s rozhraním cURL RESTful pro konverzi souborů API pro snadnou konverzi Microsoft Office, PDF, Email, Project, HTML a dalších běžných formátů souborů ve vašich aplikacích.",
       "product2_content": "REST API pro konverzi souborů .NET pro snadnou konverzi Microsoft Office, PDF, Email, Project, HTML a dalších běžných formátů souborů na jakékoli platformě pomocí Cloud SDK.",

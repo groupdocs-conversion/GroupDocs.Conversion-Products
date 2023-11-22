@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion yhdellä silmäyksellä",
+    "description": "Tutustu API:n ominaisuuksiin PDF-, Microsoft Office-, HTML-, eBook- ja kuvatiedostojen nopeaan ja virheettömään muuntamiseen .NET-sovelluksissa",
+    "feature_1": {
+      "title": "Virtaviivainen muuntaminen",
+      "description": "GroupDocs.Conversion API:n avulla voit vaivattomasti muuntaa erimuotoisia asiakirjoja PDF-, Microsoft Office-, HTML-, eBook- ja kuvatiedostoiksi. API tarjoaa joustavia ja kestäviä vaihtoehtoja, jotka varmistavat sisällön ja asiakirjarakenteen eheyden koko muunnosprosessin ajan."
+    },
+    "feature_2": {
+      "title": "Vaivaton vaihtaminen formaattien välillä",
+      "description": "GroupDocs.Conversion API:n käyttöprosessi on uskomattoman suoraviivainen, ja se vaatii vain yhden menetelmän ja joukon vaihtoehtoja vaihtaaksesi vaivattomasti eri muotojen välillä."
+    },
+    "feature_3": {
+      "title": "Eri alustojen yhteensopivuus",
+      "description": "Tutustu muunnosratkaisuun, jossa on luontainen alustojen välinen yhteensopivuus ja joka palvelee laajempaa käyttäjäkuntaa ja varmistaa optimaalisen suorituskyvyn eri ympäristöissä kaikissa asiakirjojen muunnosvaatimuksissasi."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion 概览",
+    "description": "探索 API 的功能，以便在 .NET 应用程序中快速、完美地转换 PDF、Microsoft Office、HTML、电子书和图像文件",
+    "feature_1": {
+      "title": "简化转换",
+      "description": "借助 GroupDocs.Conversion API，您可以轻松地将不同格式的文档转换为 PDF、Microsoft Office、HTML、电子书和图像文件。 API 提供灵活而强大的选项，确保整个转换过程中内容和文档结构的完整性。"
+    },
+    "feature_2": {
+      "title": "轻松切换格式",
+      "description": "使用 GroupDocs.Conversion API 的过程非常简单，只需要一种方法和一组选项即可轻松在不同格式之间切换。"
+    },
+    "feature_3": {
+      "title": "跨平台兼容性",
+      "description": "探索具有固有跨平台兼容性的转换解决方案，满足更广泛的用户群，并确保在各种环境中实现最佳性能，满足您的所有文档转换要求。"
+    }
+  }
+}

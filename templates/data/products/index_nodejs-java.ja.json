@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "{{ProgLang}} ドキュメント変換 API | PDF、Word、Excel、PPTX、HTML、画像を変換",
+    "description": "{{ProgLang}} ドキュメント変換 API。 PDF、Word、DOC、DOCX、Excel、スプレッドシート、PPT、PPTX、HTML、PSD、MPT、MPP、電子メール、MSG、EMLX、A​​utoCAD、および画像ファイル形式を変換します。"
+  },
+  "header": {
+    "title_1": "ドキュメント変換",
+    "title_2": "Node.js API経由",
+    "description": "PDF、Microsoft Office、HTML、eBook、および画像ファイルを変換するための強力な変換 API",
+    "words": {
+      "for": "のために"
+    }
+  },
+  "actions": {
+    "main": "NPM の無料ダウンロード",
+    "alt": "ライセンス",
+    "title": "始める準備はできていますか?",
+    "description": "GroupDocs.Conversion 機能を無料で試すか、ライセンスをリクエストしてください"
+  },
+  "release": {
+    "title": "バージョン {0} がリリースされました",
+    "notes": "新機能を見る",
+    "downloads": "ダウンロード"
+  }
+}

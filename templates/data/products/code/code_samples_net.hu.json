@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Kódminták",
+    "description": "Néhány esetben a tipikus GroupDocs.Conversion .NET-műveletekhez használható",
+    "sample_1": {
+      "title": "PDF konvertálása képpé",
+      "content_1": "A gyakran előforduló forgatókönyv egy teljes PDF-dokumentumot vagy bizonyos oldalakat képek gyűjteményévé konvertál. A GroupDocs.Conversion for .NET lehetőséget kínál PDF-fájlok különféle képformátumokká konvertálására, mint például TIFF, JPG, PNG, GIF, BMP stb.",
+      "content_2": "Más konverziókkal ellentétben ez a folyamat megköveteli a SavePageStream delegált deklarációját, amely meghatározza a mentett képek elnevezési formátumát. Az ImageFileType osztály segítségével kiválaszthatja a kívánt képformátumot.",
+      "code_title": "PDF konvertálása PNG-be C#-ban",
+      "comment_1": "Töltse be a forrás PDF-fájlt",
+      "comment_2": "Állítsa be a konvertálási beállításokat és adja meg a kimeneti kép típusát",
+      "comment_3": "Konvertálja a PDF dokumentum minden oldalát PNG formátumba"
+    },
+    "sample_2": {
+      "title": "Konvertálja egy nagy dokumentum szegmensét",
+      "content_1": "A GroupDocs.Conversion for .NET segítségével könnyedén konvertálhat bizonyos oldalakat egy hosszú dokumentumból.",
+      "content_2": "Ennek megvalósítására két módszer áll rendelkezésére, az Ön igényeitől függően. Konvertálhat egy sor oldalt, vagy konvertálhat adott oldalakat.",
+      "code_title_1": "A DOCX (2-4. oldal) konvertálása PDF-be C#-ban",
+      "comment_1": "Töltse be a forrás DOCX fájlt",
+      "comment_2": "Állítsa be a konvertálási beállításokat, és adja meg a megjelenítendő oldalak tartományát",
+      "comment_3": "Konvertálja a 2-4 oldalakat PDF-be"
+    },
+    "sample_3": {
+      "title": "Folyékony szintaxis: Áramvonalas megközelítés",
+      "content_1": "A Fluent szintaxis tömör jelöléseket kínál a GroupDocs.Conversion for .NET API-n belüli gyakori műveletekhez.",
+      "content_2": "Az alábbi kódminták bemutatják, hogyan lehet kihasználni a folyékony szintaxist:",
+      "code_title_1": "A DOCX konvertálása PDF-be C# nyelven folyékony szintaxis használatával"
+    }
+  }
+}

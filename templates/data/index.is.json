@@ -4,22 +4,23 @@
     "description": "Umbreyttu vinsælum skjala- og myndskráarsniðum á hvaða vettvang sem er með lausnum sem byggjast á forritum og API."
   },
   "header": {
-    "title": "Skjala- og myndumbreytingarlausn",
+    "title": "Skjala- og myndbreytingarlausn",
     "description": "Umbreyttu vinsælum skjala- og myndskráarsniðum á hvaða vettvang sem er með lausnum sem byggjast á forritum og API."
   },
   "apis": {
     "api1": {
-      "title": "GroupDocs.Conversion High Code API innihalda",
+      "title": "GroupDocs.Conversion High Code API eru með",
       "label": "Skoða öll High Code API",
       "product1_content": "Native .NET API til að umbreyta skjölum og myndskráarsniðum nákvæmlega í hvers kyns .NET forritum. Styður við að bæta við myndvatnsmerkjum við umbreytingu.",
-      "product2_content": "Gerðu Java forritunum þínum kleift að breyta auðveldlega á milli allra staðlaðra skjalasniða, þar á meðal Microsoft Office, PDF, HTML, myndir og mörg önnur."
+      "product2_content": "Gerðu Java forritunum þínum kleift að breyta auðveldlega á milli allra staðlaðra skjalasniða, þar á meðal Microsoft Office, PDF, HTML, myndir og mörg önnur.",
+      "product3_content": "Virkjaðu JavaScript forritin þín til að breyta auðveldlega á milli allra staðlaðra skjalasniða, þar á meðal Microsoft Office, PDF, HTML, myndir og mörg önnur."
     },
     "api2": {
       "title": "GroupDocs.Conversion Low Code API eru með",
       "label": "Skoða öll lágkóða API",
       "product1_content": "Vinna með cURL RESTful skráaummyndun API til að umbreyta Microsoft Office, PDF, tölvupósti, Project, HTML og öðrum algengum skráarsniðum á auðveldan hátt í forritunum þínum.",
       "product2_content": ".NET skráabreyting REST API til að umbreyta Microsoft Office, PDF, tölvupósti, verkefni, HTML og öðrum algengum skráarsniðum á auðveldan hátt á hvaða vettvang sem er með Cloud SDK.",
-      "product3_content": "Auðgaðu Java-skýjaforritin þín með háþróaðri skjalabreytingareiginleikum á hvaða vettvangi sem er sem getur hringt í REST API."
+      "product3_content": "Auðgaðu skýjatengdu Java forritin þín með háþróaðri skjalabreytingareiginleikum á hvaða vettvangi sem er sem getur hringt í REST API."
     },
     "api3": {
       "title": "GroupDocs.Conversion Engin kóðaforrit fylgja með",

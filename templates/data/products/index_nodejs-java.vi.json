@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API chuyển đổi tài liệu {{ProgLang}} | Chuyển đổi PDF, Word, Excel, PPTX, HTML và hình ảnh",
+    "description": "API chuyển đổi tài liệu {{ProgLang}}. Chuyển đổi các định dạng tệp PDF, Word, DOC, DOCX, Excel, Bảng tính, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD và tệp hình ảnh."
+  },
+  "header": {
+    "title_1": "Chuyển đổi tài liệu",
+    "title_2": "thông qua API Node.js",
+    "description": "API chuyển đổi mạnh mẽ để chuyển đổi các tệp PDF, Microsoft Office, HTML, sách điện tử và hình ảnh",
+    "words": {
+      "for": "vì"
+    }
+  },
+  "actions": {
+    "main": "Tải xuống NPM miễn phí",
+    "alt": "Cấp phép",
+    "title": "Sẵn sàng để bắt đầu?",
+    "description": "Dùng thử miễn phí các tính năng GroupDocs.Conversion hoặc yêu cầu giấy phép"
+  },
+  "release": {
+    "title": "Phiên bản {0}  đã phát hành",
+    "notes": "Xem có gì mới",
+    "downloads": "Tải xuống"
+  }
+}

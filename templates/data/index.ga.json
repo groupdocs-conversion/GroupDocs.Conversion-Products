@@ -12,10 +12,11 @@
       "title": "Áiríonn APIanna Ardchóid GroupDocs.Conversion",
       "label": "Féach ar Gach API Ardchóid",
       "product1_content": "Dúchasach. GLAN API chun doiciméid a thiontú go cruinn agus formáidí comhaid íomhá in aon chineál feidhmchlár .NET. Tacaíochtaí cur watermarks íomhá agus chomhshó.",
-      "product2_content": "Cumasaigh d'fheidhmchláir Java a thiontú go héasca idir gach formáid doiciméad de chaighdeán tionscail lena n-áirítear Microsoft Office, PDF, HTML, íomhánna agus go leor eile."
+      "product2_content": "Cumasaigh d'fheidhmchláir Java a thiontú go héasca idir gach formáid doiciméad de chaighdeán tionscail lena n-áirítear Microsoft Office, PDF, HTML, íomhánna agus go leor eile.",
+      "product3_content": "Cumasaigh d’fheidhmchláir JavaScript le haistriú go héasca idir gach formáid doiciméad de chaighdeán an tionscail lena n-áirítear Microsoft Office, PDF, HTML, íomhánna agus go leor eile."
     },
     "api2": {
-      "title": "Cuir APIs Cód Ísle GroupDocs.Conversion san áireamh",
+      "title": "Cuir APIs Cód Íseal GroupDocs.Conversion san áireamh",
       "label": "Féach ar gach API Cód Íseal",
       "product1_content": "Oibrigh le cuRL RESTful tiontú comhad API a thiontú go héasca Microsoft Office, PDF, Ríomhphost, Tionscadal, HTML agus formáidí comhaid coitianta eile i d'fheidhmchláir.",
       "product2_content": "Comhshó comhad NET REST API chun Microsoft Office, PDF, Ríomhphost, Tionscadal, HTML agus formáidí comhaid coitianta eile a thiontú go héasca ar aon ardán ag baint úsáide as Cloud SDK.",

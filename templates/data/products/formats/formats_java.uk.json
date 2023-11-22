@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Підтримувані формати файлів",
+    "description": "GroupDocs.Conversion для Java підтримує операції з такими [форматами файлів](https://docs.groupdocs.com/conversion/java/supported-file-formats/).",
+    "groups": {
+      "title_1": "Формати документів",
+      "title_2": "Зображення та мультимедіа",
+      "title_3": "Інші формати",
+      "format_documents": "Документи",
+      "format_images": "Зображення",
+      "format_diagram": "Діаграма",
+      "format_cad_gis": "САПР і ГІС",
+      "format_audio": "Аудіо",
+      "format_video": "відео",
+      "format_vector_3d": "3D і вектор",
+      "format_web": "Інтернет",
+      "format_archives": "Архіви",
+      "format_email_outlook": "Електронна пошта та Outlook",
+      "format_finance": "Фінанси"
+    }
+  }
+}

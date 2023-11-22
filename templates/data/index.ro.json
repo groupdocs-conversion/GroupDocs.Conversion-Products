@@ -9,10 +9,11 @@
   },
   "apis": {
     "api1": {
-      "title": "GroupDocs.Conversion High Code API-urile includ",
+      "title": "API-urile GroupDocs.Conversion High Code includ",
       "label": "Vedeți toate API-urile High Code",
       "product1_content": "API nativ .NET pentru a converti documentele și formatele de fișiere imagine în orice tip de aplicație .NET. Acceptă adăugarea de filigrane de imagine în timpul conversiei.",
-      "product2_content": "Permiteți aplicațiilor dvs. Java să convertească cu ușurință între toate formatele de documente standard din industrie, inclusiv Microsoft Office, PDF, HTML, imagini și multe altele."
+      "product2_content": "Permiteți aplicațiilor dvs. Java să convertească cu ușurință între toate formatele de documente standard din industrie, inclusiv Microsoft Office, PDF, HTML, imagini și multe altele.",
+      "product3_content": "Permiteți aplicațiilor JavaScript să convertească cu ușurință între toate formatele de documente standard din industrie, inclusiv Microsoft Office, PDF, HTML, imagini și multe altele."
     },
     "api2": {
       "title": "GroupDocs.Conversion Low Code API-urile includ",
@@ -31,6 +32,6 @@
   },
   "testimonial": {
     "designation": "Psiholog",
-    "content": "Urmăresc cu entuziasm creșterea GroupDocs. Capacitatea de răspuns a întregii dvs. echipe m-a ajutat foarte mult, atunci când vorbesc cu cineva de la GroupDocs, vă pot garanta că cineva ascultă și face ca lucrurile să se întâmple."
+    "content": "Urmăresc cu entuziasm creșterea GroupDocs. Capacitatea de răspuns a întregii dumneavoastră echipe m-a ajutat foarte mult, atunci când vorbesc cu cineva de la GroupDocs, vă pot garanta că cineva ascultă și face ca lucrurile să se întâmple."
   }
 }

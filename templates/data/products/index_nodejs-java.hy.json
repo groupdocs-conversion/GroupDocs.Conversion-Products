@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "{{ProgLang}} փաստաթղթի փոխակերպման API | Փոխակերպեք PDF, Word, Excel, PPTX, HTML և պատկերներ",
+    "description": "{{ProgLang}} փաստաթղթի փոխակերպման API: Փոխակերպեք PDF, Word, DOC, DOCX, Excel, աղյուսակներ, PPT, PPTX, HTML, PSD, MPT, MPP, էլփոստ, MSG, EMLX, AutoCAD և պատկերի ֆայլերի ձևաչափեր:"
+  },
+  "header": {
+    "title_1": "Փաստաթղթի փոխակերպում",
+    "title_2": "Node.js API-ի միջոցով",
+    "description": "Հզոր փոխակերպման API՝ PDF, Microsoft Office, HTML, eBook և պատկերային ֆայլեր փոխարկելու համար",
+    "words": {
+      "for": "համար"
+    }
+  },
+  "actions": {
+    "main": "Անվճար NPM ներբեռնում",
+    "alt": "Լիցենզավորում",
+    "title": "Պատրա՞ստ եք սկսել:",
+    "description": "Փորձեք GroupDocs.Conversion-ի գործառույթներն անվճար կամ լիցենզիա պահանջեք"
+  },
+  "release": {
+    "title": "Տարբերակ {0}  թողարկված է",
+    "notes": "Տեսեք, թե ինչ նորություն կա",
+    "downloads": "Ներբեռնումներ"
+  }
+}

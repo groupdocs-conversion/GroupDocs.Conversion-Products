@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Koodi näidised",
+    "description": "Mõned kasutavad tüüpilisi GroupDocs.Conversioni .NET-i toimingute jaoks",
+    "sample_1": {
+      "title": "Teisendage PDF pildiks",
+      "content_1": "Sageli esinev stsenaarium hõlmab terve PDF-dokumendi või konkreetsete lehtede teisendamist piltide kogumiks. GroupDocs.Conversion for .NET pakub võimalust teisendada PDF-faile erinevatesse pildivormingutesse, nagu TIFF, JPG, PNG, GIF, BMP ja palju muud.",
+      "content_2": "Erinevalt teistest teisendustest nõuab see protsess SavePageStreami delegaadi deklaratsiooni, mis määrab salvestatud piltide nimevormingu. Saate valida oma eelistatud pildivormingu, kasutades ImageFileType klassi.",
+      "code_title": "Teisendage PDF C#-s PNG-ks",
+      "comment_1": "Laadige PDF-i lähtefail",
+      "comment_2": "Määrake teisendusvalikud ja määrake väljundpildi tüüp",
+      "comment_3": "Teisendage PDF-dokumendi iga leht PNG-vormingusse"
+    },
+    "sample_2": {
+      "title": "Suure dokumendi segmendi teisendamine",
+      "content_1": "Rakenduse GroupDocs.Conversion for .NET abil saate hõlpsalt teisendada kindlaid lehti pikast dokumendist.",
+      "content_2": "Sõltuvalt teie vajadustest on selle saavutamiseks kaks meetodit. Saate teisendada mitut lehekülge või konkreetseid lehti.",
+      "code_title_1": "Teisendage DOCX (lk 2-4) PDF-iks C#-s",
+      "comment_1": "Laadige DOCX-i lähtefail",
+      "comment_2": "Määrake teisendusvalikud ja määrake renderdatavate lehtede vahemik",
+      "comment_3": "Teisendage leheküljed 2-4 PDF-iks"
+    },
+    "sample_3": {
+      "title": "Ladus süntaks: sujuv lähenemine",
+      "content_1": "Sujuv süntaks pakub ülevaatlikku märget levinud toimingute kohta GroupDocs.Conversion for .NET API-s.",
+      "content_2": "Allolevad koodinäidised näitavad, kuidas sujuvat süntaksit kasutada:",
+      "code_title_1": "Teisendage DOCX PDF-iks C#-s, kasutades sujuvat süntaksit"
+    }
+  }
+}

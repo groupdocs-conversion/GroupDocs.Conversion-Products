@@ -1,6 +1,6 @@
 {
   "head": {
-    "title": ".NET, Java, Cloud APIs i aplikacje do konwersji dokumentów firmy GroupDocs",
+    "title": ".NET, Java, interfejsy API chmury i aplikacje do konwersji dokumentów firmy GroupDocs",
     "description": "Konwertuj popularne formaty plików dokumentów i obrazów na dowolnej platformie za pomocą aplikacji i rozwiązań opartych na interfejsie API."
   },
   "header": {
@@ -9,28 +9,29 @@
   },
   "apis": {
     "api1": {
-      "title": "Zawiera interfejsy API GroupDocs.Conversion High Code",
-      "label": "Zobacz wszystkie interfejsy API High Code",
-      "product1_content": "Natywny interfejs API .NET do dokładnej konwersji dokumentów i formatów plików graficznych we wszystkich typach aplikacji .NET. Obsługuje dodawanie znaków wodnych obrazu podczas konwersji.",
-      "product2_content": "Pozwól swoim aplikacjom Java na łatwą konwersję między wszystkimi standardowymi formatami dokumentów, w tym Microsoft Office, PDF, HTML, obrazami i wieloma innymi."
+      "title": "Zawiera interfejsy API wysokiego kodu GroupDocs.Conversion",
+      "label": "Wyświetl wszystkie interfejsy API wysokiego kodu",
+      "product1_content": "Natywny interfejs API .NET do dokładnej konwersji dokumentów i formatów plików graficznych w dowolnym typie aplikacji .NET. Obsługuje dodawanie znaków wodnych obrazu podczas konwersji.",
+      "product2_content": "Pozwól aplikacjom Java na łatwą konwersję pomiędzy wszystkimi standardowymi formatami dokumentów, w tym Microsoft Office, PDF, HTML, obrazami i wieloma innymi.",
+      "product3_content": "Włącz aplikacje JavaScript, aby łatwo konwertowały wszystkie standardowe formaty dokumentów, w tym Microsoft Office, PDF, HTML, obrazy i wiele innych."
     },
     "api2": {
-      "title": "GroupDocs.Conversion Low Code API zawiera",
-      "label": "Wyświetl wszystkie interfejsy API niskiego kodu",
-      "product1_content": "Pracuj z interfejsem API konwersji plików cURL RESTful, aby łatwo konwertować pliki Microsoft Office, PDF, e-mail, projekty, HTML i inne popularne formaty plików w swoich aplikacjach.",
-      "product2_content": "Konwersja plików .NET Interfejs API REST do łatwej konwersji plików Microsoft Office, PDF, e-mail, projektów, HTML i innych popularnych formatów plików na dowolnej platformie za pomocą Cloud SDK.",
-      "product3_content": "Wzbogać swoje aplikacje Java oparte na chmurze o zaawansowane funkcje konwersji dokumentów na dowolnej platformie, która może wywoływać interfejsy API REST."
+      "title": "Zawiera interfejsy API GroupDocs.Conversion o niskim kodzie",
+      "label": "Wyświetl wszystkie interfejsy API o niskim kodzie",
+      "product1_content": "Pracuj z interfejsem API konwersji plików cURL RESTful, aby łatwo konwertować pliki Microsoft Office, PDF, e-mail, Project, HTML i inne popularne formaty plików w swoich aplikacjach.",
+      "product2_content": "Konwersja plików .NET API REST do łatwej konwersji plików Microsoft Office, PDF, e-mail, Project, HTML i innych popularnych formatów plików na dowolnej platformie za pomocą Cloud SDK.",
+      "product3_content": "Wzbogacaj swoje oparte na chmurze aplikacje Java o zaawansowane funkcje konwersji dokumentów na dowolnej platformie obsługującej interfejsy API REST."
     },
     "api3": {
-      "title": "GroupDocs.Conversion Brak aplikacji z kodem",
+      "title": "GroupDocs.Conversion Nie zawiera aplikacji kodu",
       "label": "Zobacz wszystkie aplikacje bez kodu",
-      "product1_content": "Konwertuj ponad 50 formatów dokumentów na PDF, XLSX, DOCX, XPS, HTML i inne.",
-      "product2_content": "Darmowa aplikacja do konwersji formatu DOC na XLS z dowolnej przeglądarki internetowej.",
-      "product3_content": "Prześlij swoje dokumenty PDF w celu bezproblemowej konwersji do formatu Word (DOCX)."
+      "product1_content": "Konwertuj ponad 50 formatów dokumentów na formaty PDF, XLSX, DOCX, XPS, HTML i inne.",
+      "product2_content": "Darmowa aplikacja do konwersji DOC do formatu XLS z dowolnej przeglądarki internetowej.",
+      "product3_content": "Przesyłaj dokumenty PDF w celu płynnej konwersji do formatu Word (DOCX)."
     }
   },
   "testimonial": {
     "designation": "Psycholog",
-    "content": "Z ekscytacją obserwuję rozwój GroupDocs. Reagowanie całego zespołu bardzo mi pomogło, kiedy rozmawiam z kimś w GroupDocs, mogę zagwarantować, że ktoś słucha i sprawia, że ​​coś się dzieje."
+    "content": "Z podekscytowaniem obserwuję rozwój GroupDocs. Szybkość reakcji całego zespołu bardzo mi pomogła. Kiedy rozmawiam z kimś w GroupDocs, mogę zagwarantować, że ktoś mnie słucha i sprawia, że ​​wszystko się dzieje."
   }
 }

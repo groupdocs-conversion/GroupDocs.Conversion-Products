@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Kodeprøver",
+    "description": "Noen bruker tilfeller av typiske GroupDocs.Conversion for Java-operasjoner",
+    "sample_1": {
+      "title": "Konverter PDF til bilde",
+      "content_1": "Et vanlig scenario innebærer å konvertere et helt PDF-dokument eller bestemte sider til en samling bilder. GroupDocs.Conversion for Java tilbyr muligheten til å konvertere PDF-filer til ulike bildeformater, for eksempel TIFF, JPG, PNG, GIF, BMP og mer.",
+      "content_2": "Du kan velge ditt foretrukne bildeformat ved å bruke ImageFileType-klassen.",
+      "code_title": "Konvertering av PDF til PNG i Java",
+      "comment_1": "Last inn kilde-PDF-filen",
+      "comment_2": "Angi konverteringsalternativene og spesifiser utdatabildetypen",
+      "comment_3": "Konverter hver side av PDF-dokumentet til PNG"
+    },
+    "sample_2": {
+      "title": "Konverter et segment av et stort dokument",
+      "content_1": "Med GroupDocs.Conversion for Java kan du enkelt konvertere bestemte sider fra et langt dokument.",
+      "content_2": "Du har to metoder for å oppnå dette, avhengig av dine behov. Du kan enten konvertere en rekke sider eller konvertere bestemte sider.",
+      "code_title_1": "Konverter DOCX (side 2-4) til PDF i Java",
+      "comment_1": "Last inn kilde DOCX-filen",
+      "comment_2": "Angi konverteringsalternativene og spesifiser rekkevidden av sider som skal gjengis",
+      "comment_3": "Konverter side 2-4 til PDF"
+    }
+  }
+}

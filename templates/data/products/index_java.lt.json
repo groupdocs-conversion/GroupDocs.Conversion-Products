@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} Dokumentų konvertavimo API | Konvertuoti PDF Word Excel PPTX HTML vaizdus",
-    "description": "{{ProgLang}} Dokumentų konvertavimo API. Konvertuokite PDF Word DOC DOCX, Excel skaičiuokles PPT PPTX, HTML, PSD, MPT MPP, el. paštu MSG EMLX, AutoCAD ir vaizdo failų formatus."
+    "title": "{{ProgLang}} dokumentų konvertavimo API | Konvertuokite PDF, Word, Excel, PPTX, HTML ir vaizdus",
+    "description": "{{ProgLang}} dokumentų konvertavimo API. Konvertuoti PDF, Word, DOC, DOCX, Excel, skaičiuokles, PPT, PPTX, HTML, PSD, MPT, MPP, el. pašto, MSG, EMLX, AutoCAD ir vaizdo failų formatus."
   },
   "header": {
-    "title": "{{ProgLang}} API, skirta konvertuoti daugiau nei 80 failų formatų",
-    "description": "Paprasta API, skirta integruoti dokumentų ir vaizdų konvertavimo funkcijas į {{ProgLang}} programas neįdiegus jokios išorinės programinės įrangos.",
-    "button": {
-      "label": "Atsisiųskite nemokamą bandomąją versiją",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Dokumento konvertavimas",
+    "title_2": "per Java API",
+    "description": "Galinga konvertavimo API, skirta PDF, Microsoft Office, HTML, el. knygų ir vaizdo failams konvertuoti",
+    "words": {
+      "for": "dėl"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Apžvalga"
-      },
-      "button2": {
-        "text": "funkcijos"
-      },
-      "button3": {
-        "text": "Palaikymas"
-      },
-      "button4": {
-        "text": "Tiesioginė demonstracija"
-      },
-      "button5": {
-        "text": "Kainodara"
-      }
-    }
+  "actions": {
+    "main": "Nemokamas Maven atsisiuntimas",
+    "alt": "Licencijavimas",
+    "title": "Pasiruošę pradėti?",
+    "description": "Išbandykite GroupDocs.Conversion funkcijas nemokamai arba paprašykite licencijos"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} sujungia galingą dokumentų konvertavimo API rinkinį, kad jūsų Java programose būtų rodomi vaizdai ir dokumentų formatai, nereikia įdiegti papildomos programinės įrangos. Ji natūraliai rastrizuoja dokumentus ir konvertuoja juos į SVG+HTML+CSS, kad pagerintų dokumentų peržiūros kokybę, tuo pačiu užtikrinant tikrojo teksto aukštos kokybės išvestį. Naudodami dokumentų atvaizdavimo API – greitai peržiūrėkite PDF, HTML, XML, „Microsoft Office Word“, „Excel“ darbalapius, „PowerPoint“ pristatymus, „Outlook“ el. laiškus, „Visio“ diagramas, projektą, metafailus, vaizdus ir įvairius kitus failų formatus lengvai ir su mažiau programavimo pavojų. Jis taip pat gali rodyti slaptažodžiu apsaugotus failus ir leisti dokumentą pateikti HTML, vaizdo ar PDF formatu po atvaizdavimo. Mūsų failų konvertavimo biblioteka yra gana pritaikoma, nes leidžia rodyti visą dokumentą arba pateikti jį iš dalies, kad procesas būtų pagreitintas. Naudodami GroupDocs.Conversion for Java API, galite peržiūrėti puslapius, konkretų langelių diapazoną skaičiuoklėje arba net pateikti atskiro dokumento sluoksnį tokiais formatais kaip PDF ir CAD.",
-    "content2": "{{ProductFullName}} API leidžia pateikti dokumentus su arba be anotacijų ar komentarų palaikomiems failų formatams. Tai taip pat leidžia pridėti pasirinktinius šriftų katalogus ir išgauti pagrindinę dokumento informaciją, tokią kaip failo tipas, plėtinys, pavadinimas, puslapių skaičius ir kt.",
-    "tab_one": {
-      "description": "Toliau pateikiama {{ProductFullName}} apžvalga:",
-      "right": {
-        "title": "Apžvalga",
-        "content1": "* Automatiškai aptikti failo tipą",
-        "content2": "* Konvertuoti dokumentus",
-        "content3": "* Konvertuoti pristatymus",
-        "content4": "* Konvertuoti skaičiuokles",
-        "content5": "* Konvertuokite rastrinius vaizdus",
-        "content6": "* Konvertuoti PDF dokumentus",
-        "content7": "* Konvertuoti kitus formatus",
-        "content8": "* Taikyti vandens ženklą",
-        "content9": "* Nurodykite failo slaptažodį",
-        "content10": "* Tinkinkite konversiją"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} palaiko visų populiarių ir dažniausiai naudojamų [dokumento failų formatų] konvertavimą (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Konvertuoti iš:",
-        "content1": "* **Dokumentai**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Skaičiuoklės**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Pristatymai**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Vaizdai**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Nešiojami**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metafailai**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Projektas**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **El. paštas**: MSG, EML, EMLX",
-        "content12": "* **Diagramos**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Kita**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Konvertuoti į:",
-        "content1": "* **Dokumentai**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Skaičiuoklės**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Pristatymai**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Vaizdai**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafailai**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagramos**: SVGZ",
-        "content7": "* **Nešiojami**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "**Kita**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} palaiko šias operacines sistemas, karkasus ir paketų tvarkykles:",
-      "left": {
-        "title1": "Operacinės sistemos",
-        "title2": "Palaikomi karkasai"
-      },
-      "right": {
-        "title1": "Paketo valdytojas",
-        "title2": "Plėtros aplinkos"
-      }
-    }
-  },
-  "features": {
-    "title": "{{ProductFullName}} funkcijos",
-    "content1": "Lengva integracija ir matavimo licencijavimas",
-    "content2": "Nustatykite numatytąją mastelio keitimo parinktį, kai konvertuojate į žodžius, skaidres ar langelius",
-    "content3": "Konvertuoti į / iš visų populiarių rastrinių vaizdo formatų ir priskirti vaizdo DPI, aukštį ir plotį",
-    "content4": "Konvertuokite PDF ir vaizdą į pilkos spalvos tonus ir linijuokite PDF dokumentą žiniatinkliui",
-    "content5": "Nurodykite žymės lygį, antraštės lygį ir išplėstinį lygį konvertuodami Word į PDF / XPS",
-    "content6": "Konfigūruokite ir įdėkite vandens ženklą konvertuotame dokumente kaip foną, kad būtų rodomas už teksto",
-    "content7": "Pateikite el. pašto antraštę konvertuojant iš el. pašto",
-    "content8": "Nustatykite pasirinktinius šriftų katalogus ir aiškiai įkelkite / pakeiskite šriftą dokumento konvertavimo metu",
-    "content9": "Nustatyti numatytąjį šriftą, kad pakeistumėte trūkstamus šriftus, skirtus dokumentų, skaidrių ir skaičiuoklių konvertavimui",
-    "content10": "Išplėstiniai konvertavimo metodai, norėdami grąžinti išvestį kaip kelią arba IO srautą",
-    "content11": "Konvertuokite skaičiuoklę su tinklelio linijomis ir pašalinkite komentarus iš skaidrių konvertuojant",
-    "content12": "Konvertuoti konkrečius dokumento puslapius į PDF formatą ir konvertuoti konkretų langelių diapazoną skaičiuoklėse",
-    "content13": "Rodyti paslėptus lapus ir praleisti tuščias eilutes bei stulpelius konvertuojant skaičiuokles",
-    "content14": "Suskaičiuokite bendrą dokumento puslapių skaičių ir konvertuodami nustatykite slaptažodį į neapsaugotą dokumentą",
-    "content15": "Galimybė pašalinti komentarus ir įterptuosius failus iš PDF",
-    "content16": "Sukurkite HTML 5 suderinamą žymėjimą konvertuodami į HTML",
-    "content17": "Automatiškai aptikti šaltinio tipą ir grąžinti visas galimas konversijas konvertuojant iš srauto",
-    "content18": "Galimybė grąžinti kiekvieną puslapį atskirame sraute konvertuojant į PDF arba HTML",
-    "content19": "Rodyti / slėpti žymėjimą, komentarus ir sekti pakeitimus konvertuojant iš Word",
-    "content20": "DOCX konvertavimas į Tiff G3 su šešėliavimo parinktimi",
-    "content21": "Konvertuoti konkrečius maketus konvertuojant iš CAD dokumento",
-    "content22": "Automatinis pavadinimo suteikimas išsaugant konvertuotą dokumentą į failą",
-    "content23": "Palaikoma mokama licencija, kurią reikia apmokestinti, atsižvelgiant į API naudojimą",
-    "content24": "Konvertuokite diagramas į teksto apdorojimo failų formatus",
-    "content25": "Pridėkite puslapių numerius konvertuodami HTML į teksto apdorojimo dokumentą",
-    "content26": "Konvertuokite XML dokumentus į bet kokį formatą be transformacijos",
-    "content27": "Stebėkite failų konvertavimo eigą (pradžia, pabaiga) tiesiai iš kliento programos",
-    "more_feature": {
-      "title1": "Lengvas dokumento formato konvertavimas naudojant Java",
-      "content1": "Galite konvertuoti daugelio dokumentų tipų failų formatus naudodami {{ProductFullName}} API. Čia jums pateikiamos kelios kodo eilutės, skirtos atlikti pagrindinį dokumento konvertavimą naudojant „Java“.",
-      "step_1": "Sukurkite konverterio klasės egzempliorių ir pateikite failą su visu keliu",
-      "step_2": "Sukurkite ir nustatykite ConvertOptions norimam tikslinio tipo tipui.",
-      "step_3": "Iškvieskite metodą Converter.Convert ir nurodykite visą kelią bei formatą kaip parametrą",
-      "title2": "Skaitykite dokumentą iš URL arba konversijos kelio",
-      "content2": "Naudodami {{ProductFullName}} API, galite nuskaityti įvesties dokumentą iš failo kelio ir URL. Išvesties dokumentą galite išsaugoti kaip failą arba išsiųsti išvestį tiesiai į srautą.",
-      "title3": "Išsami techninė pagalba",
-      "content3": "{{ProductFullName}} yra paprasta ir tiksli API, kurią galite lengvai integruoti į „Java“ pagrįstas programas. Tačiau norėdami greitai pradėti dirbti, taip pat pateikiame lengvai sekamus kodo pavyzdžius ir išsamią API dokumentaciją."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion siūlo dokumentų konvertavimo API kitoms populiarioms kūrimo aplinkoms",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion, skirtas .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".NET",
-      "link": "/conversion/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Įkelti šaltinio failą {{FROM}} konvertavimui",
-      "prepare_comment": "Paruoškite tikslinio formato {{TO}} konversijos parinktis",
-      "convert_comment": "Konvertuoti į {{TO}} formatą"
-    }
+  "release": {
+    "title": "Išleista {0} versija",
+    "notes": "Pažiūrėkite, kas naujo",
+    "downloads": "Atsisiuntimai"
   }
 }

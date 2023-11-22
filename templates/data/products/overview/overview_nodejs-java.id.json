@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "Sekilas tentang GroupDocs.Conversion",
+    "description": "Jelajahi kemampuan API untuk konversi PDF, Microsoft Office, HTML, eBook, dan file gambar dengan cepat dan sempurna dalam aplikasi JavaScript",
+    "feature_1": {
+      "title": "Konversi yang disederhanakan",
+      "description": "Dengan GroupDocs.Conversion API Anda dapat dengan mudah mengonversi dokumen dalam berbagai format ke PDF, Microsoft Office, HTML, eBook, dan file gambar. API memberikan opsi yang fleksibel dan kuat, memastikan integritas konten dan struktur dokumen selama proses konversi."
+    },
+    "feature_2": {
+      "title": "Peralihan antar format dengan mudah",
+      "description": "Proses penggunaan GroupDocs.Conversion API sangat mudah, hanya memerlukan satu metode dan serangkaian opsi untuk beralih antar format dengan mudah."
+    },
+    "feature_3": {
+      "title": "Kompatibilitas lintas platform",
+      "description": "Jelajahi solusi konversi dengan kompatibilitas lintas platform yang melekat, melayani basis pengguna yang lebih luas dan memastikan kinerja optimal di berbagai lingkungan untuk semua kebutuhan konversi dokumen Anda."
+    }
+  }
+}

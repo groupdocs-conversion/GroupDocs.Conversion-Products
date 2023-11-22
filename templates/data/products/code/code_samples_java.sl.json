@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Vzorci kod",
+    "description": "Nekateri primeri uporabe tipičnih operacij GroupDocs.Conversion za Java",
+    "sample_1": {
+      "title": "Pretvori PDF v sliko",
+      "content_1": "Pogost scenarij vključuje pretvorbo celotnega dokumenta PDF ali določenih strani v zbirko slik. GroupDocs.Conversion za Javo ponuja zmožnost pretvorbe PDF-jev v različne formate slik, kot so TIFF, JPG, PNG, GIF, BMP itd.",
+      "content_2": "Z razredom ImageFileType lahko izberete želeno slikovno obliko.",
+      "code_title": "Pretvorba PDF v PNG v Javi",
+      "comment_1": "Naložite izvorno datoteko PDF",
+      "comment_2": "Nastavite možnosti pretvorbe in določite vrsto izhodne slike",
+      "comment_3": "Vsako stran dokumenta PDF pretvorite v PNG"
+    },
+    "sample_2": {
+      "title": "Pretvorite segment velikega dokumenta",
+      "content_1": "Z GroupDocs.Conversion za Javo lahko brez težav pretvorite določene strani iz dolgega dokumenta.",
+      "content_2": "Za to imate na voljo dva načina, odvisno od vaših zahtev. Pretvorite lahko obseg strani ali pretvorite določene strani.",
+      "code_title_1": "Pretvorite DOCX (strani 2-4) v PDF v Javi",
+      "comment_1": "Naložite izvorno datoteko DOCX",
+      "comment_2": "Nastavite možnosti pretvorbe in določite obseg strani za upodabljanje",
+      "comment_3": "Pretvorite strani 2-4 v PDF"
+    }
+  }
+}

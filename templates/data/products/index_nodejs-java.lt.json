@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "{{ProgLang}} dokumentų konvertavimo API | Konvertuokite PDF, Word, Excel, PPTX, HTML ir vaizdus",
+    "description": "{{ProgLang}} dokumentų konvertavimo API. Konvertuoti PDF, Word, DOC, DOCX, Excel, skaičiuokles, PPT, PPTX, HTML, PSD, MPT, MPP, el. pašto, MSG, EMLX, AutoCAD ir vaizdo failų formatus."
+  },
+  "header": {
+    "title_1": "Dokumento konvertavimas",
+    "title_2": "per Node.js API",
+    "description": "Galinga konvertavimo API, skirta PDF, Microsoft Office, HTML, el. knygų ir vaizdo failams konvertuoti",
+    "words": {
+      "for": "dėl"
+    }
+  },
+  "actions": {
+    "main": "Nemokamas NPM atsisiuntimas",
+    "alt": "Licencijavimas",
+    "title": "Pasiruošę pradėti?",
+    "description": "Išbandykite GroupDocs.Conversion funkcijas nemokamai arba paprašykite licencijos"
+  },
+  "release": {
+    "title": "Išleista {0} versija",
+    "notes": "Pažiūrėkite, kas naujo",
+    "downloads": "Atsisiuntimai"
+  }
+}

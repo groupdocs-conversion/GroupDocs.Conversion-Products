@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Kódminták",
+    "description": "Egyes esetekben a tipikus GroupDocs.Conversion for Java műveleteket használják",
+    "sample_1": {
+      "title": "PDF konvertálása képpé",
+      "content_1": "A gyakran előforduló forgatókönyv egy teljes PDF-dokumentumot vagy bizonyos oldalakat képek gyűjteményévé konvertál. A GroupDocs.Conversion for Java lehetőséget kínál arra, hogy PDF-eket különböző képformátumokká konvertáljon, például TIFF, JPG, PNG, GIF, BMP stb.",
+      "content_2": "Az ImageFileType osztály segítségével kiválaszthatja a kívánt képformátumot.",
+      "code_title": "PDF konvertálása PNG-be Java nyelven",
+      "comment_1": "Töltse be a forrás PDF-fájlt",
+      "comment_2": "Állítsa be a konvertálási beállításokat és adja meg a kimeneti kép típusát",
+      "comment_3": "Konvertálja a PDF dokumentum minden oldalát PNG formátumba"
+    },
+    "sample_2": {
+      "title": "Konvertálja egy nagy dokumentum szegmensét",
+      "content_1": "A GroupDocs.Conversion for Java segítségével könnyedén konvertálhat bizonyos oldalakat egy hosszú dokumentumból.",
+      "content_2": "Ennek megvalósítására két módszer áll rendelkezésére, az Ön igényeitől függően. Konvertálhat egy sor oldalt, vagy konvertálhat adott oldalakat.",
+      "code_title_1": "Konvertálja a DOCX-et (2-4. oldal) PDF-be Java nyelven",
+      "comment_1": "Töltse be a forrás DOCX fájlt",
+      "comment_2": "Állítsa be a konvertálási beállításokat, és adja meg a megjelenítendő oldalak tartományát",
+      "comment_3": "Konvertálja a 2-4 oldalakat PDF-be"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Format fail yang disokong",
+    "description": "GroupDocs.Conversion untuk .NET menyokong operasi dengan [format fail] berikut (https://docs.groupdocs.com/conversion/net/supported-file-formats/).",
+    "groups": {
+      "title_1": "Format dokumen",
+      "title_2": "Imej & Multimedia",
+      "title_3": "Format lain",
+      "format_documents": "Dokumen",
+      "format_images": "Imej",
+      "format_diagram": "Gambar rajah",
+      "format_cad_gis": "CAD & GIS",
+      "format_audio": "Audio",
+      "format_video": "Video",
+      "format_vector_3d": "3D & Vektor",
+      "format_web": "Web",
+      "format_archives": "Arkib",
+      "format_email_outlook": "E-mel & Outlook",
+      "format_finance": "Kewangan"
+    }
+  }
+}

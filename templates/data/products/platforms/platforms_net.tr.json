@@ -1,0 +1,6 @@
+{
+  "platforms": {
+    "title": "Platform bağımsızlığı",
+    "description": "GroupDocs.Conversion for .NET aşağıdaki işletim sistemlerini, çerçeveleri ve paket yöneticilerini destekler"
+  }
+}

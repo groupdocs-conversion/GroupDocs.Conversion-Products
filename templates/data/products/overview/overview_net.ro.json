@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion dintr-o privire",
+    "description": "Explorați capacitățile API-ului pentru conversia rapidă și fără cusur a fișierelor PDF, Microsoft Office, HTML, cărți electronice și imagini în aplicațiile .NET",
+    "feature_1": {
+      "title": "Conversie simplificată",
+      "description": "Cu GroupDocs.Conversion API puteți converti fără efort documente de diverse formate în fișiere PDF, Microsoft Office, HTML, eBook și imagine. API-ul oferă opțiuni flexibile și robuste, asigurând integritatea conținutului și a structurii documentului pe tot parcursul procesului de conversie."
+    },
+    "feature_2": {
+      "title": "Comutare fără efort între formate",
+      "description": "Procesul de utilizare GroupDocs.Conversion API este incredibil de simplu, necesitând o singură metodă și un set de opțiuni pentru a comuta fără efort între diferite formate."
+    },
+    "feature_3": {
+      "title": "Compatibilitate multi-platformă",
+      "description": "Explorați o soluție de conversie cu compatibilitate inerentă între platforme, care se adresează unei baze mai largi de utilizatori și asigură performanțe optime în diferite medii pentru toate cerințele dvs. de conversie a documentelor."
+    }
+  }
+}

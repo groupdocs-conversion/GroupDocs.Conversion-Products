@@ -8,25 +8,23 @@
       "content_2": "Anders as ander omskakelings, vereis hierdie proses die verklaring van 'n SavePageStream-afgevaardigde, wat die naamformaat vir die gestoorde beelde spesifiseer. Jy kan jou voorkeurbeeldformaat kies deur die ImageFileType-klas te gebruik.",
       "code_title": "Skakel PDF na PNG om in C#",
       "comment_1": "Laai die bron-PDF-lêer",
-      "comment_2": "Stel die omskakelopsies vir PNG-formaat in",
-      "comment_3": "Skakel om na PNG-formaat",
-      "alternative_content_1": "Alternatiewelik kan jy dieselfde bereik deur vlot sintaksis te gebruik:",
-      "alternative_code_title": "Omskakeling van PDF na PNG in C# met behulp van vlot sintaksis:"
+      "comment_2": "Stel die omskakelopsies in en spesifiseer die tipe uitsetbeeld",
+      "comment_3": "Skakel elke bladsy van PDF-dokument om na PNG"
     },
     "sample_2": {
-      "title": "Omskakeling van 'n segment van 'n groot dokument",
+      "title": "Skakel 'n segment van 'n groot dokument om",
       "content_1": "Met GroupDocs.Conversion for .NET, kan jy moeiteloos spesifieke bladsye van 'n lang dokument omskakel.",
       "content_2": "Jy het twee metodes om dit te bereik, afhangende van jou vereistes. Jy kan óf 'n reeks bladsye omskakel óf spesifieke bladsye omskakel.",
-      "code_title_1": "Skakel 'n opeenvolgende reeks bladsye om",
-      "code_title_2": "Skakel spesifieke bladsye om"
+      "code_title_1": "Skakel DOCX (bladsye 2-4) om na PDF in C#",
+      "comment_1": "Laai die bron DOCX-lêer",
+      "comment_2": "Stel die omskakelopsies in en spesifiseer die reeks bladsye om weer te gee",
+      "comment_3": "Skakel bladsye 2-4 om na PDF"
     },
     "sample_3": {
-      "title": "Vlot sintaksis: 'n vaartbelynde benadering",
+      "title": "Vlot sintaksis: 'n Gestroomlynde benadering",
       "content_1": "Vlot sintaksis bied 'n bondige notasie vir algemene aksies binne die GroupDocs.Conversion for .NET API.",
       "content_2": "Die kodevoorbeelde hieronder demonstreer hoe om die vlot sintaksis te benut:",
-      "code_title_1": "Voorbeeld 1: Skakel DOCX na PDF om deur vlot sintaksis te gebruik",
-      "code_title_2": "Voorbeeld 2: Skakel PDF na DOCX om deur omskakelaarinstellings, laaiopsies en omskakelopsies te spesifiseer deur vlot sintaksis te gebruik",
-      "code_title_3": "Voorbeeld 3: Skakel PDF na DOCX bladsy vir bladsy om deur vlot sintaksis te gebruik"
+      "code_title_1": "Omskep DOCX na PDF in C# met behulp van vlot sintaksis"
     }
   }
 }

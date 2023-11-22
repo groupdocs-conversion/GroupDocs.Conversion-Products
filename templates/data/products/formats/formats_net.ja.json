@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "サポートされているファイル形式",
+    "description": "GroupDocs.Conversion for .NET は、次の [ファイル形式](https://docs.groupdocs.com/conversion/net/supported-file-formats/) での操作をサポートします。",
+    "groups": {
+      "title_1": "文書形式",
+      "title_2": "画像とマルチメディア",
+      "title_3": "その他の形式",
+      "format_documents": "書類",
+      "format_images": "画像",
+      "format_diagram": "ダイアグラム",
+      "format_cad_gis": "CADとGIS",
+      "format_audio": "オーディオ",
+      "format_video": "ビデオ",
+      "format_vector_3d": "3D とベクター",
+      "format_web": "ウェブ",
+      "format_archives": "アーカイブ",
+      "format_email_outlook": "電子メールと Outlook",
+      "format_finance": "ファイナンス"
+    }
+  }
+}

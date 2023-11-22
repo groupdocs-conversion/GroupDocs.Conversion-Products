@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Conversion-functies",
+    "description": "Converteer PDF- en Office-documenten naadloos naar HTML, JPG, PNG, BMP, TIFF, SVG en vele andere formaten. GroupDocs.Conversion voor Node.js via Java API is ontworpen om eenvoudig te gebruiken en te integreren in uw project. Het ondersteunt alle populaire documentformaten met de mogelijkheid om het conversieproces aan te passen.",
+    "feature_1": {
+      "title": "Conversie in meerdere formaten",
+      "content": "Converteer eenvoudig bestanden tussen verschillende formaten, waaronder PDF, DOCX, XLSX, PPTX en meer."
+    },
+    "feature_2": {
+      "title": "High-fidelity-uitvoer",
+      "content": "Behoud de oorspronkelijke kwaliteit en opmaak van documenten tijdens het conversieproces."
+    },
+    "feature_3": {
+      "title": "Meerdere bestanden converteren",
+      "content": "Converteer meerdere bestanden en combineer ze in een archief, waardoor de organisatie van geconverteerde inhoud wordt vereenvoudigd."
+    },
+    "feature_4": {
+      "title": "Document van meerdere pagina's naar afbeeldingen",
+      "content": "Converteer documenten met meerdere pagina's pagina voor pagina naar afbeeldingen, waardoor nauwkeurige controle over het transformatieproces mogelijk wordt en de extractie en analyse van op afbeeldingen gebaseerde documenten wordt vergemakkelijkt."
+    },
+    "feature_5": {
+      "title": "Aanpasbare instellingen",
+      "content": "Verfijn conversieparameters zoals resolutie, kwaliteit en lay-out om aan specifieke vereisten te voldoen."
+    },
+    "feature_6": {
+      "title": "Veilige verwerking",
+      "content": "Zorg voor gegevensprivacy met met een wachtwoord beveiligde opties voor bestandsconversie."
+    },
+    "feature_7": {
+      "title": "API-integratie",
+      "content": "Integreer de conversiemogelijkheden naadloos in uw JavaScript-applicaties, waardoor het een naadloos onderdeel van uw workflow wordt."
+    },
+    "feature_8": {
+      "title": "Robuuste conversie",
+      "content": "Zorg voor betrouwbare en foutloze bestandsconversies, waarbij de nauwkeurigheid en integriteit van uw getransformeerde documenten wordt gegarandeerd."
+    },
+    "feature_9": {
+      "title": "Converteer documenten uit archieven",
+      "content": "Extraheer en converteer documenten uit archieven, waardoor de transformatie van inhoud die is opgeslagen in gecomprimeerde bestanden mogelijk wordt."
+    }
+  }
+}

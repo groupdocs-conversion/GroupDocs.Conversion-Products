@@ -1,7 +1,7 @@
 {
   "features": {
     "title": "GroupDocs.Conversion kenmerke",
-    "description": "Skakel PDF- en Office-dokumente naatloos na HTML, JPG, PNG, BMP, TIFF, SVG en baie ander formate om. GroupDocs.Conversion for .NET API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas. GroupDocs.Conversion for .NET API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas.",
+    "description": "Skakel PDF- en kantoordokumente naatloos na HTML, JPG, PNG, BMP, TIFF, SVG en baie ander formate om. GroupDocs.Conversion for .NET API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas.",
     "feature_1": {
       "title": "Multi-formaat omskakeling",
       "content": "Omskep lêers tussen verskillende formate, insluitend PDF, DOCX, XLSX, PPTX, en meer, met gemak."
@@ -11,11 +11,11 @@
       "content": "Behou die oorspronklike kwaliteit en formatering van dokumente tydens die omskakelingsproses."
     },
     "feature_3": {
-      "title": "Omskakeling van veelvuldige lêers",
+      "title": "Omskakeling van verskeie lêers",
       "content": "Skakel veelvuldige lêers om en kombineer dit in 'n argief, wat die organisasie van omgeskakelde inhoud vereenvoudig."
     },
     "feature_4": {
-      "title": "Meerbladdokument na prente",
+      "title": "Meerbladsye dokument na beelde",
       "content": "Omskep meerbladdokumente na prente bladsy vir bladsy, wat presiese beheer oor die transformasieproses moontlik maak en beeldgebaseerde dokumentonttrekking en ontleding vergemaklik."
     },
     "feature_5": {
@@ -37,14 +37,6 @@
     "feature_9": {
       "title": "Omskep dokumente uit argiewe",
       "content": "Onttrek en omskep dokumente uit argiewe, wat die transformasie van inhoud in saamgeperste lêers moontlik maak."
-    },
-    "feature_10": {
-      "title": "Kruisplatform-versoenbaarheid",
-      "content": "Begin omskakelings op Windows-, Linux- en macOS-platforms om voorsiening te maak vir 'n breër gebruikersbasis."
-    },
-    "feature_11": {
-      "title": "Meter Lisensiëring Ondersteun",
-      "content": "Meter Lisensiëring Ondersteun om gefaktureer te word gebaseer op die gebruik van die API"
     }
   }
 }

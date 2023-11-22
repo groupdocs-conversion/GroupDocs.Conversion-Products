@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} API na konverziu dokumentov | Prevod obrázkov PDF Word Excel PPTX HTML",
-    "description": "{{ProgLang}} Document Conversion API. Prevod PDF Word DOC DOCX, tabuľky Excel PPT PPTX, HTML, PSD, MPT MPP, E-mail MSG EMLX, AutoCAD a obrazové formáty."
+    "title": "{{ProgLang}} API na konverziu dokumentov | Konvertujte PDF, Word, Excel, PPTX, HTML a obrázky",
+    "description": "Rozhranie API na konverziu dokumentov {{ProgLang}}. Konvertujte formáty PDF, Word, DOC, DOCX, Excel, tabuľky, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD a obrázkové súbory."
   },
   "header": {
-    "title": "{{ProgLang}} API na konverziu 80+ formátov súborov",
-    "description": "Jednoduché API na integráciu funkcií konverzie dokumentov a obrázkov do aplikácií {{ProgLang}} bez inštalácie akéhokoľvek externého softvéru.",
-    "button": {
-      "label": "Stiahnite si bezplatnú skúšobnú verziu",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Konverzia dokumentov",
+    "title_2": "cez Java API",
+    "description": "Výkonné rozhranie API na konverziu na konverziu súborov PDF, Microsoft Office, HTML, elektronických kníh a obrázkov",
+    "words": {
+      "for": "pre"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Prehľad"
-      },
-      "button2": {
-        "text": "Vlastnosti"
-      },
-      "button3": {
-        "text": "podpora"
-      },
-      "button4": {
-        "text": "Živá ukážka"
-      },
-      "button5": {
-        "text": "Stanovenie cien"
-      }
-    }
+  "actions": {
+    "main": "Maven na stiahnutie zadarmo",
+    "alt": "Licencovanie",
+    "title": "Ste pripravení začať?",
+    "description": "Vyskúšajte bezplatne funkcie GroupDocs.Conversion alebo požiadajte o licenciu"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} kombinuje výkonnú sadu rozhraní API na konverziu dokumentov na zobrazenie obrázkov a formátov dokumentov vo vašich aplikáciách Java bez potreby inštalácie ďalšieho softvéru. Natívne rastruje dokumenty a konvertuje ich do formátu SVG+HTML+CSS, čím zvyšuje kvalitu prezerania dokumentov a zároveň poskytuje výstup s vysokou vernosťou textu. Pomocou rozhrania API na vykresľovanie dokumentov – rýchlo si prezerajte PDF, HTML, XML, Microsoft Office Word, pracovné hárky programu Excel, prezentácie v PowerPointe, e-maily programu Outlook, diagramy Visio, projekt, metasúbory, obrázky a rôzne ďalšie formáty súborov s ľahkosťou a menším rizikom programovania. Môže tiež zobraziť súbory chránené heslom a po vykreslení umožňuje získať reprezentáciu dokumentu ako HTML, obrázok alebo PDF. Naša knižnica na konverziu súborov je celkom prispôsobiteľná, pretože vám umožňuje zobraziť celý dokument alebo ho čiastočne vykresliť, aby sa proces urýchlil. Prostredníctvom GroupDocs.Conversion for Java API si môžete prezerať stránky, konkrétny rozsah buniek v tabuľkovom procesore alebo dokonca vykresliť jednotlivé vrstvy dokumentu vo formátoch, ako sú PDF a CAD.",
-    "content2": "Rozhranie API {{ProductFullName}} vám umožňuje vykresľovať dokumenty s anotáciou alebo komentármi alebo bez nich pre podporované formáty súborov. Umožňuje vám tiež pridávať vlastné adresáre písiem a extrahovať základné informácie o dokumente, ako sú FileType, Extension, Name, PageCount atď.",
-    "tab_one": {
-      "description": "Nasleduje prehľad {{ProductFullName}}:",
-      "right": {
-        "title": "Prehľad",
-        "content1": "* Automatická detekcia typu súboru",
-        "content2": "* Konvertovať dokumenty",
-        "content3": "* Prevod prezentácií",
-        "content4": "* Prevod tabuliek",
-        "content5": "* Prevod rastrových obrázkov",
-        "content6": "* Prevod dokumentov PDF",
-        "content7": "* Previesť iné formáty",
-        "content8": "* Použite vodoznak",
-        "content9": "* Zadajte heslo súboru",
-        "content10": "* Prispôsobenie konverzie"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} podporuje konverziu medzi všetkými populárnymi a bežne používanými [formátmi súborov dokumentov](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Konvertovať z:",
-        "content1": "* **Dokumenty**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Tabuľky**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Prezentácie**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Obrázky**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Prenosné**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metasúbory**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Projekt**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **E-mail**: MSG, EML, EMLX",
-        "content12": "* **Diagramy**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Iné**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Premeniť na:",
-        "content1": "* **Dokumenty**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Tabuľky**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Prezentácie**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Obrázky**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metasúbory**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Schémy**: SVGZ",
-        "content7": "* **Prenosné**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "* **Iné**: MUDr"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} podporuje nasledujúce operačné systémy, rámce a správcov balíkov:",
-      "left": {
-        "title1": "Operačné systémy",
-        "title2": "Podporované rámce"
-      },
-      "right": {
-        "title1": "Správca balíkov",
-        "title2": "Vývojové prostredia"
-      }
-    }
-  },
-  "features": {
-    "title": "Funkcie {{ProductFullName}}",
-    "content1": "Jednoduchá integrácia a licencovanie podľa meraní",
-    "content2": "Nastavte predvolenú možnosť priblíženia pri prevode na slová, snímky alebo bunky",
-    "content3": "Konvertovať do/zo všetkých populárnych formátov rastrových obrázkov a priradiť obrázku DPI, výšku a šírku",
-    "content4": "Preveďte PDF a obrázok do odtieňov sivej a linearizujte dokument PDF pre web",
-    "content5": "Zadajte úroveň záložiek, úroveň nadpisu a rozšírenú úroveň v prevode Word do PDF/XPS",
-    "content6": "Nakonfigurujte a umiestnite vodoznak do konvertovaného dokumentu ako pozadie na zobrazenie za textom",
-    "content7": "Vykresliť hlavičku e-mailu počas prevodu z e-mailu",
-    "content8": "Nastaviť vlastné adresáre písiem a explicitne načítať/nahradiť písmo počas konverzie dokumentu",
-    "content9": "Nastavte predvolené písmo na nahradenie chýbajúcich písem pre konverziu dokumentov, snímok a tabuliek",
-    "content10": "Pokročilé metódy konverzie na vrátenie výstupu ako cestu alebo vstupný tok",
-    "content11": "Konvertujte hárok pomocou mriežok a odstráňte komentáre zo snímok počas konverzie",
-    "content12": "Previesť konkrétne strany dokumentu ako formát PDF a previesť špecifický rozsah buniek v tabuľkových procesoroch",
-    "content13": "Zobraziť skryté hárky a preskočiť prázdne riadky a stĺpce pri konverzii tabuliek",
-    "content14": "Spočítajte celkový počet strán dokumentu a počas konverzie nastavte heslo na nechránený dokument",
-    "content15": "Možnosť odstrániť anotácie a vložené súbory z PDF",
-    "content16": "Pri prevode do HTML vytvorte značkovanie vyhovujúce HTML 5",
-    "content17": "Automaticky rozpoznať typ zdroja a vrátiť všetky možné konverzie pri konverzii zo streamu",
-    "content18": "Možnosť vrátiť každú stránku v samostatnom streame pri prevode do PDF alebo HTML",
-    "content19": "Zobraziť/skryť značky, komentáre a sledovať zmeny pri prevode z programu Word",
-    "content20": "Konverzia DOCX na Tiff G3 s možnosťou tieňovania",
-    "content21": "Konvertovať špecifické rozloženia pri prevode z dokumentu CAD",
-    "content22": "Automatické pomenovanie pri ukladaní konvertovaného dokumentu do súboru",
-    "content23": "Metered Licensing Podporované fakturovanie na základe použitia API",
-    "content24": "Prevod diagramov do formátov súborov na spracovanie textu",
-    "content25": "Pridajte čísla strán pri prevode HTML na textový dokument",
-    "content26": "Konvertujte dokumenty XML do ľubovoľného formátu bez transformácie",
-    "content27": "Monitorujte priebeh konverzie súboru (začiatok, koniec) priamo z aplikácie na strane klienta",
-    "more_feature": {
-      "title1": "Jednoduchá konverzia formátu dokumentu pomocou Java",
-      "content1": "Pomocou rozhrania API {{ProductFullName}} môžete konvertovať formát súboru veľkého množstva typov dokumentov. Tu sa zobrazí niekoľko riadkov kódu na vykonanie základnej konverzie dokumentov pomocou jazyka Java.",
-      "step_1": "Vytvorte inštanciu triedy Converter a poskytnite súboru úplnú cestu",
-      "step_2": "Vytvorte a nastavte ConvertOptions pre požadovaný typ cieľa.",
-      "step_3": "Zavolajte metódu Converter.Convert a zadajte úplnú cestu a formát ako parameter",
-      "title2": "Prečítajte si dokument z adresy URL alebo cesty na konverziu",
-      "content2": "Pomocou {{ProductFullName}} API môžete čítať vstupný dokument z cesty k súboru, ako aj z adresy URL. Výstupný dokument môžete uložiť ako súbor alebo odoslať výstup priamo do prúdu.",
-      "title3": "Komplexná technická podpora",
-      "content3": "{{ProductFullName}} je jednoduché a praktické rozhranie API, ktoré môžete veľmi jednoducho integrovať do svojich aplikácií založených na jazyku Java. Aby sme vás však mohli rýchlo spustiť, poskytujeme tiež jednoduché ukážky kódu a komplexnú dokumentáciu API."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion ponúka rozhrania API na konverziu dokumentov pre ďalšie populárne vývojové prostredia",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion for .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".NET",
-      "link": "/conversion/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Načítať zdrojový súbor {{FROM}} na konverziu",
-      "prepare_comment": "Pripravte možnosti konverzie pre cieľový formát {{TO}}",
-      "convert_comment": "Konvertovať do formátu {{TO}}"
-    }
+  "release": {
+    "title": "Verzia {0}  vydaná",
+    "notes": "Pozrite sa, čo je nové",
+    "downloads": "K stiahnutiu"
   }
 }

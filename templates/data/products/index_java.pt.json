@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} API de conversão de documentos | Converter PDF Word Excel PPTX Imagens HTML",
-    "description": "API de conversão de documentos {{ProgLang}}. Converta PDF Word DOC DOCX, planilhas do Excel PPT PPTX, HTML, PSD, MPT MPP, e-mail MSG EMLX, AutoCAD e formatos de arquivo de imagem."
+    "title": "API de conversão de documentos {{ProgLang}} | Converta PDF, Word, Excel, PPTX, HTML e imagens",
+    "description": "API de conversão de documentos {{ProgLang}}. Converta PDF, Word, DOC, DOCX, Excel, planilhas, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD e formatos de arquivo de imagem."
   },
   "header": {
-    "title": "API {{ProgLang}} para converter mais de 80 formatos de arquivo",
-    "description": "API simples para integrar a funcionalidade de conversão de documentos e imagens em aplicativos {{ProgLang}} sem instalar nenhum software externo.",
-    "button": {
-      "label": "Baixar Teste Gratuito",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Conversão de documentos",
+    "title_2": "através da API Java",
+    "description": "API de conversão poderosa para converter arquivos PDF, Microsoft Office, HTML, e-books e imagens",
+    "words": {
+      "for": "para"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Visão geral"
-      },
-      "button2": {
-        "text": "Características"
-      },
-      "button3": {
-        "text": "Apoiar"
-      },
-      "button4": {
-        "text": "Demonstração ao vivo"
-      },
-      "button5": {
-        "text": "Preços"
-      }
-    }
+  "actions": {
+    "main": "Download grátis do Maven",
+    "alt": "Licenciamento",
+    "title": "Pronto para começar?",
+    "description": "Experimente os recursos GroupDocs.Conversion gratuitamente ou solicite uma licença"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} combina um poderoso conjunto de APIs de conversão de documentos para exibir imagens e formatos de documentos em seus aplicativos Java sem a necessidade de instalar software adicional. Ele rasteriza os documentos de forma nativa e os converte em SVG+HTML+CSS para melhorar a qualidade da visualização do documento enquanto fornece uma saída de texto verdadeiro e de alta fidelidade. Usando a API de renderização de documentos - visualize rapidamente PDF, HTML, XML, Microsoft Office Word, planilhas do Excel, apresentações do PowerPoint, e-mails do Outlook, diagramas do Visio, Projeto, meta-arquivos, imagens e vários outros formatos de arquivo com facilidade e menos riscos de programação. Ele também pode exibir arquivos protegidos por senha e permitir a representação de documentos como HTML, imagem ou formulário PDF após a renderização. Nossa biblioteca de conversão de arquivos é bastante personalizável, pois permite exibir todo o documento ou renderizá-lo parcialmente para acelerar o processo. Através do GroupDocs.Conversion for Java API, você pode visualizar páginas, intervalos de células específicos em uma planilha ou até mesmo renderizar uma camada de documento individual em formatos, como PDF e CAD.",
-    "content2": "A API {{ProductFullName}} permite renderizar documentos com/sem anotações ou comentários para formatos de arquivo compatíveis. Também permite adicionar diretórios de fontes personalizados e extrair informações básicas do documento, como FileType, Extension, Name, PageCount, etc.",
-    "tab_one": {
-      "description": "A seguir está uma visão geral de {{ProductFullName}}:",
-      "right": {
-        "title": "Visão geral",
-        "content1": "* Detectar automaticamente o tipo de arquivo",
-        "content2": "* Converter documentos",
-        "content3": "* Converter apresentações",
-        "content4": "* Converter planilhas",
-        "content5": "* Converter imagens raster",
-        "content6": "* Converter documentos PDF",
-        "content7": "* Converter outros formatos",
-        "content8": "* Aplicar marca d'água",
-        "content9": "* Especifique a senha do arquivo",
-        "content10": "* Personalize a conversão"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} é compatível com a conversão entre todos os [formatos de arquivo de documento] populares e comumente usados ​​(https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Converter de:",
-        "content1": "* **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Planilhas**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Apresentações**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Imagens**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Portátil**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metarquivos**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Projeto**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **E-mail**: MSG, EML, EMLX",
-        "content12": "* **Diagramas**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Outros**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Converter para:",
-        "content1": "* **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Planilhas**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Apresentações**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Imagens**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metarquivos**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagramas**: SVGZ",
-        "content7": "* **Portátil**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "* **Outro**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} é compatível com os seguintes sistemas operacionais, estruturas e gerenciadores de pacotes:",
-      "left": {
-        "title1": "Sistemas operacionais",
-        "title2": "Estruturas Suportadas"
-      },
-      "right": {
-        "title1": "Gerenciador de pacotes",
-        "title2": "Ambientes de Desenvolvimento"
-      }
-    }
-  },
-  "features": {
-    "title": "Recursos do {{ProductFullName}}",
-    "content1": "Integração fácil e licenciamento medido",
-    "content2": "Definir a opção de zoom padrão ao converter para palavras, slides ou células",
-    "content3": "Converta de/para todos os formatos de imagem raster populares e atribua DPI, altura e largura da imagem",
-    "content4": "Converter PDF e imagem em escala de cinza e linearizar documento PDF para a Web",
-    "content5": "Especifique o nível do marcador, o nível do título e o nível expandido na conversão do Word para PDF/XPS",
-    "content6": "Configurar e colocar marca d'água no documento convertido como plano de fundo para exibição atrás do texto",
-    "content7": "Renderizar cabeçalho de e-mail durante a conversão de e-mail",
-    "content8": "Definir diretórios de fontes personalizadas e carregar/substituir fontes explicitamente durante a conversão de documentos",
-    "content9": "Definir fonte padrão para substituir fontes ausentes para conversão de documentos, slides e planilhas",
-    "content10": "Métodos de conversão avançados para retornar a saída como caminho ou fluxo de E/S",
-    "content11": "Converter planilha com linhas de grade e remover comentários de slides durante a conversão",
-    "content12": "Converter páginas de documentos específicos como formato PDF e converter intervalos de células específicos em planilhas",
-    "content13": "Mostrar planilhas ocultas e pular linhas e colunas vazias ao converter planilhas",
-    "content14": "Contar o total de páginas de um documento e definir senha para documento desprotegido durante a conversão",
-    "content15": "Opção para remover anotações e arquivos incorporados de PDF",
-    "content16": "Criar marcação compatível com HTML 5 ao converter para HTML",
-    "content17": "Detectar automaticamente o tipo de origem e retornar todas as conversões possíveis ao converter do fluxo",
-    "content18": "Capacidade de retornar cada página em fluxo separado ao converter para PDF ou HTML",
-    "content19": "Mostrar/ocultar marcação, comentários e acompanhar alterações ao converter do Word",
-    "content20": "Conversão de DOCX para Tiff G3 com opção de sombreamento",
-    "content21": "Converter layouts específicos ao converter de documento CAD",
-    "content22": "Nomeação automática ao salvar documento convertido em arquivo",
-    "content23": "Licenciamento medido suportado para ser cobrado com base no uso da API",
-    "content24": "Converter diagramas para formatos de arquivo de processamento de texto",
-    "content25": "Adicionar números de página ao converter HTML em documento de processamento de texto",
-    "content26": "Converta documentos XML para qualquer formato sem transformação",
-    "content27": "Monitore o progresso da conversão de arquivos (início, fim) diretamente do aplicativo do lado do cliente",
-    "more_feature": {
-      "title1": "Conversão de formato de documento fácil usando Java",
-      "content1": "Você pode converter o formato de arquivo de vários tipos de documentos usando a API {{ProductFullName}}. Aqui são apresentadas algumas linhas de código para realizar uma conversão básica de documentos usando Java.",
-      "step_1": "Crie uma instância da classe Converter e forneça ao arquivo o caminho completo",
-      "step_2": "Crie e defina ConvertOptions para o tipo de destino desejado.",
-      "step_3": "Chame o método Converter.Convert e passe o caminho completo e o formato como um parâmetro",
-      "title2": "Ler documento do URL ou caminho para conversão",
-      "content2": "Usando a API {{ProductFullName}}, você pode ler o documento de entrada de um caminho de arquivo, bem como de um URL. Enquanto você pode salvar o documento de saída como um arquivo ou enviar a saída diretamente para um fluxo.",
-      "title3": "Suporte técnico abrangente",
-      "content3": "{{ProductFullName}} é uma API simples e direta que você pode integrar em seus aplicativos baseados em Java com bastante facilidade. No entanto, para que você comece a trabalhar rapidamente, também fornecemos exemplos de código fáceis de seguir e documentação abrangente da API."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion oferece APIs de conversão de documentos para outros ambientes de desenvolvimento populares",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion para .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".INTERNET",
-      "link": "/conversão/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Carregar arquivo de origem {{FROM}} para conversão",
-      "prepare_comment": "Preparar opções de conversão para o formato de destino {{TO}}",
-      "convert_comment": "Converter para o formato {{TO}}"
-    }
+  "release": {
+    "title": "Versão {0} lançada",
+    "notes": "Veja o que é novo",
+    "downloads": "Transferências"
   }
 }

@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} API Penukaran Dokumen .NET | Tukar PDF Word Excel PPTX Imej HTML",
-    "description": "{{ProgLang}} .NET Document Conversion API. Tukar PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-mel MSG EMLX, AutoCAD & format fail imej."
+    "title": "{{ProgLang}} .API penukaran dokumen BERSIH | Tukar PDF, Word, Excel, PPTX, HTML dan imej",
+    "description": "{{ProgLang}} .API penukaran dokumen BERSIH. Tukar PDF, Word, DOC, DOCX, Excel, Hamparan, PPT, PPTX, HTML, JPA, MPT, MPP, E-mel, MSG, EMLX, AutoCAD dan format fail imej."
   },
   "header": {
-    "title": ".NET API untuk Menukar 80+ Format Fail",
-    "description": "API Mudah untuk Mengintegrasikan Fungsi Penukaran Dokumen & Imej ke dalam Aplikasi .NET tanpa Memasang sebarang Perisian Luaran.",
-    "button": {
-      "label": "Muat turun Percubaan Percuma",
-      "link": "https://downloads.groupdocs.com/conversion/net"
+    "title_1": "Penukaran dokumen",
+    "title_2": "melalui .NET API",
+    "description": "API penukaran yang berkuasa untuk menukar fail PDF, Microsoft Office, HTML, eBook dan imej",
+    "words": {
+      "for": "untuk"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Gambaran keseluruhan"
-      },
-      "button2": {
-        "text": "ciri-ciri"
-      },
-      "button3": {
-        "text": "Sokongan"
-      },
-      "button4": {
-        "text": "Demo Langsung"
-      },
-      "button5": {
-        "text": "penentuan harga"
-      }
-    }
+  "actions": {
+    "main": "Muat Turun NuGet Percuma",
+    "alt": "Pelesenan",
+    "title": "Bersedia untuk bermula?",
+    "description": "Cuba ciri GroupDocs.Conversion secara percuma atau minta lesen"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} menawarkan set mudah API, membolehkan pembangun membina aplikasi penukaran dokumen yang berkuasa dalam {{ProgLang}}, ASP.NET dan teknologi berkaitan .NET yang lain. API {{ProductFullName}} menyediakan penyelesaian penukaran fail yang pantas, cekap dan boleh dipercayai kepada pengguna akhir anda. Ia menyokong melakukan penukaran yang tepat antara semua format dokumen perniagaan yang popular termasuk: PDF, HTML, E-mel, dokumen Microsoft Word, hamparan Excel, persembahan PowerPoint, Projek, Photoshop, CorelDraw, AutoCAD, gambar rajah, format fail imej raster dan banyak lagi. Pustaka penukar dokumen mengesan format dokumen sumber secara automatik dan memberi anda semua kawalan untuk menukar sama ada keseluruhan dokumen atau halaman tertentu kepada format output yang diingini. Lebih mudah untuk menggantikan fon yang hilang dengan yang diutamakan dan menambah teks atau tera air imej pada mana-mana halaman dokumen.",
-    "content2": "{{ProductFullName}} boleh digunakan untuk membangunkan aplikasi dalam mana-mana persekitaran pembangunan yang menyasarkan platform .NET. Ia serasi dengan semua bahasa berasaskan .NET dan menyokong sistem pengendalian popular (Windows, Linux, MacOS) di mana rangka kerja Mono atau .NET (termasuk Teras .NET) boleh dipasang.",
-    "tab_one": {
-      "description": "Berikut ialah gambaran keseluruhan {{ProductFullName}}:",
-      "right": {
-        "title": "Gambaran keseluruhan",
-        "content1": "* Auto-kesan Jenis Fail",
-        "content2": "* Tukar Dokumen",
-        "content3": "* Tukar Persembahan",
-        "content4": "* Tukar Hamparan",
-        "content5": "* Tukar Imej Raster",
-        "content6": "* Tukar Dokumen PDF",
-        "content7": "* Tukar Format Lain",
-        "content8": "* Gunakan Tera Air",
-        "content9": "* Nyatakan Kata Laluan Fail",
-        "content10": "* Sesuaikan Penukaran"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} menyokong penukaran antara semua [format fail dokumen] yang popular dan biasa digunakan (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Tukar Daripada:",
-        "content1": "* **Dokumen**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Hamparan**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Pembentangan**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Imej**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Mudah alih**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metafiles**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: JPA",
-        "content9": "* **Projek**: MPP, MPT, MPX",
-        "content10": "* **Pandangan**: PST, OST",
-        "content11": "* **E-mel**: MSG, EML, EMLX",
-        "content12": "* **Rajah**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **Skrip Pos**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Lain**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Tukar kepada:",
-        "content1": "* **Dokumen**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Hamparan**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Pembentangan**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Imej**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafiles**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Rajah**: SVGZ",
-        "content7": "* **Mudah alih**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "* **Lain-lain**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} menyokong Sistem Pengendalian, Rangka Kerja & Pengurus Pakej berikut:",
-      "left": {
-        "title1": "Sistem operasi",
-        "title2": "Rangka Kerja yang Disokong"
-      },
-      "right": {
-        "title1": "Pengurus Pakej",
-        "title2": "Persekitaran Pembangunan"
-      }
-    }
-  },
-  "features": {
-    "title": "Ciri {{ProductFullName}}.",
-    "content1": "Integrasi Mudah & Pelesenan Bermeter",
-    "content2": "Tetapkan Pilihan Zum Lalai apabila Menukar kepada Perkataan, Slaid atau Sel",
-    "content3": "Tukar kepada/daripada semua Format Imej Raster Popular & Tetapkan DPI Imej, Tinggi & Lebar",
-    "content4": "Tukar PDF & Imej kepada Skala Kelabu & Linearize Dokumen PDF untuk Web",
-    "content5": "Tentukan Tahap Penanda Halaman, Tahap Tajuk dan Tahap Dikembangkan dalam Penukaran Word ke PDF/XPS",
-    "content6": "Konfigurasikan & Letakkan Tera Air dalam Dokumen Ditukar sebagai Latar Belakang untuk Dipaparkan di Sebalik Teks",
-    "content7": "Render Email Header semasa Penukaran daripada E-mel",
-    "content8": "Tetapkan Direktori Fon Tersuai & Muatkan/Ganti Fon Secara Eksplisit semasa Penukaran Dokumen",
-    "content9": "Tetapkan Fon Lalai untuk Menggantikan Fon yang Hilang untuk Penukaran Dokumen, Slaid & Hamparan",
-    "content10": "Kaedah Penukaran Lanjutan untuk mengembalikan Output sebagai Laluan atau Strim IO",
-    "content11": "Tukar Hamparan dengan garisan Grid & Alih Keluar Komen daripada Slaid Semasa Penukaran",
-    "content12": "Tukar Halaman Dokumen Khusus sebagai Format PDF & Tukar Julat Sel Khusus dalam Hamparan",
-    "content13": "Tunjukkan Helaian Tersembunyi & Langkau Baris dan Lajur Kosong semasa Menukar Hamparan",
-    "content14": "Kira Jumlah Halaman Dokumen & Tetapkan Kata Laluan kepada Dokumen Tidak Dilindungi semasa Penukaran",
-    "content15": "Pilihan untuk Mengalih keluar Anotasi & Fail Terbenam daripada PDF",
-    "content16": "Cipta Penanda Mematuhi HTML 5 apabila Menukar kepada HTML",
-    "content17": "Autokesan Jenis Sumber & Kembalikan semua Kemungkinan Penukaran apabila Menukar daripada Strim",
-    "content18": "Keupayaan untuk Mengembalikan Setiap Halaman dalam Strim Berasingan sambil Menukar kepada PDF atau HTML",
-    "content19": "Tunjukkan/Sembunyikan Penanda, Komen & Jejaki Perubahan semasa Menukar daripada Word",
-    "content20": "Penukaran DOCX kepada Tiff G3 dengan Pilihan Lorekan",
-    "content21": "Tukar Reka Letak Khusus apabila Menukar daripada Dokumen CAD",
-    "content22": "Penamaan Automatik apabila Menyimpan Dokumen Ditukar ke Fail",
-    "content23": "Pelesenan Bermeter Disokong untuk Dibilkan berdasarkan Penggunaan API",
-    "content24": "Tukar Rajah kepada Format Fail Pemprosesan Perkataan",
-    "content25": "Tambah Nombor Halaman semasa Menukar HTML kepada Dokumen Pemprosesan Kata",
-    "content26": "Tukar Dokumen XML kepada Sebarang Format tanpa Transformasi",
-    "content27": "Pantau Kemajuan Penukaran Fail (Mula, Tamat) Terus dari Aplikasi Bahagian Pelanggan",
-    "more_feature": {
-      "title1": "Menukar Format Dokumen dengan Mudah",
-      "content1": "Menggunakan {{ProductFullName}}, menukar format fail dokumen adalah sangat mudah. Contoh berikut menunjukkan kepada anda cara menukar fail PDF kepada fail DOC menggunakan {{ProgLang}}:",
-      "step_1": "Buat contoh kelas Penukar dan sediakan fail dengan laluan penuh",
-      "step_2": "Cipta dan tetapkan ConvertOptions untuk jenis sasaran yang diingini.",
-      "step_3": "Panggil kaedah Converter.Convert dan lulus laluan dan format penuh sebagai parameter",
-      "title2": "Penukaran kepada Format Imej",
-      "content2": "{{ProductFullName}} boleh digunakan untuk membangunkan aplikasi dalam mana-mana persekitaran pembangunan yang menyasarkan platform .NET. Ia serasi dengan semua bahasa berasaskan .NET dan menyokong sistem pengendalian popular (Windows, Linux, MacOS) di mana rangka kerja Mono atau .NET (termasuk Teras .NET) boleh dipasang.",
-      "title3": "Menyokong pelbagai Jenis Format PDF",
-      "content3": "API {{ProductFullName}} menyokong penukaran dokumen kepada jenis/format PDF berikut:"
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion menawarkan API penukaran dokumen untuk persekitaran pembangunan popular yang lain",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion untuk Java",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
-      "platform": "Jawa",
-      "link": "/conversion/java/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Muatkan fail sumber {{FROM}} untuk penukaran",
-      "prepare_comment": "Sediakan pilihan penukaran untuk format sasaran {{TO}}",
-      "convert_comment": "Tukar kepada format {{TO}}."
-    }
+  "release": {
+    "title": "Versi {0}  dilepaskan",
+    "notes": "Lihat perkara baharu",
+    "downloads": "Muat turun"
   }
 }

@@ -1,36 +1,37 @@
 {
   "head": {
-    "title": ".NET, Java, Cloud APIs & Aplikasi Konversi Dokumen oleh GroupDocs",
-    "description": "Konversikan format file dokumen dan gambar populer di platform apa pun dengan aplikasi dan solusi berbasis api."
+    "title": ".NET, Java, Cloud API & Aplikasi Konversi Dokumen oleh GroupDocs",
+    "description": "Konversikan format file dokumen dan gambar populer di platform apa pun dengan solusi berbasis aplikasi dan api."
   },
   "header": {
     "title": "Solusi Konversi Dokumen dan Gambar",
-    "description": "Konversikan format file dokumen dan gambar populer di platform apa pun dengan aplikasi dan solusi berbasis api."
+    "description": "Konversikan format file dokumen dan gambar populer di platform apa pun dengan solusi berbasis aplikasi dan api."
   },
   "apis": {
     "api1": {
       "title": "GroupDocs.Conversion API Kode Tinggi Termasuk",
       "label": "Lihat Semua API Kode Tinggi",
-      "product1_content": "Native .NET API untuk secara akurat mengonversi dokumen & format file gambar dalam semua jenis aplikasi .NET. Mendukung penambahan tanda air gambar saat konversi.",
-      "product2_content": "Aktifkan aplikasi Java Anda untuk dengan mudah mengkonversi antara semua format dokumen standar industri termasuk Microsoft Office, PDF, HTML, gambar dan banyak lainnya."
+      "product1_content": "API .NET asli untuk mengonversi dokumen & format file gambar secara akurat di semua jenis aplikasi .NET. Mendukung penambahan tanda air gambar saat konversi.",
+      "product2_content": "Aktifkan aplikasi Java Anda untuk dengan mudah mengkonversi semua format dokumen standar industri termasuk Microsoft Office, PDF, HTML, gambar dan banyak lainnya.",
+      "product3_content": "Aktifkan aplikasi JavaScript Anda untuk dengan mudah mengkonversi semua format dokumen standar industri termasuk Microsoft Office, PDF, HTML, gambar dan banyak lainnya."
     },
     "api2": {
       "title": "GroupDocs.Conversion API Kode Rendah Termasuk",
       "label": "Lihat Semua API Kode Rendah",
-      "product1_content": "Bekerja dengan API konversi file CURL RESTful untuk dengan mudah mengonversi Microsoft Office, PDF, Email, Project, HTML, dan format file umum lainnya di aplikasi Anda.",
+      "product1_content": "Bekerja dengan API konversi file cURL RESTful untuk dengan mudah mengonversi Microsoft Office, PDF, Email, Project, HTML, dan format file umum lainnya di aplikasi Anda.",
       "product2_content": "Konversi file .NET REST API untuk dengan mudah mengonversi Microsoft Office, PDF, Email, Project, HTML, dan format file umum lainnya di platform apa pun menggunakan Cloud SDK.",
       "product3_content": "Perkaya aplikasi Java berbasis cloud Anda dengan fitur konversi dokumen tingkat lanjut pada platform apa pun yang mampu memanggil REST API."
     },
     "api3": {
-      "title": "GroupDocs.Conversion Tidak Ada Aplikasi Kode Termasuk",
+      "title": "GroupDocs.Conversion Tidak Termasuk Aplikasi Kode",
       "label": "Lihat Semua Aplikasi Tanpa Kode",
-      "product1_content": "Konversi lebih dari 50 format dokumen ke PDF, XLSX, DOCX, XPS, HTML, dan lainnya.",
+      "product1_content": "Konversikan lebih dari 50 format dokumen ke PDF, XLSX, DOCX, XPS, HTML, dan lainnya.",
       "product2_content": "Aplikasi gratis untuk mengonversi format DOC ke XLS dari browser web apa pun.",
-      "product3_content": "Unggah dokumen PDF Anda untuk konversi mulus ke format Word (DOCX)."
+      "product3_content": "Unggah dokumen PDF Anda untuk konversi tanpa hambatan ke format Word (DOCX)."
     }
   },
   "testimonial": {
     "designation": "Psikolog",
-    "content": "Saya dengan bersemangat menyaksikan pertumbuhan GroupDocs. Responsivitas tim lengkap Anda sangat membantu saya, ketika saya berbicara dengan seseorang di GroupDocs, saya dapat menjamin bahwa seseorang mendengarkan dan membuat sesuatu terjadi."
+    "content": "Saya sangat bersemangat menyaksikan pertumbuhan GroupDocs. Responsif dari seluruh tim Anda telah sangat membantu saya, ketika saya berbicara dengan seseorang di GroupDocs saya dapat menjamin bahwa seseorang mendengarkan dan mewujudkan sesuatu."
   }
 }

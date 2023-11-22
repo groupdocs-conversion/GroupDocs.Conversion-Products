@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Koodinäytteet",
+    "description": "Jotkut käyttävät tyypillisiä GroupDocs.Conversion Java-toimintoja",
+    "sample_1": {
+      "title": "Muunna PDF kuvaksi",
+      "content_1": "Usein esiintyvä skenaario sisältää koko PDF-dokumentin tai tiettyjen sivujen muuntamisen kuvakokoelmaksi. GroupDocs.Conversion for Java tarjoaa mahdollisuuden muuntaa PDF-tiedostoja erilaisiin kuvamuotoihin, kuten TIFF, JPG, PNG, GIF, BMP ja muihin.",
+      "content_2": "Voit valita haluamasi kuvamuodon käyttämällä ImageFileType-luokkaa.",
+      "code_title": "PDF:n muuntaminen PNG:ksi Javassa",
+      "comment_1": "Lataa lähde PDF-tiedosto",
+      "comment_2": "Aseta muunnosasetukset ja määritä tulosteen kuvatyyppi",
+      "comment_3": "Muunna PDF-dokumentin jokainen sivu PNG-muotoon"
+    },
+    "sample_2": {
+      "title": "Muunna suuren asiakirjan segmentti",
+      "content_1": "GroupDocs.Conversion for Java -sovelluksella voit muuntaa vaivattomasti tiettyjä sivuja pitkästä asiakirjasta.",
+      "content_2": "Sinulla on kaksi tapaa saavuttaa tämä tarpeidesi mukaan. Voit joko muuntaa useita sivuja tai muuntaa tiettyjä sivuja.",
+      "code_title_1": "Muunna DOCX (sivut 2-4) PDF:ksi Javassa",
+      "comment_1": "Lataa lähde-DOCX-tiedosto",
+      "comment_2": "Aseta muunnosasetukset ja määritä hahmonnettavien sivujen alue",
+      "comment_3": "Muunna sivut 2-4 PDF-muotoon"
+    }
+  }
+}

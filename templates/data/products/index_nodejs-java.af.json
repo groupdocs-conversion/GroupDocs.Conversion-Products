@@ -1,7 +1,7 @@
 {
   "head": {
-    "title": "{{ProgLang}} Dokumentomskakeling-API | Skakel PDF Word Excel PPTX HTML-beelde om",
-    "description": "{{ProgLang}} Dokumentomskakeling-API. Omskep PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-pos MSG EMLX, AutoCAD en beeldlêerformate."
+    "title": "{{ProgLang}} dokumentomskakelings-API | Skakel PDF, Word, Excel, PPTX, HTML en beelde om",
+    "description": "{{ProgLang}} dokumentomskakelings-API. Skakel PDF, Word, DOC, DOCX, Excel, Sigblaaie, PPT, PPTX, HTML, PSD, MPT, MPP, E-pos, MSG, EMLX, AutoCAD en beeldlêerformate om."
   },
   "header": {
     "title_1": "Dokumentomskakeling",
@@ -12,7 +12,7 @@
     }
   },
   "actions": {
-    "main": "Gratis NuGet-aflaai",
+    "main": "Gratis NPM-aflaai",
     "alt": "Lisensiëring",
     "title": "Gereed om te begin?",
     "description": "Probeer GroupDocs.Conversion-kenmerke gratis of versoek 'n lisensie"

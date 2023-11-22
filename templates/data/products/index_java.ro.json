@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} Document Conversion API | Convertiți imagini PDF Word Excel PPTX HTML",
-    "description": "{{ProgLang}} Document Conversion API. Convertiți PDF Word DOC DOCX, foi de calcul Excel PPT PPTX, HTML, PSD, MPT MPP, e-mail MSG EMLX, AutoCAD și formate de fișiere imagine."
+    "title": "API-ul de conversie a documentelor {{ProgLang}} | Convertiți PDF, Word, Excel, PPTX, HTML și imagini",
+    "description": "API-ul de conversie a documentelor {{ProgLang}}. Convertiți PDF, Word, DOC, DOCX, Excel, Foi de calcul, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD și formate de fișiere imagine."
   },
   "header": {
-    "title": "{{ProgLang}} API pentru a converti peste 80 de formate de fișiere",
-    "description": "API simplu pentru a integra funcționalitatea de conversie a documentelor și imaginilor în aplicațiile {{ProgLang}} fără a instala niciun software extern.",
-    "button": {
-      "label": "Descarcare varianta scurta de prezentare gratuita",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Conversia documentelor",
+    "title_2": "prin API-ul Java",
+    "description": "API de conversie puternică pentru a converti fișiere PDF, Microsoft Office, HTML, cărți electronice și imagini",
+    "words": {
+      "for": "pentru"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Prezentare generală"
-      },
-      "button2": {
-        "text": "Caracteristici"
-      },
-      "button3": {
-        "text": "A sustine"
-      },
-      "button4": {
-        "text": "Demo live"
-      },
-      "button5": {
-        "text": "Prețuri"
-      }
-    }
+  "actions": {
+    "main": "Descărcare gratuită Maven",
+    "alt": "Licențiere",
+    "title": "Sunteți gata să începeți?",
+    "description": "Încercați gratuit funcțiile GroupDocs.Conversion sau solicitați o licență"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} combină un set puternic de API-uri de conversie a documentelor pentru a afișa imagini și formate de documente în aplicațiile dvs. Java fără a fi nevoie să instalați software suplimentar. Rasterizează documentele în mod nativ și le convertește în SVG+HTML+CSS pentru a îmbunătăți calitatea vizionării documentelor, oferind în același timp un text adevărat, de înaltă fidelitate. Folosind API-ul de redare a documentelor – vizualizați rapid PDF, HTML, XML, Microsoft Office Word, foi de lucru Excel, prezentări PowerPoint, e-mailuri Outlook, diagrame Visio, Proiect, metafișiere, imagini și diverse alte formate de fișiere cu ușurință și mai puține pericole de programare. De asemenea, poate afișa fișiere protejate prin parolă și permite obținerea reprezentării documentului sub formă de HTML, imagine sau PDF după randare. Biblioteca noastră de conversie a fișierelor este destul de personalizabilă, deoarece vă permite să afișați întregul document sau să îl redați parțial pentru a accelera procesul. Prin API-ul GroupDocs.Conversion pentru Java, puteți vizualiza pagini, un anumit interval de celule într-o foaie de calcul sau chiar puteți reda un strat individual de document în formate, cum ar fi PDF și CAD.",
-    "content2": "API-ul {{ProductFullName}} vă permite să redați documente cu/fără adnotări sau comentarii pentru formatele de fișiere acceptate. De asemenea, vă permite să adăugați directoare de fonturi personalizate și să extrageți informații de bază ale documentului, cum ar fi FileType, Extension, Name, PageCount etc.",
-    "tab_one": {
-      "description": "Mai jos este o prezentare generală a {{ProductFullName}}:",
-      "right": {
-        "title": "Prezentare generală",
-        "content1": "* Detectează automat tipul de fișier",
-        "content2": "* Convertiți documente",
-        "content3": "* Convertiți prezentări",
-        "content4": "* Convertiți foi de calcul",
-        "content5": "* Convertiți imagini raster",
-        "content6": "* Convertiți documente PDF",
-        "content7": "* Convertiți alte formate",
-        "content8": "* Aplicați filigran",
-        "content9": "* Specificați parola fișierului",
-        "content10": "* Personalizați conversia"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} acceptă conversia între toate [formatele de fișiere de documente] populare și utilizate în mod obișnuit (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Convertiți din:",
-        "content1": "* **Documente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Foi de calcul**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Prezentari**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Imagini**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Portabil**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metafișiere**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Proiect**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **E-mail**: MSG, EML, EMLX",
-        "content12": "* **Diagrame**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Altele**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Schimba in:",
-        "content1": "* **Documente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Foi de calcul**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Prezentari**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Imagini**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafișiere**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagrame**: SVGZ",
-        "content7": "* **Portabil**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "* **Altele**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} acceptă următoarele sisteme de operare, cadre și manageri de pachete:",
-      "left": {
-        "title1": "Sisteme de operare",
-        "title2": "Cadre acceptate"
-      },
-      "right": {
-        "title1": "Manager de pachete",
-        "title2": "Medii de dezvoltare"
-      }
-    }
-  },
-  "features": {
-    "title": "Funcții {{ProductFullName}}",
-    "content1": "Integrare ușoară și licențiere măsurată",
-    "content2": "Setați opțiunea de zoom implicită la conversia în cuvinte, diapozitive sau celule",
-    "content3": "Convertiți la/din toate formatele populare de imagini raster și atribuiți imaginea DPI, înălțime și lățime",
-    "content4": "Convertiți PDF și imagine în tonuri de gri și liniarizați documentul PDF pentru web",
-    "content5": "Specificați nivelul marcajului, nivelul titlului și nivelul extins în conversia Word în PDF/XPS",
-    "content6": "Configurați și plasați filigran în documentul convertit ca fundal pentru a fi afișat în spatele textului",
-    "content7": "Redați antetul e-mailului în timpul conversiei din e-mail",
-    "content8": "Setați directoare cu fonturi personalizate și încărcați/înlocuiți fontul explicit în timpul conversiei documentelor",
-    "content9": "Setați fontul implicit pentru a înlocui fonturile lipsă pentru conversia documentelor, diapozitivelor și foilor de calcul",
-    "content10": "Metode avansate de conversie pentru a returna ieșirea ca cale sau flux IO",
-    "content11": "Convertiți foaia de calcul cu linii de grilă și eliminați comentariile din diapozitive în timpul conversiei",
-    "content12": "Convertiți anumite pagini de document în format PDF și convertiți un anumit interval de celule în foi de calcul",
-    "content13": "Afișați foile ascunse și ignorați rândurile și coloanele goale în timp ce convertiți foile de calcul",
-    "content14": "Numărați numărul total de pagini ale unui document și setați parola la document neprotejat în timpul conversiei",
-    "content15": "Opțiune pentru a elimina adnotările și fișierele încorporate din PDF",
-    "content16": "Creați un marcaj conform HTML 5 la conversia în HTML",
-    "content17": "Detectează automat tipul de sursă și returnează toate conversiile posibile la conversia din flux",
-    "content18": "Posibilitatea de a returna fiecare pagină într-un flux separat în timpul conversiei în PDF sau HTML",
-    "content19": "Afișați/Ascundeți marcajele, comentariile și urmăriți modificările în timpul conversiei din Word",
-    "content20": "Conversie DOCX în Tiff G3 cu opțiune de umbrire",
-    "content21": "Convertiți aspecte specifice la conversia dintr-un document CAD",
-    "content22": "Denumirea automată la salvarea documentului convertit în fișier",
-    "content23": "Licențierea cu contorizare acceptată pentru a fi facturată pe baza utilizării API-ului",
-    "content24": "Convertiți diagramele în formate de fișiere de procesare a textului",
-    "content25": "Adăugați numere de pagină în timp ce convertiți HTML în document de procesare text",
-    "content26": "Convertiți documente XML în orice format fără transformare",
-    "content27": "Monitorizați progresul conversiei fișierelor (Start, End) Direct din aplicația client",
-    "more_feature": {
-      "title1": "Conversie ușoară a formatului de document folosind Java",
-      "content1": "Puteți converti formatul de fișier dintr-o multitudine de tipuri de documente folosind API-ul {{ProductFullName}}. Aici vi se prezintă câteva linii de cod pentru a efectua o conversie de bază a documentului folosind Java.",
-      "step_1": "Creați o instanță a clasei Converter și furnizați fișierului calea completă",
-      "step_2": "Creați și setați ConvertOptions pentru tipul țintă dorit.",
-      "step_3": "Apelați metoda Converter.Convert și transmiteți calea și formatul complet ca parametru",
-      "title2": "Citiți documentul din URL sau calea pentru conversie",
-      "content2": "Folosind API-ul {{ProductFullName}}, puteți citi documentul de intrare dintr-o cale de fișier, precum și o adresă URL. În timp ce puteți salva documentul de ieșire ca fișier sau puteți trimite rezultatul direct într-un flux.",
-      "title3": "Suport tehnic complet",
-      "content3": "{{ProductFullName}} este un API simplu și concret pe care îl puteți integra destul de ușor în aplicațiile dvs. bazate pe Java. Cu toate acestea, pentru a vă pune în funcțiune în cel mai scurt timp, vă oferim, de asemenea, exemple de cod ușor de urmărit și documentație API cuprinzătoare."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion oferă API-uri de conversie a documentelor pentru alte medii de dezvoltare populare",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion pentru .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".NET",
-      "link": "/conversion/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Încărcați fișierul sursă {{FROM}} pentru conversie",
-      "prepare_comment": "Pregătiți opțiuni de conversie pentru formatul țintă {{TO}}",
-      "convert_comment": "Convertiți în formatul {{TO}}"
-    }
+  "release": {
+    "title": "Versiunea {0}  lansată",
+    "notes": "Vezi ce este nou",
+    "downloads": "Descărcări"
   }
 }

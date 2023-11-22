@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} Document Conversion API | Konverter PDF Word Excel PPTX HTML-billeder",
-    "description": "{{ProgLang}} Document Conversion API. Konverter PDF Word DOC DOCX, Excel-regneark PPT PPTX, HTML, PSD, MPT MPP, E-mail MSG EMLX, AutoCAD og billedfilformater."
+    "title": "{{ProgLang}} dokumentkonverterings-API | Konverter PDF, Word, Excel, PPTX, HTML og billeder",
+    "description": "{{ProgLang}} dokumentkonverterings-API. Konverter PDF, Word, DOC, DOCX, Excel, Regneark, PPT, PPTX, HTML, PSD, MPT, MPP, E-mail, MSG, EMLX, AutoCAD og billedfilformater."
   },
   "header": {
-    "title": "{{ProgLang}} API til at konvertere 80+ filformater",
-    "description": "Simpel API til at integrere dokument- og billedkonverteringsfunktionalitet i {{ProgLang}}-applikationer uden at installere nogen ekstern software.",
-    "button": {
-      "label": "Download gratis prøveversion",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Dokumentkonvertering",
+    "title_2": "via Java API",
+    "description": "Kraftig konverterings-API til at konvertere PDF-, Microsoft Office-, HTML-, e-bogs- og billedfiler",
+    "words": {
+      "for": "til"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Oversigt"
-      },
-      "button2": {
-        "text": "Funktioner"
-      },
-      "button3": {
-        "text": "Support"
-      },
-      "button4": {
-        "text": "Live demo"
-      },
-      "button5": {
-        "text": "Prissætning"
-      }
-    }
+  "actions": {
+    "main": "Gratis download af Maven",
+    "alt": "Licensering",
+    "title": "Klar til at komme i gang?",
+    "description": "Prøv GroupDocs.Conversion-funktionerne gratis, eller anmod om en licens"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} kombinerer et kraftfuldt sæt dokumentkonverterings-API'er til at vise billeder og dokumentformater i dine Java-applikationer uden at skulle installere yderligere software. Det rastrerer dokumenterne indbygget og konverterer dem til SVG+HTML+CSS for at forbedre kvaliteten af ​​dokumentvisning, mens den leverer et ægte tekst-, high-fidelity-output. Brug af dokumentgengivelses-API – se hurtigt PDF, HTML, XML, Microsoft Office Word, Excel-regneark, PowerPoint-præsentationer, Outlook-e-mails, Visio-diagrammer, Project, metafiler, billeder og forskellige andre filformater med lethed og færre programmeringsrisici. Det kan også vise adgangskodebeskyttede filer og tillade at få dokumentrepræsentation som HTML, billede eller PDF-form efter gengivelsen. Vores filkonverteringsbibliotek er ret tilpasseligt, da det giver dig mulighed for at vise hele dokumentet eller gengive det delvist for at fremskynde processen. Gennem GroupDocs.Conversion for Java API kan du se sider, specifikt celleområde i et regneark eller endda gengive et individuelt dokumentlag i formater, såsom PDF og CAD.",
-    "content2": "{{ProductFullName}} API giver dig mulighed for at gengive dokumenter med/uden annotering eller kommentarer til understøttede filformater. Det giver dig også mulighed for at tilføje brugerdefinerede skrifttypemapper og udtrække grundlæggende dokumentoplysninger såsom FileType, Extension, Name, PageCount osv.",
-    "tab_one": {
-      "description": "Følgende er en oversigt over {{ProductFullName}}:",
-      "right": {
-        "title": "Oversigt",
-        "content1": "* Automatisk registrering af filtype",
-        "content2": "* Konverter dokumenter",
-        "content3": "* Konverter præsentationer",
-        "content4": "* Konverter regneark",
-        "content5": "* Konverter rasterbilleder",
-        "content6": "* Konverter PDF-dokumenter",
-        "content7": "* Konverter andre formater",
-        "content8": "* Anvend vandmærke",
-        "content9": "* Angiv filadgangskode",
-        "content10": "* Tilpas konvertering"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} understøtter konvertering mellem alle populære og almindeligt anvendte [dokumentfilformater](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Konverter fra:",
-        "content1": "* **Dokumenter**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Regneark**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Præsentationer**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Billeder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Bærbar**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metafiler**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Projekt**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **E-mail**: MSG, EML, EMLX",
-        "content12": "* **Diagrammer**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Andet**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Konvertere til:",
-        "content1": "* **Dokumenter**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Regneark**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Præsentationer**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Billeder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafiler**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagrammer**: SVGZ",
-        "content7": "* **Bærbar**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "**Andet**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} understøtter følgende operativsystemer, rammer og pakkeadministratorer:",
-      "left": {
-        "title1": "Operativsystemer",
-        "title2": "Understøttede rammer"
-      },
-      "right": {
-        "title1": "Pakkeadministrator",
-        "title2": "Udviklingsmiljøer"
-      }
-    }
-  },
-  "features": {
-    "title": "{{ProductFullName}} funktioner",
-    "content1": "Nem integration og målt licensering",
-    "content2": "Indstil standard zoomindstilling ved konvertering til ord, dias eller celler",
-    "content3": "Konverter til/fra alle populære rasterbilledformater & tildel billed-DPI, højde og bredde",
-    "content4": "Konverter PDF og billede til gråtoner og lineariser PDF-dokument til internettet",
-    "content5": "Angiv bogmærkeniveau, overskriftsniveau og udvidet niveau i Word til PDF/XPS-konvertering",
-    "content6": "Konfigurer og anbring vandmærke i konverteret dokument som baggrund til visning bag tekst",
-    "content7": "Gengiv e-mail-header under konvertering fra e-mail",
-    "content8": "Indstil brugerdefinerede skrifttyper og indlæs/erstat skrifttype under dokumentkonvertering",
-    "content9": "Indstil standardskrifttype til at erstatte manglende skrifttyper til konvertering af dokumenter, lysbilleder og regneark",
-    "content10": "Avancerede konverteringsmetoder til at returnere output som sti eller IO-stream",
-    "content11": "Konverter regneark med gitterlinjer og fjern kommentarer fra dias under konvertering",
-    "content12": "Konverter specifikke dokumentsider som PDF-format & Konverter specifikt celleområde i regneark",
-    "content13": "Vis skjulte ark og spring tomme rækker og kolonner over, mens regneark konverteres",
-    "content14": "Tæl det samlede antal sider i et dokument og sæt adgangskoden til et ubeskyttet dokument under konvertering",
-    "content15": "Mulighed for at fjerne anmærkninger og indlejrede filer fra PDF",
-    "content16": "Opret HTML 5-kompatibel markup ved konvertering til HTML",
-    "content17": "Registrer automatisk kildetype og returner alle mulige konverteringer ved konvertering fra stream",
-    "content18": "Mulighed for at returnere hver side i separat stream, mens du konverterer til PDF eller HTML",
-    "content19": "Vis/skjul markeringer, kommentarer og spor ændringer under konvertering fra Word",
-    "content20": "DOCX til Tiff G3-konvertering med skyggemulighed",
-    "content21": "Konverter specifikke layouts ved konvertering fra CAD-dokument",
-    "content22": "Automatisk navngivning ved lagring af konverteret dokument til fil",
-    "content23": "Metered Licensing understøttes til at blive faktureret baseret på brugen af ​​API'en",
-    "content24": "Konverter diagrammer til tekstbehandlingsfilformater",
-    "content25": "Tilføj sidetal under konvertering af HTML til tekstbehandlingsdokument",
-    "content26": "Konverter XML-dokumenter til ethvert format uden transformation",
-    "content27": "Overvåg filkonverteringsfremskridt (start, slut) direkte fra applikationen på klientsiden",
-    "more_feature": {
-      "title1": "Nem konvertering af dokumentformat ved hjælp af Java",
-      "content1": "Du kan konvertere filformater for en lang række dokumenttyper ved hjælp af {{ProductFullName}} API. Her bliver du præsenteret for et par linjer kode til at udføre en grundlæggende dokumentkonvertering ved hjælp af Java.",
-      "step_1": "Opret en forekomst af Converter-klassen og giv filen den fulde sti",
-      "step_2": "Opret og indstil ConvertOptions for den ønskede måltype.",
-      "step_3": "Kald Converter.Convert-metoden og send den fulde sti og format som en parameter",
-      "title2": "Læs dokument fra URL eller sti til konvertering",
-      "content2": "Ved at bruge {{ProductFullName}} API kan du læse inputdokument fra en filsti såvel som en URL. Mens du kan gemme outputdokumentet som en fil eller sende output direkte i en stream.",
-      "title3": "Omfattende teknisk support",
-      "content3": "{{ProductFullName}} er en enkel og præcis API, som du ret nemt kan integrere i dine Java-baserede applikationer. Men for at få dig i gang på ingen tid, leverer vi også let at følge kodeeksempler og omfattende API-dokumentation."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion tilbyder dokumentkonverterings-API'er til andre populære udviklingsmiljøer",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion til .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".NET",
-      "link": "/conversion/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Indlæs kildefilen {{FROM}} til konvertering",
-      "prepare_comment": "Forbered konverteringsmuligheder for målformatet {{TO}}",
-      "convert_comment": "Konverter til formatet {{TO}}"
-    }
+  "release": {
+    "title": "Version {0}  frigivet",
+    "notes": "Se, hvad der er nyt",
+    "downloads": "Downloads"
   }
 }

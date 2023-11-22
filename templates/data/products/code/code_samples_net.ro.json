@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Exemple de cod",
+    "description": "Unele cazuri de utilizare tipice GroupDocs.Conversion pentru operațiuni .NET",
+    "sample_1": {
+      "title": "Convertiți PDF în imagine",
+      "content_1": "Un scenariu întâlnit frecvent implică conversia unui întreg document PDF sau a unor pagini specifice într-o colecție de imagini. GroupDocs.Conversion pentru .NET oferă capacitatea de a converti PDF-uri în diferite formate de imagine, cum ar fi TIFF, JPG, PNG, GIF, BMP și multe altele.",
+      "content_2": "Spre deosebire de alte conversii, acest proces necesită declararea unui delegat SavePageStream, care specifică formatul de denumire pentru imaginile salvate. Puteți selecta formatul de imagine preferat folosind clasa ImageFileType.",
+      "code_title": "Convertiți PDF în PNG în C#",
+      "comment_1": "Încărcați fișierul PDF sursă",
+      "comment_2": "Setați opțiunile de conversie și specificați tipul de imagine de ieșire",
+      "comment_3": "Convertiți fiecare pagină a documentului PDF în PNG"
+    },
+    "sample_2": {
+      "title": "Convertiți un segment dintr-un document mare",
+      "content_1": "Cu GroupDocs.Conversion pentru .NET, puteți converti fără efort anumite pagini dintr-un document lung.",
+      "content_2": "Aveți două metode pentru a realiza acest lucru, în funcție de cerințele dvs. Puteți fie să convertiți o serie de pagini, fie să convertiți anumite pagini.",
+      "code_title_1": "Convertiți DOCX (paginile 2-4) în PDF în C#",
+      "comment_1": "Încărcați fișierul DOCX sursă",
+      "comment_2": "Setați opțiunile de conversie și specificați intervalul de pagini de randat",
+      "comment_3": "Convertiți paginile 2-4 în PDF"
+    },
+    "sample_3": {
+      "title": "Sintaxă fluentă: O abordare simplificată",
+      "content_1": "Sintaxa fluentă oferă o notație concisă pentru acțiunile comune din API-ul GroupDocs.Conversion pentru .NET.",
+      "content_2": "Exemplele de cod de mai jos demonstrează cum să folosiți sintaxa fluentă:",
+      "code_title_1": "Convertiți DOCX în PDF în C# folosind sintaxa fluentă"
+    }
+  }
+}

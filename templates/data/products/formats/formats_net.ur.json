@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "تائید شدہ فائل فارمیٹس",
+    "description": ".NET کے لیے GroupDocs.Conversion مندرجہ ذیل [فائل فارمیٹس] (https://docs.groupdocs.com/conversion/net/supported-file-formats/) کے ساتھ کارروائیوں کی حمایت کرتا ہے۔",
+    "groups": {
+      "title_1": "دستاویز کی شکلیں",
+      "title_2": "امیجز اور ملٹی میڈیا",
+      "title_3": "دیگر فارمیٹس",
+      "format_documents": "دستاویزات",
+      "format_images": "امیجز",
+      "format_diagram": "خاکہ",
+      "format_cad_gis": "CAD اور GIS",
+      "format_audio": "آڈیو",
+      "format_video": "ویڈیو",
+      "format_vector_3d": "3D اور ویکٹر",
+      "format_web": "ویب",
+      "format_archives": "آرکائیوز",
+      "format_email_outlook": "ای میل اور آؤٹ لک",
+      "format_finance": "مالیات"
+    }
+  }
+}

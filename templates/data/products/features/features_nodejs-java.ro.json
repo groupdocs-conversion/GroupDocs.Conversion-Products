@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Funcții de conversie",
+    "description": "Convertiți fără probleme documente PDF și de birou în HTML, JPG, PNG, BMP, TIFF, SVG și multe alte formate. GroupDocs.Conversion pentru Node.js prin API-ul Java este conceput pentru a fi ușor de utilizat și integrat în proiectul dvs. Acceptă toate formatele de documente populare cu posibilitatea de a personaliza procesul de conversie.",
+    "feature_1": {
+      "title": "Conversie multi-format",
+      "content": "Convertiți cu ușurință fișiere între diferite formate, inclusiv PDF, DOCX, XLSX, PPTX și multe altele."
+    },
+    "feature_2": {
+      "title": "Ieșire de înaltă fidelitate",
+      "content": "Păstrați calitatea originală și formatarea documentelor în timpul procesului de conversie."
+    },
+    "feature_3": {
+      "title": "Conversia mai multor fișiere",
+      "content": "Convertiți mai multe fișiere și combinați-le într-o arhivă, simplificând organizarea conținutului convertit."
+    },
+    "feature_4": {
+      "title": "Document cu mai multe pagini în imagini",
+      "content": "Convertiți documente cu mai multe pagini în imagini pagină cu pagină, permițând un control precis asupra procesului de transformare și facilitând extragerea și analiza documentelor bazate pe imagini."
+    },
+    "feature_5": {
+      "title": "Setări personalizabile",
+      "content": "Ajustați parametrii de conversie, cum ar fi rezoluția, calitatea și aspectul, pentru a îndeplini cerințele specifice."
+    },
+    "feature_6": {
+      "title": "Procesare sigură",
+      "content": "Asigurați confidențialitatea datelor cu opțiunile de conversie a fișierelor protejate prin parolă."
+    },
+    "feature_7": {
+      "title": "Integrare API",
+      "content": "Integrați perfect capabilitățile de conversie în aplicațiile dvs. JavaScript, făcându-le o parte integrantă a fluxului dvs. de lucru."
+    },
+    "feature_8": {
+      "title": "Conversie robustă",
+      "content": "Asigurați conversii de fișiere fiabile și fără erori, garantând acuratețea și integritatea documentelor dvs. transformate."
+    },
+    "feature_9": {
+      "title": "Convertiți documente din arhive",
+      "content": "Extrageți și convertiți documente din arhive, permițând transformarea conținutului stocat în fișiere comprimate."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "მხარდაჭერილი ფაილის ფორმატები",
+    "description": "GroupDocs.Conversion .NET-ისთვის მხარს უჭერს ოპერაციებს შემდეგი [ფაილის ფორმატები] (https://docs.groupdocs.com/conversion/net/supported-file-formats/).",
+    "groups": {
+      "title_1": "დოკუმენტის ფორმატები",
+      "title_2": "სურათები და მულტიმედია",
+      "title_3": "სხვა ფორმატები",
+      "format_documents": "დოკუმენტები",
+      "format_images": "სურათები",
+      "format_diagram": "დიაგრამა",
+      "format_cad_gis": "CAD & GIS",
+      "format_audio": "აუდიო",
+      "format_video": "ვიდეო",
+      "format_vector_3d": "3D და ვექტორი",
+      "format_web": "ვებ",
+      "format_archives": "არქივები",
+      "format_email_outlook": "ელფოსტა და Outlook",
+      "format_finance": "ფინანსები"
+    }
+  }
+}

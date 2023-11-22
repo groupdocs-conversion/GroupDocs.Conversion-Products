@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "支持的文件格式",
+    "description": "GroupDocs.Conversion for Java 支持以下[文件格式](https://docs.groupdocs.com/conversion/java/supported-file-formats/) 的操作。",
+    "groups": {
+      "title_1": "文档格式",
+      "title_2": "图像与多媒体",
+      "title_3": "其他格式",
+      "format_documents": "文件",
+      "format_images": "图片",
+      "format_diagram": "图表",
+      "format_cad_gis": "计算机辅助设计和地理信息系统",
+      "format_audio": "声音的",
+      "format_video": "视频",
+      "format_vector_3d": "3D 与矢量",
+      "format_web": "网络",
+      "format_archives": "档案",
+      "format_email_outlook": "电子邮件和展望",
+      "format_finance": "金融"
+    }
+  }
+}

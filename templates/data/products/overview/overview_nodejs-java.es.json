@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversión de un vistazo",
+    "description": "Explore las capacidades de la API para una conversión rápida e impecable de archivos PDF, Microsoft Office, HTML, libros electrónicos y de imágenes dentro de aplicaciones JavaScript.",
+    "feature_1": {
+      "title": "Conversión simplificada",
+      "description": "Con GroupDocs.Conversion API puede convertir fácilmente documentos de diversos formatos a archivos PDF, Microsoft Office, HTML, libros electrónicos y de imágenes. La API proporciona opciones flexibles y sólidas, lo que garantiza la integridad del contenido y la estructura del documento durante todo el proceso de conversión."
+    },
+    "feature_2": {
+      "title": "Cambio entre formatos sin esfuerzo",
+      "description": "El proceso de uso de GroupDocs.Conversion API es increíblemente sencillo y requiere solo un método y un conjunto de opciones para cambiar sin esfuerzo entre diferentes formatos."
+    },
+    "feature_3": {
+      "title": "Compatibilidad multiplataforma",
+      "description": "Explore una solución de conversión con compatibilidad multiplataforma inherente, que atienda a una base de usuarios más amplia y garantice un rendimiento óptimo en varios entornos para todos sus requisitos de conversión de documentos."
+    }
+  }
+}

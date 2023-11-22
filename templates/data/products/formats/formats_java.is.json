@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Stutt skráarsnið",
+    "description": "GroupDocs.Conversion for Java styður aðgerðir með eftirfarandi [skráarsniðum](https://docs.groupdocs.com/conversion/java/supported-file-formats/).",
+    "groups": {
+      "title_1": "Skjalasnið",
+      "title_2": "Myndir og margmiðlun",
+      "title_3": "Önnur snið",
+      "format_documents": "Skjöl",
+      "format_images": "Myndir",
+      "format_diagram": "Skýringarmynd",
+      "format_cad_gis": "CAD & GIS",
+      "format_audio": "Hljóð",
+      "format_video": "Myndband",
+      "format_vector_3d": "3D & Vector",
+      "format_web": "vefur",
+      "format_archives": "Skjalasafn",
+      "format_email_outlook": "Tölvupóstur og Outlook",
+      "format_finance": "Fjármál"
+    }
+  }
+}

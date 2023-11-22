@@ -12,7 +12,8 @@
       "title": "GroupDocs.Conversion High Code API-d hõlmavad",
       "label": "Vaadake kõiki kõrge koodiga API-sid",
       "product1_content": "Native .NET API dokumentide ja pildifailivormingute täpseks teisendamiseks mis tahes tüüpi .NET-rakendustes. Toetab kujutise vesimärkide lisamist teisendamise ajal.",
-      "product2_content": "Lubage oma Java-rakendustel hõlpsasti teisendada kõigi tööstusstandardite dokumendivormingute vahel, sealhulgas Microsoft Office, PDF, HTML, pildid ja paljud teised."
+      "product2_content": "Lubage oma Java-rakendustel hõlpsasti teisendada kõigi tööstusstandardite dokumendivormingute vahel, sealhulgas Microsoft Office, PDF, HTML, pildid ja paljud teised.",
+      "product3_content": "Lubage oma JavaScripti rakendustel hõlpsasti teisendada kõigi tööstusstandardite dokumendivormingute vahel, sealhulgas Microsoft Office, PDF, HTML, pildid ja paljud teised."
     },
     "api2": {
       "title": "GroupDocs.Conversion madala koodiga API-d hõlmavad",

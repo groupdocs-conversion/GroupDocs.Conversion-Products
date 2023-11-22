@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} Document Conversion API | Převod obrázků PDF Word Excel PPTX HTML",
-    "description": "{{ProgLang}} Document Conversion API. Převod PDF Word DOC DOCX, tabulky Excel PPT PPTX, HTML, PSD, MPT MPP, E-mail MSG EMLX, AutoCAD a obrázkové formáty souborů."
+    "title": "{{ProgLang}} API pro konverzi dokumentů | Převeďte PDF, Word, Excel, PPTX, HTML a obrázky",
+    "description": "API pro konverzi dokumentů {{ProgLang}}. Převádějte formáty PDF, Word, DOC, DOCX, Excel, Tabulky, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD a obrázkové soubory."
   },
   "header": {
-    "title": "{{ProgLang}} API pro převod 80+ formátů souborů",
-    "description": "Jednoduché API pro integraci funkcí převodu dokumentů a obrázků do {{ProgLang}} aplikací bez instalace jakéhokoli externího softwaru.",
-    "button": {
-      "label": "Stáhněte si zkušební verzi zdarma",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Konverze dokumentů",
+    "title_2": "přes Java API",
+    "description": "Výkonné konverzní rozhraní API pro převod souborů PDF, Microsoft Office, HTML, elektronických knih a obrázků",
+    "words": {
+      "for": "pro"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Přehled"
-      },
-      "button2": {
-        "text": "Funkce"
-      },
-      "button3": {
-        "text": "Podpěra, podpora"
-      },
-      "button4": {
-        "text": "Živá ukázka"
-      },
-      "button5": {
-        "text": "Ceny"
-      }
-    }
+  "actions": {
+    "main": "Maven ke stažení zdarma",
+    "alt": "Licencování",
+    "title": "Jste připraveni začít?",
+    "description": "Vyzkoušejte zdarma funkce GroupDocs.Conversion nebo si vyžádejte licenci"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} kombinuje výkonnou sadu rozhraní API pro převod dokumentů k zobrazení obrázků a formátů dokumentů ve vašich aplikacích Java, aniž byste museli instalovat další software. Nativně rastruje dokumenty a převádí je do formátu SVG+HTML+CSS pro zvýšení kvality prohlížení dokumentů a zároveň poskytuje věrný text s vysokou věrností výstupu. Pomocí rozhraní API pro vykreslování dokumentů – rychle prohlížejte PDF, HTML, XML, Microsoft Office Word, pracovní listy Excelu, prezentace PowerPoint, e-maily z Outlooku, diagramy Visio, Project, metasoubory, obrázky a různé další formáty souborů s lehkostí a menším nebezpečím programování. Může také zobrazovat soubory chráněné heslem a po vykreslení umožňuje získat reprezentaci dokumentu jako HTML, obrázek nebo PDF. Naše knihovna pro převod souborů je docela přizpůsobitelná, protože vám umožňuje zobrazit celý dokument nebo jej částečně vykreslit, aby se proces urychlil. Prostřednictvím GroupDocs.Conversion for Java API můžete prohlížet stránky, konkrétní rozsah buněk v tabulce nebo dokonce vykreslovat jednotlivé vrstvy dokumentu ve formátech, jako je PDF a CAD.",
-    "content2": "{{ProductFullName}} API vám umožňuje vykreslovat dokumenty s nebo bez anotace nebo komentářů pro podporované formáty souborů. Umožňuje také přidávat vlastní adresáře písem a extrahovat základní informace o dokumentu, jako je FileType, Extension, Name, PageCount atd.",
-    "tab_one": {
-      "description": "Následuje přehled {{ProductFullName}}:",
-      "right": {
-        "title": "Přehled",
-        "content1": "* Automatická detekce typu souboru",
-        "content2": "* Převod dokumentů",
-        "content3": "* Převod prezentací",
-        "content4": "* Převést tabulky",
-        "content5": "* Převod rastrových obrázků",
-        "content6": "* Převod dokumentů PDF",
-        "content7": "* Převést jiné formáty",
-        "content8": "* Použijte vodoznak",
-        "content9": "* Zadejte heslo souboru",
-        "content10": "* Přizpůsobte konverzi"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} podporuje převod mezi všemi oblíbenými a běžně používanými [formáty souborů dokumentů](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Převést z:",
-        "content1": "* **Dokumenty**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Tabulky**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Prezentace**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Obrázky**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Přenosné**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metasoubory**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Projekt**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **E-mail**: MSG, EML, EMLX",
-        "content12": "* **Diagramy**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Ostatní**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Převést na:",
-        "content1": "* **Dokumenty**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Tabulky**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Prezentace**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Obrázky**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metasoubory**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Schéma**: SVGZ",
-        "content7": "* **Přenosné**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "* **Jiné**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} podporuje následující operační systémy, rámce a správce balíčků:",
-      "left": {
-        "title1": "Operační systémy",
-        "title2": "Podporované rámce"
-      },
-      "right": {
-        "title1": "Správce balíčků",
-        "title2": "Vývojová prostředí"
-      }
-    }
-  },
-  "features": {
-    "title": "Funkce {{ProductFullName}}",
-    "content1": "Snadná integrace a měřené licencování",
-    "content2": "Nastavte výchozí možnost přiblížení při převodu na slova, snímky nebo buňky",
-    "content3": "Převést do/ze všech oblíbených formátů rastrových obrázků a přiřadit obrázku DPI, výšku a šířku",
-    "content4": "Převeďte PDF a obrázek na stupně šedi a linearizujte dokument PDF pro web",
-    "content5": "Zadejte úroveň záložky, úroveň nadpisu a úroveň rozšíření v převodu Word do PDF/XPS",
-    "content6": "Nakonfigurujte a umístěte vodoznak do převedeného dokumentu jako pozadí pro zobrazení za textem",
-    "content7": "Vykreslit záhlaví e-mailu během převodu z e-mailu",
-    "content8": "Nastavit vlastní adresáře písem a explicitně načíst/nahradit písmo během převodu dokumentu",
-    "content9": "Nastavte výchozí písmo pro nahrazení chybějících písem pro převod dokumentů, snímků a tabulek",
-    "content10": "Advanced Conversion Methods pro návrat výstupu jako cestu nebo IO stream",
-    "content11": "Převeďte tabulku pomocí mřížky a odeberte komentáře ze snímků během převodu",
-    "content12": "Převeďte konkrétní stránky dokumentu do formátu PDF a převeďte konkrétní rozsah buněk v tabulkách",
-    "content13": "Zobrazit skryté listy a přeskočit prázdné řádky a sloupce při převodu tabulek",
-    "content14": "Spočítat celkový počet stránek dokumentu a nastavit heslo na nechráněný dokument během převodu",
-    "content15": "Možnost odebrat anotace a vložené soubory z PDF",
-    "content16": "Při převodu do HTML vytvořte značkování vyhovující HTML 5",
-    "content17": "Automaticky detekovat typ zdroje a vrátit všechny možné konverze při převodu ze streamu",
-    "content18": "Možnost vrátit každou stránku v samostatném proudu při převodu do PDF nebo HTML",
-    "content19": "Zobrazit/skrýt značky, komentáře a sledovat změny při převodu z aplikace Word",
-    "content20": "Konverze DOCX na Tiff G3 s možností stínování",
-    "content21": "Převést konkrétní rozvržení při převodu z dokumentu CAD",
-    "content22": "Automatické pojmenování při ukládání převedeného dokumentu do souboru",
-    "content23": "Měřená licence Podporováno k fakturaci na základě použití rozhraní API",
-    "content24": "Převod diagramů do formátů souborů pro zpracování textu",
-    "content25": "Přidejte čísla stránek při převodu HTML na textový dokument",
-    "content26": "Převeďte dokumenty XML do libovolného formátu bez transformace",
-    "content27": "Sledujte průběh převodu souborů (začátek, konec) přímo z aplikace na straně klienta",
-    "more_feature": {
-      "title1": "Snadná konverze formátu dokumentu pomocí Javy",
-      "content1": "Pomocí rozhraní API {{ProductFullName}} můžete převést formát souborů mnoha typů dokumentů. Zde se zobrazí několik řádků kódu pro provedení základní konverze dokumentů pomocí Javy.",
-      "step_1": "Vytvořte instanci třídy Converter a poskytněte souboru úplnou cestu",
-      "step_2": "Vytvořte a nastavte ConvertOptions pro požadovaný typ cíle.",
-      "step_3": "Zavolejte metodu Converter.Convert a předejte úplnou cestu a formát jako parametr",
-      "title2": "Číst dokument z adresy URL nebo cesty pro převod",
-      "content2": "Pomocí {{ProductFullName}} API můžete číst vstupní dokument z cesty k souboru i z adresy URL. Výstupní dokument můžete uložit jako soubor nebo odeslat výstup přímo do proudu.",
-      "title3": "Komplexní technická podpora",
-      "content3": "{{ProductFullName}} je jednoduché a praktické rozhraní API, které můžete velmi snadno integrovat do svých aplikací založených na Javě. Abychom vás však mohli rychle zprovoznit, poskytujeme také snadno sledovatelné ukázky kódu a komplexní dokumentaci API."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion nabízí rozhraní API pro převod dokumentů pro další populární vývojová prostředí",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion for .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".SÍŤ",
-      "link": "/conversion/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Načtěte zdrojový soubor {{FROM}} pro převod",
-      "prepare_comment": "Připravte možnosti konverze pro cílový formát {{TO}}",
-      "convert_comment": "Převést do formátu {{TO}}"
-    }
+  "release": {
+    "title": "Verze {0} byla vydána",
+    "notes": "Podívejte se, co je nového",
+    "downloads": "Stahování"
   }
 }

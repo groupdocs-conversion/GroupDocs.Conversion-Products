@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Conversion funktioner",
+    "description": "Konverter problemfrit PDF- og office-dokumenter til HTML, JPG, PNG, BMP, TIFF, SVG og mange andre formater. GroupDocs.Conversion for .NET API er designet til at være let at bruge og integrere i dit projekt. Det understøtter alle populære dokumentformater med mulighed for at tilpasse konverteringsprocessen.",
+    "feature_1": {
+      "title": "Multi-format konvertering",
+      "content": "Konverter filer mellem forskellige formater, inklusive PDF, DOCX, XLSX, PPTX og mere, med lethed."
+    },
+    "feature_2": {
+      "title": "High-fidelity output",
+      "content": "Bevar den originale kvalitet og formatering af dokumenter under konverteringsprocessen."
+    },
+    "feature_3": {
+      "title": "Konvertering af flere filer",
+      "content": "Konverter flere filer og kombiner dem til et arkiv, hvilket forenkler organiseringen af ​​konverteret indhold."
+    },
+    "feature_4": {
+      "title": "Flersidet dokument til billeder",
+      "content": "Konverter flersidede dokumenter til billeder side for side, hvilket muliggør præcis kontrol over transformationsprocessen og letter billedbaseret dokumentudtrækning og analyse."
+    },
+    "feature_5": {
+      "title": "Indstillinger, der kan tilpasses",
+      "content": "Finjuster konverteringsparametre såsom opløsning, kvalitet og layout for at opfylde specifikke krav."
+    },
+    "feature_6": {
+      "title": "Sikker behandling",
+      "content": "Sørg for databeskyttelse med adgangskodebeskyttede filkonverteringsmuligheder."
+    },
+    "feature_7": {
+      "title": "API-integration",
+      "content": "Integrer konverteringsmulighederne problemfrit i dine .NET-applikationer, hvilket gør det til en problemfri del af din arbejdsgang."
+    },
+    "feature_8": {
+      "title": "Robust ombygning",
+      "content": "Sikre pålidelige og fejlfri filkonverteringer, der garanterer nøjagtigheden og integriteten af ​​dine transformerede dokumenter."
+    },
+    "feature_9": {
+      "title": "Konverter dokumenter fra arkiver",
+      "content": "Udpak og konverter dokumenter fra arkiver, hvilket muliggør transformation af indhold gemt i komprimerede filer."
+    }
+  }
+}

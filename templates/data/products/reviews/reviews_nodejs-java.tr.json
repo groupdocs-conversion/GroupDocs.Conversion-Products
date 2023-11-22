@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "GroupDocs ürün incelemeleri",
+    "description": "Sadece bizim sözümüze güvenmeyin. Diğer geliştiricilerin API'lerimiz hakkında neler söylediğini görün",
+    "review_1": {
+      "content": "Mükemmel servis ve mükemmel ürünler. Java uygulama süreci aracılığıyla GroupDocs.Viewer for Node.js sırasında son derece yardımsever ve duyarlı davrandılar, onları yeterince tavsiye edemem.",
+      "author": "Martin Lasarga",
+      "company": "Axentria ECM by G.S.I. Ürün Müdürü"
+    },
+    "review_2": {
+      "content": "GroupDocs.Viewer for Node.js'yi projede Java aracılığıyla uygulayıp kullandıktan sonra, çok iyi çalışıyor gibi görünüyor. Çok sayıda belgeyle test ettim ve şu ana kadar her şey yolunda. Yaptığım her şey güzel bir şekilde işleniyor ve bir PDF görüntüleyicide veya MS Word'de olduğu kadar iyi görünüyor.",
+      "author": "Paspaslar",
+      "company": "Novanet AS'de Kıdemli Danışman/Ortak"
+    }
+  }
+}

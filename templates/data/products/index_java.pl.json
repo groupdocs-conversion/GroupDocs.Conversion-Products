@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} Interfejs API konwersji dokumentów | Konwertuj obrazy PDF Word Excel PPTX HTML",
-    "description": "{{ProgLang}} Interfejs API konwersji dokumentów. Konwertuj PDF Word DOC DOCX, arkusze kalkulacyjne Excel PPT PPTX, HTML, PSD, MPT MPP, e-mail MSG EMLX, AutoCAD i formaty plików graficznych."
+    "title": "API konwersji dokumentów {{ProgLang}} | Konwertuj pliki PDF, Word, Excel, PPTX, HTML i obrazy",
+    "description": "API konwersji dokumentów {{ProgLang}}. Konwertuj pliki PDF, Word, DOC, DOCX, Excel, arkusze kalkulacyjne, PPT, PPTX, HTML, PSD, MPT, MPP, e-mail, MSG, EMLX, AutoCAD i formaty plików graficznych."
   },
   "header": {
-    "title": "{{ProgLang}} API do konwersji ponad 80 formatów plików",
-    "description": "Prosty interfejs API do integracji funkcji konwersji dokumentów i obrazów z aplikacjami {{ProgLang}} bez instalowania oprogramowania zewnętrznego.",
-    "button": {
-      "label": "Pobierz darmową wersję próbną",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Konwersja dokumentów",
+    "title_2": "poprzez API Javy",
+    "description": "Potężny interfejs API konwersji do konwersji plików PDF, Microsoft Office, HTML, eBooków i plików graficznych",
+    "words": {
+      "for": "Do"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Przegląd"
-      },
-      "button2": {
-        "text": "Cechy"
-      },
-      "button3": {
-        "text": "Wspierać się"
-      },
-      "button4": {
-        "text": "Demo na żywo"
-      },
-      "button5": {
-        "text": "cennik"
-      }
-    }
+  "actions": {
+    "main": "Bezpłatne pobieranie Mavena",
+    "alt": "Koncesjonowanie",
+    "title": "Gotowy żeby zacząć?",
+    "description": "Wypróbuj bezpłatnie funkcje GroupDocs.Conversion lub poproś o licencję"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} łączy potężny zestaw interfejsów API do konwersji dokumentów, aby wyświetlać obrazy i formaty dokumentów w aplikacjach Java bez konieczności instalowania dodatkowego oprogramowania. Natywnie rasteryzuje dokumenty i konwertuje je do formatu SVG+HTML+CSS, aby poprawić jakość przeglądania dokumentów, zapewniając jednocześnie prawdziwy tekst i wysoką wierność wyników. Korzystanie z interfejsu API renderowania dokumentów – szybko przeglądaj pliki PDF, HTML, XML, Microsoft Office Word, arkusze Excel, prezentacje PowerPoint, wiadomości e-mail programu Outlook, diagramy Visio, projekty, metapliki, obrazy i różne inne formaty plików z łatwością i przy mniejszej liczbie zagrożeń związanych z programowaniem. Może również wyświetlać pliki chronione hasłem i umożliwiać uzyskanie reprezentacji dokumentu w postaci HTML, obrazu lub PDF po renderowaniu. Nasza biblioteka konwersji plików jest dość konfigurowalna, ponieważ pozwala wyświetlić cały dokument lub częściowo go wyrenderować, aby przyspieszyć proces. Dzięki GroupDocs.Conversion for Java API możesz przeglądać strony, określony zakres komórek w arkuszu kalkulacyjnym, a nawet renderować pojedynczą warstwę dokumentu w formatach takich jak PDF i CAD.",
-    "content2": "Interfejs API {{ProductFullName}} umożliwia renderowanie dokumentów z adnotacjami lub komentarzami lub bez nich dla obsługiwanych formatów plików. Umożliwia także dodawanie niestandardowych katalogów czcionek i wyodrębnianie podstawowych informacji o dokumencie, takich jak typ pliku, rozszerzenie, nazwa, liczba stron itp.",
-    "tab_one": {
-      "description": "Poniżej znajduje się omówienie {{ProductFullName}}:",
-      "right": {
-        "title": "Przegląd",
-        "content1": "* Automatyczne wykrywanie typu pliku",
-        "content2": "* Konwertuj dokumenty",
-        "content3": "* Konwertuj prezentacje",
-        "content4": "* Konwertuj arkusze kalkulacyjne",
-        "content5": "* Konwertuj obrazy rastrowe",
-        "content6": "* Konwertuj dokumenty PDF",
-        "content7": "* Konwertuj inne formaty",
-        "content8": "* Zastosuj znak wodny",
-        "content9": "* Określ hasło do pliku",
-        "content10": "* Dostosuj konwersję"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} obsługuje konwersję między wszystkimi popularnymi i powszechnie używanymi [formatami plików dokumentów](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Konwertuj z:",
-        "content1": "* **Dokumenty**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Arkusze kalkulacyjne**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Prezentacje**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Obrazy**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Przenośny**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metapliki**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Projekt**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **E-mail**: MSG, EML, EMLX",
-        "content12": "* **Diagramy**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Inne**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Konwertuj na:",
-        "content1": "* **Dokumenty**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Arkusze kalkulacyjne**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Prezentacje**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Obrazy**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metapliki**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagramy**: SVGZ",
-        "content7": "* **Przenośny**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "* **Inne**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} obsługuje następujące systemy operacyjne, frameworki i menedżery pakietów:",
-      "left": {
-        "title1": "System operacyjny",
-        "title2": "Obsługiwane frameworki"
-      },
-      "right": {
-        "title1": "Menedżer pakietów",
-        "title2": "Środowiska programistyczne"
-      }
-    }
-  },
-  "features": {
-    "title": "Funkcje {{ProductFullName}}",
-    "content1": "Łatwa integracja i licencjonowanie miarowe",
-    "content2": "Ustaw domyślną opcję powiększenia podczas konwersji na słowa, slajdy lub komórki",
-    "content3": "Konwertuj na/ze wszystkich popularnych formatów obrazów rastrowych i przypisz obraz DPI, wysokość i szerokość",
-    "content4": "Konwertuj PDF i obraz na skalę szarości i linearyzuj dokument PDF do internetu",
-    "content5": "Określ poziom zakładek, poziom nagłówka i poziom rozszerzony w konwersji Word na PDF/XPS",
-    "content6": "Skonfiguruj i umieść znak wodny w przekonwertowanym dokumencie jako tło do wyświetlenia za tekstem",
-    "content7": "Renderuj nagłówek wiadomości e-mail podczas konwersji z wiadomości e-mail",
-    "content8": "Ustaw niestandardowe katalogi czcionek i jawnie ładuj/zastępuj czcionkę podczas konwersji dokumentu",
-    "content9": "Ustaw domyślną czcionkę, aby zastąpić brakujące czcionki do konwersji dokumentów, slajdów i arkuszy kalkulacyjnych",
-    "content10": "Zaawansowane metody konwersji w celu zwrócenia danych wyjściowych jako ścieżki lub strumienia IO",
-    "content11": "Konwertuj arkusz kalkulacyjny za pomocą linii siatki i usuń komentarze ze slajdów podczas konwersji",
-    "content12": "Konwertuj określone strony dokumentu na format PDF i konwertuj określony zakres komórek w arkuszach kalkulacyjnych",
-    "content13": "Pokaż ukryte arkusze i pomiń puste wiersze i kolumny podczas konwertowania arkuszy kalkulacyjnych",
-    "content14": "Policz wszystkie strony dokumentu i ustaw hasło do niezabezpieczonego dokumentu podczas konwersji",
-    "content15": "Opcja usuwania adnotacji i osadzonych plików z PDF",
-    "content16": "Utwórz znaczniki zgodne z HTML 5 podczas konwersji do HTML",
-    "content17": "Automatyczne wykrywanie typu źródła i zwracanie wszystkich możliwych konwersji podczas konwersji ze strumienia",
-    "content18": "Możliwość zwracania każdej strony w oddzielnym strumieniu podczas konwersji do formatu PDF lub HTML",
-    "content19": "Pokaż/ukryj znaczniki, komentarze i śledź zmiany podczas konwersji z programu Word",
-    "content20": "Konwersja DOCX na Tiff G3 z opcją cieniowania",
-    "content21": "Konwertuj określone układy podczas konwersji z dokumentu CAD",
-    "content22": "Automatyczne nazywanie przy zapisywaniu skonwertowanego dokumentu do pliku",
-    "content23": "Obsługiwane licencjonowanie z pomiarem, które ma być rozliczane na podstawie wykorzystania interfejsu API",
-    "content24": "Konwertuj diagramy na formaty plików do przetwarzania tekstu",
-    "content25": "Dodaj numery stron podczas konwertowania HTML do dokumentu w edytorze tekstu",
-    "content26": "Konwertuj dokumenty XML na dowolny format bez transformacji",
-    "content27": "Monitoruj postęp konwersji plików (początek, koniec) bezpośrednio z aplikacji po stronie klienta",
-    "more_feature": {
-      "title1": "Łatwa konwersja formatu dokumentów za pomocą Java",
-      "content1": "Możesz konwertować format plików wielu typów dokumentów za pomocą interfejsu API {{ProductFullName}}. Tutaj przedstawiono kilka wierszy kodu, aby wykonać podstawową konwersję dokumentów za pomocą Javy.",
-      "step_1": "Utwórz instancję klasy Converter i podaj plik z pełną ścieżką",
-      "step_2": "Utwórz i ustaw ConvertOptions dla pożądanego typu docelowego.",
-      "step_3": "Wywołaj metodę Converter.Convert i przekaż pełną ścieżkę i format jako parametr",
-      "title2": "Przeczytaj dokument z adresu URL lub ścieżki konwersji",
-      "content2": "Korzystając z interfejsu API {{ProductFullName}}, możesz odczytać dokument wejściowy ze ścieżki pliku oraz adresu URL. Chociaż możesz zapisać dokument wyjściowy jako plik lub wysłać dane wyjściowe bezpośrednio do strumienia.",
-      "title3": "Kompleksowe wsparcie techniczne",
-      "content3": "{{ProductFullName}} to prosty i precyzyjny interfejs API, który można łatwo zintegrować z aplikacjami opartymi na Javie. Aby jednak szybko rozpocząć pracę, udostępniamy również łatwe do naśladowania próbki kodu i obszerną dokumentację interfejsu API."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion oferuje interfejsy API do konwersji dokumentów dla innych popularnych środowisk programistycznych",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion dla .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".NET",
-      "link": "/conversion/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Załaduj plik źródłowy {{FROM}} do konwersji",
-      "prepare_comment": "Przygotuj opcje konwersji dla formatu docelowego {{TO}}",
-      "convert_comment": "Konwertuj na format {{TO}}"
-    }
+  "release": {
+    "title": "Wersja {0} została wydana",
+    "notes": "Zobacz co nowego",
+    "downloads": "Pliki do pobrania"
   }
 }

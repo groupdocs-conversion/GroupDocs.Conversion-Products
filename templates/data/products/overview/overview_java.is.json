@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion í hnotskurn",
+    "description": "Kannaðu möguleika API fyrir skjóta og gallalausa umbreytingu á PDF, Microsoft Office, HTML, rafbók og myndaskrám innan Java forrita",
+    "feature_1": {
+      "title": "Straumlínulagað viðskipti",
+      "description": "Með GroupDocs.Conversion API geturðu áreynslulaust umbreytt skjölum af ýmsum sniðum í PDF, Microsoft Office, HTML, rafbók og myndaskrár. API býður upp á sveigjanlega og öfluga valkosti, sem tryggir heilleika innihalds og skjalaskipulags í gegnum umbreytingarferlið."
+    },
+    "feature_2": {
+      "title": "Áreynslulaust að skipta á milli sniða",
+      "description": "Ferlið við að nota GroupDocs.Conversion API er ótrúlega einfalt, það þarf aðeins eina aðferð og úrval af valkostum til að skipta á áreynslulaust á milli mismunandi sniða."
+    },
+    "feature_3": {
+      "title": "Samhæfni milli palla",
+      "description": "Kannaðu umbreytingarlausn með eðlislægri samhæfni milli vettvanga, sem kemur til móts við breiðari notendahópinn og tryggir hámarksafköst í ýmsum umhverfi fyrir allar kröfur þínar um skjalabreytingu."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Fitur GroupDocs.Conversion",
+    "description": "Konversikan dokumen PDF dan kantor dengan mulus ke HTML, JPG, PNG, BMP, TIFF, SVG, dan banyak format lainnya. GroupDocs.Conversion for .NET API dirancang agar mudah digunakan dan diintegrasikan ke dalam proyek Anda. Ini mendukung semua format dokumen populer dengan kemampuan untuk menyesuaikan proses konversi.",
+    "feature_1": {
+      "title": "Konversi multi-format",
+      "content": "Konversi file antara berbagai format, termasuk PDF, DOCX, XLSX, PPTX, dan lainnya, dengan mudah."
+    },
+    "feature_2": {
+      "title": "Keluaran dengan ketelitian tinggi",
+      "content": "Pertahankan kualitas asli dan format dokumen selama proses konversi."
+    },
+    "feature_3": {
+      "title": "Mengonversi banyak file",
+      "content": "Konversikan banyak file dan gabungkan menjadi arsip, menyederhanakan pengorganisasian konten yang dikonversi."
+    },
+    "feature_4": {
+      "title": "Dokumen multi halaman ke gambar",
+      "content": "Konversikan dokumen multi halaman menjadi gambar halaman demi halaman, memungkinkan kontrol yang tepat atas proses transformasi dan memfasilitasi ekstraksi dan analisis dokumen berbasis gambar."
+    },
+    "feature_5": {
+      "title": "Pengaturan yang dapat disesuaikan",
+      "content": "Sempurnakan parameter konversi seperti resolusi, kualitas, dan tata letak untuk memenuhi persyaratan tertentu."
+    },
+    "feature_6": {
+      "title": "Pemrosesan yang aman",
+      "content": "Pastikan privasi data dengan opsi konversi file yang dilindungi kata sandi."
+    },
+    "feature_7": {
+      "title": "Integrasi API",
+      "content": "Integrasikan kemampuan konversi dengan lancar ke dalam aplikasi .NET Anda, menjadikannya bagian alur kerja Anda yang lancar."
+    },
+    "feature_8": {
+      "title": "Konversi yang kuat",
+      "content": "Pastikan konversi file yang andal dan bebas kesalahan, menjamin keakuratan dan integritas dokumen Anda yang diubah."
+    },
+    "feature_9": {
+      "title": "Konversi dokumen dari arsip",
+      "content": "Ekstrak dan konversi dokumen dari arsip, memungkinkan transformasi konten yang disimpan dalam file terkompresi."
+    }
+  }
+}

@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} Dokumentu konvertēšanas API | Konvertējiet PDF Word Excel PPTX HTML attēlus",
-    "description": "{{ProgLang}} Dokumentu konvertēšanas API. Konvertējiet PDF Word DOC DOCX, Excel izklājlapas PPT PPTX, HTML, PSD, MPT MPP, e-pastu MSG EMLX, AutoCAD un attēlu failu formātus."
+    "title": "{{ProgLang}} dokumentu konvertēšanas API | Konvertējiet PDF, Word, Excel, PPTX, HTML un attēlus",
+    "description": "{{ProgLang}} dokumentu konvertēšanas API. Konvertējiet PDF, Word, DOC, DOCX, Excel, izklājlapas, PPT, PPTX, HTML, PSD, MPT, MPP, e-pasta, MSG, EMLX, AutoCAD un attēlu failu formātus."
   },
   "header": {
-    "title": "{{ProgLang}} API, lai konvertētu vairāk nekā 80 failu formātus",
-    "description": "Vienkāršs API, lai integrētu dokumentu un attēlu konvertēšanas funkcionalitāti {{ProgLang}} lietojumprogrammās, neinstalējot ārēju programmatūru.",
-    "button": {
-      "label": "Lejupielādēt bezmaksas izmēģinājuma versiju",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Dokumentu konvertēšana",
+    "title_2": "izmantojot Java API",
+    "description": "Jaudīgs konvertēšanas API, lai konvertētu PDF, Microsoft Office, HTML, e-grāmatas un attēlu failus",
+    "words": {
+      "for": "priekš"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Pārskats"
-      },
-      "button2": {
-        "text": "Iespējas"
-      },
-      "button3": {
-        "text": "Atbalsts"
-      },
-      "button4": {
-        "text": "Demo tiešraide"
-      },
-      "button5": {
-        "text": "Cenu noteikšana"
-      }
-    }
+  "actions": {
+    "main": "Bezmaksas Maven lejupielāde",
+    "alt": "Licencēšana",
+    "title": "Vai esat gatavs sākt?",
+    "description": "Izmēģiniet GroupDocs.Conversion funkcijas bez maksas vai pieprasiet licenci"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} apvieno jaudīgu dokumentu konvertēšanas API kopu, lai jūsu Java lietojumprogrammās parādītu attēlus un dokumentu formātus, neinstalējot papildu programmatūru. Tā sākotnēji rasterizē dokumentus un pārvērš tos par SVG+HTML+CSS, lai uzlabotu dokumentu skatīšanas kvalitāti, vienlaikus nodrošinot patiesa teksta, augstas precizitātes izvadi. Izmantojot dokumentu renderēšanas API — ātri apskatiet PDF, HTML, XML, Microsoft Office Word, Excel darblapas, PowerPoint prezentācijas, Outlook e-pastus, Visio diagrammas, projektu, metafailus, attēlus un dažādus citus failu formātus ar vieglu un mazāku programmēšanas risku. Tas var arī parādīt ar paroli aizsargātus failus un ļaut pēc renderēšanas iegūt dokumentu HTML, attēla vai PDF formātā. Mūsu failu konvertēšanas bibliotēka ir diezgan pielāgojama, jo tā ļauj parādīt visu dokumentu vai atveidot to daļēji, lai paātrinātu procesu. Izmantojot GroupDocs.Conversion for Java API, varat skatīt lapas, noteiktu šūnu diapazonu izklājlapā vai pat renderēt atsevišķu dokumenta slāni tādos formātos kā PDF un CAD.",
-    "content2": "{{ProductFullName}} API ļauj renderēt dokumentus ar/bez anotācijām vai komentāriem atbalstītajos failu formātos. Tas arī ļauj pievienot pielāgotus fontu direktorijus un iegūt dokumenta pamatinformāciju, piemēram, faila tipu, paplašinājumu, nosaukumu, lappušu skaitu utt.",
-    "tab_one": {
-      "description": "Tālāk ir sniegts produkta {{ProductFullName}} pārskats:",
-      "right": {
-        "title": "Pārskats",
-        "content1": "* Automātiski noteikt faila tipu",
-        "content2": "* Konvertēt dokumentus",
-        "content3": "* Konvertēt prezentācijas",
-        "content4": "* Konvertēt izklājlapas",
-        "content5": "* Konvertējiet rastra attēlus",
-        "content6": "* Konvertēt PDF dokumentus",
-        "content7": "* Konvertējiet citus formātus",
-        "content8": "* Lietojiet ūdenszīmi",
-        "content9": "* Norādiet faila paroli",
-        "content10": "* Pielāgot reklāmguvumu"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} atbalsta visu populāro un bieži lietoto [dokumentu failu formātu] konvertēšanu (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Konvertēt no:",
-        "content1": "* **Dokumenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Izklājlapas**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Prezentācijas**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Attēli**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Pārnēsājams**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metafaili**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Projekts**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **E-pasts**: MSG, EML, EMLX",
-        "content12": "* **Diagrammas**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Cits**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Konvertēt uz:",
-        "content1": "* **Dokumenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Izklājlapas**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Prezentācijas**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Attēli**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafaili**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagrammas**: SVGZ",
-        "content7": "* **Pārnēsājams**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "**Cits**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} atbalsta šādas operētājsistēmas, ietvarus un pakotņu pārvaldniekus:",
-      "left": {
-        "title1": "Operētājsistēmas",
-        "title2": "Atbalstītie ietvari"
-      },
-      "right": {
-        "title1": "Pakešu pārvaldnieks",
-        "title2": "Attīstības vide"
-      }
-    }
-  },
-  "features": {
-    "title": "{{ProductFullName}} līdzekļi",
-    "content1": "Vienkārša integrācija un mērītā licencēšana",
-    "content2": "Iestatiet noklusējuma tālummaiņas opciju, konvertējot uz vārdiem, slaidiem vai šūnām",
-    "content3": "Konvertēt uz/no visiem populārajiem rastra attēlu formātiem un piešķirt attēla DPI, augstumu un platumu",
-    "content4": "Konvertējiet PDF un attēlu uz pelēktoņu un linearizējiet PDF dokumentu tīmeklim",
-    "content5": "Norādiet grāmatzīmju līmeni, virsraksta līmeni un izvērsto līmeni Word konvertēšanā uz PDF/XPS",
-    "content6": "Konfigurējiet un novietojiet ūdenszīmi konvertētajā dokumentā kā fonu, lai parādītu aiz teksta",
-    "content7": "Renderējiet e-pasta galveni konvertēšanas laikā no e-pasta",
-    "content8": "Iestatiet pielāgotus fontu katalogus un skaidri ielādējiet/aizvietojiet fontu dokumenta konvertēšanas laikā",
-    "content9": "Iestatiet noklusējuma fontu, lai aizstātu trūkstošos fontus dokumentu, slaidu un izklājlapu konvertēšanai",
-    "content10": "Papildu konvertēšanas metodes, lai atgrieztu izvadi kā ceļš vai IO straume",
-    "content11": "Konvertējiet izklājlapu ar režģa līnijām un noņemiet komentārus no slaidiem konvertēšanas laikā",
-    "content12": "Konvertējiet noteiktas dokumenta lapas kā PDF formātu un konvertējiet noteiktu šūnu diapazonu izklājlapās",
-    "content13": "Rādīt slēptās lapas un izlaist tukšās rindas un kolonnas, konvertējot izklājlapas",
-    "content14": "Saskaitiet dokumenta lapas un iestatiet paroli uz neaizsargātu dokumentu konvertēšanas laikā",
-    "content15": "Iespēja noņemt anotācijas un iegultos failus no PDF",
-    "content16": "Izveidojiet HTML 5 saderīgu marķējumu, pārvēršot par HTML",
-    "content17": "Automātiski noteikt avota veidu un atgriezt visus iespējamos reklāmguvumus, konvertējot no straumes",
-    "content18": "Iespēja atgriezt katru lapu atsevišķā straumē, konvertējot uz PDF vai HTML",
-    "content19": "Rādīt/slēpt marķējumu, komentārus un izsekot izmaiņām, konvertējot no Word",
-    "content20": "DOCX konvertēšana uz Tiff G3 ar ēnošanas opciju",
-    "content21": "Konvertējiet konkrētus izkārtojumus, konvertējot no CAD dokumenta",
-    "content22": "Automātiska nosaukumu piešķiršana, saglabājot konvertēto dokumentu failā",
-    "content23": "Maksas licencēšana tiek atbalstīta, lai iekasētu rēķinu, pamatojoties uz API lietojumu",
-    "content24": "Konvertējiet diagrammas tekstapstrādes failu formātos",
-    "content25": "Pievienojiet lappušu numurus, pārvēršot HTML par tekstapstrādes dokumentu",
-    "content26": "Konvertējiet XML dokumentus jebkurā formātā bez pārveidošanas",
-    "content27": "Pārraugiet failu konvertēšanas gaitu (sākums, beigas) tieši no klienta puses lietojumprogrammas",
-    "more_feature": {
-      "title1": "Vienkārša dokumentu formāta konvertēšana, izmantojot Java",
-      "content1": "Izmantojot {{ProductFullName}} API, varat konvertēt dažādu dokumentu veidu failu formātus. Šeit tiek parādītas dažas koda rindiņas, lai veiktu pamata dokumenta konvertēšanu, izmantojot Java.",
-      "step_1": "Izveidojiet klases Converter instanci un norādiet failam pilnu ceļu",
-      "step_2": "Izveidojiet un iestatiet ConvertOptions vēlamajam mērķa veidam.",
-      "step_3": "Izsauciet metodi Converter.Convert un nododiet pilnu ceļu un formātu kā parametru",
-      "title2": "Lasiet dokumentu no URL vai reklāmguvuma ceļa",
-      "content2": "Izmantojot {{ProductFullName}} API, varat nolasīt ievades dokumentu no faila ceļa, kā arī URL. Lai gan jūs varat saglabāt izvades dokumentu kā failu vai nosūtīt izvadi tieši straumē.",
-      "title3": "Visaptverošs tehniskais atbalsts",
-      "content3": "{{ProductFullName}} ir vienkārša un precīza API, ko varat viegli integrēt savās Java lietojumprogrammās. Tomēr, lai ātri sāktu darbu, mēs piedāvājam arī viegli izpildāmus koda paraugus un visaptverošu API dokumentāciju."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion piedāvā dokumentu konvertēšanas API citām populārām izstrādes vidēm",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion for .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".TĪKLS",
-      "link": "/conversion/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Ielādēt avota failu {{FROM}} konvertēšanai",
-      "prepare_comment": "Sagatavojiet reklāmguvumu opcijas mērķa formātam {{TO}}",
-      "convert_comment": "Konvertēt uz {{TO}} formātu"
-    }
+  "release": {
+    "title": "Versija {0} izlaista",
+    "notes": "Skatiet, kas jauns",
+    "downloads": "Lejupielādes"
   }
 }

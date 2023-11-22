@@ -12,7 +12,8 @@
       "title": "GroupDocs.Conversion High Code API:er inkluderar",
       "label": "Visa alla High Code API:er",
       "product1_content": "Native .NET API för att exakt konvertera dokument och bildfilformat i alla typer av .NET-applikationer. Stöder att lägga till bildvattenstämplar under konvertering.",
-      "product2_content": "Gör det möjligt för dina Java-applikationer att enkelt konvertera mellan alla industristandardiserade dokumentformat inklusive Microsoft Office, PDF, HTML, bilder och många andra."
+      "product2_content": "Gör det möjligt för dina Java-applikationer att enkelt konvertera mellan alla industristandardiserade dokumentformat inklusive Microsoft Office, PDF, HTML, bilder och många andra.",
+      "product3_content": "Aktivera dina JavaScript-applikationer för att enkelt konvertera mellan alla industristandarddokumentformat inklusive Microsoft Office, PDF, HTML, bilder och många andra."
     },
     "api2": {
       "title": "GroupDocs.Conversion Low Code API:er inkluderar",
@@ -31,6 +32,6 @@
   },
   "testimonial": {
     "designation": "Psykolog",
-    "content": "Jag ser med spänning utvecklingen av GroupDocs. Responsen från hela ditt team har hjälpt mig mycket, när jag pratar med någon på GroupDocs kan jag garantera att någon lyssnar och får saker att hända."
+    "content": "Jag ser med spänning tillväxten av GroupDocs. Responsen från hela ditt team har hjälpt mig mycket, när jag pratar med någon på GroupDocs kan jag garantera att någon lyssnar och får saker att hända."
   }
 }

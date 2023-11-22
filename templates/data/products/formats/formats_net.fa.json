@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "فرمت های فایل پشتیبانی شده",
+    "description": "GroupDocs.Conversion برای دات نت از عملیات با [فرمت های فایل] زیر پشتیبانی می کند (https://docs.groupdocs.com/conversion/net/supported-file-formats/).",
+    "groups": {
+      "title_1": "فرمت های سند",
+      "title_2": "تصاویر و چند رسانه ای",
+      "title_3": "فرمت های دیگر",
+      "format_documents": "اسناد",
+      "format_images": "تصاویر",
+      "format_diagram": "نمودار",
+      "format_cad_gis": "CAD و GIS",
+      "format_audio": "سمعی",
+      "format_video": "ویدیو",
+      "format_vector_3d": "سه بعدی و وکتور",
+      "format_web": "وب",
+      "format_archives": "آرشیوها",
+      "format_email_outlook": "ایمیل و چشم انداز",
+      "format_finance": "دارایی، مالیه، سرمایه گذاری"
+    }
+  }
+}

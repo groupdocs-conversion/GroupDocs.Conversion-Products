@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} API chuyển đổi tài liệu | Chuyển đổi PDF Word Excel sang PPTX HTML Hình ảnh",
-    "description": "{{ProgLang}} API chuyển đổi tài liệu. Chuyển đổi PDF Word DOC DOCX, Bảng tính Excel PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD và các định dạng tệp hình ảnh."
+    "title": "API chuyển đổi tài liệu {{ProgLang}} | Chuyển đổi PDF, Word, Excel, PPTX, HTML và hình ảnh",
+    "description": "API chuyển đổi tài liệu {{ProgLang}}. Chuyển đổi các định dạng tệp PDF, Word, DOC, DOCX, Excel, Bảng tính, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD và tệp hình ảnh."
   },
   "header": {
-    "title": "API {{ProgLang}} để chuyển đổi hơn 80 định dạng tệp",
-    "description": "API đơn giản để tích hợp chức năng chuyển đổi tài liệu & hình ảnh vào các ứng dụng {{ProgLang}} mà không cần cài đặt bất kỳ phần mềm bên ngoài nào.",
-    "button": {
-      "label": "Tải xuống bản dùng thử miễn phí",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Chuyển đổi tài liệu",
+    "title_2": "thông qua API Java",
+    "description": "API chuyển đổi mạnh mẽ để chuyển đổi các tệp PDF, Microsoft Office, HTML, sách điện tử và hình ảnh",
+    "words": {
+      "for": "vì"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Tổng quan"
-      },
-      "button2": {
-        "text": "Đặc trưng"
-      },
-      "button3": {
-        "text": "Ủng hộ"
-      },
-      "button4": {
-        "text": "Bản thử trực tiếp"
-      },
-      "button5": {
-        "text": "Định giá"
-      }
-    }
+  "actions": {
+    "main": "Tải xuống Maven miễn phí",
+    "alt": "Cấp phép",
+    "title": "Sẵn sàng để bắt đầu?",
+    "description": "Dùng thử miễn phí các tính năng GroupDocs.Conversion hoặc yêu cầu giấy phép"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} kết hợp một bộ API chuyển đổi tài liệu mạnh mẽ để hiển thị hình ảnh và định dạng tài liệu trong các ứng dụng Java của bạn mà không cần cài đặt thêm phần mềm. Nó tự nhiên phân loại tài liệu và chuyển đổi chúng thành SVG + HTML + CSS để nâng cao chất lượng xem tài liệu trong khi cung cấp đầu ra văn bản chân thực, độ trung thực cao. Sử dụng API kết xuất tài liệu - nhanh chóng xem các trang tính PDF, HTML, XML, Microsoft Office Word, Excel, bản trình bày PowerPoint, email Outlook, sơ đồ Visio, Dự án, siêu tệp, hình ảnh và nhiều định dạng tệp khác một cách dễ dàng và ít nguy cơ lập trình hơn. Nó cũng có thể hiển thị các tệp được bảo vệ bằng mật khẩu và cho phép biểu diễn tài liệu dưới dạng HTML, hình ảnh hoặc PDF sau khi kết xuất. Thư viện chuyển đổi tệp của chúng tôi khá dễ tùy chỉnh, vì nó cho phép bạn hiển thị toàn bộ tài liệu hoặc hiển thị một phần để tăng tốc quá trình. Thông qua GroupDocs.Conversion cho Java API, bạn có thể xem các trang, phạm vi ô cụ thể trong bảng tính hoặc thậm chí hiển thị một lớp tài liệu riêng lẻ ở các định dạng, chẳng hạn như PDF và CAD.",
-    "content2": "API {{ProductFullName}} cho phép bạn hiển thị tài liệu có / không có chú thích hoặc nhận xét cho các định dạng tệp được hỗ trợ. Nó cũng cho phép bạn thêm thư mục phông chữ tùy chỉnh và trích xuất thông tin tài liệu cơ bản như FileType, Extension, Name, PageCount, v.v.",
-    "tab_one": {
-      "description": "Sau đây là tổng quan về {{ProductFullName}}:",
-      "right": {
-        "title": "Tổng quan",
-        "content1": "* Tự động phát hiện loại tệp",
-        "content2": "* Chuyển đổi tài liệu",
-        "content3": "* Chuyển đổi bản trình bày",
-        "content4": "* Chuyển đổi bảng tính",
-        "content5": "* Chuyển đổi hình ảnh Raster",
-        "content6": "* Chuyển đổi tài liệu PDF",
-        "content7": "* Chuyển đổi các định dạng khác",
-        "content8": "* Áp dụng hình mờ",
-        "content9": "* Chỉ định mật khẩu tệp",
-        "content10": "* Tùy chỉnh chuyển đổi"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} hỗ trợ chuyển đổi giữa tất cả [định dạng tệp tài liệu] phổ biến và thường được sử dụng (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Chuyển đổi từ:",
-        "content1": "* ** Tài liệu **: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* ** Bảng tính **: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* ** Bản trình bày **: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* ** Hình ảnh **: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* ** Di động **: PDF, XPS, OXPS, EPUB",
-        "content6": "* ** HTML **: HTM, HTML, MHTML",
-        "content7": "* ** Metafiles **: EMZ, WMZ",
-        "content8": "* ** PhotoShop **: PSD",
-        "content9": "* ** Dự án **: MPP, MPT, MPX",
-        "content10": "* ** Outlook **: PST, OST",
-        "content11": "* ** Email **: MSG, EML, EMLX",
-        "content12": "* ** Sơ đồ **: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* ** AutoCAD **: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* ** PostScript **: EPS, PS, PSL, CGM",
-        "content15": "* ** CorelDRAW **: CDR, CMX",
-        "content16": "* ** Khác **: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Chuyển đổi thành:",
-        "content1": "* ** Tài liệu **: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* ** Bảng tính **: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* ** Bản trình bày **: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* ** Hình ảnh **: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* ** Metafiles **: EMF, WMF, EMZ, WMZ",
-        "content6": "* ** Sơ đồ **: SVGZ",
-        "content7": "* ** Di động **: PDF, XPS",
-        "content8": "* ** HTML **: HTM, HTML, MHTML",
-        "content9": "* ** Khác **: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} hỗ trợ các Hệ điều hành, Khung và Trình quản lý Gói sau:",
-      "left": {
-        "title1": "Các hệ điều hành",
-        "title2": "Khung được hỗ trợ"
-      },
-      "right": {
-        "title1": "Trình quản lý gói",
-        "title2": "Môi trường phát triển"
-      }
-    }
-  },
-  "features": {
-    "title": "Tính năng của {{ProductFullName}}",
-    "content1": "Tích hợp dễ dàng & cấp phép được đo lường",
-    "content2": "Đặt Tùy chọn Thu phóng Mặc định khi Chuyển đổi thành Từ, Trang trình bày hoặc Ô",
-    "content3": "Chuyển đổi thành / từ tất cả các Định dạng Hình ảnh Raster Phổ biến & Chỉ định DPI Hình ảnh, Chiều cao & Chiều rộng",
-    "content4": "Chuyển đổi PDF & hình ảnh sang thang độ xám & tuyến tính hóa tài liệu PDF cho web",
-    "content5": "Chỉ định Cấp độ Dấu trang, Cấp độ Tiêu đề và Cấp độ Mở rộng trong Chuyển đổi Word sang PDF / XPS",
-    "content6": "Định cấu hình & đặt hình mờ trong tài liệu được chuyển đổi làm nền để hiển thị phía sau văn bản",
-    "content7": "Hiển thị tiêu đề email trong quá trình chuyển đổi từ email",
-    "content8": "Đặt Thư mục Phông chữ Tùy chỉnh & Tải / Thay thế Phông chữ rõ ràng trong quá trình Chuyển đổi Tài liệu",
-    "content9": "Đặt Phông chữ Mặc định để Thay thế Phông chữ Thiếu cho Chuyển đổi Tài liệu, Trang trình bày & Bảng tính",
-    "content10": "Phương pháp chuyển đổi nâng cao để trả về đầu ra dưới dạng đường dẫn hoặc luồng IO",
-    "content11": "Chuyển đổi Bảng tính với Đường lưới & Xóa Nhận xét khỏi Trang trình bày trong khi Chuyển đổi",
-    "content12": "Chuyển đổi các trang tài liệu cụ thể thành định dạng PDF & chuyển đổi phạm vi ô cụ thể trong bảng tính",
-    "content13": "Hiển thị Trang tính Ẩn & Bỏ qua Hàng và Cột trống trong khi Chuyển đổi Bảng tính",
-    "content14": "Đếm tổng số trang của tài liệu & đặt mật khẩu thành tài liệu không được bảo vệ trong quá trình chuyển đổi",
-    "content15": "Tùy chọn xóa chú thích & tệp nhúng khỏi PDF",
-    "content16": "Tạo Đánh dấu tuân thủ HTML 5 khi chuyển đổi sang HTML",
-    "content17": "Tự động phát hiện Loại nguồn & Trả lại tất cả các Chuyển đổi có thể có khi Chuyển đổi từ Luồng",
-    "content18": "Khả năng trả lại từng trang trong luồng riêng biệt trong khi chuyển đổi sang PDF hoặc HTML",
-    "content19": "Hiển thị / Ẩn Đánh dấu, Nhận xét & Theo dõi Thay đổi trong khi Chuyển đổi từ Word",
-    "content20": "Chuyển đổi DOCX sang Tiff G3 với tùy chọn đổ bóng",
-    "content21": "Chuyển đổi các bố cục cụ thể khi chuyển đổi từ tài liệu CAD",
-    "content22": "Đặt tên tự động khi lưu tài liệu đã chuyển đổi thành tệp",
-    "content23": "Cấp phép được đo lường được hỗ trợ để được lập hóa đơn dựa trên việc sử dụng API",
-    "content24": "Chuyển đổi sơ đồ sang định dạng tệp xử lý văn bản",
-    "content25": "Thêm số trang trong khi chuyển đổi HTML sang tài liệu xử lý Word",
-    "content26": "Chuyển đổi tài liệu XML sang bất kỳ định dạng nào mà không cần chuyển đổi",
-    "content27": "Giám sát Tiến trình Chuyển đổi Tệp (Bắt đầu, Kết thúc) Trực tiếp từ Ứng dụng phía Máy khách",
-    "more_feature": {
-      "title1": "Chuyển đổi định dạng tài liệu dễ dàng bằng Java",
-      "content1": "Bạn có thể chuyển đổi định dạng tệp của vô số loại tài liệu bằng cách sử dụng API {{ProductFullName}}. Ở đây, bạn sẽ được trình bày với một vài dòng mã để thực hiện chuyển đổi tài liệu cơ bản bằng Java.",
-      "step_1": "Tạo một phiên bản của lớp Chuyển đổi và cung cấp tệp với đường dẫn đầy đủ",
-      "step_2": "Tạo và đặt ConvertOptions cho loại mục tiêu mong muốn.",
-      "step_3": "Gọi phương thức Converter.Convert và chuyển đường dẫn và định dạng đầy đủ làm tham số",
-      "title2": "Đọc tài liệu từ URL hoặc đường dẫn chuyển đổi",
-      "content2": "Sử dụng API {{ProductFullName}}, bạn có thể đọc tài liệu đầu vào từ đường dẫn tệp cũng như URL. Trong khi bạn có thể lưu tài liệu đầu ra dưới dạng tệp hoặc gửi đầu ra trực tiếp vào một luồng.",
-      "title3": "Hỗ trợ kỹ thuật toàn diện",
-      "content3": "{{ProductFullName}} là một API đơn giản và trọng điểm mà bạn có thể tích hợp vào các ứng dụng dựa trên Java của mình một cách khá dễ dàng. Tuy nhiên, để giúp bạn thiết lập và chạy ngay lập tức, chúng tôi cũng cung cấp các mẫu mã dễ làm theo và tài liệu API toàn diện."
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion cung cấp các API chuyển đổi tài liệu cho các môi trường phát triển phổ biến khác",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion cho .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".MẠNG LƯỚI",
-      "link": "/ chuyển đổi / net /"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Tải tệp nguồn {{FROM}} để chuyển đổi",
-      "prepare_comment": "Chuẩn bị các tùy chọn chuyển đổi cho định dạng mục tiêu {{TO}}",
-      "convert_comment": "Chuyển sang định dạng {{TO}}"
-    }
+  "release": {
+    "title": "Phiên bản {0}  đã phát hành",
+    "notes": "Xem có gì mới",
+    "downloads": "Tải xuống"
   }
 }

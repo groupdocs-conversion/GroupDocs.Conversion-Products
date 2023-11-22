@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Kóða sýnishorn",
+    "description": "Sumir nota dæmigerða GroupDocs.Conversion fyrir .NET aðgerðir",
+    "sample_1": {
+      "title": "Umbreyta PDF í mynd",
+      "content_1": "Algeng atburðarás felur í sér að breyta heilu PDF skjali eða ákveðnum síðum í safn mynda. GroupDocs.Conversion fyrir .NET býður upp á möguleika á að umbreyta PDF skjölum í ýmis myndsnið, svo sem TIFF, JPG, PNG, GIF, BMP og fleira.",
+      "content_2": "Ólíkt öðrum umbreytingum, krefst þetta ferli yfirlýsingu SavePageStream fulltrúa, sem tilgreinir nafnasnið fyrir vistuðu myndirnar. Þú getur valið myndsnið sem þú vilt með því að nota ImageFileType flokkinn.",
+      "code_title": "Umbreyttu PDF í PNG í C#",
+      "comment_1": "Hladdu upprunalegu PDF skjalinu",
+      "comment_2": "Stilltu umbreyta valkostina og tilgreindu tegund framleiðslumyndarinnar",
+      "comment_3": "Umbreyttu hverri síðu af PDF skjali í PNG"
+    },
+    "sample_2": {
+      "title": "Umbreyta hluta af stóru skjali",
+      "content_1": "Með GroupDocs.Conversion fyrir .NET geturðu áreynslulaust umbreytt tilteknum síðum úr löngu skjali.",
+      "content_2": "Þú hefur tvær aðferðir til að ná þessu, allt eftir þörfum þínum. Þú getur annað hvort umbreytt ýmsum síðum eða umbreytt tilteknum síðum.",
+      "code_title_1": "Umbreyttu DOCX (síður 2-4) í PDF í C#",
+      "comment_1": "Hladdu uppruna DOCX skránni",
+      "comment_2": "Stilltu umbreytingarvalkostina og tilgreindu úrval síðna sem á að birta",
+      "comment_3": "Umbreyttu síðum 2-4 í PDF"
+    },
+    "sample_3": {
+      "title": "Reiprennandi setningafræði: Straumlínulagað nálgun",
+      "content_1": "Reiprennandi setningafræði býður upp á hnitmiðaða setningu fyrir algengar aðgerðir innan GroupDocs.Conversion for .NET API.",
+      "content_2": "Kóðasýnin hér að neðan sýna hvernig á að nýta reiprennandi setningafræði:",
+      "code_title_1": "Umbreyttu DOCX í PDF í C# með því að nota reiprennandi setningafræði"
+    }
+  }
+}

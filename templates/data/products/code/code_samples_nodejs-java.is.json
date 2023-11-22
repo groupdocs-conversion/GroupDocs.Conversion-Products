@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Kóða sýnishorn",
+    "description": "Sumir nota dæmigerð GroupDocs.Conversion fyrir Node.js í gegnum Java-aðgerðir",
+    "sample_1": {
+      "title": "Umbreyta PDF í mynd",
+      "content_1": "Algeng atburðarás felur í sér að breyta heilu PDF skjali eða ákveðnum síðum í safn mynda. GroupDocs.Conversion fyrir Node.js í gegnum Java býður upp á möguleika á að umbreyta PDF skjölum í ýmis myndsnið, svo sem TIFF, JPG, PNG, GIF, BMP og fleira.",
+      "content_2": "Þú getur valið myndsnið sem þú vilt með því að nota ImageFileType flokkinn.",
+      "code_title": "Umbreytir PDF í PNG í JavaScript",
+      "comment_1": "Hladdu upprunalegu PDF skjalinu",
+      "comment_2": "Stilltu umbreyta valkostina og tilgreindu tegund framleiðslumyndarinnar",
+      "comment_3": "Umbreyttu hverri síðu af PDF skjali í PNG"
+    },
+    "sample_2": {
+      "title": "Umbreyta hluta af stóru skjali",
+      "content_1": "Með GroupDocs.Conversion fyrir Node.js í gegnum Java geturðu áreynslulaust umbreytt tilteknum síðum úr löngu skjali.",
+      "content_2": "Þú hefur tvær aðferðir til að ná þessu, allt eftir þörfum þínum. Þú getur annað hvort umbreytt ýmsum síðum eða umbreytt tilteknum síðum.",
+      "code_title_1": "Umbreyttu DOCX (síður 2-4) í PDF í JavaScript",
+      "comment_1": "Hladdu uppruna DOCX skránni",
+      "comment_2": "Stilltu umbreytingarvalkostina og tilgreindu úrval síðna sem á að birta",
+      "comment_3": "Umbreyttu síðum 2-4 í PDF"
+    }
+  }
+}

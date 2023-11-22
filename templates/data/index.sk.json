@@ -1,28 +1,29 @@
 {
   "head": {
     "title": ".NET, Java, Cloud API a aplikácie na konverziu dokumentov od GroupDocs",
-    "description": "Preveďte populárne formáty dokumentov a obrázkov na ľubovoľnej platforme pomocou riešení založených na aplikácii a rozhraní API."
+    "description": "Preveďte obľúbené formáty dokumentov a obrázkov na ľubovoľnej platforme pomocou riešení založených na aplikácii a rozhraní API."
   },
   "header": {
     "title": "Riešenie na konverziu dokumentov a obrázkov",
-    "description": "Preveďte populárne formáty dokumentov a obrázkov na ľubovoľnej platforme pomocou riešení založených na aplikácii a rozhraní API."
+    "description": "Preveďte obľúbené formáty dokumentov a obrázkov na ľubovoľnej platforme pomocou riešení založených na aplikácii a rozhraní API."
   },
   "apis": {
     "api1": {
       "title": "GroupDocs.Conversion High Code APIs Include",
       "label": "Zobraziť všetky High Code API",
       "product1_content": "Natívne rozhranie .NET API na presnú konverziu dokumentov a formátov obrázkových súborov v akomkoľvek type aplikácie .NET. Podporuje pridávanie vodoznakov počas konverzie.",
-      "product2_content": "Umožnite svojim aplikáciám Java jednoduchý prevod medzi všetkými štandardnými formátmi dokumentov vrátane Microsoft Office, PDF, HTML, obrázkov a mnohých ďalších."
+      "product2_content": "Umožnite svojim aplikáciám Java jednoduchý prevod medzi všetkými štandardnými formátmi dokumentov vrátane Microsoft Office, PDF, HTML, obrázkov a mnohých ďalších.",
+      "product3_content": "Umožnite svojim aplikáciám JavaScript jednoduchý prevod medzi všetkými štandardnými formátmi dokumentov vrátane Microsoft Office, PDF, HTML, obrázkov a mnohých ďalších."
     },
     "api2": {
       "title": "GroupDocs.Conversion Low Code APIs Include",
       "label": "Zobraziť všetky rozhrania API s nízkym kódom",
       "product1_content": "Pracujte s cURL RESTful API na konverziu súborov na jednoduchú konverziu Microsoft Office, PDF, Email, Project, HTML a ďalších bežných formátov súborov vo vašich aplikáciách.",
-      "product2_content": "REST API na konverziu súborov .NET na jednoduchú konverziu Microsoft Office, PDF, Email, Project, HTML a ďalších bežných formátov súborov na akejkoľvek platforme pomocou Cloud SDK.",
+      "product2_content": "REST API na konverziu súborov .NET na jednoduchú konverziu Microsoft Office, PDF, Email, Project, HTML a iných bežných súborových formátov na akejkoľvek platforme pomocou Cloud SDK.",
       "product3_content": "Obohaťte svoje cloudové aplikácie Java o pokročilé funkcie konverzie dokumentov na akejkoľvek platforme schopnej volať rozhrania REST API."
     },
     "api3": {
-      "title": "GroupDocs.Conversion No Code Apps Include",
+      "title": "GroupDocs.Conversion No Code Apps Included",
       "label": "Zobraziť všetky aplikácie bez kódu",
       "product1_content": "Preveďte viac ako 50 formátov dokumentov do PDF, XLSX, DOCX, XPS, HTML a ďalších.",
       "product2_content": "Bezplatná aplikácia na prevod DOC do formátu XLS z ľubovoľného webového prehliadača.",

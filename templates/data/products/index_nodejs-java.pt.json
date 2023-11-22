@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "API de conversão de documentos {{ProgLang}} | Converta PDF, Word, Excel, PPTX, HTML e imagens",
+    "description": "API de conversão de documentos {{ProgLang}}. Converta PDF, Word, DOC, DOCX, Excel, planilhas, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD e formatos de arquivo de imagem."
+  },
+  "header": {
+    "title_1": "Conversão de documentos",
+    "title_2": "por meio da API Node.js.",
+    "description": "API de conversão poderosa para converter arquivos PDF, Microsoft Office, HTML, e-books e imagens",
+    "words": {
+      "for": "para"
+    }
+  },
+  "actions": {
+    "main": "Baixar NPM grátis",
+    "alt": "Licenciamento",
+    "title": "Pronto para começar?",
+    "description": "Experimente os recursos GroupDocs.Conversion gratuitamente ou solicite uma licença"
+  },
+  "release": {
+    "title": "Versão {0} lançada",
+    "notes": "Veja o que é novo",
+    "downloads": "Transferências"
+  }
+}

@@ -1,36 +1,37 @@
 {
   "head": {
-    "title": ".NET, Java, API đám mây & ứng dụng chuyển đổi tài liệu của GroupDocs",
-    "description": "Chuyển đổi các định dạng tệp tài liệu và hình ảnh phổ biến trên bất kỳ nền tảng nào với các giải pháp dựa trên ứng dụng và api."
+    "title": ".NET, Java, API đám mây và ứng dụng chuyển đổi tài liệu của GroupDocs",
+    "description": "Chuyển đổi các định dạng tệp tài liệu và hình ảnh phổ biến trên mọi nền tảng bằng các giải pháp dựa trên ứng dụng và api."
   },
   "header": {
     "title": "Giải pháp chuyển đổi tài liệu và hình ảnh",
-    "description": "Chuyển đổi các định dạng tệp tài liệu và hình ảnh phổ biến trên bất kỳ nền tảng nào với các giải pháp dựa trên ứng dụng và api."
+    "description": "Chuyển đổi các định dạng tệp tài liệu và hình ảnh phổ biến trên mọi nền tảng bằng các giải pháp dựa trên ứng dụng và api."
   },
   "apis": {
     "api1": {
-      "title": "GroupDocs.Conversion High Code APIs Bao gồm",
-      "label": "Xem tất cả các API mã cao",
-      "product1_content": "API .NET gốc để chuyển đổi chính xác tài liệu và định dạng tệp hình ảnh trong bất kỳ loại ứng dụng .NET nào. Hỗ trợ thêm hình mờ hình ảnh trong khi chuyển đổi.",
-      "product2_content": "Cho phép các ứng dụng Java của bạn dễ dàng chuyển đổi giữa tất cả các định dạng tài liệu tiêu chuẩn ngành bao gồm Microsoft Office, PDF, HTML, hình ảnh và nhiều định dạng khác."
+      "title": "API mã cao của GroupDocs.Conversion bao gồm",
+      "label": "Xem tất cả API mã cao",
+      "product1_content": "API .NET gốc để chuyển đổi chính xác các định dạng tài liệu và tệp hình ảnh trong bất kỳ loại ứng dụng .NET nào. Hỗ trợ thêm hình mờ hình ảnh trong khi chuyển đổi.",
+      "product2_content": "Cho phép các ứng dụng Java của bạn dễ dàng chuyển đổi giữa tất cả các định dạng tài liệu tiêu chuẩn ngành bao gồm Microsoft Office, PDF, HTML, hình ảnh và nhiều định dạng khác.",
+      "product3_content": "Cho phép các ứng dụng JavaScript của bạn dễ dàng chuyển đổi giữa tất cả các định dạng tài liệu tiêu chuẩn ngành bao gồm Microsoft Office, PDF, HTML, hình ảnh và nhiều định dạng khác."
     },
     "api2": {
-      "title": "GroupDocs.Conversion Low Code APIs Bao gồm",
-      "label": "Xem tất cả các API mã thấp",
-      "product1_content": "Làm việc với API chuyển đổi tệp cURL RESTful để dễ dàng chuyển đổi Microsoft Office, PDF, Email, Project, HTML và các định dạng tệp phổ biến khác trong các ứng dụng của bạn.",
-      "product2_content": "Chuyển đổi tệp .NET API REST để dễ dàng chuyển đổi Microsoft Office, PDF, Email, Dự án, HTML và các định dạng tệp phổ biến khác trên bất kỳ nền tảng nào sử dụng Cloud SDK.",
-      "product3_content": "Làm phong phú các ứng dụng Java dựa trên đám mây của bạn với các tính năng chuyển đổi tài liệu nâng cao trên bất kỳ nền tảng nào có khả năng gọi các API REST."
+      "title": "API mã thấp GroupDocs.Conversion bao gồm",
+      "label": "Xem tất cả API mã thấp",
+      "product1_content": "Làm việc với API chuyển đổi tệp cURL RESTful để dễ dàng chuyển đổi Microsoft Office, PDF, Email, Project, HTML và các định dạng tệp phổ biến khác trong ứng dụng của bạn.",
+      "product2_content": "Chuyển đổi tệp .NET REST API để dễ dàng chuyển đổi Microsoft Office, PDF, Email, Project, HTML và các định dạng tệp phổ biến khác trên mọi nền tảng bằng Cloud SDK.",
+      "product3_content": "Làm phong phú thêm các ứng dụng Java dựa trên đám mây của bạn với các tính năng chuyển đổi tài liệu nâng cao trên bất kỳ nền tảng nào có khả năng gọi API REST."
     },
     "api3": {
-      "title": "GroupDocs.Conversion Không bao gồm ứng dụng mã",
+      "title": "GroupDocs.Conversion Không có ứng dụng mã nào bao gồm",
       "label": "Xem tất cả ứng dụng không có mã",
       "product1_content": "Chuyển đổi hơn 50 định dạng tài liệu sang PDF, XLSX, DOCX, XPS, HTML và hơn thế nữa.",
       "product2_content": "Ứng dụng miễn phí để chuyển đổi định dạng DOC sang XLS từ bất kỳ trình duyệt web nào.",
-      "product3_content": "Tải lên tài liệu PDF của bạn để chuyển đổi liền mạch sang định dạng Word (DOCX)."
+      "product3_content": "Tải tài liệu PDF của bạn lên để chuyển đổi liền mạch sang định dạng Word (DOCX)."
     }
   },
   "testimonial": {
     "designation": "Nhà tâm lý học",
-    "content": "Tôi đang hào hứng theo dõi sự phát triển của GroupDocs. Khả năng đáp ứng của toàn bộ nhóm của bạn đã giúp tôi rất nhiều, khi tôi nói chuyện với ai đó tại GroupDocs, tôi có thể đảm bảo rằng ai đó đang lắng nghe và làm cho mọi thứ diễn ra."
+    "content": "Tôi rất hào hứng theo dõi sự phát triển của GroupDocs. Khả năng phản hồi của toàn bộ nhóm của bạn đã giúp tôi rất nhiều, khi nói chuyện với ai đó tại GroupDocs, tôi có thể đảm bảo rằng ai đó đang lắng nghe và khiến mọi việc diễn ra."
   }
 }

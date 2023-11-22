@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} API chuyển đổi tài liệu .NET | Chuyển đổi PDF Word Excel sang PPTX HTML Hình ảnh",
-    "description": "{{ProgLang}} API chuyển đổi tài liệu .NET. Chuyển đổi PDF Word DOC DOCX, Bảng tính Excel PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD và các định dạng tệp hình ảnh."
+    "title": "{{ProgLang}} API chuyển đổi tài liệu .NET | Chuyển đổi PDF, Word, Excel, PPTX, HTML và hình ảnh",
+    "description": "{{ProgLang}} API chuyển đổi tài liệu .NET. Chuyển đổi các định dạng tệp PDF, Word, DOC, DOCX, Excel, Bảng tính, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD và tệp hình ảnh."
   },
   "header": {
-    "title": ".NET API để chuyển đổi hơn 80 định dạng tệp",
-    "description": "API đơn giản để tích hợp chức năng chuyển đổi tài liệu & hình ảnh vào các ứng dụng .NET mà không cần cài đặt bất kỳ phần mềm bên ngoài nào.",
-    "button": {
-      "label": "Tải xuống bản dùng thử miễn phí",
-      "link": "https://downloads.groupdocs.com/conversion/net"
+    "title_1": "Chuyển đổi tài liệu",
+    "title_2": "thông qua API .NET",
+    "description": "API chuyển đổi mạnh mẽ để chuyển đổi các tệp PDF, Microsoft Office, HTML, sách điện tử và hình ảnh",
+    "words": {
+      "for": "vì"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Tổng quan"
-      },
-      "button2": {
-        "text": "Đặc trưng"
-      },
-      "button3": {
-        "text": "Ủng hộ"
-      },
-      "button4": {
-        "text": "Bản thử trực tiếp"
-      },
-      "button5": {
-        "text": "Định giá"
-      }
-    }
+  "actions": {
+    "main": "Tải xuống NuGet miễn phí",
+    "alt": "Cấp phép",
+    "title": "Sẵn sàng để bắt đầu?",
+    "description": "Dùng thử miễn phí các tính năng GroupDocs.Conversion hoặc yêu cầu giấy phép"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} cung cấp một bộ API đơn giản, cho phép các nhà phát triển xây dựng các ứng dụng chuyển đổi tài liệu mạnh mẽ trong {{ProgLang}}, ASP.NET và các công nghệ liên quan đến .NET khác. API {{ProductFullName}} cung cấp giải pháp chuyển đổi tệp nhanh chóng, hiệu quả và đáng tin cậy cho người dùng cuối của bạn. Nó hỗ trợ thực hiện chuyển đổi chính xác giữa tất cả các định dạng tài liệu kinh doanh phổ biến bao gồm: PDF, HTML, Email, tài liệu Microsoft Word, bảng tính Excel, bản trình bày PowerPoint, Project, Photoshop, CorelDraw, AutoCAD, sơ đồ, định dạng tệp hình ảnh raster và nhiều hơn nữa. Thư viện trình chuyển đổi tài liệu tự động phát hiện định dạng tài liệu nguồn và cung cấp cho bạn tất cả quyền kiểm soát để chuyển đổi toàn bộ tài liệu hoặc các trang cụ thể sang định dạng đầu ra mong muốn. Việc thay thế các phông chữ bị thiếu bằng những phông chữ ưa thích và thêm hình mờ văn bản hoặc hình ảnh vào bất kỳ trang tài liệu nào sẽ dễ dàng hơn.",
-    "content2": "{{ProductFullName}} có thể được sử dụng để phát triển các ứng dụng trong bất kỳ môi trường phát triển nào nhắm mục tiêu đến nền tảng .NET. Nó tương thích với tất cả các ngôn ngữ dựa trên .NET và hỗ trợ các hệ điều hành phổ biến (Windows, Linux, MacOS) nơi có thể cài đặt các khung Mono hoặc .NET (bao gồm cả .NET Core).",
-    "tab_one": {
-      "description": "Sau đây là tổng quan về {{ProductFullName}}:",
-      "right": {
-        "title": "Tổng quan",
-        "content1": "* Tự động phát hiện loại tệp",
-        "content2": "* Chuyển đổi tài liệu",
-        "content3": "* Chuyển đổi bản trình bày",
-        "content4": "* Chuyển đổi bảng tính",
-        "content5": "* Chuyển đổi hình ảnh Raster",
-        "content6": "* Chuyển đổi tài liệu PDF",
-        "content7": "* Chuyển đổi các định dạng khác",
-        "content8": "* Áp dụng hình mờ",
-        "content9": "* Chỉ định mật khẩu tệp",
-        "content10": "* Tùy chỉnh chuyển đổi"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} hỗ trợ chuyển đổi giữa tất cả [định dạng tệp tài liệu] phổ biến và thường được sử dụng (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Chuyển đổi từ:",
-        "content1": "* ** Tài liệu **: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* ** Bảng tính **: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* ** Bản trình bày **: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* ** Hình ảnh **: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* ** Di động **: PDF, XPS, OXPS, EPUB",
-        "content6": "* ** HTML **: HTM, HTML, MHTML",
-        "content7": "* ** Metafiles **: EMZ, WMZ",
-        "content8": "* ** PhotoShop **: PSD",
-        "content9": "* ** Dự án **: MPP, MPT, MPX",
-        "content10": "* ** Outlook **: PST, OST",
-        "content11": "* ** Email **: MSG, EML, EMLX",
-        "content12": "* ** Sơ đồ **: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* ** AutoCAD **: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* ** PostScript **: EPS, PS, PSL, CGM",
-        "content15": "* ** CorelDRAW **: CDR, CMX",
-        "content16": "* ** Khác **: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Chuyển đổi thành:",
-        "content1": "* ** Tài liệu **: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* ** Bảng tính **: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* ** Bản trình bày **: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* ** Hình ảnh **: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* ** Metafiles **: EMF, WMF, EMZ, WMZ",
-        "content6": "* ** Sơ đồ **: SVGZ",
-        "content7": "* ** Di động **: PDF, XPS",
-        "content8": "* ** HTML **: HTM, HTML, MHTML",
-        "content9": "* ** Khác **: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} hỗ trợ các Hệ điều hành, Khung và Trình quản lý Gói sau:",
-      "left": {
-        "title1": "Các hệ điều hành",
-        "title2": "Khung được hỗ trợ"
-      },
-      "right": {
-        "title1": "Trình quản lý gói",
-        "title2": "Môi trường phát triển"
-      }
-    }
-  },
-  "features": {
-    "title": "Tính năng của {{ProductFullName}}",
-    "content1": "Tích hợp dễ dàng & cấp phép được đo lường",
-    "content2": "Đặt Tùy chọn Thu phóng Mặc định khi Chuyển đổi thành Từ, Trang trình bày hoặc Ô",
-    "content3": "Chuyển đổi thành / từ tất cả các Định dạng Hình ảnh Raster Phổ biến & Chỉ định DPI Hình ảnh, Chiều cao & Chiều rộng",
-    "content4": "Chuyển đổi PDF & hình ảnh sang thang độ xám & tuyến tính hóa tài liệu PDF cho web",
-    "content5": "Chỉ định Cấp độ Dấu trang, Cấp độ Tiêu đề và Cấp độ Mở rộng trong Chuyển đổi Word sang PDF / XPS",
-    "content6": "Định cấu hình & đặt hình mờ trong tài liệu được chuyển đổi làm nền để hiển thị phía sau văn bản",
-    "content7": "Hiển thị tiêu đề email trong quá trình chuyển đổi từ email",
-    "content8": "Đặt Thư mục Phông chữ Tùy chỉnh & Tải / Thay thế Phông chữ rõ ràng trong quá trình Chuyển đổi Tài liệu",
-    "content9": "Đặt Phông chữ Mặc định để Thay thế Phông chữ Thiếu cho Chuyển đổi Tài liệu, Trang trình bày & Bảng tính",
-    "content10": "Phương pháp chuyển đổi nâng cao để trả về đầu ra dưới dạng đường dẫn hoặc luồng IO",
-    "content11": "Chuyển đổi Bảng tính với Đường lưới & Xóa Nhận xét khỏi Trang trình bày trong khi Chuyển đổi",
-    "content12": "Chuyển đổi các trang tài liệu cụ thể thành định dạng PDF & chuyển đổi phạm vi ô cụ thể trong bảng tính",
-    "content13": "Hiển thị Trang tính Ẩn & Bỏ qua Hàng và Cột trống trong khi Chuyển đổi Bảng tính",
-    "content14": "Đếm tổng số trang của tài liệu & đặt mật khẩu thành tài liệu không được bảo vệ trong quá trình chuyển đổi",
-    "content15": "Tùy chọn xóa chú thích & tệp nhúng khỏi PDF",
-    "content16": "Tạo Đánh dấu tuân thủ HTML 5 khi chuyển đổi sang HTML",
-    "content17": "Tự động phát hiện Loại nguồn & Trả lại tất cả các Chuyển đổi có thể có khi Chuyển đổi từ Luồng",
-    "content18": "Khả năng trả lại từng trang trong luồng riêng biệt trong khi chuyển đổi sang PDF hoặc HTML",
-    "content19": "Hiển thị / Ẩn Đánh dấu, Nhận xét & Theo dõi Thay đổi trong khi Chuyển đổi từ Word",
-    "content20": "Chuyển đổi DOCX sang Tiff G3 với tùy chọn đổ bóng",
-    "content21": "Chuyển đổi các bố cục cụ thể khi chuyển đổi từ tài liệu CAD",
-    "content22": "Đặt tên tự động khi lưu tài liệu đã chuyển đổi thành tệp",
-    "content23": "Cấp phép được đo lường được hỗ trợ để được lập hóa đơn dựa trên việc sử dụng API",
-    "content24": "Chuyển đổi sơ đồ sang định dạng tệp xử lý văn bản",
-    "content25": "Thêm số trang trong khi chuyển đổi HTML sang tài liệu xử lý Word",
-    "content26": "Chuyển đổi tài liệu XML sang bất kỳ định dạng nào mà không cần chuyển đổi",
-    "content27": "Giám sát Tiến trình Chuyển đổi Tệp (Bắt đầu, Kết thúc) Trực tiếp từ Ứng dụng phía Máy khách",
-    "more_feature": {
-      "title1": "Dễ dàng chuyển đổi định dạng tài liệu",
-      "content1": "Sử dụng {{ProductFullName}}, việc chuyển đổi định dạng tệp tài liệu rất dễ dàng. Ví dụ sau cho bạn thấy cách chuyển đổi tệp PDF thành tệp DOC bằng cách sử dụng {{ProgLang}}:",
-      "step_1": "Tạo một phiên bản của lớp Chuyển đổi và cung cấp tệp với đường dẫn đầy đủ",
-      "step_2": "Tạo và đặt ConvertOptions cho loại mục tiêu mong muốn.",
-      "step_3": "Gọi phương thức Converter.Convert và chuyển đường dẫn và định dạng đầy đủ làm tham số",
-      "title2": "Chuyển đổi sang định dạng hình ảnh",
-      "content2": "{{ProductFullName}} có thể được sử dụng để phát triển các ứng dụng trong bất kỳ môi trường phát triển nào nhắm mục tiêu đến nền tảng .NET. Nó tương thích với tất cả các ngôn ngữ dựa trên .NET và hỗ trợ các hệ điều hành phổ biến (Windows, Linux, MacOS) nơi có thể cài đặt các khung Mono hoặc .NET (bao gồm cả .NET Core).",
-      "title3": "Hỗ trợ nhiều loại định dạng PDF khác nhau",
-      "content3": "API {{ProductFullName}} hỗ trợ chuyển đổi tài liệu sang các loại / định dạng PDF sau:"
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion cung cấp các API chuyển đổi tài liệu cho các môi trường phát triển phổ biến khác",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion cho Java",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
-      "platform": "Java",
-      "link": "/ convert / java /"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Tải tệp nguồn {{FROM}} để chuyển đổi",
-      "prepare_comment": "Chuẩn bị các tùy chọn chuyển đổi cho định dạng mục tiêu {{TO}}",
-      "convert_comment": "Chuyển sang định dạng {{TO}}"
-    }
+  "release": {
+    "title": "Phiên bản {0}  đã phát hành",
+    "notes": "Xem có gì mới",
+    "downloads": "Tải xuống"
   }
 }

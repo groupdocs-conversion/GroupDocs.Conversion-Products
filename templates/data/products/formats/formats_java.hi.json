@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "समर्थित फ़ाइल स्वरूप",
+    "description": "Java के लिए GroupDocs.Conversion निम्नलिखित [फ़ाइल स्वरूपों](https://docs.groupdocs.com/conversion/java/supported-file-formats/) के साथ संचालन का समर्थन करता है।",
+    "groups": {
+      "title_1": "दस्तावेज़ प्रारूप",
+      "title_2": "छवियाँ और मल्टीमीडिया",
+      "title_3": "अन्य प्रारूप",
+      "format_documents": "दस्तावेज़",
+      "format_images": "इमेजिस",
+      "format_diagram": "आरेख",
+      "format_cad_gis": "सीएडी और जीआईएस",
+      "format_audio": "ऑडियो",
+      "format_video": "वीडियो",
+      "format_vector_3d": "3डी और वेक्टर",
+      "format_web": "वेब",
+      "format_archives": "अभिलेखागार",
+      "format_email_outlook": "ईमेल और आउटलुक",
+      "format_finance": "वित्त"
+    }
+  }
+}

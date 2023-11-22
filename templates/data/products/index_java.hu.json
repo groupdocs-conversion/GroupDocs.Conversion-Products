@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} Dokumentumkonverziós API | PDF Word Excel PPTX HTML képek konvertálása",
-    "description": "{{ProgLang}} Dokumentumkonverziós API. PDF Word DOC DOCX konvertálása, Excel táblázatok PPT PPTX, HTML, PSD, MPT MPP, MSG EMLX e-mail, AutoCAD és képfájl formátumok konvertálása."
+    "title": "{{ProgLang}} dokumentumkonverziós API | PDF, Word, Excel, PPTX, HTML és képek konvertálása",
+    "description": "{{ProgLang}} dokumentumkonverziós API. PDF, Word, DOC, DOCX, Excel, táblázatok, PPT, PPTX, HTML, PSD, MPT, MPP, e-mail, MSG, EMLX, AutoCAD és képfájlformátumok konvertálása."
   },
   "header": {
-    "title": "{{ProgLang}} API több mint 80 fájlformátum konvertálásához",
-    "description": "Egyszerű API a dokumentum- és képkonverziós funkciók {{ProgLang}} alkalmazásokba integrálásához külső szoftver telepítése nélkül.",
-    "button": {
-      "label": "Ingyenes próbaverzió letöltése",
-      "link": "https://downloads.groupdocs.com/conversion/java"
+    "title_1": "Dokumentum konvertálás",
+    "title_2": "Java API-n keresztül",
+    "description": "Hatékony konvertáló API PDF-, Microsoft Office-, HTML-, e-könyv- és képfájlok konvertálásához",
+    "words": {
+      "for": "számára"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Áttekintés"
-      },
-      "button2": {
-        "text": "Jellemzők"
-      },
-      "button3": {
-        "text": "Támogatás"
-      },
-      "button4": {
-        "text": "Élő Demo"
-      },
-      "button5": {
-        "text": "Árazás"
-      }
-    }
+  "actions": {
+    "main": "Ingyenes Maven letöltés",
+    "alt": "Engedélyezés",
+    "title": "Készen áll az indulásra?",
+    "description": "Próbálja ki a GroupDocs.Conversion szolgáltatásait ingyenesen, vagy kérjen licencet"
   },
-  "overview": {
-    "content1": "A {{ProductFullName}} a dokumentumkonverziós API-k hatékony készletét egyesíti, hogy képeket és dokumentumformátumokat jelenítsen meg Java-alkalmazásaiban anélkül, hogy további szoftvereket kellene telepítenie. Natív módon raszterizálja a dokumentumokat, és SVG+HTML+CSS formátumba konvertálja azokat, hogy javítsa a dokumentumok megtekintésének minőségét, miközben valódi szöveges, nagy hűségű kimenetet biztosít. A dokumentum-megjelenítő API használata – gyorsan megtekintheti a PDF, HTML, XML, Microsoft Office Word, Excel-munkalapokat, PowerPoint-prezentációkat, Outlook-e-maileket, Visio-diagramokat, projektet, metafájlokat, képeket és számos más fájlformátumot könnyedén és kevesebb programozási veszély nélkül. Jelszóval védett fájlokat is meg tud jeleníteni, és lehetővé teszi a dokumentum megjelenítését HTML, kép vagy PDF formátumban a renderelés után. Fájlkonverziós könyvtárunk meglehetősen személyre szabható, mivel lehetővé teszi a teljes dokumentum megjelenítését, vagy részleges renderelését a folyamat felgyorsítása érdekében. A GroupDocs.Conversion for Java API-n keresztül oldalakat, adott cellatartományt tekinthet meg egy táblázatban, vagy akár egyedi dokumentumréteget is renderelhet olyan formátumokban, mint például PDF és CAD.",
-    "content2": "A {{ProductFullName}} API lehetővé teszi, hogy dokumentumokat jelenítsen meg megjegyzésekkel vagy megjegyzésekkel a támogatott fájlformátumokhoz. Lehetővé teszi egyéni betűtípus-könyvtárak hozzáadását és alapvető dokumentuminformációk, például fájltípus, kiterjesztés, név, oldalszám stb.",
-    "tab_one": {
-      "description": "Az alábbiakban a {{ProductFullName}} áttekintése látható:",
-      "right": {
-        "title": "Áttekintés",
-        "content1": "* Fájltípus automatikus felismerése",
-        "content2": "* Konvertálja a dokumentumokat",
-        "content3": "* Konvertálja a bemutatókat",
-        "content4": "* Konvertálja a táblázatokat",
-        "content5": "* Raszteres képek konvertálása",
-        "content6": "* PDF dokumentumok konvertálása",
-        "content7": "* Más formátumok konvertálása",
-        "content8": "* Vízjel alkalmazása",
-        "content9": "* Adja meg a fájl jelszavát",
-        "content10": "* Testreszabása átalakítás"
-      }
-    },
-    "tab_two": {
-      "description": "A {{ProductFullName}} támogatja az összes népszerű és gyakran használt [dokumentumfájl-formátum] (https://docs.groupdocs.com/conversion/net/supported-document-formats/) közötti konvertálást.",
-      "left": {
-        "title": "Konvertálás innen:",
-        "content1": "* **Dokumentumok**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Táblázatok**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Bemutatók**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Képek**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Hordozható**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metafájlok**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Projekt**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **E-mail**: MSG, EML, EMLX",
-        "content12": "* **Diagramok**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Egyéb**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Konvertálás ide:",
-        "content1": "* **Dokumentumok**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Táblázatok**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Prezentációk**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Képek**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafájlok**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagramok**: SVGZ",
-        "content7": "* **Hordozható**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "**Egyéb**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "A {{ProductFullName}} a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja:",
-      "left": {
-        "title1": "Operációs rendszer",
-        "title2": "Támogatott keretrendszerek"
-      },
-      "right": {
-        "title1": "Csomagkezelő",
-        "title2": "Fejlesztési környezetek"
-      }
-    }
-  },
-  "features": {
-    "title": "{{ProductFullName}} funkciók",
-    "content1": "Egyszerű integráció és mért licencelés",
-    "content2": "Állítsa be az alapértelmezett nagyítási beállítást szavakká, diákká vagy cellákká konvertáláskor",
-    "content3": "Konvertálás az összes népszerű raszteres képformátumra/ból, és kép DPI, magasság és szélesség hozzárendelése",
-    "content4": "PDF és kép konvertálása szürkeárnyalatossá, valamint PDF-dokumentum linearizálása a weben",
-    "content5": "Adja meg a könyvjelző szintjét, a címsor szintjét és a kibővített szintjét a Word PDF/XPS konvertálásánál",
-    "content6": "Konfigurálja és helyezze el a vízjelet a konvertált dokumentumban a szöveg mögött megjelenítendő háttérként",
-    "content7": "E-mail fejléc megjelenítése az e-mailből való átalakítás során",
-    "content8": "Egyéni betűtípus-könyvtárak beállítása és a betűtípus kifejezetten betöltése/helyettesítése a dokumentumkonverzió során",
-    "content9": "Állítsa be az alapértelmezett betűtípust a hiányzó betűtípusok pótlására a dokumentumok, diák és táblázatok konvertálásánál",
-    "content10": "Speciális átalakítási módszerek a kimenet elérési útként vagy IO adatfolyamként való visszaadásához",
-    "content11": "Konvertálja a táblázatot rácsvonalakkal és távolítsa el a megjegyzéseket a diákról konvertálás közben",
-    "content12": "Konkrét dokumentumoldalak konvertálása PDF formátumba és adott cellatartomány konvertálása a táblázatokban",
-    "content13": "Rejtett lapok megjelenítése és üres sorok és oszlopok kihagyása a táblázatok konvertálása közben",
-    "content14": "Számolja meg a dokumentum összes oldalát, és állítsa be a jelszót nem védett dokumentumra a konvertálás során",
-    "content15": "Lehetőség a megjegyzések és beágyazott fájlok eltávolítására a PDF-ből",
-    "content16": "Hozzon létre HTML 5-kompatibilis jelölést a HTML-re konvertáláskor",
-    "content17": "Forrástípus automatikus felismerése és az összes lehetséges konverzió visszaadása adatfolyamból történő konvertáláskor",
-    "content18": "Lehetőség minden oldal külön adatfolyamban való visszaküldésére, miközben PDF vagy HTML formátumba konvertál",
-    "content19": "Jelölések, megjegyzések és változások követése a Wordből való konvertálás közben/elrejtése",
-    "content20": "DOCX konvertálás Tiff G3-ba árnyékolási lehetőséggel",
-    "content21": "Konkrét elrendezések konvertálása CAD-dokumentumból történő konvertáláskor",
-    "content22": "Automatikus elnevezés a konvertált dokumentum fájlba mentésekor",
-    "content23": "Támogatott, számlázható licencelés az API használata alapján",
-    "content24": "Átalakítsa a diagramokat szövegszerkesztő fájlformátumokká",
-    "content25": "Adjon hozzá oldalszámokat a HTML szövegszerkesztő dokumentummá konvertálásakor",
-    "content26": "Konvertálja az XML dokumentumokat bármilyen formátumba átalakítás nélkül",
-    "content27": "Kövesse nyomon a fájlkonverzió folyamatát (kezdet, vége) közvetlenül az ügyféloldali alkalmazásból",
-    "more_feature": {
-      "title1": "Egyszerű dokumentumformátum konvertálás Java használatával",
-      "content1": "A {{ProductFullName}} API segítségével számos dokumentumtípus fájlformátumát konvertálhatja. Itt néhány sor kódot mutatunk be az alapvető dokumentum-konverzió végrehajtásához Java használatával.",
-      "step_1": "Hozzon létre egy példányt a Converter osztályból, és adja meg a fájl teljes elérési útját",
-      "step_2": "Hozzon létre és állítson be ConvertOptions-t a kívánt céltípushoz.",
-      "step_3": "Hívja meg a Converter.Convert metódust, és adja át paraméterként a teljes elérési utat és formátumot",
-      "title2": "Olvassa el a dokumentumot az URL-ből vagy a konverziós útvonalból",
-      "content2": "A {{ProductFullName}} API használatával bemeneti dokumentumot olvashat a fájl elérési útjáról és egy URL-ről is. Míg a kimeneti dokumentumot fájlként mentheti, vagy a kimenetet közvetlenül egy adatfolyamba küldheti.",
-      "title3": "Átfogó műszaki támogatás",
-      "content3": "A {{ProductFullName}} egy egyszerű és lényegre törő API, amelyet meglehetősen egyszerűen integrálhat Java-alapú alkalmazásaiba. Mindazonáltal, hogy gyorsan üzembe helyezhessük, könnyen követhető kódmintákat és átfogó API-dokumentációt is biztosítunk."
-    }
-  },
-  "solutions": {
-    "title": "A GroupDocs.Conversion dokumentumkonverziós API-kat kínál más népszerű fejlesztői környezetekhez",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion for .NET",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".HÁLÓ",
-      "link": "/conversion/net/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Töltse be a(z) {{FROM}} forrásfájlt a konvertáláshoz",
-      "prepare_comment": "Konverziós beállítások előkészítése a(z) {{TO}} célformátumhoz",
-      "convert_comment": "Átalakítás {{TO}} formátumba"
-    }
+  "release": {
+    "title": "A(z) {0}  verzió megjelent",
+    "notes": "Tekintse meg az újdonságokat",
+    "downloads": "Letöltések"
   }
 }

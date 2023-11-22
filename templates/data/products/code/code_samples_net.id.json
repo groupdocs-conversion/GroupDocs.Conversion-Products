@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Contoh kode",
+    "description": "Beberapa kasus penggunaan GroupDocs.Conversion tipikal untuk operasi .NET",
+    "sample_1": {
+      "title": "Konversi PDF ke gambar",
+      "content_1": "Skenario yang umum ditemui melibatkan konversi seluruh dokumen PDF atau halaman tertentu menjadi kumpulan gambar. GroupDocs.Conversion for .NET menawarkan kemampuan untuk mengonversi PDF ke berbagai format gambar, seperti TIFF, JPG, PNG, GIF, BMP, dan banyak lagi.",
+      "content_2": "Tidak seperti konversi lainnya, proses ini memerlukan deklarasi delegasi SavePageStream, yang menentukan format penamaan untuk gambar yang disimpan. Anda dapat memilih format gambar pilihan Anda menggunakan kelas ImageFileType.",
+      "code_title": "Konversi PDF ke PNG di C#",
+      "comment_1": "Muat file PDF sumber",
+      "comment_2": "Atur opsi konversi dan tentukan jenis gambar keluaran",
+      "comment_3": "Konversikan setiap halaman dokumen PDF ke PNG"
+    },
+    "sample_2": {
+      "title": "Konversikan segmen dokumen besar",
+      "content_1": "Dengan GroupDocs.Conversion untuk .NET, Anda dapat dengan mudah mengonversi halaman tertentu dari dokumen yang panjang.",
+      "content_2": "Anda memiliki dua metode untuk mencapai hal ini, tergantung pada kebutuhan Anda. Anda dapat mengonversi sejumlah halaman atau mengonversi halaman tertentu.",
+      "code_title_1": "Konversi DOCX (halaman 2-4) ke PDF di C#",
+      "comment_1": "Muat file DOCX sumber",
+      "comment_2": "Atur opsi konversi dan tentukan rentang halaman yang akan dirender",
+      "comment_3": "Konversi halaman 2-4 ke PDF"
+    },
+    "sample_3": {
+      "title": "Sintaks yang lancar: Pendekatan yang efisien",
+      "content_1": "Sintaks yang lancar menawarkan notasi ringkas untuk tindakan umum dalam GroupDocs.Conversion for .NET API.",
+      "content_2": "Contoh kode di bawah ini menunjukkan cara memanfaatkan sintaksis yang lancar:",
+      "code_title_1": "Konversi DOCX ke PDF dalam C# menggunakan sintaksis yang lancar"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "Recensioni dei prodotti GroupDocs",
+    "description": "Non limitarti a crederci sulla parola. Scopri cosa dicono gli altri sviluppatori sulle nostre API",
+    "review_1": {
+      "content": "Servizio eccellente e prodotti eccellenti. Si sono rivelati estremamente utili e reattivi durante il processo di implementazione di GroupDocs.Viewer per Java, non posso che consigliarli vivamente.",
+      "author": "Martin Lasarga",
+      "company": "Product Manager presso Axentria ECM by G.S.I."
+    },
+    "review_2": {
+      "content": "Dopo aver implementato e utilizzato GroupDocs.Viewer for Java nel progetto sembra funzionare molto bene. Ho testato con molti documenti e finora tutto bene. Tutto ciò che ho inserito viene visualizzato bene e ha lo stesso aspetto di un visualizzatore PDF o MS Word.",
+      "author": "Mats Oustad",
+      "company": "Consulente/Partner Senior presso Novanet AS"
+    }
+  }
+}

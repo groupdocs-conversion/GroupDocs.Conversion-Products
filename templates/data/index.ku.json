@@ -12,12 +12,13 @@
       "title": "GroupDocs.Conversion High Code APIs Include",
       "label": "Hemî API-yên Koda Bilind bibînin",
       "product1_content": "Native .NET API ku di her cûre serîlêdana .NET de belge û formatên pelê wêneyê rast biguhezîne. Di dema veguheztinê de lêzêdekirina avê nîşaneyên wêneyê piştgirî dike.",
-      "product2_content": "Serlêdanên Java-ya xwe çalak bikin ku bi hêsanî di navbera hemî formatên belgeyên standard ên pîşesaziyê de, tevî Microsoft Office, PDF, HTML, wêne û gelekên din veguherînin."
+      "product2_content": "Serlêdanên Java-ya xwe çalak bikin ku bi hêsanî di navbera hemî formatên belgeyên standard ên pîşesaziyê de, tevî Microsoft Office, PDF, HTML, wêne û gelekên din veguherînin.",
+      "product3_content": "Serlêdanên xwe yên JavaScript-ê çalak bikin ku bi hêsanî di navbera hemî formatên belgeyên standard ên pîşesaziyê de di nav de Microsoft Office, PDF, HTML, wêne û gelekên din veguherînin."
     },
     "api2": {
       "title": "GroupDocs.Conversion Low Code APIs Include",
       "label": "Hemî API-yên Code Low-ê bibînin",
-      "product1_content": "Bi API-a veguheztina pelê cURL RESTful re bixebitin ku bi hêsanî Microsoft Office, PDF, E-name, Proje, HTML û pelên din ên pelê yên hevpar di serîlêdanên xwe de veguherînin.",
+      "product1_content": "Bi API-a veguheztina pelê ya cURL RESTful re bixebitin ku bi hêsanî Microsoft Office, PDF, Email, Proje, HTML û pelên din ên pelê yên hevpar di serîlêdanên xwe de veguherînin.",
       "product2_content": "Veguheztina pelê .NET REST API-ya ku bi hêsanî Microsoft Office, PDF, E-name, Proje, HTML û pelên din ên hevpar li ser her platformê bi karanîna Cloud SDK veguherîne.",
       "product3_content": "Serîlêdanên Java-ya xweya ewr-based bi taybetmendiyên veguheztina belgeyên pêşkeftî li ser her platformê ku bikaribe bangî API-yên REST bike dewlemend bikin."
     },

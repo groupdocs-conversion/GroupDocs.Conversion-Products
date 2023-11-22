@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Ejemplos de código",
+    "description": "Algunos casos de uso de operaciones típicas de GroupDocs.Conversion para .NET",
+    "sample_1": {
+      "title": "Convertir PDF a imagen",
+      "content_1": "Un escenario común implica convertir un documento PDF completo o páginas específicas en una colección de imágenes. GroupDocs.Conversion para .NET ofrece la capacidad de convertir archivos PDF a varios formatos de imagen, como TIFF, JPG, PNG, GIF, BMP y más.",
+      "content_2": "A diferencia de otras conversiones, este proceso requiere la declaración de un delegado SavePageStream, que especifica el formato de nombre de las imágenes guardadas. Puede seleccionar su formato de imagen preferido utilizando la clase ImageFileType.",
+      "code_title": "Convertir PDF a PNG en C#",
+      "comment_1": "Cargue el archivo PDF de origen",
+      "comment_2": "Configure las opciones de conversión y especifique el tipo de imagen de salida",
+      "comment_3": "Convierta cada página de un documento PDF a PNG"
+    },
+    "sample_2": {
+      "title": "Convertir un segmento de un documento grande",
+      "content_1": "Con GroupDocs.Conversion para .NET, puede convertir sin esfuerzo páginas específicas de un documento extenso.",
+      "content_2": "Tiene dos métodos para lograr esto, según sus requisitos. Puede convertir un rango de páginas o convertir páginas específicas.",
+      "code_title_1": "Convierta DOCX (páginas 2 a 4) a PDF en C#",
+      "comment_1": "Cargue el archivo DOCX de origen",
+      "comment_2": "Establezca las opciones de conversión y especifique el rango de páginas para renderizar",
+      "comment_3": "Convierta las páginas 2-4 a PDF"
+    },
+    "sample_3": {
+      "title": "Sintaxis fluida: un enfoque simplificado",
+      "content_1": "La sintaxis fluida ofrece una notación concisa para acciones comunes dentro de GroupDocs.Conversion para .NET API.",
+      "content_2": "Los ejemplos de código siguientes demuestran cómo aprovechar la sintaxis fluida:",
+      "code_title_1": "Convierta DOCX a PDF en C# usando una sintaxis fluida"
+    }
+  }
+}

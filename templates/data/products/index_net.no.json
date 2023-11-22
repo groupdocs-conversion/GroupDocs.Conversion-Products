@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} .NET Document Conversion API | Konverter PDF Word Excel PPTX HTML-bilder",
-    "description": "{{ProgLang}} .NET Document Conversion API. Konverter PDF Word DOC DOCX, Excel-regneark PPT PPTX, HTML, PSD, MPT MPP, E-post MSG EMLX, AutoCAD og bildefilformater."
+    "title": "{{ProgLang}} .NET dokumentkonverterings-API | Konverter PDF, Word, Excel, PPTX, HTML og bilder",
+    "description": "{{ProgLang}} .NET dokumentkonverterings-API. Konverter PDF, Word, DOC, DOCX, Excel, Regneark, PPT, PPTX, HTML, PSD, MPT, MPP, E-post, MSG, EMLX, AutoCAD og bildefilformater."
   },
   "header": {
-    "title": ".NET API for å konvertere 80+ filformater",
-    "description": "Enkelt API for å integrere dokument- og bildekonverteringsfunksjonalitet i .NET-applikasjoner uten å installere ekstern programvare.",
-    "button": {
-      "label": "Last ned gratis prøveversjon",
-      "link": "https://downloads.groupdocs.com/conversion/net"
+    "title_1": "Dokumentkonvertering",
+    "title_2": "via .NET API",
+    "description": "Kraftig konverterings-API for å konvertere PDF-, Microsoft Office-, HTML-, e-bok- og bildefiler",
+    "words": {
+      "for": "til"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Oversikt"
-      },
-      "button2": {
-        "text": "Funksjoner"
-      },
-      "button3": {
-        "text": "Brukerstøtte"
-      },
-      "button4": {
-        "text": "Live Demo"
-      },
-      "button5": {
-        "text": "Prissetting"
-      }
-    }
+  "actions": {
+    "main": "Gratis nedlasting av NuGet",
+    "alt": "Lisensering",
+    "title": "Klar til å komme i gang?",
+    "description": "Prøv GroupDocs.Conversion-funksjonene gratis eller be om en lisens"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} tilbyr enkle sett med APIer, som gjør det mulig for utviklere å bygge kraftige dokumentkonverteringsapplikasjoner i {{ProgLang}}, ASP.NET og andre .NET-relaterte teknologier. {{ProductFullName}} API gir rask, effektiv og pålitelig filkonverteringsløsning til sluttbrukerne. Den støtter å utføre nøyaktige konverteringer blant alle populære forretningsdokumentformater, inkludert: PDF, HTML, e-post, Microsoft Word-dokumenter, Excel-regneark, PowerPoint-presentasjoner, Project, Photoshop, CorelDraw, AutoCAD, diagrammer, rasterbildefilformater og mange flere. Dokumentkonverteringsbiblioteket oppdager automatisk kildedokumentformatet og gir deg all kontroll til å konvertere enten hele dokumentet eller bestemte sider til ønsket utdataformat. Det er enklere å erstatte manglende skrifttyper med foretrukne og legge til tekst- eller bildevannmerker på en hvilken som helst dokumentside.",
-    "content2": "{{ProductFullName}} kan brukes til å utvikle applikasjoner i ethvert utviklingsmiljø som er rettet mot .NET-plattformen. Den er kompatibel med alle .NET-baserte språk og støtter populære operativsystemer (Windows, Linux, MacOS) der Mono- eller .NET-rammeverk (inkludert .NET Core) kan installeres.",
-    "tab_one": {
-      "description": "Følgende er en oversikt over {{ProductFullName}}:",
-      "right": {
-        "title": "Oversikt",
-        "content1": "* Automatisk oppdage filtype",
-        "content2": "* Konverter dokumenter",
-        "content3": "* Konverter presentasjoner",
-        "content4": "* Konverter regneark",
-        "content5": "* Konverter rasterbilder",
-        "content6": "* Konverter PDF-dokumenter",
-        "content7": "* Konverter andre formater",
-        "content8": "* Påfør vannmerke",
-        "content9": "* Spesifiser filpassord",
-        "content10": "* Tilpass konvertering"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} støtter konvertering mellom alle populære og vanlig brukte [dokumentfilformater](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Konverter fra:",
-        "content1": "* **Dokumenter**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Regneark**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Presentasjoner**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Bilder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Bærbar**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTM, HTML, MHTML",
-        "content7": "* **Metafiler**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Prosjekt**: MPP, MPT, MPX",
-        "content10": "* **Outlook**: PST, OST",
-        "content11": "* **E-post**: MSG, EML, EMLX",
-        "content12": "* **Diagrammer**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Annet**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Konvertere til:",
-        "content1": "* **Dokumenter**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Regneark**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Presentasjoner**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Bilder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafiler**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagrammer**: SVGZ",
-        "content7": "* **Bærbar**: PDF, XPS",
-        "content8": "* **HTML**: HTM, HTML, MHTML",
-        "content9": "**Annet**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} støtter følgende operativsystemer, rammeverk og pakkeadministratorer:",
-      "left": {
-        "title1": "Operativsystemer",
-        "title2": "Støttede rammer"
-      },
-      "right": {
-        "title1": "Pakkebehandler",
-        "title2": "Utviklingsmiljøer"
-      }
-    }
-  },
-  "features": {
-    "title": "{{ProductFullName}}-funksjoner",
-    "content1": "Enkel integrasjon og målt lisensiering",
-    "content2": "Angi standard zoomalternativ når du konverterer til ord, lysbilder eller celler",
-    "content3": "Konverter til/fra alle populære rasterbildeformater og tildel bilde-DPI, høyde og bredde",
-    "content4": "Konverter PDF og bilde til gråtoner og lineariser PDF-dokument for nettet",
-    "content5": "Spesifiser bokmerkenivå, overskriftsnivå og utvidet nivå i Word til PDF/XPS-konvertering",
-    "content6": "Konfigurer og plasser vannmerke i konvertert dokument som bakgrunn for visning bak tekst",
-    "content7": "Gjengi e-posthode under konvertering fra e-post",
-    "content8": "Angi egendefinerte fontkataloger og eksplisitt last inn/erstatt skrift under dokumentkonvertering",
-    "content9": "Angi standardfont for å erstatte manglende skrifter for konvertering av dokumenter, lysbilder og regneark",
-    "content10": "Avanserte konverteringsmetoder for å returnere utdata som bane eller IO-strøm",
-    "content11": "Konverter regneark med rutenettlinjer og fjern kommentarer fra lysbilder under konvertering",
-    "content12": "Konverter spesifikke dokumentsider som PDF-format og konverter spesifikt celleområde i regneark",
-    "content13": "Vis skjulte ark og hopp over tomme rader og kolonner mens du konverterer regneark",
-    "content14": "Tell totalt antall sider i et dokument og angi passord til ubeskyttet dokument under konvertering",
-    "content15": "Alternativ for å fjerne merknader og innebygde filer fra PDF",
-    "content16": "Lag HTML 5-kompatibel markering ved konvertering til HTML",
-    "content17": "Oppdag kildetype automatisk og returner alle mulige konverteringer ved konvertering fra strøm",
-    "content18": "Evne til å returnere hver side i separat strøm mens du konverterer til PDF eller HTML",
-    "content19": "Vis/skjul markeringer, kommentarer og spor endringer mens du konverterer fra Word",
-    "content20": "DOCX til Tiff G3-konvertering med skyggealternativ",
-    "content21": "Konverter spesifikke layouter ved konvertering fra CAD-dokument",
-    "content22": "Automatisk navngivning ved lagring av konvertert dokument til fil",
-    "content23": "Metered Licensing Støttes for å bli fakturert basert på bruken av API",
-    "content24": "Konverter diagrammer til tekstbehandlingsfilformater",
-    "content25": "Legg til sidetall mens du konverterer HTML til tekstbehandlingsdokument",
-    "content26": "Konverter XML-dokumenter til hvilket som helst format uten transformasjon",
-    "content27": "Overvåk filkonverteringsfremdriften (start, slutt) direkte fra klientsiden",
-    "more_feature": {
-      "title1": "Konverter enkelt dokumentformater",
-      "content1": "Ved å bruke {{ProductFullName}} er det veldig enkelt å konvertere dokumentfilformat. Følgende eksempel viser deg hvordan du konverterer en PDF-fil til en DOC-fil ved å bruke {{ProgLang}}:",
-      "step_1": "Opprett en forekomst av Converter-klassen og gi filen den fullstendige banen",
-      "step_2": "Opprett og sett ConvertOptions for ønsket måltype.",
-      "step_3": "Kall Converter.Convert-metoden og send hele banen og formatet som en parameter",
-      "title2": "Konvertering til bildeformater",
-      "content2": "{{ProductFullName}} kan brukes til å utvikle applikasjoner i ethvert utviklingsmiljø som er rettet mot .NET-plattformen. Den er kompatibel med alle .NET-baserte språk og støtter populære operativsystemer (Windows, Linux, MacOS) der Mono- eller .NET-rammeverk (inkludert .NET Core) kan installeres.",
-      "title3": "Støtter ulike PDF-formattyper",
-      "content3": "{{ProductFullName}} API støtter dokumentkonvertering til følgende PDF-typer/formater:"
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion tilbyr API-er for dokumentkonvertering for andre populære utviklingsmiljøer",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion for Java",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
-      "platform": "Java",
-      "link": "/conversion/java/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Last inn kildefilen {{FROM}} for konvertering",
-      "prepare_comment": "Forbered konverteringsalternativer for målformatet {{TO}}",
-      "convert_comment": "Konverter til formatet {{TO}}"
-    }
+  "release": {
+    "title": "Versjon {0}  utgitt",
+    "notes": "Se hva som er nytt",
+    "downloads": "Nedlastinger"
   }
 }

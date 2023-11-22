@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Fonctionnalités GroupDocs.Conversion",
+    "description": "Convertissez en toute transparence des documents PDF et bureautiques en HTML, JPG, PNG, BMP, TIFF, SVG et bien d'autres formats. L'API GroupDocs.Conversion pour Java est conçue pour être facile à utiliser et à intégrer dans votre projet. Il prend en charge tous les formats de documents courants avec la possibilité de personnaliser le processus de conversion.",
+    "feature_1": {
+      "title": "Conversion multiformat",
+      "content": "Convertissez facilement des fichiers entre différents formats, notamment PDF, DOCX, XLSX, PPTX, etc."
+    },
+    "feature_2": {
+      "title": "Sortie haute fidélité",
+      "content": "Préservez la qualité et le formatage d’origine des documents pendant le processus de conversion."
+    },
+    "feature_3": {
+      "title": "Conversion de plusieurs fichiers",
+      "content": "Convertissez plusieurs fichiers et combinez-les dans une archive, simplifiant ainsi l'organisation du contenu converti."
+    },
+    "feature_4": {
+      "title": "Document multipage en images",
+      "content": "Convertissez des documents multipages en images page par page, permettant un contrôle précis du processus de transformation et facilitant l'extraction et l'analyse de documents basés sur des images."
+    },
+    "feature_5": {
+      "title": "Paramètres personnalisables",
+      "content": "Affinez les paramètres de conversion tels que la résolution, la qualité et la mise en page pour répondre à des exigences spécifiques."
+    },
+    "feature_6": {
+      "title": "Traitement sécurisé",
+      "content": "Garantissez la confidentialité des données grâce aux options de conversion de fichiers protégées par mot de passe."
+    },
+    "feature_7": {
+      "title": "Intégration API",
+      "content": "Intégrez de manière transparente les capacités de conversion dans vos applications Java, ce qui en fait une partie transparente de votre flux de travail."
+    },
+    "feature_8": {
+      "title": "Conversion robuste",
+      "content": "Assurez des conversions de fichiers fiables et sans erreurs, garantissant l’exactitude et l’intégrité de vos documents transformés."
+    },
+    "feature_9": {
+      "title": "Convertir des documents à partir d'archives",
+      "content": "Extrayez et convertissez des documents à partir d'archives, permettant la transformation du contenu stocké dans des fichiers compressés."
+    }
+  }
+}

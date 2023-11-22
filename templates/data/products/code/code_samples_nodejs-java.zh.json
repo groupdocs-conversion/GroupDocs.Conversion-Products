@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "代码示例",
+    "description": "通过 Java 操作进行 Node.js 的典型 GroupDocs.Conversion 的一些用例",
+    "sample_1": {
+      "title": "将 PDF 转换为图像",
+      "content_1": "常见的情况是将整个 PDF 文档或特定页面转换为图像集合。 GroupDocs.Conversion for Node.js via Java 提供将 PDF 转换为各种图像格式的功能，例如 TIFF、JPG、PNG、GIF、BMP 等。",
+      "content_2": "您可以使用 ImageFileType 类选择您喜欢的图像格式。",
+      "code_title": "在 JavaScript 中将 PDF 转换为 PNG",
+      "comment_1": "加载源 PDF 文件",
+      "comment_2": "设置转换选项并指定输出图像类型",
+      "comment_3": "将 PDF 文档的每一页转换为 PNG"
+    },
+    "sample_2": {
+      "title": "转换大文档的一部分",
+      "content_1": "借助 Java 的 GroupDocs.Conversion for Node.js，您可以轻松地从冗长的文档中转换特定页面。",
+      "content_2": "根据您的要求，您有两种方法可以实现此目的。您可以转换一系列页面或转换特定页面。",
+      "code_title_1": "在 JavaScript 中将 DOCX（第 2-4 页）转换为 PDF",
+      "comment_1": "加载源 DOCX 文件",
+      "comment_2": "设置转换选项并指定要渲染的页面范围",
+      "comment_3": "将第 2-4 页转换为 PDF"
+    }
+  }
+}

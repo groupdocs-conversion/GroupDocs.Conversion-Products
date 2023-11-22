@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Ukázky kódu",
+    "description": "Některé případy použití typické GroupDocs.Conversion pro Node.js prostřednictvím operací Java",
+    "sample_1": {
+      "title": "Převést PDF na obrázek",
+      "content_1": "Běžně se vyskytující scénář zahrnuje převod celého dokumentu PDF nebo konkrétních stránek na kolekci obrázků. GroupDocs.Conversion for Node.js přes Java nabízí možnost převádět soubory PDF do různých obrazových formátů, jako jsou TIFF, JPG, PNG, GIF, BMP a další.",
+      "content_2": "Upřednostňovaný formát obrázku můžete vybrat pomocí třídy ImageFileType.",
+      "code_title": "Převod PDF do PNG v JavaScriptu",
+      "comment_1": "Načtěte zdrojový soubor PDF",
+      "comment_2": "Nastavte možnosti převodu a určete typ výstupního obrazu",
+      "comment_3": "Převeďte každou stránku dokumentu PDF do formátu PNG"
+    },
+    "sample_2": {
+      "title": "Převeďte segment velkého dokumentu",
+      "content_1": "S GroupDocs.Conversion for Node.js přes Java můžete bez námahy převádět konkrétní stránky z dlouhého dokumentu.",
+      "content_2": "Máte dva způsoby, jak toho dosáhnout, v závislosti na vašich požadavcích. Můžete buď převést rozsah stránek, nebo převést konkrétní stránky.",
+      "code_title_1": "Převeďte DOCX (strany 2-4) do PDF v JavaScriptu",
+      "comment_1": "Načtěte zdrojový soubor DOCX",
+      "comment_2": "Nastavte možnosti převodu a určete rozsah stránek, které se mají vykreslit",
+      "comment_3": "Převeďte stránky 2-4 do PDF"
+    }
+  }
+}

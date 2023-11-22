@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion i ett ögonkast",
+    "description": "Utforska API:ets funktioner för snabb och felfri konvertering av PDF-, Microsoft Office-, HTML-, eBook- och bildfiler i Java-applikationer",
+    "feature_1": {
+      "title": "Effektiviserad konvertering",
+      "description": "Med GroupDocs.Conversion API kan du enkelt konvertera dokument i olika format till PDF, Microsoft Office, HTML, eBook och bildfiler. API ger flexibla och robusta alternativ, vilket säkerställer integriteten hos innehållet och dokumentstrukturen under hela konverteringsprocessen."
+    },
+    "feature_2": {
+      "title": "Enkel växling mellan format",
+      "description": "Processen att använda GroupDocs.Conversion API är otroligt enkel och kräver bara en metod och en uppsättning alternativ för att enkelt växla mellan olika format."
+    },
+    "feature_3": {
+      "title": "Plattformsöverskridande kompatibilitet",
+      "description": "Utforska en konverteringslösning med inneboende plattformsoberoende kompatibilitet som tillgodoser den bredare användarbasen och säkerställer optimal prestanda i olika miljöer för alla dina dokumentkonverteringskrav."
+    }
+  }
+}

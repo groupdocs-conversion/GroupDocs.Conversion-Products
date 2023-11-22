@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Codevoorbeelden",
+    "description": "Enkele gebruiksscenario's van typische GroupDocs.Conversion voor Java-bewerkingen",
+    "sample_1": {
+      "title": "Converteer PDF naar afbeelding",
+      "content_1": "Een veel voorkomend scenario is het converteren van een volledig PDF-document of specifieke pagina's naar een verzameling afbeeldingen. GroupDocs.Conversion voor Java biedt de mogelijkheid om PDF's te converteren naar verschillende afbeeldingsformaten, zoals TIFF, JPG, PNG, GIF, BMP en meer.",
+      "content_2": "U kunt het gewenste afbeeldingsformaat selecteren met behulp van de klasse ImageFileType.",
+      "code_title": "PDF naar PNG converteren in Java",
+      "comment_1": "Laad het bron-PDF-bestand",
+      "comment_2": "Stel de conversieopties in en geef het type uitvoerafbeelding op",
+      "comment_3": "Converteer elke pagina van een PDF-document naar PNG"
+    },
+    "sample_2": {
+      "title": "Converteer een segment van een groot document",
+      "content_1": "Met GroupDocs.Conversion voor Java kunt u moeiteloos specifieke pagina's uit een lang document converteren.",
+      "content_2": "U kunt dit op twee manieren doen, afhankelijk van uw vereisten. U kunt een reeks pagina's converteren of specifieke pagina's converteren.",
+      "code_title_1": "Converteer DOCX (pagina's 2-4) naar PDF in Java",
+      "comment_1": "Laad het bron-DOCX-bestand",
+      "comment_2": "Stel de conversieopties in en specificeer het paginabereik dat moet worden weergegeven",
+      "comment_3": "Converteer pagina's 2-4 naar PDF"
+    }
+  }
+}

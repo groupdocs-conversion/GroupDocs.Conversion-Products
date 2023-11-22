@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Exemple de cod",
+    "description": "Unele cazuri de utilizare ale operațiunilor tipice GroupDocs.Conversion pentru Java",
+    "sample_1": {
+      "title": "Convertiți PDF în imagine",
+      "content_1": "Un scenariu întâlnit frecvent implică conversia unui întreg document PDF sau a unor pagini specifice într-o colecție de imagini. GroupDocs.Conversion pentru Java oferă capacitatea de a converti PDF-uri în diferite formate de imagine, cum ar fi TIFF, JPG, PNG, GIF, BMP și multe altele.",
+      "content_2": "Puteți selecta formatul de imagine preferat folosind clasa ImageFileType.",
+      "code_title": "Conversia PDF în PNG în Java",
+      "comment_1": "Încărcați fișierul PDF sursă",
+      "comment_2": "Setați opțiunile de conversie și specificați tipul de imagine de ieșire",
+      "comment_3": "Convertiți fiecare pagină a documentului PDF în PNG"
+    },
+    "sample_2": {
+      "title": "Convertiți un segment dintr-un document mare",
+      "content_1": "Cu GroupDocs.Conversion pentru Java, puteți converti fără efort anumite pagini dintr-un document lung.",
+      "content_2": "Aveți două metode pentru a realiza acest lucru, în funcție de cerințele dvs. Puteți fie să convertiți o serie de pagini, fie să convertiți anumite pagini.",
+      "code_title_1": "Convertiți DOCX (paginile 2-4) în PDF în Java",
+      "comment_1": "Încărcați fișierul DOCX sursă",
+      "comment_2": "Setați opțiunile de conversie și specificați intervalul de pagini de randat",
+      "comment_3": "Convertiți paginile 2-4 în PDF"
+    }
+  }
+}

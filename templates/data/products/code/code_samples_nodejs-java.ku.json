@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Nimûneyên kodê",
+    "description": "Hin rewşên tîpîk GroupDocs.Conversion ji bo Node.js bi navgîniya operasyonên Java bikar tînin",
+    "sample_1": {
+      "title": "PDF-ê bi wêneyê veguherînin",
+      "content_1": "Senaryoyek ku bi gelemperî rû bi rû tê veguheztina tevahiya belgeyek PDF-ê an rûpelên taybetî li berhevokek wêneyan vedigire. GroupDocs.Conversion ji bo Node.js bi Java-yê ve kapasîteya veguheztina PDF-an di formên wêneya cihêreng, wek TIFF, JPG, PNG, GIF, BMP, û hêj bêtir pêşkêşî dike.",
+      "content_2": "Hûn dikarin bi karanîna çîna ImageFileType formata wêneya xweya bijare hilbijêrin.",
+      "code_title": "Veguheztina PDF-ê li PNG-ê di JavaScriptê de",
+      "comment_1": "Pelê PDF-a çavkaniyê bar bikin",
+      "comment_2": "Vebijarkên veguherînê bicîh bikin û celebê wêneya encam diyar bikin",
+      "comment_3": "Her rûpelek belgeya PDF-ê veguherîne PNG"
+    },
+    "sample_2": {
+      "title": "Parçeyek belgeyek mezin biguherînin",
+      "content_1": "Bi GroupDocs.Conversion ji bo Node.js bi Java-yê, hûn dikarin bi hêsanî rûpelên taybetî ji belgeyek dirêj veguherînin.",
+      "content_2": "Du awayên we hene ku hûn vê yekê pêk bînin, li gorî daxwazên we. Hûn dikarin rêzek rûpelan veguherînin an jî rûpelên taybetî veguherînin.",
+      "code_title_1": "DOCX-ê (rûpelên 2-4) bi JavaScript-ê veguherînin PDF",
+      "comment_1": "Pelê çavkaniyê DOCX barkirin",
+      "comment_2": "Vebijarkên veguherînê bicîh bikin û rêza rûpelên ku werin pêşkêş kirin diyar bikin",
+      "comment_3": "Rûpelên 2-4 veguherînin PDF"
+    }
+  }
+}

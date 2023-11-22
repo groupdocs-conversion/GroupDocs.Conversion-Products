@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion 개요",
+    "description": ".NET 애플리케이션 내에서 PDF, Microsoft Office, HTML, eBook 및 이미지 파일을 신속하고 완벽하게 변환하기 위한 API 기능을 살펴보세요.",
+    "feature_1": {
+      "title": "간소화된 변환",
+      "description": "GroupDocs.Conversion API를 사용하면 다양한 형식의 문서를 PDF, Microsoft Office, HTML, eBook 및 이미지 파일로 쉽게 변환할 수 있습니다. API는 유연하고 강력한 옵션을 제공하여 변환 프로세스 전반에 걸쳐 콘텐츠와 문서 구조의 무결성을 보장합니다."
+    },
+    "feature_2": {
+      "title": "형식 간 간편한 전환",
+      "description": "GroupDocs.Conversion API를 사용하는 프로세스는 매우 간단합니다. 단 하나의 방법과 다양한 형식 간에 쉽게 전환할 수 있는 옵션 세트가 필요합니다."
+    },
+    "feature_3": {
+      "title": "플랫폼 간 호환성",
+      "description": "광범위한 사용자 기반을 충족하고 모든 문서 변환 요구 사항에 대해 다양한 환경에서 최적의 성능을 보장하는 고유한 교차 플랫폼 호환성을 갖춘 변환 솔루션을 살펴보세요."
+    }
+  }
+}

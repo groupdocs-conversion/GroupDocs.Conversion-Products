@@ -1,155 +1,25 @@
 {
   "head": {
-    "title": "{{ProgLang}} API di conversione dei documenti .NET | Converti immagini PDF Word Excel PPTX HTML",
-    "description": "{{ProgLang}} API di conversione dei documenti .NET. Converti PDF Word DOC DOCX, fogli di calcolo Excel PPT PPTX, HTML, PSD, MPT MPP, e-mail MSG EMLX, AutoCAD e formati di file immagine."
+    "title": "{{ProgLang}} API di conversione documenti .NET | Converti PDF, Word, Excel, PPTX, HTML e immagini",
+    "description": "{{ProgLang}} API di conversione di documenti .NET. Converti PDF, Word, DOC, DOCX, Excel, fogli di calcolo, PPT, PPTX, HTML, PSD, MPT, MPP, email, MSG, EMLX, AutoCAD e formati di file immagine."
   },
   "header": {
-    "title": "API .NET per convertire oltre 80 formati di file",
-    "description": "API semplice per integrare la funzionalità di conversione di documenti e immagini nelle applicazioni .NET senza installare alcun software esterno.",
-    "button": {
-      "label": "Scarica la prova gratuita",
-      "link": "https://downloads.groupdocs.com/conversion/net"
+    "title_1": "Conversione di documenti",
+    "title_2": "tramite l'API .NET",
+    "description": "Potente API di conversione per convertire file PDF, Microsoft Office, HTML, eBook e immagini",
+    "words": {
+      "for": "per"
     }
   },
-  "submenu": {
-    "middle": {
-      "button1": {
-        "text": "Panoramica"
-      },
-      "button2": {
-        "text": "Caratteristiche"
-      },
-      "button3": {
-        "text": "Supporto"
-      },
-      "button4": {
-        "text": "Dimostrazione dal vivo"
-      },
-      "button5": {
-        "text": "Prezzo"
-      }
-    }
+  "actions": {
+    "main": "Download gratuito di NuGet",
+    "alt": "Licenza",
+    "title": "Pronto per iniziare?",
+    "description": "Prova gratuitamente le funzionalità di GroupDocs.Conversion o richiedi una licenza"
   },
-  "overview": {
-    "content1": "{{ProductFullName}} offre un semplice set di API, consentendo agli sviluppatori di creare potenti applicazioni di conversione dei documenti in {{ProgLang}}, ASP.NET e altre tecnologie correlate a .NET. L'API {{ProductFullName}} fornisce una soluzione di conversione file veloce, efficiente e affidabile ai tuoi utenti finali. Supporta l'esecuzione di conversioni accurate tra tutti i formati di documenti aziendali più diffusi, tra cui: PDF, HTML, e-mail, documenti Microsoft Word, fogli di calcolo Excel, presentazioni PowerPoint, Project, Photoshop, CorelDraw, AutoCAD, diagrammi, formati di file di immagini raster e molti altri. La libreria del convertitore di documenti rileva automaticamente il formato del documento di origine e ti offre tutto il controllo per convertire l'intero documento o pagine specifiche nel formato di output desiderato. È più facile sostituire i caratteri mancanti con quelli preferiti e aggiungere filigrane di testo o immagini a qualsiasi pagina del documento.",
-    "content2": "{{ProductFullName}} può essere utilizzato per sviluppare applicazioni in qualsiasi ambiente di sviluppo destinato alla piattaforma .NET. È compatibile con tutti i linguaggi basati su .NET e supporta i sistemi operativi più diffusi (Windows, Linux, MacOS) in cui è possibile installare framework Mono o .NET (incluso .NET Core).",
-    "tab_one": {
-      "description": "Di seguito è riportata una panoramica di {{ProductFullName}}:",
-      "right": {
-        "title": "Panoramica",
-        "content1": "* Rileva automaticamente il tipo di file",
-        "content2": "* Converti documenti",
-        "content3": "* Converti presentazioni",
-        "content4": "* Converti fogli di calcolo",
-        "content5": "* Converti immagini raster",
-        "content6": "* Converti documenti PDF",
-        "content7": "* Converti altri formati",
-        "content8": "* Applica filigrana",
-        "content9": "* Specificare la password del file",
-        "content10": "* Personalizza la conversione"
-      }
-    },
-    "tab_two": {
-      "description": "{{ProductFullName}} supporta la conversione tra tutti i [formati di file di documenti] più diffusi e comunemente usati (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
-      "left": {
-        "title": "Converti da:",
-        "content1": "* **Documenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Fogli di calcolo**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
-        "content3": "* **Presentazioni**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Immagini**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
-        "content5": "* **Portatile**: PDF, XPS, OXPS, EPUB",
-        "content6": "* **HTML**: HTML, HTML, MHTML",
-        "content7": "* **Metafile**: EMZ, WMZ",
-        "content8": "* **PhotoShop**: PSD",
-        "content9": "* **Progetto**: MPP, MPT, MPX",
-        "content10": "* **Prospettiva**: PST, OST",
-        "content11": "* **E-mail**: MSG, EML, EMLX",
-        "content12": "* **Diagrammi**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
-        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
-        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
-        "content15": "* **CorelDRAW**: CDR, CMX",
-        "content16": "* **Altro**: VCF, PLT, LGS, OTG, MD, AI, LOG"
-      },
-      "right": {
-        "title": "Convertire in:",
-        "content1": "* **Documenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
-        "content2": "* **Fogli di calcolo**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
-        "content3": "* **Presentazioni**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
-        "content4": "* **Immagini**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
-        "content5": "* **Metafile**: EMF, WMF, EMZ, WMZ",
-        "content6": "* **Diagrammi**: SVGZ",
-        "content7": "* **Portatile**: PDF, XPS",
-        "content8": "* **HTML**: HTML, HTML, MHTML",
-        "content9": "* **Altro**: MD"
-      }
-    },
-    "tab_three": {
-      "description": "{{ProductFullName}} supporta i seguenti sistemi operativi, framework e gestori di pacchetti:",
-      "left": {
-        "title1": "Sistemi operativi",
-        "title2": "Framework supportati"
-      },
-      "right": {
-        "title1": "Gestore di pacchetti",
-        "title2": "Ambienti di sviluppo"
-      }
-    }
-  },
-  "features": {
-    "title": "{{ProductFullName}} Funzionalità",
-    "content1": "Facile integrazione e licenza a consumo",
-    "content2": "Imposta l'opzione di zoom predefinita durante la conversione in parole, diapositive o celle",
-    "content3": "Converti in/da tutti i formati di immagine raster più diffusi e assegna DPI, altezza e larghezza all'immagine",
-    "content4": "Converti PDF e immagini in scala di grigi e linearizza documenti PDF per il Web",
-    "content5": "Specifica il livello del segnalibro, il livello dell'intestazione e il livello esteso nella conversione da Word a PDF/XPS",
-    "content6": "Configura e posiziona la filigrana nel documento convertito come sfondo da visualizzare dietro il testo",
-    "content7": "Rendering dell'intestazione dell'e-mail durante la conversione dall'e-mail",
-    "content8": "Imposta directory dei caratteri personalizzati e carica/sostituisci esplicitamente i caratteri durante la conversione del documento",
-    "content9": "Imposta il carattere predefinito per sostituire i caratteri mancanti per la conversione di documenti, diapositive e fogli di calcolo",
-    "content10": "Metodi di conversione avanzati per restituire l'output come percorso o flusso IO",
-    "content11": "Converti foglio di lavoro con linee della griglia e rimuovi commenti dalle diapositive durante la conversione",
-    "content12": "Converti pagine di documenti specifici in formato PDF e converti intervalli di celle specifici in fogli di calcolo",
-    "content13": "Mostra fogli nascosti e salta righe e colonne vuote durante la conversione di fogli di calcolo",
-    "content14": "Conta le pagine totali di un documento e imposta la password su un documento non protetto durante la conversione",
-    "content15": "Opzione per rimuovere annotazioni e file incorporati da PDF",
-    "content16": "Crea markup conforme a HTML 5 durante la conversione in HTML",
-    "content17": "Rileva automaticamente il tipo di origine e restituisce tutte le conversioni possibili durante la conversione da Stream",
-    "content18": "Possibilità di restituire ogni pagina in un flusso separato durante la conversione in PDF o HTML",
-    "content19": "Mostra/Nascondi markup, commenti e traccia modifiche durante la conversione da Word",
-    "content20": "Conversione da DOCX a Tiff G3 con opzione di ombreggiatura",
-    "content21": "Converti layout specifici durante la conversione da documento CAD",
-    "content22": "Denominazione automatica durante il salvataggio del documento convertito in file",
-    "content23": "Licenze a consumo supportate per la fatturazione in base all'utilizzo dell'API",
-    "content24": "Converti diagrammi in formati di file di elaborazione testi",
-    "content25": "Aggiungi numeri di pagina durante la conversione di HTML in documenti di elaborazione testi",
-    "content26": "Converti documenti XML in qualsiasi formato senza trasformazione",
-    "content27": "Monitora l'avanzamento della conversione dei file (inizio, fine) direttamente dall'applicazione lato client",
-    "more_feature": {
-      "title1": "Converti facilmente i formati dei documenti",
-      "content1": "Utilizzando {{ProductFullName}}, convertire il formato del file del documento è molto semplice. L'esempio seguente mostra come convertire un file PDF in un file DOC utilizzando {{ProgLang}}:",
-      "step_1": "Crea un'istanza della classe Converter e fornisci al file il percorso completo",
-      "step_2": "Crea e imposta ConvertOptions per il tipo di destinazione desiderato.",
-      "step_3": "Chiama il metodo Converter.Convert e passa il percorso completo e il formato come parametro",
-      "title2": "Conversione in formati immagine",
-      "content2": "{{ProductFullName}} può essere utilizzato per sviluppare applicazioni in qualsiasi ambiente di sviluppo destinato alla piattaforma .NET. È compatibile con tutti i linguaggi basati su .NET e supporta i sistemi operativi più diffusi (Windows, Linux, MacOS) in cui è possibile installare framework Mono o .NET (incluso .NET Core).",
-      "title3": "Supporta vari tipi di formato PDF",
-      "content3": "L'API {{ProductFullName}} supporta la conversione dei documenti nei seguenti tipi/formati PDF:"
-    }
-  },
-  "solutions": {
-    "title": "GroupDocs.Conversion offre API di conversione dei documenti per altri ambienti di sviluppo popolari",
-    "solution": {
-      "img_alt": "GroupDocs.Conversion per Java",
-      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
-      "platform": "Giava",
-      "link": "/conversione/java/"
-    }
-  },
-  "steps": {
-    "code": {
-      "load_comment": "Carica il file di origine {{FROM}} per la conversione",
-      "prepare_comment": "Prepara le opzioni di conversione per il formato target {{TO}}",
-      "convert_comment": "Converti nel formato {{TO}}"
-    }
+  "release": {
+    "title": "Versione {0} rilasciata",
+    "notes": "Scopri le novità",
+    "downloads": "Download"
   }
 }

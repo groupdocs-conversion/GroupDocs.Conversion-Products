@@ -12,13 +12,14 @@
       "title": "GroupDocs.Conversion High Code API:t sisältävät",
       "label": "Näytä kaikki High Code API:t",
       "product1_content": "Alkuperäinen .NET-sovellusliittymä muuntaa asiakirjoja ja kuvatiedostomuotoja tarkasti kaikentyyppisissä .NET-sovelluksissa. Tukee kuvien vesileimojen lisäämistä muuntamisen aikana.",
-      "product2_content": "Salli Java-sovellusten muuntaminen helposti kaikkien alan standardidokumenttimuotojen välillä, mukaan lukien Microsoft Office, PDF, HTML, kuvat ja monet muut."
+      "product2_content": "Salli Java-sovellusten muuntaminen helposti kaikkien alan standardidokumenttimuotojen välillä, mukaan lukien Microsoft Office, PDF, HTML, kuvat ja monet muut.",
+      "product3_content": "Salli JavaScript-sovellusten muuntaminen helposti kaikkien alan standardidokumenttimuotojen välillä, mukaan lukien Microsoft Office, PDF, HTML, kuvat ja monet muut."
     },
     "api2": {
       "title": "GroupDocs.Conversion Low Code API:t sisältävät",
       "label": "Näytä kaikki Low Code API:t",
-      "product1_content": "Työskentele cURL RESTful -tiedostojen muunnossovellusliittymän kanssa muuntaessasi helposti Microsoft Officen, PDF:n, sähköpostin, Projectin, HTML:n ja muita yleisiä tiedostomuotoja sovelluksissasi.",
-      "product2_content": ".NET-tiedostomuunnos REST-sovellusliittymä muuntaa helposti Microsoft Officen, PDF:n, sähköpostin, Projectin, HTML:n ja muut yleiset tiedostomuodot millä tahansa alustalla Cloud SDK:n avulla.",
+      "product1_content": "Työskentele cURL RESTful -tiedostomuunnossovellusliittymän kanssa muuntaessasi helposti Microsoft Officen, PDF:n, sähköpostin, Projectin, HTML:n ja muut yleiset tiedostomuodot sovelluksissasi.",
+      "product2_content": ".NET-tiedostojen muunnos REST-sovellusliittymä muuntaa helposti Microsoft Officen, PDF:n, sähköpostin, Projectin, HTML:n ja muita yleisiä tiedostomuotoja millä tahansa alustalla Cloud SDK:n avulla.",
       "product3_content": "Rikastuta pilvipohjaisia ​​Java-sovelluksiasi edistyneillä asiakirjojen muunnosominaisuuksilla millä tahansa alustalla, joka pystyy kutsumaan REST-sovellusliittymiä."
     },
     "api3": {

@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Amostras de código",
+    "description": "Alguns casos de uso de operações típicas de GroupDocs.Conversion para .NET",
+    "sample_1": {
+      "title": "Converter PDF em imagem",
+      "content_1": "Um cenário comumente encontrado envolve a conversão de um documento PDF inteiro ou de páginas específicas em uma coleção de imagens. GroupDocs.Conversion for .NET oferece a capacidade de converter PDFs em vários formatos de imagem, como TIFF, JPG, PNG, GIF, BMP e muito mais.",
+      "content_2": "Ao contrário de outras conversões, este processo requer a declaração de um delegado SavePageStream, que especifica o formato de nomenclatura das imagens salvas. Você pode selecionar seu formato de imagem preferido usando a classe ImageFileType.",
+      "code_title": "Converter PDF em PNG em C#",
+      "comment_1": "Carregue o arquivo PDF de origem",
+      "comment_2": "Defina as opções de conversão e especifique o tipo de imagem de saída",
+      "comment_3": "Converta cada página do documento PDF para PNG"
+    },
+    "sample_2": {
+      "title": "Converter um segmento de um documento grande",
+      "content_1": "Com GroupDocs.Conversion for .NET, você pode converter facilmente páginas específicas de um documento extenso.",
+      "content_2": "Você tem dois métodos para fazer isso, dependendo de seus requisitos. Você pode converter um intervalo de páginas ou converter páginas específicas.",
+      "code_title_1": "Converta DOCX (páginas 2 a 4) em PDF em C#",
+      "comment_1": "Carregue o arquivo DOCX de origem",
+      "comment_2": "Defina as opções de conversão e especifique o intervalo de páginas a serem renderizadas",
+      "comment_3": "Converta as páginas 2 a 4 em PDF"
+    },
+    "sample_3": {
+      "title": "Sintaxe fluente: uma abordagem simplificada",
+      "content_1": "A sintaxe fluente oferece uma notação concisa para ações comuns na API GroupDocs.Conversion for .NET.",
+      "content_2": "Os exemplos de código abaixo demonstram como aproveitar a sintaxe fluente:",
+      "code_title_1": "Converta DOCX para PDF em C# usando sintaxe fluente"
+    }
+  }
+}

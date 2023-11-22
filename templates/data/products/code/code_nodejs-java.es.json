@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Cómo convertir archivos PDF en JavaScript",
+    "more": "Más ejemplos",
+    "notes": "Ver qué hay de nuevo",
+    "comment_1": "Cargue el archivo PDF de origen",
+    "comment_2": "Establecer las opciones de conversión para el formato DOCX",
+    "comment_3": "Convertir a formato DOCX"
+  }
+}

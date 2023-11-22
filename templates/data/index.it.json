@@ -1,36 +1,37 @@
 {
   "head": {
     "title": ".NET, Java, API cloud e app di conversione documenti di GroupDocs",
-    "description": "Converti i formati di documenti e file immagine più diffusi su qualsiasi piattaforma con soluzioni basate su app e API."
+    "description": "Converti i formati di file di documenti e immagini più diffusi su qualsiasi piattaforma con soluzioni basate su app e API."
   },
   "header": {
-    "title": "Soluzione di conversione di documenti e immagini",
-    "description": "Converti i formati di documenti e file immagine più diffusi su qualsiasi piattaforma con soluzioni basate su app e API."
+    "title": "Soluzione per la conversione di documenti e immagini",
+    "description": "Converti i formati di file di documenti e immagini più diffusi su qualsiasi piattaforma con soluzioni basate su app e API."
   },
   "apis": {
     "api1": {
-      "title": "Le API di GroupDocs.Conversion High Code includono",
+      "title": "Le API ad alto codice GroupDocs.Conversion includono",
       "label": "Visualizza tutte le API High Code",
       "product1_content": "API .NET nativa per convertire accuratamente documenti e formati di file immagine in qualsiasi tipo di applicazione .NET. Supporta l'aggiunta di filigrane di immagini durante la conversione.",
-      "product2_content": "Consenti alle tue applicazioni Java di convertire facilmente tra tutti i formati di documenti standard del settore, inclusi Microsoft Office, PDF, HTML, immagini e molti altri."
+      "product2_content": "Consenti alle tue applicazioni Java di convertire facilmente tra tutti i formati di documenti standard del settore, inclusi Microsoft Office, PDF, HTML, immagini e molti altri.",
+      "product3_content": "Abilita le tue applicazioni JavaScript a convertire facilmente tra tutti i formati di documenti standard del settore, inclusi Microsoft Office, PDF, HTML, immagini e molti altri."
     },
     "api2": {
-      "title": "Le API a basso codice GroupDocs.Conversion includono",
-      "label": "Visualizza tutte le API a basso codice",
-      "product1_content": "Lavora con l'API di conversione file RESTful cURL per convertire facilmente Microsoft Office, PDF, e-mail, Project, HTML e altri formati di file comuni nelle tue applicazioni.",
+      "title": "Le API GroupDocs.Conversion a basso codice includono",
+      "label": "Visualizza tutte le API Low Code",
+      "product1_content": "Lavora con l'API di conversione file RESTful di cURL per convertire facilmente Microsoft Office, PDF, Email, Project, HTML e altri formati di file comuni nelle tue applicazioni.",
       "product2_content": "API REST di conversione file .NET per convertire facilmente Microsoft Office, PDF, e-mail, Project, HTML e altri formati di file comuni su qualsiasi piattaforma utilizzando Cloud SDK.",
-      "product3_content": "Arricchisci le tue applicazioni Java basate su cloud con funzionalità avanzate di conversione dei documenti su qualsiasi piattaforma in grado di chiamare le API REST."
+      "product3_content": "Arricchisci le tue applicazioni Java basate su cloud con funzionalità avanzate di conversione dei documenti su qualsiasi piattaforma in grado di chiamare API REST."
     },
     "api3": {
-      "title": "GroupDocs.Conversion Nessuna app di codice include",
+      "title": "GroupDocs.Conversion Le app senza codice includono",
       "label": "Visualizza tutte le app senza codice",
       "product1_content": "Converti più di 50 formati di documenti in PDF, XLSX, DOCX, XPS, HTML e altro ancora.",
       "product2_content": "App gratuita per convertire il formato DOC in XLS da qualsiasi browser web.",
-      "product3_content": "Carica i tuoi documenti PDF per una perfetta conversione in formato Word (DOCX)."
+      "product3_content": "Carica i tuoi documenti PDF per convertirli senza problemi nel formato Word (DOCX)."
     }
   },
   "testimonial": {
     "designation": "Psicologo",
-    "content": "Sto osservando con entusiasmo la crescita di GroupDocs. La reattività del tuo intero team mi ha aiutato molto, quando parlo con qualcuno di GroupDocs posso garantire che qualcuno sta ascoltando e facendo accadere le cose."
+    "content": "Sto osservando con entusiasmo la crescita di GroupDocs. La reattività di tutto il tuo team mi ha aiutato molto, quando parlo con qualcuno in GroupDocs posso garantire che qualcuno ascolta e fa accadere le cose."
   }
 }

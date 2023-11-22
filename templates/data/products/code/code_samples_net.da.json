@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Kodeprøver",
+    "description": "Nogle bruger tilfælde af typiske GroupDocs.Conversion til .NET-operationer",
+    "sample_1": {
+      "title": "Konverter PDF til billede",
+      "content_1": "Et almindeligt forekommende scenarie involverer at konvertere et helt PDF-dokument eller bestemte sider til en samling billeder. GroupDocs.Conversion for .NET giver mulighed for at konvertere PDF-filer til forskellige billedformater, såsom TIFF, JPG, PNG, GIF, BMP og mere.",
+      "content_2": "I modsætning til andre konverteringer kræver denne proces erklæringen fra en SavePageStream-delegeret, som angiver navngivningsformatet for de gemte billeder. Du kan vælge dit foretrukne billedformat ved hjælp af klassen ImageFileType.",
+      "code_title": "Konverter PDF til PNG i C#",
+      "comment_1": "Indlæs kilde-PDF-filen",
+      "comment_2": "Indstil konverteringsindstillingerne, og angiv outputbilledtypen",
+      "comment_3": "Konverter hver side af PDF-dokument til PNG"
+    },
+    "sample_2": {
+      "title": "Konverter et segment af et stort dokument",
+      "content_1": "Med GroupDocs.Conversion til .NET kan du ubesværet konvertere specifikke sider fra et langt dokument.",
+      "content_2": "Du har to metoder til at opnå dette, afhængigt af dine krav. Du kan enten konvertere en række sider eller konvertere specifikke sider.",
+      "code_title_1": "Konverter DOCX (side 2-4) til PDF i C#",
+      "comment_1": "Indlæs kilde DOCX-filen",
+      "comment_2": "Indstil konverteringsindstillingerne, og angiv rækkevidden af ​​sider, der skal gengives",
+      "comment_3": "Konverter side 2-4 til PDF"
+    },
+    "sample_3": {
+      "title": "Flydende syntaks: En strømlinet tilgang",
+      "content_1": "Flydende syntaks giver en kortfattet notation for almindelige handlinger inden for GroupDocs.Conversion for .NET API.",
+      "content_2": "Kodeeksemplerne nedenfor viser, hvordan man udnytter den flydende syntaks:",
+      "code_title_1": "Konverter DOCX til PDF i C# ved hjælp af flydende syntaks"
+    }
+  }
+}

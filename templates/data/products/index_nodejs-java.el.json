@@ -1,0 +1,25 @@
+{
+  "head": {
+    "title": "{{ProgLang}} API μετατροπής εγγράφου | Μετατροπή PDF, Word, Excel, PPTX, HTML και εικόνων",
+    "description": "API μετατροπής εγγράφου {{ProgLang}}. Μετατροπή PDF, Word, DOC, DOCX, Excel, Υπολογιστικά φύλλα, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD και μορφές αρχείων εικόνας."
+  },
+  "header": {
+    "title_1": "Μετατροπή εγγράφου",
+    "title_2": "μέσω του Node.js API",
+    "description": "Ισχυρό API μετατροπής για μετατροπή αρχείων PDF, Microsoft Office, HTML, eBook και εικόνας",
+    "words": {
+      "for": "Για"
+    }
+  },
+  "actions": {
+    "main": "Δωρεάν λήψη NPM",
+    "alt": "Αδειοδότηση",
+    "title": "Είστε έτοιμοι να ξεκινήσετε;",
+    "description": "Δοκιμάστε τις δυνατότητες GroupDocs.Conversion δωρεάν ή ζητήστε άδεια"
+  },
+  "release": {
+    "title": "Έκδοση {0}  κυκλοφόρησε",
+    "notes": "Δείτε τι νέο υπάρχει",
+    "downloads": "Λήψεις"
+  }
+}

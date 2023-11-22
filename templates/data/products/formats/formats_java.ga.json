@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Formáidí comhaid tacaithe",
+    "description": "Tacaíonn GroupDocs.Conversion do Java le hoibríochtaí leis na [formáidí comhaid] seo a leanas (https://docs.groupdocs.com/conversion/java/supported-file-formats/).",
+    "groups": {
+      "title_1": "Formáidí doiciméad",
+      "title_2": "Íomhánna & Ilmheáin",
+      "title_3": "Formáidí eile",
+      "format_documents": "Doiciméid",
+      "format_images": "Íomhánna",
+      "format_diagram": "Léaráid",
+      "format_cad_gis": "CAD & GIS",
+      "format_audio": "Fuaime",
+      "format_video": "Físeán",
+      "format_vector_3d": "3D & Veicteoir",
+      "format_web": "Gréasán",
+      "format_archives": "Cartlanna",
+      "format_email_outlook": "Ríomhphost & Outlook",
+      "format_finance": "Airgeadais"
+    }
+  }
+}

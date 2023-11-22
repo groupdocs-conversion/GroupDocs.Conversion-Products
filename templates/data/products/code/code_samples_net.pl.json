@@ -1,0 +1,30 @@
+{
+  "code_samples": {
+    "title": "Próbki kodu",
+    "description": "Niektóre przypadki użycia typowych operacji GroupDocs.Conversion dla .NET",
+    "sample_1": {
+      "title": "Konwertuj plik PDF na obraz",
+      "content_1": "Często spotykany scenariusz polega na konwertowaniu całego dokumentu PDF lub określonych stron na zbiór obrazów. GroupDocs.Conversion dla .NET oferuje możliwość konwersji plików PDF na różne formaty obrazów, takie jak TIFF, JPG, PNG, GIF, BMP i inne.",
+      "content_2": "W przeciwieństwie do innych konwersji, proces ten wymaga deklaracji delegata SavePageStream, który określa format nazewnictwa zapisywanych obrazów. Możesz wybrać preferowany format obrazu za pomocą klasy ImageFileType.",
+      "code_title": "Konwertuj plik PDF na PNG w C#",
+      "comment_1": "Załaduj źródłowy plik PDF",
+      "comment_2": "Ustaw opcje konwersji i określ typ obrazu wyjściowego",
+      "comment_3": "Konwertuj każdą stronę dokumentu PDF na PNG"
+    },
+    "sample_2": {
+      "title": "Konwertuj segment dużego dokumentu",
+      "content_1": "Dzięki GroupDocs.Conversion dla .NET możesz bez wysiłku konwertować określone strony z obszernego dokumentu.",
+      "content_2": "Można to osiągnąć na dwa sposoby, w zależności od wymagań. Możesz konwertować zakres stron lub konwertować określone strony.",
+      "code_title_1": "Konwertuj DOCX (strony 2-4) na PDF w C#",
+      "comment_1": "Załaduj źródłowy plik DOCX",
+      "comment_2": "Ustaw opcje konwersji i określ zakres stron do renderowania",
+      "comment_3": "Konwertuj strony 2-4 do formatu PDF"
+    },
+    "sample_3": {
+      "title": "Płynna składnia: usprawnione podejście",
+      "content_1": "Składnia Fluent oferuje zwięzłą notację typowych działań w interfejsie API GroupDocs.Conversion dla .NET.",
+      "content_2": "Poniższe przykłady kodu pokazują, jak wykorzystać płynną składnię:",
+      "code_title_1": "Konwertuj DOCX na PDF w C#, używając płynnej składni"
+    }
+  }
+}

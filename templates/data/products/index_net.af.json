@@ -1,7 +1,7 @@
 {
   "head": {
-    "title": "{{ProgLang}} .NET Document Conversion API | Skakel PDF Word Excel PPTX HTML-beelde om",
-    "description": "{{ProgLang}} .NET Document Conversion API. Omskep PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-pos MSG EMLX, AutoCAD en beeldlêerformate."
+    "title": "{{ProgLang}} .NET dokument omskakeling API | Skakel PDF, Word, Excel, PPTX, HTML en beelde om",
+    "description": "{{ProgLang}} .NET dokument omskakeling API. Skakel PDF, Word, DOC, DOCX, Excel, Sigblaaie, PPT, PPTX, HTML, PSD, MPT, MPP, E-pos, MSG, EMLX, AutoCAD en beeldlêerformate om."
   },
   "header": {
     "title_1": "Dokumentomskakeling",

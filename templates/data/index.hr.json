@@ -10,9 +10,10 @@
   "apis": {
     "api1": {
       "title": "GroupDocs.Conversion High Code API-ji uključuju",
-      "label": "Pregledajte sve API-je visokog koda",
+      "label": "Pogledajte sve API-je High Code",
       "product1_content": "Izvorni .NET API za točnu pretvorbu dokumenata i formata slikovnih datoteka u sve vrste .NET aplikacija. Podržava dodavanje slikovnih vodenih žigova tijekom pretvorbe.",
-      "product2_content": "Omogućite svojim Java aplikacijama jednostavnu pretvorbu između svih standardnih formata dokumenata uključujući Microsoft Office, PDF, HTML, slike i mnoge druge."
+      "product2_content": "Omogućite svojim Java aplikacijama jednostavnu pretvorbu između svih standardnih formata dokumenata uključujući Microsoft Office, PDF, HTML, slike i mnoge druge.",
+      "product3_content": "Omogućite svojim JavaScript aplikacijama jednostavnu pretvorbu između svih standardnih formata dokumenata uključujući Microsoft Office, PDF, HTML, slike i mnoge druge."
     },
     "api2": {
       "title": "GroupDocs.Conversion Low Code API-ji uključuju",

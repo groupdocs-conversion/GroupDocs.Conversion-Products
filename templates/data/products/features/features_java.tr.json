@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "GroupDocs.Dönüştürme özellikleri",
+    "description": "PDF ve ofis belgelerini sorunsuz bir şekilde HTML, JPG, PNG, BMP, TIFF, SVG ve diğer birçok formata dönüştürün. GroupDocs.Conversion for Java API, kullanımı kolay ve projenize entegre edilecek şekilde tasarlanmıştır. Dönüştürme sürecini kişiselleştirme yeteneği ile tüm popüler belge formatlarını destekler.",
+    "feature_1": {
+      "title": "Çok formatlı dönüştürme",
+      "content": "Dosyaları PDF, DOCX, XLSX, PPTX ve daha fazlasını içeren çeşitli formatlar arasında kolaylıkla dönüştürün."
+    },
+    "feature_2": {
+      "title": "Yüksek kaliteli çıktı",
+      "content": "Dönüştürme işlemi sırasında belgelerin orijinal kalitesini ve biçimlendirmesini koruyun."
+    },
+    "feature_3": {
+      "title": "Birden fazla dosyayı dönüştürme",
+      "content": "Birden fazla dosyayı dönüştürün ve bunları bir arşivde birleştirerek dönüştürülen içeriğin organizasyonunu basitleştirin."
+    },
+    "feature_4": {
+      "title": "Çok sayfalı belgeden görüntülere",
+      "content": "Çok sayfalı belgeleri sayfa sayfa görüntülere dönüştürerek dönüştürme süreci üzerinde hassas kontrol sağlayın ve görüntü tabanlı belge çıkarma ve analizini kolaylaştırın."
+    },
+    "feature_5": {
+      "title": "Özelleştirilebilir ayarlar",
+      "content": "Belirli gereksinimleri karşılamak için çözünürlük, kalite ve düzen gibi dönüştürme parametrelerine ince ayar yapın."
+    },
+    "feature_6": {
+      "title": "Güvenli işleme",
+      "content": "Parola korumalı dosya dönüştürme seçenekleriyle veri gizliliğini sağlayın."
+    },
+    "feature_7": {
+      "title": "API entegrasyonu",
+      "content": "Dönüştürme yeteneklerini Java uygulamalarınıza sorunsuz bir şekilde entegre ederek iş akışınızın kusursuz bir parçası haline getirin."
+    },
+    "feature_8": {
+      "title": "Sağlam dönüşüm",
+      "content": "Dönüştürülen belgelerinizin doğruluğunu ve bütünlüğünü garanti ederek güvenilir ve hatasız dosya dönüştürmeleri sağlayın."
+    },
+    "feature_9": {
+      "title": "Belgeleri arşivlerden dönüştürün",
+      "content": "Sıkıştırılmış dosyalarda depolanan içeriğin dönüştürülmesini sağlayarak arşivlerden belgeleri çıkarın ve dönüştürün."
+    }
+  }
+}

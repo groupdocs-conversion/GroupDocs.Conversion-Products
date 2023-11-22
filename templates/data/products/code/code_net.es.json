@@ -1,0 +1,10 @@
+{
+  "code": {
+    "title": "Cómo convertir archivos PDF en C#",
+    "more": "Más ejemplos",
+    "notes": "Ver qué hay de nuevo",
+    "comment_1": "Cargue el archivo PDF de origen",
+    "comment_2": "Establecer las opciones de conversión",
+    "comment_3": "Convertir PDF a DOCX"
+  }
+}

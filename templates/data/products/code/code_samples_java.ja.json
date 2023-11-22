@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "コードサンプル",
+    "description": "Java 操作の典型的な GroupDocs.Conversion の使用例",
+    "sample_1": {
+      "title": "PDFを画像に変換",
+      "content_1": "一般的に発生するシナリオには、PDF ドキュメント全体または特定のページを画像のコレクションに変換することが含まれます。 GroupDocs.Conversion for Java は、PDF を TIFF、JPG、PNG、GIF、BMP などのさまざまな画像形式に変換する機能を提供します。",
+      "content_2": "ImageFileType クラスを使用して、好みの画像形式を選択できます。",
+      "code_title": "Java で PDF を PNG に変換する",
+      "comment_1": "ソース PDF ファイルをロードします",
+      "comment_2": "変換オプションを設定し、出力画像タイプを指定します",
+      "comment_3": "PDF ドキュメントの各ページを PNG に変換します"
+    },
+    "sample_2": {
+      "title": "大きなドキュメントのセグメントを変換する",
+      "content_1": "GroupDocs.Conversion for Java を使用すると、長いドキュメントから特定のページを簡単に変換できます。",
+      "content_2": "これを実現するには、要件に応じて 2 つの方法があります。ページ範囲を変換することも、特定のページを変換することもできます。",
+      "code_title_1": "Java で DOCX (2 ～ 4 ページ) を PDF に変換する",
+      "comment_1": "ソースDOCXファイルをロードします",
+      "comment_2": "変換オプションを設定し、レンダリングするページの範囲を指定します",
+      "comment_3": "2～4ページをPDFに変換"
+    }
+  }
+}

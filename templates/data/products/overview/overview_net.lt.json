@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Konversija iš pirmo žvilgsnio",
+    "description": "Išbandykite API galimybes greitai ir nepriekaištingai konvertuoti PDF, Microsoft Office, HTML, el. knygas ir vaizdo failus .NET programose",
+    "feature_1": {
+      "title": "Supaprastinta konversija",
+      "description": "Naudodami GroupDocs.Conversion API galite be vargo konvertuoti įvairių formatų dokumentus į PDF, Microsoft Office, HTML, eBook ir vaizdo failus. API suteikia lanksčias ir patikimas parinktis, užtikrinančias turinio ir dokumentų struktūros vientisumą per visą konversijos procesą."
+    },
+    "feature_2": {
+      "title": "Lengvas perjungimas tarp formatų",
+      "description": "GroupDocs.Conversion API naudojimo procesas yra neįtikėtinai nesudėtingas, norint lengvai perjungti skirtingus formatus, reikia tik vieno metodo ir parinkčių rinkinio."
+    },
+    "feature_3": {
+      "title": "Kelių platformų suderinamumas",
+      "description": "Ištirkite konvertavimo sprendimą su būdingu kelių platformų suderinamumu, pritaikytu platesnei vartotojų bazei ir užtikrinant optimalų našumą įvairiose aplinkose, atitinkantį visus jūsų dokumentų konvertavimo reikalavimus."
+    }
+  }
+}

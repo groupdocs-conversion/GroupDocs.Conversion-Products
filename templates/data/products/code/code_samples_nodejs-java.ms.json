@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Sampel kod",
+    "description": "Sesetengah kes menggunakan GroupDocs.Conversion untuk Node.js melalui operasi Java",
+    "sample_1": {
+      "title": "Tukar PDF kepada imej",
+      "content_1": "Senario yang biasa ditemui melibatkan penukaran keseluruhan dokumen PDF atau halaman tertentu kepada koleksi imej. GroupDocs.Conversion untuk Node.js melalui Java menawarkan keupayaan untuk menukar PDF kepada pelbagai format imej, seperti TIFF, JPG, PNG, GIF, BMP dan banyak lagi.",
+      "content_2": "Anda boleh memilih format imej pilihan anda menggunakan kelas ImageFileType.",
+      "code_title": "Menukar PDF kepada PNG dalam JavaScript",
+      "comment_1": "Muatkan fail PDF sumber",
+      "comment_2": "Tetapkan pilihan tukar dan nyatakan jenis imej output",
+      "comment_3": "Tukar setiap halaman dokumen PDF kepada PNG"
+    },
+    "sample_2": {
+      "title": "Tukar segmen dokumen besar",
+      "content_1": "Dengan GroupDocs.Conversion untuk Node.js melalui Java, anda boleh menukar halaman tertentu dengan mudah daripada dokumen yang panjang.",
+      "content_2": "Anda mempunyai dua kaedah untuk mencapai ini, bergantung pada keperluan anda. Anda boleh sama ada menukar julat halaman atau menukar halaman tertentu.",
+      "code_title_1": "Tukar DOCX (halaman 2-4) kepada PDF dalam JavaScript",
+      "comment_1": "Muatkan fail DOCX sumber",
+      "comment_2": "Tetapkan pilihan tukar dan tentukan julat halaman untuk dipaparkan",
+      "comment_3": "Tukar muka surat 2-4 kepada PDF"
+    }
+  }
+}

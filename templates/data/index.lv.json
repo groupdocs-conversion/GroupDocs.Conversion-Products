@@ -12,7 +12,8 @@
       "title": "GroupDocs.Conversion High Code API ietver",
       "label": "Skatīt visas High Code API",
       "product1_content": "Native .NET API, lai precīzi konvertētu dokumentus un attēlu failu formātus jebkura veida .NET lietojumprogrammās. Atbalsta attēla ūdenszīmju pievienošanu konvertēšanas laikā.",
-      "product2_content": "Iespējojiet savas Java lietojumprogrammas, lai tās viegli konvertētu starp visiem nozares standarta dokumentu formātiem, tostarp Microsoft Office, PDF, HTML, attēliem un daudziem citiem."
+      "product2_content": "Iespējojiet savas Java lietojumprogrammas, lai tās viegli konvertētu starp visiem nozares standarta dokumentu formātiem, tostarp Microsoft Office, PDF, HTML, attēliem un daudziem citiem.",
+      "product3_content": "Iespējojiet JavaScript lietojumprogrammas, lai tās viegli konvertētu starp visiem nozares standarta dokumentu formātiem, tostarp Microsoft Office, PDF, HTML, attēliem un daudziem citiem."
     },
     "api2": {
       "title": "GroupDocs.Conversion zema koda API ietver",

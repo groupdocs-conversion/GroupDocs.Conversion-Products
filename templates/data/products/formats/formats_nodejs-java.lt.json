@@ -1,0 +1,22 @@
+{
+  "formats": {
+    "title": "Palaikomi failų formatai",
+    "description": "GroupDocs.Conversion for Node.js per Java palaiko operacijas su šiais [failų formatais](https://docs.groupdocs.com/conversion/nodejs-java/supported-file-formats/).",
+    "groups": {
+      "title_1": "Dokumentų formatai",
+      "title_2": "Vaizdai ir multimedija",
+      "title_3": "Kiti formatai",
+      "format_documents": "Dokumentai",
+      "format_images": "Vaizdai",
+      "format_diagram": "Diagrama",
+      "format_cad_gis": "CAD ir GIS",
+      "format_audio": "Garsas",
+      "format_video": "Vaizdo įrašas",
+      "format_vector_3d": "3D ir vektorius",
+      "format_web": "Žiniatinklis",
+      "format_archives": "Archyvai",
+      "format_email_outlook": "Paštas ir „Outlook“.",
+      "format_finance": "Finansai"
+    }
+  }
+}

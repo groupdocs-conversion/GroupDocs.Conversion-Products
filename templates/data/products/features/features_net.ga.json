@@ -1,0 +1,42 @@
+{
+  "features": {
+    "title": "Gnéithe GroupDocs.Conversion",
+    "description": "Tiontaigh gan uaim doiciméid PDF agus oifige go HTML, JPG, PNG, BMP, TIFF, SVG, agus go leor formáidí eile. Tá GroupDocs.Conversion le haghaidh .NET API deartha le bheith éasca le húsáid agus le comhtháthú isteach i do thionscadal. Tacaíonn sé le gach formáid doiciméad tóir leis an gcumas a shaincheapadh ar an bpróiseas chomhshó.",
+    "feature_1": {
+      "title": "Comhshó Il-formáid",
+      "content": "Tiontaigh comhaid idir formáidí éagsúla, lena n-áirítear PDF, DOCX, XLSX, PPTX, agus níos mó, gan stró."
+    },
+    "feature_2": {
+      "title": "Aschur ard-fidelity",
+      "content": "Caomhnaigh an bunchaighdeán agus formáidiú doiciméad le linn an phróisis chomhshó."
+    },
+    "feature_3": {
+      "title": "Comhaid iolracha a thiontú",
+      "content": "Tiontaigh comhaid iolracha agus cuir le chéile iad i gcartlann, ag simpliú eagrú an ábhair thiontú."
+    },
+    "feature_4": {
+      "title": "Doiciméad il-leathanach le híomhánna",
+      "content": "Tiontaigh doiciméid illeathanaigh go híomhánna leathanach ar leathanach, ag cumasú rialú beacht ar an bpróiseas claochlaithe agus ag éascú eastóscadh agus anailís doiciméad bunaithe ar íomhá."
+    },
+    "feature_5": {
+      "title": "Socruithe inoiriúnaithe",
+      "content": "Paraiméadair chomhshó mionchoigeartaithe, mar shampla taifeach, cáilíocht agus leagan amach chun freastal ar riachtanais shonracha."
+    },
+    "feature_6": {
+      "title": "Próiseáil slán",
+      "content": "Cinntigh príobháideacht sonraí le roghanna comhshó comhad atá cosanta ag pasfhocal."
+    },
+    "feature_7": {
+      "title": "Comhtháthú API",
+      "content": "Comhtháthú gan uaim na cumais chomhshó isteach i d'fheidhmchláir .NET, rud a fhágann gur cuid gan uaim é de do shreabhadh oibre."
+    },
+    "feature_8": {
+      "title": "Comhshó láidir",
+      "content": "Cinntigh tiontuithe iontaofa agus saor ó earráidí, ag ráthú cruinneas agus sláine do dhoiciméid chlaochlaithe."
+    },
+    "feature_9": {
+      "title": "Tiontaigh doiciméid ó chartlanna",
+      "content": "Doiciméid a bhaint as agus a thiontú ó chartlanna, rud a fhágann gur féidir an t-ábhar atá stóráilte laistigh de chomhaid chomhbhrúite a athrú ó bhonn."
+    }
+  }
+}

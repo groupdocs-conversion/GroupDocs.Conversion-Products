@@ -1,0 +1,24 @@
+{
+  "code_samples": {
+    "title": "Kod örnekleri",
+    "description": "Java işlemleri aracılığıyla Node.js için tipik GroupDocs.Conversion'ın bazı kullanım durumları",
+    "sample_1": {
+      "title": "PDF'yi resme dönüştür",
+      "content_1": "Yaygın olarak karşılaşılan bir senaryo, bir PDF belgesinin tamamının veya belirli sayfaların bir görüntü koleksiyonuna dönüştürülmesini içerir. GroupDocs.Conversion for Node.js for Java aracılığıyla PDF'leri TIFF, JPG, PNG, GIF, BMP ve daha fazlası gibi çeşitli görüntü formatlarına dönüştürme yeteneği sunar.",
+      "content_2": "ImageFileType sınıfını kullanarak tercih ettiğiniz görüntü formatını seçebilirsiniz.",
+      "code_title": "JavaScript'te PDF'yi PNG'ye dönüştürme",
+      "comment_1": "Kaynak PDF dosyasını yükleyin",
+      "comment_2": "Dönüştürme seçeneklerini ayarlayın ve çıktı görüntü türünü belirtin",
+      "comment_3": "PDF belgesinin her sayfasını PNG'ye dönüştürün"
+    },
+    "sample_2": {
+      "title": "Büyük bir belgenin bir bölümünü dönüştürme",
+      "content_1": "Java aracılığıyla GroupDocs.Conversion for Node.js ile uzun bir belgedeki belirli sayfaları zahmetsizce dönüştürebilirsiniz.",
+      "content_2": "Gereksinimlerinize bağlı olarak bunu gerçekleştirmek için iki yönteminiz vardır. Bir dizi sayfayı dönüştürebilir veya belirli sayfaları dönüştürebilirsiniz.",
+      "code_title_1": "DOCX'i (sayfa 2-4) JavaScript'te PDF'ye dönüştürün",
+      "comment_1": "Kaynak DOCX dosyasını yükleyin",
+      "comment_2": "Dönüştürme seçeneklerini ayarlayın ve oluşturulacak sayfa aralığını belirtin",
+      "comment_3": "Sayfa 2-4'ü PDF'ye dönüştürün"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,68 +23,68 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Conversion API | PDF Word Excel PPTX HTML képek konvertálása"
-head_description: "C# .NET Document Conversion API. PDF Word DOC DOCX konvertálása, Excel táblázatok PPT PPTX, HTML, PSD, MPT MPP, MSG EMLX e-mail, AutoCAD és képfájl formátumok konvertálása."
+head_title: "C# .NET dokumentumkonverziós API | PDF, Word, Excel, PPTX, HTML és képek konvertálása"
+head_description: "C# .NET dokumentumkonverziós API. PDF, Word, DOC, DOCX, Excel, táblázatok, PPT, PPTX, HTML, PSD, MPT, MPP, e-mail, MSG, EMLX, AutoCAD és képfájlformátumok konvertálása."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Egyszerű API a dokumentum- és képkonverziós funkciók integrálásához .NET-alkalmazásokba külső szoftver telepítése nélkül."
+title: "Dokumentum konvertálás<br>.NET API-n keresztül"
+description: "Hatékony konvertáló API PDF-, Microsoft Office-, HTML-, e-könyv- és képfájlok konvertálásához"
 words:
-  for: "{header.words.for}"
+  for: "számára"
 
 actions:
-  main: "{actions.main}"
+  main: "Ingyenes NuGet letöltés"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "{actions.alt}"
+  alt: "Engedélyezés"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Készen áll az indulásra?"
+  description: "Próbálja ki a GroupDocs.Conversion szolgáltatásait ingyenesen, vagy kérjen licencet"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "A(z) {0}  verzió megjelent"
+  notes: "Tekintse meg az újdonságokat"
+  downloads: "Letöltések"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "PDF fájlok konvertálása C#-ban"
+  more: "További példák"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Töltse be a forrás PDF-fájlt
     using (var converter = new Converter("resume.pdf"))
     {
-      // {code.comment_2}
+      // Állítsa be a konvertálási beállításokat
       var convertOptions = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // PDF konvertálása DOCX formátumba
       converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion egy pillanat alatt"
+  description: "Fedezze fel az API képességeit a PDF, Microsoft Office, HTML, eBook és képfájlok gyors és hibátlan konvertálásához .NET alkalmazásokon belül"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Áramvonalas konverzió"
+      content: "A GroupDocs.Conversion API segítségével könnyedén konvertálhat különféle formátumú dokumentumokat PDF-, Microsoft Office-, HTML-, e-könyv- és képfájlokká. Az API rugalmas és robusztus lehetőségeket kínál, biztosítva a tartalom és a dokumentumstruktúra integritását a konverziós folyamat során."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Egyszerű váltás a formátumok között"
+      content: "A GroupDocs.Conversion API használatának folyamata hihetetlenül egyszerű, mindössze egyetlen módszert és egy sor beállítást igényel a különböző formátumok közötti könnyed váltáshoz."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Platformok közötti kompatibilitás"
+      content: "Fedezzen fel egy konverziós megoldást, amely magában foglalja a platformok közötti kompatibilitást, amely a szélesebb felhasználói bázist szolgálja ki, és optimális teljesítményt biztosít a különböző környezetekben az összes dokumentumkonverziós követelménynek megfelelően."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Platformfüggetlenség"
+  description: "A GroupDocs.Conversion for .NET a következő operációs rendszereket, keretrendszereket és csomagkezelőket támogatja"
   items:
     # platform loop
     - title: "Amazon"
@@ -113,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Támogatott fájlformátumok"
   description: |
-    {formats.description}
+    A GroupDocs.Conversion for .NET a következő [fájlformátumokkal] (https://docs.groupdocs.com/conversion/net/supported-file-formats/) támogatja a műveleteket.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Dokumentumformátumok
+        * **Dokumentumok:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,141 +130,141 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Képek és multimédia
+        * **Képek:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD és GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Hang:** MP3, WAV, FLAC, AAC, OGG
+        * **Videó:** MP4, AVI, MKV, MOV, WMV
+        * **3D és vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Egyéb formátumok
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Levéltár:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-mail és Outlook:** PST, OST, MSG, EML
+        * **Pénzügy:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for .NET funkciók"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion funkciók"
+  description: "A PDF és irodai dokumentumok zökkenőmentes konvertálása HTML, JPG, PNG, BMP, TIFF, SVG és sok más formátumba. A GroupDocs.Conversion for .NET API-t úgy tervezték, hogy könnyen használható legyen és integrálható legyen a projektbe. Támogatja az összes népszerű dokumentumformátumot az átalakítási folyamat testreszabásának lehetőségével."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Több formátumú átalakítás"
+      content: "Könnyedén konvertálhat fájlokat különféle formátumok között, beleértve a PDF, DOCX, XLSX, PPTX és sok más formátumot."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Nagy pontosságú kimenet"
+      content: "Az átalakítási folyamat során őrizze meg a dokumentumok eredeti minőségét és formázását."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Több fájl konvertálása"
+      content: "Konvertáljon több fájlt, és egyesítse őket archívummá, egyszerűsítve a konvertált tartalom szervezését."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Többoldalas dokumentum képekhez"
+      content: "A többoldalas dokumentumokat lapról oldalra képekké alakíthatja, lehetővé téve az átalakítási folyamat pontos vezérlését, valamint megkönnyítve a képalapú dokumentumok kinyerését és elemzését."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Testreszabható beállítások"
+      content: "Finomítsa a konverziós paramétereket, például a felbontást, a minőséget és az elrendezést, hogy megfeleljenek a konkrét követelményeknek."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Biztonságos feldolgozás"
+      content: "Biztosítsa az adatok védelmét a jelszóval védett fájlkonverziós beállításokkal."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API integráció"
+      content: "Zökkenőmentesen integrálja az átalakítási képességeket .NET-alkalmazásaiba, így a munkafolyamat zökkenőmentes részévé válik."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Robusztus átalakítás"
+      content: "Biztosítsa a megbízható és hibamentes fájlkonverziót, garantálva az átalakított dokumentumok pontosságát és integritását."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Dokumentumok konvertálása archívumból"
+      content: "Kivonja és konvertálja a dokumentumokat az archívumokból, lehetővé téve a tömörített fájlokban tárolt tartalom átalakítását."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Kódminták"
+  description: "Néhány esetben a tipikus GroupDocs.Conversion .NET-műveletekhez használható"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "PDF konvertálása képpé"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        A gyakran előforduló forgatókönyv egy teljes PDF-dokumentumot vagy bizonyos oldalakat képek gyűjteményévé konvertál. A GroupDocs.Conversion for .NET lehetőséget kínál PDF-fájlok különféle képformátumokká konvertálására, mint például TIFF, JPG, PNG, GIF, BMP stb. 
+        Más konverziókkal ellentétben ez a folyamat megköveteli a SavePageStream delegált deklarációját, amely meghatározza a mentett képek elnevezési formátumát. Az ImageFileType osztály segítségével kiválaszthatja a kívánt képformátumot.
+        {{< landing/code title="PDF konvertálása PNG-be C#-ban">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
 
-        // {code_samples.sample_1.comment_1}
+        // Töltse be a forrás PDF-fájlt
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // {code_samples.sample_1.comment_2}
+          // Állítsa be a konvertálási beállításokat és adja meg a kimeneti kép típusát
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // Konvertálja a PDF dokumentum minden oldalát PNG formátumba
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Konvertálja egy nagy dokumentum szegmensét"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        A GroupDocs.Conversion for .NET segítségével könnyedén konvertálhat bizonyos oldalakat egy hosszú dokumentumból. 
+        Ennek megvalósítására két módszer áll rendelkezésére, az Ön igényeitől függően. Konvertálhat egy sor oldalt, vagy konvertálhat adott oldalakat.
+        {{< landing/code title="A DOCX (2-4. oldal) konvertálása PDF-be C#-ban">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // Töltse be a forrás DOCX fájlt
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // Állítsa be a konvertálási beállításokat, és adja meg a megjelenítendő oldalak tartományát
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // Konvertálja a 2-4 oldalakat PDF-be                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "Folyékony szintaxis: Áramvonalas megközelítés"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        A Fluent szintaxis tömör jelöléseket kínál a GroupDocs.Conversion for .NET API-n belüli gyakori műveletekhez. 
+        Az alábbi kódminták bemutatják, hogyan lehet kihasználni a folyékony szintaxist:
+        {{< landing/code title="A DOCX konvertálása PDF-be C# nyelven folyékony szintaxis használatával">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 
@@ -277,19 +277,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs termékértékelések"
+# description: "Ne csak szót fogadjon. Tekintse meg, mit mondanak más fejlesztők az API-inkról"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Kiváló kiszolgálás és kiváló termékek. Rendkívül segítőkészek és készségesek voltak a GroupDocs.Conversion for .NET megvalósítási folyamata során, ezért nem tudom őket eléggé ajánlani."
+#     author: "Martin Lasarga"
+#     company: "Az Axentria ECM termékmenedzsere, G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "A GroupDocs.Conversion for .NET projektben történő megvalósítása és használata után úgy tűnik, hogy nagyon jól működik. Rengeteg dokumentummal teszteltem, és eddig jó. Minden, amit rádobtam, szépen megjelenik, és ugyanolyan jól néz ki, mint egy PDF-nézegetőben vagy MS Word-ben."
+#     author: "Mats Oustad"
+#     company: "A Novanet AS vezető tanácsadója/partnere"
 ---

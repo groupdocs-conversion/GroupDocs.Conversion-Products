@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,31 +23,31 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java Құжатты түрлендіру API | PDF Word Excel PPTX HTML кескіндерін түрлендіру"
-head_description: "Java Құжатты түрлендіру API. PDF Word DOC DOCX, Excel электрондық кестелері PPT PPTX, HTML, PSD, MPT MPP, MSG EMLX электрондық поштасы, AutoCAD және кескін файл пішімдерін түрлендіру."
+head_title: "Java құжатты түрлендіру API | PDF, Word, Excel, PPTX, HTML және кескіндерді түрлендіру"
+head_description: "Java құжатты түрлендіру API. PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD және кескін файл пішімдерін түрлендіру."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Ешбір сыртқы бағдарламалық құралды орнатпай, құжат пен кескінді түрлендіру функционалдығын Java қолданбаларына біріктіруге арналған қарапайым API."
+title: "Құжатты түрлендіру<br>Java API арқылы"
+description: "PDF, Microsoft Office, HTML, электрондық кітап және кескін файлдарын түрлендіру үшін қуатты түрлендіру API"
 words:
-  for: "{header.words.for}"
+  for: "үшін"
 
 actions:
-  main: "{actions.main}"
+  main: "Maven тегін жүктеп алу"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
-  alt: "{actions.alt}"
+  alt: "Лицензиялау"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Бастауға дайынсыз ба?"
+  description: "GroupDocs.Conversion мүмкіндіктерін тегін пайдаланып көріңіз немесе лицензия сұраңыз"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "{0}  нұсқасы шығарылды"
+  notes: "Жаңалықтарды қараңыз"
+  downloads: "Жүктеулер"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Java-де PDF файлдарын қалай түрлендіруге болады"
+  more: "Қосымша мысалдар"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -65,39 +65,39 @@ code:
     </repositories>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // Бастапқы PDF файлын жүктеңіз
     Converter converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // Түрлендіру опцияларын орнатыңыз
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // PDF форматын DOCX форматына түрлендіру
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs. Бір көзқараста түрлендіру"
+  description: "Java қолданбаларында PDF, Microsoft Office, HTML, электронды кітап және кескін файлдарын жылдам және мінсіз түрлендіру үшін API мүмкіндіктерін зерттеңіз."
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Жеңілдетілген түрлендіру"
+      content: "GroupDocs.Conversion API көмегімен әртүрлі форматтағы құжаттарды PDF, Microsoft Office, HTML, электрондық кітап және кескін файлдарына оңай түрлендіруге болады. API барлық түрлендіру процесінде мазмұн мен құжат құрылымының тұтастығын қамтамасыз ететін икемді және сенімді опцияларды қамтамасыз етеді."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Пішімдер арасында оңай ауысу"
+      content: "GroupDocs.Conversion API пайдалану процесі өте қарапайым, әртүрлі пішімдер арасында оңай ауысу үшін бір ғана әдіс пен опциялар жиынтығын қажет етеді."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Кросс-платформалық үйлесімділік"
+      content: "Құжатты түрлендірудің барлық талаптары үшін кеңірек пайдаланушы базасын қамтамасыз ететін және әртүрлі орталарда оңтайлы өнімділікті қамтамасыз ететін, кросс-платформалық үйлесімділігі бар түрлендіру шешімін зерттеңіз."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Платформаның тәуелсіздігі"
+  description: "GroupDocs.Conversion for Java келесі операциялық жүйелерге, фреймворктарға және пакет менеджерлеріне қолдау көрсетеді"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,15 +126,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Қолдау көрсетілетін файл пішімдері"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for Java келесі [файл пішімдері](https://docs.groupdocs.com/conversion/java/supported-file-formats/) бар әрекеттерді қолдайды.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Құжат форматтары
+        * **Құжаттар:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -143,145 +143,145 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Суреттер және мультимедиа
+        * **Суреттер:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Диаграмма:** VSDX, DRAW, LUCIDCHART
+        * **CAD және GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Аудио:** MP3, WAV, FLAC, AAC, OGG
+        * **Бейне:** MP4, AVI, MKV, MOV, WMV
+        * **3D және вектор:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Басқа форматтар
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **желі:**  HTML, MHTML, MHT
+        * **Мұрағаттар:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Электрондық пошта және Outlook:** PST, OST, MSG, EML
+        * **Қаржы:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for Java мүмкіндіктері"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion мүмкіндіктері"
+  description: "PDF және кеңсе құжаттарын HTML, JPG, PNG, BMP, TIFF, SVG және басқа да көптеген пішімдерге еш қиындықсыз түрлендіріңіз. Java API үшін GroupDocs.Conversion пайдалану оңай және жобаңызға біріктіру үшін жасалған. Ол түрлендіру процесін теңшеу мүмкіндігі бар барлық танымал құжат пішімдерін қолдайды."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Көп форматты түрлендіру"
+      content: "PDF, DOCX, XLSX, PPTX және т.б. қоса алғанда, әртүрлі форматтар арасында файлдарды оңай түрлендіріңіз."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Жоғары дәлдіктегі шығыс"
+      content: "Түрлендіру процесінде құжаттардың бастапқы сапасы мен пішімделуін сақтаңыз."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Бірнеше файлды түрлендіру"
+      content: "Бірнеше файлдарды түрлендіру және оларды мұрағатқа біріктіру, түрлендірілген мазмұнды ұйымдастыруды жеңілдетеді."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Кескіндерге көп бетті құжат"
+      content: "Көп бетті құжаттарды бет-бет кескіндерге түрлендіру, түрлендіру процесін нақты басқаруға мүмкіндік береді және кескінге негізделген құжатты алу мен талдауды жеңілдетеді."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Реттелетін параметрлер"
+      content: "Арнайы талаптарды қанағаттандыру үшін ажыратымдылық, сапа және орналасу сияқты түрлендіру параметрлерін дәл баптаңыз."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Қауіпсіз өңдеу"
+      content: "Құпия сөзбен қорғалған файлды түрлендіру опцияларымен деректердің құпиялылығын қамтамасыз етіңіз."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API интеграциясы"
+      content: "Түрлендіру мүмкіндіктерін Java қолданбаларыңызға біркелкі біріктіріп, оны жұмыс үрдісіңіздің үздіксіз бөлігіне айналдырыңыз."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Мықты түрлендіру"
+      content: "Трансформацияланған құжаттарыңыздың дәлдігі мен тұтастығына кепілдік бере отырып, сенімді және қатесіз файлдарды түрлендіруді қамтамасыз етіңіз."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Мұрағаттағы құжаттарды түрлендіру"
+      content: "Сығылған файлдарда сақталған мазмұнды түрлендіруге мүмкіндік беретін мұрағаттардан құжаттарды шығарып алыңыз және түрлендіріңіз."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Код үлгілері"
+  description: "Кейбір Java операциялары үшін әдеттегі GroupDocs.Conversion жағдайларын пайдаланады"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "PDF форматын кескінге түрлендіру"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Жиі кездесетін сценарий тұтас PDF құжатын немесе белгілі бір беттерді кескіндер жинағына түрлендіруді қамтиды. GroupDocs.Conversion for Java бағдарламасы PDF файлдарын TIFF, JPG, PNG, GIF, BMP және т.б. сияқты әртүрлі кескін пішіміне түрлендіру мүмкіндігін ұсынады. 
+        ImageFileType сыныбы арқылы қалаған кескін пішімін таңдауға болады.
+        {{< landing/code title="Java тілінде PDF файлын PNG форматына түрлендіру">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
-        // {code_samples.sample_1.comment_1}
+        // Бастапқы PDF файлын жүктеңіз
         Converter converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // Түрлендіру опцияларын орнатыңыз және шығыс кескін түрін көрсетіңіз
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // PDF құжатының әрбір бетін PNG форматына түрлендіру
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Үлкен құжаттың сегментін түрлендіру"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        GroupDocs.Conversion for Java көмегімен ұзақ құжаттың нақты беттерін еш қиындықсыз түрлендіруге болады. 
+        Сіздің талаптарыңызға байланысты мұны орындаудың екі әдісі бар. Сіз беттердің ауқымын түрлендіруге немесе белгілі бір беттерді түрлендіруге болады.
+        {{< landing/code title="DOCX (2-4 беттер) Java тілінде PDF форматына түрлендіру">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // DOCX бастапқы файлын жүктеңіз
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Түрлендіру опцияларын орнатыңыз және көрсетілетін беттер ауқымын көрсетіңіз
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // 2-4 беттерді PDF форматына түрлендіру
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs өнімдеріне шолулар"
+# description: "Тек біздің сөзімізді қабылдамаңыз. Басқа әзірлеушілердің API интерфейстері туралы не айтатынын қараңыз"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Тамаша қызмет және тамаша өнімдер. Олар Java үшін GroupDocs.Viewer іске асыру процесінде өте пайдалы және жауапты болды, оларды жеткілікті түрде ұсына алмайды."
+#     author: "Мартин Ласарга"
+#     company: "Axentria ECM өнім менеджері G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Жобада Java үшін GroupDocs.Viewer енгізгеннен және қолданғаннан кейін ол өте жақсы жұмыс істеп тұрған сияқты. Мен көптеген құжаттармен сынап көрдім және әлі күнге дейін жақсы. Мен оған лақтырғанның бәрі жақсы көрінеді және PDF қарау құралы немесе MS Word бағдарламасындағыдай жақсы көрінеді."
+#     author: "Матс Остад"
+#     company: "Novanet AS компаниясының аға кеңесшісі/әріптес"
 ---

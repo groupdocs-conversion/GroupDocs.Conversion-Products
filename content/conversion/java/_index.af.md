@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,8 +23,8 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java Dokumentomskakeling-API | Skakel PDF Word Excel PPTX HTML-beelde om"
-head_description: "Java Dokumentomskakeling-API. Omskep PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-pos MSG EMLX, AutoCAD en beeldlêerformate."
+head_title: "Java dokumentomskakelings-API | Skakel PDF, Word, Excel, PPTX, HTML en beelde om"
+head_description: "Java dokumentomskakelings-API. Skakel PDF, Word, DOC, DOCX, Excel, Sigblaaie, PPT, PPTX, HTML, PSD, MPT, MPP, E-pos, MSG, EMLX, AutoCAD en beeldlêerformate om."
 
 ############################# Header ############################
 title: "Dokumentomskakeling<br>via Java API"
@@ -68,30 +68,30 @@ code:
     // Laai die bron-PDF-lêer
     Converter converter = new Converter("resume.pdf");
     
-    // Stel die omskakelopsies vir DOCX-formaat in
+    // Stel die omskakelopsies in
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // Skakel om na DOCX-formaat
+    // Skakel PDF na DOCX om
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
   title: "GroupDocs.Conversion in 'n oogopslag"
-  description: "Kragtige omskakelings-API om PDF-, Microsoft Office-, HTML-, e-boek- en beeldlêers in Java-toepassings om te skakel"
+  description: "Verken die vermoëns van die API vir vinnige en foutlose omskakeling van PDF-, Microsoft Office-, HTML-, e-boek- en beeldlêers binne Java-toepassings"
   features:
     # feature loop
     - title: "Gestroomlynde omskakeling"
-      content: "Inkorporeer moeitelose lêeromskakeling in jou projekte deur GroupDocs.Conversion vir Java te gebruik. Soomlose oorgang tussen formate vir verbeterde versoenbaarheid."
+      content: "Met GroupDocs.Conversion API kan jy dokumente van uiteenlopende formate moeiteloos omskakel na PDF, Microsoft Office, HTML, eBook en beeldlêers. Die API bied buigsame en robuuste opsies, wat die integriteit van inhoud en dokumentstruktuur deur die hele omskakelingsproses verseker."
 
     # feature loop
-    - title: "Buigsame integrasie"
-      content: "Vereenvoudig die integrasie van PDF- en Office-lêeromskakeling. GroupDocs.Conversion vir Java verbeter die veelsydigheid van jou toepassings."
+    - title: "Wissel moeiteloos tussen formate"
+      content: "Die proses om GroupDocs.Conversion API te gebruik is ongelooflik eenvoudig, wat net een metode en 'n stel opsies vereis om moeiteloos tussen verskillende formate te wissel."
 
     # feature loop
-    - title: "Betroubare transformasie"
-      content: "Verseker presiese omskakelings terwyl kwaliteit gehandhaaf word. GroupDocs.Conversion vir Java waarborg betroubare transformasies van lêerformate."
+    - title: "Kruisplatform-versoenbaarheid"
+      content: "Verken 'n omskakelingsoplossing met inherente kruisplatformversoenbaarheid, wat voorsiening maak vir die breër gebruikersbasis en verseker optimale werkverrigting oor verskeie omgewings vir al jou dokumentomskakelingsvereistes."
 
 ############################# Platforms ############################
 platforms:
@@ -165,7 +165,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Conversion kenmerke"
-  description: "Skakel PDF- en Office-dokumente naatloos na HTML, JPG, PNG, BMP, TIFF, SVG en baie ander formate om. GroupDocs.Conversion vir Java API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas. GroupDocs.Conversion vir Java API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas."
+  description: "Skakel PDF- en kantoordokumente naatloos na HTML, JPG, PNG, BMP, TIFF, SVG en baie ander formate om. GroupDocs.Conversion vir Java API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas."
 
   items:
     # feature loop
@@ -180,12 +180,12 @@ features:
 
     # feature loop
     - icon: "move"
-      title: "Omskakeling van veelvuldige lêers"
+      title: "Omskakeling van verskeie lêers"
       content: "Skakel veelvuldige lêers om en kombineer dit in 'n argief, wat die organisasie van omgeskakelde inhoud vereenvoudig."
 
     # feature loop
     - icon: "remove"
-      title: "Meerbladdokument na prente"
+      title: "Meerbladsye dokument na beelde"
       content: "Omskep meerbladdokumente na prente bladsy vir bladsy, wat presiese beheer oor die transformasieproses moontlik maak en beeldgebaseerde dokumentonttrekking en ontleding vergemaklik."
 
     # feature loop
@@ -223,7 +223,7 @@ code_samples:
     - title: "Skakel PDF na beeld om"
       content: |
         'n Algemene scenario behels die omskakeling van 'n hele PDF-dokument of spesifieke bladsye in 'n versameling beelde. GroupDocs.Conversion for Java bied die vermoë om PDF's in verskeie beeldformate om te skakel, soos TIFF, JPG, PNG, GIF, BMP, en meer. 
-        Anders as ander omskakelings, vereis hierdie proses die verklaring van 'n SavePageStream-afgevaardigde, wat die naamformaat vir die gestoorde beelde spesifiseer. Jy kan jou voorkeurbeeldformaat kies deur die ImageFileType-klas te gebruik.
+        Jy kan jou voorkeurbeeldformaat kies deur die ImageFileType-klas te gebruik.
         {{< landing/code title="Omskakeling van PDF na PNG in Java">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
@@ -234,35 +234,35 @@ code_samples:
         // Laai die bron-PDF-lêer
         Converter converter = new Converter("resume.pdf");
         
-        // Stel die omskakelopsies vir PNG-formaat in
+        // Stel die omskakelopsies in en spesifiseer die tipe uitsetbeeld
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // Skakel om na PNG-formaat
+        // Skakel elke bladsy van PDF-dokument om na PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "Omskakeling van 'n segment van 'n groot dokument"
+    - title: "Skakel 'n segment van 'n groot dokument om"
       content: |
-        Met GroupDocs.Conversion vir Java kan jy moeiteloos spesifieke bladsye van 'n lang dokument omskakel. 
+        Met GroupDocs.Conversion vir Java, kan jy moeiteloos spesifieke bladsye van 'n lang dokument omskakel. 
         Jy het twee metodes om dit te bereik, afhangende van jou vereistes. Jy kan óf 'n reeks bladsye omskakel óf spesifieke bladsye omskakel.
-        {{< landing/code title="Skakel 'n opeenvolgende reeks bladsye om">}}
+        {{< landing/code title="Skakel DOCX (bladsye 2-4) om na PDF in Java">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // Laai die bron DOCX-lêer
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Stel die omskakelopsies in en spesifiseer die reeks bladsye om weer te gee
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Skakel bladsye 2-4 om na PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}

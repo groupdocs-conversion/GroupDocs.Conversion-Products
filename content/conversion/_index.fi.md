@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Salli JavaScript-sovellusten muuntaminen helposti kaikkien alan standardidokumenttimuotojen välillä, mukaan lukien Microsoft Office, PDF, HTML, kuvat ja monet muut."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code API:t sisältävät"
@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "Työskentele cURL RESTful -tiedostojen muunnossovellusliittymän kanssa muuntaessasi helposti Microsoft Officen, PDF:n, sähköpostin, Projectin, HTML:n ja muita yleisiä tiedostomuotoja sovelluksissasi."
+          content: "Työskentele cURL RESTful -tiedostomuunnossovellusliittymän kanssa muuntaessasi helposti Microsoft Officen, PDF:n, sähköpostin, Projectin, HTML:n ja muut yleiset tiedostomuodot sovelluksissasi."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: ".NET-tiedostomuunnos REST-sovellusliittymä muuntaa helposti Microsoft Officen, PDF:n, sähköpostin, Projectin, HTML:n ja muut yleiset tiedostomuodot millä tahansa alustalla Cloud SDK:n avulla."
+          content: ".NET-tiedostojen muunnos REST-sovellusliittymä muuntaa helposti Microsoft Officen, PDF:n, sähköpostin, Projectin, HTML:n ja muita yleisiä tiedostomuotoja millä tahansa alustalla Cloud SDK:n avulla."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"

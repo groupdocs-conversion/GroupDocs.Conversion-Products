@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -12,7 +12,7 @@ head_title: ".NET, Java, Cloud API & Document Conversion Apps frá GroupDocs"
 head_description: "Umbreyttu vinsælum skjala- og myndskráarsniðum á hvaða vettvang sem er með lausnum sem byggjast á forritum og API."
 
 ############################# Header ############################
-title: "Skjala- og myndumbreytingarlausn"
+title: "Skjala- og myndbreytingarlausn"
 description: "Umbreyttu vinsælum skjala- og myndskráarsniðum á hvaða vettvang sem er með lausnum sem byggjast á forritum og API."
 
 ############################# APIs ###############################
@@ -21,7 +21,7 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Conversion High Code API innihalda"
+    - title: "GroupDocs.Conversion High Code API eru með"
       link: "/conversion/"
       label: "Skoða öll High Code API"
       api_product:
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Virkjaðu JavaScript forritin þín til að breyta auðveldlega á milli allra staðlaðra skjalasniða, þar á meðal Microsoft Office, PDF, HTML, myndir og mörg önnur."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code API eru með"
@@ -76,7 +76,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for Java"
-          content: "Auðgaðu Java-skýjaforritin þín með háþróaðri skjalabreytingareiginleikum á hvaða vettvangi sem er sem getur hringt í REST API."
+          content: "Auðgaðu skýjatengdu Java forritin þín með háþróaðri skjalabreytingareiginleikum á hvaða vettvangi sem er sem getur hringt í REST API."
 
     # api loop
     - title: "GroupDocs.Conversion Engin kóðaforrit fylgja með"

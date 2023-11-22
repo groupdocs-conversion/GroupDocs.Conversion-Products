@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -21,7 +21,7 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Conversion High Code API-urile includ"
+    - title: "API-urile GroupDocs.Conversion High Code includ"
       link: "/conversion/"
       label: "Vedeți toate API-urile High Code"
       api_product:
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Permiteți aplicațiilor JavaScript să convertească cu ușurință între toate formatele de documente standard din industrie, inclusiv Microsoft Office, PDF, HTML, imagini și multe altele."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code API-urile includ"
@@ -116,7 +116,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "Psiholog"
-      content: "Urmăresc cu entuziasm creșterea GroupDocs. Capacitatea de răspuns a întregii dvs. echipe m-a ajutat foarte mult, atunci când vorbesc cu cineva de la GroupDocs, vă pot garanta că cineva ascultă și face ca lucrurile să se întâmple."
+      content: "Urmăresc cu entuziasm creșterea GroupDocs. Capacitatea de răspuns a întregii dumneavoastră echipe m-a ajutat foarte mult, atunci când vorbesc cu cineva de la GroupDocs, vă pot garanta că cineva ascultă și face ca lucrurile să se întâmple."
 
 ############################# Back to top ###############################
 back_to_top:

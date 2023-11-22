@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,10 +47,10 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Cumasaigh d’fheidhmchláir JavaScript le haistriú go héasca idir gach formáid doiciméad de chaighdeán an tionscail lena n-áirítear Microsoft Office, PDF, HTML, íomhánna agus go leor eile."
 
     # api loop
-    - title: "Cuir APIs Cód Ísle GroupDocs.Conversion san áireamh"
+    - title: "Cuir APIs Cód Íseal GroupDocs.Conversion san áireamh"
       link: "https://products.groupdocs.cloud/conversion"
       label: "Féach ar gach API Cód Íseal"
       api_product:

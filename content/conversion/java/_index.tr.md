@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,31 +23,31 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java Belge Dönüştürme API'sı | PDF Word Excel PPTX HTML Görüntülerini Dönüştür"
-head_description: "Java Belge Dönüştürme API'sı. PDF Word DOC DOCX, Excel Elektronik Tabloları PPT PPTX, HTML, PSD, MPT MPP, E-posta MSG EMLX, AutoCAD ve görüntü dosyası formatlarını dönüştürün."
+head_title: "Java belge dönüştürme API'si | PDF, Word, Excel, PPTX, HTML ve görselleri dönüştürün"
+head_description: "Java belge dönüştürme API'si. PDF, Word, DOC, DOCX, Excel, Elektronik Tablolar, PPT, PPTX, HTML, PSD, MPT, MPP, E-posta, MSG, EMLX, AutoCAD ve görüntü dosyası formatlarını dönüştürün."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Herhangi bir Harici Yazılım Yüklemeden Belge ve Görüntü Dönüştürme İşlevselliğini Java Uygulamalarına Entegre Etmek için Basit API."
+title: "Belge dönüştürme<br>Java API'si aracılığıyla"
+description: "PDF, Microsoft Office, HTML, e-Kitap ve resim dosyalarını dönüştürmek için güçlü dönüştürme API'si"
 words:
-  for: "{header.words.for}"
+  for: "için"
 
 actions:
-  main: "{actions.main}"
+  main: "Ücretsiz Maven İndir"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
-  alt: "{actions.alt}"
+  alt: "Lisanslama"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "başlamaya hazır mısın?"
+  description: "GroupDocs.Conversion özelliklerini ücretsiz deneyin veya lisans isteyin"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "{0} sürümü yayınlandı"
+  notes: "Yenilikleri görün"
+  downloads: "İndirilenler"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Java'da PDF dosyaları nasıl dönüştürülür"
+  more: "Daha fazla örnek"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -65,39 +65,39 @@ code:
     </repositories>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // Kaynak PDF dosyasını yükleyin
     Converter converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // Dönüştürme seçeneklerini ayarlayın
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // PDF'yi DOCX'e dönüştürün
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "Bir bakışta GroupDocs.Conversion"
+  description: "Java uygulamalarında PDF, Microsoft Office, HTML, e-Kitap ve görüntü dosyalarının hızlı ve kusursuz dönüştürülmesine yönelik API'nin yeteneklerini keşfedin"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Kolaylaştırılmış dönüşüm"
+      content: "GroupDocs.Conversion API ile çeşitli formatlardaki belgeleri zahmetsizce PDF, Microsoft Office, HTML, e-Kitap ve görüntü dosyalarına dönüştürebilirsiniz. API, dönüştürme süreci boyunca içeriğin ve belge yapısının bütünlüğünü sağlayarak esnek ve sağlam seçenekler sunar."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Formatlar arasında zahmetsiz geçiş"
+      content: "GroupDocs.Conversion API'yi kullanma süreci inanılmaz derecede basittir; farklı formatlar arasında zahmetsizce geçiş yapmak için yalnızca tek bir yöntem ve bir dizi seçenek gerektirir."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Platformlar arası uyumluluk"
+      content: "Daha geniş bir kullanıcı tabanına hitap eden ve tüm belge dönüştürme gereksinimleriniz için çeşitli ortamlarda optimum performans sağlayan, platformlar arası uyumluluğa sahip bir dönüştürme çözümünü keşfedin."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Platform bağımsızlığı"
+  description: "GroupDocs.Conversion for Java aşağıdaki işletim sistemlerini, çerçeveleri ve paket yöneticilerini destekler"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,15 +126,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Desteklenen dosya formatları"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for Java, aşağıdaki [dosya formatlarıyla](https://docs.groupdocs.com/conversion/java/supported-file-formats/) yapılan işlemleri destekler.
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Belge formatları
+        * **Belgeler:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -143,145 +143,145 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Görseller ve Multimedya
+        * **Görüntüler:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diyagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD ve CBS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Ses:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D ve Vektör:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Diğer formatlar
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **ağ:**  HTML, MHTML, MHT
+        * **Arşivler:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-posta ve Outlook:** PST, OST, MSG, EML
+        * **Finans:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for Java Özellikler"
-  description: "{features.description}"
+  title: "GroupDocs.Dönüştürme özellikleri"
+  description: "PDF ve ofis belgelerini sorunsuz bir şekilde HTML, JPG, PNG, BMP, TIFF, SVG ve diğer birçok formata dönüştürün. GroupDocs.Conversion for Java API, kullanımı kolay ve projenize entegre edilecek şekilde tasarlanmıştır. Dönüştürme sürecini kişiselleştirme yeteneği ile tüm popüler belge formatlarını destekler."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Çok formatlı dönüştürme"
+      content: "Dosyaları PDF, DOCX, XLSX, PPTX ve daha fazlasını içeren çeşitli formatlar arasında kolaylıkla dönüştürün."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Yüksek kaliteli çıktı"
+      content: "Dönüştürme işlemi sırasında belgelerin orijinal kalitesini ve biçimlendirmesini koruyun."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Birden fazla dosyayı dönüştürme"
+      content: "Birden fazla dosyayı dönüştürün ve bunları bir arşivde birleştirerek dönüştürülen içeriğin organizasyonunu basitleştirin."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Çok sayfalı belgeden görüntülere"
+      content: "Çok sayfalı belgeleri sayfa sayfa görüntülere dönüştürerek dönüştürme süreci üzerinde hassas kontrol sağlayın ve görüntü tabanlı belge çıkarma ve analizini kolaylaştırın."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Özelleştirilebilir ayarlar"
+      content: "Belirli gereksinimleri karşılamak için çözünürlük, kalite ve düzen gibi dönüştürme parametrelerine ince ayar yapın."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Güvenli işleme"
+      content: "Parola korumalı dosya dönüştürme seçenekleriyle veri gizliliğini sağlayın."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API entegrasyonu"
+      content: "Dönüştürme yeteneklerini Java uygulamalarınıza sorunsuz bir şekilde entegre ederek iş akışınızın kusursuz bir parçası haline getirin."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Sağlam dönüşüm"
+      content: "Dönüştürülen belgelerinizin doğruluğunu ve bütünlüğünü garanti ederek güvenilir ve hatasız dosya dönüştürmeleri sağlayın."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Belgeleri arşivlerden dönüştürün"
+      content: "Sıkıştırılmış dosyalarda depolanan içeriğin dönüştürülmesini sağlayarak arşivlerden belgeleri çıkarın ve dönüştürün."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Kod örnekleri"
+  description: "Java işlemleri için tipik GroupDocs.Conversion'ın bazı kullanım durumları"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "PDF'yi resme dönüştür"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Yaygın olarak karşılaşılan bir senaryo, bir PDF belgesinin tamamının veya belirli sayfaların bir görüntü koleksiyonuna dönüştürülmesini içerir. GroupDocs.Conversion for Java, PDF'leri TIFF, JPG, PNG, GIF, BMP ve daha fazlası gibi çeşitli görüntü formatlarına dönüştürme yeteneği sunar. 
+        ImageFileType sınıfını kullanarak tercih ettiğiniz görüntü formatını seçebilirsiniz.
+        {{< landing/code title="Java'da PDF'yi PNG'ye dönüştürme">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
-        // {code_samples.sample_1.comment_1}
+        // Kaynak PDF dosyasını yükleyin
         Converter converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // Dönüştürme seçeneklerini ayarlayın ve çıktı görüntü türünü belirtin
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // PDF belgesinin her sayfasını PNG'ye dönüştürün
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Büyük bir belgenin bir bölümünü dönüştürme"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        GroupDocs.Conversion for Java ile uzun bir belgedeki belirli sayfaları zahmetsizce dönüştürebilirsiniz. 
+        Gereksinimlerinize bağlı olarak bunu gerçekleştirmek için iki yönteminiz vardır. Bir dizi sayfayı dönüştürebilir veya belirli sayfaları dönüştürebilirsiniz.
+        {{< landing/code title="DOCX'i (sayfa 2-4) Java'da PDF'ye dönüştürün">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // Kaynak DOCX dosyasını yükleyin
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Dönüştürme seçeneklerini ayarlayın ve oluşturulacak sayfa aralığını belirtin
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Sayfa 2-4'ü PDF'ye dönüştürün
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs ürün incelemeleri"
+# description: "Sadece bizim sözümüze güvenmeyin. Diğer geliştiricilerin API'lerimiz hakkında neler söylediğini görün"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Mükemmel servis ve mükemmel ürünler. GroupDocs.Viewer for Java uygulama süreci sırasında son derece yardımsever ve duyarlı davrandılar, onları yeterince tavsiye edemem."
+#     author: "Martin Lasarga"
+#     company: "Axentria ECM by G.S.I. Ürün Müdürü"
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "GroupDocs.Viewer for Java'yı projede uygulayıp kullandıktan sonra çok iyi çalışıyor gibi görünüyor. Çok sayıda belgeyle test ettim ve şu ana kadar her şey yolunda. Yaptığım her şey güzel bir şekilde işleniyor ve bir PDF görüntüleyicide veya MS Word'de olduğu kadar iyi görünüyor."
+#     author: "Paspaslar"
+#     company: "Novanet AS'de Kıdemli Danışman/Ortak"
 ---

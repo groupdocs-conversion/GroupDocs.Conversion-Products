@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,68 +23,68 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET 文档转换 API |转换 PDF Word Excel PPTX HTML 图像"
-head_description: "C# .NET 文档转换 API。转换 PDF Word DOC DOCX、Excel 电子表格 PPT PPTX、HTML、PSD、MPT MPP、电子邮件 MSG EMLX、A​​utoCAD 和图像文件格式。"
+head_title: "C# .NET 文档转换 API |转换 PDF、Word、Excel、PPTX、HTML 和图像"
+head_description: "C# .NET 文档转换 API。转换 PDF、Word、DOC、DOCX、Excel、电子表格、PPT、PPTX、HTML、PSD、MPT、MPP、电子邮件、MSG、EMLX、A​​utoCAD 和图像文件格式。"
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "无需安装任何外部软件即可将文档和图像转换功能集成到 .NET 应用程序中的简单 API。"
+title: "文档转换<br>通过.NET API"
+description: "强大的转换 API，可转换 PDF、Microsoft Office、HTML、电子书和图像文件"
 words:
-  for: "{header.words.for}"
+  for: "为了"
 
 actions:
-  main: "{actions.main}"
+  main: "免费 NuGet 下载"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "{actions.alt}"
+  alt: "许可"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "准备好开始了吗？"
+  description: "免费试用 GroupDocs.Conversion 功能或申请许可证"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "版本 {0} 已发布"
+  notes: "看看有什么新鲜事"
+  downloads: "下载"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "如何用C#转换PDF文件"
+  more: "更多示例"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // 加载源 PDF 文件
     using (var converter = new Converter("resume.pdf"))
     {
-      // {code.comment_2}
+      // 设置转换选项
       var convertOptions = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // 将 PDF 转换为 DOCX
       converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion 概览"
+  description: "探索 API 的功能，以便在 .NET 应用程序中快速、完美地转换 PDF、Microsoft Office、HTML、电子书和图像文件"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "简化转换"
+      content: "借助 GroupDocs.Conversion API，您可以轻松地将不同格式的文档转换为 PDF、Microsoft Office、HTML、电子书和图像文件。 API 提供灵活而强大的选项，确保整个转换过程中内容和文档结构的完整性。"
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "轻松切换格式"
+      content: "使用 GroupDocs.Conversion API 的过程非常简单，只需要一种方法和一组选项即可轻松在不同格式之间切换。"
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "跨平台兼容性"
+      content: "探索具有固有跨平台兼容性的转换解决方案，满足更广泛的用户群，并确保在各种环境中实现最佳性能，满足您的所有文档转换要求。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "平台独立性"
+  description: "GroupDocs.Conversion for .NET 支持以下操作系统、框架和包管理器"
   items:
     # platform loop
     - title: "Amazon"
@@ -113,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "支持的文件格式"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for .NET 支持以下[文件格式](https://docs.groupdocs.com/conversion/net/supported-file-formats/) 的操作。
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### 文档格式
+        * **文件:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,141 +130,141 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### 图像与多媒体
+        * **图片:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **图表:** VSDX, DRAW, LUCIDCHART
+        * **计算机辅助设计和地理信息系统:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **声音的:** MP3, WAV, FLAC, AAC, OGG
+        * **视频:** MP4, AVI, MKV, MOV, WMV
+        * **3D 与矢量:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### 其他格式
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **网络:**  HTML, MHTML, MHT
+        * **档案:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **电子邮件和展望:** PST, OST, MSG, EML
+        * **金融:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for .NET 功能"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion 功能"
+  description: "将 PDF 和 Office 文档无缝转换为 HTML、JPG、PNG、BMP、TIFF、SVG 和许多其他格式。 GroupDocs.Conversion for .NET API 旨在易于使用并集成到您的项目中。它支持所有流行的文档格式，并能够自定义转换过程。"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "多格式转换"
+      content: "轻松在各种格式之间转换文件，包括 PDF、DOCX、XLSX、PPTX 等。"
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "高保真输出"
+      content: "在转换过程中保留文档的原始质量和格式。"
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "转换多个文件"
+      content: "转换多个文件并将它们组合成一个存档，从而简化转换内容的组织。"
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "多页文档到图像"
+      content: "将多页文档逐页转换为图像，从而能够精确控制转换过程并促进基于图像的文档提取和分析。"
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "可定制的设置"
+      content: "微调分辨率、质量和布局等转换参数以满足特定要求。"
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "安全处理"
+      content: "通过受密码保护的文件转换选项确保数据隐私。"
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API集成"
+      content: "将转换功能无缝集成到您的 .NET 应用程序中，使其成为您工作流程的无缝部分。"
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "稳健的转换"
+      content: "确保可靠且无错误的文件转换，保证转换后文档的准确性和完整性。"
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "转换档案中的文档"
+      content: "从档案中提取并转换文档，从而能够转换压缩文件中存储的内容。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "代码示例"
+  description: ".NET 操作的典型 GroupDocs.Conversion 的一些用例"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "将 PDF 转换为图像"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        常见的情况是将整个 PDF 文档或特定页面转换为图像集合。 GroupDocs.Conversion for .NET 提供将 PDF 转换为各种图像格式的功能，例如 TIFF、JPG、PNG、GIF、BMP 等。 
+        与其他转换不同，此过程需要声明 SavePageStream 委托，该委托指定保存图像的命名格式。您可以使用 ImageFileType 类选择您喜欢的图像格式。
+        {{< landing/code title="在 C# 中将 PDF 转换为 PNG">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
 
-        // {code_samples.sample_1.comment_1}
+        // 加载源 PDF 文件
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // {code_samples.sample_1.comment_2}
+          // 设置转换选项并指定输出图像类型
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // 将 PDF 文档的每一页转换为 PNG
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "转换大文档的一部分"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        借助 GroupDocs.Conversion for .NET，您可以轻松地从冗长的文档中转换特定页面。 
+        根据您的要求，您有两种方法可以实现此目的。您可以转换一系列页面或转换特定页面。
+        {{< landing/code title="在 C# 中将 DOCX（第 2-4 页）转换为 PDF">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // 加载源 DOCX 文件
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // 设置转换选项并指定要渲染的页面范围
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // 将第 2-4 页转换为 PDF                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "流畅的语法：简化的方法"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        流畅的语法为 GroupDocs.Conversion for .NET API 中的常见操作提供了简洁的表示法。 
+        下面的代码示例演示了如何利用流畅的语法：
+        {{< landing/code title="使用 C# 流利语法将 DOCX 转换为 PDF">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 
@@ -277,19 +277,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs 产品评论"
+# description: "不要只相信我们的话。看看其他开发人员如何评价我们的 API"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "优质的服务和优质的产品。他们在 GroupDocs.Conversion for .NET 实施过程中提供了极大的帮助和响应，强烈推荐他们。"
+#     author: "马丁·拉萨尔加"
+#     company: "Axentria ECM by G.S.I. 产品经理"
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "在项目中实现并使用 GroupDocs.Conversion for .NET 后，它看起来运行得很好。我已经用很多文档进行了测试，到目前为止一切顺利。我扔给它的所有内容都可以很好地呈现，并且看起来与在 PDF 查看器或 MS Word 中一样好。"
+#     author: "马茨·奥斯塔德"
+#     company: "Novanet AS 高级顾问/合伙人"
 ---

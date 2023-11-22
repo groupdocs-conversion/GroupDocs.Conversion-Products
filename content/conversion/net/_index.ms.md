@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,68 +23,68 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# API Penukaran Dokumen .NET | Tukar PDF Word Excel PPTX Imej HTML"
-head_description: "C# .NET Document Conversion API. Tukar PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-mel MSG EMLX, AutoCAD & format fail imej."
+head_title: "C# .API penukaran dokumen BERSIH | Tukar PDF, Word, Excel, PPTX, HTML dan imej"
+head_description: "C# .API penukaran dokumen BERSIH. Tukar PDF, Word, DOC, DOCX, Excel, Hamparan, PPT, PPTX, HTML, JPA, MPT, MPP, E-mel, MSG, EMLX, AutoCAD dan format fail imej."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "API Mudah untuk Mengintegrasikan Fungsi Penukaran Dokumen & Imej ke dalam Aplikasi .NET tanpa Memasang sebarang Perisian Luaran."
+title: "Penukaran dokumen<br>melalui .NET API"
+description: "API penukaran yang berkuasa untuk menukar fail PDF, Microsoft Office, HTML, eBook dan imej"
 words:
-  for: "{header.words.for}"
+  for: "untuk"
 
 actions:
-  main: "{actions.main}"
+  main: "Muat Turun NuGet Percuma"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "{actions.alt}"
+  alt: "Pelesenan"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Bersedia untuk bermula?"
+  description: "Cuba ciri GroupDocs.Conversion secara percuma atau minta lesen"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Versi {0}  dilepaskan"
+  notes: "Lihat perkara baharu"
+  downloads: "Muat turun"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Bagaimana untuk menukar fail PDF dalam C#"
+  more: "Lebih banyak contoh"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Muatkan fail PDF sumber
     using (var converter = new Converter("resume.pdf"))
     {
-      // {code.comment_2}
+      // Tetapkan pilihan tukar
       var convertOptions = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // Tukar PDF kepada DOCX
       converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Penukaran sepintas lalu"
+  description: "Terokai keupayaan API untuk penukaran fail PDF, Microsoft Office, HTML, eBook dan imej yang pantas dan sempurna dalam aplikasi .NET"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Penukaran diperkemas"
+      content: "Dengan API GroupDocs.Conversion anda boleh menukar dokumen pelbagai format kepada fail PDF, Microsoft Office, HTML, eBook dan imej dengan mudah. API menyediakan pilihan yang fleksibel dan mantap, memastikan integriti kandungan dan struktur dokumen sepanjang proses penukaran."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Beralih dengan mudah antara format"
+      content: "Proses menggunakan API GroupDocs.Conversion adalah sangat mudah, memerlukan hanya satu kaedah dan satu set pilihan untuk bertukar dengan mudah antara format yang berbeza."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Keserasian merentas platform"
+      content: "Terokai penyelesaian penukaran dengan keserasian merentas platform yang wujud, memenuhi asas pengguna yang lebih luas dan memastikan prestasi optimum merentas pelbagai persekitaran untuk semua keperluan penukaran dokumen anda."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Kemerdekaan platform"
+  description: "GroupDocs.Conversion for .NET menyokong sistem pengendalian, rangka kerja dan pengurus pakej berikut"
   items:
     # platform loop
     - title: "Amazon"
@@ -113,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Format fail yang disokong"
   description: |
-    {formats.description}
+    GroupDocs.Conversion untuk .NET menyokong operasi dengan [format fail] berikut (https://docs.groupdocs.com/conversion/net/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Format dokumen
+        * **Dokumen:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,141 +130,141 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Imej & Multimedia
+        * **Imej:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Gambar rajah:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Format lain
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Arkib:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-mel & Outlook:** PST, OST, MSG, EML
+        * **Kewangan:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Ciri GroupDocs.Conversion for .NET."
-  description: "{features.description}"
+  title: "GroupDocs.Ciri penukaran"
+  description: "Tukar dokumen PDF dan pejabat dengan lancar kepada HTML, JPG, PNG, BMP, TIFF, SVG dan banyak lagi format lain. GroupDocs.Conversion for .NET API direka bentuk agar mudah digunakan dan disepadukan ke dalam projek anda. Ia menyokong semua format dokumen popular dengan keupayaan untuk menyesuaikan proses penukaran."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Penukaran pelbagai format"
+      content: "Tukar fail antara pelbagai format, termasuk PDF, DOCX, XLSX, PPTX dan banyak lagi, dengan mudah."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Output kesetiaan tinggi"
+      content: "Kekalkan kualiti asal dan pemformatan dokumen semasa proses penukaran."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Menukar berbilang fail"
+      content: "Tukar berbilang fail dan gabungkannya ke dalam arkib, memudahkan penyusunan kandungan yang ditukar."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Dokumen berbilang halaman kepada imej"
+      content: "Tukar dokumen berbilang halaman kepada imej halaman demi halaman, membolehkan kawalan tepat ke atas proses transformasi dan memudahkan pengekstrakan dan analisis dokumen berasaskan imej."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Tetapan boleh disesuaikan"
+      content: "Perhalusi parameter penukaran seperti resolusi, kualiti dan reka letak untuk memenuhi keperluan khusus."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Pemprosesan selamat"
+      content: "Pastikan privasi data dengan pilihan penukaran fail yang dilindungi kata laluan."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Penyepaduan API"
+      content: "Sepadukan dengan lancar keupayaan penukaran ke dalam aplikasi .NET anda, menjadikannya sebahagian lancar aliran kerja anda."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Penukaran yang mantap"
+      content: "Pastikan penukaran fail yang boleh dipercayai dan bebas ralat, menjamin ketepatan dan integriti dokumen anda yang diubah."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Tukar dokumen daripada arkib"
+      content: "Ekstrak dan tukar dokumen daripada arkib, membolehkan transformasi kandungan yang disimpan dalam fail termampat."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Sampel kod"
+  description: "Beberapa kes penggunaan biasa GroupDocs.Conversion untuk operasi .NET"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Tukar PDF kepada imej"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Senario yang biasa ditemui melibatkan penukaran keseluruhan dokumen PDF atau halaman tertentu kepada koleksi imej. GroupDocs.Conversion untuk .NET menawarkan keupayaan untuk menukar PDF kepada pelbagai format imej, seperti TIFF, JPG, PNG, GIF, BMP dan banyak lagi. 
+        Tidak seperti penukaran lain, proses ini memerlukan pengisytiharan perwakilan SavePageStream, yang menentukan format penamaan untuk imej yang disimpan. Anda boleh memilih format imej pilihan anda menggunakan kelas ImageFileType.
+        {{< landing/code title="Tukar PDF ke PNG dalam C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
 
-        // {code_samples.sample_1.comment_1}
+        // Muatkan fail PDF sumber
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // {code_samples.sample_1.comment_2}
+          // Tetapkan pilihan tukar dan nyatakan jenis imej output
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // Tukar setiap halaman dokumen PDF kepada PNG
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Tukar segmen dokumen besar"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Dengan GroupDocs.Conversion for .NET, anda boleh menukar halaman tertentu dengan mudah daripada dokumen yang panjang. 
+        Anda mempunyai dua kaedah untuk mencapai ini, bergantung pada keperluan anda. Anda boleh sama ada menukar julat halaman atau menukar halaman tertentu.
+        {{< landing/code title="Tukar DOCX (halaman 2-4) kepada PDF dalam C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // Muatkan fail DOCX sumber
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // Tetapkan pilihan tukar dan tentukan julat halaman untuk dipaparkan
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // Tukar muka surat 2-4 kepada PDF                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "Sintaks lancar: Pendekatan yang diperkemas"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        Sintaks fasih menawarkan notasi ringkas untuk tindakan biasa dalam GroupDocs.Conversion for .NET API. 
+        Contoh kod di bawah menunjukkan cara memanfaatkan sintaks fasih:
+        {{< landing/code title="Tukar DOCX kepada PDF dalam C# menggunakan sintaks fasih">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 
@@ -277,19 +277,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "Ulasan produk GroupDocs"
+# description: "Jangan hanya mengambil kata-kata kami untuk itu. Lihat apa yang pemaju lain katakan tentang API kami"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Perkhidmatan yang sangat baik dan produk yang sangat baik. Mereka sangat membantu dan responsif semasa proses pelaksanaan GroupDocs.Conversion untuk .NET, tidak boleh mengesyorkannya dengan sangat tinggi."
+#     author: "Martin Lasarga"
+#     company: "Pengurus Produk di Axentria ECM oleh G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Selepas melaksanakan dan menggunakan GroupDocs.Conversion untuk .NET dalam projek, ia kelihatan berfungsi dengan baik. Saya telah menguji dengan banyak dokumen dan setakat ini baik. Semua yang saya lemparkan padanya dipaparkan dengan baik dan kelihatan sama baiknya seperti dalam pemapar PDF atau MS Word."
+#     author: "Mats Oustad"
+#     company: "Perunding Kanan/Rakan Kongsi di Novanet AS"
 ---

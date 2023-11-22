@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -23,7 +23,7 @@ apis:
     # api loop
     - title: "GroupDocs.Conversion High Code API-ji uključuju"
       link: "/conversion/"
-      label: "Pregledajte sve API-je visokog koda"
+      label: "Pogledajte sve API-je High Code"
       api_product:
         # api_product loop
         - link: "/conversion/net/"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Omogućite svojim JavaScript aplikacijama jednostavnu pretvorbu između svih standardnih formata dokumenata uključujući Microsoft Office, PDF, HTML, slike i mnoge druge."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code API-ji uključuju"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,67 +23,67 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "{head.title}"
-head_description: "{head.description}"
+head_title: "JavaScript Dokumentkonvertierungs-API | Konvertieren Sie PDF, Word, Excel, PPTX, HTML und Bilder"
+head_description: "JavaScript Dokumentkonvertierungs-API. Konvertieren Sie PDF-, Word-, DOC-, DOCX-, Excel-, Tabellenkalkulations-, PPT-, PPTX-, HTML-, PSD-, MPT-, MPP-, E-Mail-, MSG-, EMLX-, AutoCAD- und Bilddateiformate."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "{header.description}"
+title: "Dokumentenkonvertierung<br>über die Node.js-API"
+description: "Leistungsstarke Konvertierungs-API zum Konvertieren von PDF-, Microsoft Office-, HTML-, E-Book- und Bilddateien"
 words:
-  for: "{header.words.for}"
+  for: "für"
 
 actions:
-  main: "{actions.main}"
+  main: "Kostenloser NPM-Download"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
-  alt: "{actions.alt}"
+  alt: "Lizenzierung"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Bereit anzufangen?"
+  description: "Testen Sie die Funktionen von GroupDocs.Conversion kostenlos oder fordern Sie eine Lizenz an"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Version {0} veröffentlicht"
+  notes: "Schau was neu ist"
+  downloads: "Downloads"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "So konvertieren Sie PDF-Dateien in JavaScript"
+  more: "Mehr Beispiele"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Laden Sie die Quell-PDF-Datei
     const converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // Legen Sie die Konvertierungsoptionen für das DOCX-Format fest
     const convertOptions = new WordProcessingConvertOptions();
     
-    // {code.comment_3}
+    // In das DOCX-Format konvertieren
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion auf einen Blick"
+  description: "Entdecken Sie die Funktionen der API für die schnelle und fehlerfreie Konvertierung von PDF-, Microsoft Office-, HTML-, E-Book- und Bilddateien in JavaScript-Anwendungen"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Optimierte Konvertierung"
+      content: "Mit der GroupDocs.Conversion API können Sie Dokumente verschiedener Formate mühelos in PDF-, Microsoft Office-, HTML-, E-Book- und Bilddateien konvertieren. Die API bietet flexible und robuste Optionen und gewährleistet die Integrität der Inhalts- und Dokumentstruktur während des gesamten Konvertierungsprozesses."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Müheloser Wechsel zwischen Formaten"
+      content: "Der Prozess der Verwendung der GroupDocs.Conversion-API ist unglaublich einfach und erfordert nur eine Methode und eine Reihe von Optionen, um mühelos zwischen verschiedenen Formaten zu wechseln."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Plattformübergreifende Kompatibilität"
+      content: "Entdecken Sie eine Konvertierungslösung mit inhärenter plattformübergreifender Kompatibilität, die auf eine breitere Benutzerbasis zugeschnitten ist und optimale Leistung in verschiedenen Umgebungen für alle Ihre Dokumentkonvertierungsanforderungen gewährleistet."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Plattformunabhängigkeit"
+  description: "GroupDocs.Conversion für Node.js über Java unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,15 +112,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Unterstützte Dateiformate"
   description: |
-    {formats.description}
+    GroupDocs.Conversion für Node.js über Java unterstützt Vorgänge mit den folgenden [Dateiformaten](https://docs.groupdocs.com/conversion/nodejs-java/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Dokumentformate
+        * **Unterlagen:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -129,140 +129,140 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Bilder & Multimedia
+        * **Bilder:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagramm:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Andere Formate
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Netz:**  HTML, MHTML, MHT
+        * **Archiv:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-Mail und Outlook:** PST, OST, MSG, EML
+        * **Finanzen:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{features.title}"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion-Funktionen"
+  description: "Konvertieren Sie PDF- und Office-Dokumente nahtlos in HTML, JPG, PNG, BMP, TIFF, SVG und viele andere Formate. GroupDocs.Conversion für Node.js über Java API ist so konzipiert, dass es einfach zu verwenden und in Ihr Projekt integrierbar ist. Es unterstützt alle gängigen Dokumentformate und bietet die Möglichkeit, den Konvertierungsprozess anzupassen."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Konvertierung in mehrere Formate"
+      content: "Konvertieren Sie Dateien ganz einfach zwischen verschiedenen Formaten, darunter PDF, DOCX, XLSX, PPTX und mehr."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "High-Fidelity-Ausgabe"
+      content: "Behalten Sie während des Konvertierungsprozesses die ursprüngliche Qualität und Formatierung der Dokumente bei."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Konvertieren mehrerer Dateien"
+      content: "Konvertieren Sie mehrere Dateien und kombinieren Sie sie in einem Archiv, um die Organisation konvertierter Inhalte zu vereinfachen."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Mehrseitiges Dokument zu Bildern"
+      content: "Konvertieren Sie mehrseitige Dokumente Seite für Seite in Bilder, um eine präzise Kontrolle über den Transformationsprozess zu ermöglichen und die bildbasierte Dokumentenextraktion und -analyse zu erleichtern."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Anpassbare Einstellungen"
+      content: "Passen Sie Konvertierungsparameter wie Auflösung, Qualität und Layout genau an, um spezifische Anforderungen zu erfüllen."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Sichere Abwicklung"
+      content: "Gewährleisten Sie den Datenschutz mit passwortgeschützten Dateikonvertierungsoptionen."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API-Integration"
+      content: "Integrieren Sie die Konvertierungsfunktionen nahtlos in Ihre JavaScript-Anwendungen und machen Sie sie so zu einem nahtlosen Bestandteil Ihres Workflows."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Robuste Konvertierung"
+      content: "Sorgen Sie für zuverlässige und fehlerfreie Dateikonvertierungen und garantieren Sie so die Genauigkeit und Integrität Ihrer transformierten Dokumente."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Konvertieren Sie Dokumente aus Archiven"
+      content: "Extrahieren und konvertieren Sie Dokumente aus Archiven und ermöglichen Sie so die Umwandlung von in komprimierten Dateien gespeicherten Inhalten."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Codebeispiele"
+  description: "Einige Anwendungsfälle typischer GroupDocs.Conversion für Node.js über Java-Operationen"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Konvertieren Sie PDF in ein Bild"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Ein häufig anzutreffendes Szenario besteht darin, ein gesamtes PDF-Dokument oder bestimmte Seiten in eine Sammlung von Bildern zu konvertieren. GroupDocs.Conversion für Node.js über Java bietet die Möglichkeit, PDFs in verschiedene Bildformate wie TIFF, JPG, PNG, GIF, BMP und mehr zu konvertieren. 
+        Sie können Ihr bevorzugtes Bildformat mithilfe der ImageFileType-Klasse auswählen.
+        {{< landing/code title="Konvertieren von PDF in PNG in JavaScript">}}
         ```javascript {style=abap}  
         import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
         
-        // {code_samples.sample_1.comment_1}
+        // Laden Sie die Quell-PDF-Datei
         const converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // Legen Sie die Konvertierungsoptionen fest und geben Sie den Ausgabebildtyp an
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // Konvertieren Sie jede Seite eines PDF-Dokuments in PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Konvertieren Sie einen Abschnitt eines großen Dokuments"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Mit GroupDocs.Conversion für Node.js über Java können Sie mühelos bestimmte Seiten aus einem langen Dokument konvertieren. 
+        Abhängig von Ihren Anforderungen haben Sie zwei Möglichkeiten, dies zu erreichen. Sie können entweder einen Bereich von Seiten oder bestimmte Seiten konvertieren.
+        {{< landing/code title="Konvertieren Sie DOCX (Seiten 2–4) in JavaScript in PDF">}}
         ```javascript {style=abap}   
         import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        // {code_samples.sample_2.comment_1}
+        // Laden Sie die DOCX-Quelldatei
         const converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Legen Sie die Konvertierungsoptionen fest und geben Sie den Bereich der zu rendernden Seiten an
         const convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Konvertieren Sie die Seiten 2-4 in PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs-Produktbewertungen"
+# description: "Verlassen Sie sich nicht nur auf unser Wort. Sehen Sie, was andere Entwickler über unsere APIs sagen"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Exzellenter Service und hervorragende Produkte. Sie waren während des Implementierungsprozesses von GroupDocs.Viewer für Node.js über Java äußerst hilfsbereit und reaktionsschnell und können sie nur wärmstens empfehlen."
+#     author: "Martin Lasarga"
+#     company: "Produktmanager bei Axentria ECM von G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Nach der Implementierung und Verwendung von GroupDocs.Viewer für Node.js über Java im Projekt scheint es sehr gut zu funktionieren. Ich habe es mit vielen Dokumenten getestet und bisher so gut. Alles, was ich darauf geworfen habe, wird gut gerendert und sieht genauso gut aus wie in einem PDF-Viewer oder MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner bei Novanet AS"
 ---

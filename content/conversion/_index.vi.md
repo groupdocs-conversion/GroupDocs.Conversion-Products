@@ -1,19 +1,19 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
 
 ############################# Head ############################
-head_title: ".NET, Java, API đám mây & ứng dụng chuyển đổi tài liệu của GroupDocs"
-head_description: "Chuyển đổi các định dạng tệp tài liệu và hình ảnh phổ biến trên bất kỳ nền tảng nào với các giải pháp dựa trên ứng dụng và api."
+head_title: ".NET, Java, API đám mây và ứng dụng chuyển đổi tài liệu của GroupDocs"
+head_description: "Chuyển đổi các định dạng tệp tài liệu và hình ảnh phổ biến trên mọi nền tảng bằng các giải pháp dựa trên ứng dụng và api."
 
 ############################# Header ############################
 title: "Giải pháp chuyển đổi tài liệu và hình ảnh"
-description: "Chuyển đổi các định dạng tệp tài liệu và hình ảnh phổ biến trên bất kỳ nền tảng nào với các giải pháp dựa trên ứng dụng và api."
+description: "Chuyển đổi các định dạng tệp tài liệu và hình ảnh phổ biến trên mọi nền tảng bằng các giải pháp dựa trên ứng dụng và api."
 
 ############################# APIs ###############################
 apis:
@@ -21,9 +21,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Conversion High Code APIs Bao gồm"
+    - title: "API mã cao của GroupDocs.Conversion bao gồm"
       link: "/conversion/"
-      label: "Xem tất cả các API mã cao"
+      label: "Xem tất cả API mã cao"
       api_product:
         # api_product loop
         - link: "/conversion/net/"
@@ -31,7 +31,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
-          content: "API .NET gốc để chuyển đổi chính xác tài liệu và định dạng tệp hình ảnh trong bất kỳ loại ứng dụng .NET nào. Hỗ trợ thêm hình mờ hình ảnh trong khi chuyển đổi."
+          content: "API .NET gốc để chuyển đổi chính xác các định dạng tài liệu và tệp hình ảnh trong bất kỳ loại ứng dụng .NET nào. Hỗ trợ thêm hình mờ hình ảnh trong khi chuyển đổi."
 
         # api_product loop
         - link: "/conversion/java/"
@@ -47,12 +47,12 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Cho phép các ứng dụng JavaScript của bạn dễ dàng chuyển đổi giữa tất cả các định dạng tài liệu tiêu chuẩn ngành bao gồm Microsoft Office, PDF, HTML, hình ảnh và nhiều định dạng khác."
 
     # api loop
-    - title: "GroupDocs.Conversion Low Code APIs Bao gồm"
+    - title: "API mã thấp GroupDocs.Conversion bao gồm"
       link: "https://products.groupdocs.cloud/conversion"
-      label: "Xem tất cả các API mã thấp"
+      label: "Xem tất cả API mã thấp"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/curl"
@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "Làm việc với API chuyển đổi tệp cURL RESTful để dễ dàng chuyển đổi Microsoft Office, PDF, Email, Project, HTML và các định dạng tệp phổ biến khác trong các ứng dụng của bạn."
+          content: "Làm việc với API chuyển đổi tệp cURL RESTful để dễ dàng chuyển đổi Microsoft Office, PDF, Email, Project, HTML và các định dạng tệp phổ biến khác trong ứng dụng của bạn."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: "Chuyển đổi tệp .NET API REST để dễ dàng chuyển đổi Microsoft Office, PDF, Email, Dự án, HTML và các định dạng tệp phổ biến khác trên bất kỳ nền tảng nào sử dụng Cloud SDK."
+          content: "Chuyển đổi tệp .NET REST API để dễ dàng chuyển đổi Microsoft Office, PDF, Email, Project, HTML và các định dạng tệp phổ biến khác trên mọi nền tảng bằng Cloud SDK."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
@@ -76,10 +76,10 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for Java"
-          content: "Làm phong phú các ứng dụng Java dựa trên đám mây của bạn với các tính năng chuyển đổi tài liệu nâng cao trên bất kỳ nền tảng nào có khả năng gọi các API REST."
+          content: "Làm phong phú thêm các ứng dụng Java dựa trên đám mây của bạn với các tính năng chuyển đổi tài liệu nâng cao trên bất kỳ nền tảng nào có khả năng gọi API REST."
 
     # api loop
-    - title: "GroupDocs.Conversion Không bao gồm ứng dụng mã"
+    - title: "GroupDocs.Conversion Không có ứng dụng mã nào bao gồm"
       link: "https://products.groupdocs.app/conversion"
       label: "Xem tất cả ứng dụng không có mã"
       api_product:
@@ -105,7 +105,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Conversion"
           platform: "PDF to DOCX"
-          content: "Tải lên tài liệu PDF của bạn để chuyển đổi liền mạch sang định dạng Word (DOCX)."
+          content: "Tải tài liệu PDF của bạn lên để chuyển đổi liền mạch sang định dạng Word (DOCX)."
 
 ############################# Testimonials ###############################
 testimonials:
@@ -116,7 +116,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "Nhà tâm lý học"
-      content: "Tôi đang hào hứng theo dõi sự phát triển của GroupDocs. Khả năng đáp ứng của toàn bộ nhóm của bạn đã giúp tôi rất nhiều, khi tôi nói chuyện với ai đó tại GroupDocs, tôi có thể đảm bảo rằng ai đó đang lắng nghe và làm cho mọi thứ diễn ra."
+      content: "Tôi rất hào hứng theo dõi sự phát triển của GroupDocs. Khả năng phản hồi của toàn bộ nhóm của bạn đã giúp tôi rất nhiều, khi nói chuyện với ai đó tại GroupDocs, tôi có thể đảm bảo rằng ai đó đang lắng nghe và khiến mọi việc diễn ra."
 
 ############################# Back to top ###############################
 back_to_top:

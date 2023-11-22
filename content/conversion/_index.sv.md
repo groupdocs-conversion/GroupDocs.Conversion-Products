@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Aktivera dina JavaScript-applikationer för att enkelt konvertera mellan alla industristandarddokumentformat inklusive Microsoft Office, PDF, HTML, bilder och många andra."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code API:er inkluderar"
@@ -116,7 +116,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "Psykolog"
-      content: "Jag ser med spänning utvecklingen av GroupDocs. Responsen från hela ditt team har hjälpt mig mycket, när jag pratar med någon på GroupDocs kan jag garantera att någon lyssnar och får saker att hända."
+      content: "Jag ser med spänning tillväxten av GroupDocs. Responsen från hela ditt team har hjälpt mig mycket, när jag pratar med någon på GroupDocs kan jag garantera att någon lyssnar och får saker att hända."
 
 ############################# Back to top ###############################
 back_to_top:

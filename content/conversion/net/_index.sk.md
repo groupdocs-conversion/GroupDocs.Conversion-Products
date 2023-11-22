@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,68 +23,68 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Conversion API | Prevod obrázkov PDF Word Excel PPTX HTML"
-head_description: "C# .NET Document Conversion API. Prevod PDF Word DOC DOCX, tabuľky Excel PPT PPTX, HTML, PSD, MPT MPP, E-mail MSG EMLX, AutoCAD a obrazové formáty."
+head_title: "C# API na konverziu dokumentov .NET | Konvertujte PDF, Word, Excel, PPTX, HTML a obrázky"
+head_description: "C# API na konverziu dokumentov .NET. Konvertujte formáty PDF, Word, DOC, DOCX, Excel, tabuľky, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD a obrázkové súbory."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Jednoduché API na integráciu funkcií konverzie dokumentov a obrázkov do aplikácií .NET bez inštalácie akéhokoľvek externého softvéru."
+title: "Konverzia dokumentov<br>cez .NET API"
+description: "Výkonné rozhranie API na konverziu na konverziu súborov PDF, Microsoft Office, HTML, elektronických kníh a obrázkov"
 words:
-  for: "{header.words.for}"
+  for: "pre"
 
 actions:
-  main: "{actions.main}"
+  main: "Bezplatné stiahnutie NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "{actions.alt}"
+  alt: "Licencovanie"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Ste pripravení začať?"
+  description: "Vyskúšajte bezplatne funkcie GroupDocs.Conversion alebo požiadajte o licenciu"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Verzia {0}  vydaná"
+  notes: "Pozrite sa, čo je nové"
+  downloads: "K stiahnutiu"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Ako previesť súbory PDF v C#"
+  more: "Viac príkladov"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Načítajte zdrojový súbor PDF
     using (var converter = new Converter("resume.pdf"))
     {
-      // {code.comment_2}
+      // Nastavte možnosti prevodu
       var convertOptions = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // Previesť PDF do DOCX
       converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion na prvý pohľad"
+  description: "Preskúmajte možnosti rozhrania API na rýchlu a bezchybnú konverziu súborov PDF, Microsoft Office, HTML, elektronických kníh a obrázkových súborov v rámci aplikácií .NET"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Zjednodušená konverzia"
+      content: "S GroupDocs.Conversion API môžete bez námahy prevádzať dokumenty rôznych formátov do PDF, Microsoft Office, HTML, eBook a obrázkových súborov. Rozhranie API poskytuje flexibilné a robustné možnosti, ktoré zaisťujú integritu obsahu a štruktúry dokumentu počas procesu konverzie."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Prepínanie medzi formátmi bez námahy"
+      content: "Proces používania GroupDocs.Conversion API je neuveriteľne jednoduchý a vyžaduje len jednu metódu a sadu možností na jednoduché prepínanie medzi rôznymi formátmi."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Kompatibilita medzi platformami"
+      content: "Preskúmajte konverzné riešenie s inherentnou kompatibilitou medzi platformami, ktoré uspokojí širšiu používateľskú základňu a zabezpečí optimálny výkon v rôznych prostrediach pre všetky vaše požiadavky na konverziu dokumentov."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Nezávislosť na platforme"
+  description: "GroupDocs.Conversion for .NET podporuje nasledujúce operačné systémy, rámce a správcov balíkov"
   items:
     # platform loop
     - title: "Amazon"
@@ -113,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Podporované formáty súborov"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for .NET podporuje operácie s nasledujúcimi [formátmi súborov](https://docs.groupdocs.com/conversion/net/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Formáty dokumentov
+        * **Dokumenty:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,141 +130,141 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Obrázky a multimédiá
+        * **snímky:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD a GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Zvuk:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D a vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Iné formáty
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archívy:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-mail a Outlook:** PST, OST, MSG, EML
+        * **Financie:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Funkcie GroupDocs.Conversion for .NET"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion funkcie"
+  description: "Bezproblémovo konvertujte PDF a kancelárske dokumenty do HTML, JPG, PNG, BMP, TIFF, SVG a mnohých ďalších formátov. GroupDocs.Conversion for .NET API je navrhnuté tak, aby sa dalo ľahko používať a integrovať do vášho projektu. Podporuje všetky populárne formáty dokumentov s možnosťou prispôsobenia procesu prevodu."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Multiformátová konverzia"
+      content: "Ľahko konvertujte súbory medzi rôznymi formátmi vrátane PDF, DOCX, XLSX, PPTX a ďalších."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Vysoko verný výstup"
+      content: "Počas procesu konverzie zachovajte pôvodnú kvalitu a formátovanie dokumentov."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Konverzia viacerých súborov"
+      content: "Konvertujte viacero súborov a skombinujte ich do archívu, čím sa zjednoduší organizácia konvertovaného obsahu."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Viacstranový dokument k obrázkom"
+      content: "Konvertujte viacstranové dokumenty na obrázky stránku po stránke, čo umožňuje presnú kontrolu nad procesom transformácie a uľahčuje extrakciu a analýzu dokumentov založenú na obrázkoch."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Prispôsobiteľné nastavenia"
+      content: "Dolaďte parametre prevodu, ako je rozlíšenie, kvalita a rozloženie, aby ste splnili špecifické požiadavky."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Bezpečné spracovanie"
+      content: "Zabezpečte súkromie údajov pomocou možností konverzie súborov chránených heslom."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Integrácia API"
+      content: "Bezproblémovo integrujte možnosti konverzie do svojich aplikácií .NET, čím sa stane bezproblémovou súčasťou vášho pracovného toku."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Robustná konverzia"
+      content: "Zabezpečte spoľahlivé a bezchybné prevody súborov, ktoré zaručia presnosť a integritu vašich transformovaných dokumentov."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Konvertujte dokumenty z archívov"
+      content: "Extrahujte a konvertujte dokumenty z archívov, čo umožňuje transformáciu obsahu uloženého v komprimovaných súboroch."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Vzorky kódu"
+  description: "Niektoré prípady použitia typických GroupDocs.Conversion pre operácie .NET"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Previesť PDF na obrázok"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Bežne sa vyskytujúci scenár zahŕňa konverziu celého dokumentu PDF alebo konkrétnych strán na kolekciu obrázkov. GroupDocs.Conversion for .NET ponúka možnosť konvertovať súbory PDF do rôznych obrazových formátov, ako sú TIFF, JPG, PNG, GIF, BMP a ďalšie. 
+        Na rozdiel od iných konverzií si tento proces vyžaduje vyhlásenie delegáta SavePageStream, ktorý špecifikuje formát pomenovania pre uložené obrázky. Uprednostňovaný formát obrázka si môžete vybrať pomocou triedy ImageFileType.
+        {{< landing/code title="Previesť PDF do PNG v C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
 
-        // {code_samples.sample_1.comment_1}
+        // Načítajte zdrojový súbor PDF
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // {code_samples.sample_1.comment_2}
+          // Nastavte možnosti prevodu a zadajte typ výstupného obrázka
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // Preveďte každú stránku dokumentu PDF do formátu PNG
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Previesť segment veľkého dokumentu"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        S GroupDocs.Conversion for .NET môžete bez námahy previesť konkrétne stránky z dlhého dokumentu. 
+        Máte dva spôsoby, ako to dosiahnuť, v závislosti od vašich požiadaviek. Môžete konvertovať rozsah stránok alebo konvertovať konkrétne stránky.
+        {{< landing/code title="Previesť DOCX (strany 2-4) na PDF v C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // Načítajte zdrojový súbor DOCX
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // Nastavte možnosti prevodu a zadajte rozsah stránok, ktoré sa majú vykresliť
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // Preveďte strany 2-4 do PDF                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "Plynulá syntax: Zjednodušený prístup"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        Plynulá syntax ponúka stručnú notáciu pre bežné akcie v rámci GroupDocs.Conversion for .NET API. 
+        Nižšie uvedené ukážky kódu ukazujú, ako využiť plynulú syntax:
+        {{< landing/code title="Konvertujte DOCX na PDF v C# pomocou plynulej syntaxe">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 
@@ -277,19 +277,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "Recenzie produktov GroupDocs"
+# description: "Neberte nás len za slovo. Pozrite sa, čo hovoria iní vývojári o našich rozhraniach API"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Vynikajúce služby a vynikajúce produkty. Počas implementačného procesu GroupDocs.Conversion for .NET boli mimoriadne nápomocní a pohotoví, nemôžeme ich dostatočne odporučiť."
+#     author: "Martin Lasarga"
+#     company: "Product Manager v spoločnosti Axentria ECM by G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Po implementácii a použití GroupDocs.Conversion for .NET v projekte to vyzerá, že funguje veľmi dobre. Testoval som s množstvom dokumentov a zatiaľ je to dobré. Všetko, čo som naň hodil, sa pekne vykresľuje a vyzerá rovnako dobre ako v prehliadači PDF alebo MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner v Novanet AS"
 ---

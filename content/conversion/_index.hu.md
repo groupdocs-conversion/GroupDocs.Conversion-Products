@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Engedélyezze JavaScript-alkalmazásai számára, hogy könnyedén konvertáljanak az iparági szabványos dokumentumformátumok között, beleértve a Microsoft Office-t, a PDF-t, a HTML-t, a képeket és sok mást."
 
     # api loop
     - title: "A GroupDocs.Conversion alacsony kódú API-jai közé tartozik"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: ".NET fájlkonverziós REST API a Microsoft Office, PDF, e-mail, projekt, HTML és más gyakori fájlformátumok könnyű konvertálásához bármely platformon a Cloud SDK használatával."
+          content: ".NET fájlkonverziós REST API a Microsoft Office, PDF, e-mail, projekt, HTML és más gyakori fájlformátumok egyszerű konvertálásához bármely platformon a Cloud SDK használatával."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
@@ -97,7 +97,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Conversion"
           platform: "DOC to XLS"
-          content: "Ingyenes alkalmazás a DOC XLS formátumba konvertálására bármely webböngészőből."
+          content: "Ingyenes alkalmazás a DOC XLS formátumba konvertálásához bármely webböngészőből."
 
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/pdf-to-docx"

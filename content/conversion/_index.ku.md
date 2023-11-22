@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Serlêdanên xwe yên JavaScript-ê çalak bikin ku bi hêsanî di navbera hemî formatên belgeyên standard ên pîşesaziyê de di nav de Microsoft Office, PDF, HTML, wêne û gelekên din veguherînin."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code APIs Include"
@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "Bi API-a veguheztina pelê cURL RESTful re bixebitin ku bi hêsanî Microsoft Office, PDF, E-name, Proje, HTML û pelên din ên pelê yên hevpar di serîlêdanên xwe de veguherînin."
+          content: "Bi API-a veguheztina pelê ya cURL RESTful re bixebitin ku bi hêsanî Microsoft Office, PDF, Email, Proje, HTML û pelên din ên pelê yên hevpar di serîlêdanên xwe de veguherînin."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"

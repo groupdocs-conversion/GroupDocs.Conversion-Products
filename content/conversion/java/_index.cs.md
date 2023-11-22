@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,31 +23,31 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java Document Conversion API | Převod obrázků PDF Word Excel PPTX HTML"
-head_description: "Java Document Conversion API. Převod PDF Word DOC DOCX, tabulky Excel PPT PPTX, HTML, PSD, MPT MPP, E-mail MSG EMLX, AutoCAD a obrázkové formáty souborů."
+head_title: "Java API pro konverzi dokumentů | Převeďte PDF, Word, Excel, PPTX, HTML a obrázky"
+head_description: "API pro konverzi dokumentů Java. Převádějte formáty PDF, Word, DOC, DOCX, Excel, Tabulky, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD a obrázkové soubory."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Jednoduché API pro integraci funkcí převodu dokumentů a obrázků do Java aplikací bez instalace jakéhokoli externího softwaru."
+title: "Konverze dokumentů<br>přes Java API"
+description: "Výkonné konverzní rozhraní API pro převod souborů PDF, Microsoft Office, HTML, elektronických knih a obrázků"
 words:
-  for: "{header.words.for}"
+  for: "pro"
 
 actions:
-  main: "{actions.main}"
+  main: "Maven ke stažení zdarma"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
-  alt: "{actions.alt}"
+  alt: "Licencování"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Jste připraveni začít?"
+  description: "Vyzkoušejte zdarma funkce GroupDocs.Conversion nebo si vyžádejte licenci"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Verze {0} byla vydána"
+  notes: "Podívejte se, co je nového"
+  downloads: "Stahování"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Jak převést soubory PDF v Javě"
+  more: "Další příklady"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -65,39 +65,39 @@ code:
     </repositories>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // Načtěte zdrojový soubor PDF
     Converter converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // Nastavte možnosti převodu
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // Převést PDF do DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion na první pohled"
+  description: "Prozkoumejte možnosti rozhraní API pro rychlý a bezchybný převod souborů PDF, Microsoft Office, HTML, elektronických knih a obrázků v aplikacích Java"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Zjednodušená konverze"
+      content: "S GroupDocs.Conversion API můžete bez námahy převádět dokumenty různých formátů do PDF, Microsoft Office, HTML, e-knih a obrazových souborů. Rozhraní API poskytuje flexibilní a robustní možnosti, které zajišťují integritu obsahu a struktury dokumentu během procesu převodu."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Snadné přepínání mezi formáty"
+      content: "Proces používání GroupDocs.Conversion API je neuvěřitelně přímočarý a vyžaduje pouze jednu metodu a sadu možností pro snadné přepínání mezi různými formáty."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Kompatibilita napříč platformami"
+      content: "Prozkoumejte konverzní řešení s inherentní kompatibilitou napříč platformami, která uspokojí širší uživatelskou základnu a zajistí optimální výkon v různých prostředích pro všechny vaše požadavky na převod dokumentů."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Nezávislost na platformě"
+  description: "GroupDocs.Conversion for Java podporuje následující operační systémy, rámce a správce balíčků"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,15 +126,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Podporované formáty souborů"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for Java podporuje operace s následujícími [formáty souborů](https://docs.groupdocs.com/conversion/java/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Formáty dokumentů
+        * **Dokumenty:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -143,145 +143,145 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Obrázky a multimédia
+        * **snímky:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD a GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Zvuk:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D a vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Jiné formáty
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archiv:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-mail a Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Funkce GroupDocs.Conversion for Java"
-  description: "{features.description}"
+  title: "Funkce GroupDocs.Conversion"
+  description: "Bezproblémově převádějte PDF a kancelářské dokumenty do HTML, JPG, PNG, BMP, TIFF, SVG a mnoha dalších formátů. GroupDocs.Conversion for Java API je navrženo tak, aby se snadno používalo a integrovalo do vašeho projektu. Podporuje všechny oblíbené formáty dokumentů s možností přizpůsobit proces převodu."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Víceformátová konverze"
+      content: "Snadno převádějte soubory mezi různými formáty, včetně PDF, DOCX, XLSX, PPTX a dalších."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Vysoce věrný výstup"
+      content: "Zachovejte původní kvalitu a formátování dokumentů během procesu převodu."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Převod více souborů"
+      content: "Převeďte více souborů a zkombinujte je do archivu, což zjednoduší organizaci převedeného obsahu."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Vícestránkový dokument k obrázkům"
+      content: "Převádějte vícestránkové dokumenty na obrázky stránku po stránce, což umožňuje přesnou kontrolu nad procesem transformace a usnadňuje extrakci a analýzu dokumentů založených na obrázcích."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Přizpůsobitelné nastavení"
+      content: "Dolaďte parametry převodu, jako je rozlišení, kvalita a rozvržení, aby splňovaly specifické požadavky."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Bezpečné zpracování"
+      content: "Zajistěte soukromí dat pomocí možností převodu souborů chráněných heslem."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Integrace API"
+      content: "Bezproblémově integrujte možnosti převodu do svých aplikací Java, čímž se stane bezproblémovou součástí vašeho pracovního postupu."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Robustní přestavba"
+      content: "Zajistěte spolehlivé a bezchybné převody souborů, zaručující přesnost a integritu vašich transformovaných dokumentů."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Převeďte dokumenty z archivů"
+      content: "Extrahujte a převádějte dokumenty z archivů, což umožňuje transformaci obsahu uloženého v komprimovaných souborech."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Ukázky kódu"
+  description: "Některé případy použití typických GroupDocs.Conversion pro operace Java"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Převést PDF na obrázek"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Běžně se vyskytující scénář zahrnuje převod celého dokumentu PDF nebo konkrétních stránek na kolekci obrázků. GroupDocs.Conversion for Java nabízí možnost převádět soubory PDF do různých obrazových formátů, jako jsou TIFF, JPG, PNG, GIF, BMP a další. 
+        Upřednostňovaný formát obrázku můžete vybrat pomocí třídy ImageFileType.
+        {{< landing/code title="Převod PDF do PNG v Javě">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
-        // {code_samples.sample_1.comment_1}
+        // Načtěte zdrojový soubor PDF
         Converter converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // Nastavte možnosti převodu a určete typ výstupního obrazu
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // Převeďte každou stránku dokumentu PDF do formátu PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Převeďte segment velkého dokumentu"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        S GroupDocs.Conversion for Java můžete bez námahy převést konkrétní stránky z dlouhého dokumentu. 
+        Máte dva způsoby, jak toho dosáhnout, v závislosti na vašich požadavcích. Můžete buď převést rozsah stránek, nebo převést konkrétní stránky.
+        {{< landing/code title="Převeďte DOCX (strany 2-4) do PDF v Javě">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // Načtěte zdrojový soubor DOCX
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Nastavte možnosti převodu a určete rozsah stránek, které se mají vykreslit
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Převeďte stránky 2-4 do PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "Recenze produktů GroupDocs"
+# description: "Neberte nás za slovo. Podívejte se, co o našich API říkají ostatní vývojáři"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Vynikající služby a skvělé produkty. Během procesu implementace GroupDocs.Viewer for Java byli extrémně nápomocní a reagovali, nelze je dostatečně doporučit."
+#     author: "Martin Lasarga"
+#     company: "Product Manager ve společnosti Axentria ECM by G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Po implementaci a použití GroupDocs.Viewer pro Java v projektu to vypadá, že funguje velmi dobře. Testoval jsem se spoustou dokumentů a zatím dobrý. Všechno, co jsem na něj hodil, se pěkně vykresluje a vypadá stejně dobře, jako by to vypadalo v prohlížeči PDF nebo MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner ve společnosti Novanet AS"
 ---

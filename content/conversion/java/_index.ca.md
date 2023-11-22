@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,8 +23,8 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java API de conversió de documents | Converteix imatges PDF Word Excel PPTX HTML"
-head_description: "Java API de conversió de documents. Converteix PDF Word DOC DOCX, fulls de càlcul Excel PPT PPTX, HTML, PSD, MPT MPP, correu electrònic MSG EMLX, AutoCAD i formats de fitxer d'imatge."
+head_title: "Java API de conversió de documents | Converteix PDF, Word, Excel, PPTX, HTML i imatges"
+head_description: "API de conversió de documents de Java. Converteix PDF, Word, DOC, DOCX, Excel, Fulls de càlcul, PPT, PPTX, HTML, PSD, MPT, MPP, correu electrònic, MSG, EMLX, AutoCAD i formats de fitxer d'imatge."
 
 ############################# Header ############################
 title: "Conversió de documents<br>mitjançant l'API de Java"
@@ -68,30 +68,30 @@ code:
     // Carregueu el fitxer PDF d'origen
     Converter converter = new Converter("resume.pdf");
     
-    // Establiu les opcions de conversió per al format DOCX
+    // Estableix les opcions de conversió
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // Converteix a format DOCX
+    // Converteix PDF a DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
   title: "GroupDocs.Conversion d'un cop d'ull"
-  description: "Potent API de conversió per convertir fitxers PDF, Microsoft Office, HTML, llibres electrònics i imatges en aplicacions Java"
+  description: "Exploreu les capacitats de l'API per a una conversió ràpida i impecable de fitxers PDF, Microsoft Office, HTML, llibres electrònics i fitxers d'imatge dins d'aplicacions Java"
   features:
     # feature loop
     - title: "Conversió simplificada"
-      content: "Incorporeu la conversió de fitxers sense esforç als vostres projectes mitjançant GroupDocs.Conversion per a Java. Transició perfecta entre formats per millorar la compatibilitat."
+      content: "Amb l'API GroupDocs.Conversion podeu convertir sense esforç documents de diversos formats a PDF, Microsoft Office, HTML, llibres electrònics i fitxers d'imatge. L'API ofereix opcions flexibles i robustes, que garanteixen la integritat del contingut i l'estructura del document durant tot el procés de conversió."
 
     # feature loop
-    - title: "Integració flexible"
-      content: "Simplifica la integració de la conversió de fitxers PDF i Office. GroupDocs.Conversion per a Java millora la versatilitat de les vostres aplicacions."
+    - title: "Canvi entre formats sense esforç"
+      content: "El procés d'utilitzar l'API de GroupDocs.Conversion és increïblement senzill, ja que només requereix un mètode i un conjunt d'opcions per canviar sense esforç entre diferents formats."
 
     # feature loop
-    - title: "Transformació fiable"
-      content: "Assegureu-vos conversions precises mantenint la qualitat. GroupDocs.Conversion per a Java garanteix transformacions fiables dels formats de fitxer."
+    - title: "Compatibilitat multiplataforma"
+      content: "Exploreu una solució de conversió amb compatibilitat inherent entre plataformes, que s'adapti a la base d'usuaris més àmplia i garanteixi un rendiment òptim en diversos entorns per a tots els vostres requisits de conversió de documents."
 
 ############################# Platforms ############################
 platforms:
@@ -165,7 +165,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Funcions de conversió"
-  description: "Converteix perfectament documents PDF i Office a HTML, JPG, PNG, BMP, TIFF, SVG i molts altres formats. L'API de GroupDocs.Conversion per a Java està dissenyada per ser fàcil d'utilitzar i integrar-se al vostre projecte. Admet tots els formats de document populars amb la possibilitat de personalitzar el procés de conversió. L'API de GroupDocs.Conversion per a Java està dissenyada per ser fàcil d'utilitzar i integrar-se al vostre projecte. Admet tots els formats de document populars amb la possibilitat de personalitzar el procés de conversió."
+  description: "Converteix perfectament documents PDF i d'oficina a HTML, JPG, PNG, BMP, TIFF, SVG i molts altres formats. L'API de GroupDocs.Conversion per a Java està dissenyada per ser fàcil d'utilitzar i integrar-se al vostre projecte. Admet tots els formats de document populars amb la possibilitat de personalitzar el procés de conversió."
 
   items:
     # feature loop
@@ -195,12 +195,12 @@ features:
 
     # feature loop
     - icon: "swap"
-      title: "Processament segur"
+      title: "Tractament segur"
       content: "Assegureu-vos la privadesa de les dades amb opcions de conversió de fitxers protegits amb contrasenya."
 
     # feature loop
     - icon: "extract"
-      title: "Integració d'API"
+      title: "Integració de l'API"
       content: "Integra perfectament les capacitats de conversió a les teves aplicacions Java, fent-ho una part perfecta del teu flux de treball."
 
     # feature loop
@@ -220,10 +220,10 @@ code_samples:
   description: "Alguns casos d'ús de les operacions típiques de GroupDocs.Conversion per a Java"
   items:
     # code sample loop
-    - title: "Converteix PDF a Imatge"
+    - title: "Converteix PDF a imatge"
       content: |
         Un escenari que es troba habitualment consisteix a convertir un document PDF sencer o pàgines específiques en una col·lecció d'imatges. GroupDocs.Conversion per a Java ofereix la capacitat de convertir PDF en diversos formats d'imatge, com ara TIFF, JPG, PNG, GIF, BMP i molt més. 
-        A diferència d'altres conversions, aquest procés requereix la declaració d'un delegat de SavePageStream, que especifica el format de nom per a les imatges desades. Podeu seleccionar el vostre format d'imatge preferit mitjançant la classe ImageFileType.
+        Podeu seleccionar el vostre format d'imatge preferit mitjançant la classe ImageFileType.
         {{< landing/code title="Convertir PDF a PNG en Java">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
@@ -234,35 +234,35 @@ code_samples:
         // Carregueu el fitxer PDF d'origen
         Converter converter = new Converter("resume.pdf");
         
-        // Estableix les opcions de conversió per al format PNG
+        // Establiu les opcions de conversió i especifiqueu el tipus d'imatge de sortida
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // Converteix a format PNG
+        // Converteix cada pàgina del document PDF a PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "Conversió d'un segment d'un document gran"
+    - title: "Converteix un segment d'un document gran"
       content: |
         Amb GroupDocs.Conversion per a Java, podeu convertir sense esforç pàgines específiques d'un document extens. 
         Teniu dos mètodes per aconseguir-ho, depenent dels vostres requisits. Podeu convertir una sèrie de pàgines o convertir pàgines específiques.
-        {{< landing/code title="Converteix un rang consecutiu de pàgines">}}
+        {{< landing/code title="Converteix DOCX (pàgines 2-4) a PDF a Java">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // Carregueu el fitxer DOCX font
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Establiu les opcions de conversió i especifiqueu l'interval de pàgines que voleu representar
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Converteix les pàgines 2-4 a PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
@@ -281,7 +281,7 @@ code_samples:
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "Després d'implementar i utilitzar GroupDocs.Viewer per a Java al projecte, sembla que funciona molt bé. He provat amb molts documents i fins ara tot va bé. Tot el que hi he llançat es mostra molt bé i es veu tan bé com ho faria en un visualitzador de PDF o MS Word."
+#     content: "Després d'implementar i utilitzar GroupDocs.Viewer per a Java al projecte, sembla que funciona molt bé. He provat amb molts documents i fins ara tot va bé. Tot el que hi he llançat es mostra molt bé i té un aspecte tan bo com ho faria en un visualitzador de PDF o MS Word."
 #     author: "Mats Oustad"
 #     company: "Consultor Sènior/Soci de Novanet AS"
 ---

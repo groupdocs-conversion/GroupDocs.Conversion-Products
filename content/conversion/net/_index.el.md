@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,68 +23,68 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Conversion API | Μετατροπή PDF Word Excel PPTX Εικόνων HTML"
-head_description: "C# .NET Document Conversion API. Μετατροπή PDF Word DOC DOCX, υπολογιστικά φύλλα Excel PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD και μορφές αρχείων εικόνας."
+head_title: "C# API μετατροπής εγγράφων .NET | Μετατροπή PDF, Word, Excel, PPTX, HTML και εικόνων"
+head_description: "C# API μετατροπής εγγράφων .NET. Μετατροπή PDF, Word, DOC, DOCX, Excel, Υπολογιστικά φύλλα, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD και μορφές αρχείων εικόνας."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Απλό API για ενσωμάτωση της λειτουργικότητας μετατροπής εγγράφων και εικόνας σε εφαρμογές .NET χωρίς εγκατάσταση εξωτερικού λογισμικού."
+title: "Μετατροπή εγγράφου<br>μέσω .NET API"
+description: "Ισχυρό API μετατροπής για μετατροπή αρχείων PDF, Microsoft Office, HTML, eBook και εικόνας"
 words:
-  for: "{header.words.for}"
+  for: "Για"
 
 actions:
-  main: "{actions.main}"
+  main: "Δωρεάν λήψη NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "{actions.alt}"
+  alt: "Αδειοδότηση"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Είστε έτοιμοι να ξεκινήσετε;"
+  description: "Δοκιμάστε τις δυνατότητες GroupDocs.Conversion δωρεάν ή ζητήστε άδεια"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Έκδοση {0}  κυκλοφόρησε"
+  notes: "Δείτε τι νέο υπάρχει"
+  downloads: "Λήψεις"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Πώς να μετατρέψετε αρχεία PDF σε C#"
+  more: "Περισσότερα παραδείγματα"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Φορτώστε το αρχείο προέλευσης PDF
     using (var converter = new Converter("resume.pdf"))
     {
-      // {code.comment_2}
+      // Ορίστε τις επιλογές μετατροπής
       var convertOptions = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // Μετατροπή PDF σε DOCX
       converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion με μια ματιά"
+  description: "Εξερευνήστε τις δυνατότητες του API για γρήγορη και άψογη μετατροπή αρχείων PDF, Microsoft Office, HTML, eBook και εικόνας σε εφαρμογές .NET"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Βελτιωμένη μετατροπή"
+      content: "Με το GroupDocs.Conversion API μπορείτε να μετατρέψετε εύκολα έγγραφα διαφορετικών μορφών σε αρχεία PDF, Microsoft Office, HTML, eBook και εικόνας. Το API παρέχει ευέλικτες και ισχυρές επιλογές, διασφαλίζοντας την ακεραιότητα του περιεχομένου και της δομής του εγγράφου σε όλη τη διαδικασία μετατροπής."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Εύκολη εναλλαγή μεταξύ μορφών"
+      content: "Η διαδικασία χρήσης του GroupDocs.Conversion API είναι απίστευτα απλή, και απαιτεί μόνο μία μέθοδο και ένα σύνολο επιλογών για την εύκολη εναλλαγή μεταξύ διαφορετικών μορφών."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Συμβατότητα μεταξύ πλατφορμών"
+      content: "Εξερευνήστε μια λύση μετατροπής με εγγενή συμβατότητα πολλαπλών πλατφορμών, καλύπτοντας την ευρύτερη βάση χρηστών και διασφαλίζοντας βέλτιστη απόδοση σε διάφορα περιβάλλοντα για όλες τις απαιτήσεις μετατροπής εγγράφων σας."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Ανεξαρτησία πλατφόρμας"
+  description: "Το GroupDocs.Conversion για .NET υποστηρίζει τα ακόλουθα λειτουργικά συστήματα, πλαίσια και διαχειριστές πακέτων"
   items:
     # platform loop
     - title: "Amazon"
@@ -113,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Υποστηριζόμενες μορφές αρχείων"
   description: |
-    {formats.description}
+    Το GroupDocs.Conversion για .NET υποστηρίζει λειτουργίες με τις ακόλουθες [μορφές αρχείων](https://docs.groupdocs.com/conversion/net/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Μορφές εγγράφων
+        * **Εγγραφα:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,141 +130,141 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Εικόνες & Πολυμέσα
+        * **εικόνες:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Διάγραμμα:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Ήχος:** MP3, WAV, FLAC, AAC, OGG
+        * **βίντεο:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Άλλες μορφές
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Ιστός:**  HTML, MHTML, MHT
+        * **Αρχεία:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Χρηματοδότηση:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Λειτουργίες GroupDocs.Conversion for .NET"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion χαρακτηριστικά"
+  description: "Μετατρέψτε απρόσκοπτα PDF και έγγραφα γραφείου σε HTML, JPG, PNG, BMP, TIFF, SVG και πολλές άλλες μορφές. Το GroupDocs.Conversion for .NET API έχει σχεδιαστεί για να είναι εύκολο στη χρήση και να ενσωματώνεται στο έργο σας. Υποστηρίζει όλες τις δημοφιλείς μορφές εγγράφων με τη δυνατότητα προσαρμογής της διαδικασίας μετατροπής."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Μετατροπή πολλαπλών μορφών"
+      content: "Μετατρέψτε αρχεία μεταξύ διαφόρων μορφών, συμπεριλαμβανομένων των PDF, DOCX, XLSX, PPTX και άλλων, με ευκολία."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Έξοδος υψηλής πιστότητας"
+      content: "Διατηρήστε την αρχική ποιότητα και τη μορφοποίηση των εγγράφων κατά τη διαδικασία μετατροπής."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Μετατροπή πολλών αρχείων"
+      content: "Μετατρέψτε πολλά αρχεία και συνδυάστε τα σε ένα αρχείο, απλοποιώντας την οργάνωση του περιεχομένου που έχει μετατραπεί."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Πολυσέλιδο έγγραφο σε εικόνες"
+      content: "Μετατρέψτε έγγραφα πολλών σελίδων σε εικόνες σελίδα προς σελίδα, επιτρέποντας τον ακριβή έλεγχο της διαδικασίας μετασχηματισμού και διευκολύνοντας την εξαγωγή και ανάλυση εγγράφων βάσει εικόνας."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Προσαρμόσιμες ρυθμίσεις"
+      content: "Βελτιστοποιήστε τις παραμέτρους μετατροπής, όπως η ανάλυση, η ποιότητα και η διάταξη, ώστε να ανταποκρίνονται σε συγκεκριμένες απαιτήσεις."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Ασφαλής επεξεργασία"
+      content: "Διασφαλίστε το απόρρητο των δεδομένων με τις επιλογές μετατροπής αρχείων που προστατεύονται με κωδικό πρόσβασης."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Ενσωμάτωση API"
+      content: "Ενσωματώστε απρόσκοπτα τις δυνατότητες μετατροπής στις εφαρμογές σας .NET, καθιστώντας τις απρόσκοπτα μέρος της ροής εργασίας σας."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Ισχυρή μετατροπή"
+      content: "Εξασφαλίστε αξιόπιστες και χωρίς σφάλματα μετατροπές αρχείων, διασφαλίζοντας την ακρίβεια και την ακεραιότητα των μετασχηματισμένων εγγράφων σας."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Μετατροπή εγγράφων από αρχεία"
+      content: "Εξαγωγή και μετατροπή εγγράφων από αρχεία, επιτρέποντας τη μετατροπή του περιεχομένου που είναι αποθηκευμένο σε συμπιεσμένα αρχεία."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Δείγματα κωδικών"
+  description: "Ορισμένες περιπτώσεις χρησιμοποιούν τυπικά GroupDocs.Conversion για λειτουργίες .NET"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Μετατροπή PDF σε εικόνα"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Ένα συνηθισμένο σενάριο περιλαμβάνει τη μετατροπή ολόκληρου του εγγράφου PDF ή συγκεκριμένων σελίδων σε μια συλλογή εικόνων. Το GroupDocs.Conversion για .NET προσφέρει τη δυνατότητα μετατροπής αρχείων PDF σε διάφορες μορφές εικόνας, όπως TIFF, JPG, PNG, GIF, BMP και άλλα. 
+        Σε αντίθεση με άλλες μετατροπές, αυτή η διαδικασία απαιτεί τη δήλωση ενός πληρεξούσιου SavePageStream, ο οποίος καθορίζει τη μορφή ονομασίας για τις αποθηκευμένες εικόνες. Μπορείτε να επιλέξετε τη μορφή εικόνας που προτιμάτε χρησιμοποιώντας την κλάση ImageFileType.
+        {{< landing/code title="Μετατροπή PDF σε PNG σε C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
 
-        // {code_samples.sample_1.comment_1}
+        // Φορτώστε το αρχείο προέλευσης PDF
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // {code_samples.sample_1.comment_2}
+          // Ορίστε τις επιλογές μετατροπής και καθορίστε τον τύπο εικόνας εξόδου
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // Μετατρέψτε κάθε σελίδα του εγγράφου PDF σε PNG
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Μετατροπή τμήματος ενός μεγάλου εγγράφου"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Με το GroupDocs.Conversion για .NET, μπορείτε να μετατρέψετε αβίαστα συγκεκριμένες σελίδες από ένα μεγάλο έγγραφο. 
+        Έχετε δύο τρόπους για να το πετύχετε αυτό, ανάλογα με τις απαιτήσεις σας. Μπορείτε είτε να μετατρέψετε μια σειρά σελίδων είτε να μετατρέψετε συγκεκριμένες σελίδες.
+        {{< landing/code title="Μετατροπή DOCX (σελίδες 2-4) σε PDF σε C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // Φορτώστε το αρχείο προέλευσης DOCX
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // Ορίστε τις επιλογές μετατροπής και καθορίστε το εύρος των σελίδων προς απόδοση
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // Μετατροπή σελίδων 2-4 σε PDF                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "Fluent syntax: Μια βελτιωμένη προσέγγιση"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        Η Fluent syntax προσφέρει μια συνοπτική σημείωση για κοινές ενέργειες εντός του GroupDocs.Conversion για .NET API. 
+        Τα παρακάτω δείγματα κώδικα δείχνουν πώς να αξιοποιήσετε τη fluent σύνταξη:
+        {{< landing/code title="Μετατρέψτε το DOCX σε PDF σε C# χρησιμοποιώντας άπταιστη σύνταξη">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 
@@ -277,19 +277,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "Κριτικές προϊόντων GroupDocs"
+# description: "Μην παίρνετε το λόγο μας για αυτό. Δείτε τι λένε άλλοι προγραμματιστές για τα API μας"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Εξαιρετική εξυπηρέτηση και εξαιρετικά προϊόντα. Ήταν εξαιρετικά χρήσιμοι και ανταποκρίθηκαν κατά τη διαδικασία υλοποίησης του GroupDocs.Conversion για .NET, δεν μπορώ να τα προτείνω αρκετά."
+#     author: "Μάρτιν Λασάργκα"
+#     company: "Product Manager στην Axentria ECM by G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Μετά την εφαρμογή και τη χρήση του GroupDocs.Conversion για .NET στο έργο, φαίνεται να λειτουργεί πολύ καλά. Έχω δοκιμάσει με πολλά έγγραφα και μέχρι στιγμής καλά. Όλα όσα έχω ρίξει σε αυτό αποδίδονται όμορφα και φαίνονται εξίσου καλά με ένα πρόγραμμα προβολής PDF ή MS Word."
+#     author: "Ματς Ουστάντ"
+#     company: "Ανώτερος Σύμβουλος/Συνεργάτης στη Novanet AS"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,31 +23,31 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java Dokumentu konvertēšanas API | Konvertējiet PDF Word Excel PPTX HTML attēlus"
-head_description: "Java Dokumentu konvertēšanas API. Konvertējiet PDF Word DOC DOCX, Excel izklājlapas PPT PPTX, HTML, PSD, MPT MPP, e-pastu MSG EMLX, AutoCAD un attēlu failu formātus."
+head_title: "Java dokumentu konvertēšanas API | Konvertējiet PDF, Word, Excel, PPTX, HTML un attēlus"
+head_description: "Java dokumentu konvertēšanas API. Konvertējiet PDF, Word, DOC, DOCX, Excel, izklājlapas, PPT, PPTX, HTML, PSD, MPT, MPP, e-pasta, MSG, EMLX, AutoCAD un attēlu failu formātus."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Vienkāršs API, lai integrētu dokumentu un attēlu konvertēšanas funkcionalitāti Java lietojumprogrammās, neinstalējot ārēju programmatūru."
+title: "Dokumentu konvertēšana<br>izmantojot Java API"
+description: "Jaudīgs konvertēšanas API, lai konvertētu PDF, Microsoft Office, HTML, e-grāmatas un attēlu failus"
 words:
-  for: "{header.words.for}"
+  for: "priekš"
 
 actions:
-  main: "{actions.main}"
+  main: "Bezmaksas Maven lejupielāde"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
-  alt: "{actions.alt}"
+  alt: "Licencēšana"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Vai esat gatavs sākt?"
+  description: "Izmēģiniet GroupDocs.Conversion funkcijas bez maksas vai pieprasiet licenci"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Versija {0} izlaista"
+  notes: "Skatiet, kas jauns"
+  downloads: "Lejupielādes"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Kā konvertēt PDF failus Java"
+  more: "Vairāk piemēru"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -65,39 +65,39 @@ code:
     </repositories>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // Ielādējiet avota PDF failu
     Converter converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // Iestatiet konvertēšanas opcijas
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // Konvertējiet PDF uz DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs. Pārvēršana īsumā"
+  description: "Izpētiet API iespējas ātrai un nevainojamai PDF, Microsoft Office, HTML, e-grāmatu un attēlu failu konvertēšanai Java lietojumprogrammās."
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Racionalizēta konversija"
+      content: "Izmantojot GroupDocs.Conversion API, jūs varat bez piepūles pārvērst dažādu formātu dokumentus PDF, Microsoft Office, HTML, e-grāmatu un attēlu failos. API nodrošina elastīgas un stabilas iespējas, nodrošinot satura un dokumentu struktūras integritāti visā konvertēšanas procesā."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Vienkārša pārslēgšanās starp formātiem"
+      content: "GroupDocs.Conversion API izmantošanas process ir neticami vienkāršs, un ir nepieciešama tikai viena metode un opciju kopums, lai bez piepūles pārslēgtos starp dažādiem formātiem."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Saderība starp platformām"
+      content: "Izpētiet konvertēšanas risinājumu ar raksturīgu starpplatformu savietojamību, kas nodrošina plašāku lietotāju bāzi un nodrošina optimālu veiktspēju dažādās vidēs visām jūsu dokumentu konvertēšanas prasībām."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Platformas neatkarība"
+  description: "GroupDocs.Conversion for Java atbalsta šādas operētājsistēmas, ietvarus un pakotņu pārvaldniekus"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,15 +126,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Atbalstītie failu formāti"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for Java atbalsta darbības ar šādiem [failu formātiem](https://docs.groupdocs.com/conversion/java/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Dokumentu formāti
+        * **Dokumenti:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -143,145 +143,145 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Attēli un multivide
+        * **Attēli:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagramma:** VSDX, DRAW, LUCIDCHART
+        * **CAD un ĢIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D un vektors:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Citi formāti
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Arhīvi:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-pasts un Outlook:** PST, OST, MSG, EML
+        * **Finanses:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for Java līdzekļi"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion funkcijas"
+  description: "Nemanāmi konvertējiet PDF un biroja dokumentus HTML, JPG, PNG, BMP, TIFF, SVG un daudzos citos formātos. GroupDocs.Conversion for Java API ir izstrādāta tā, lai to būtu viegli lietot un integrēt jūsu projektā. Tā atbalsta visus populāros dokumentu formātus ar iespēju pielāgot konvertēšanas procesu."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Vairāku formātu konvertēšana"
+      content: "Ērti konvertējiet failus starp dažādiem formātiem, tostarp PDF, DOCX, XLSX, PPTX un citiem."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Augstas precizitātes izvade"
+      content: "Konversijas procesa laikā saglabājiet dokumentu oriģinālo kvalitāti un formatējumu."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Vairāku failu konvertēšana"
+      content: "Konvertējiet vairākus failus un apvienojiet tos arhīvā, vienkāršojot konvertētā satura organizēšanu."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Vairāku lappušu dokuments uz attēliem"
+      content: "Pārvērtiet vairāku lappušu dokumentus par attēliem pa lappusei, ļaujot precīzi kontrolēt transformācijas procesu un atvieglot uz attēliem balstītu dokumentu izgūšanu un analīzi."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Pielāgojami iestatījumi"
+      content: "Precizējiet konvertēšanas parametrus, piemēram, izšķirtspēju, kvalitāti un izkārtojumu, lai tie atbilstu īpašām prasībām."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Droša apstrāde"
+      content: "Nodrošiniet datu konfidencialitāti, izmantojot ar paroli aizsargātas failu konvertēšanas opcijas."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API integrācija"
+      content: "Nemanāmi integrējiet konvertēšanas iespējas savās Java lietojumprogrammās, padarot to par vienmērīgu jūsu darbplūsmas daļu."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Spēcīga pārveidošana"
+      content: "Nodrošiniet uzticamu un bez kļūdām failu konvertēšanu, garantējot pārveidoto dokumentu precizitāti un integritāti."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Konvertējiet dokumentus no arhīviem"
+      content: "Izņemiet un konvertējiet dokumentus no arhīviem, ļaujot pārveidot saspiestos failos saglabāto saturu."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Koda paraugi"
+  description: "Daži izmanto tipisku GroupDocs.Conversion gadījumus Java operācijām"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Pārvērst PDF par attēlu"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Bieži sastopams scenārijs ietver visa PDF dokumenta vai noteiktu lapu pārvēršanu attēlu kolekcijā. GroupDocs.Conversion for Java piedāvā iespēju pārvērst PDF failus dažādos attēlu formātos, piemēram, TIFF, JPG, PNG, GIF, BMP un citos. 
+        Varat izvēlēties vēlamo attēla formātu, izmantojot ImageFileType klasi.
+        {{< landing/code title="PDF konvertēšana uz PNG Java">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
-        // {code_samples.sample_1.comment_1}
+        // Ielādējiet avota PDF failu
         Converter converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // Iestatiet konvertēšanas opcijas un norādiet izvades attēla veidu
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // Konvertējiet katru PDF dokumenta lapu uz PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Konvertējiet liela dokumenta segmentu"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Izmantojot GroupDocs.Conversion for Java, varat bez piepūles pārveidot noteiktas lapas no gara dokumenta. 
+        Atkarībā no jūsu prasībām jums ir divas metodes, kā to paveikt. Varat konvertēt virkni lapu vai konvertēt noteiktas lapas.
+        {{< landing/code title="Konvertējiet DOCX (2.–4. lpp.) uz PDF formātā Java">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // Ielādējiet avota DOCX failu
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Iestatiet konvertēšanas opcijas un norādiet renderējamo lapu diapazonu
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Konvertējiet 2.–4. lappusi uz PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs produktu apskati"
+# description: "Neuzņemieties tikai mūsu vārdu. Uzziniet, ko citi izstrādātāji saka par mūsu API"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Lielisks serviss un lieliski produkti. Viņi bija ļoti izpalīdzīgi un atsaucīgi GroupDocs.Viewer for Java ieviešanas procesā, tāpēc nevar tos pietiekami labi ieteikt."
+#     author: "Mārtiņš Lasarga"
+#     company: "Produktu vadītājs uzņēmumā Axentria ECM, G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Pēc GroupDocs.Viewer for Java ieviešanas un izmantošanas projektā, šķiet, ka tas darbojas ļoti labi. Esmu testējis ar daudziem dokumentiem un līdz šim viss ir labi. Viss, ko esmu iemetis tajā, tiek lieliski atveidots un izskatās tikpat labi kā PDF skatītājā vai MS Word."
+#     author: "Matss Oustads"
+#     company: "Novanet AS vecākais konsultants/partneris"
 ---

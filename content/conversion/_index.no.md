@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Aktiver JavaScript-applikasjonene dine til å enkelt konvertere mellom alle industristandard dokumentformater, inkludert Microsoft Office, PDF, HTML, bilder og mange andre."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code APIer inkluderer"
@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "Arbeid med cURL RESTful filkonverterings-API for enkelt å konvertere Microsoft Office, PDF, E-post, Project, HTML og andre vanlige filformater i applikasjonene dine."
+          content: "Arbeid med cURL RESTful filkonverterings-API for enkelt å konvertere Microsoft Office, PDF, e-post, Project, HTML og andre vanlige filformater i applikasjonene dine."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
@@ -116,7 +116,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "Psykolog"
-      content: "Jeg ser spent på veksten til GroupDocs. Responsen til hele teamet ditt har hjulpet meg veldig, når jeg snakker med noen på GroupDocs kan jeg garantere at noen lytter og får ting til å skje."
+      content: "Jeg følger spent med på veksten til GroupDocs. Responsen til hele teamet ditt har hjulpet meg veldig, når jeg snakker med noen på GroupDocs kan jeg garantere at noen lytter og får ting til å skje."
 
 ############################# Back to top ###############################
 back_to_top:

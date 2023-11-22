@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,68 +23,68 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Conversion API | Muunna PDF Word Excel PPTX HTML -kuvia"
-head_description: "C# .NET Document Conversion API. Muunna PDF Word DOC DOCX, Excel-laskentataulukot PPT PPTX, HTML, PSD, MPT MPP, sähköposti MSG EMLX, AutoCAD ja kuvatiedostomuodot."
+head_title: "C# .NET-asiakirjan muunnossovellusliittymä | Muunna PDF, Word, Excel, PPTX, HTML ja kuvat"
+head_description: "C# .NET-asiakirjan muunnossovellusliittymä. Muunna PDF-, Word-, DOC-, DOCX-, Excel-, laskentataulukoita, PPT-, PPTX-, HTML-, PSD-, MPT-, MPP-, sähköposti-, MSG-, EMLX-, AutoCAD- ja kuvatiedostomuotoja."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Yksinkertainen API integroida asiakirjojen ja kuvien muunnostoiminnot .NET-sovelluksiin ilman ulkoisten ohjelmistojen asentamista."
+title: "Asiakirjan muuntaminen<br>.NET API:n kautta"
+description: "Tehokas muunnossovellusliittymä PDF-, Microsoft Office-, HTML-, eBook- ja kuvatiedostojen muuntamiseen"
 words:
-  for: "{header.words.for}"
+  for: "varten"
 
 actions:
-  main: "{actions.main}"
+  main: "Ilmainen NuGet-lataus"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "{actions.alt}"
+  alt: "Lisensointi"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Oletko valmis aloittamaan?"
+  description: "Kokeile GroupDocs.Conversion ominaisuuksia ilmaiseksi tai pyydä lisenssi"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Versio {0}  julkaistu"
+  notes: "Katso mitä uutta"
+  downloads: "Lataukset"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Kuinka muuntaa PDF-tiedostoja C#:lla"
+  more: "Lisää esimerkkejä"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Lataa lähde PDF-tiedosto
     using (var converter = new Converter("resume.pdf"))
     {
-      // {code.comment_2}
+      // Aseta muunnosasetukset
       var convertOptions = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // Muunna PDF DOCX:ksi
       converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion yhdellä silmäyksellä"
+  description: "Tutustu API:n ominaisuuksiin PDF-, Microsoft Office-, HTML-, eBook- ja kuvatiedostojen nopeaan ja virheettömään muuntamiseen .NET-sovelluksissa"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Virtaviivainen muuntaminen"
+      content: "GroupDocs.Conversion API:n avulla voit vaivattomasti muuntaa erimuotoisia asiakirjoja PDF-, Microsoft Office-, HTML-, eBook- ja kuvatiedostoiksi. API tarjoaa joustavia ja kestäviä vaihtoehtoja, jotka varmistavat sisällön ja asiakirjarakenteen eheyden koko muunnosprosessin ajan."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Vaivaton vaihtaminen formaattien välillä"
+      content: "GroupDocs.Conversion API:n käyttöprosessi on uskomattoman suoraviivainen, ja se vaatii vain yhden menetelmän ja joukon vaihtoehtoja vaihtaaksesi vaivattomasti eri muotojen välillä."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Eri alustojen yhteensopivuus"
+      content: "Tutustu muunnosratkaisuun, jossa on luontainen alustojen välinen yhteensopivuus ja joka palvelee laajempaa käyttäjäkuntaa ja varmistaa optimaalisen suorituskyvyn eri ympäristöissä kaikissa asiakirjojen muunnosvaatimuksissasi."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Alustan riippumattomuus"
+  description: "GroupDocs.Conversion for .NET tukee seuraavia käyttöjärjestelmiä, kehyksiä ja paketinhallintaohjelmia"
   items:
     # platform loop
     - title: "Amazon"
@@ -113,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Tuetut tiedostomuodot"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for .NET tukee toimintoja seuraavilla [tiedostomuodoilla](https://docs.groupdocs.com/conversion/net/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Asiakirjamuodot
+        * **Asiakirjat:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,141 +130,141 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Kuvat ja multimedia
+        * **Kuvat:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Kaavio:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D ja vektori:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Muut muodot
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Arkistot:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Sähköposti ja Outlook:** PST, OST, MSG, EML
+        * **Rahoittaa:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Tuotteen GroupDocs.Conversion for .NET ominaisuudet"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion-ominaisuudet"
+  description: "Muunna PDF- ja toimistoasiakirjat saumattomasti HTML-, JPG-, PNG-, BMP-, TIFF-, SVG- ja moniin muihin muotoihin. GroupDocs.Conversion for .NET API on suunniteltu helppokäyttöiseksi ja integroitavaksi projektiisi. Se tukee kaikkia suosittuja asiakirjamuotoja ja mahdollistaa muunnosprosessin mukauttamisen."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Monimuotoinen muunnos"
+      content: "Muunna tiedostoja helposti eri muotojen välillä, mukaan lukien PDF, DOCX, XLSX, PPTX ja muut."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Korkealaatuinen tulostus"
+      content: "Säilytä asiakirjojen alkuperäinen laatu ja muotoilu muuntamisen aikana."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Useiden tiedostojen muuntaminen"
+      content: "Muunna useita tiedostoja ja yhdistä ne arkistoon, mikä yksinkertaistaa muunnetun sisällön järjestämistä."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Monisivuinen asiakirja kuviksi"
+      content: "Muunna monisivuiset asiakirjat kuviksi sivu sivulta, mikä mahdollistaa muunnosprosessin tarkan hallinnan ja helpottaa kuvapohjaisten asiakirjojen poimimista ja analysointia."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Muokattavat asetukset"
+      content: "Hienosäädä muunnosparametrit, kuten resoluutio, laatu ja asettelu, vastaamaan erityisiä vaatimuksia."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Turvallinen käsittely"
+      content: "Varmista tietojen tietosuoja salasanalla suojatuilla tiedostojen muuntovaihtoehdoilla."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API-integrointi"
+      content: "Integroi muunnosominaisuudet saumattomasti .NET-sovelluksiisi, mikä tekee siitä saumattoman osan työnkulkuasi."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Vankka muunnos"
+      content: "Varmista luotettavat ja virheetön tiedostomuunnos, mikä takaa muunnettujen asiakirjojen tarkkuuden ja eheyden."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Muunna asiakirjat arkistoista"
+      content: "Pura ja muunna asiakirjoja arkistoista, mikä mahdollistaa pakattujen tiedostojen sisällön muuntamisen."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Koodinäytteet"
+  description: "Jotkut käyttävät tyypillisiä GroupDocs.Conversion tapauksia .NET-toimintoihin"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Muunna PDF kuvaksi"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Usein esiintyvä skenaario sisältää koko PDF-dokumentin tai tiettyjen sivujen muuntamisen kuvakokoelmaksi. GroupDocs.Conversion for .NET tarjoaa mahdollisuuden muuntaa PDF-tiedostoja erilaisiin kuvamuotoihin, kuten TIFF, JPG, PNG, GIF, BMP ja muihin. 
+        Toisin kuin muut muunnokset, tämä prosessi vaatii SavePageStream-valtuutetun ilmoituksen, joka määrittää tallennettujen kuvien nimeämismuodon. Voit valita haluamasi kuvamuodon käyttämällä ImageFileType-luokkaa.
+        {{< landing/code title="Muunna PDF PNG:ksi C#:lla">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
 
-        // {code_samples.sample_1.comment_1}
+        // Lataa lähde PDF-tiedosto
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // {code_samples.sample_1.comment_2}
+          // Aseta muunnosasetukset ja määritä tulosteen kuvatyyppi
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // Muunna PDF-dokumentin jokainen sivu PNG-muotoon
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Muunna suuren asiakirjan segmentti"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        GroupDocs.Conversion for .NET -sovelluksella voit muuntaa vaivattomasti tiettyjä sivuja pitkästä asiakirjasta. 
+        Sinulla on kaksi tapaa saavuttaa tämä tarpeidesi mukaan. Voit joko muuntaa useita sivuja tai muuntaa tiettyjä sivuja.
+        {{< landing/code title="Muunna DOCX (sivut 2-4) PDF:ksi C#:lla">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // Lataa lähde-DOCX-tiedosto
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // Aseta muunnosasetukset ja määritä hahmonnettavien sivujen alue
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // Muunna sivut 2-4 PDF-muotoon                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "Sujuva syntaksi: virtaviivainen lähestymistapa"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        Sujuva syntaksi tarjoaa tiiviin merkinnän yleisistä toiminnoista GroupDocs.Conversion for .NET API:ssa. 
+        Alla olevat koodiesimerkit osoittavat, kuinka sujuvaa syntaksia voidaan hyödyntää:
+        {{< landing/code title="Muunna DOCX PDF:ksi C#:ssa käyttämällä sujuvaa syntaksia">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 
@@ -277,19 +277,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs-tuotearvostelut"
+# description: "Älä vain ota sanaamme. Katso, mitä muut kehittäjät sanovat sovellusliittymistämme"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Erinomainen palvelu ja erinomaiset tuotteet. He olivat erittäin avuliaita ja reagoivia GroupDocs.Conversion for .NET -toteutusprosessin aikana, emmekä voi suositella heitä tarpeeksi."
+#     author: "Martin Lasarga"
+#     company: "Axentria ECM:n tuotepäällikkö, G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Kun GroupDocs.Conversion for .NET on otettu käyttöön ja käytetty projektissa, se näyttää toimivan erittäin hyvin. Olen testannut monilla asiakirjoilla ja toistaiseksi hyvin. Kaikki, mitä olen heittänyt siihen, näkyy kauniisti ja näyttää yhtä hyvältä kuin PDF-katseluohjelmassa tai MS Wordissa."
+#     author: "Mats Oustad"
+#     company: "Novanet AS:n vanhempi konsultti/kumppani"
 ---

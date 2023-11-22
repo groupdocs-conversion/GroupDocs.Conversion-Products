@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,67 +23,67 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "{head.title}"
-head_description: "{head.description}"
+head_title: "API การแปลงเอกสาร JavaScript | แปลง PDF, Word, Excel, PPTX, HTML และรูปภาพ"
+head_description: "API การแปลงเอกสาร JavaScript แปลง PDF, Word, DOC, DOCX, Excel, สเปรดชีต, PPT, PPTX, HTML, PSD, MPT, MPP, อีเมล, MSG, EMLX, AutoCAD และรูปแบบไฟล์รูปภาพ"
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "{header.description}"
+title: "การแปลงเอกสาร<br>ผ่าน Node.js API"
+description: "API การแปลงอันทรงพลังเพื่อแปลงไฟล์ PDF, Microsoft Office, HTML, eBook และรูปภาพ"
 words:
-  for: "{header.words.for}"
+  for: "สำหรับ"
 
 actions:
-  main: "{actions.main}"
+  main: "ดาวน์โหลด NPM ฟรี"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
-  alt: "{actions.alt}"
+  alt: "การออกใบอนุญาต"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "พร้อมที่จะเริ่มต้นหรือยัง?"
+  description: "ลองใช้คุณสมบัติ GroupDocs.Conversion ฟรีหรือขอใบอนุญาต"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "เวอร์ชัน {0}  ออกแล้ว"
+  notes: "ดูว่ามีอะไรใหม่"
+  downloads: "ดาวน์โหลด"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "วิธีแปลงไฟล์ PDF ใน JavaScript"
+  more: "ตัวอย่างเพิ่มเติม"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // โหลดไฟล์ PDF ต้นฉบับ
     const converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // ตั้งค่าตัวเลือกการแปลงสำหรับรูปแบบ DOCX
     const convertOptions = new WordProcessingConvertOptions();
     
-    // {code.comment_3}
+    // แปลงเป็นรูปแบบ DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion ได้อย่างรวดเร็ว"
+  description: "สำรวจความสามารถของ API สำหรับการแปลงไฟล์ PDF, Microsoft Office, HTML, eBook และรูปภาพภายในแอปพลิเคชัน JavaScript อย่างรวดเร็วและไร้ที่ติ"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "การแปลงที่คล่องตัว"
+      content: "ด้วย GroupDocs.Conversion API คุณสามารถแปลงเอกสารในรูปแบบที่หลากหลายเป็นไฟล์ PDF, Microsoft Office, HTML, eBook และรูปภาพได้อย่างง่ายดาย API มีตัวเลือกที่ยืดหยุ่นและมีประสิทธิภาพ ช่วยให้มั่นใจในความสมบูรณ์ของเนื้อหาและโครงสร้างเอกสารตลอดกระบวนการแปลง"
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "สลับระหว่างรูปแบบได้อย่างง่ายดาย"
+      content: "กระบวนการใช้ GroupDocs.Conversion API ตรงไปตรงมาอย่างไม่น่าเชื่อ โดยต้องใช้วิธีเดียวและชุดตัวเลือกเพื่อสลับระหว่างรูปแบบต่างๆ ได้อย่างง่ายดาย"
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "ความเข้ากันได้ข้ามแพลตฟอร์ม"
+      content: "สำรวจโซลูชันการแปลงที่มีความเข้ากันได้ข้ามแพลตฟอร์มโดยธรรมชาติ รองรับฐานผู้ใช้ที่กว้างขึ้น และรับประกันประสิทธิภาพสูงสุดในสภาพแวดล้อมที่หลากหลายสำหรับข้อกำหนดการแปลงเอกสารทั้งหมดของคุณ"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "ความเป็นอิสระของแพลตฟอร์ม"
+  description: "GroupDocs.Conversion สำหรับ Node.js ผ่าน Java รองรับระบบปฏิบัติการ เฟรมเวิร์ก และตัวจัดการแพ็คเกจต่อไปนี้"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,15 +112,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    {formats.description}
+    GroupDocs.Conversion สำหรับ Node.js ผ่าน Java รองรับการดำเนินการกับ [รูปแบบไฟล์](https://docs.groupdocs.com/conversion/nodejs-java/supported-file-formats/) ต่อไปนี้
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### รูปแบบเอกสาร
+        * **เอกสาร:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -129,140 +129,140 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### รูปภาพและมัลติมีเดีย
+        * **รูปภาพ:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **แผนภาพ:** VSDX, DRAW, LUCIDCHART
+        * **CAD และภูมิสารสนเทศ:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **เสียง:** MP3, WAV, FLAC, AAC, OGG
+        * **วีดีโอ:** MP4, AVI, MKV, MOV, WMV
+        * **3 มิติและเวกเตอร์:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### รูปแบบอื่นๆ
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **เว็บ:**  HTML, MHTML, MHT
+        * **หอจดหมายเหตุ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **อีเมลและ Outlook:** PST, OST, MSG, EML
+        * **การเงิน:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{features.title}"
-  description: "{features.description}"
+  title: "คุณสมบัติ GroupDocs.Conversion"
+  description: "แปลงเอกสาร PDF และ Office เป็น HTML, JPG, PNG, BMP, TIFF, SVG และรูปแบบอื่น ๆ ได้อย่างราบรื่น GroupDocs.Conversion สำหรับ Node.js ผ่าน Java API ได้รับการออกแบบมาให้ใช้งานง่ายและผสานรวมเข้ากับโปรเจ็กต์ของคุณ รองรับรูปแบบเอกสารยอดนิยมทั้งหมดพร้อมความสามารถในการปรับแต่งกระบวนการแปลง"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "การแปลงหลายรูปแบบ"
+      content: "แปลงไฟล์ระหว่างรูปแบบต่างๆ รวมถึง PDF, DOCX, XLSX, PPTX และอื่นๆ ได้อย่างง่ายดาย"
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "เอาต์พุตความเที่ยงตรงสูง"
+      content: "รักษาคุณภาพต้นฉบับและการจัดรูปแบบของเอกสารในระหว่างกระบวนการแปลง"
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "การแปลงไฟล์หลายไฟล์"
+      content: "แปลงไฟล์หลายไฟล์และรวมเข้าด้วยกันเป็นไฟล์เก็บถาวร ช่วยลดความยุ่งยากในการจัดระเบียบเนื้อหาที่แปลงแล้ว"
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "เอกสารหลายหน้าเป็นรูปภาพ"
+      content: "แปลงเอกสารหลายหน้าเป็นรูปภาพทีละหน้า ช่วยให้สามารถควบคุมกระบวนการแปลงได้อย่างแม่นยำ และอำนวยความสะดวกในการแยกและวิเคราะห์เอกสารตามรูปภาพ"
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "การตั้งค่าที่ปรับแต่งได้"
+      content: "ปรับแต่งพารามิเตอร์การแปลงอย่างละเอียด เช่น ความละเอียด คุณภาพ และเค้าโครงเพื่อให้ตรงตามข้อกำหนดเฉพาะ"
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "การประมวลผลที่ปลอดภัย"
+      content: "รับประกันความเป็นส่วนตัวของข้อมูลด้วยตัวเลือกการแปลงไฟล์ที่ป้องกันด้วยรหัสผ่าน"
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "บูรณาการ API"
+      content: "ผสานรวมความสามารถในการแปลงเข้ากับแอปพลิเคชัน JavaScript ของคุณได้อย่างราบรื่น ทำให้เป็นส่วนหนึ่งของขั้นตอนการทำงานของคุณได้อย่างราบรื่น"
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "การแปลงที่แข็งแกร่ง"
+      content: "รับประกันการแปลงไฟล์ที่เชื่อถือได้และปราศจากข้อผิดพลาด รับประกันความถูกต้องและความสมบูรณ์ของเอกสารที่ถูกแปลงของคุณ"
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "แปลงเอกสารจากเอกสารสำคัญ"
+      content: "แยกและแปลงเอกสารจากไฟล์เก็บถาวร ช่วยให้สามารถแปลงเนื้อหาที่จัดเก็บไว้ในไฟล์บีบอัดได้"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "ตัวอย่างโค้ด"
+  description: "กรณีการใช้งานบางอย่างของ GroupDocs.Conversion ทั่วไปสำหรับ Node.js ผ่านการดำเนินการ Java"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "แปลง PDF เป็นรูปภาพ"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        สถานการณ์ที่พบบ่อยเกี่ยวข้องกับการแปลงเอกสาร PDF ทั้งหมดหรือหน้าใดหน้าหนึ่งเป็นคอลเลกชั่นรูปภาพ GroupDocs.Conversion สำหรับ Node.js ผ่าน Java นำเสนอความสามารถในการแปลง PDF เป็นรูปแบบรูปภาพต่างๆ เช่น TIFF, JPG, PNG, GIF, BMP และอื่นๆ 
+        คุณสามารถเลือกรูปแบบภาพที่คุณต้องการได้โดยใช้คลาส ImageFileType
+        {{< landing/code title="การแปลง PDF เป็น PNG ใน JavaScript">}}
         ```javascript {style=abap}  
         import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
         
-        // {code_samples.sample_1.comment_1}
+        // โหลดไฟล์ PDF ต้นฉบับ
         const converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // ตั้งค่าตัวเลือกการแปลงและระบุประเภทภาพที่ส่งออก
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // แปลงเอกสาร PDF แต่ละหน้าเป็น PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "แปลงส่วนของเอกสารขนาดใหญ่"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        ด้วย GroupDocs.Conversion สำหรับ Node.js ผ่าน Java คุณสามารถแปลงหน้าที่ต้องการจากเอกสารที่มีความยาวได้อย่างง่ายดาย 
+        คุณมีสองวิธีในการบรรลุเป้าหมายนี้ ขึ้นอยู่กับความต้องการของคุณ คุณสามารถแปลงช่วงของหน้าหรือแปลงหน้าเฉพาะได้
+        {{< landing/code title="แปลง DOCX (หน้า 2-4) เป็น PDF ใน JavaScript">}}
         ```javascript {style=abap}   
         import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        // {code_samples.sample_2.comment_1}
+        // โหลดไฟล์ DOCX ต้นฉบับ
         const converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // ตั้งค่าตัวเลือกการแปลงและระบุช่วงของหน้าที่จะแสดง
         const convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // แปลงหน้า 2-4 เป็น PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "บทวิจารณ์ผลิตภัณฑ์ GroupDocs"
+# description: "อย่าเพิ่งเชื่อคำพูดของเรา ดูว่านักพัฒนารายอื่นพูดถึง API ของเราอย่างไร"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "บริการที่เป็นเลิศและผลิตภัณฑ์ที่เป็นเลิศ พวกเขามีประโยชน์และตอบสนองอย่างมากในระหว่าง GroupDocs.Viewer สำหรับ Node.js ผ่านกระบวนการใช้งาน Java ไม่สามารถแนะนำได้มากพอ"
+#     author: "มาร์ติน ลาซาร์กา"
+#     company: "Product Manager ที่ Axentria ECM by G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "หลังจากใช้งานและใช้งาน GroupDocs.Viewer สำหรับ Node.js ผ่าน Java ในโปรเจ็กต์แล้ว ดูเหมือนว่าจะทำงานได้ดีมาก ฉันได้ทดสอบกับเอกสารจำนวนมากและจนถึงตอนนี้ก็ดีมาก ทุกสิ่งที่ฉันใส่ลงไปนั้นเรนเดอร์ได้อย่างสวยงามและดูดีพอๆ กับในโปรแกรมดู PDF หรือ MS Word"
+#     author: "มัตส์ อูสตัด"
+#     company: "ที่ปรึกษาอาวุโส/หุ้นส่วนของ Novanet AS"
 ---

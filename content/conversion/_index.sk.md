@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -9,11 +9,11 @@ product_tag: "conversion"
 
 ############################# Head ############################
 head_title: ".NET, Java, Cloud API a aplikácie na konverziu dokumentov od GroupDocs"
-head_description: "Preveďte populárne formáty dokumentov a obrázkov na ľubovoľnej platforme pomocou riešení založených na aplikácii a rozhraní API."
+head_description: "Preveďte obľúbené formáty dokumentov a obrázkov na ľubovoľnej platforme pomocou riešení založených na aplikácii a rozhraní API."
 
 ############################# Header ############################
 title: "Riešenie na konverziu dokumentov a obrázkov"
-description: "Preveďte populárne formáty dokumentov a obrázkov na ľubovoľnej platforme pomocou riešení založených na aplikácii a rozhraní API."
+description: "Preveďte obľúbené formáty dokumentov a obrázkov na ľubovoľnej platforme pomocou riešení založených na aplikácii a rozhraní API."
 
 ############################# APIs ###############################
 apis:
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Umožnite svojim aplikáciám JavaScript jednoduchý prevod medzi všetkými štandardnými formátmi dokumentov vrátane Microsoft Office, PDF, HTML, obrázkov a mnohých ďalších."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code APIs Include"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: "REST API na konverziu súborov .NET na jednoduchú konverziu Microsoft Office, PDF, Email, Project, HTML a ďalších bežných formátov súborov na akejkoľvek platforme pomocou Cloud SDK."
+          content: "REST API na konverziu súborov .NET na jednoduchú konverziu Microsoft Office, PDF, Email, Project, HTML a iných bežných súborových formátov na akejkoľvek platforme pomocou Cloud SDK."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
@@ -79,7 +79,7 @@ apis:
           content: "Obohaťte svoje cloudové aplikácie Java o pokročilé funkcie konverzie dokumentov na akejkoľvek platforme schopnej volať rozhrania REST API."
 
     # api loop
-    - title: "GroupDocs.Conversion No Code Apps Include"
+    - title: "GroupDocs.Conversion No Code Apps Included"
       link: "https://products.groupdocs.app/conversion"
       label: "Zobraziť všetky aplikácie bez kódu"
       api_product:

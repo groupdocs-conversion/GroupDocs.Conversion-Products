@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -9,11 +9,11 @@ product_tag: "conversion"
 
 ############################# Head ############################
 head_title: "GroupDocs'tan .NET, Java, Bulut API'leri ve Belge Dönüştürme Uygulamaları"
-head_description: "Uygulama ve api tabanlı çözümlerle herhangi bir platformda popüler belge ve görüntü dosyası biçimlerini dönüştürün."
+head_description: "Uygulama ve API tabanlı çözümlerle popüler belge ve görüntü dosyası formatlarını herhangi bir platformda dönüştürün."
 
 ############################# Header ############################
 title: "Belge ve Görüntü Dönüştürme Çözümü"
-description: "Uygulama ve api tabanlı çözümlerle herhangi bir platformda popüler belge ve görüntü dosyası biçimlerini dönüştürün."
+description: "Uygulama ve API tabanlı çözümlerle popüler belge ve görüntü dosyası formatlarını herhangi bir platformda dönüştürün."
 
 ############################# APIs ###############################
 apis:
@@ -21,9 +21,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Conversion Yüksek Kod API'leri şunları içerir:"
+    - title: "GroupDocs.Conversion Yüksek Kod API'leri Dahil Edilir"
       link: "/conversion/"
-      label: "Tüm Yüksek Kod API'lerini Görüntüle"
+      label: "Tüm Yüksek Kod API'lerini Görüntüleyin"
       api_product:
         # api_product loop
         - link: "/conversion/net/"
@@ -31,7 +31,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
-          content: "Her tür .NET uygulamasında belgeleri ve görüntü dosyası biçimlerini doğru bir şekilde dönüştürmek için yerel .NET API'si. Dönüştürme sırasında görüntü filigranları eklemeyi destekler."
+          content: "Her türlü .NET uygulamasında belgeleri ve görüntü dosyası formatlarını doğru bir şekilde dönüştürmek için yerel .NET API. Dönüştürme sırasında görüntü filigranlarının eklenmesini destekler."
 
         # api_product loop
         - link: "/conversion/java/"
@@ -39,7 +39,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Java"
-          content: "Java uygulamalarınızın Microsoft Office, PDF, HTML, resimler ve diğerleri dahil olmak üzere tüm endüstri standardı belge biçimleri arasında kolayca dönüştürme yapmasını sağlayın."
+          content: "Java uygulamalarınızın, Microsoft Office, PDF, HTML, resimler ve diğerleri de dahil olmak üzere tüm endüstri standardı belge formatları arasında kolayca dönüştürme yapmasını sağlayın."
           
         # api_product loop
         - link: "/conversion/nodejs-java/"
@@ -47,12 +47,12 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "JavaScript uygulamalarınızın, Microsoft Office, PDF, HTML, resimler ve diğerleri de dahil olmak üzere tüm endüstri standardı belge formatları arasında kolayca dönüşüm yapmasını sağlayın."
 
     # api loop
-    - title: "GroupDocs.Conversion Düşük Kod API'leri şunları içerir:"
+    - title: "GroupDocs.Conversion Düşük Kod API'leri Dahil Edilir"
       link: "https://products.groupdocs.cloud/conversion"
-      label: "Tüm Düşük Kodlu API'leri Görüntüle"
+      label: "Tüm Az Kodlu API'leri Görüntüleyin"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/curl"
@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "Microsoft Office, PDF, E-posta, Proje, HTML ve uygulamalarınızdaki diğer yaygın dosya biçimlerini kolayca dönüştürmek için cURL RESTful dosya dönüştürme API'si ile çalışın."
+          content: "Uygulamalarınızdaki Microsoft Office, PDF, E-posta, Proje, HTML ve diğer yaygın dosya formatlarını kolayca dönüştürmek için cURL RESTful dosya dönüştürme API'si ile çalışın."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: ".NET dosya dönüştürme REST API, Cloud SDK kullanarak herhangi bir platformda Microsoft Office, PDF, E-posta, Proje, HTML ve diğer yaygın dosya biçimlerini kolayca dönüştürmek için."
+          content: ".NET dosya dönüştürme REST API; Microsoft Office, PDF, E-posta, Proje, HTML ve diğer yaygın dosya formatlarını Cloud SDK kullanarak herhangi bir platformda kolayca dönüştürmek için."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
@@ -76,10 +76,10 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for Java"
-          content: "Bulut tabanlı Java uygulamalarınızı, REST API'lerini çağırabilen herhangi bir platformda gelişmiş belge dönüştürme özellikleriyle zenginleştirin."
+          content: "Bulut tabanlı Java uygulamalarınızı, REST API'leri çağırabilen herhangi bir platformdaki gelişmiş belge dönüştürme özellikleriyle zenginleştirin."
 
     # api loop
-    - title: "GroupDocs.Conversion Kod Yok Uygulamalar İçermez"
+    - title: "GroupDocs.Conversion Kodsuz Uygulama İçermez"
       link: "https://products.groupdocs.app/conversion"
       label: "Tüm Kodsuz Uygulamaları Görüntüle"
       api_product:
@@ -89,7 +89,7 @@ apis:
           image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png"
           product: "GroupDocs.Conversion"
           platform: "Total"
-          content: "50'den fazla belge biçimini PDF, XLSX, DOCX, XPS, HTML ve daha fazlasına dönüştürün."
+          content: "50'den fazla belge formatını PDF, XLSX, DOCX, XPS, HTML ve daha fazlasına dönüştürün."
 
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/doc-to-xls"
@@ -105,7 +105,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Conversion"
           platform: "PDF to DOCX"
-          content: "Word (DOCX) formatına sorunsuz bir şekilde dönüştürmek için PDF belgelerinizi yükleyin."
+          content: "Word (DOCX) formatına sorunsuz dönüşüm için PDF belgelerinizi yükleyin."
 
 ############################# Testimonials ###############################
 testimonials:
@@ -116,7 +116,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "Psikolog"
-      content: "GroupDocs'un büyümesini heyecanla izliyorum. Tüm ekibinizin duyarlılığı bana çok yardımcı oldu, GroupDocs'tan biriyle konuştuğumda birinin beni dinlediğini ve bir şeyler olmasını sağladığını garanti edebilirim."
+      content: "GroupDocs'un büyümesini heyecanla izliyorum. Tüm ekibinizin hızlı yanıt vermesi bana çok yardımcı oldu; GroupDocs'tan biriyle konuştuğumda birinin dinlediğini ve bir şeyler yaptığını garanti edebilirim."
 
 ############################# Back to top ###############################
 back_to_top:

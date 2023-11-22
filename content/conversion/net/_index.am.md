@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,11 +23,11 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET ሰነድ ልወጣ API | ፒዲኤፍ ቃል ኤክሴል PPTX HTML ምስሎችን ቀይር"
-head_description: "C# .NET ሰነድ ልወጣ ኤፒአይ። PDF Word DOC DOCX፣ Excel ተመን ሉሆች PPT PPTX፣ HTML፣ PSD፣ MPT MPP፣ ኢሜል MSG EMLX፣ AutoCAD እና የምስል ፋይል ቅርጸቶችን ቀይር።"
+head_title: "C# .NET ሰነድ ልወጣ API | PDF፣ Word፣ Excel፣ PPTX፣ HTML እና ምስሎችን ቀይር"
+head_description: "C# .NET ሰነድ ቅየራ ኤፒአይ። PDF፣ Word፣ DOC፣ DOCX፣ Excel፣ የተመን ሉህ፣ PPT፣ PPTX፣ HTML፣ PSD፣ MPT፣ MPP፣ ኢሜይል፣ MSG፣ EMLX፣ AutoCAD እና የምስል ፋይል ቅርጸቶችን ቀይር።"
 
 ############################# Header ############################
-title: "የሰነድ ለውጥ<br>በ NET API በኩል"
+title: "ሰነድ መቀየር<br>በ NET API በኩል"
 description: "ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ ኤችቲኤምኤል፣ ኢመጽሐፍ እና የምስል ፋይሎችን ለመቀየር ኃይለኛ የልወጣ ኤፒአይ"
 words:
   for: "ለ"
@@ -55,10 +55,10 @@ code:
     // የምንጭ ፒዲኤፍ ፋይልን ጫን
     using (var converter = new Converter("resume.pdf"))
     {
-      // ለDOCX ቅርጸት የመቀየሪያ አማራጮችን ያዘጋጁ
+      // የመቀየሪያ አማራጮችን ያዘጋጁ
       var convertOptions = new WordProcessingConvertOptions();
 
-      // ወደ DOCX ቅርጸት ቀይር
+      // ፒዲኤፍ ወደ DOCX ይለውጡ
       converter.Convert("resume.docx", convertOptions);
     }
     ```
@@ -66,19 +66,19 @@ code:
 overview:
   enable: true
   title: "GroupDocs.ልወጣ በጨረፍታ"
-  description: "ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ ኤችቲኤምኤል፣ ኢመጽሐፍ እና ምስል ፋይሎችን በ NET መተግበሪያዎች ለመለወጥ ኃይለኛ የልወጣ ኤፒአይ"
+  description: "ፈጣን እና እንከን የለሽ የፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ HTML፣ ኢመጽሐፍ እና የምስል ፋይሎችን በ NET መተግበሪያዎች ውስጥ ለመለወጥ የኤፒአይን አቅም ያስሱ"
   features:
     # feature loop
     - title: "የተስተካከለ ልወጣ"
-      content: "GroupDocs.Conversion for .NET በመጠቀም ልፋት የሌለበት የፋይል ልወጣን ወደ የእርስዎ C# ፕሮጀክቶች አካትት። ለተሻሻለ ተኳሃኝነት በቅርጸቶች መካከል ያለችግር ሽግግር።"
+      content: "በGroupDocs.Conversion API ያለልፋት የተለያዩ ቅርጸቶችን ሰነዶችን ወደ ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ HTML፣ ኢመጽሐፍ እና ምስል ፋይሎች መቀየር ይችላሉ። ኤፒአይ ተለዋዋጭ እና ጠንካራ አማራጮችን ያቀርባል፣ ይህም የይዘት እና የሰነድ አወቃቀሩን በመለወጥ ሂደት ውስጥ ትክክለኛነት ያረጋግጣል።"
 
     # feature loop
-    - title: "ተለዋዋጭ ውህደት"
-      content: "የፒዲኤፍ እና የቢሮ ፋይል ቅየራ ውህደትን ቀለል ያድርጉት። GroupDocs.Conversion for NET የመተግበሪያዎችዎን ሁለገብነት ያሻሽላል።"
+    - title: "በቅርጸቶች መካከል ያለ ጥረት ይቀያይሩ"
+      content: "GroupDocs.Conversion API የመጠቀም ሂደት በማይታመን ሁኔታ ቀጥተኛ ነው፣በተለያዩ ቅርጸቶች መካከል ያለ ምንም ጥረት ለመቀያየር አንድ ዘዴ እና የአማራጭ ስብስብ ይፈልጋል።"
 
     # feature loop
-    - title: "ጥገኛ ለውጥ"
-      content: "ጥራትን በመጠበቅ ትክክለኛ ልወጣዎችን ያረጋግጡ። GroupDocs.Conversion for NET የፋይል ቅርጸቶችን አስተማማኝ ለውጦችን ዋስትና ይሰጣል።"
+    - title: "የመድረክ-መድረክ ተኳኋኝነት"
+      content: "ለሁሉም የሰነድ መለወጫ መስፈርቶችዎ ሰፊውን የተጠቃሚ መሰረት በማቅረብ እና በተለያዩ አካባቢዎች ላይ ጥሩ አፈጻጸምን በማረጋገጥ የልወጣ መፍትሄን ከተፈጥሮ-መድረክ-መድረክ ተኳሃኝነት ጋር ያስሱ።"
 
 ############################# Platforms ############################
 platforms:
@@ -152,13 +152,13 @@ formats:
 features:
   enable: true
   title: "የቡድንDocs.የመቀየር ባህሪያት"
-  description: "ፒዲኤፍ እና የቢሮ ሰነዶችን ያለምንም እንከን ወደ HTML፣ JPG፣ PNG፣ BMP፣ TIFF፣ SVG እና ሌሎች ብዙ ቅርጸቶች ይቀይሩ። GroupDocs.Conversion for NET API የተቀየሰው ለአጠቃቀም ቀላል እንዲሆን እና በፕሮጀክትዎ ውስጥ እንዲዋሃድ ነው። የመቀየሪያ ሂደቱን የማበጀት ችሎታ ሁሉንም ታዋቂ የሰነድ ቅርጸቶችን ይደግፋል። GroupDocs.Conversion for NET API የተቀየሰው ለአጠቃቀም ቀላል እንዲሆን እና በፕሮጀክትዎ ውስጥ እንዲዋሃድ ነው። የመቀየሪያ ሂደቱን የማበጀት ችሎታ ሁሉንም ታዋቂ የሰነድ ቅርጸቶችን ይደግፋል።"
+  description: "ፒዲኤፍ እና የቢሮ ሰነዶችን ያለምንም እንከን ወደ HTML፣ JPG፣ PNG፣ BMP፣ TIFF፣ SVG እና ሌሎች ብዙ ቅርጸቶች ይቀይሩ። GroupDocs.Conversion for NET API የተቀየሰው ለአጠቃቀም ቀላል እንዲሆን እና በፕሮጀክትዎ ውስጥ እንዲዋሃድ ነው። የመቀየሪያ ሂደቱን የማበጀት ችሎታ ሁሉንም ታዋቂ የሰነድ ቅርጸቶችን ይደግፋል።"
 
   items:
     # feature loop
     - icon: "merge"
       title: "ባለብዙ-ቅርጸት ልወጣ"
-      content: "PDF፣ DOCX፣ XLSX፣ PPTX እና ሌሎችንም ጨምሮ በተለያዩ ቅርጸቶች መካከል በቀላሉ ፋይሎችን ይለውጡ።"
+      content: "PDF፣ DOCX፣ XLSX፣ PPTX እና ሌሎችንም ጨምሮ በተለያዩ ቅርጸቶች መካከል ፋይሎችን በቀላሉ ይለውጡ።"
 
     # feature loop
     - icon: "split"
@@ -167,7 +167,7 @@ features:
 
     # feature loop
     - icon: "move"
-      title: "በርካታ ፋይሎችን በመቀየር ላይ"
+      title: "ብዙ ፋይሎችን በመቀየር ላይ"
       content: "ብዙ ፋይሎችን ይለውጡ እና ወደ ማህደር ያዋህዷቸው፣ የተለወጠውን ይዘት አደረጃጀት በማቃለል።"
 
     # feature loop
@@ -188,7 +188,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "የኤፒአይ ውህደት"
-      content: "የመቀየሪያ አቅሞችን ያለምንም እንከን ወደ .NET አፕሊኬሽኖችዎ ያዋህዱ፣ ይህም የስራ ሂደትዎ እንከን የለሽ አካል ያደርገዋል።"
+      content: "የመቀየሪያ አቅሞችን ያለምንም እንከን ወደ NET አፕሊኬሽኖችዎ ያዋህዱ፣ ይህም የስራ ሂደትዎ እንከን የለሽ አካል ያደርገዋል።"
 
     # feature loop
     - icon: "orientation"
@@ -211,7 +211,7 @@ code_samples:
       content: |
         በተለምዶ የሚያጋጥመው ሁኔታ አንድን ሙሉ የፒዲኤፍ ሰነድ ወይም የተወሰኑ ገጾችን ወደ የምስሎች ስብስብ መቀየርን ያካትታል። GroupDocs.Conversion ለ NET ፒዲኤፎችን ወደ ተለያዩ የምስል ቅርጸቶች እንደ TIFF፣ JPG፣ PNG፣ GIF፣ BMP እና ሌሎች የመቀየር ችሎታ ይሰጣል። 
         እንደሌሎች ልወጣዎች ይህ ሂደት የSavePageStream ውክልና ማወጅ ይጠይቃል፣ይህም ለተቀመጡ ምስሎች የስያሜ ቅርጸቱን ይገልጻል። ImageFileType ክፍልን በመጠቀም የመረጡትን የምስል ቅርጸት መምረጥ ይችላሉ።
-        {{< landing/code title="በC# ውስጥ ፒዲኤፍ ወደ PNG በመቀየር ላይ">}}
+        {{< landing/code title="በC# ውስጥ ፒዲኤፍ ወደ PNG ይለውጡ">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
@@ -222,49 +222,49 @@ code_samples:
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // ለ PNG ቅርጸት የመቀየሪያ አማራጮችን ያዘጋጁ
+          // የመቀየሪያ አማራጮችን ያዘጋጁ እና የውጤት ምስል አይነት ይግለጹ
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // ወደ PNG ቅርጸት ቀይር
+          // እያንዳንዱን የፒዲኤፍ ሰነድ ገጽ ወደ PNG ቀይር
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "የአንድ ትልቅ ሰነድ ክፍል መለወጥ"
+    - title: "የአንድ ትልቅ ሰነድ ክፍል ይለውጡ"
       content: |
         በGroupDocs.Conversion for NET የተወሰኑ ገጾችን ከረዥም ሰነድ ያለምንም ልፋት መቀየር ትችላለህ። 
         ይህንን ለማከናወን ሁለት መንገዶች አሉዎት, እንደ ፍላጎቶችዎ ይወሰናል. የተለያዩ ገጾችን መለወጥ ወይም የተወሰኑ ገጾችን መለወጥ ይችላሉ።
-        {{< landing/code title="ተከታታይ ገጾችን ቀይር">}}
+        {{< landing/code title="DOCX (ገጽ 2-4) ወደ ፒዲኤፍ በ C# ቀይር">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // የምንጭ DOCX ፋይልን ጫን
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // የመቀየሪያ አማራጮችን ያዘጋጁ እና የሚሰሩትን የገጾች ክልል ይግለጹ
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // ገጽ 2-4ን ወደ ፒዲኤፍ ይለውጡ                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "ፍሉይ አገባብ፡ የተስተካከለ አቀራረብ"
+    - title: "ፍሉይ አገባብ፡ የተሳለጠ አቀራረብ"
       content: |
         ቅልጥፍና ያለው አገባብ በቡድን ዶcs.Conversion for .NET API ውስጥ ለሚደረጉ የተለመዱ ድርጊቶች አጭር መግለጫ ይሰጣል። 
         ከታች ያሉት የኮድ ናሙናዎች አቀላጥፈውን አገባብ እንዴት መጠቀም እንደሚቻል ያሳያሉ፡-
-        {{< landing/code title="ምሳሌ 1፡ አቀላጥፎ አገባብ በመጠቀም DOCX ወደ ፒዲኤፍ ቀይር">}}
+        {{< landing/code title="አቀላጥፎ አገባብ በመጠቀም DOCX ወደ ፒዲኤፍ በC# ቀይር">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 

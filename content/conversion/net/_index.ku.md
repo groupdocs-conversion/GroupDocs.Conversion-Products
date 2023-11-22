@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,68 +23,68 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Conversion API | Wêneyên PDF Word Excel PPTX HTML veguherînin"
-head_description: "C# .NET Document Conversion API. PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-name MSG EMLX, AutoCAD & formatên pelê wêneyê veguherînin."
+head_title: "C# API-ya veguherîna belgeya NET | PDF, Word, Excel, PPTX, HTML û wêneyan biguherînin"
+head_description: "C# API-ya veguherîna belgeya NET. PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, E-name, MSG, EMLX, AutoCAD, û formatên pelê wêneyê veguherînin."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "API-ya hêsan ku fonksiyona Veguheztina Belge û Wêne di Serîlêdanên .NET-ê de bêyî Sazkirina Nermalava Derveyî yek bike."
+title: "Veguherîna belgeyê<br>bi rêya .NET API"
+description: "API-ya veguhertina hêzdar ku pelên PDF, Microsoft Office, HTML, eBook, û wêneyê veguherîne"
 words:
-  for: "{header.words.for}"
+  for: "bo"
 
 actions:
-  main: "{actions.main}"
+  main: "Daxistina NuGet Belaş"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "{actions.alt}"
+  alt: "Lîsanskirin"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Amade ne ku dest pê bikin?"
+  description: "Taybetmendiyên GroupDocs.Conversion belaş biceribîne an destûrnameyek bixwaze"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Guhertoya {0}  derket"
+  notes: "Binêrin ka çi nû ye"
+  downloads: "Daxistin"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Meriv çawa pelên PDF-ê di C# de veguherîne"
+  more: "Nimûneyên bêtir"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Pelê PDF-a çavkaniyê bar bikin
     using (var converter = new Converter("resume.pdf"))
     {
-      // {code.comment_2}
+      // Vebijarkên veguherînê saz bikin
       var convertOptions = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // PDF-ê veguherînin DOCX
       converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion bi awirek"
+  description: "Kapasîteyên API-yê ji bo veguheztina bilez û bêkêmasî ya PDF, Microsoft Office, HTML, eBook û pelên wêneyê di nav sepanên .NET de bigerin."
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Veguherîna birêkûpêk"
+      content: "Bi GroupDocs.Conversion API-ê hûn dikarin bi hêsanî belgeyên bi formên cihêreng veguherînin pelên PDF, Microsoft Office, HTML, eBook û wêneyan. API vebijarkên maqûl û zexm peyda dike, yekbûna naverok û avahiya belgeyê li seranserê pêvajoya veguheztinê misoger dike."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Guhestina bi hêsanî di navbera formatan de"
+      content: "Pêvajoya karanîna GroupDocs.Conversion API-ê pir hêsan e, tenê rêbazek û komek vebijarkan hewce dike ku bi hêsanî di navbera formatên cihêreng de biguhezîne."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Lihevhatina cross-platform"
+      content: "Çareseriyek veguheztinê bi lihevhatina xaç-platformê ya xwerû bigerin, ji bingeha bikarhêner a berfireh re peyda bikin û ji bo hemî hewcedariyên veguheztina belgeyên we performansa çêtirîn li ser hawîrdorên cihêreng peyda bikin."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Serxwebûna platformê"
+  description: "GroupDocs.Conversion ji bo .NET pergalên xebitandinê, çarçove û rêveberên pakêtê yên jêrîn piştgirî dike"
   items:
     # platform loop
     - title: "Amazon"
@@ -113,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Formatên pelê piştgirî kirin"
   description: |
-    {formats.description}
+    GroupDocs.Conversion ji bo .NET operasyonên bi [formatên pelan] yên jêrîn piştgirî dike (https://docs.groupdocs.com/conversion/net/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Formatên belgeyê
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,141 +130,141 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Wêne & Multimedia
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Dîyagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Formên din
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Tevn:**  HTML, MHTML, MHT
+        * **Kitik:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Malî:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Taybetmendiyên GroupDocs.Conversion for .NET"
-  description: "{features.description}"
+  title: "Taybetmendiyên GroupDocs.Conversion"
+  description: "Belgeyên PDF û nivîsgehê bi yekdengî veguherînin HTML, JPG, PNG, BMP, TIFF, SVG, û gelek formatên din. GroupDocs.Conversion ji bo .NET API ji bo karanîna hêsan û entegrekirina projeya we hatî çêkirin. Ew hemî formatên belgeyên populer ên bi şiyana xweşkirina pêvajoya veguheztinê piştgirî dike."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Veguherîna pir-format"
+      content: "Pelên di navbera formatên cihêreng, di nav de PDF, DOCX, XLSX, PPTX, û hêj bêtir, bi hêsanî veguherînin."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Hilberîna pêbaweriya bilind"
+      content: "Di pêvajoya veguheztinê de kalîteya orîjînal û formatkirina belgeyan biparêzin."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Veguherandina pelên pirjimar"
+      content: "Gelek pelan veguherînin û wan di nav arşîvek de tevlihev bikin, rêxistina naveroka veguherî hêsan bikin."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Belgeya pirrûpel ji wêneyan re"
+      content: "Belgeyên pirrûpelî rûpel bi rûpel veguherînin wêneyan, kontrolkirina rast a li ser pêvajoya veguherînê û hêsankirina derxistin û analîzkirina belge-based wêneyê hêsan dike."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Mîhengên xwerû"
+      content: "Parametreyên veguheztinê yên wekî çareserî, kalîte, û sêwiranê xweş bikin da ku daxwazên taybetî bicîh bînin."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Pêvajoya ewledar"
+      content: "Bi vebijarkên veguheztina pelê bi şîfreya parastî nepeniya daneyê piştrast bikin."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Yekbûna API"
+      content: "Kapasîteyên veguheztinê di sepanên .NET-ya xwe de bi yekcarî entegre bikin, û wê bikin parçeyek bêkêmasî ya xebata we."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Veguherîna bihêz"
+      content: "Veguheztinên pelan ên pêbawer û bê-çewtî piştrast bikin, rastbûn û yekparebûna belgeyên weyên guhezbar garantî bikin."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Belgeyên ji arşîvan veguherînin"
+      content: "Belgeyên ji arşîvan derxînin û veguherînin, veguherîna naveroka ku di nav pelên pêçandî de hatine hilanîn."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Nimûneyên kodê"
+  description: "Hinek rewşên tîpîk GroupDocs.Conversion ji bo operasyonên .NET bikar tînin"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "PDF-ê bi wêneyê veguherînin"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Senaryoyek ku bi gelemperî rû bi rû tê veguheztina tevahiya belgeyek PDF-ê an rûpelên taybetî li berhevokek wêneyan vedigire. GroupDocs.Conversion ji bo .NET îmkana veguheztina PDF-ê di nav formên wêneyan ên cihêreng, wek TIFF, JPG, PNG, GIF, BMP, û hêj bêtir pêşkêşî dike. 
+        Berevajî veguheztinên din, ev pêvajo hewceyê ragihandina nûnerek SavePageStream-ê ye, ku formata navkirinê ji bo wêneyên tomarkirî diyar dike. Hûn dikarin bi karanîna çîna ImageFileType formata wêneya xweya bijare hilbijêrin.
+        {{< landing/code title="PDF-ê di C# de veguherînin PNG">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
 
-        // {code_samples.sample_1.comment_1}
+        // Pelê PDF-a çavkaniyê bar bikin
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // {code_samples.sample_1.comment_2}
+          // Vebijarkên veguherînê bicîh bikin û celebê wêneya encam diyar bikin
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // Her rûpelek belgeya PDF-ê veguherîne PNG
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Parçeyek belgeyek mezin biguherînin"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Bi GroupDocs.Conversion ji bo .NET, hûn dikarin bi hêsanî rûpelên taybetî ji belgeyek dirêj veguherînin. 
+        Du awayên we hene ku hûn vê yekê pêk bînin, li gorî daxwazên we. Hûn dikarin rêzek rûpelan veguherînin an jî rûpelên taybetî veguherînin.
+        {{< landing/code title="DOCX (rûpelên 2-4) bi C#-ê veguherînin PDF">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // Pelê çavkaniyê DOCX barkirin
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // Vebijarkên veguherînê bicîh bikin û rêza rûpelên ku werin pêşkêş kirin diyar bikin
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // Rûpelên 2-4 veguherînin PDF                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "Hevoksaziya Fluent: Nêzîkatiyek birêkûpêk"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        Hevoksaziya Fluent ji bo çalakiyên hevpar ên di nav GroupDocs de nîşanek kurt pêşkêşî dike. Veguherandin ji bo .NET API. 
+        Nimûneyên kodê yên jêrîn destnîşan dikin ka meriv çawa hevoksaziya herikbar bikar tîne:
+        {{< landing/code title="DOCX-ê di C#-ê de bi karanîna hevoksaziya xwerû veguhezînin PDF-ê">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 
@@ -277,19 +277,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "Nirxandinên hilberên GroupDocs"
+# description: "Tenê gotina me negirin. Binêrin ka pêşdebirên din li ser API-yên me çi dibêjin"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Xizmeta hêja û hilberên hêja. Ew di dema GroupDocs de pir arîkar û bersivdar bûn. Veguheztina ji bo pêvajoya pêkanîna .NET, nikare wan bi têra xwe pêşniyar bike."
+#     author: "Martin Lasarga"
+#     company: "Rêvebirê Hilberê li Axentria ECM ji hêla G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Piştî pêkanîn û karanîna GroupDocs.Conversion ji bo .NET di projeyê de xuya dike ku pir baş dixebite. Min bi gelek belgeyan ceriband û heya nuha pir baş e. Her tiştê ku min jê re avêtiye xweş xuya dike û bi qasî ku di temaşekerek PDF an MS Word de xuya dike xweş xuya dike."
+#     author: "Mats Oustad"
+#     company: "Şêwirmendê Bilind / Hevkar li Novanet AS"
 ---

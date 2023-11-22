@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,17 +23,17 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "JavaScript ሰነድ ልወጣ API | ፒዲኤፍ ቃል ኤክሴል PPTX HTML ምስሎችን ቀይር"
-head_description: "JavaScript ሰነድ ልወጣ ኤፒአይ። PDF Word DOC DOCX፣ Excel ተመን ሉሆች PPT PPTX፣ HTML፣ PSD፣ MPT MPP፣ ኢሜል MSG EMLX፣ AutoCAD እና የምስል ፋይል ቅርጸቶችን ቀይር።"
+head_title: "JavaScript ሰነድ ልወጣ API | PDF፣ Word፣ Excel፣ PPTX፣ HTML እና ምስሎችን ቀይር"
+head_description: "JavaScript ሰነድ ቅየራ ኤፒአይ። PDF፣ Word፣ DOC፣ DOCX፣ Excel፣ የተመን ሉህ፣ PPT፣ PPTX፣ HTML፣ PSD፣ MPT፣ MPP፣ ኢሜይል፣ MSG፣ EMLX፣ AutoCAD እና የምስል ፋይል ቅርጸቶችን ቀይር።"
 
 ############################# Header ############################
-title: "የሰነድ ለውጥ<br>በ Node.js API በኩል"
+title: "ሰነድ መቀየር<br>በ Node.js API በኩል"
 description: "ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ ኤችቲኤምኤል፣ ኢመጽሐፍ እና የምስል ፋይሎችን ለመቀየር ኃይለኛ የልወጣ ኤፒአይ"
 words:
   for: "ለ"
 
 actions:
-  main: "ነጻ NuGet ማውረድ"
+  main: "ነጻ NPM ማውረድ"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
   alt: "ፍቃድ መስጠት"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
@@ -46,7 +46,7 @@ release:
   downloads: "ውርዶች"
 
 code:
-  title: "ፒዲኤፍ ፋይሎችን በጃቫስክሪፕት አፕሊኬሽኖች ውስጥ እንዴት መቀየር እንደሚቻል"
+  title: "ፒዲኤፍ ፋይሎችን በጃቫስክሪፕት እንዴት እንደሚቀይሩ"
   more: "ተጨማሪ ምሳሌዎች"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
@@ -65,25 +65,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.ልወጣ በጨረፍታ"
-  description: "በጃቫስክሪፕት አፕሊኬሽኖች ውስጥ ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ ኤችቲኤምኤል፣ ኢመጽሐፍ እና ምስል ፋይሎችን ለመቀየር ኃይለኛ የልወጣ ኤፒአይ"
+  description: "ፈጣን እና እንከን የለሽ የፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ HTML፣ ኢመጽሐፍ እና የምስል ፋይሎችን በጃቫስክሪፕት ውስጥ ለመለወጥ የኤፒአይን ችሎታዎች ያስሱ።"
   features:
     # feature loop
     - title: "የተስተካከለ ልወጣ"
-      content: "በጃቫ በኩል GroupDocs.Conversion for Node.jsን በመጠቀም ልፋት የሌለበት የፋይል ልወጣን ወደ የእርስዎ ጃቫስክሪፕት ፕሮጀክቶች ያካትቱ። ለተሻሻለ ተኳሃኝነት በቅርጸቶች መካከል ያለችግር ሽግግር።"
+      content: "በGroupDocs.Conversion API ያለልፋት የተለያዩ ቅርጸቶችን ሰነዶችን ወደ ፒዲኤፍ፣ ማይክሮሶፍት ኦፊስ፣ HTML፣ ኢመጽሐፍ እና ምስል ፋይሎች መቀየር ይችላሉ። ኤፒአይ ተለዋዋጭ እና ጠንካራ አማራጮችን ያቀርባል፣ ይህም የይዘት እና የሰነድ አወቃቀሩን በመለወጥ ሂደት ውስጥ ትክክለኛነት ያረጋግጣል።"
 
     # feature loop
-    - title: "ተለዋዋጭ ውህደት"
-      content: "የፒዲኤፍ እና የቢሮ ፋይል ቅየራ ውህደትን ቀለል ያድርጉት። GroupDocs.Conversion for Node.js በጃቫ የመተግበሪያዎችዎን ሁለገብነት ያሳድጋል።"
+    - title: "በቅርጸቶች መካከል ያለ ጥረት ይቀያይሩ"
+      content: "GroupDocs.Conversion API የመጠቀም ሂደት በሚገርም ሁኔታ ቀጥተኛ ነው፣በተለያዩ ቅርጸቶች መካከል ያለ ምንም ጥረት ለመቀያየር አንድ ዘዴ እና የአማራጭ ስብስብ ይፈልጋል።"
 
     # feature loop
-    - title: "ጥገኛ ለውጥ"
-      content: "ጥራትን በመጠበቅ ትክክለኛ ልወጣዎችን ያረጋግጡ። GroupDocs.Conversion for Node.js በጃቫ በኩል የፋይል ቅርጸቶች አስተማማኝ ለውጦችን ዋስትና ይሰጣል።"
+    - title: "የመድረክ-መድረክ ተኳኋኝነት"
+      content: "ለሁሉም የሰነድ መለወጫ መስፈርቶችዎ ሰፊውን የተጠቃሚ መሰረት በማቅረብ እና በተለያዩ አካባቢዎች ላይ ጥሩ አፈጻጸምን በማረጋገጥ የልወጣ መፍትሄን ከተፈጥሮ-መድረክ-መድረክ ተኳሃኝነት ጋር ያስሱ።"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "የመድረክ ነፃነት"
-  description: "GroupDocs.ልወጣ ለ Node.js በጃቫ የሚከተሉትን ኦፕሬቲንግ ሲስተሞች፣ ማዕቀፎች እና የጥቅል አስተዳዳሪዎች ይደግፋል።"
+  description: "GroupDocs.ልወጣ ለ Node.js በጃቫ የሚከተሉትን ኦፕሬቲንግ ሲስተሞች፣ ማዕቀፎች እና የጥቅል አስተዳዳሪዎች ይደግፋል"
   items:
     # platform loop
     - title: "Amazon"
@@ -151,13 +151,13 @@ formats:
 features:
   enable: true
   title: "የቡድንDocs.የመቀየር ባህሪያት"
-  description: "ፒዲኤፍ እና የቢሮ ሰነዶችን ያለምንም እንከን ወደ HTML፣ JPG፣ PNG፣ BMP፣ TIFF፣ SVG እና ሌሎች ብዙ ቅርጸቶች ይቀይሩ። GroupDocs.Conversion for Node.js በጃቫ ኤፒአይ የተነደፈው ለአጠቃቀም ቀላል እንዲሆን እና ወደ ፕሮጀክትዎ እንዲዋሃድ ነው። የመቀየሪያ ሂደቱን የማበጀት ችሎታ ሁሉንም ታዋቂ የሰነድ ቅርጸቶችን ይደግፋል። GroupDocs.Conversion for Node.js በጃቫ ኤፒአይ የተነደፈው ለአጠቃቀም ቀላል እንዲሆን እና ወደ ፕሮጀክትዎ እንዲዋሃድ ነው። የመቀየሪያ ሂደቱን የማበጀት ችሎታ ሁሉንም ታዋቂ የሰነድ ቅርጸቶችን ይደግፋል።"
+  description: "ፒዲኤፍ እና የቢሮ ሰነዶችን ያለምንም እንከን ወደ HTML፣ JPG፣ PNG፣ BMP፣ TIFF፣ SVG እና ሌሎች ብዙ ቅርጸቶች ይቀይሩ። GroupDocs.Conversion for Node.js በጃቫ ኤፒአይ የተነደፈው ለአጠቃቀም ቀላል እንዲሆን እና በፕሮጀክትዎ ውስጥ እንዲዋሃድ ነው። የመቀየሪያ ሂደቱን የማበጀት ችሎታ ሁሉንም ታዋቂ የሰነድ ቅርጸቶችን ይደግፋል።"
 
   items:
     # feature loop
     - icon: "merge"
       title: "ባለብዙ-ቅርጸት ልወጣ"
-      content: "PDF፣ DOCX፣ XLSX፣ PPTX እና ሌሎችንም ጨምሮ በተለያዩ ቅርጸቶች መካከል በቀላሉ ፋይሎችን ይለውጡ።"
+      content: "PDF፣ DOCX፣ XLSX፣ PPTX እና ሌሎችንም ጨምሮ በተለያዩ ቅርጸቶች መካከል ፋይሎችን በቀላሉ ይለውጡ።"
 
     # feature loop
     - icon: "split"
@@ -166,7 +166,7 @@ features:
 
     # feature loop
     - icon: "move"
-      title: "በርካታ ፋይሎችን በመቀየር ላይ"
+      title: "ብዙ ፋይሎችን በመቀየር ላይ"
       content: "ብዙ ፋይሎችን ይለውጡ እና ወደ ማህደር ያዋህዷቸው፣ የተለወጠውን ይዘት አደረጃጀት በማቃለል።"
 
     # feature loop
@@ -187,7 +187,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "የኤፒአይ ውህደት"
-      content: "የመቀየሪያ አቅሞችን ወደ ጃቫስክሪፕት አፕሊኬሽኖችዎ ያለምንም እንከን ያዋህዱ፣ ይህም እንከን የለሽ የስራ ፍሰትዎ አካል ያድርጉት።"
+      content: "የመቀየሪያ አቅሞችን ወደ ጃቫ ስክሪፕት አፕሊኬሽኖችዎ ያለምንም እንከን ያዋህዱ፣ ይህም እንከን የለሽ የስራ ፍሰትዎ አካል ያድርጉት።"
 
     # feature loop
     - icon: "orientation"
@@ -209,7 +209,7 @@ code_samples:
     - title: "ፒዲኤፍ ወደ ምስል ቀይር"
       content: |
         በተለምዶ የሚያጋጥመው ሁኔታ አንድን ሙሉ የፒዲኤፍ ሰነድ ወይም የተወሰኑ ገጾችን ወደ የምስሎች ስብስብ መቀየርን ያካትታል። GroupDocs.Conversion for Node.js በጃቫ በኩል ፒዲኤፎችን ወደ ተለያዩ የምስል ቅርጸቶች እንደ TIFF፣ JPG፣ PNG፣ GIF፣ BMP እና ሌሎች የመቀየር ችሎታ ይሰጣል። 
-        እንደሌሎች ልወጣዎች ይህ ሂደት የSavePageStream ውክልና ማወጅ ይጠይቃል፣ይህም ለተቀመጡ ምስሎች የስያሜ ቅርጸቱን ይገልጻል። ImageFileType ክፍልን በመጠቀም የመረጡትን የምስል ቅርጸት መምረጥ ይችላሉ።
+        ImageFileType ክፍልን በመጠቀም የመረጡትን የምስል ቅርጸት መምረጥ ይችላሉ።
         {{< landing/code title="በጃቫስክሪፕት ፒዲኤፍ ወደ PNG በመቀየር ላይ">}}
         ```javascript {style=abap}  
         import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
@@ -217,33 +217,33 @@ code_samples:
         // የምንጭ ፒዲኤፍ ፋይልን ጫን
         const converter = new Converter("resume.pdf");
         
-        // ለ PNG ቅርጸት የመቀየሪያ አማራጮችን ያዘጋጁ
+        // የመቀየሪያ አማራጮችን ያዘጋጁ እና የውጤት ምስል አይነት ይግለጹ
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // ወደ PNG ቅርጸት ቀይር
+        // እያንዳንዱን የፒዲኤፍ ሰነድ ገጽ ወደ PNG ቀይር
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "የአንድ ትልቅ ሰነድ ክፍል መለወጥ"
+    - title: "የአንድ ትልቅ ሰነድ ክፍል ይለውጡ"
       content: |
         በGroupDocs.Conversion for Node.js በጃቫ በኩል የተወሰኑ ገጾችን ከረዥም ሰነድ ያለምንም ልፋት መቀየር ትችላለህ። 
         ይህንን ለማከናወን ሁለት መንገዶች አሉዎት, እንደ ፍላጎቶችዎ ይወሰናል. የተለያዩ ገጾችን መለወጥ ወይም የተወሰኑ ገጾችን መለወጥ ይችላሉ።
-        {{< landing/code title="ተከታታይ ገጾችን ቀይር">}}
+        {{< landing/code title="በጃቫስክሪፕት DOCX (ገጽ 2-4) ወደ ፒዲኤፍ ቀይር">}}
         ```javascript {style=abap}   
         import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        // {code_samples.sample_2.comment_1}
+        // የምንጭ DOCX ፋይልን ጫን
         const converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // የመቀየሪያ አማራጮችን ያዘጋጁ እና የሚሰሩትን የገጾች ክልል ይግለጹ
         const convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // ገጽ 2-4ን ወደ ፒዲኤፍ ይለውጡ
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "مائیکروسافٹ آفس، پی ڈی ایف، ایچ ٹی ایم ایل، امیجز اور بہت سے دیگر سمیت انڈسٹری کے معیاری دستاویز فارمیٹس کے درمیان آسانی سے تبدیل کرنے کے لیے اپنی JavaScript ایپلیکیشنز کو فعال کریں۔"
 
     # api loop
     - title: "GroupDocs.Conversion کم کوڈ APIs شامل ہیں۔"

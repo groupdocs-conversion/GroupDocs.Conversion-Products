@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Թույլ տվեք ձեր JavaScript հավելվածներին հեշտությամբ փոխակերպել բոլոր արդյունաբերական ստանդարտ փաստաթղթերի ձևաչափերը, ներառյալ Microsoft Office, PDF, HTML, պատկերներ և շատ ուրիշներ:"
 
     # api loop
     - title: "GroupDocs.Conversion Low Code API-ները ներառում են"

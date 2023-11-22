@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -9,11 +9,11 @@ product_tag: "conversion"
 
 ############################# Head ############################
 head_title: ".NET, Java, Wolk API's en Dokumentomskakelingstoepassings deur GroupDocs"
-head_description: "Omskep gewilde dokument- en beeldlêerformate op enige platform met toepassings- en API-gebaseerde oplossings."
+head_description: "Skakel gewilde dokument- en beeldlêerformate om op enige platform met toepassings- en API-gebaseerde oplossings."
 
 ############################# Header ############################
 title: "Oplossing vir dokument- en beeldomskakeling"
-description: "Omskep gewilde dokument- en beeldlêerformate op enige platform met toepassings- en API-gebaseerde oplossings."
+description: "Skakel gewilde dokument- en beeldlêerformate om op enige platform met toepassings- en API-gebaseerde oplossings."
 
 ############################# APIs ###############################
 apis:

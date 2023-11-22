@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,31 +23,31 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java API تبدیل سند | تبدیل PDF Word Excel PPTX تصاویر HTML"
-head_description: "Java API تبدیل سند. تبدیل PDF Word DOC DOCX، صفحات گسترده اکسل PPT PPTX، HTML، PSD، MPT MPP، ایمیل MSG EMLX، اتوکد و فرمت های فایل تصویری."
+head_title: "Java API تبدیل سند | تبدیل PDF، Word، Excel، PPTX، HTML و تصاویر"
+head_description: "API تبدیل سند Java. فرمت های PDF، Word، DOC، DOCX، Excel، Spreadsheets، PPT، PPTX، HTML، PSD، MPT، MPP، ایمیل، MSG، EMLX، AutoCAD و فایل های تصویری را تبدیل کنید."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "API ساده برای ادغام قابلیت تبدیل سند و تصویر در برنامه‌های Java بدون نصب نرم‌افزار خارجی."
+title: "تبدیل سند<br>از طریق Java API"
+description: "API تبدیل قدرتمند برای تبدیل PDF، مایکروسافت آفیس، HTML، کتاب الکترونیکی و فایل های تصویری"
 words:
-  for: "{header.words.for}"
+  for: "برای"
 
 actions:
-  main: "{actions.main}"
+  main: "دانلود رایگان Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
-  alt: "{actions.alt}"
+  alt: "صدور مجوز"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "برای شروع آماده اید؟"
+  description: "ویژگی های GroupDocs.Conversion را به صورت رایگان امتحان کنید یا درخواست مجوز کنید"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "نسخه {0} منتشر شد"
+  notes: "ببینید چه چیز جدیدی است"
+  downloads: "دانلودها"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "نحوه تبدیل فایل های PDF در جاوا"
+  more: "نمونه های بیشتر"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -65,39 +65,39 @@ code:
     </repositories>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // فایل PDF منبع را بارگیری کنید
     Converter converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // گزینه های تبدیل را تنظیم کنید
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // تبدیل PDF به DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion در یک نگاه"
+  description: "قابلیت‌های API را برای تبدیل سریع و بی‌عیب فایل‌های PDF، مایکروسافت آفیس، HTML، کتاب الکترونیکی و تصویر در برنامه‌های جاوا کاوش کنید."
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "تبدیل ساده"
+      content: "با GroupDocs.Conversion API می توانید بدون زحمت اسناد با فرمت های مختلف را به PDF، Microsoft Office، HTML، کتاب الکترونیکی و فایل های تصویری تبدیل کنید. API گزینه‌های منعطف و قوی را فراهم می‌کند و از یکپارچگی محتوا و ساختار سند در طول فرآیند تبدیل اطمینان می‌دهد."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "جابجایی آسان بین فرمت ها"
+      content: "فرآیند استفاده از GroupDocs.Conversion API فوق العاده ساده است و تنها به یک روش و مجموعه ای از گزینه ها نیاز دارد تا بدون زحمت بین فرمت های مختلف جابجا شوید."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "سازگاری بین پلتفرم"
+      content: "یک راه‌حل تبدیل با سازگاری بین پلتفرم ذاتی را کاوش کنید، که به پایگاه کاربران گسترده‌تر پاسخ می‌دهد و از عملکرد بهینه در محیط‌های مختلف برای همه نیازمندی‌های تبدیل سند شما اطمینان حاصل می‌کند."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "استقلال سکو"
+  description: "GroupDocs.Conversion برای جاوا از سیستم عامل ها، چارچوب ها و مدیریت بسته های زیر پشتیبانی می کند"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,15 +126,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "فرمت های فایل پشتیبانی شده"
   description: |
-    {formats.description}
+    GroupDocs.Conversion برای جاوا از عملیات با [قالب‌های فایل] زیر پشتیبانی می‌کند (https://docs.groupdocs.com/conversion/java/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### فرمت های سند
+        * **اسناد:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -143,145 +143,145 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### تصاویر و چند رسانه ای
+        * **تصاویر:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **نمودار:** VSDX, DRAW, LUCIDCHART
+        * **CAD و GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **سمعی:** MP3, WAV, FLAC, AAC, OGG
+        * **ویدیو:** MP4, AVI, MKV, MOV, WMV
+        * **سه بعدی و وکتور:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### فرمت های دیگر
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **وب:**  HTML, MHTML, MHT
+        * **آرشیوها:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **ایمیل و چشم انداز:** PST, OST, MSG, EML
+        * **دارایی، مالیه، سرمایه گذاری:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "ویژگی های GroupDocs.Conversion for Java"
-  description: "{features.description}"
+  title: "ویژگی های GroupDocs.Conversion"
+  description: "تبدیل یکپارچه PDF و اسناد اداری به HTML، JPG، PNG، BMP، TIFF، SVG و بسیاری از فرمت های دیگر. GroupDocs.Conversion for Java API طوری طراحی شده است که استفاده از آن و ادغام در پروژه شما آسان باشد. از تمام فرمت های سند محبوب با قابلیت سفارشی سازی فرآیند تبدیل پشتیبانی می کند."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "تبدیل چند فرمتی"
+      content: "تبدیل فایل ها بین فرمت های مختلف، از جمله PDF، DOCX، XLSX، PPTX، و غیره، به راحتی."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "خروجی با کیفیت بالا"
+      content: "حفظ کیفیت اصلی و قالب بندی اسناد در طول فرآیند تبدیل."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "تبدیل چندین فایل"
+      content: "چندین فایل را تبدیل کنید و آنها را در یک آرشیو ترکیب کنید و سازماندهی محتوای تبدیل شده را ساده کنید."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "سند چند صفحه ای به تصاویر"
+      content: "تبدیل اسناد چند صفحه ای به تصاویر صفحه به صفحه، امکان کنترل دقیق بر فرآیند تبدیل و تسهیل استخراج و تجزیه و تحلیل اسناد مبتنی بر تصویر را فراهم می کند."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "تنظیمات قابل تنظیم"
+      content: "پارامترهای تبدیل مانند وضوح، کیفیت و طرح را برای برآوردن نیازهای خاص تنظیم کنید."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "پردازش ایمن"
+      content: "از حریم خصوصی داده ها با گزینه های تبدیل فایل محافظت شده با رمز عبور اطمینان حاصل کنید."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "یکپارچه سازی API"
+      content: "به طور یکپارچه قابلیت های تبدیل را در برنامه های جاوا خود ادغام کنید و آن را به بخشی از گردش کار خود تبدیل کنید."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "تبدیل قوی"
+      content: "از تبدیل فایل های قابل اعتماد و بدون خطا اطمینان حاصل کنید و صحت و یکپارچگی اسناد تبدیل شده خود را تضمین کنید."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "تبدیل اسناد از بایگانی"
+      content: "استخراج و تبدیل اسناد از بایگانی، امکان تبدیل محتوای ذخیره شده در فایل های فشرده را فراهم می کند."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "نمونه کد"
+  description: "برخی از موارد معمولی GroupDocs.Conversion برای عملیات جاوا استفاده می کنند"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "تبدیل PDF به تصویر"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        سناریویی که معمولاً با آن مواجه می‌شوید شامل تبدیل کل یک سند PDF یا صفحات خاص به مجموعه‌ای از تصاویر است. GroupDocs.Conversion برای جاوا قابلیت تبدیل PDF ها به فرمت های تصویری مختلف مانند TIFF، JPG، PNG، GIF، BMP و غیره را ارائه می دهد. 
+        با استفاده از کلاس ImageFileType می توانید فرمت تصویر دلخواه خود را انتخاب کنید.
+        {{< landing/code title="تبدیل PDF به PNG در جاوا">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
-        // {code_samples.sample_1.comment_1}
+        // فایل PDF منبع را بارگیری کنید
         Converter converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // گزینه های تبدیل را تنظیم کرده و نوع تصویر خروجی را مشخص کنید
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // هر صفحه از سند PDF را به PNG تبدیل کنید
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "تبدیل بخشی از یک سند بزرگ"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        با GroupDocs.Conversion برای جاوا، می توانید بدون زحمت صفحات خاصی را از یک سند طولانی تبدیل کنید. 
+        بسته به نیاز شما دو روش برای انجام این کار دارید. شما می توانید محدوده ای از صفحات را تبدیل کنید یا صفحات خاصی را تبدیل کنید.
+        {{< landing/code title="DOCX (صفحات 2-4) را به PDF در جاوا تبدیل کنید">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // فایل منبع DOCX را بارگیری کنید
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // گزینه های تبدیل را تنظیم کرده و محدوده صفحاتی را که باید ارائه شوند را مشخص کنید
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // صفحات 2-4 را به PDF تبدیل کنید
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "بررسی محصولات GroupDocs"
+# description: "فقط حرف ما را قبول نکنید. ببینید سایر توسعه دهندگان در مورد API های ما چه می گویند"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "خدمات عالی و محصولات عالی. آنها در طول فرآیند اجرای GroupDocs.Viewer برای جاوا بسیار مفید و پاسخگو بودند، نمی توان آنها را به اندازه کافی توصیه کرد."
+#     author: "مارتین لاسارگا"
+#     company: "مدیر محصول در Axentria ECM توسط G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "پس از پیاده سازی و استفاده از GroupDocs.Viewer برای جاوا در پروژه، به نظر می رسد که بسیار خوب کار می کند. من با مدارک زیادی تست کردم و تا الان خیلی خوبه. همه چیزهایی که به آن پرتاب کرده‌ام به خوبی رندر می‌شوند و به همان خوبی که در یک نمایشگر PDF یا MS Word به نظر می‌رسند."
+#     author: "ماتس اوستاد"
+#     company: "مشاور ارشد/شریک در Novanet AS"
 ---

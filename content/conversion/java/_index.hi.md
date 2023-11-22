@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,31 +23,31 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java दस्तावेज़ रूपांतरण API | पीडीएफ वर्ड एक्सेल पीपीटीएक्स एचटीएमएल इमेज कन्वर्ट करें"
-head_description: "Java दस्तावेज़ रूपांतरण API. पीडीएफ वर्ड DOC DOCX, एक्सेल स्प्रेडशीट पीपीटी पीपीटीएक्स, एचटीएमएल, पीएसडी, एमपीटी एमपीपी, ईमेल एमएसजी ईएमएलएक्स, ऑटोकैड और छवि फ़ाइल स्वरूपों को कनवर्ट करें।"
+head_title: "Java दस्तावेज़ रूपांतरण एपीआई | पीडीएफ, वर्ड, एक्सेल, पीपीटीएक्स, एचटीएमएल और छवियों को परिवर्तित करें"
+head_description: "Java दस्तावेज़ रूपांतरण एपीआई। पीडीएफ, वर्ड, डीओसी, डॉक्स, एक्सेल, स्प्रेडशीट, पीपीटी, पीपीटीएक्स, एचटीएमएल, पीएसडी, एमपीटी, एमपीपी, ईमेल, एमएसजी, ईएमएलएक्स, ऑटोकैड और छवि फ़ाइल प्रारूपों को परिवर्तित करें।"
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "दस्तावेज़ और छवि रूपांतरण कार्यक्षमता को Java अनुप्रयोगों में एकीकृत करने के लिए सरल एपीआई बिना किसी बाहरी सॉफ़्टवेयर को स्थापित किए।"
+title: "दस्तावेज़ रूपांतरण<br>जावा एपीआई के माध्यम से"
+description: "पीडीएफ, माइक्रोसॉफ्ट ऑफिस, एचटीएमएल, ईबुक और छवि फ़ाइलों को परिवर्तित करने के लिए शक्तिशाली रूपांतरण एपीआई"
 words:
-  for: "{header.words.for}"
+  for: "के लिए"
 
 actions:
-  main: "{actions.main}"
+  main: "निःशुल्क मेवेन डाउनलोड"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
-  alt: "{actions.alt}"
+  alt: "लाइसेंसिंग"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "आरंभ करने के लिए तैयार हैं?"
+  description: "GroupDocs.Conversion सुविधाओं को निःशुल्क आज़माएँ या लाइसेंस का अनुरोध करें"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "संस्करण {0} जारी किया गया"
+  notes: "देखें, क्या नया है"
+  downloads: "डाउनलोड"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "जावा में पीडीएफ फाइलों को कैसे परिवर्तित करें"
+  more: "और ज्यादा उदाहरण"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -65,39 +65,39 @@ code:
     </repositories>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // स्रोत पीडीएफ फाइल लोड करें
     Converter converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // कनवर्ट विकल्प सेट करें
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // पीडीएफ को DOCX में बदलें
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.रूपांतरण एक नज़र में"
+  description: "जावा अनुप्रयोगों के भीतर पीडीएफ, माइक्रोसॉफ्ट ऑफिस, एचटीएमएल, ईबुक और छवि फ़ाइलों के तेज और दोषरहित रूपांतरण के लिए एपीआई की क्षमताओं का अन्वेषण करें"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "सुव्यवस्थित रूपांतरण"
+      content: "GroupDocs.Conversion API से आप विभिन्न प्रारूपों के दस्तावेज़ों को आसानी से पीडीएफ, माइक्रोसॉफ्ट ऑफिस, HTML, ईबुक और छवि फ़ाइलों में परिवर्तित कर सकते हैं। एपीआई लचीले और मजबूत विकल्प प्रदान करता है, जो रूपांतरण प्रक्रिया के दौरान सामग्री और दस्तावेज़ संरचना की अखंडता सुनिश्चित करता है।"
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "प्रारूपों के बीच सहज स्विच"
+      content: "GroupDocs.Conversion API का उपयोग करने की प्रक्रिया अविश्वसनीय रूप से सरल है, विभिन्न प्रारूपों के बीच आसानी से स्विच करने के लिए केवल एक विधि और विकल्पों के एक सेट की आवश्यकता होती है।"
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "क्रॉस-प्लेटफ़ॉर्म अनुकूलता"
+      content: "अंतर्निहित क्रॉस-प्लेटफ़ॉर्म संगतता के साथ एक रूपांतरण समाधान का अन्वेषण करें, जो व्यापक उपयोगकर्ता आधार को पूरा करता है और आपके सभी दस्तावेज़ रूपांतरण आवश्यकताओं के लिए विभिन्न वातावरणों में इष्टतम प्रदर्शन सुनिश्चित करता है।"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "मंच की स्वतंत्रता"
+  description: "Java के लिए GroupDocs.Conversion निम्नलिखित ऑपरेटिंग सिस्टम, फ्रेमवर्क और पैकेज प्रबंधकों का समर्थन करता है"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,15 +126,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "समर्थित फ़ाइल स्वरूप"
   description: |
-    {formats.description}
+    Java के लिए GroupDocs.Conversion निम्नलिखित [फ़ाइल स्वरूपों](https://docs.groupdocs.com/conversion/java/supported-file-formats/) के साथ संचालन का समर्थन करता है।
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### दस्तावेज़ प्रारूप
+        * **दस्तावेज़:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -143,145 +143,145 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### छवियाँ और मल्टीमीडिया
+        * **इमेजिस:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **आरेख:** VSDX, DRAW, LUCIDCHART
+        * **सीएडी और जीआईएस:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **ऑडियो:** MP3, WAV, FLAC, AAC, OGG
+        * **वीडियो:** MP4, AVI, MKV, MOV, WMV
+        * **3डी और वेक्टर:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### अन्य प्रारूप
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **वेब:**  HTML, MHTML, MHT
+        * **अभिलेखागार:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **ईमेल और आउटलुक:** PST, OST, MSG, EML
+        * **वित्त:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for Java विशेषताएं"
-  description: "{features.description}"
+  title: "GroupDocs.रूपांतरण सुविधाएँ"
+  description: "पीडीएफ और कार्यालय दस्तावेजों को एचटीएमएल, जेपीजी, पीएनजी, बीएमपी, टीआईएफएफ, एसवीजी और कई अन्य प्रारूपों में निर्बाध रूप से परिवर्तित करें। जावा एपीआई के लिए GroupDocs.Conversion को आपके प्रोजेक्ट में उपयोग और एकीकृत करने में आसान बनाने के लिए डिज़ाइन किया गया है। यह रूपांतरण प्रक्रिया को अनुकूलित करने की क्षमता के साथ सभी लोकप्रिय दस्तावेज़ प्रारूपों का समर्थन करता है।"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "बहु-प्रारूप रूपांतरण"
+      content: "PDF, DOCX, XLSX, PPTX और अन्य सहित विभिन्न प्रारूपों के बीच फ़ाइलों को आसानी से परिवर्तित करें।"
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "उच्च-निष्ठा आउटपुट"
+      content: "रूपांतरण प्रक्रिया के दौरान दस्तावेज़ों की मूल गुणवत्ता और स्वरूपण को सुरक्षित रखें।"
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "एकाधिक फ़ाइलें कनवर्ट करना"
+      content: "एकाधिक फ़ाइलों को परिवर्तित करें और उन्हें एक संग्रह में संयोजित करें, जिससे परिवर्तित सामग्री का संगठन सरल हो जाए।"
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "दस्तावेज़ को छवियों में बहुपृष्ठ करें"
+      content: "बहुपृष्ठ दस्तावेज़ों को पृष्ठ दर पृष्ठ छवियों में बदलें, परिवर्तन प्रक्रिया पर सटीक नियंत्रण सक्षम करें और छवि-आधारित दस्तावेज़ निष्कर्षण और विश्लेषण की सुविधा प्रदान करें।"
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "अनुकूलन योग्य सेटिंग्स"
+      content: "विशिष्ट आवश्यकताओं को पूरा करने के लिए रिज़ॉल्यूशन, गुणवत्ता और लेआउट जैसे रूपांतरण मापदंडों को ठीक करें।"
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "सुरक्षित प्रसंस्करण"
+      content: "पासवर्ड-सुरक्षित फ़ाइल रूपांतरण विकल्पों के साथ डेटा गोपनीयता सुनिश्चित करें।"
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "एपीआई एकीकरण"
+      content: "रूपांतरण क्षमताओं को अपने जावा अनुप्रयोगों में निर्बाध रूप से एकीकृत करें, जिससे यह आपके वर्कफ़्लो का एक सहज हिस्सा बन जाए।"
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "मजबूत रूपांतरण"
+      content: "आपके रूपांतरित दस्तावेज़ों की सटीकता और अखंडता की गारंटी देते हुए, विश्वसनीय और त्रुटि-मुक्त फ़ाइल रूपांतरण सुनिश्चित करें।"
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "दस्तावेज़ों को पुरालेख से परिवर्तित करें"
+      content: "संपीड़ित फ़ाइलों के भीतर संग्रहीत सामग्री के परिवर्तन को सक्षम करते हुए, अभिलेखागार से दस्तावेज़ निकालें और परिवर्तित करें।"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "कोड नमूने"
+  description: "कुछ लोग जावा संचालन के लिए विशिष्ट GroupDocs.Conversion के मामलों का उपयोग करते हैं"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "पीडीएफ को छवि में बदलें"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        आम तौर पर सामने आने वाले परिदृश्य में संपूर्ण पीडीएफ दस्तावेज़ या विशिष्ट पृष्ठों को छवियों के संग्रह में परिवर्तित करना शामिल है। जावा के लिए GroupDocs.Conversion पीडीएफ को विभिन्न छवि प्रारूपों, जैसे टीआईएफएफ, जेपीजी, पीएनजी, जीआईएफ, बीएमपी, और अधिक में परिवर्तित करने की क्षमता प्रदान करता है। 
+        आप ImageFileType क्लास का उपयोग करके अपना पसंदीदा छवि प्रारूप चुन सकते हैं।
+        {{< landing/code title="जावा में पीडीएफ को पीएनजी में परिवर्तित करना">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
-        // {code_samples.sample_1.comment_1}
+        // स्रोत पीडीएफ फाइल लोड करें
         Converter converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // कनवर्ट विकल्प सेट करें और आउटपुट छवि प्रकार निर्दिष्ट करें
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // पीडीएफ दस्तावेज़ के प्रत्येक पृष्ठ को पीएनजी में बदलें
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "किसी बड़े दस्तावेज़ के एक खंड को रूपांतरित करें"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        जावा के लिए GroupDocs.Conversion के साथ, आप आसानी से एक लंबे दस्तावेज़ से विशिष्ट पृष्ठों को परिवर्तित कर सकते हैं। 
+        आपकी आवश्यकताओं के आधार पर इसे पूरा करने के लिए आपके पास दो विधियाँ हैं। आप या तो पृष्ठों की एक श्रृंखला को परिवर्तित कर सकते हैं या विशिष्ट पृष्ठों को परिवर्तित कर सकते हैं।
+        {{< landing/code title="जावा में DOCX (पेज 2-4) को पीडीएफ में बदलें">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // स्रोत DOCX फ़ाइल लोड करें
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // कनवर्ट विकल्प सेट करें और रेंडर करने के लिए पृष्ठों की श्रेणी निर्दिष्ट करें
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // पेज 2-4 को पीडीएफ में बदलें
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs उत्पादों की समीक्षा"
+# description: "बस इसके लिए हमारी बात न मानें। देखें कि अन्य डेवलपर हमारे एपीआई के बारे में क्या कहते हैं"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "उत्कृष्ट सेवा और उत्कृष्ट उत्पाद। जावा कार्यान्वयन प्रक्रिया के लिए GroupDocs.Viewer के दौरान वे बेहद मददगार और उत्तरदायी थे, हम उनकी पर्याप्त अनुशंसा नहीं कर सकते।"
+#     author: "मार्टिन लसारगा"
+#     company: "जी.एस.आई. द्वारा एक्सेंट्रिया ईसीएम में उत्पाद प्रबंधक।"
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "प्रोजेक्ट में जावा के लिए GroupDocs.Viewer को लागू करने और उपयोग करने के बाद यह बहुत अच्छी तरह से काम कर रहा है। मैंने बहुत सारे दस्तावेज़ों के साथ परीक्षण किया है और अब तक बहुत अच्छा है। मैंने इसमें जो कुछ भी डाला है वह अच्छी तरह से प्रस्तुत होता है और उतना ही अच्छा दिखता है जितना पीडीएफ व्यूअर या एमएस वर्ड में होता है।"
+#     author: "मैट्स ओस्ताद"
+#     company: "नोवानेट एएस में वरिष्ठ सलाहकार/साझेदार"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,68 +23,68 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET dokumentų konvertavimo API | Konvertuoti PDF Word Excel PPTX HTML vaizdus"
-head_description: "C# .NET dokumentų konvertavimo API. Konvertuokite PDF Word DOC DOCX, Excel skaičiuokles PPT PPTX, HTML, PSD, MPT MPP, el. paštu MSG EMLX, AutoCAD ir vaizdo failų formatus."
+head_title: "C# .NET dokumentų konvertavimo API | Konvertuokite PDF, Word, Excel, PPTX, HTML ir vaizdus"
+head_description: "C# .NET dokumentų konvertavimo API. Konvertuoti PDF, Word, DOC, DOCX, Excel, skaičiuokles, PPT, PPTX, HTML, PSD, MPT, MPP, el. pašto, MSG, EMLX, AutoCAD ir vaizdo failų formatus."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Paprasta API, skirta integruoti dokumentų ir vaizdų konvertavimo funkcijas į .NET programas neįdiegus jokios išorinės programinės įrangos."
+title: "Dokumento konvertavimas<br>per .NET API"
+description: "Galinga konvertavimo API, skirta PDF, Microsoft Office, HTML, el. knygų ir vaizdo failams konvertuoti"
 words:
-  for: "{header.words.for}"
+  for: "dėl"
 
 actions:
-  main: "{actions.main}"
+  main: "Nemokamas NuGet atsisiuntimas"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "{actions.alt}"
+  alt: "Licencijavimas"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Pasiruošę pradėti?"
+  description: "Išbandykite GroupDocs.Conversion funkcijas nemokamai arba paprašykite licencijos"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Išleista {0} versija"
+  notes: "Pažiūrėkite, kas naujo"
+  downloads: "Atsisiuntimai"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Kaip konvertuoti PDF failus į C#"
+  more: "Daugiau pavyzdžių"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Įkelkite šaltinio PDF failą
     using (var converter = new Converter("resume.pdf"))
     {
-      // {code.comment_2}
+      // Nustatykite konvertavimo parinktis
       var convertOptions = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // Konvertuoti PDF į DOCX
       converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Konversija iš pirmo žvilgsnio"
+  description: "Išbandykite API galimybes greitai ir nepriekaištingai konvertuoti PDF, Microsoft Office, HTML, el. knygas ir vaizdo failus .NET programose"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Supaprastinta konversija"
+      content: "Naudodami GroupDocs.Conversion API galite be vargo konvertuoti įvairių formatų dokumentus į PDF, Microsoft Office, HTML, eBook ir vaizdo failus. API suteikia lanksčias ir patikimas parinktis, užtikrinančias turinio ir dokumentų struktūros vientisumą per visą konversijos procesą."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Lengvas perjungimas tarp formatų"
+      content: "GroupDocs.Conversion API naudojimo procesas yra neįtikėtinai nesudėtingas, norint lengvai perjungti skirtingus formatus, reikia tik vieno metodo ir parinkčių rinkinio."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Kelių platformų suderinamumas"
+      content: "Ištirkite konvertavimo sprendimą su būdingu kelių platformų suderinamumu, pritaikytu platesnei vartotojų bazei ir užtikrinant optimalų našumą įvairiose aplinkose, atitinkantį visus jūsų dokumentų konvertavimo reikalavimus."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Platformos nepriklausomybė"
+  description: "GroupDocs.Conversion for .NET palaiko šias operacines sistemas, sistemas ir paketų tvarkykles"
   items:
     # platform loop
     - title: "Amazon"
@@ -113,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Palaikomi failų formatai"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for .NET palaiko operacijas su šiais [failų formatais](https://docs.groupdocs.com/conversion/net/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Dokumentų formatai
+        * **Dokumentai:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,141 +130,141 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Vaizdai ir multimedija
+        * **Vaizdai:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagrama:** VSDX, DRAW, LUCIDCHART
+        * **CAD ir GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Garsas:** MP3, WAV, FLAC, AAC, OGG
+        * **Vaizdo įrašas:** MP4, AVI, MKV, MOV, WMV
+        * **3D ir vektorius:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Kiti formatai
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Žiniatinklis:**  HTML, MHTML, MHT
+        * **Archyvai:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Paštas ir „Outlook“.:** PST, OST, MSG, EML
+        * **Finansai:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for .NET funkcijos"
-  description: "{features.description}"
+  title: "GroupDocs.Konversijos funkcijos"
+  description: "Sklandžiai konvertuokite PDF ir biuro dokumentus į HTML, JPG, PNG, BMP, TIFF, SVG ir daugelį kitų formatų. GroupDocs.Conversion for .NET API sukurta taip, kad būtų lengva naudoti ir integruoti į projektą. Jis palaiko visus populiarius dokumentų formatus su galimybe tinkinti konvertavimo procesą."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Kelių formatų konvertavimas"
+      content: "Lengvai konvertuokite failus iš įvairių formatų, įskaitant PDF, DOCX, XLSX, PPTX ir kt."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Aukšto tikslumo išvestis"
+      content: "Konvertavimo proceso metu išsaugokite originalią dokumentų kokybę ir formatą."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Kelių failų konvertavimas"
+      content: "Konvertuokite kelis failus ir sujunkite juos į archyvą, supaprastindami konvertuoto turinio organizavimą."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Kelių puslapių dokumentas į vaizdus"
+      content: "Konvertuokite kelių puslapių dokumentus į vaizdus puslapis po puslapio, kad būtų galima tiksliai valdyti transformavimo procesą ir palengvinti vaizdais pagrįstų dokumentų ištraukimą ir analizę."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Pritaikomi nustatymai"
+      content: "Tiksliai sureguliuokite konversijos parametrus, tokius kaip skiriamoji geba, kokybė ir išdėstymas, kad atitiktų konkrečius reikalavimus."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Saugus apdorojimas"
+      content: "Užtikrinkite duomenų privatumą naudodami slaptažodžiu apsaugotas failų konvertavimo parinktis."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API integravimas"
+      content: "Sklandžiai integruokite konvertavimo galimybes į savo .NET programas, kad tai būtų vientisa darbo eigos dalis."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Tvirtas konvertavimas"
+      content: "Užtikrinkite patikimą ir be klaidų failų konvertavimą, garantuodami transformuotų dokumentų tikslumą ir vientisumą."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Konvertuoti dokumentus iš archyvų"
+      content: "Išskleiskite ir konvertuokite dokumentus iš archyvų, kad būtų galima transformuoti suspaustuose failuose saugomą turinį."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Kodo pavyzdžiai"
+  description: "Kai kurie naudojami tipiškų GroupDocs.Conversion atvejai .NET operacijoms"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Konvertuoti PDF į vaizdą"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Dažniausiai pasitaikantis scenarijus apima viso PDF dokumento arba konkrečių puslapių konvertavimą į vaizdų rinkinį. GroupDocs.Conversion for .NET siūlo galimybę konvertuoti PDF failus į įvairius vaizdo formatus, tokius kaip TIFF, JPG, PNG, GIF, BMP ir kt. 
+        Skirtingai nuo kitų konversijų, šiam procesui reikia deklaruoti SavePageStream įgaliotinį, kuris nurodo išsaugotų vaizdų pavadinimo formatą. Galite pasirinkti pageidaujamą vaizdo formatą naudodami ImageFileType klasę.
+        {{< landing/code title="Konvertuoti PDF į PNG C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
 
-        // {code_samples.sample_1.comment_1}
+        // Įkelkite šaltinio PDF failą
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // {code_samples.sample_1.comment_2}
+          // Nustatykite konvertavimo parinktis ir nurodykite išvesties vaizdo tipą
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // Konvertuokite kiekvieną PDF dokumento puslapį į PNG
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Konvertuoti didelio dokumento segmentą"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Naudodami GroupDocs.Conversion for .NET galite be vargo konvertuoti konkrečius puslapius iš ilgo dokumento. 
+        Priklausomai nuo jūsų reikalavimų, galite tai padaryti dviem būdais. Galite konvertuoti puslapių diapazoną arba konkrečius puslapius.
+        {{< landing/code title="Konvertuoti DOCX (2-4 psl.) į PDF C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // Įkelkite šaltinio DOCX failą
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // Nustatykite konvertavimo parinktis ir nurodykite pateikiamų puslapių diapazoną
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // Konvertuoti 2-4 puslapius į PDF                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "Sklandi sintaksė: supaprastintas metodas"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        Sklandi sintaksė siūlo glaustą žymėjimą bendriems veiksmams GroupDocs.Conversion for .NET API. 
+        Toliau pateikti kodo pavyzdžiai parodo, kaip panaudoti sklandžią sintaksę:
+        {{< landing/code title="Konvertuokite DOCX į PDF C# naudodami sklandžią sintaksę">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 
@@ -277,19 +277,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs produktų apžvalgos"
+# description: "Netikėkite mūsų žodžio. Sužinokite, ką kiti kūrėjai sako apie mūsų API"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Puikus aptarnavimas ir puikūs produktai. Jie buvo labai naudingi ir reagavo per GroupDocs.Conversion for .NET diegimo procesą, todėl negaliu jų rekomenduoti."
+#     author: "Martinas Lasarga"
+#     company: "„Axentria ECM“ produktų vadovas G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Projekte įdiegus ir panaudojus GroupDocs.Conversion for .NET, atrodo, kad jis veikia labai gerai. Išbandžiau su daugybe dokumentų ir kol kas viskas gerai. Viskas, ką sukūriau, gražiai atvaizduojama ir atrodo taip pat gerai, kaip ir PDF peržiūros programoje arba MS Word."
+#     author: "Matsas Oustadas"
+#     company: "„Novanet AS“ vyresnysis konsultantas/partneris"
 ---

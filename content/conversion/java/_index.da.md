@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,31 +23,31 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java Document Conversion API | Konverter PDF Word Excel PPTX HTML-billeder"
-head_description: "Java Document Conversion API. Konverter PDF Word DOC DOCX, Excel-regneark PPT PPTX, HTML, PSD, MPT MPP, E-mail MSG EMLX, AutoCAD og billedfilformater."
+head_title: "Java dokumentkonverterings-API | Konverter PDF, Word, Excel, PPTX, HTML og billeder"
+head_description: "Java dokumentkonverterings-API. Konverter PDF, Word, DOC, DOCX, Excel, Regneark, PPT, PPTX, HTML, PSD, MPT, MPP, E-mail, MSG, EMLX, AutoCAD og billedfilformater."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Simpel API til at integrere dokument- og billedkonverteringsfunktionalitet i Java-applikationer uden at installere nogen ekstern software."
+title: "Dokumentkonvertering<br>via Java API"
+description: "Kraftig konverterings-API til at konvertere PDF-, Microsoft Office-, HTML-, e-bogs- og billedfiler"
 words:
-  for: "{header.words.for}"
+  for: "til"
 
 actions:
-  main: "{actions.main}"
+  main: "Gratis download af Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
-  alt: "{actions.alt}"
+  alt: "Licensering"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Klar til at komme i gang?"
+  description: "Prøv GroupDocs.Conversion-funktionerne gratis, eller anmod om en licens"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Version {0}  frigivet"
+  notes: "Se, hvad der er nyt"
+  downloads: "Downloads"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Sådan konverteres PDF-filer i Java"
+  more: "Flere eksempler"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -65,39 +65,39 @@ code:
     </repositories>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // Indlæs kilde-PDF-filen
     Converter converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // Indstil konverteringsindstillingerne
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // Konverter PDF til DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion på et øjeblik"
+  description: "Udforsk API'ets muligheder for hurtig og fejlfri konvertering af PDF-, Microsoft Office-, HTML-, e-bogs- og billedfiler i Java-applikationer"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Strømlinet konvertering"
+      content: "Med GroupDocs.Conversion API kan du ubesværet konvertere dokumenter i forskellige formater til PDF, Microsoft Office, HTML, e-bog og billedfiler. API'en giver fleksible og robuste muligheder, der sikrer integriteten af ​​indhold og dokumentstruktur gennem hele konverteringsprocessen."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Skift ubesværet mellem formater"
+      content: "Processen med at bruge GroupDocs.Conversion API er utrolig ligetil og kræver kun én metode og et sæt muligheder for ubesværet at skifte mellem forskellige formater."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Cross-platform kompatibilitet"
+      content: "Udforsk en konverteringsløsning med indbygget kompatibilitet på tværs af platforme, der tilgodeser den bredere brugerbase og sikrer optimal ydeevne på tværs af forskellige miljøer til alle dine dokumentkonverteringskrav."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Platformens uafhængighed"
+  description: "GroupDocs.Conversion for Java understøtter følgende operativsystemer, rammer og pakkeadministratorer"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,15 +126,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Understøttede filformater"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for Java understøtter operationer med følgende [filformater](https://docs.groupdocs.com/conversion/java/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Dokumentformater
+        * **Dokumenter:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -143,145 +143,145 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Billeder og multimedier
+        * **Billeder:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Lyd:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D og vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Andre formater
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Arkiv:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-mail & Outlook:** PST, OST, MSG, EML
+        * **Finansiere:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for Java funktioner"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion funktioner"
+  description: "Konverter problemfrit PDF- og office-dokumenter til HTML, JPG, PNG, BMP, TIFF, SVG og mange andre formater. GroupDocs.Conversion for Java API er designet til at være let at bruge og integrere i dit projekt. Det understøtter alle populære dokumentformater med mulighed for at tilpasse konverteringsprocessen."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Multi-format konvertering"
+      content: "Konverter filer mellem forskellige formater, inklusive PDF, DOCX, XLSX, PPTX og mere, med lethed."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "High-fidelity output"
+      content: "Bevar den originale kvalitet og formatering af dokumenter under konverteringsprocessen."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Konvertering af flere filer"
+      content: "Konverter flere filer og kombiner dem til et arkiv, hvilket forenkler organiseringen af ​​konverteret indhold."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Flersidet dokument til billeder"
+      content: "Konverter flersidede dokumenter til billeder side for side, hvilket muliggør præcis kontrol over transformationsprocessen og letter billedbaseret dokumentudtrækning og analyse."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Indstillinger, der kan tilpasses"
+      content: "Finjuster konverteringsparametre såsom opløsning, kvalitet og layout for at opfylde specifikke krav."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Sikker behandling"
+      content: "Sørg for databeskyttelse med adgangskodebeskyttede filkonverteringsmuligheder."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API integration"
+      content: "Integrer konverteringsmulighederne problemfrit i dine Java-applikationer, hvilket gør det til en problemfri del af din arbejdsgang."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Robust ombygning"
+      content: "Sikre pålidelige og fejlfri filkonverteringer, der garanterer nøjagtigheden og integriteten af ​​dine transformerede dokumenter."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Konverter dokumenter fra arkiver"
+      content: "Udpak og konverter dokumenter fra arkiver, hvilket muliggør transformation af indhold gemt i komprimerede filer."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Kodeprøver"
+  description: "Nogle bruger tilfælde af typiske GroupDocs.Conversion til Java-operationer"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Konverter PDF til billede"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Et almindeligt forekommende scenarie involverer at konvertere et helt PDF-dokument eller bestemte sider til en samling billeder. GroupDocs.Conversion for Java giver mulighed for at konvertere PDF-filer til forskellige billedformater, såsom TIFF, JPG, PNG, GIF, BMP og mere. 
+        Du kan vælge dit foretrukne billedformat ved hjælp af klassen ImageFileType.
+        {{< landing/code title="Konvertering af PDF til PNG i Java">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
-        // {code_samples.sample_1.comment_1}
+        // Indlæs kilde-PDF-filen
         Converter converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // Indstil konverteringsindstillingerne, og angiv outputbilledtypen
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // Konverter hver side af PDF-dokument til PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Konverter et segment af et stort dokument"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Med GroupDocs.Conversion til Java kan du ubesværet konvertere specifikke sider fra et langt dokument. 
+        Du har to metoder til at opnå dette, afhængigt af dine krav. Du kan enten konvertere en række sider eller konvertere specifikke sider.
+        {{< landing/code title="Konverter DOCX (side 2-4) til PDF i Java">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // Indlæs kilde DOCX-filen
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Indstil konverteringsindstillingerne, og angiv rækkevidden af ​​sider, der skal gengives
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Konverter side 2-4 til PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs produkter anmeldelser"
+# description: "Tag ikke bare vores ord for det. Se, hvad andre udviklere siger om vores API'er"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Fremragende service og fremragende produkter. De var ekstremt hjælpsomme og lydhøre under GroupDocs.Viewer til Java-implementeringsprocessen, kan ikke anbefale dem stærkt nok."
+#     author: "Martin Lasarga"
+#     company: "Product Manager hos Axentria ECM by G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Efter implementering og brug af GroupDocs.Viewer til Java i projektet ser det ud til at fungere meget godt. Jeg har testet med en masse dokumenter og indtil videre så godt. Alt, hvad jeg har kastet efter det, gengives pænt og ser lige så godt ud, som det ville i en PDF-fremviser eller MS Word."
+#     author: "Mats Oustad"
+#     company: "Seniorkonsulent/Partner hos Novanet AS"
 ---

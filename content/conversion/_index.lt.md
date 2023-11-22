@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Įgalinkite „JavaScript“ programas lengvai konvertuoti į visus pramonės standartinius dokumentų formatus, įskaitant „Microsoft Office“, PDF, HTML, vaizdus ir daugelį kitų."
 
     # api loop
     - title: "GroupDocs.Conversion žemo kodo API apima"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: ".NET failų konvertavimo REST API, kad būtų galima lengvai konvertuoti Microsoft Office, PDF, el. paštą, projektą, HTML ir kitus įprastus failų formatus bet kurioje platformoje naudojant debesies SDK."
+          content: ".NET failų konvertavimo REST API, leidžianti lengvai konvertuoti „Microsoft Office“, PDF, el. pašto, projekto, HTML ir kitus įprastus failų formatus bet kurioje platformoje naudojant „Cloud SDK“."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
@@ -116,7 +116,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "Psichologas"
-      content: "Su džiaugsmu stebiu GroupDocs augimą. Jūsų visos komandos reagavimas man labai padėjo. Kai kalbuosi su kuo nors iš „GroupDocs“, galiu garantuoti, kad kažkas klauso ir daro viską."
+      content: "Su džiaugsmu stebiu GroupDocs augimą. Jūsų visos komandos reagavimas man labai padėjo. Kai kalbuosi su kuo nors iš GroupDocs, galiu garantuoti, kad kažkas klauso ir daro viską."
 
 ############################# Back to top ###############################
 back_to_top:

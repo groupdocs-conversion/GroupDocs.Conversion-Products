@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,8 +23,8 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Conversion API | Skakel PDF Word Excel PPTX HTML-beelde om"
-head_description: "C# .NET Document Conversion API. Omskep PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-pos MSG EMLX, AutoCAD en beeldlêerformate."
+head_title: "C# .NET dokument omskakeling API | Skakel PDF, Word, Excel, PPTX, HTML en beelde om"
+head_description: "C# .NET dokument omskakeling API. Skakel PDF, Word, DOC, DOCX, Excel, Sigblaaie, PPT, PPTX, HTML, PSD, MPT, MPP, E-pos, MSG, EMLX, AutoCAD en beeldlêerformate om."
 
 ############################# Header ############################
 title: "Dokumentomskakeling<br>via .NET API"
@@ -55,10 +55,10 @@ code:
     // Laai die bron-PDF-lêer
     using (var converter = new Converter("resume.pdf"))
     {
-      // Stel die omskakelopsies vir DOCX-formaat in
+      // Stel die omskakelopsies in
       var convertOptions = new WordProcessingConvertOptions();
 
-      // Skakel om na DOCX-formaat
+      // Skakel PDF na DOCX om
       converter.Convert("resume.docx", convertOptions);
     }
     ```
@@ -66,19 +66,19 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Conversion in 'n oogopslag"
-  description: "Kragtige omskakelings-API om PDF-, Microsoft Office-, HTML-, e-boek- en beeldlêers in .NET-toepassings om te skakel"
+  description: "Verken die vermoëns van die API vir vinnige en foutlose omskakeling van PDF-, Microsoft Office-, HTML-, e-boek- en beeldlêers binne .NET-toepassings"
   features:
     # feature loop
     - title: "Gestroomlynde omskakeling"
-      content: "Inkorporeer moeitelose lêeromskakeling in jou C#-projekte deur GroupDocs.Conversion vir .NET te gebruik. Soomlose oorgang tussen formate vir verbeterde versoenbaarheid."
+      content: "Met GroupDocs.Conversion API kan jy dokumente van uiteenlopende formate moeiteloos omskakel na PDF, Microsoft Office, HTML, eBook en beeldlêers. Die API bied buigsame en robuuste opsies, wat die integriteit van inhoud en dokumentstruktuur deur die hele omskakelingsproses verseker."
 
     # feature loop
-    - title: "Buigsame integrasie"
-      content: "Vereenvoudig die integrasie van PDF- en Office-lêeromskakeling. GroupDocs.Conversion for .NET verhoog die veelsydigheid van jou toepassings."
+    - title: "Wissel moeiteloos tussen formate"
+      content: "Die proses om GroupDocs.Conversion API te gebruik is ongelooflik eenvoudig, wat net een metode en 'n stel opsies vereis om moeiteloos tussen verskillende formate te wissel."
 
     # feature loop
-    - title: "Betroubare transformasie"
-      content: "Verseker presiese omskakelings terwyl kwaliteit gehandhaaf word. GroupDocs.Conversion vir .NET waarborg betroubare transformasies van lêerformate."
+    - title: "Kruisplatform-versoenbaarheid"
+      content: "Verken 'n omskakelingsoplossing met inherente kruisplatformversoenbaarheid, wat voorsiening maak vir die breër gebruikersbasis en verseker optimale werkverrigting oor verskeie omgewings vir al jou dokumentomskakelingsvereistes."
 
 ############################# Platforms ############################
 platforms:
@@ -152,7 +152,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Conversion kenmerke"
-  description: "Skakel PDF- en Office-dokumente naatloos na HTML, JPG, PNG, BMP, TIFF, SVG en baie ander formate om. GroupDocs.Conversion for .NET API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas. GroupDocs.Conversion for .NET API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas."
+  description: "Skakel PDF- en kantoordokumente naatloos na HTML, JPG, PNG, BMP, TIFF, SVG en baie ander formate om. GroupDocs.Conversion for .NET API is ontwerp om maklik te gebruik en in jou projek te integreer. Dit ondersteun alle gewilde dokumentformate met die vermoë om die omskakelingsproses aan te pas."
 
   items:
     # feature loop
@@ -167,12 +167,12 @@ features:
 
     # feature loop
     - icon: "move"
-      title: "Omskakeling van veelvuldige lêers"
+      title: "Omskakeling van verskeie lêers"
       content: "Skakel veelvuldige lêers om en kombineer dit in 'n argief, wat die organisasie van omgeskakelde inhoud vereenvoudig."
 
     # feature loop
     - icon: "remove"
-      title: "Meerbladdokument na prente"
+      title: "Meerbladsye dokument na beelde"
       content: "Omskep meerbladdokumente na prente bladsy vir bladsy, wat presiese beheer oor die transformasieproses moontlik maak en beeldgebaseerde dokumentonttrekking en ontleding vergemaklik."
 
     # feature loop
@@ -222,49 +222,49 @@ code_samples:
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // Stel die omskakelopsies vir PNG-formaat in
+          // Stel die omskakelopsies in en spesifiseer die tipe uitsetbeeld
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // Skakel om na PNG-formaat
+          // Skakel elke bladsy van PDF-dokument om na PNG
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "Omskakeling van 'n segment van 'n groot dokument"
+    - title: "Skakel 'n segment van 'n groot dokument om"
       content: |
         Met GroupDocs.Conversion for .NET, kan jy moeiteloos spesifieke bladsye van 'n lang dokument omskakel. 
         Jy het twee metodes om dit te bereik, afhangende van jou vereistes. Jy kan óf 'n reeks bladsye omskakel óf spesifieke bladsye omskakel.
-        {{< landing/code title="Skakel 'n opeenvolgende reeks bladsye om">}}
+        {{< landing/code title="Skakel DOCX (bladsye 2-4) om na PDF in C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // Laai die bron DOCX-lêer
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // Stel die omskakelopsies in en spesifiseer die reeks bladsye om weer te gee
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // Skakel bladsye 2-4 om na PDF                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "Vlot sintaksis: 'n vaartbelynde benadering"
+    - title: "Vlot sintaksis: 'n Gestroomlynde benadering"
       content: |
         Vlot sintaksis bied 'n bondige notasie vir algemene aksies binne die GroupDocs.Conversion for .NET API. 
         Die kodevoorbeelde hieronder demonstreer hoe om die vlot sintaksis te benut:
-        {{< landing/code title="Voorbeeld 1: Skakel DOCX na PDF om deur vlot sintaksis te gebruik">}}
+        {{< landing/code title="Omskep DOCX na PDF in C# met behulp van vlot sintaksis">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 

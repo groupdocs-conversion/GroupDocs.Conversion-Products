@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,68 +23,68 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Conversion API | Teisendage PDF Wordi Excel PPTX HTML-pildid"
-head_description: "C# .NET Document Conversion API. Teisendage PDF Wordi DOC DOCX, Exceli arvutustabelid PPT PPTX, HTML, PSD, MPT MPP, MSG EMLX, AutoCAD ja pildifailivormingud."
+head_title: "C# .NET-i dokumendi teisendamise API | Teisendage PDF, Word, Excel, PPTX, HTML ja pildid"
+head_description: "C# .NET-i dokumendi teisendamise API. Teisendage PDF-i, Wordi, DOC, DOCX, Exceli, arvutustabelite, PPT, PPTX, HTML, PSD, MPT, MPP, e-posti, MSG, EMLX, AutoCADi ja pildifailivorminguid."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Lihtne API dokumentide ja kujutiste teisendamise funktsioonide integreerimiseks .NET-i rakendustesse ilma välist tarkvara installimata."
+title: "Dokumendi teisendamine<br>.NET API kaudu"
+description: "Võimas teisendus-API PDF-, Microsoft Office-, HTML-, e-raamatu- ja pildifailide teisendamiseks"
 words:
-  for: "{header.words.for}"
+  for: "jaoks"
 
 actions:
-  main: "{actions.main}"
+  main: "Tasuta NuGeti allalaadimine"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "{actions.alt}"
+  alt: "Litsentsi andmine"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Kas olete valmis alustama?"
+  description: "Proovige GroupDocs.Conversion funktsioone tasuta või taotlege litsentsi"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Versioon {0} on välja antud"
+  notes: "Vaadake, mis on uut"
+  downloads: "Allalaadimised"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Kuidas teisendada PDF-faile C#-s"
+  more: "Veel näiteid"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Laadige PDF-i lähtefail
     using (var converter = new Converter("resume.pdf"))
     {
-      // {code.comment_2}
+      // Määrake teisendusvalikud
       var convertOptions = new WordProcessingConvertOptions();
 
-      // {code.comment_3}
+      // Teisendage PDF DOCX-iks
       converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Ühe pilguga teisendamine"
+  description: "Avastage API võimalusi PDF-i, Microsoft Office'i, HTML-i, e-raamatu ja pildifailide kiireks ja veatuks teisendamiseks .NET-i rakendustes"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Sujuv konversioon"
+      content: "GroupDocs.Conversion API-ga saate hõlpsalt teisendada erinevas vormingus dokumente PDF-, Microsoft Office-, HTML-, e-raamatu- ja pildifailideks. API pakub paindlikke ja töökindlaid valikuid, tagades sisu ja dokumendistruktuuri terviklikkuse kogu teisendusprotsessi vältel."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Sundimatu vahetamine vormingute vahel"
+      content: "GroupDocs.Conversion API kasutamise protsess on uskumatult lihtne, nõudes vaid ühte meetodit ja valikute komplekti, et hõlpsalt erinevate vormingute vahel vahetada."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Platvormidevaheline ühilduvus"
+      content: "Avastage konversioonilahendust, millel on loomupärane platvormidevaheline ühilduvus, mis rahuldab laiemat kasutajaskonda ja tagab optimaalse jõudluse erinevates keskkondades kõigi teie dokumentide teisendamise nõuete jaoks."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Platvormi sõltumatus"
+  description: "GroupDocs.Conversion for .NET toetab järgmisi operatsioonisüsteeme, raamistikke ja paketihaldureid"
   items:
     # platform loop
     - title: "Amazon"
@@ -113,15 +113,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Toetatud failivormingud"
   description: |
-    {formats.description}
+    GroupDocs.Conversion for .NET toetab toiminguid järgmiste [failivormingutega](https://docs.groupdocs.com/conversion/net/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Dokumendi vormingud
+        * **Dokumendid:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,141 +130,141 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Pildid ja multimeedia
+        * **Pildid:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagramm:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Heli:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D ja vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Muud vormingud
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **võrk:**  HTML, MHTML, MHT
+        * **Arhiivid:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-post ja Outlook:** PST, OST, MSG, EML
+        * **Rahandus:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "Toote GroupDocs.Conversion for .NET funktsioonid"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion funktsioonid"
+  description: "Teisendage PDF- ja kontoridokumendid sujuvalt HTML-, JPG-, PNG-, BMP-, TIFF-, SVG- ja paljudesse muudesse vormingutesse. GroupDocs.Conversion for .NET API on loodud nii, et seda oleks lihtne kasutada ja teie projektiga integreerida. See toetab kõiki populaarseid dokumendivorminguid koos võimalusega kohandada teisendusprotsessi."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Mitme formaadi teisendus"
+      content: "Teisendage faile hõlpsalt erinevate vormingute vahel, sealhulgas PDF, DOCX, XLSX, PPTX ja palju muud."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Kõrge täpsusega väljund"
+      content: "Säilitage teisendusprotsessi ajal dokumentide algne kvaliteet ja vorming."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Mitme faili teisendamine"
+      content: "Teisendage mitu faili ja ühendage need arhiiviks, lihtsustades teisendatud sisu korraldamist."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Mitmeleheküljeline dokument piltidele"
+      content: "Teisendage mitmeleheküljelised dokumendid lehekülgede haaval kujutisteks, võimaldades täpset juhtimist teisendusprotsessi üle ning hõlbustades pildipõhiste dokumentide eraldamist ja analüüsi."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Kohandatavad sätted"
+      content: "Täpsustage konversiooniparameetreid, nagu eraldusvõime, kvaliteet ja paigutus, et need vastaksid konkreetsetele nõuetele."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Turvaline töötlemine"
+      content: "Tagage andmete privaatsus parooliga kaitstud failide teisendusvalikutega."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API integreerimine"
+      content: "Integreerige teisendusvõimalused sujuvalt oma .NET-i rakendustesse, muutes selle oma töövoo sujuvaks osaks."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Tugev konversioon"
+      content: "Tagage usaldusväärsed ja veavabad failide teisendused, tagades teie teisendatud dokumentide täpsuse ja terviklikkuse."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Teisendage dokumendid arhiividest"
+      content: "Ekstraktige ja teisendage arhiividest dokumente, võimaldades muuta tihendatud failidesse salvestatud sisu."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Koodi näidised"
+  description: "Mõned kasutavad tüüpilisi GroupDocs.Conversioni .NET-i toimingute jaoks"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Teisendage PDF pildiks"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Sageli esinev stsenaarium hõlmab terve PDF-dokumendi või konkreetsete lehtede teisendamist piltide kogumiks. GroupDocs.Conversion for .NET pakub võimalust teisendada PDF-faile erinevatesse pildivormingutesse, nagu TIFF, JPG, PNG, GIF, BMP ja palju muud. 
+        Erinevalt teistest teisendustest nõuab see protsess SavePageStreami delegaadi deklaratsiooni, mis määrab salvestatud piltide nimevormingu. Saate valida oma eelistatud pildivormingu, kasutades ImageFileType klassi.
+        {{< landing/code title="Teisendage PDF C#-s PNG-ks">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
 
-        // {code_samples.sample_1.comment_1}
+        // Laadige PDF-i lähtefail
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // {code_samples.sample_1.comment_2}
+          // Määrake teisendusvalikud ja määrake väljundpildi tüüp
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // {code_samples.sample_1.comment_3}
+          // Teisendage PDF-dokumendi iga leht PNG-vormingusse
           converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Suure dokumendi segmendi teisendamine"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Rakenduse GroupDocs.Conversion for .NET abil saate hõlpsalt teisendada kindlaid lehti pikast dokumendist. 
+        Sõltuvalt teie vajadustest on selle saavutamiseks kaks meetodit. Saate teisendada mitut lehekülge või konkreetseid lehti.
+        {{< landing/code title="Teisendage DOCX (lk 2-4) PDF-iks C#-s">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // Laadige DOCX-i lähtefail
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // Määrake teisendusvalikud ja määrake renderdatavate lehtede vahemik
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // Teisendage leheküljed 2-4 PDF-iks                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_3.title}"
+    - title: "Ladus süntaks: sujuv lähenemine"
       content: |
-        {code_samples.sample_3.content_1} 
-        {code_samples.sample_3.content_2}
-        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        Sujuv süntaks pakub ülevaatlikku märget levinud toimingute kohta GroupDocs.Conversion for .NET API-s. 
+        Allolevad koodinäidised näitavad, kuidas sujuvat süntaksit kasutada:
+        {{< landing/code title="Teisendage DOCX PDF-iks C#-s, kasutades sujuvat süntaksit">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 
@@ -277,19 +277,19 @@ code_samples:
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocsi toodete ülevaated"
+# description: "Ärge lihtsalt võtke meie sõna. Vaadake, mida teised arendajad meie API-de kohta ütlevad"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Suurepärane teenindus ja suurepärased tooted. Nad olid GroupDocs.Conversion for .NET juurutamisprotsessi ajal äärmiselt abivalmid ja reageerivad, kuid ei saa neid piisavalt soovitada."
+#     author: "Martin Lasarga"
+#     company: "Axentria ECM tootejuht G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Pärast .NET-i GroupDocs.Conversion juurutamist ja kasutamist projektis tundub, et see töötab väga hästi. Olen katsetanud paljude dokumentidega ja siiani on kõik hästi. Kõik, mida olen sellele visanud, renderdab kenasti ja näeb välja täpselt sama hea kui PDF-vaaturis või MS Wordis."
+#     author: "Mats Oustad"
+#     company: "Novanet AS vanemkonsultant/partner"
 ---

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Ενεργοποιήστε τις εφαρμογές JavaScript για εύκολη μετατροπή μεταξύ όλων των τυποποιημένων μορφών εγγράφων του κλάδου, συμπεριλαμβανομένων των Microsoft Office, PDF, HTML, εικόνων και πολλών άλλων."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code APIs Include"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: "Μετατροπή αρχείων .NET REST API για εύκολη μετατροπή Microsoft Office, PDF, Email, Project, HTML και άλλες κοινές μορφές αρχείων σε οποιαδήποτε πλατφόρμα χρησιμοποιώντας το Cloud SDK."
+          content: "API μετατροπής αρχείων .NET REST για εύκολη μετατροπή Microsoft Office, PDF, Email, Project, HTML και άλλες κοινές μορφές αρχείων σε οποιαδήποτε πλατφόρμα χρησιμοποιώντας το Cloud SDK."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"

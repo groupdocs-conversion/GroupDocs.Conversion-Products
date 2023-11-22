@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,31 +23,31 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java API Konversi Dokumen | Konversi PDF Word Excel PPTX Gambar HTML"
-head_description: "Java API Konversi Dokumen. Konversi PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & format file gambar."
+head_title: "Java API konversi dokumen | Konversi PDF, Word, Excel, PPTX, HTML, dan gambar"
+head_description: "Java API konversi dokumen. Konversi format file PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan gambar."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "API Sederhana untuk Mengintegrasikan Fungsi Konversi Dokumen & Gambar ke dalam Aplikasi Java tanpa Menginstal Perangkat Lunak Eksternal apa pun."
+title: "Konversi dokumen<br>melalui API Java"
+description: "API konversi yang kuat untuk mengonversi file PDF, Microsoft Office, HTML, eBook, dan gambar"
 words:
-  for: "{header.words.for}"
+  for: "untuk"
 
 actions:
-  main: "{actions.main}"
+  main: "Unduhan Maven Gratis"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
-  alt: "{actions.alt}"
+  alt: "Perizinan"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Conversion secara gratis atau minta lisensi"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Versi {0}  dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Cara mengkonversi file PDF di Java"
+  more: "Lebih banyak contoh"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -65,39 +65,39 @@ code:
     </repositories>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // Muat file PDF sumber
     Converter converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // Atur opsi konversi
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // Konversi PDF ke DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "Sekilas tentang GroupDocs.Conversion"
+  description: "Jelajahi kemampuan API untuk konversi PDF, Microsoft Office, HTML, eBook, dan file gambar dengan cepat dan sempurna dalam aplikasi Java"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Konversi yang disederhanakan"
+      content: "Dengan GroupDocs.Conversion API Anda dapat dengan mudah mengonversi dokumen dalam berbagai format ke PDF, Microsoft Office, HTML, eBook, dan file gambar. API memberikan opsi yang fleksibel dan kuat, memastikan integritas konten dan struktur dokumen selama proses konversi."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Peralihan antar format dengan mudah"
+      content: "Proses penggunaan GroupDocs.Conversion API sangat mudah, hanya memerlukan satu metode dan serangkaian opsi untuk beralih antar format dengan mudah."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Kompatibilitas lintas platform"
+      content: "Jelajahi solusi konversi dengan kompatibilitas lintas platform yang melekat, melayani basis pengguna yang lebih luas dan memastikan kinerja optimal di berbagai lingkungan untuk semua kebutuhan konversi dokumen Anda."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Independensi platform"
+  description: "GroupDocs.Conversion untuk Java mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,15 +126,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Format file yang didukung"
   description: |
-    {formats.description}
+    GroupDocs.Conversion untuk Java mendukung operasi dengan [format file] berikut(https://docs.groupdocs.com/conversion/java/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Format dokumen
+        * **Dokumen:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -143,145 +143,145 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Gambar & Multimedia
+        * **Gambar-gambar:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Format lainnya
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **jaring:**  HTML, MHTML, MHT
+        * **Arsip:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Pandangan:** PST, OST, MSG, EML
+        * **Keuangan:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for Java Fitur"
-  description: "{features.description}"
+  title: "Fitur GroupDocs.Conversion"
+  description: "Konversikan dokumen PDF dan kantor dengan mulus ke HTML, JPG, PNG, BMP, TIFF, SVG, dan banyak format lainnya. GroupDocs.Conversion for Java API dirancang agar mudah digunakan dan diintegrasikan ke dalam proyek Anda. Ini mendukung semua format dokumen populer dengan kemampuan untuk menyesuaikan proses konversi."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Konversi multi-format"
+      content: "Konversi file antara berbagai format, termasuk PDF, DOCX, XLSX, PPTX, dan lainnya, dengan mudah."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Keluaran dengan ketelitian tinggi"
+      content: "Pertahankan kualitas asli dan format dokumen selama proses konversi."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Mengonversi banyak file"
+      content: "Konversikan banyak file dan gabungkan menjadi arsip, menyederhanakan pengorganisasian konten yang dikonversi."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Dokumen multi halaman ke gambar"
+      content: "Konversikan dokumen multi halaman menjadi gambar halaman demi halaman, memungkinkan kontrol yang tepat atas proses transformasi dan memfasilitasi ekstraksi dan analisis dokumen berbasis gambar."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Pengaturan yang dapat disesuaikan"
+      content: "Sempurnakan parameter konversi seperti resolusi, kualitas, dan tata letak untuk memenuhi persyaratan tertentu."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Pemrosesan yang aman"
+      content: "Pastikan privasi data dengan opsi konversi file yang dilindungi kata sandi."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "Integrasi API"
+      content: "Integrasikan kemampuan konversi dengan lancar ke dalam aplikasi Java Anda, menjadikannya bagian alur kerja Anda yang lancar."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Konversi yang kuat"
+      content: "Pastikan konversi file yang andal dan bebas kesalahan, menjamin keakuratan dan integritas dokumen Anda yang diubah."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Konversi dokumen dari arsip"
+      content: "Ekstrak dan konversi dokumen dari arsip, memungkinkan transformasi konten yang disimpan dalam file terkompresi."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan GroupDocs.Conversion tipikal untuk operasi Java"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Konversi PDF ke gambar"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Skenario yang umum ditemui melibatkan konversi seluruh dokumen PDF atau halaman tertentu menjadi kumpulan gambar. GroupDocs.Conversion untuk Java menawarkan kemampuan untuk mengonversi PDF ke berbagai format gambar, seperti TIFF, JPG, PNG, GIF, BMP, dan banyak lagi. 
+        Anda dapat memilih format gambar pilihan Anda menggunakan kelas ImageFileType.
+        {{< landing/code title="Mengonversi PDF ke PNG di Java">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
-        // {code_samples.sample_1.comment_1}
+        // Muat file PDF sumber
         Converter converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // Atur opsi konversi dan tentukan jenis gambar keluaran
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // Konversikan setiap halaman dokumen PDF ke PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Konversikan segmen dokumen besar"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Dengan GroupDocs.Conversion untuk Java, Anda dapat dengan mudah mengonversi halaman tertentu dari dokumen yang panjang. 
+        Anda memiliki dua metode untuk mencapai hal ini, tergantung pada kebutuhan Anda. Anda dapat mengonversi sejumlah halaman atau mengonversi halaman tertentu.
+        {{< landing/code title="Konversi DOCX (halaman 2-4) ke PDF di Java">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // Muat file DOCX sumber
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Atur opsi konversi dan tentukan rentang halaman yang akan dirender
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Konversi halaman 2-4 ke PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "Ulasan produk GroupDocs"
+# description: "Jangan hanya percaya kata-kata kami begitu saja. Lihat apa yang dikatakan pengembang lain tentang API kami"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Pelayanan prima dan produk unggulan. Mereka sangat membantu dan responsif selama proses implementasi GroupDocs.Viewer untuk Java, dan sangat merekomendasikannya."
+#     author: "Martin Lasarga"
+#     company: "Manajer Produk di Axentria ECM oleh G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Setelah mengimplementasikan dan menggunakan GroupDocs.Viewer untuk Java dalam proyek tersebut tampaknya berfungsi dengan baik. Saya telah menguji dengan banyak dokumen dan sejauh ini bagus. Semua yang saya berikan ditampilkan dengan baik dan terlihat sama bagusnya dengan penampil PDF atau MS Word."
+#     author: "Mat Oustad"
+#     company: "Konsultan Senior/Mitra di Novanet AS"
 ---

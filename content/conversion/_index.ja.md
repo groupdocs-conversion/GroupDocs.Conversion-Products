@@ -1,19 +1,19 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
 
 ############################# Head ############################
-head_title: "GroupDocs による .NET、Java、クラウド API、ドキュメント変換アプリ"
-head_description: "アプリおよび API ベースのソリューションを使用して、あらゆるプラットフォームで一般的なドキュメントおよび画像ファイル形式を変換します。"
+head_title: "GroupDocs による .NET、Java、クラウド API およびドキュメント変換アプリ"
+head_description: "アプリと API ベースのソリューションを使用して、あらゆるプラットフォームで一般的なドキュメントと画像のファイル形式を変換します。"
 
 ############################# Header ############################
 title: "ドキュメントと画像の変換ソリューション"
-description: "アプリおよび API ベースのソリューションを使用して、あらゆるプラットフォームで一般的なドキュメントおよび画像ファイル形式を変換します。"
+description: "アプリと API ベースのソリューションを使用して、あらゆるプラットフォームで一般的なドキュメントと画像のファイル形式を変換します。"
 
 ############################# APIs ###############################
 apis:
@@ -31,7 +31,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
-          content: "あらゆる種類の .NET アプリケーションでドキュメントと画像ファイル形式を正確に変換するためのネイティブ .NET API。変換中の画像透かしの追加をサポートします。"
+          content: "ネイティブ .NET API により、あらゆる種類の .NET アプリケーションでドキュメントと画像ファイル形式を正確に変換できます。変換中の画像透かしの追加をサポートします。"
 
         # api_product loop
         - link: "/conversion/java/"
@@ -39,7 +39,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Java"
-          content: "Java アプリケーションで、Microsoft Office、PDF、HTML、画像など、業界標準のすべてのドキュメント フォーマット間で簡単に変換できるようにします。"
+          content: "Java アプリケーションで、Microsoft Office、PDF、HTML、画像などを含むすべての業界標準のドキュメント形式間で簡単に変換できるようにします。"
           
         # api_product loop
         - link: "/conversion/nodejs-java/"
@@ -47,7 +47,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "JavaScript アプリケーションで、Microsoft Office、PDF、HTML、画像などを含むすべての業界標準のドキュメント形式の間で簡単に変換できるようにします。"
 
     # api loop
     - title: "GroupDocs.Conversion ローコード API には以下が含まれます"
@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "cURL RESTful ファイル変換 API を使用して、アプリケーションで Microsoft Office、PDF、E メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換します。"
+          content: "cURL RESTful ファイル変換 API を使用して、アプリケーション内の Microsoft Office、PDF、電子メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換します。"
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: ".NET ファイル変換 REST API により、Cloud SDK を使用して任意のプラットフォームで Microsoft Office、PDF、電子メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換できます。"
+          content: ".NET ファイル変換 REST API を使用すると、Cloud SDK を使用して、任意のプラットフォームで Microsoft Office、PDF、電子メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換できます。"
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
@@ -76,12 +76,12 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for Java"
-          content: "REST API を呼び出すことができる任意のプラットフォームで高度なドキュメント変換機能を使用して、クラウドベースの Java アプリケーションを強化します。"
+          content: "REST API を呼び出すことができるプラットフォーム上の高度なドキュメント変換機能を使用して、クラウドベースの Java アプリケーションを強化します。"
 
     # api loop
-    - title: "GroupDocs.Conversion No Code アプリに含まれるもの"
+    - title: "GroupDocs.Conversion コードなしアプリが含まれる"
       link: "https://products.groupdocs.app/conversion"
-      label: "コードなしのアプリをすべて表示"
+      label: "コード不要のアプリをすべて表示"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/total"
@@ -97,7 +97,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Conversion"
           platform: "DOC to XLS"
-          content: "任意の Web ブラウザーから DOC を XLS 形式に変換する無料アプリ。"
+          content: "任意の Web ブラウザから DOC を XLS 形式に変換する無料アプリ。"
 
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/pdf-to-docx"
@@ -116,7 +116,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "心理学者"
-      content: "GroupDocs の成長を楽しみにしています。 GroupDocs の誰かと話すと、誰かが耳を傾け、物事を実現させていることを保証できます。"
+      content: "私は GroupDocs の成長を興奮して見守っています。御社のチーム全体の対応の良さにとても助けられています。GroupDocs の誰かと話すとき、誰かが耳を傾けて物事を進めてくれていることを保証できます。"
 
 ############################# Back to top ###############################
 back_to_top:

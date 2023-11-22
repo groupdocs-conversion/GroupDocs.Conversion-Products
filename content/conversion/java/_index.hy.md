@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,31 +23,31 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java Փաստաթղթերի փոխակերպման API | Փոխակերպեք PDF Word Excel PPTX HTML պատկերներ"
-head_description: "Java Փաստաթղթերի փոխակերպման API: Փոխակերպեք PDF Word DOC DOCX, Excel աղյուսակներ PPT PPTX, HTML, PSD, MPT MPP, էլփոստի MSG EMLX, AutoCAD և պատկերի ֆայլերի ձևաչափեր:"
+head_title: "Java փաստաթղթի փոխակերպման API | Փոխակերպեք PDF, Word, Excel, PPTX, HTML և պատկերներ"
+head_description: "Java փաստաթղթի փոխակերպման API: Փոխակերպեք PDF, Word, DOC, DOCX, Excel, աղյուսակներ, PPT, PPTX, HTML, PSD, MPT, MPP, էլփոստ, MSG, EMLX, AutoCAD և պատկերի ֆայլերի ձևաչափեր:"
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "Պարզ API՝ փաստաթղթերի և պատկերների փոխակերպման գործառույթները Java հավելվածներում ինտեգրելու համար՝ առանց որևէ արտաքին ծրագրաշարի տեղադրման:"
+title: "Փաստաթղթի փոխակերպում<br>Java API-ի միջոցով"
+description: "Հզոր փոխակերպման API՝ PDF, Microsoft Office, HTML, eBook և պատկերային ֆայլեր փոխարկելու համար"
 words:
-  for: "{header.words.for}"
+  for: "համար"
 
 actions:
-  main: "{actions.main}"
+  main: "Անվճար Maven Ներբեռնում"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
-  alt: "{actions.alt}"
+  alt: "Լիցենզավորում"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Պատրա՞ստ եք սկսել:"
+  description: "Փորձեք GroupDocs.Conversion-ի գործառույթներն անվճար կամ լիցենզիա պահանջեք"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Տարբերակ {0}  թողարկված է"
+  notes: "Տեսեք, թե ինչ նորություն կա"
+  downloads: "Ներբեռնումներ"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Ինչպես փոխարկել PDF ֆայլերը Java-ում"
+  more: "Ավելի շատ օրինակներ"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
     <dependency>
@@ -65,39 +65,39 @@ code:
     </repositories>
   content: |
     ```java {style=abap}   
-    // {code.comment_1}
+    // Բեռնել սկզբնաղբյուր PDF ֆայլը
     Converter converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // Սահմանեք փոխակերպման տարբերակները
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // {code.comment_3}
+    // Փոխարկել PDF-ը DOCX-ի
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Conversion-ը մի հայացքով"
+  description: "Ուսումնասիրեք API-ի հնարավորությունները PDF-ի, Microsoft Office-ի, HTML-ի, eBook-ի և պատկերային ֆայլերի արագ և անթերի փոխակերպման համար Java հավելվածներում:"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Հեշտացված փոխակերպում"
+      content: "GroupDocs.Conversion API-ի միջոցով դուք կարող եք հեշտությամբ փոխակերպել տարբեր ձևաչափերի փաստաթղթերը PDF, Microsoft Office, HTML, eBook և պատկերային ֆայլերի: API-ն ապահովում է ճկուն և ամուր տարբերակներ՝ ապահովելով բովանդակության և փաստաթղթի կառուցվածքի ամբողջականությունը փոխակերպման գործընթացում:"
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Հեշտ անցում ձևաչափերի միջև"
+      content: "GroupDocs.Conversion API-ի օգտագործման գործընթացը աներևակայելի պարզ է, որը պահանջում է ընդամենը մեկ մեթոդ և մի շարք տարբերակներ՝ առանց ջանքերի տարբեր ձևաչափերի միջև անցնելու համար:"
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Cross-platform համատեղելիություն"
+      content: "Բացահայտեք փոխակերպման լուծումը, որը բնորոշ է միջպլատֆորմային համատեղելիությանը, որն ապահովում է ավելի լայն օգտատերերի բազան և ապահովելով օպտիմալ կատարում տարբեր միջավայրերում՝ ձեր փաստաթղթերի փոխակերպման բոլոր պահանջների համար:"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Պլատֆորմի անկախություն"
+  description: "GroupDocs.Conversion-ը Java-ի համար աջակցում է հետևյալ օպերացիոն համակարգերին, շրջանակներին և փաթեթների կառավարիչներին"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,15 +126,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Աջակցվող ֆայլի ձևաչափեր"
   description: |
-    {formats.description}
+    GroupDocs.Conversion-ը Java-ի համար աջակցում է հետևյալ [ֆայլի ձևաչափերով] գործողություններին (https://docs.groupdocs.com/conversion/java/supported-file-formats/):
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Փաստաթղթերի ձևաչափեր
+        * **Փաստաթղթեր:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -143,145 +143,145 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Պատկերներ և մուլտիմեդիա
+        * **Պատկերներ:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Դիագրամ:** VSDX, DRAW, LUCIDCHART
+        * **CAD և GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Աուդիո:** MP3, WAV, FLAC, AAC, OGG
+        * **Տեսանյութ:** MP4, AVI, MKV, MOV, WMV
+        * **3D և վեկտոր:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Այլ ձևաչափեր
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Վեբ:**  HTML, MHTML, MHT
+        * **Արխիվներ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Էլփոստ և Outlook:** PST, OST, MSG, EML
+        * **Ֆինանսներ:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Conversion for Java Առանձնահատկություններ"
-  description: "{features.description}"
+  title: "GroupDocs.Conversion-ի առանձնահատկությունները"
+  description: "Անխափան կերպով փոխակերպեք PDF և գրասենյակային փաստաթղթերը HTML, JPG, PNG, BMP, TIFF, SVG և շատ այլ ձևաչափերի: GroupDocs.Conversion-ը Java API-ի համար նախատեսված է հեշտ օգտագործման և ձեր նախագծի մեջ ինտեգրվելու համար: Այն աջակցում է բոլոր հայտնի փաստաթղթերի ձևաչափերին՝ փոխակերպման գործընթացը հարմարեցնելու ունակությամբ:"
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Բազմաֆորմատ փոխակերպում"
+      content: "Հեշտությամբ փոխարկեք ֆայլերը տարբեր ձևաչափերի միջև, ներառյալ PDF, DOCX, XLSX, PPTX և այլն:"
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Բարձր հավատարմության արդյունք"
+      content: "Պահպանեք փաստաթղթերի բնօրինակ որակը և ձևաչափումը փոխակերպման գործընթացում:"
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Բազմաթիվ ֆայլերի փոխակերպում"
+      content: "Փոխակերպեք բազմաթիվ ֆայլեր և միավորեք դրանք արխիվի մեջ՝ հեշտացնելով փոխարկված բովանդակության կազմակերպումը:"
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Բազմաէջ փաստաթուղթ դեպի պատկերներ"
+      content: "Վերափոխեք բազմաէջ փաստաթղթերը պատկերների էջ առ էջ՝ հնարավորություն տալով ճշգրիտ վերահսկել վերափոխման գործընթացը և հեշտացնել պատկերների վրա հիմնված փաստաթղթերի արդյունահանումը և վերլուծությունը:"
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Կարգավորելի կարգավորումներ"
+      content: "Կարգավորել փոխակերպման պարամետրերը, ինչպիսիք են լուծումը, որակը և դասավորությունը՝ հատուկ պահանջներին համապատասխանելու համար:"
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Ապահով մշակում"
+      content: "Ապահովեք տվյալների գաղտնիությունը գաղտնաբառով պաշտպանված ֆայլերի փոխակերպման տարբերակներով:"
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API ինտեգրում"
+      content: "Անխափան կերպով ինտեգրեք փոխակերպման հնարավորությունները ձեր Java հավելվածներում՝ դարձնելով այն ձեր աշխատանքային հոսքի անխափան մաս:"
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Ուժեղ փոխակերպում"
+      content: "Ապահովեք ֆայլերի հուսալի և առանց սխալների փոխակերպումներ՝ երաշխավորելով ձեր փոխակերպված փաստաթղթերի ճշգրտությունն ու ամբողջականությունը:"
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Փոխակերպեք փաստաթղթերը արխիվներից"
+      content: "Արխիվներից հանեք և փոխակերպեք փաստաթղթերը՝ հնարավորություն տալով փոխակերպել սեղմված ֆայլերում պահվող բովանդակությունը:"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Կոդի նմուշներ"
+  description: "Ոմանք օգտագործում են տիպիկ GroupDocs.Conversion-ի դեպքեր Java գործողությունների համար"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Փոխարկել PDF-ը պատկերի"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Սովորաբար հանդիպող սցենարը ներառում է ամբողջ PDF փաստաթուղթը կամ հատուկ էջերը պատկերների հավաքածուի վերածելը: GroupDocs.Conversion-ը Java-ի համար առաջարկում է PDF ֆայլերը պատկերի տարբեր ձևաչափերի փոխակերպելու հնարավորություն, ինչպիսիք են TIFF, JPG, PNG, GIF, BMP և այլն: 
+        Դուք կարող եք ընտրել ձեր նախընտրած պատկերի ձևաչափը՝ օգտագործելով ImageFileType դասը:
+        {{< landing/code title="PDF-ի փոխակերպում PNG-ի Java-ում">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
         //...
 
-        // {code_samples.sample_1.comment_1}
+        // Բեռնել սկզբնաղբյուր PDF ֆայլը
         Converter converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // Սահմանեք փոխակերպման տարբերակները և նշեք ելքային պատկերի տեսակը
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // Փոխակերպեք PDF փաստաթղթի յուրաքանչյուր էջը PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Փոխակերպեք մեծ փաստաթղթի հատվածը"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        GroupDocs.Conversion-ի համար Java-ի միջոցով դուք կարող եք հեշտությամբ փոխակերպել որոշակի էջեր երկարատև փաստաթղթից: 
+        Դա անելու երկու եղանակ ունեք՝ կախված ձեր պահանջներից: Դուք կարող եք կամ փոխարկել մի շարք էջեր կամ փոխարկել որոշակի էջեր:
+        {{< landing/code title="Փոխակերպեք DOCX-ը (էջ 2-4) Java-ի PDF-ի">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // Բեռնել աղբյուրի DOCX ֆայլը
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Սահմանեք փոխակերպման ընտրանքները և նշեք էջերի տիրույթը, որոնք պետք է ցուցադրվեն
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // 2-4 էջերը փոխարկեք PDF-ի
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "GroupDocs-ի արտադրանքի ակնարկներ"
+# description: "Մի ընդունեք մեր խոսքը դրա համար: Տեսեք, թե ինչ են ասում այլ մշակողները մեր API-ների մասին"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Գերազանց սպասարկում և գերազանց արտադրանք: Նրանք չափազանց օգտակար և արձագանքող էին GroupDocs.Viewer-ի Java-ի իրականացման գործընթացում, և չեմ կարող դրանք բավականաչափ խորհուրդ տալ:"
+#     author: "Մարտին Լասարգա"
+#     company: "Ապրանքի մենեջեր Axentria ECM-ում G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Ծրագրում GroupDocs.Viewer-ը Java-ի համար կիրառելուց և օգտագործելուց հետո այն շատ լավ է աշխատում: Ես փորձարկել եմ բազմաթիվ փաստաթղթերով և մինչ այժմ այնքան լավ: Այն ամենը, ինչ ես նետել եմ դրա վրա, լավ է ստացվում և նույնքան լավ տեսք ունի, որքան PDF դիտիչում կամ MS Word-ում:"
+#     author: "Մատս Ուստադ"
+#     company: "Novanet AS-ի ավագ խորհրդատու/գործընկեր"
 ---

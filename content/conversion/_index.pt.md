@@ -1,19 +1,19 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-11-17T15:37:34
+date: 2023-11-22T10:22:33
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
 
 ############################# Head ############################
-head_title: ".NET, Java, APIs de nuvem e aplicativos de conversão de documentos por GroupDocs"
-head_description: "Converta formatos populares de documentos e arquivos de imagem em qualquer plataforma com soluções baseadas em aplicativos e APIs."
+head_title: ".NET, Java, APIs de nuvem e aplicativos de conversão de documentos da GroupDocs"
+head_description: "Converta formatos populares de documentos e arquivos de imagem em qualquer plataforma com soluções baseadas em aplicativos e API."
 
 ############################# Header ############################
 title: "Solução de conversão de documentos e imagens"
-description: "Converta formatos populares de documentos e arquivos de imagem em qualquer plataforma com soluções baseadas em aplicativos e APIs."
+description: "Converta formatos populares de documentos e arquivos de imagem em qualquer plataforma com soluções baseadas em aplicativos e API."
 
 ############################# APIs ###############################
 apis:
@@ -21,9 +21,9 @@ apis:
 
   api:
     # api loop
-    - title: "As APIs de alto código GroupDocs.Conversion incluem"
+    - title: "APIs de alto código GroupDocs.Conversion incluem"
       link: "/conversion/"
-      label: "Ver todas as APIs de código alto"
+      label: "Ver todas as APIs de alto código"
       api_product:
         # api_product loop
         - link: "/conversion/net/"
@@ -31,7 +31,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
-          content: "API .NET nativa para converter documentos e formatos de arquivo de imagem com precisão em qualquer tipo de aplicativo .NET. Suporta a adição de marcas d'água de imagem durante a conversão."
+          content: "API .NET nativa para converter com precisão documentos e formatos de arquivo de imagem em qualquer tipo de aplicativo .NET. Suporta adição de marcas d'água de imagem durante a conversão."
 
         # api_product loop
         - link: "/conversion/java/"
@@ -47,12 +47,12 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
-          content: "{apis.api1.product3_content}"
+          content: "Permita que seus aplicativos JavaScript convertam facilmente entre todos os formatos de documentos padrão do setor, incluindo Microsoft Office, PDF, HTML, imagens e muitos outros."
 
     # api loop
-    - title: "GroupDocs.Conversion Low Code APIs Incluem"
+    - title: "APIs de baixo código GroupDocs.Conversion incluem"
       link: "https://products.groupdocs.cloud/conversion"
-      label: "Ver todas as APIs de código baixo"
+      label: "Ver todas as APIs de baixo código"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/curl"
@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "Trabalhe com a API de conversão de arquivos cURL RESTful para converter facilmente o Microsoft Office, PDF, Email, Project, HTML e outros formatos de arquivo comuns em seus aplicativos."
+          content: "Trabalhe com a API de conversão de arquivos RESTful cURL para converter facilmente Microsoft Office, PDF, Email, Project, HTML e outros formatos de arquivo comuns em seus aplicativos."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
@@ -68,7 +68,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: "API REST de conversão de arquivos .NET para converter facilmente o Microsoft Office, PDF, Email, Project, HTML e outros formatos de arquivo comuns em qualquer plataforma usando o Cloud SDK."
+          content: "API REST de conversão de arquivo .NET para converter facilmente Microsoft Office, PDF, Email, Project, HTML e outros formatos de arquivo comuns em qualquer plataforma usando Cloud SDK."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
@@ -97,7 +97,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Conversion"
           platform: "DOC to XLS"
-          content: "Aplicativo gratuito para converter o formato DOC para XLS de qualquer navegador da web."
+          content: "Aplicativo gratuito para converter o formato DOC para XLS a partir de qualquer navegador da web."
 
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/pdf-to-docx"
@@ -105,7 +105,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Conversion"
           platform: "PDF to DOCX"
-          content: "Carregue seus documentos PDF para uma conversão perfeita para o formato Word (DOCX)."
+          content: "Carregue seus documentos PDF para conversão perfeita para o formato Word (DOCX)."
 
 ############################# Testimonials ###############################
 testimonials:
@@ -116,7 +116,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "Psicólogo"
-      content: "Estou acompanhando com entusiasmo o crescimento do GroupDocs. A capacidade de resposta de toda a sua equipe me ajudou muito, quando falo com alguém no GroupDocs posso garantir que alguém está ouvindo e fazendo as coisas acontecerem."
+      content: "Estou acompanhando com entusiasmo o crescimento do GroupDocs. A capacidade de resposta de toda a sua equipe tem me ajudado muito, quando converso com alguém do GroupDocs posso garantir que alguém está ouvindo e fazendo as coisas acontecerem."
 
 ############################# Back to top ###############################
 back_to_top:

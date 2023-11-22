@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,8 +23,8 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "JavaScript API لتحويل المستندات | تحويل صور PDF Word Excel PPTX HTML"
-head_description: "JavaScript واجهة برمجة تطبيقات تحويل المستندات. تحويل PDF Word DOC DOCX وExcel Spreadsheets PPT PPTX وHTML وPSD وMPT MPP وEmail MSG EMLX وAutoCAD وتنسيقات ملفات الصور."
+head_title: "JavaScript واجهة برمجة تطبيقات تحويل المستندات | تحويل ملفات PDF وWord وExcel وPPTX وHTML والصور"
+head_description: "JavaScript واجهة برمجة تطبيقات تحويل المستندات. تحويل PDF، Word، DOC، DOCX، Excel، جداول البيانات، PPT، PPTX، HTML، PSD، MPT، MPP، البريد الإلكتروني، MSG، EMLX، AutoCAD، وتنسيقات ملفات الصور."
 
 ############################# Header ############################
 title: "تحويل الوثيقة<br>عبر Node.js API"
@@ -33,7 +33,7 @@ words:
   for: "ل"
 
 actions:
-  main: "تحميل نوجيت مجانا"
+  main: "تنزيل NPM مجانًا"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
   alt: "الترخيص"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
@@ -46,7 +46,7 @@ release:
   downloads: "التحميلات"
 
 code:
-  title: "كيفية تحويل ملفات PDF إلى تطبيقات جافا سكريبت"
+  title: "كيفية تحويل ملفات PDF في جافا سكريبت"
   more: "مزيد من الأمثلة"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
@@ -65,19 +65,19 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Conversion في لمحة"
-  description: "واجهة برمجة تطبيقات تحويل قوية لتحويل ملفات PDF وMicrosoft Office وHTML والكتب الإلكترونية وملفات الصور في تطبيقات Javascript"
+  description: "اكتشف إمكانيات واجهة برمجة التطبيقات (API) للتحويل السريع والخالي من العيوب لملفات PDF وMicrosoft Office وHTML والكتب الإلكترونية وملفات الصور داخل تطبيقات JavaScript"
   features:
     # feature loop
     - title: "تحويل مبسط"
-      content: "قم بدمج تحويل الملفات بسهولة في مشاريع جافا سكريبت الخاصة بك باستخدام GroupDocs.Conversion for Node.js عبر Java. الانتقال بسلاسة بين التنسيقات لتحسين التوافق."
+      content: "باستخدام GroupDocs.Conversion API، يمكنك بسهولة تحويل المستندات ذات التنسيقات المتنوعة إلى ملفات PDF وMicrosoft Office وHTML والكتب الإلكترونية وملفات الصور. توفر واجهة برمجة التطبيقات (API) خيارات مرنة وقوية، مما يضمن سلامة المحتوى وبنية المستند طوال عملية التحويل."
 
     # feature loop
-    - title: "التكامل المرن"
-      content: "تبسيط عملية دمج تحويل ملفات PDF وOffice. يعمل GroupDocs.Conversion for Node.js عبر Java على تحسين تعدد استخدامات تطبيقاتك."
+    - title: "التبديل بسهولة بين التنسيقات"
+      content: "تعتبر عملية استخدام GroupDocs.Conversion API عملية واضحة ومباشرة بشكل لا يصدق، وتتطلب طريقة واحدة فقط ومجموعة من الخيارات للتبديل بسهولة بين التنسيقات المختلفة."
 
     # feature loop
-    - title: "تحويل يمكن الاعتماد عليه"
-      content: "ضمان تحويلات دقيقة مع الحفاظ على الجودة. يضمن GroupDocs.Conversion for Node.js عبر Java تحويلات موثوقة لتنسيقات الملفات."
+    - title: "التوافق عبر الأنظمة الأساسية"
+      content: "استكشف حل تحويل يتميز بتوافق متأصل عبر الأنظمة الأساسية، مما يلبي احتياجات قاعدة المستخدمين الأوسع ويضمن الأداء الأمثل عبر بيئات مختلفة لجميع متطلبات تحويل المستندات الخاصة بك."
 
 ############################# Platforms ############################
 platforms:
@@ -151,7 +151,7 @@ formats:
 features:
   enable: true
   title: "ميزات GroupDocs.Conversion"
-  description: "قم بتحويل مستندات PDF وOffice بسهولة إلى HTML وJPG وPNG وBMP وTIFF وSVG والعديد من التنسيقات الأخرى. تم تصميم GroupDocs.Conversion for Node.js عبر Java API ليكون سهل الاستخدام والاندماج في مشروعك. وهو يدعم جميع تنسيقات المستندات الشائعة مع القدرة على تخصيص عملية التحويل. تم تصميم GroupDocs.Conversion for Node.js عبر Java API ليكون سهل الاستخدام والاندماج في مشروعك. وهو يدعم جميع تنسيقات المستندات الشائعة مع القدرة على تخصيص عملية التحويل."
+  description: "قم بتحويل مستندات PDF والمكتبية بسهولة إلى HTML وJPG وPNG وBMP وTIFF وSVG والعديد من التنسيقات الأخرى. تم تصميم GroupDocs.Conversion for Node.js عبر Java API ليكون سهل الاستخدام والاندماج في مشروعك. وهو يدعم جميع تنسيقات المستندات الشائعة مع القدرة على تخصيص عملية التحويل."
 
   items:
     # feature loop
@@ -187,7 +187,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "تكامل واجهة برمجة التطبيقات"
-      content: "قم بدمج إمكانيات التحويل بسلاسة في تطبيقات جافا سكريبت الخاصة بك، مما يجعلها جزءًا سلسًا من سير عملك."
+      content: "قم بدمج إمكانيات التحويل بسلاسة في تطبيقات JavaScript، مما يجعلها جزءًا سلسًا من سير عملك."
 
     # feature loop
     - icon: "orientation"
@@ -206,10 +206,10 @@ code_samples:
   description: "تستخدم بعض حالات GroupDocs.Conversion النموذجية لـ Node.js عبر عمليات Java"
   items:
     # code sample loop
-    - title: "تحويل قوات الدفاع الشعبي إلى صورة"
+    - title: "تحويل قوات الدفاع الشعبي إلى الصورة"
       content: |
         يتضمن السيناريو الذي يتم مواجهته بشكل شائع تحويل مستند PDF بأكمله أو صفحات معينة إلى مجموعة من الصور. يوفر GroupDocs.Conversion for Node.js عبر Java القدرة على تحويل ملفات PDF إلى تنسيقات صور مختلفة، مثل TIFF وJPG وPNG وGIF وBMP والمزيد. 
-        على عكس التحويلات الأخرى، تتطلب هذه العملية تصريحًا من مفوض SavePageStream، الذي يحدد تنسيق التسمية للصور المحفوظة. يمكنك تحديد تنسيق الصورة المفضل لديك باستخدام فئة ImageFileType.
+        يمكنك تحديد تنسيق الصورة المفضل لديك باستخدام فئة ImageFileType.
         {{< landing/code title="تحويل PDF إلى PNG في جافا سكريبت">}}
         ```javascript {style=abap}  
         import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
@@ -217,11 +217,11 @@ code_samples:
         // قم بتحميل ملف PDF المصدر
         const converter = new Converter("resume.pdf");
         
-        // اضبط خيارات التحويل لتنسيق PNG
+        // اضبط خيارات التحويل وحدد نوع الصورة الناتجة
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // تحويل إلى تنسيق PNG
+        // قم بتحويل كل صفحة من مستند PDF إلى PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
@@ -231,19 +231,19 @@ code_samples:
       content: |
         باستخدام GroupDocs.Conversion for Node.js عبر Java، يمكنك بسهولة تحويل صفحات معينة من مستند طويل. 
         لديك طريقتان لتحقيق ذلك، حسب متطلباتك. يمكنك إما تحويل نطاق من الصفحات أو تحويل صفحات معينة.
-        {{< landing/code title="تحويل مجموعة متتالية من الصفحات">}}
+        {{< landing/code title="تحويل DOCX (الصفحات 2-4) إلى PDF في JavaScript">}}
         ```javascript {style=abap}   
         import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        // {code_samples.sample_2.comment_1}
+        // قم بتحميل ملف DOCX المصدر
         const converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // قم بتعيين خيارات التحويل وحدد نطاق الصفحات المراد عرضها
         const convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // تحويل الصفحات 2-4 إلى PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,8 +23,8 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "Java API за конвертиране на документи | Конвертирайте PDF Word Excel PPTX HTML изображения"
-head_description: "Java API за конвертиране на документи. Конвертирайте PDF Word DOC DOCX, Excel електронни таблици PPT PPTX, HTML, PSD, MPT MPP, имейл MSG EMLX, AutoCAD и файлови формати с изображения."
+head_title: "Java API за конвертиране на документи | Конвертирайте PDF, Word, Excel, PPTX, HTML и изображения"
+head_description: "Java API за конвертиране на документи. Конвертирайте PDF, Word, DOC, DOCX, Excel, електронни таблици, PPT, PPTX, HTML, PSD, MPT, MPP, имейл, MSG, EMLX, AutoCAD и файлови формати с изображения."
 
 ############################# Header ############################
 title: "Преобразуване на документи<br>чрез Java API"
@@ -68,30 +68,30 @@ code:
     // Заредете изходния PDF файл
     Converter converter = new Converter("resume.pdf");
     
-    // Задайте опциите за конвертиране за DOCX формат
+    // Задайте опциите за конвертиране
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
-    // Конвертирайте във формат DOCX
+    // Конвертирайте PDF в DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
   title: "GroupDocs.Conversion с един поглед"
-  description: "Мощен API за конвертиране за конвертиране на PDF, Microsoft Office, HTML, електронни книги и файлове с изображения в Java приложения"
+  description: "Разгледайте възможностите на API за бързо и безупречно конвертиране на PDF, Microsoft Office, HTML, електронни книги и файлове с изображения в Java приложения"
   features:
     # feature loop
     - title: "Рационализирано преобразуване"
-      content: "Включете лесно преобразуване на файлове във вашите проекти с помощта на GroupDocs.Conversion за Java. Безпроблемно преминаване между формати за подобрена съвместимост."
+      content: "С API на GroupDocs.Conversion можете лесно да конвертирате документи от различни формати в PDF, Microsoft Office, HTML, електронни книги и файлове с изображения. API предоставя гъвкави и стабилни опции, гарантиращи целостта на съдържанието и структурата на документа през целия процес на конвертиране."
 
     # feature loop
-    - title: "Гъвкава интеграция"
-      content: "Опростете интегрирането на преобразуването на PDF и Office файлове. GroupDocs.Conversion за Java подобрява гъвкавостта на вашите приложения."
+    - title: "Безпроблемно превключване между формати"
+      content: "Процесът на използване на API на GroupDocs.Conversion е невероятно лесен, изискващ само един метод и набор от опции за безпроблемно превключване между различни формати."
 
     # feature loop
-    - title: "Надеждна трансформация"
-      content: "Осигурете прецизни преобразувания, като същевременно поддържате качеството. GroupDocs.Conversion за Java гарантира надеждни трансформации на файлови формати."
+    - title: "Съвместимост между платформи"
+      content: "Разгледайте решение за преобразуване с присъща междуплатформена съвместимост, обслужващо по-широката потребителска база и осигуряващо оптимална производителност в различни среди за всички ваши изисквания за преобразуване на документи."
 
 ############################# Platforms ############################
 platforms:
@@ -165,7 +165,7 @@ formats:
 features:
   enable: true
   title: "Функции на GroupDocs.Conversion"
-  description: "Преобразувайте безпроблемно PDF и Office документи в HTML, JPG, PNG, BMP, TIFF, SVG и много други формати. GroupDocs.Conversion за Java API е проектиран да бъде лесен за използване и интегриране във вашия проект. Поддържа всички популярни формати на документи с възможност за персонализиране на процеса на конвертиране. GroupDocs.Conversion за Java API е проектиран да бъде лесен за използване и интегриране във вашия проект. Поддържа всички популярни формати на документи с възможност за персонализиране на процеса на конвертиране."
+  description: "Преобразувайте безпроблемно PDF и офис документи в HTML, JPG, PNG, BMP, TIFF, SVG и много други формати. GroupDocs.Conversion за Java API е проектиран да бъде лесен за използване и интегриране във вашия проект. Поддържа всички популярни формати на документи с възможност за персонализиране на процеса на конвертиране."
 
   items:
     # feature loop
@@ -223,7 +223,7 @@ code_samples:
     - title: "Конвертирайте PDF в изображение"
       content: |
         Често срещан сценарий включва конвертиране на цял PDF документ или конкретни страници в колекция от изображения. GroupDocs.Conversion за Java предлага възможност за конвертиране на PDF файлове в различни формати на изображения, като TIFF, JPG, PNG, GIF, BMP и други. 
-        За разлика от други преобразувания, този процес изисква декларирането на делегат SavePageStream, който указва формата за именуване на запазените изображения. Можете да изберете предпочитания от вас формат на изображение с помощта на класа ImageFileType.
+        Можете да изберете предпочитания от вас формат на изображение с помощта на класа ImageFileType.
         {{< landing/code title="Конвертиране на PDF в PNG в Java">}}
         ```java {style=abap} 
         import com.groupdocs.conversion.Converter;
@@ -234,35 +234,35 @@ code_samples:
         // Заредете изходния PDF файл
         Converter converter = new Converter("resume.pdf");
         
-        // Задайте опциите за конвертиране за PNG формат
+        // Задайте опциите за конвертиране и посочете типа изходно изображение
         ImageConvertOptions convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // Конвертиране във формат PNG
+        // Конвертирайте всяка страница от PDF документ в PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "Конвертиране на сегмент от голям документ"
+    - title: "Преобразувайте сегмент от голям документ"
       content: |
         С GroupDocs.Conversion за Java можете лесно да конвертирате конкретни страници от дълъг документ. 
         Имате два метода да постигнете това, в зависимост от вашите изисквания. Можете или да конвертирате набор от страници, или да конвертирате конкретни страници.
-        {{< landing/code title="Преобразувайте последователен диапазон от страници">}}
+        {{< landing/code title="Конвертирайте DOCX (страници 2-4) в PDF в Java">}}
         ```java {style=abap}   
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.options.convert.PdfConvertOptions;
         //...
 
-        // {code_samples.sample_2.comment_1}
+        // Заредете изходния DOCX файл
         Converter converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Задайте опциите за конвертиране и посочете диапазона от страници за изобразяване
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Преобразувайте страници 2-4 в PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}

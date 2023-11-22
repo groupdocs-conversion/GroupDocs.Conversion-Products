@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:43
 draft: false
 
 product: "Conversion"
@@ -23,67 +23,67 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "{head.title}"
-head_description: "{head.description}"
+head_title: "JavaScript API za pretvorbo dokumentov | Pretvorite PDF, Word, Excel, PPTX, HTML in slike"
+head_description: "API za pretvorbo dokumentov JavaScript. Pretvorite formate PDF, Word, DOC, DOCX, Excel, preglednice, PPT, PPTX, HTML, PSD, MPT, MPP, e-pošto, MSG, EMLX, AutoCAD in slikovne datoteke."
 
 ############################# Header ############################
-title: "{header.title_1}<br>{header.title_2}"
-description: "{header.description}"
+title: "Pretvorba dokumentov<br>prek API-ja Node.js"
+description: "Zmogljiv API za pretvorbo za pretvorbo datotek PDF, Microsoft Office, HTML, e-knjig in slikovnih datotek"
 words:
-  for: "{header.words.for}"
+  for: "za"
 
 actions:
-  main: "{actions.main}"
+  main: "Brezplačen prenos NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
-  alt: "{actions.alt}"
+  alt: "Licenciranje"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
-  title: "{actions.title}"
-  description: "{actions.description}"
+  title: "Ste pripravljeni začeti?"
+  description: "Brezplačno preizkusite funkcije GroupDocs.Conversion ali zahtevajte licenco"
 
 release:
-  title: "{release.title}"
-  notes: "{release.notes}"
-  downloads: "{release.downloads}"
+  title: "Različica {0}  izdana"
+  notes: "Oglejte si, kaj je novega"
+  downloads: "Prenosi"
 
 code:
-  title: "{code.title}"
-  more: "{code.more}"
+  title: "Kako pretvoriti datoteke PDF v JavaScript"
+  more: "Več primerov"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
     ```csharp {style=abap}   
-    // {code.comment_1}
+    // Naložite izvorno datoteko PDF
     const converter = new Converter("resume.pdf");
     
-    // {code.comment_2}
+    // Nastavite možnosti pretvorbe za format DOCX
     const convertOptions = new WordProcessingConvertOptions();
     
-    // {code.comment_3}
+    // Pretvori v format DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{overview.title}"
-  description: "{overview.description}"
+  title: "GroupDocs.Pretvorba na prvi pogled"
+  description: "Raziščite zmožnosti API-ja za hitro in brezhibno pretvorbo datotek PDF, Microsoft Office, HTML, e-knjig in slikovnih datotek v aplikacijah JavaScript"
   features:
     # feature loop
-    - title: "{overview.feature_1.title}"
-      content: "{overview.feature_1.description}"
+    - title: "Poenostavljena pretvorba"
+      content: "Z API-jem GroupDocs.Conversion lahko preprosto pretvorite dokumente različnih formatov v PDF, Microsoft Office, HTML, e-knjige in slikovne datoteke. API ponuja prilagodljive in robustne možnosti, ki zagotavljajo celovitost vsebine in strukture dokumenta v celotnem procesu pretvorbe."
 
     # feature loop
-    - title: "{overview.feature_2.title}"
-      content: "{overview.feature_2.description}"
+    - title: "Preprosto preklapljanje med formati"
+      content: "Postopek uporabe API-ja GroupDocs.Conversion je neverjetno preprost in zahteva samo eno metodo in nabor možnosti za preprosto preklapljanje med različnimi formati."
 
     # feature loop
-    - title: "{overview.feature_3.title}"
-      content: "{overview.feature_3.description}"
+    - title: "Združljivost med platformami"
+      content: "Raziščite rešitev za pretvorbo z inherentno združljivostjo med platformami, ki skrbi za širšo bazo uporabnikov in zagotavlja optimalno delovanje v različnih okoljih za vse vaše zahteve po pretvorbi dokumentov."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{platforms.title}"
-  description: "{platforms.description}"
+  title: "Neodvisnost platforme"
+  description: "GroupDocs.Conversion za Node.js prek Jave podpira naslednje operacijske sisteme, okvire in upravitelje paketov"
   items:
     # platform loop
     - title: "Amazon"
@@ -112,15 +112,15 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{formats.title}"
+  title: "Podprti formati datotek"
   description: |
-    {formats.description}
+    GroupDocs.Conversion za Node.js prek Jave podpira operacije z naslednjimi [formati datotek](https://docs.groupdocs.com/conversion/nodejs-java/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {formats.groups.title_1}
-        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        ### Formati dokumentov
+        * **Dokumenti:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -129,140 +129,140 @@ formats:
     # group loop
     - color: "blue"
       content: |
-        ### {formats.groups.title_2}
-        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
-        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
-        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
-        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        ### Slike in večpredstavnost
+        * **Slike:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Avdio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D in vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
       # group loop
     - color: "red"
       content: |
-        ### {formats.groups.title_3}
+        ### Drugi formati
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
-        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
-        * **{formats.groups.format_finance}:** QFX, OFX
+        * **Splet:**  HTML, MHTML, MHT
+        * **Arhivi:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **E-pošta in Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{features.title}"
-  description: "{features.description}"
+  title: "Funkcije GroupDocs.Conversion"
+  description: "Brezhibno pretvorite PDF in pisarniške dokumente v HTML, JPG, PNG, BMP, TIFF, SVG in številne druge formate. GroupDocs.Conversion za Node.js prek API-ja Java je zasnovan tako, da je enostaven za uporabo in integracijo v vaš projekt. Podpira vse priljubljene formate dokumentov z možnostjo prilagajanja postopka pretvorbe."
 
   items:
     # feature loop
     - icon: "merge"
-      title: "{features.feature_1.title}"
-      content: "{features.feature_1.content}"
+      title: "Pretvorba več formatov"
+      content: "Z lahkoto pretvarjajte datoteke med različnimi formati, vključno s PDF, DOCX, XLSX, PPTX in drugimi."
 
     # feature loop
     - icon: "split"
-      title: "{features.feature_2.title}"
-      content: "{features.feature_2.content}"
+      title: "Izhod visoke ločljivosti"
+      content: "Med postopkom pretvorbe ohranite izvirno kakovost in oblikovanje dokumentov."
 
     # feature loop
     - icon: "move"
-      title: "{features.feature_3.title}"
-      content: "{features.feature_3.content}"
+      title: "Pretvarjanje več datotek"
+      content: "Pretvorite več datotek in jih združite v arhiv, kar poenostavi organizacijo pretvorjene vsebine."
 
     # feature loop
     - icon: "remove"
-      title: "{features.feature_4.title}"
-      content: "{features.feature_4.content}"
+      title: "Večstranski dokument v slike"
+      content: "Pretvorite večstranske dokumente v slike stran za stranjo, kar omogoča natančen nadzor nad procesom preoblikovanja in olajša ekstrakcijo in analizo dokumentov na podlagi slik."
 
     # feature loop
     - icon: "rotate"
-      title: "{features.feature_5.title}"
-      content: "{features.feature_5.content}"
+      title: "Prilagodljive nastavitve"
+      content: "Natančno nastavite parametre pretvorbe, kot so ločljivost, kakovost in postavitev, da izpolnite posebne zahteve."
 
     # feature loop
     - icon: "swap"
-      title: "{features.feature_6.title}"
-      content: "{features.feature_6.content}"
+      title: "Varna obdelava"
+      content: "Zagotovite zasebnost podatkov z možnostmi pretvorbe datotek, zaščitenih z geslom."
 
     # feature loop
     - icon: "extract"
-      title: "{features.feature_7.title}"
-      content: "{features.feature_7.content}"
+      title: "API integracija"
+      content: "Brezhibno integrirajte zmožnosti pretvorbe v svoje aplikacije JavaScript, tako da postane brezhiben del vašega poteka dela."
 
     # feature loop
     - icon: "orientation"
-      title: "{features.feature_8.title}"
-      content: "{features.feature_8.content}"
+      title: "Robustna pretvorba"
+      content: "Zagotovite zanesljive pretvorbe datotek brez napak, ki zagotavljajo točnost in celovitost vaših preoblikovanih dokumentov."
 
     # feature loop
     - icon: "preview"
-      title: "{features.feature_9.title}"
-      content: "{features.feature_9.content}"
+      title: "Pretvarjanje dokumentov iz arhivov"
+      content: "Ekstrahirajte in pretvorite dokumente iz arhivov, kar omogoča preoblikovanje vsebine, shranjene v stisnjenih datotekah."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{code_samples.title}"
-  description: "{code_samples.description}"
+  title: "Vzorci kod"
+  description: "Nekateri primeri uporabe tipičnega GroupDocs.Conversion za Node.js prek operacij Java"
   items:
     # code sample loop
-    - title: "{code_samples.sample_1.title}"
+    - title: "Pretvori PDF v sliko"
       content: |
-        {code_samples.sample_1.content_1} 
-        {code_samples.sample_1.content_2}
-        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        Pogost scenarij vključuje pretvorbo celotnega dokumenta PDF ali določenih strani v zbirko slik. GroupDocs.Conversion za Node.js prek Jave ponuja zmožnost pretvorbe PDF-jev v različne slikovne formate, kot so TIFF, JPG, PNG, GIF, BMP itd. 
+        Z razredom ImageFileType lahko izberete želeno slikovno obliko.
+        {{< landing/code title="Pretvorba PDF v PNG v JavaScriptu">}}
         ```javascript {style=abap}  
         import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
         
-        // {code_samples.sample_1.comment_1}
+        // Naložite izvorno datoteko PDF
         const converter = new Converter("resume.pdf");
         
-        // {code_samples.sample_1.comment_2}
+        // Nastavite možnosti pretvorbe in določite vrsto izhodne slike
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 
-        // {code_samples.sample_1.comment_3}
+        // Vsako stran dokumenta PDF pretvorite v PNG
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "{code_samples.sample_2.title}"
+    - title: "Pretvorite segment velikega dokumenta"
       content: |
-        {code_samples.sample_2.content_1} 
-        {code_samples.sample_2.content_2}
-        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        Z GroupDocs.Conversion za Node.js prek Jave lahko brez napora pretvorite določene strani iz dolgega dokumenta. 
+        Za to imate na voljo dva načina, odvisno od vaših zahtev. Pretvorite lahko obseg strani ali pretvorite določene strani.
+        {{< landing/code title="Pretvorite DOCX (strani 2-4) v PDF v JavaScriptu">}}
         ```javascript {style=abap}   
         import { Converter, PdfConvertOptions } from '@groupdocs/groupdocs.conversion'
 
-        // {code_samples.sample_2.comment_1}
+        // Naložite izvorno datoteko DOCX
         const converter = new Converter("booklet.docx");
 
-        // {code_samples.sample_2.comment_2}
+        // Nastavite možnosti pretvorbe in določite obseg strani za upodabljanje
         const convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
 
-        // {code_samples.sample_2.comment_3}
+        // Pretvorite strani 2-4 v PDF
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
 ############################# Reviews ############################
 # reviews:
 # enable: true
-# title: "{reviews.title}"
-# description: "{reviews.description}"
+# title: "Ocene izdelkov GroupDocs"
+# description: "Ne verjemite nam na besedo. Oglejte si, kaj drugi razvijalci pravijo o naših API-jih"
 
 # items:
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_1.content}"
-#     author: "{reviews.review_1.author}"
-#     company: "{reviews.review_1.company}"
+#     content: "Odlična storitev in odlični izdelki. Med postopkom izvajanja GroupDocs.Viewer za Node.js prek Jave so bili izjemno koristni in odzivni, zato jih ne morem dovolj toplo priporočiti."
+#     author: "Martin Lasarga"
+#     company: "Produktni vodja pri Axentria ECM by G.S.I."
 
 #   # review loop
 #   - title: "GroupDocs.Viewer"
-#     content: "{reviews.review_2.content}"
-#     author: "{reviews.review_2.author}"
-#     company: "{reviews.review_2.company}"
+#     content: "Po implementaciji in uporabi GroupDocs.Viewer za Node.js prek Jave v projektu je videti, da deluje zelo dobro. Testiral sem z veliko dokumenti in zaenkrat je vse dobro. Vse, kar sem dodal vanj, je lepo upodobljeno in videti enako dobro, kot bi bilo v pregledovalniku PDF ali MS Word."
+#     author: "Mats Oustad"
+#     company: "Višji svetovalec/partner pri Novanet AS"
 ---

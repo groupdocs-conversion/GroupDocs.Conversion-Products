@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-17T15:37:40
+date: 2023-11-22T10:22:42
 draft: false
 
 product: "Conversion"
@@ -23,8 +23,8 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# .NET Document Conversion API | تحويل صور PDF Word Excel PPTX HTML"
-head_description: "C# .NET Document Conversion API. تحويل PDF Word DOC DOCX وExcel Spreadsheets PPT PPTX وHTML وPSD وMPT MPP وEmail MSG EMLX وAutoCAD وتنسيقات ملفات الصور."
+head_title: "C# واجهة برمجة تطبيقات تحويل المستندات .NET | تحويل ملفات PDF وWord وExcel وPPTX وHTML والصور"
+head_description: "C# واجهة برمجة تطبيقات تحويل المستندات .NET. تحويل PDF، Word، DOC، DOCX، Excel، جداول البيانات، PPT، PPTX، HTML، PSD، MPT، MPP، البريد الإلكتروني، MSG، EMLX، AutoCAD، وتنسيقات ملفات الصور."
 
 ############################# Header ############################
 title: "تحويل الوثيقة<br>عبر .NET API"
@@ -55,10 +55,10 @@ code:
     // قم بتحميل ملف PDF المصدر
     using (var converter = new Converter("resume.pdf"))
     {
-      // اضبط خيارات التحويل لتنسيق DOCX
+      // اضبط خيارات التحويل
       var convertOptions = new WordProcessingConvertOptions();
 
-      // تحويل إلى تنسيق DOCX
+      // تحويل PDF إلى DOCX
       converter.Convert("resume.docx", convertOptions);
     }
     ```
@@ -66,19 +66,19 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Conversion في لمحة"
-  description: "واجهة برمجة تطبيقات تحويل قوية لتحويل ملفات PDF وMicrosoft Office وHTML والكتب الإلكترونية وملفات الصور في تطبيقات .NET"
+  description: "اكتشف إمكانيات واجهة برمجة التطبيقات (API) للتحويل السريع والخالي من العيوب لملفات PDF وMicrosoft Office وHTML والكتب الإلكترونية وملفات الصور ضمن تطبيقات .NET"
   features:
     # feature loop
     - title: "تحويل مبسط"
-      content: "قم بدمج تحويل الملفات بسهولة في مشاريع C# الخاصة بك باستخدام GroupDocs.Conversion for .NET. الانتقال بسلاسة بين التنسيقات لتحسين التوافق."
+      content: "باستخدام GroupDocs.Conversion API، يمكنك بسهولة تحويل المستندات ذات التنسيقات المتنوعة إلى ملفات PDF وMicrosoft Office وHTML والكتب الإلكترونية وملفات الصور. توفر واجهة برمجة التطبيقات (API) خيارات مرنة وقوية، مما يضمن سلامة المحتوى وبنية المستند طوال عملية التحويل."
 
     # feature loop
-    - title: "التكامل المرن"
-      content: "تبسيط عملية دمج تحويل ملفات PDF وOffice. يعمل GroupDocs.Conversion for .NET على تحسين تعدد استخدامات تطبيقاتك."
+    - title: "التبديل بسهولة بين التنسيقات"
+      content: "تعتبر عملية استخدام GroupDocs.Conversion API عملية واضحة ومباشرة بشكل لا يصدق، وتتطلب طريقة واحدة فقط ومجموعة من الخيارات للتبديل بسهولة بين التنسيقات المختلفة."
 
     # feature loop
-    - title: "تحويل يمكن الاعتماد عليه"
-      content: "ضمان تحويلات دقيقة مع الحفاظ على الجودة. يضمن GroupDocs.Conversion for .NET تحويلات موثوقة لتنسيقات الملفات."
+    - title: "التوافق عبر الأنظمة الأساسية"
+      content: "استكشف حل تحويل يتميز بتوافق متأصل عبر الأنظمة الأساسية، مما يلبي احتياجات قاعدة المستخدمين الأوسع ويضمن الأداء الأمثل عبر بيئات مختلفة لجميع متطلبات تحويل المستندات الخاصة بك."
 
 ############################# Platforms ############################
 platforms:
@@ -152,7 +152,7 @@ formats:
 features:
   enable: true
   title: "ميزات GroupDocs.Conversion"
-  description: "قم بتحويل مستندات PDF وOffice بسهولة إلى HTML وJPG وPNG وBMP وTIFF وSVG والعديد من التنسيقات الأخرى. تم تصميم GroupDocs.Conversion for .NET API ليكون سهل الاستخدام والدمج في مشروعك. وهو يدعم جميع تنسيقات المستندات الشائعة مع القدرة على تخصيص عملية التحويل. تم تصميم GroupDocs.Conversion for .NET API ليكون سهل الاستخدام والدمج في مشروعك. وهو يدعم جميع تنسيقات المستندات الشائعة مع القدرة على تخصيص عملية التحويل."
+  description: "قم بتحويل مستندات PDF والمكتبية بسهولة إلى HTML وJPG وPNG وBMP وTIFF وSVG والعديد من التنسيقات الأخرى. تم تصميم GroupDocs.Conversion for .NET API ليكون سهل الاستخدام والدمج في مشروعك. وهو يدعم جميع تنسيقات المستندات الشائعة مع القدرة على تخصيص عملية التحويل."
 
   items:
     # feature loop
@@ -207,7 +207,7 @@ code_samples:
   description: "تستخدم بعض حالات GroupDocs.Conversion النموذجية لعمليات .NET"
   items:
     # code sample loop
-    - title: "تحويل قوات الدفاع الشعبي إلى صورة"
+    - title: "تحويل قوات الدفاع الشعبي إلى الصورة"
       content: |
         يتضمن السيناريو الذي يتم مواجهته بشكل شائع تحويل مستند PDF بأكمله أو صفحات معينة إلى مجموعة من الصور. يوفر GroupDocs.Conversion for .NET إمكانية تحويل ملفات PDF إلى تنسيقات صور مختلفة، مثل TIFF، وJPG، وPNG، وGIF، وBMP، والمزيد. 
         على عكس التحويلات الأخرى، تتطلب هذه العملية تصريحًا من مفوض SavePageStream، الذي يحدد تنسيق التسمية للصور المحفوظة. يمكنك تحديد تنسيق الصورة المفضل لديك باستخدام فئة ImageFileType.
@@ -222,12 +222,12 @@ code_samples:
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // اضبط خيارات التحويل لتنسيق PNG
+          // اضبط خيارات التحويل وحدد نوع الصورة الناتجة
           var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
           };
           
-          // تحويل إلى تنسيق PNG
+          // قم بتحويل كل صفحة من مستند PDF إلى PNG
           converter.Convert(getPageStream, convertOptions);
         }
         ```
@@ -238,22 +238,22 @@ code_samples:
       content: |
         باستخدام GroupDocs.Conversion for .NET، يمكنك بسهولة تحويل صفحات معينة من مستند طويل. 
         لديك طريقتان لتحقيق ذلك، حسب متطلباتك. يمكنك إما تحويل نطاق من الصفحات أو تحويل صفحات معينة.
-        {{< landing/code title="تحويل مجموعة متتالية من الصفحات">}}
+        {{< landing/code title="تحويل DOCX (الصفحات 2-4) إلى PDF في C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // {code_samples.sample_2.comment_1}
+        // قم بتحميل ملف DOCX المصدر
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // {code_samples.sample_2.comment_2}
+           // قم بتعيين خيارات التحويل وحدد نطاق الصفحات المراد عرضها
            var convertOptions = new PdfConvertOptions 
            { 
               PageNumber = 2, 
               PagesCount = 3 
            };
 
-           // {code_samples.sample_2.comment_3}                                     
+           // تحويل الصفحات 2-4 إلى PDF                                     
            converter.Convert("pages-2-4.pdf", convertOptions);
         }  
         ```
@@ -264,7 +264,7 @@ code_samples:
       content: |
         يقدم البناء السلس تدوينًا موجزًا ​​للإجراءات الشائعة داخل GroupDocs.Conversion for .NET API. 
         توضح نماذج التعليمات البرمجية أدناه كيفية الاستفادة من بناء الجملة بطلاقة:
-        {{< landing/code title="مثال 1: تحويل DOCX إلى PDF باستخدام بناء الجملة بطلاقة">}}
+        {{< landing/code title="تحويل DOCX إلى PDF في C# باستخدام بناء الجملة بطلاقة">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
 

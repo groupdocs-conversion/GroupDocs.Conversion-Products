@@ -44,7 +44,7 @@ apis:
         # api_product loop
         - link: "/conversion/nodejs-java/"
           img_alt: "GroupDocs.Conversion for Node.js via Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
+          image: "https://products.groupdocs.com/border/groupdocs-conversion-nodejs-java.svg"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
           content: "Serlêdanên xwe yên JavaScript-ê çalak bikin ku bi hêsanî di navbera hemî formatên belgeyên standard ên pîşesaziyê de di nav de Microsoft Office, PDF, HTML, wêne û gelekên din veguherînin."

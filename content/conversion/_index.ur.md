@@ -44,7 +44,7 @@ apis:
         # api_product loop
         - link: "/conversion/nodejs-java/"
           img_alt: "GroupDocs.Conversion for Node.js via Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-nodejs-java.png"
+          image: "https://products.groupdocs.com/border/groupdocs-conversion-nodejs-java.svg"
           product: "GroupDocs.Conversion for"
           platform: "Node.js via Java"
           content: "مائیکروسافٹ آفس، پی ڈی ایف، ایچ ٹی ایم ایل، امیجز اور بہت سے دیگر سمیت انڈسٹری کے معیاری دستاویز فارمیٹس کے درمیان آسانی سے تبدیل کرنے کے لیے اپنی JavaScript ایپلیکیشنز کو فعال کریں۔"

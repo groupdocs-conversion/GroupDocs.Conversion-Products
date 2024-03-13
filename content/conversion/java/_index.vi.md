@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
 product: "Conversion"
@@ -22,15 +22,16 @@ supported_platforms:
     - title: "Node.js"
       tag: "nodejs-java" 
 
+
 ############################# Head ############################
 head_title: "API chuyển đổi tài liệu Java | Chuyển đổi PDF, Word, Excel, PPTX, HTML và hình ảnh"
 head_description: "API chuyển đổi tài liệu Java. Chuyển đổi các định dạng tệp PDF, Word, DOC, DOCX, Excel, Bảng tính, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD và tệp hình ảnh."
 
 ############################# Header ############################
-title: "Chuyển đổi tài liệu<br>thông qua API Java"
+title: "Chuyển đổi tài liệu qua API Java"
 description: "API chuyển đổi mạnh mẽ để chuyển đổi các tệp PDF, Microsoft Office, HTML, sách điện tử và hình ảnh"
 words:
-  for: "vì"
+  for: "for"
 
 actions:
   main: "Tải xuống Maven miễn phí"
@@ -44,17 +45,20 @@ release:
   title: "Phiên bản {0}  đã phát hành"
   notes: "Xem có gì mới"
   downloads: "Tải xuống"
+  link: "https://releases.groupdocs.com/conversion/java/release-notes/latest/"
 
 code:
   title: "Cách chuyển đổi tệp PDF trong Java"
   more: "Thêm ví dụ"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
-    <dependency>
-      <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-conversion</artifactId>
-      <version>{0}</version>
-    </dependency>
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-conversion</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
     <repositories>
       <repository>
@@ -64,11 +68,11 @@ code:
       </repository>
     </repositories>
   content: |
-    ```java {style=abap}   
-    // Tải tệp PDF nguồn
+    ```java {style=abap}
+    // Tải tệp PDF nguồn 
     Converter converter = new Converter("resume.pdf");
     
-    // Đặt tùy chọn chuyển đổi
+    // Đặt tùy chọn chuyển đổi  
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
@@ -123,6 +127,8 @@ platforms:
     # platform loop
     - title: "Maven"
       image: "maven"
+
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -134,7 +140,7 @@ formats:
     - color: "green"
       content: |
         ### Định dạng tài liệu
-        * **Các tài liệu:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -144,28 +150,28 @@ formats:
     - color: "blue"
       content: |
         ### Hình ảnh & Đa phương tiện
-        * **Hình ảnh:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **Biểu đồ:** VSDX, DRAW, LUCIDCHART
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
         * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **Âm thanh:** MP3, WAV, FLAC, AAC, OGG
-        * **Băng hình:** MP4, AVI, MKV, MOV, WMV
-        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB     
       # group loop
     - color: "red"
       content: |
-        ### Các định dạng khác
+        ### Các định dạng khác        
         * **eBook:** EPUB, MOBI, AZW, FB2
         * **Web:**  HTML, MHTML, MHT
-        * **Lưu trữ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
         * **Email & Outlook:** PST, OST, MSG, EML
-        * **Tài chính:** QFX, OFX
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "Tính năng GroupDocs.Conversion"
-  description: "Chuyển đổi liền mạch các tài liệu PDF và văn phòng sang HTML, JPG, PNG, BMP, TIFF, SVG và nhiều định dạng khác. GroupDocs.Conversion for Java API được thiết kế để dễ sử dụng và tích hợp vào dự án của bạn. Nó hỗ trợ tất cả các định dạng tài liệu phổ biến với khả năng tùy chỉnh quá trình chuyển đổi."
+  description: "Chuyển đổi liền mạch các tài liệu PDF và văn phòng sang HTML, JPG, PNG, BMP, TIFF, SVG và nhiều định dạng khác. GroupDocs.Conversion cho API Java được thiết kế để dễ sử dụng và tích hợp vào dự án của bạn. Nó hỗ trợ tất cả các định dạng tài liệu phổ biến với khả năng tùy chỉnh quá trình chuyển đổi."
 
   items:
     # feature loop
@@ -196,7 +202,7 @@ features:
     # feature loop
     - icon: "swap"
       title: "Xử lý an toàn"
-      content: "Đảm bảo quyền riêng tư của dữ liệu với các tùy chọn chuyển đổi tệp được bảo vệ bằng mật khẩu."
+      content: "Đảm bảo quyền riêng tư dữ liệu với các tùy chọn chuyển đổi tệp được bảo vệ bằng mật khẩu."
 
     # feature loop
     - icon: "extract"
@@ -222,10 +228,10 @@ code_samples:
     # code sample loop
     - title: "Chuyển đổi PDF sang hình ảnh"
       content: |
-        Một tình huống thường gặp liên quan đến việc chuyển đổi toàn bộ tài liệu PDF hoặc các trang cụ thể thành một bộ sưu tập hình ảnh. GroupDocs.Conversion cho Java cung cấp khả năng chuyển đổi tệp PDF thành nhiều định dạng hình ảnh khác nhau, chẳng hạn như TIFF, JPG, PNG, GIF, BMP, v.v. 
+        Một tình huống thường gặp liên quan đến việc chuyển đổi toàn bộ tài liệu PDF hoặc các trang cụ thể thành một bộ sưu tập hình ảnh. GroupDocs.Conversion cho Java cung cấp khả năng chuyển đổi tệp PDF thành nhiều định dạng hình ảnh khác nhau, chẳng hạn như TIFF, JPG, PNG, GIF, BMP, v.v.  
         Bạn có thể chọn định dạng hình ảnh ưa thích của mình bằng cách sử dụng lớp ImageFileType.
         {{< landing/code title="Chuyển đổi PDF sang PNG trong Java">}}
-        ```java {style=abap} 
+        ```java {style=abap}
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
@@ -242,11 +248,10 @@ code_samples:
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "Chuyển đổi một đoạn của một tài liệu lớn"
       content: |
-        Với GroupDocs.Conversion cho Java, bạn có thể dễ dàng chuyển đổi các trang cụ thể từ một tài liệu dài. 
+        Với GroupDocs.Conversion cho Java, bạn có thể dễ dàng chuyển đổi các trang cụ thể từ một tài liệu dài.  
         Bạn có hai phương pháp để thực hiện việc này, tùy thuộc vào yêu cầu của bạn. Bạn có thể chuyển đổi một loạt trang hoặc chuyển đổi các trang cụ thể.
         {{< landing/code title="Chuyển đổi DOCX (trang 2-4) sang PDF trong Java">}}
         ```java {style=abap}   
@@ -256,8 +261,8 @@ code_samples:
 
         // Tải tệp DOCX nguồn
         Converter converter = new Converter("booklet.docx");
-
-        // Đặt tùy chọn chuyển đổi và chỉ định phạm vi trang sẽ hiển thị
+           
+        // Đặt các tùy chọn và chỉ định phạm vi trang cần chuyển đổi
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
@@ -266,22 +271,5 @@ code_samples:
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "Đánh giá sản phẩm GroupDocs"
-# description: "Đừng chỉ tin lời chúng tôi. Xem những nhà phát triển khác nói gì về API của chúng tôi"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Dịch vụ tuyệt vời và sản phẩm tuyệt vời. Chúng cực kỳ hữu ích và phản hồi nhanh trong quá trình triển khai GroupDocs.Viewer cho Java, không thể giới thiệu chúng đủ cao."
-#     author: "Martin Lasarga"
-#     company: "Giám đốc sản phẩm tại Axentria ECM của G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Sau khi triển khai và sử dụng GroupDocs.Viewer cho Java trong dự án, có vẻ như nó hoạt động rất tốt. Tôi đã thử nghiệm với rất nhiều tài liệu và cho đến nay vẫn tốt. Mọi thứ tôi đưa vào nó đều hiển thị độc đáo và trông đẹp như trong trình xem PDF hoặc MS Word."
-#     author: "Thảm Oustad"
-#     company: "Chuyên gia tư vấn/Đối tác cấp cao tại Novanet AS"
+        
 ---

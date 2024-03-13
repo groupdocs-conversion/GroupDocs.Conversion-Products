@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
 product: "Conversion"
@@ -22,12 +22,13 @@ supported_platforms:
     - title: "Node.js"
       tag: "nodejs-java" 
 
+
 ############################# Head ############################
 head_title: "Java document conversion API | Convert PDF, Word, Excel, PPTX, HTML, and images"
 head_description: "Java document conversion API. Convert PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, and image file formats."
 
 ############################# Header ############################
-title: "Document conversion<br>via Java API"
+title: "Document conversion via Java API"
 description: "Powerful conversion API to convert PDF, Microsoft Office, HTML, eBook, and image files"
 words:
   for: "for"
@@ -44,17 +45,20 @@ release:
   title: "Version {0} &nbsp;released"
   notes: "See what’s new"
   downloads: "Downloads"
+  link: "https://releases.groupdocs.com/conversion/java/release-notes/latest/"
 
 code:
   title: "How to convert PDF files in Java"
   more: "More examples"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
-    <dependency>
-      <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-conversion</artifactId>
-      <version>{0}</version>
-    </dependency>
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-conversion</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
     <repositories>
       <repository>
@@ -64,11 +68,11 @@ code:
       </repository>
     </repositories>
   content: |
-    ```java {style=abap}   
-    // Load the source PDF file
+    ```java {style=abap}
+    // Load the source PDF file 
     Converter converter = new Converter("resume.pdf");
     
-    // Set the convert options
+    // Set the convert options  
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
@@ -123,6 +127,8 @@ platforms:
     # platform loop
     - title: "Maven"
       image: "maven"
+
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -149,11 +155,11 @@ formats:
         * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
         * **Audio:** MP3, WAV, FLAC, AAC, OGG
         * **Video:** MP4, AVI, MKV, MOV, WMV
-        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB     
       # group loop
     - color: "red"
       content: |
-        ### Other formats
+        ### Other formats        
         * **eBook:** EPUB, MOBI, AZW, FB2
         * **Web:**  HTML, MHTML, MHT
         * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
@@ -222,10 +228,10 @@ code_samples:
     # code sample loop
     - title: "Convert PDF to image"
       content: |
-        A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more. 
+        A commonly encountered scenario involves converting an entire PDF document or specific pages into a collection of images. GroupDocs.Conversion for Java offers the capability to convert PDFs into various image formats, such as TIFF, JPG, PNG, GIF, BMP, and more.  
         You can select your preferred image format using the ImageFileType class.
         {{< landing/code title="Converting PDF to PNG in Java">}}
-        ```java {style=abap} 
+        ```java {style=abap}
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
@@ -242,11 +248,10 @@ code_samples:
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "Convert a segment of a large document"
       content: |
-        With GroupDocs.Conversion for Java, you can effortlessly convert specific pages from a lengthy document. 
+        With GroupDocs.Conversion for Java, you can effortlessly convert specific pages from a lengthy document.   
         You have two methods to accomplish this, depending on your requirements. You can either convert a range of pages or convert specific pages.
         {{< landing/code title="Convert DOCX (pages 2-4) to PDF in Java">}}
         ```java {style=abap}   
@@ -256,8 +261,8 @@ code_samples:
 
         // Load the source DOCX file
         Converter converter = new Converter("booklet.docx");
-
-        // Set the convert options and specify the range of pages to render
+           
+        // Set the options and specify the range of pages to convert
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
@@ -266,22 +271,5 @@ code_samples:
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "GroupDocs products reviews"
-# description: "Don't just take our word for it. See what other developers say about our APIs"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Excellent service and excellent products. They were extremely helpful and responsive during the GroupDocs.Viewer for Java implementation process, can’t recommend them highly enough."
-#     author: "Martin Lasarga"
-#     company: "Product Manager at Axentria ECM by G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "After implementing and using GroupDocs.Viewer for Java in the project it looks to be working very well. I have tested with a lot of documents and so far so good. Everything I’ve thrown at it renders nicely and looks just as good as it would in a PDF viewer or MS Word."
-#     author: "Mats Oustad"
-#     company: "Senior Consultant/Partner at Novanet AS"
+        
 ---

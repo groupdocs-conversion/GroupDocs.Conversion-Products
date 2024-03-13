@@ -1,9 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
+lang: ja
 product: "Conversion"
 product_tag: "conversion"
 platform: Node.js via Java
@@ -22,15 +23,16 @@ supported_platforms:
     - title: "Node.js"
       tag: "nodejs-java" 
 
+
 ############################# Head ############################
 head_title: "JavaScript ドキュメント変換 API | PDF、Word、Excel、PPTX、HTML、画像を変換"
 head_description: "JavaScript ドキュメント変換 API。 PDF、Word、DOC、DOCX、Excel、スプレッドシート、PPT、PPTX、HTML、PSD、MPT、MPP、電子メール、MSG、EMLX、A​​utoCAD、および画像ファイル形式を変換します。"
 
 ############################# Header ############################
-title: "ドキュメント変換<br>Node.js API経由"
+title: "Node.js APIを介したドキュメント変換"
 description: "PDF、Microsoft Office、HTML、eBook、および画像ファイルを変換するための強力な変換 API"
 words:
-  for: "のために"
+  for: "for"
 
 actions:
   main: "NPM の無料ダウンロード"
@@ -44,6 +46,7 @@ release:
   title: "バージョン {0} がリリースされました"
   notes: "新機能を見る"
   downloads: "ダウンロード"
+  link: "https://releases.groupdocs.com/conversion/nodejs-java/release-notes/latest/"
 
 code:
   title: "JavaScript で PDF ファイルを変換する方法"
@@ -51,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
-    ```csharp {style=abap}   
+    ```javascript {style=abap}       
     // ソース PDF ファイルをロードします
     const converter = new Converter("resume.pdf");
     
-    // DOCX 形式の変換オプションを設定する
+    // 変換オプションを設定する
     const convertOptions = new WordProcessingConvertOptions();
-    
-    // DOCX形式に変換
+
+    // PDFをDOCXに変換
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
@@ -109,6 +112,7 @@ platforms:
     # platform loop
     - title: "NPM"
       image: "npm"
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -120,7 +124,7 @@ formats:
     - color: "green"
       content: |
         ### 文書形式
-        * **書類:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,28 +134,28 @@ formats:
     - color: "blue"
       content: |
         ### 画像とマルチメディア
-        * **画像:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **ダイアグラム:** VSDX, DRAW, LUCIDCHART
-        * **CADとGIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **オーディオ:** MP3, WAV, FLAC, AAC, OGG
-        * **ビデオ:** MP4, AVI, MKV, MOV, WMV
-        * **3D とベクター:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB    
       # group loop
     - color: "red"
       content: |
-        ### その他の形式
+        ### その他のフォーマット        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **ウェブ:**  HTML, MHTML, MHT
-        * **アーカイブ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **電子メールと Outlook:** PST, OST, MSG, EML
-        * **ファイナンス:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "GroupDocs.Conversion 機能"
-  description: "PDF およびオフィス ドキュメントを HTML、JPG、PNG、BMP、TIFF、SVG、およびその他の多くの形式にシームレスに変換します。 Java API 経由の GroupDocs.Conversion for Node.js は、使いやすく、プロジェクトに統合できるように設計されています。変換プロセスをカスタマイズする機能により、一般的なドキュメント形式をすべてサポートしています。"
+  description: "PDF やオフィス ドキュメントを HTML、JPG、PNG、BMP、TIFF、SVG、その他多くの形式にシームレスに変換します。 GroupDocs.Conversion for JavaScript API は、使いやすくプロジェクトに統合できるように設計されています。変換プロセスをカスタマイズできる機能により、一般的なドキュメント形式をすべてサポートしています。"
 
   items:
     # feature loop
@@ -208,15 +212,15 @@ code_samples:
     # code sample loop
     - title: "PDFを画像に変換"
       content: |
-        一般的に発生するシナリオには、PDF ドキュメント全体または特定のページを画像のコレクションに変換することが含まれます。 Java 経由の GroupDocs.Conversion for Node.js は、PDF を TIFF、JPG、PNG、GIF、BMP などのさまざまな画像形式に変換する機能を提供します。 
+        一般的に発生するシナリオには、PDF ドキュメント全体または特定のページを画像のコレクションに変換することが含まれます。 Java 経由の GroupDocs.Conversion for Node.js は、PDF を TIFF、JPG、PNG、GIF、BMP などのさまざまな画像形式に変換する機能を提供します。  
         ImageFileType クラスを使用して、好みの画像形式を選択できます。
         {{< landing/code title="JavaScript で PDF を PNG に変換する">}}
-        ```javascript {style=abap}  
+        ```javascript {style=abap}
         import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
-        
+
         // ソース PDF ファイルをロードします
         const converter = new Converter("resume.pdf");
-        
+
         // 変換オプションを設定し、出力画像タイプを指定します
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
@@ -225,11 +229,10 @@ code_samples:
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "大きなドキュメントのセグメントを変換する"
       content: |
-        Java 経由で GroupDocs.Conversion for Node.js を使用すると、長いドキュメントから特定のページを簡単に変換できます。 
+        Java 経由で GroupDocs.Conversion for Node.js を使用すると、長いドキュメントから特定のページを簡単に変換できます。  
         これを実現するには、要件に応じて 2 つの方法があります。ページ範囲を変換することも、特定のページを変換することもできます。
         {{< landing/code title="JavaScript で DOCX (ページ 2 ～ 4) を PDF に変換する">}}
         ```javascript {style=abap}   
@@ -238,7 +241,7 @@ code_samples:
         // ソースDOCXファイルをロードします
         const converter = new Converter("booklet.docx");
 
-        // 変換オプションを設定し、レンダリングするページの範囲を指定します
+        // オプションを設定し、変換するページの範囲を指定します
         const convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
@@ -247,22 +250,5 @@ code_samples:
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "GroupDocs 製品のレビュー"
-# description: "私たちの言葉をそのまま鵜呑みにしないでください。他の開発者の API についての意見をご覧ください"
 
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "優れたサービスと優れた製品。これらは、Java 実装プロセスを介した Node.js 用の GroupDocs.Viewer において非常に役に立ち、応答性が高かったですが、あまりお勧めできません。"
-#     author: "マーティン・ラサーガ"
-#     company: "Axentria ECM by G.S.I. のプロダクト マネージャー"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "プロジェクトで Java 経由で Node.js 用の GroupDocs.Viewer を実装して使用した後、非常にうまく動作しているように見えます。多くのドキュメントを使用してテストしましたが、これまでのところ良好です。私が投げたものはすべてうまくレンダリングされ、PDF ビューアや MS Word と同じくらい見栄えがよくなります。"
-#     author: "マッツ・オースタッド"
-#     company: "Novanet AS のシニア コンサルタント/パートナー"
 ---

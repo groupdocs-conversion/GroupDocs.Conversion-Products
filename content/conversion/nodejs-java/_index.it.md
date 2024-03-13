@@ -1,9 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
+lang: it
 product: "Conversion"
 product_tag: "conversion"
 platform: Node.js via Java
@@ -22,15 +23,16 @@ supported_platforms:
     - title: "Node.js"
       tag: "nodejs-java" 
 
+
 ############################# Head ############################
 head_title: "API di conversione documenti JavaScript | Converti PDF, Word, Excel, PPTX, HTML e immagini"
-head_description: "API di conversione documenti JavaScript. Converti PDF, Word, DOC, DOCX, Excel, fogli di calcolo, PPT, PPTX, HTML, PSD, MPT, MPP, email, MSG, EMLX, AutoCAD e formati di file immagine."
+head_description: "API di conversione dei documenti JavaScript. Converti PDF, Word, DOC, DOCX, Excel, fogli di calcolo, PPT, PPTX, HTML, PSD, MPT, MPP, email, MSG, EMLX, AutoCAD e formati di file immagine."
 
 ############################# Header ############################
-title: "Conversione di documenti<br>tramite l'API Node.js"
+title: "Conversione dei documenti tramite API Node.js"
 description: "Potente API di conversione per convertire file PDF, Microsoft Office, HTML, eBook e immagini"
 words:
-  for: "per"
+  for: "for"
 
 actions:
   main: "Download gratuito di NPM"
@@ -44,6 +46,7 @@ release:
   title: "Versione {0} rilasciata"
   notes: "Scopri le novità"
   downloads: "Download"
+  link: "https://releases.groupdocs.com/conversion/nodejs-java/release-notes/latest/"
 
 code:
   title: "Come convertire file PDF in JavaScript"
@@ -51,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
-    ```csharp {style=abap}   
+    ```javascript {style=abap}       
     // Carica il file PDF di origine
     const converter = new Converter("resume.pdf");
     
-    // Imposta le opzioni di conversione per il formato DOCX
+    // Imposta le opzioni di conversione
     const convertOptions = new WordProcessingConvertOptions();
-    
-    // Converti in formato DOCX
+
+    // Converti PDF in DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
@@ -109,6 +112,7 @@ platforms:
     # platform loop
     - title: "NPM"
       image: "npm"
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -120,7 +124,7 @@ formats:
     - color: "green"
       content: |
         ### Formati dei documenti
-        * **Documenti:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,28 +134,28 @@ formats:
     - color: "blue"
       content: |
         ### Immagini e contenuti multimediali
-        * **immagini:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **Diagramma:** VSDX, DRAW, LUCIDCHART
-        * **CAD E GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
         * **Audio:** MP3, WAV, FLAC, AAC, OGG
-        * **video:** MP4, AVI, MKV, MOV, WMV
-        * **3D e vettoriale:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB    
       # group loop
     - color: "red"
       content: |
-        ### Altri formati
+        ### Altri formati        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **ragnatela:**  HTML, MHTML, MHT
-        * **Archivi:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **E-mail e Outlook:** PST, OST, MSG, EML
-        * **Finanza:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "Funzionalità di GroupDocs.Conversion"
-  description: "Converti senza problemi documenti PDF e Office in HTML, JPG, PNG, BMP, TIFF, SVG e molti altri formati. GroupDocs.Conversion per Node.js tramite API Java è progettato per essere facile da usare e integrare nel tuo progetto. Supporta tutti i formati di documenti più diffusi con la possibilità di personalizzare il processo di conversione."
+  description: "Converti senza problemi documenti PDF e Office in HTML, JPG, PNG, BMP, TIFF, SVG e molti altri formati. GroupDocs.Conversion per l'API JavaScript è progettato per essere facile da usare e integrare nel tuo progetto. Supporta tutti i formati di documenti più diffusi con la possibilità di personalizzare il processo di conversione."
 
   items:
     # feature loop
@@ -187,7 +191,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "Integrazione dell'API"
-      content: "Integra perfettamente le funzionalità di conversione nelle tue applicazioni JavaScript, rendendole una parte integrante del tuo flusso di lavoro."
+      content: "Integra perfettamente le funzionalità di conversione nelle tue applicazioni JavaScript, rendendole parte integrante del tuo flusso di lavoro."
 
     # feature loop
     - icon: "orientation"
@@ -208,15 +212,15 @@ code_samples:
     # code sample loop
     - title: "Converti PDF in immagine"
       content: |
-        Uno scenario comunemente riscontrato prevede la conversione di un intero documento PDF o di pagine specifiche in una raccolta di immagini. GroupDocs.Conversion per Node.js tramite Java offre la possibilità di convertire PDF in vari formati di immagine, come TIFF, JPG, PNG, GIF, BMP e altri. 
+        Uno scenario comunemente riscontrato prevede la conversione di un intero documento PDF o di pagine specifiche in una raccolta di immagini. GroupDocs.Conversion per Node.js tramite Java offre la possibilità di convertire PDF in vari formati di immagine, come TIFF, JPG, PNG, GIF, BMP e altri.  
         Puoi selezionare il formato immagine preferito utilizzando la classe ImageFileType.
         {{< landing/code title="Conversione di PDF in PNG in JavaScript">}}
-        ```javascript {style=abap}  
+        ```javascript {style=abap}
         import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
-        
+
         // Carica il file PDF di origine
         const converter = new Converter("resume.pdf");
-        
+
         // Imposta le opzioni di conversione e specifica il tipo di immagine di output
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
@@ -225,11 +229,10 @@ code_samples:
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "Converti un segmento di un documento di grandi dimensioni"
       content: |
-        Con GroupDocs.Conversion per Node.js tramite Java, puoi convertire facilmente pagine specifiche da un lungo documento. 
+        Con GroupDocs.Conversion per Node.js tramite Java, puoi convertire facilmente pagine specifiche da un lungo documento.  
         Hai due metodi per raggiungere questo obiettivo, a seconda delle tue esigenze. Puoi convertire un intervallo di pagine o convertire pagine specifiche.
         {{< landing/code title="Converti DOCX (pagine 2-4) in PDF in JavaScript">}}
         ```javascript {style=abap}   
@@ -238,7 +241,7 @@ code_samples:
         // Carica il file DOCX di origine
         const converter = new Converter("booklet.docx");
 
-        // Imposta le opzioni di conversione e specifica l'intervallo di pagine da visualizzare
+        // Imposta le opzioni e specifica l'intervallo di pagine da convertire
         const convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
@@ -247,22 +250,5 @@ code_samples:
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "Recensioni dei prodotti GroupDocs"
-# description: "Non limitarti a crederci sulla parola. Scopri cosa dicono gli altri sviluppatori sulle nostre API"
 
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Servizio eccellente e prodotti eccellenti. Si sono rivelati estremamente utili e reattivi durante il processo di implementazione di GroupDocs.Viewer per Node.js tramite Java, non posso che consigliarli vivamente."
-#     author: "Martin Lasarga"
-#     company: "Product Manager presso Axentria ECM by G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Dopo aver implementato e utilizzato GroupDocs.Viewer for Node.js tramite Java nel progetto, sembra funzionare molto bene. Ho testato con molti documenti e finora tutto bene. Tutto ciò che ho inserito viene visualizzato bene e ha lo stesso aspetto di un visualizzatore PDF o MS Word."
-#     author: "Mats Oustad"
-#     company: "Consulente/Partner Senior presso Novanet AS"
 ---

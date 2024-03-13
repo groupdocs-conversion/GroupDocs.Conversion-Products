@@ -8,17 +8,17 @@ product: "Conversion"
 product_tag: "conversion"
 
 ############################# Head ############################
-head_title: "API del convertitore di file | API on-premise e servizio online"
-head_description: "Converti file Word, PDF, Excel, PowerPoint o immagini in modo semplice e gratuito"
+head_title: "API del Convertitore di File | API On Premise e servizio online"
+head_description: "Converti facilmente e gratuitamente file Word, PDF, Excel, PowerPoint o immagine"
 
 ############################# Header ##########################
-title: "Magia di conversione: trasforma i file in diversi formati"
+title: "Magia della conversione: trasforma file tra formati diversi"
 description: |
-  Converti senza sforzo documenti da vari formati di origine in diversi formati di destinazione. Goditi un'ampia gamma di conversioni supportate senza software aggiuntivo, come MS Office, Apache Open Office, Adobe Acrobat Reader e altro.
+  Converti senza sforzo documenti da vari formati di origine a diversi formati di destinazione. Goditi una vasta gamma di conversioni supportate senza software aggiuntivo, come MS Office, Apache Open Office, Adobe Acrobat Reader e altro ancora.
 
-  Carica documenti da varie origini, inclusi file, flussi, URL, server FTP, Amazon S3, archiviazione BLOB di Azure e altro ancora.
+  Carica documenti da varie fonti, inclusi file, flussi, URL, server FTP, Amazon S3, Azure Blob Storage e altro ancora.
 
-  Utilizza qualsiasi tipo di archiviazione cache, come Amazon S3, Dropbox, Google Drive, Windows Azure, Redis o altri, implementando le interfacce necessarie.
+  Utilizza qualsiasi tipo di memorizzazione nella cache, come Amazon S3, Dropbox, Google Drive, Windows Azure, Redis o altri, implementando le interfacce necessarie.
 
 ############################# Platforms ############################
 supported_platforms:
@@ -26,7 +26,7 @@ supported_platforms:
   head_title: "Scegli la tua piattaforma"
   title: "Piattaforme supportate"
   description: "La libreria GroupDocs.Conversion supporta i seguenti sistemi operativi e framework"
-  details_link_title: "Saperne di più"
+  details_link_title: "Per saperne di più"
   items:
     # supported_platforms loop
     - title: ".NET"
@@ -43,7 +43,7 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "3K+ coppie di conversione"
+        - content: "Più di 3.000 coppie di conversione"
           rows: "1"        
     
     # supported_platforms loop
@@ -61,7 +61,7 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content: "3K+ coppie di conversione"
+        - content: "Più di 3.000 coppie di conversione"
           rows: "1"        
 
     # supported_platforms loop
@@ -79,7 +79,7 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "3K+ coppie di conversione"
+        - content:  "Più di 3.000 coppie di conversione"
           rows: "1"
 
 
@@ -88,18 +88,18 @@ supported_platforms:
 features:
   enable: true
   title: "Set di funzionalità di GroupDocs.Conversion"
-  description: "API per convertire file tra più tipi come HTML, PDF, Word, Excel, PNG e molti altri senza software di terze parti."
+  description: "API per convertire file tra tipi multipli come HTML, PDF, Word, Excel, PNG e molti altri senza software di terze parti."
 
   items:
     # feature loop
     - icon: "convert"
       title: "Converti documenti e immagini"
-      content: "Trasforma file da diverse origini in vari formati di destinazione."
+      content: "Trasforma file da diverse fonti in vari formati di destinazione."
 
     # feature loop
     - icon: "password"
       title: "Apri documenti protetti"
-      content: "Specificare una password per aprire i documenti crittografati."
+      content: "Specificare una password per aprire documenti crittografati."
 
     # feature loop
     - icon: "load"
@@ -108,20 +108,20 @@ features:
     
     # feature loop
     - icon: "settings"
-      title: "Gestisci le impostazioni di output"
-      content: "Ruota e riordina le pagine, specifica se visualizzare note e commenti."
+      title: "Gestisci impostazioni di output"
+      content: "Ruota e riordina pagine, specifica se rendere note e commenti."
 
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Esempi di codice GroupDocs.Conversion"
-  description: "Alcuni casi d'uso delle tipiche operazioni GroupDocs.Conversion in C#, Java, TypeScript"
+  title: "Esempi di codice di GroupDocs.Conversion"
+  description: "Alcuni casi d'uso delle operazioni tipiche di GroupDocs.Conversion in C#, Java, TypeScript"
   items:
     # code sample loop
-    - title: "Converti PDF in DOCX in diverse righe di codice"
+    - title: "Converti PDF in DOCX in poche righe di codice"
       content: |
-       Con GroupDocs.Conversion puoi convertire un file PDF in DOCX senza sforzo: tutto ciò di cui hai bisogno sono solo un paio di righe di codice. Inoltre non richiede software di terze parti come Microsoft Word o Adobe Acrobat. Ecco un esempio di come è possibile ottenerlo:
+       Con GroupDocs.Conversion, puoi convertire un file PDF in DOCX senza sforzo - tutto ciò di cui hai bisogno sono solo un paio di righe di codice. Non richiede nemmeno software di terze parti come Microsoft Word o Adobe Acrobat. Ecco un esempio di come può essere raggiunto:
       samples:
         - language: "C#"
           color: "blue"
@@ -166,36 +166,36 @@ code_samples:
 ############################# Formats ############################
 formats:
   enable: true
-  title:  "Sono supportati oltre 60 formati di file"
-  description: "GroupDocs.Conversion supporta operazioni con i più popolari [formati di file](https://docs.groupdocs.com/conversion/net/supported-file-formats/)."
+  title:  "Più di 60 formati di file supportati"
+  description: "GroupDocs.Conversion supporta operazioni con i formati di file più popolari."
 
 
 ############################# Metrics ############################
 
 metrics:
   enable: true
-  title: "Metriche approfondite e approfondimenti statistici"
-  description: "Immergiti in un'analisi dettagliata delle nostre cifre chiave, fornendo metriche complete e approfondimenti statistici sui nostri risultati, impatto e crescita."
+  title: "Metriche approfondite e insights statistici"
+  description: "Approfondisci una dettagliata analisi delle nostre cifre chiave, fornendo metriche e insights statistici esaustivi sui nostri successi, impatto e crescita."
 
   items:
     # metrics loop
     - number: "3K+"
       title: "Coppie di conversione supportate"
-      content: "Converti facilmente file tra migliaia di coppie supportate: Microsoft Office, PDF, immagini, video, audio e database. Consenti agli utenti di trasformare facilmente diversi tipi di file per flessibilità e comodità."
+      content: "Converti facilmente file tra migliaia di coppie supportate - Microsoft Office, PDF, immagini, video, audio e database. Fornisci agli utenti la possibilità di trasformare senza soluzione di continuità tipi di file diversi per flessibilità e comodità."
     # metrics loop
     - number: "1.0M"
       title: "Download di NuGet"
-      content: "Unisciti ai nostri utenti soddisfatti che hanno scelto il nostro pacchetto NuGet. La nostra soluzione è diventata una risorsa affidabile e ampiamente adottata nella comunità degli sviluppatori, fornendo un'integrazione perfetta e funzionalità preziose per innumerevoli progetti."
+      content: "Unisciti ai nostri utenti soddisfatti che hanno scelto il nostro pacchetto NuGet. La nostra soluzione è diventata una risorsa affidabile e ampiamente adottata nella comunità degli sviluppatori, fornendo un'integrazione senza soluzione di continuità e funzionalità preziose per innumerevoli progetti."
 
     # metrics loop
     - number: "10+"
-      title: "Biblioteche"
-      content: "Il nostro prodotto include oltre 10 librerie che offrono funzionalità avanzate per ottimizzare le prestazioni. Queste librerie sono progettate per soddisfare diverse esigenze di sviluppo con capacità senza pari."
+      title: "Librerie"
+      content: "Il nostro prodotto include oltre 10 librerie, offrendo funzionalità avanzate per ottimizzare le prestazioni. Queste librerie sono progettate per soddisfare diverse esigenze di sviluppo con capacità senza pari."
     
     # metrics loop
     - number: "100+"
-      title: "Clienti felici"
-      content: "Basandosi sull'eccellenza, il nostro prodotto ha guadagnato la fiducia di oltre 100 clienti soddisfatti che fanno affidamento sulle sue robuste funzionalità e prestazioni affidabili. Trova il successo e l'efficienza con la nostra soluzione innovativa."
+      title: "Clienti soddisfatti"
+      content: "Basandoci sull'eccellenza, il nostro prodotto ha guadagnato la fiducia di oltre 100 clienti entusiasti che si affidano alle sue robuste funzionalità e alla sua affidabilità. Trova il successo e l'efficienza con la nostra soluzione innovativa."
 
 
 ############################# Customers ############################
@@ -203,8 +203,8 @@ metrics:
 
 customers:
   enable: true
-  title: "I nostri clienti felici"
-  description: "Le librerie GroupDocs sono utilizzate da marchi distinti e rinomati a livello globale in tutto il mondo."
+  title: "I nostri clienti soddisfatti"
+  description: "Le librerie GroupDocs sono utilizzate da marchi di fama mondiale e rinomati in tutto il mondo."
 
   items:
     # customers loop
@@ -267,60 +267,60 @@ actions:
 faq:
   enable: true
   title: "Domande e preoccupazioni comuni"
-  description: "Trova le risposte alle domande più comuni nella nostra sezione FAQ per rispondere rapidamente alle tue domande e preoccupazioni."
+  description: "Trova risposte a domande comuni nella nostra sezione FAQ per affrontare rapidamente le tue domande e preoccupazioni."
 
   items:
     #  loop
     - question: "Posso valutare i prodotti GroupDocs prima dell'acquisto?"
       answer: |
-        SÌ! Per tutti i prodotti GroupDocs è disponibile una versione di valutazione priva di rischi. Incoraggiamo vivamente gli sviluppatori a scaricare e provare le nostre API prima dell'acquisto per garantire che soddisfino le tue esigenze al 100%.
+        Sì! Tutti i prodotti GroupDocs hanno una versione di valutazione senza rischi disponibile. Incoraggiamo vivamente gli sviluppatori a scaricare e provare le nostre API prima dell'acquisto per assicurarsi che soddisfino al 100% le tue esigenze.
     #  loop
-    - question: "GroupDocs esegue dimostrazioni dei prodotti?"
+    - question: "GroupDocs fa dimostrazioni dei prodotti?"
       answer: |
-        No, il nostro focus è sulle nostre API e sulla realizzazione dei prodotti più funzionali e stabili possibili. Offriamo prove completamente funzionali e gratuite sotto forma di [licenza temporanea](https://purchase.groupdocs.com/temporary-license/) in modo che tu possa testare il prodotto tu stesso.
+        No, il nostro focus è sulle nostre API e sulla creazione dei prodotti più funzionali e stabili possibile. Offriamo trial completamente funzionali e gratuiti sotto forma di [licenza temporanea](https://purchase.groupdocs.com/temporary-license/) così puoi testare il prodotto da solo.
     #  loop
     - question: "Dove posso scaricare il prodotto?"
       answer: |
-        Tutti i prodotti sono disponibili per il download dal [sito Web](https://releases.groupdocs.com). Non inviamo copie fisiche del nostro software tramite posta.    
+        Tutti i prodotti sono disponibili per il download dal [sito web](https://releases.groupdocs.com). Non inviamo copie fisiche del nostro software per posta.    
     #  loop
     - question: "Le licenze per sviluppatori di GroupDocs sono per utente o per utente nominato?"
       answer: |
-        Le licenze per sviluppatori GroupDocs sono per utente, non per utente nominato. Comprendiamo che i membri di un team di codifica possono cambiare nel tempo e che non è pratico dover aggiornare la licenza ogni volta che ciò accade.
+        Le licenze per sviluppatori di GroupDocs sono per utente, non per utente nominato. Comprendiamo che i membri di un team di sviluppo possono cambiare nel tempo e che non è pratico dover aggiornare la licenza ogni volta che ciò accade.
     #  loop
-    - question: "Abbiamo bisogno di una licenza separata per la nostra build o per il server CI (Continuous Integration)?"
+    - question: "Abbiamo bisogno di una licenza separata per il nostro server di build o CI (Continuous Integration)?"
       answer: |
-        No, siamo lieti che i clienti utilizzino i prodotti GroupDocs su un server per scopi di creazione di soluzioni senza costi aggiuntivi. Questa installazione non deve essere utilizzata per eludere i termini di licenza del contratto con GroupDocs e deve rispettare eventuali limitazioni ridistribuibili o di posizione imposte dalla licenza acquistata.
+        No, siamo felici che i clienti utilizzino i prodotti GroupDocs su un solo server per scopi di sviluppo senza costi aggiuntivi. Questa installazione non dovrebbe essere utilizzata per eludere i termini di licenza del tuo accordo con GroupDocs e dovrebbe rispettare eventuali limitazioni di redistribuzione o posizione imposte dalla tua licenza acquistata.
 
 ############################# Cloud ############################
 
 cloud_links:
   enable: true
-  title: "API a basso codice GroupDocs.Conversion"
-  description: "Accelera la conversione di documenti o immagini in qualsiasi tipo di applicazione con la nostra API REST basata su cloud"
+  title: "API REST di conversione file a basso codice di GroupDocs.Conversion"
+  description: "Accelerare la conversione di documenti o immagini in qualsiasi tipo di applicazione con la nostra API REST basata su cloud"
 
   items:
     #  loop
     - icon: "groupdocs_conversion-for-curl"
       title: "GroupDocs.Conversion Cloud for cURL"
       link: "https://products.groupdocs.cloud/conversion/curl"
-      content: "Sfrutta l'API di conversione file RESTful di cURL per convertire facilmente una varietà di formati di file, tra cui Microsoft Office, PDF, e-mail, Project, HTML e altro, all'interno delle tue applicazioni."
+      content: "Sfrutta l'API RESTful di conversione file cURL per convertire senza sforzo una varietà di formati di file, tra cui Microsoft Office, PDF, Email, Project, HTML e altro ancora, all'interno delle tue applicazioni."
 
     #  loop
     - icon: "groupdocs_conversion-for-net"
       title: "GroupDocs.Conversion Cloud for .NET"
       link: "https://products.groupdocs.cloud/conversion/net"
-      content: "Utilizza l'API REST di conversione file .NET per convertire senza problemi Microsoft Office, PDF, e-mail, Project, HTML e vari formati di file comuni su qualsiasi piattaforma con Cloud SDK."
+      content: "Utilizza l'API REST di conversione file .NET per la conversione senza soluzione di continuità di Microsoft Office, PDF, Email, Project, HTML e vari formati di file comuni su qualsiasi piattaforma con il Cloud SDK."
     #  loop
     - icon: "groupdocs_conversion-for-java"
       title: "GroupDocs.Conversion Cloud for Java"
       link: "https://products.groupdocs.cloud/conversion/java"
-      content: "Migliora le tue applicazioni Java basate su cloud con funzionalità avanzate di conversione dei documenti, accessibili su qualsiasi piattaforma in grado di effettuare chiamate API REST."
+      content: "Migliora le tue applicazioni Java basate su cloud con capacità avanzate di conversione di documenti, accessibili su qualsiasi piattaforma in grado di effettuare chiamate API REST."
 
 ############################# Apps ############################
 
 app_links:
   enable: true
-  title: "App GroupDocs.Conversion NoCode"
+  title: "Applicazioni GroupDocs.Conversion NoCode"
   description: "Applicazione online che ti consente di convertire oltre 100 formati di file popolari nel browser"
 
   items:
@@ -328,19 +328,19 @@ app_links:
     - icon: "groupdocs_conversion-app"
       title: "GroupDocs.Conversion <br> Total"
       link: "https://products.groupdocs.app/conversion/total"
-      content: "Converti facilmente centinaia di formati in PDF, XLSX, DOCX, XPS, HTML e altri con facilità."
+      content: "Converti senza sforzo oltre centinaia di formati in PDF, XLSX, DOCX, XPS, HTML e altro ancora con facilità."
 
     #  loop
     - icon: "groupdocs_words-app"
       title:  "GroupDocs.Conversion <br> DOC to XLS"
       link: "https://products.groupdocs.app/conversion/doc-to-xls"
-      content: "Applicazione online gratuita per convertire il formato DOC in XLS direttamente dal tuo browser web."
+      content: "Applicazione online gratuita per la conversione di DOC in formato XLS direttamente dal tuo browser web."
 
     #  loop
     - icon: "groupdocs_pdf-app"
       title:  "GroupDocs.Conversion <br> PDF to DOCX"
       link: "https://products.groupdocs.app/conversion/pdf-to-docx"
-      content: "Converti facilmente i tuoi documenti PDF in formato Word (DOCX) caricandoli tramite la nostra interfaccia intuitiva."
+      content: "Converti facilmente i tuoi documenti PDF in formato Word (DOCX) caricandoli tramite la nostra interfaccia utente amichevole."
     
 
 ---

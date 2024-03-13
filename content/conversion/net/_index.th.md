@@ -1,9 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
+lang: th
 product: "Conversion"
 product_tag: "conversion"
 platform: .NET
@@ -23,14 +24,14 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# API การแปลงเอกสาร .NET | แปลง PDF, Word, Excel, PPTX, HTML และรูปภาพ"
-head_description: "C# API การแปลงเอกสาร .NET แปลง PDF, Word, DOC, DOCX, Excel, สเปรดชีต, PPT, PPTX, HTML, PSD, MPT, MPP, อีเมล, MSG, EMLX, AutoCAD และรูปแบบไฟล์รูปภาพ"
+head_title: "API การแปลงเอกสาร C# .NET | แปลง PDF, Word, Excel, PPTX, HTML และรูปภาพ"
+head_description: "API การแปลงเอกสาร C# .NET แปลง PDF, Word, DOC, DOCX, Excel, สเปรดชีต, PPT, PPTX, HTML, PSD, MPT, MPP, อีเมล, MSG, EMLX, AutoCAD และรูปแบบไฟล์รูปภาพ"
 
 ############################# Header ############################
-title: "การแปลงเอกสาร<br>ผ่านทาง .NET API"
+title: "การแปลงเอกสารผ่าน .NET API"
 description: "API การแปลงอันทรงพลังเพื่อแปลงไฟล์ PDF, Microsoft Office, HTML, eBook และรูปภาพ"
 words:
-  for: "สำหรับ"
+  for: "for"
 
 actions:
   main: "ดาวน์โหลด NuGet ฟรี"
@@ -44,6 +45,7 @@ release:
   title: "เวอร์ชัน {0}  ออกแล้ว"
   notes: "ดูว่ามีอะไรใหม่"
   downloads: "ดาวน์โหลด"
+  link: "https://releases.groupdocs.com/conversion/net/release-notes/latest/"
 
 code:
   title: "วิธีแปลงไฟล์ PDF ใน C#"
@@ -55,11 +57,11 @@ code:
     // โหลดไฟล์ PDF ต้นฉบับ
     using (var converter = new Converter("resume.pdf"))
     {
-      // ตั้งค่าตัวเลือกการแปลง
-      var convertOptions = new WordProcessingConvertOptions();
-
-      // แปลง PDF เป็น DOCX
-      converter.Convert("resume.docx", convertOptions);
+        // ตั้งค่าตัวเลือกการแปลง
+        var convertOptions = new WordProcessingConvertOptions();
+        
+        // แปลง PDF เป็น DOCX        
+        converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
@@ -110,6 +112,7 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -121,7 +124,7 @@ formats:
     - color: "green"
       content: |
         ### รูปแบบเอกสาร
-        * **เอกสาร:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -131,28 +134,28 @@ formats:
     - color: "blue"
       content: |
         ### รูปภาพและมัลติมีเดีย
-        * **รูปภาพ:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **แผนภาพ:** VSDX, DRAW, LUCIDCHART
-        * **CAD และภูมิสารสนเทศ:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **เสียง:** MP3, WAV, FLAC, AAC, OGG
-        * **วีดีโอ:** MP4, AVI, MKV, MOV, WMV
-        * **3 มิติและเวกเตอร์:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB        
       # group loop
     - color: "red"
       content: |
-        ### รูปแบบอื่นๆ
+        ### รูปแบบอื่นๆ        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **เว็บ:**  HTML, MHTML, MHT
-        * **หอจดหมายเหตุ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **อีเมลและ Outlook:** PST, OST, MSG, EML
-        * **การเงิน:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "คุณสมบัติ GroupDocs.Conversion"
-  description: "แปลงเอกสาร PDF และ Office เป็น HTML, JPG, PNG, BMP, TIFF, SVG และรูปแบบอื่น ๆ ได้อย่างราบรื่น GroupDocs.Conversion สำหรับ .NET API ได้รับการออกแบบมาให้ใช้งานง่ายและผสานรวมเข้ากับโปรเจ็กต์ของคุณ รองรับรูปแบบเอกสารยอดนิยมทั้งหมดพร้อมความสามารถในการปรับแต่งกระบวนการแปลง"
+  description: "แปลงเอกสาร PDF และ Office เป็น HTML, JPG, PNG, BMP, TIFF, SVG และรูปแบบอื่น ๆ ได้อย่างราบรื่น GroupDocs.Conversion สำหรับ C# API ได้รับการออกแบบมาให้ใช้งานง่ายและผสานรวมเข้ากับโปรเจ็กต์ของคุณ รองรับรูปแบบเอกสารยอดนิยมทั้งหมดพร้อมความสามารถในการปรับแต่งกระบวนการแปลง"
 
   items:
     # feature loop
@@ -188,7 +191,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "บูรณาการ API"
-      content: "ผสานรวมความสามารถในการแปลงเข้ากับแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น ทำให้เป็นส่วนหนึ่งของขั้นตอนการทำงานของคุณได้อย่างราบรื่น"
+      content: "ผสานรวมความสามารถในการแปลงเข้ากับแอปพลิเคชัน C# ของคุณได้อย่างราบรื่น ทำให้เป็นส่วนหนึ่งของขั้นตอนการทำงานของคุณได้อย่างราบรื่น"
 
     # feature loop
     - icon: "orientation"
@@ -209,61 +212,59 @@ code_samples:
     # code sample loop
     - title: "แปลง PDF เป็นรูปภาพ"
       content: |
-        สถานการณ์ที่พบบ่อยเกี่ยวข้องกับการแปลงเอกสาร PDF ทั้งหมดหรือหน้าใดหน้าหนึ่งเป็นคอลเลกชั่นรูปภาพ GroupDocs.Conversion สำหรับ .NET นำเสนอความสามารถในการแปลง PDF เป็นรูปแบบรูปภาพต่างๆ เช่น TIFF, JPG, PNG, GIF, BMP และอื่นๆ 
+        สถานการณ์ที่พบบ่อยเกี่ยวข้องกับการแปลงเอกสาร PDF ทั้งหมดหรือหน้าใดหน้าหนึ่งเป็นคอลเลกชั่นรูปภาพ GroupDocs.Conversion สำหรับ .NET นำเสนอความสามารถในการแปลง PDF เป็นรูปแบบรูปภาพต่างๆ เช่น TIFF, JPG, PNG, GIF, BMP และอื่นๆ
         ไม่เหมือนกับการแปลงอื่นๆ กระบวนการนี้จำเป็นต้องมีการประกาศของผู้รับมอบสิทธิ์ SavePageStream ซึ่งระบุรูปแบบการตั้งชื่อสำหรับภาพที่บันทึกไว้ คุณสามารถเลือกรูปแบบภาพที่คุณต้องการได้โดยใช้คลาส ImageFileType
         {{< landing/code title="แปลง PDF เป็น PNG ใน C #">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
-
+        
         // โหลดไฟล์ PDF ต้นฉบับ
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // ตั้งค่าตัวเลือกการแปลงและระบุประเภทภาพที่ส่งออก
-          var convertOptions = new ImageConvertOptions { 
+            // ตั้งค่าตัวเลือกการแปลงและระบุประเภทภาพที่ส่งออก
+            var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
-          };
-          
-          // แปลงเอกสาร PDF แต่ละหน้าเป็น PNG
-          converter.Convert(getPageStream, convertOptions);
+            };          
+            
+            // แปลงเอกสาร PDF แต่ละหน้าเป็น PNG
+            converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "แปลงส่วนของเอกสารขนาดใหญ่"
       content: |
-        ด้วย GroupDocs.Conversion สำหรับ .NET คุณสามารถแปลงหน้าที่ต้องการจากเอกสารที่มีความยาวได้อย่างง่ายดาย 
+        ด้วย GroupDocs.Conversion สำหรับ .NET คุณสามารถแปลงหน้าที่ต้องการจากเอกสารที่มีความยาวได้อย่างง่ายดาย
         คุณมีสองวิธีในการบรรลุเป้าหมายนี้ ขึ้นอยู่กับความต้องการของคุณ คุณสามารถแปลงช่วงของหน้าหรือแปลงหน้าเฉพาะได้
         {{< landing/code title="แปลง DOCX (หน้า 2-4) เป็น PDF ใน C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // โหลดไฟล์ DOCX ต้นฉบับ
+        // โหลดไฟล์ DOCX ต้นฉบับ  
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // ตั้งค่าตัวเลือกการแปลงและระบุช่วงของหน้าที่จะแสดง
-           var convertOptions = new PdfConvertOptions 
-           { 
+            // ตั้งค่าตัวเลือกและระบุช่วงของหน้าที่จะแปลง       
+            var convertOptions = new PdfConvertOptions 
+            { 
               PageNumber = 2, 
               PagesCount = 3 
-           };
-
-           // แปลงหน้า 2-4 เป็น PDF                                     
-           converter.Convert("pages-2-4.pdf", convertOptions);
-        }  
+            };
+            
+            // แปลงหน้า 2-4 เป็น PDF       
+            converter.Convert("pages-2-4.pdf", convertOptions);
+        }
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "ไวยากรณ์ที่คล่องแคล่ว: แนวทางที่มีความคล่องตัว"
       content: |
-        ไวยากรณ์ Fluent นำเสนอรูปแบบที่กระชับสำหรับการดำเนินการทั่วไปภายใน GroupDocs.Conversion สำหรับ .NET API 
-        ตัวอย่างโค้ดด้านล่างสาธิตวิธีใช้ประโยชน์จากไวยากรณ์อย่างคล่องแคล่ว:
+        ไวยากรณ์ Fluent นำเสนอรูปแบบที่กระชับสำหรับการดำเนินการทั่วไปภายใน GroupDocs.Conversion สำหรับ .NET API
+        ตัวอย่างโค้ดด้านล่างสาธิตวิธีการใช้ประโยชน์จากไวยากรณ์อย่างคล่องแคล่ว:
         {{< landing/code title="แปลง DOCX เป็น PDF ใน C# โดยใช้ไวยากรณ์ที่คล่องแคล่ว">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
@@ -274,22 +275,5 @@ code_samples:
             .Convert();
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "บทวิจารณ์ผลิตภัณฑ์ GroupDocs"
-# description: "อย่าเพิ่งเชื่อคำพูดของเรา ดูว่านักพัฒนารายอื่นพูดถึง API ของเราอย่างไร"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "บริการที่เป็นเลิศและผลิตภัณฑ์ที่เป็นเลิศ พวกเขาให้ความช่วยเหลือและตอบสนองอย่างมากในระหว่างกระบวนการใช้งาน GroupDocs.Conversion สำหรับ .NET ไม่สามารถแนะนำได้มากพอ"
-#     author: "มาร์ติน ลาซาร์กา"
-#     company: "Product Manager ที่ Axentria ECM by G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "หลังจากใช้งานและใช้งาน GroupDocs.Conversion สำหรับ .NET ในโครงการแล้ว ดูเหมือนว่าจะทำงานได้ดีมาก ฉันได้ทดสอบกับเอกสารจำนวนมากและจนถึงตอนนี้ก็ดีมาก ทุกสิ่งที่ฉันใส่ลงไปนั้นเรนเดอร์ได้อย่างสวยงามและดูดีพอๆ กับในโปรแกรมดู PDF หรือ MS Word"
-#     author: "มัตส์ อูสตัด"
-#     company: "ที่ปรึกษาอาวุโส/หุ้นส่วนของ Novanet AS"
+        
 ---

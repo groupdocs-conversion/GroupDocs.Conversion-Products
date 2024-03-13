@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
 product: "Conversion"
@@ -22,15 +22,16 @@ supported_platforms:
     - title: "Node.js"
       tag: "nodejs-java" 
 
+
 ############################# Head ############################
-head_title: "Java API de conversion de documents | Convertir des PDF, Word, Excel, PPTX, HTML et images"
-head_description: "Java API de conversion de documents. Convertissez les formats de fichiers PDF, Word, DOC, DOCX, Excel, feuilles de calcul, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD et image."
+head_title: "API de conversion de documents Java | Convertir des PDF, Word, Excel, PPTX, HTML et images"
+head_description: "API de conversion de documents Java. Convertissez les formats de fichiers PDF, Word, DOC, DOCX, Excel, feuilles de calcul, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD et image."
 
 ############################# Header ############################
-title: "Conversion de documents<br>via l'API Java"
+title: "Conversion de documents via l'API Java"
 description: "API de conversion puissante pour convertir des fichiers PDF, Microsoft Office, HTML, eBook et image"
 words:
-  for: "pour"
+  for: "for"
 
 actions:
   main: "Téléchargement gratuit de Maven"
@@ -44,17 +45,20 @@ release:
   title: "Version {0} publiée"
   notes: "Regardez ce qu'il y a de nouveau"
   downloads: "Téléchargements"
+  link: "https://releases.groupdocs.com/conversion/java/release-notes/latest/"
 
 code:
   title: "Comment convertir des fichiers PDF en Java"
   more: "Plus d'exemples"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
-    <dependency>
-      <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-conversion</artifactId>
-      <version>{0}</version>
-    </dependency>
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-conversion</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
     <repositories>
       <repository>
@@ -64,11 +68,11 @@ code:
       </repository>
     </repositories>
   content: |
-    ```java {style=abap}   
-    // Charger le fichier PDF source
+    ```java {style=abap}
+    // Charger le fichier PDF source 
     Converter converter = new Converter("resume.pdf");
     
-    // Définir les options de conversion
+    // Définir les options de conversion  
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
@@ -123,6 +127,8 @@ platforms:
     # platform loop
     - title: "Maven"
       image: "maven"
+
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -145,19 +151,19 @@ formats:
       content: |
         ### Images et multimédia
         * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **Diagramme:** VSDX, DRAW, LUCIDCHART
-        * **CAO et SIG:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **l'audio:** MP3, WAV, FLAC, AAC, OGG
-        * **Vidéo:** MP4, AVI, MKV, MOV, WMV
-        * **3D et vecteur:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB     
       # group loop
     - color: "red"
       content: |
-        ### Autres formats
+        ### Autres formats        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **la toile:**  HTML, MHTML, MHT
-        * **Les archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **Courriel et Outlook:** PST, OST, MSG, EML
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
         * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
@@ -176,7 +182,7 @@ features:
     # feature loop
     - icon: "split"
       title: "Sortie haute fidélité"
-      content: "Préservez la qualité et le formatage d’origine des documents pendant le processus de conversion."
+      content: "Préservez la qualité et le formatage d'origine des documents pendant le processus de conversion."
 
     # feature loop
     - icon: "move"
@@ -222,10 +228,10 @@ code_samples:
     # code sample loop
     - title: "Convertir un PDF en image"
       content: |
-        Un scénario couramment rencontré consiste à convertir un document PDF entier ou des pages spécifiques en une collection d'images. GroupDocs.Conversion pour Java offre la possibilité de convertir des PDF en divers formats d'image, tels que TIFF, JPG, PNG, GIF, BMP, etc. 
+        Un scénario couramment rencontré consiste à convertir un document PDF entier ou des pages spécifiques en une collection d'images. GroupDocs.Conversion pour Java offre la possibilité de convertir des PDF en divers formats d'image, tels que TIFF, JPG, PNG, GIF, BMP, etc.  
         Vous pouvez sélectionner votre format d'image préféré à l'aide de la classe ImageFileType.
         {{< landing/code title="Conversion de PDF en PNG en Java">}}
-        ```java {style=abap} 
+        ```java {style=abap}
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
@@ -242,11 +248,10 @@ code_samples:
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "Convertir un segment d'un document volumineux"
       content: |
-        Avec GroupDocs.Conversion pour Java, vous pouvez facilement convertir des pages spécifiques d'un long document. 
+        Avec GroupDocs.Conversion pour Java, vous pouvez facilement convertir des pages spécifiques d'un long document.  
         Vous disposez de deux méthodes pour y parvenir, en fonction de vos besoins. Vous pouvez soit convertir une plage de pages, soit convertir des pages spécifiques.
         {{< landing/code title="Convertir DOCX (pages 2-4) en PDF en Java">}}
         ```java {style=abap}   
@@ -256,8 +261,8 @@ code_samples:
 
         // Charger le fichier DOCX source
         Converter converter = new Converter("booklet.docx");
-
-        // Définissez les options de conversion et spécifiez la plage de pages à restituer
+           
+        // Définissez les options et spécifiez la plage de pages à convertir
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
@@ -266,22 +271,5 @@ code_samples:
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "Avis sur les produits GroupDocs"
-# description: "Ne vous contentez pas de nous croire sur parole. Découvrez ce que d'autres développeurs disent de nos API"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Excellent service et excellents produits. Ils ont été extrêmement utiles et réactifs pendant le processus de mise en œuvre de GroupDocs.Viewer pour Java et ne sauraient les recommander assez."
-#     author: "Martin Lasarga"
-#     company: "Chef de produit chez Axentria ECM par G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Après avoir implémenté et utilisé GroupDocs.Viewer pour Java dans le projet, cela semble très bien fonctionner. J'ai testé avec beaucoup de documents et jusqu'ici tout va bien. Tout ce que j'ai lancé s'affiche bien et est aussi beau que dans une visionneuse PDF ou MS Word."
-#     author: "Mats Oustad"
-#     company: "Consultant/Partenaire Senior chez Novanet AS"
+        
 ---

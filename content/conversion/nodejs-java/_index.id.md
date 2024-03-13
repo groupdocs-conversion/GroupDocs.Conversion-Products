@@ -1,9 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
+lang: id
 product: "Conversion"
 product_tag: "conversion"
 platform: Node.js via Java
@@ -22,15 +23,16 @@ supported_platforms:
     - title: "Node.js"
       tag: "nodejs-java" 
 
+
 ############################# Head ############################
-head_title: "JavaScript API konversi dokumen | Konversi PDF, Word, Excel, PPTX, HTML, dan gambar"
-head_description: "JavaScript API konversi dokumen. Konversi format file PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan gambar."
+head_title: "API konversi dokumen JavaScript | Konversi PDF, Word, Excel, PPTX, HTML, dan gambar"
+head_description: "API konversi dokumen JavaScript. Konversi PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan format file gambar."
 
 ############################# Header ############################
-title: "Konversi dokumen<br>melalui API Node.js"
+title: "Konversi dokumen melalui API Node.js"
 description: "API konversi yang kuat untuk mengonversi file PDF, Microsoft Office, HTML, eBook, dan gambar"
 words:
-  for: "untuk"
+  for: "for"
 
 actions:
   main: "Unduh NPM Gratis"
@@ -44,6 +46,7 @@ release:
   title: "Versi {0}  dirilis"
   notes: "Lihat apa yang baru"
   downloads: "Unduhan"
+  link: "https://releases.groupdocs.com/conversion/nodejs-java/release-notes/latest/"
 
 code:
   title: "Cara mengonversi file PDF dalam JavaScript"
@@ -51,14 +54,14 @@ code:
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
-    ```csharp {style=abap}   
+    ```javascript {style=abap}       
     // Muat file PDF sumber
     const converter = new Converter("resume.pdf");
     
-    // Atur opsi konversi untuk format DOCX
+    // Atur opsi konversi
     const convertOptions = new WordProcessingConvertOptions();
-    
-    // Konversikan ke format DOCX
+
+    // Konversi PDF ke DOCX
     converter.convert("resume.docx", convertOptions);
     ```
 ############################# Overview ############################
@@ -109,6 +112,7 @@ platforms:
     # platform loop
     - title: "NPM"
       image: "npm"
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -120,7 +124,7 @@ formats:
     - color: "green"
       content: |
         ### Format dokumen
-        * **Dokumen:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -130,28 +134,28 @@ formats:
     - color: "blue"
       content: |
         ### Gambar & Multimedia
-        * **Gambar-gambar:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
         * **Diagram:** VSDX, DRAW, LUCIDCHART
         * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
         * **Audio:** MP3, WAV, FLAC, AAC, OGG
         * **Video:** MP4, AVI, MKV, MOV, WMV
-        * **3D & Vektor:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB    
       # group loop
     - color: "red"
       content: |
-        ### Format lainnya
+        ### Format lainnya        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **jaring:**  HTML, MHTML, MHT
-        * **Arsip:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **Email & Pandangan:** PST, OST, MSG, EML
-        * **Keuangan:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "Fitur GroupDocs.Conversion"
-  description: "Konversikan dokumen PDF dan kantor dengan mulus ke HTML, JPG, PNG, BMP, TIFF, SVG, dan banyak format lainnya. GroupDocs.Conversion untuk Node.js melalui Java API dirancang agar mudah digunakan dan diintegrasikan ke dalam proyek Anda. Ini mendukung semua format dokumen populer dengan kemampuan untuk menyesuaikan proses konversi."
+  description: "Konversi dokumen PDF dan kantor dengan mulus ke HTML, JPG, PNG, BMP, TIFF, SVG, dan banyak format lainnya. GroupDocs.Conversion untuk JavaScript API dirancang agar mudah digunakan dan diintegrasikan ke dalam proyek Anda. Ini mendukung semua format dokumen populer dengan kemampuan untuk menyesuaikan proses konversi."
 
   items:
     # feature loop
@@ -208,15 +212,15 @@ code_samples:
     # code sample loop
     - title: "Konversi PDF ke gambar"
       content: |
-        Skenario yang umum ditemui melibatkan konversi seluruh dokumen PDF atau halaman tertentu menjadi kumpulan gambar. GroupDocs.Conversion untuk Node.js melalui Java menawarkan kemampuan untuk mengkonversi PDF ke berbagai format gambar, seperti TIFF, JPG, PNG, GIF, BMP, dan banyak lagi. 
+        Skenario yang umum ditemui melibatkan konversi seluruh dokumen PDF atau halaman tertentu menjadi kumpulan gambar. GroupDocs.Conversion untuk Node.js melalui Java menawarkan kemampuan untuk mengkonversi PDF ke berbagai format gambar, seperti TIFF, JPG, PNG, GIF, BMP, dan banyak lagi.  
         Anda dapat memilih format gambar pilihan Anda menggunakan kelas ImageFileType.
         {{< landing/code title="Mengonversi PDF ke PNG dalam JavaScript">}}
-        ```javascript {style=abap}  
+        ```javascript {style=abap}
         import { Converter, ImageConvertOptions } from '@groupdocs/groupdocs.conversion'; 
-        
+
         // Muat file PDF sumber
         const converter = new Converter("resume.pdf");
-        
+
         // Atur opsi konversi dan tentukan jenis gambar keluaran
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
@@ -225,11 +229,10 @@ code_samples:
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "Konversikan segmen dokumen besar"
       content: |
-        Dengan GroupDocs.Conversion untuk Node.js melalui Java, Anda dapat dengan mudah mengonversi halaman tertentu dari dokumen yang panjang. 
+        Dengan GroupDocs.Conversion untuk Node.js melalui Java, Anda dapat dengan mudah mengonversi halaman tertentu dari dokumen yang panjang.  
         Anda memiliki dua metode untuk mencapai hal ini, tergantung pada kebutuhan Anda. Anda dapat mengonversi sejumlah halaman atau mengonversi halaman tertentu.
         {{< landing/code title="Konversi DOCX (halaman 2-4) ke PDF dalam JavaScript">}}
         ```javascript {style=abap}   
@@ -238,7 +241,7 @@ code_samples:
         // Muat file DOCX sumber
         const converter = new Converter("booklet.docx");
 
-        // Atur opsi konversi dan tentukan rentang halaman yang akan dirender
+        // Atur opsi dan tentukan rentang halaman yang akan dikonversi
         const convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
@@ -247,22 +250,5 @@ code_samples:
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "Ulasan produk GroupDocs"
-# description: "Jangan hanya percaya kata-kata kami begitu saja. Lihat apa yang dikatakan pengembang lain tentang API kami"
 
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Pelayanan prima dan produk unggulan. Mereka sangat membantu dan responsif selama GroupDocs.Viewer untuk Node.js melalui proses implementasi Java, sangat merekomendasikannya."
-#     author: "Martin Lasarga"
-#     company: "Manajer Produk di Axentria ECM oleh G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Setelah mengimplementasikan dan menggunakan GroupDocs.Viewer untuk Node.js melalui Java dalam proyek tersebut tampaknya berfungsi dengan baik. Saya telah menguji dengan banyak dokumen dan sejauh ini bagus. Semua yang saya berikan ditampilkan dengan baik dan terlihat sama bagusnya dengan penampil PDF atau MS Word."
-#     author: "Mat Oustad"
-#     company: "Konsultan Senior/Mitra di Novanet AS"
 ---

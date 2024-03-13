@@ -1,9 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
+lang: es
 product: "Conversion"
 product_tag: "conversion"
 platform: .NET
@@ -23,14 +24,14 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# API de conversión de documentos .NET | Convierta PDF, Word, Excel, PPTX, HTML e imágenes"
-head_description: "C# API de conversión de documentos .NET. Convierta formatos de archivos de imagen, PDF, Word, DOC, DOCX, Excel, hojas de cálculo, PPT, PPTX, HTML, PSD, MPT, MPP, correo electrónico, MSG, EMLX, AutoCAD y de imagen."
+head_title: "API de conversión de documentos C# .NET | Convierta PDF, Word, Excel, PPTX, HTML e imágenes"
+head_description: "API de conversión de documentos C# .NET. Convierta formatos de archivos de imagen, PDF, Word, DOC, DOCX, Excel, hojas de cálculo, PPT, PPTX, HTML, PSD, MPT, MPP, correo electrónico, MSG, EMLX, AutoCAD y de imagen."
 
 ############################# Header ############################
-title: "Conversión de documentos<br>a través de la API .NET"
+title: "Conversión de documentos a través de .NET API"
 description: "Potente API de conversión para convertir archivos PDF, Microsoft Office, HTML, libros electrónicos e imágenes"
 words:
-  for: "para"
+  for: "for"
 
 actions:
   main: "Descarga gratuita de NuGet"
@@ -44,6 +45,7 @@ release:
   title: "Versión {0} lanzada"
   notes: "Ver qué hay de nuevo"
   downloads: "Descargas"
+  link: "https://releases.groupdocs.com/conversion/net/release-notes/latest/"
 
 code:
   title: "Cómo convertir archivos PDF en C#"
@@ -55,11 +57,11 @@ code:
     // Cargue el archivo PDF de origen
     using (var converter = new Converter("resume.pdf"))
     {
-      // Establecer las opciones de conversión
-      var convertOptions = new WordProcessingConvertOptions();
-
-      // Convertir PDF a DOCX
-      converter.Convert("resume.docx", convertOptions);
+        // Establecer las opciones de conversión
+        var convertOptions = new WordProcessingConvertOptions();
+        
+        // Convertir PDF a DOCX        
+        converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
@@ -110,6 +112,7 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -121,7 +124,7 @@ formats:
     - color: "green"
       content: |
         ### Formatos de documentos
-        * **Documentos:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -131,28 +134,28 @@ formats:
     - color: "blue"
       content: |
         ### Imágenes y multimedia
-        * **Imágenes:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **Diagrama:** VSDX, DRAW, LUCIDCHART
-        * **CAD y SIG:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
         * **Audio:** MP3, WAV, FLAC, AAC, OGG
         * **Video:** MP4, AVI, MKV, MOV, WMV
-        * **3D y vectores:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB        
       # group loop
     - color: "red"
       content: |
-        ### Otros formatos
+        ### Otros formatos        
         * **eBook:** EPUB, MOBI, AZW, FB2
         * **Web:**  HTML, MHTML, MHT
-        * **Archivo:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **Correo electrónico y Outlook:** PST, OST, MSG, EML
-        * **Finanzas:** QFX, OFX
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Características de conversión"
-  description: "Convierta sin problemas documentos PDF y de Office a HTML, JPG, PNG, BMP, TIFF, SVG y muchos otros formatos. GroupDocs.Conversion para .NET API está diseñado para ser fácil de usar e integrar en su proyecto. Admite todos los formatos de documentos populares con la capacidad de personalizar el proceso de conversión."
+  title: "Funciones de GroupDocs.Conversion"
+  description: "Convierta sin problemas documentos PDF y de Office a HTML, JPG, PNG, BMP, TIFF, SVG y muchos otros formatos. GroupDocs.Conversion para la API C# está diseñada para ser fácil de usar e integrar en su proyecto. Admite todos los formatos de documentos populares con la capacidad de personalizar el proceso de conversión."
 
   items:
     # feature loop
@@ -188,7 +191,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "Integración API"
-      content: "Integre perfectamente las capacidades de conversión en sus aplicaciones .NET, convirtiéndolas en una parte perfecta de su flujo de trabajo."
+      content: "Integre perfectamente las capacidades de conversión en sus aplicaciones C#, convirtiéndolas en una parte perfecta de su flujo de trabajo."
 
     # feature loop
     - icon: "orientation"
@@ -209,61 +212,59 @@ code_samples:
     # code sample loop
     - title: "Convertir PDF a imagen"
       content: |
-        Un escenario común implica convertir un documento PDF completo o páginas específicas en una colección de imágenes. GroupDocs.Conversion para .NET ofrece la capacidad de convertir archivos PDF a varios formatos de imagen, como TIFF, JPG, PNG, GIF, BMP y más. 
+        Un escenario común implica convertir un documento PDF completo o páginas específicas en una colección de imágenes. GroupDocs.Conversion para .NET ofrece la capacidad de convertir archivos PDF a varios formatos de imagen, como TIFF, JPG, PNG, GIF, BMP y más.
         A diferencia de otras conversiones, este proceso requiere la declaración de un delegado SavePageStream, que especifica el formato de nombre de las imágenes guardadas. Puede seleccionar su formato de imagen preferido utilizando la clase ImageFileType.
         {{< landing/code title="Convertir PDF a PNG en C#">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
-
+        
         // Cargue el archivo PDF de origen
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // Configure las opciones de conversión y especifique el tipo de imagen de salida
-          var convertOptions = new ImageConvertOptions { 
+            // Configure las opciones de conversión y especifique el tipo de imagen de salida
+            var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
-          };
-          
-          // Convierta cada página de un documento PDF a PNG
-          converter.Convert(getPageStream, convertOptions);
+            };          
+            
+            // Convierta cada página de un documento PDF a PNG
+            converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "Convertir un segmento de un documento grande"
       content: |
-        Con GroupDocs.Conversion para .NET, puede convertir sin esfuerzo páginas específicas de un documento extenso. 
+        Con GroupDocs.Conversion para .NET, puede convertir sin esfuerzo páginas específicas de un documento extenso.
         Tiene dos métodos para lograr esto, según sus requisitos. Puede convertir un rango de páginas o convertir páginas específicas.
         {{< landing/code title="Convierta DOCX (páginas 2 a 4) a PDF en C#">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // Cargue el archivo DOCX de origen
+        // Cargue el archivo DOCX de origen  
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // Establezca las opciones de conversión y especifique el rango de páginas para renderizar
-           var convertOptions = new PdfConvertOptions 
-           { 
+            // Establezca las opciones y especifique el rango de páginas para convertir       
+            var convertOptions = new PdfConvertOptions 
+            { 
               PageNumber = 2, 
               PagesCount = 3 
-           };
-
-           // Convierta las páginas 2-4 a PDF                                     
-           converter.Convert("pages-2-4.pdf", convertOptions);
-        }  
+            };
+            
+            // Convierta las páginas 2-4 a PDF       
+            converter.Convert("pages-2-4.pdf", convertOptions);
+        }
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "Sintaxis fluida: un enfoque simplificado"
       content: |
-        La sintaxis fluida ofrece una notación concisa para acciones comunes dentro de GroupDocs.Conversion para .NET API. 
-        Los ejemplos de código siguientes demuestran cómo aprovechar la sintaxis fluida:
+        La sintaxis fluida ofrece una notación concisa para acciones comunes dentro de GroupDocs.Conversion para .NET API.
+        Los ejemplos de código siguientes demuestran cómo aprovechar la sintaxis fluida.:
         {{< landing/code title="Convierta DOCX a PDF en C# usando una sintaxis fluida">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
@@ -274,22 +275,5 @@ code_samples:
             .Convert();
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "Reseñas de productos GroupDocs"
-# description: "No confíe sólo en nuestra palabra. Vea lo que otros desarrolladores dicen sobre nuestras API"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Excelente servicio y excelentes productos. Fueron extremadamente útiles y receptivos durante el proceso de implementación de GroupDocs.Conversion para .NET, no puedo recomendarlos lo suficiente."
-#     author: "Martín Lasarga"
-#     company: "Product Manager en Axentria ECM by G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Después de implementar y usar GroupDocs.Conversion para .NET en el proyecto, parece estar funcionando muy bien. He probado con muchos documentos y hasta ahora todo bien. Todo lo que le he añadido se reproduce muy bien y se ve tan bien como en un visor de PDF o MS Word."
-#     author: "Mats Oustad"
-#     company: "Consultor Senior/Socio en Novanet AS"
+        
 ---

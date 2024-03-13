@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
 product: "Conversion"
@@ -22,15 +22,16 @@ supported_platforms:
     - title: "Node.js"
       tag: "nodejs-java" 
 
+
 ############################# Head ############################
 head_title: "Java API преобразования документов | Конвертируйте PDF, Word, Excel, PPTX, HTML и изображения."
 head_description: "Java API преобразования документов. Конвертируйте PDF, Word, DOC, DOCX, Excel, электронные таблицы, PPT, PPTX, HTML, PSD, MPT, MPP, электронную почту, MSG, EMLX, AutoCAD и форматы файлов изображений."
 
 ############################# Header ############################
-title: "Конвертация документов<br>через Java API"
+title: "Конвертация документов через Java API"
 description: "Мощный API-интерфейс для преобразования файлов PDF, Microsoft Office, HTML, электронных книг и изображений."
 words:
-  for: "для"
+  for: "for"
 
 actions:
   main: "Бесплатная загрузка Maven"
@@ -44,17 +45,20 @@ release:
   title: "Версия {0} выпущена"
   notes: "Посмотрите, что нового"
   downloads: "Загрузки"
+  link: "https://releases.groupdocs.com/conversion/java/release-notes/latest/"
 
 code:
   title: "Как конвертировать PDF-файлы в Java"
   more: "Больше примеров"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
-    <dependency>
-      <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-conversion</artifactId>
-      <version>{0}</version>
-    </dependency>
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-conversion</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
     <repositories>
       <repository>
@@ -64,11 +68,11 @@ code:
       </repository>
     </repositories>
   content: |
-    ```java {style=abap}   
-    // Загрузите исходный PDF-файл
+    ```java {style=abap}
+    // Загрузите исходный PDF-файл 
     Converter converter = new Converter("resume.pdf");
     
-    // Установите параметры конвертации
+    // Установите параметры конвертации  
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
@@ -123,6 +127,8 @@ platforms:
     # platform loop
     - title: "Maven"
       image: "maven"
+
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -134,7 +140,7 @@ formats:
     - color: "green"
       content: |
         ### Форматы документов
-        * **Документы:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -144,28 +150,28 @@ formats:
     - color: "blue"
       content: |
         ### Изображения и мультимедиа
-        * **Изображений:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **Диаграмма:** VSDX, DRAW, LUCIDCHART
-        * **САПР и ГИС:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **Аудио:** MP3, WAV, FLAC, AAC, OGG
-        * **видео:** MP4, AVI, MKV, MOV, WMV
-        * **3D и векторная графика:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB     
       # group loop
     - color: "red"
       content: |
-        ### Другие форматы
+        ### Другие форматы        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **Интернет:**  HTML, MHTML, MHT
-        * **Архивы:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **Электронная почта и Outlook:** PST, OST, MSG, EML
-        * **Финансы:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "GroupDocs.Функции преобразования"
-  description: "Легко конвертируйте PDF и офисные документы в HTML, JPG, PNG, BMP, TIFF, SVG и многие другие форматы. GroupDocs.Conversion для Java API разработан таким образом, чтобы его было легко использовать и интегрировать в ваш проект. Он поддерживает все популярные форматы документов с возможностью настройки процесса конвертации."
+  description: "Легко конвертируйте PDF и офисные документы в HTML, JPG, PNG, BMP, TIFF, SVG и многие другие форматы. API GroupDocs.Conversion для Java разработан таким образом, чтобы его было легко использовать и интегрировать в ваш проект. Он поддерживает все популярные форматы документов с возможностью настройки процесса конвертации."
 
   items:
     # feature loop
@@ -222,10 +228,10 @@ code_samples:
     # code sample loop
     - title: "Конвертировать PDF в изображение"
       content: |
-        Часто встречающийся сценарий предполагает преобразование всего PDF-документа или отдельных страниц в коллекцию изображений. GroupDocs.Conversion для Java предлагает возможность конвертировать PDF-файлы в различные форматы изображений, такие как TIFF, JPG, PNG, GIF, BMP и другие. 
+        Часто встречающийся сценарий предполагает преобразование всего PDF-документа или отдельных страниц в коллекцию изображений. GroupDocs.Conversion для Java предлагает возможность конвертировать PDF-файлы в различные форматы изображений, такие как TIFF, JPG, PNG, GIF, BMP и другие.  
         Вы можете выбрать предпочитаемый формат изображения, используя класс ImageFileType.
         {{< landing/code title="Преобразование PDF в PNG в Java">}}
-        ```java {style=abap} 
+        ```java {style=abap}
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
@@ -242,11 +248,10 @@ code_samples:
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "Преобразование сегмента большого документа"
       content: |
-        С помощью GroupDocs.Conversion для Java вы можете легко конвертировать определенные страницы из длинного документа. 
+        С помощью GroupDocs.Conversion для Java вы можете легко конвертировать определенные страницы из длинного документа.  
         У вас есть два способа сделать это, в зависимости от ваших требований. Вы можете конвертировать диапазон страниц или конвертировать отдельные страницы.
         {{< landing/code title="Конвертируйте DOCX (страницы 2–4) в PDF на Java">}}
         ```java {style=abap}   
@@ -256,8 +261,8 @@ code_samples:
 
         // Загрузите исходный файл DOCX
         Converter converter = new Converter("booklet.docx");
-
-        // Установите параметры преобразования и укажите диапазон страниц для рендеринга.
+           
+        // Установите параметры и укажите диапазон страниц для конвертации.
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
@@ -266,22 +271,5 @@ code_samples:
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "Обзоры продуктов GroupDocs"
-# description: "Не верьте нам на слово. Посмотрите, что другие разработчики говорят о наших API"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "Отличный сервис и отличная продукция. Они были чрезвычайно полезны и отзывчивы в процессе реализации GroupDocs.Viewer для Java, поэтому не могу не рекомендовать их достаточно высоко."
-#     author: "Мартин Ласарга"
-#     company: "Менеджер по продукту в Axentria ECM by G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "После реализации и использования GroupDocs.Viewer для Java в проекте он работает очень хорошо. Я проверил множество документов и пока все хорошо. Все, что я в него добавил, прекрасно визуализируется и выглядит так же хорошо, как в программе просмотра PDF или MS Word."
-#     author: "Матс Устад"
-#     company: "Старший консультант/партнер Novanet AS"
+        
 ---

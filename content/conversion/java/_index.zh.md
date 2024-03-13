@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
 product: "Conversion"
@@ -22,15 +22,16 @@ supported_platforms:
     - title: "Node.js"
       tag: "nodejs-java" 
 
+
 ############################# Head ############################
 head_title: "Java文档转换API |转换 PDF、Word、Excel、PPTX、HTML 和图像"
 head_description: "Java 文档转换 API。转换 PDF、Word、DOC、DOCX、Excel、电子表格、PPT、PPTX、HTML、PSD、MPT、MPP、电子邮件、MSG、EMLX、A​​utoCAD 和图像文件格式。"
 
 ############################# Header ############################
-title: "文档转换<br>通过Java API"
+title: "通过 Java API 进行文档转换"
 description: "强大的转换 API，可转换 PDF、Microsoft Office、HTML、电子书和图像文件"
 words:
-  for: "为了"
+  for: "for"
 
 actions:
   main: "免费 Maven 下载"
@@ -44,17 +45,20 @@ release:
   title: "版本 {0} 已发布"
   notes: "看看有什么新鲜事"
   downloads: "下载"
+  link: "https://releases.groupdocs.com/conversion/java/release-notes/latest/"
 
 code:
   title: "如何用Java转换PDF文件"
   more: "更多示例"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
-    <dependency>
-      <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-conversion</artifactId>
-      <version>{0}</version>
-    </dependency>
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-conversion</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
     <repositories>
       <repository>
@@ -64,11 +68,11 @@ code:
       </repository>
     </repositories>
   content: |
-    ```java {style=abap}   
-    // 加载源 PDF 文件
+    ```java {style=abap}
+    // 加载源 PDF 文件 
     Converter converter = new Converter("resume.pdf");
     
-    // 设置转换选项
+    // 设置转换选项  
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
@@ -123,6 +127,8 @@ platforms:
     # platform loop
     - title: "Maven"
       image: "maven"
+
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -134,7 +140,7 @@ formats:
     - color: "green"
       content: |
         ### 文档格式
-        * **文件:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -144,28 +150,28 @@ formats:
     - color: "blue"
       content: |
         ### 图像与多媒体
-        * **图片:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **图表:** VSDX, DRAW, LUCIDCHART
-        * **计算机辅助设计和地理信息系统:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **声音的:** MP3, WAV, FLAC, AAC, OGG
-        * **视频:** MP4, AVI, MKV, MOV, WMV
-        * **3D 与矢量:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB     
       # group loop
     - color: "red"
       content: |
-        ### 其他格式
+        ### 其他格式        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **网络:**  HTML, MHTML, MHT
-        * **档案:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **电子邮件和展望:** PST, OST, MSG, EML
-        * **金融:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "GroupDocs.Conversion 功能"
-  description: "将 PDF 和 Office 文档无缝转换为 HTML、JPG、PNG、BMP、TIFF、SVG 和许多其他格式。 GroupDocs.Conversion for Java API 旨在易于使用并集成到您的项目中。它支持所有流行的文档格式，并能够自定义转换过程。"
+  description: "将 PDF 和 Office 文档无缝转换为 HTML、JPG、PNG、BMP、TIFF、SVG 和许多其他格式。 Java API 的 GroupDocs.Conversion 旨在易于使用并集成到您的项目中。它支持所有流行的文档格式，并能够自定义转换过程。"
 
   items:
     # feature loop
@@ -201,7 +207,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "API集成"
-      content: "将转换功能无缝集成到您的 Java 应用程序中，使其成为您工作流程的无缝部分。"
+      content: "将转换功能无缝集成到您的 Java 应用程序中，使其成为您工作流程的无缝组成部分。"
 
     # feature loop
     - icon: "orientation"
@@ -222,10 +228,10 @@ code_samples:
     # code sample loop
     - title: "将 PDF 转换为图像"
       content: |
-        常见的情况是将整个 PDF 文档或特定页面转换为图像集合。 GroupDocs.Conversion for Java 提供将 PDF 转换为各种图像格式的功能，例如 TIFF、JPG、PNG、GIF、BMP 等。 
+        常见的情况是将整个 PDF 文档或特定页面转换为图像集合。 GroupDocs.Conversion for Java 提供将 PDF 转换为各种图像格式的功能，例如 TIFF、JPG、PNG、GIF、BMP 等。  
         您可以使用 ImageFileType 类选择您喜欢的图像格式。
         {{< landing/code title="在 Java 中将 PDF 转换为 PNG">}}
-        ```java {style=abap} 
+        ```java {style=abap}
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
@@ -242,11 +248,10 @@ code_samples:
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "转换大文档的一部分"
       content: |
-        使用 GroupDocs.Conversion for Java，您可以轻松地从冗长的文档中转换特定页面。 
+        使用 GroupDocs.Conversion for Java，您可以轻松地从冗长的文档中转换特定页面。  
         根据您的要求，您有两种方法可以实现此目的。您可以转换一系列页面或转换特定页面。
         {{< landing/code title="在 Java 中将 DOCX（第 2-4 页）转换为 PDF">}}
         ```java {style=abap}   
@@ -256,8 +261,8 @@ code_samples:
 
         // 加载源 DOCX 文件
         Converter converter = new Converter("booklet.docx");
-
-        // 设置转换选项并指定要渲染的页面范围
+           
+        // 设置选项并指定要转换的页面范围
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
@@ -266,22 +271,5 @@ code_samples:
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "GroupDocs 产品评论"
-# description: "不要只相信我们的话。看看其他开发人员如何评价我们的 API"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "优质的服务和优质的产品。他们在 GroupDocs.Viewer for Java 实施过程中提供了极大的帮助和响应，强烈推荐他们。"
-#     author: "马丁·拉萨尔加"
-#     company: "Axentria ECM by G.S.I. 产品经理"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "在项目中实现并使用 GroupDocs.Viewer for Java 后，它看起来运行得很好。我已经用很多文档进行了测试，到目前为止一切顺利。我扔给它的所有内容都可以很好地呈现，并且看起来与在 PDF 查看器或 MS Word 中一样好。"
-#     author: "马茨·奥斯塔德"
-#     company: "Novanet AS 高级顾问/合伙人"
+        
 ---

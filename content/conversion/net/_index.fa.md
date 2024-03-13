@@ -1,9 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
+lang: fa
 product: "Conversion"
 product_tag: "conversion"
 platform: .NET
@@ -23,14 +24,14 @@ supported_platforms:
       tag: "nodejs-java" 
 
 ############################# Head ############################
-head_title: "C# API تبدیل سند دات نت | تبدیل PDF، Word، Excel، PPTX، HTML و تصاویر"
-head_description: "C# API تبدیل سند دات نت. فرمت های PDF، Word، DOC، DOCX، Excel، Spreadsheets، PPT، PPTX، HTML، PSD، MPT، MPP، ایمیل، MSG، EMLX، AutoCAD و فایل های تصویری را تبدیل کنید."
+head_title: "C# .NET تبدیل سند API | تبدیل PDF، Word، Excel، PPTX، HTML و تصاویر"
+head_description: "API تبدیل سند C#.NET. فرمت های PDF، Word، DOC، DOCX، Excel، Spreadsheets، PPT، PPTX، HTML، PSD، MPT، MPP، ایمیل، MSG، EMLX، AutoCAD و فایل های تصویری را تبدیل کنید."
 
 ############################# Header ############################
-title: "تبدیل سند<br>از طریق NET API"
+title: "تبدیل سند از طریق NET API"
 description: "API تبدیل قدرتمند برای تبدیل PDF، مایکروسافت آفیس، HTML، کتاب الکترونیکی و فایل های تصویری"
 words:
-  for: "برای"
+  for: "for"
 
 actions:
   main: "دانلود رایگان NuGet"
@@ -44,9 +45,10 @@ release:
   title: "نسخه {0} منتشر شد"
   notes: "ببینید چه چیز جدیدی است"
   downloads: "دانلودها"
+  link: "https://releases.groupdocs.com/conversion/net/release-notes/latest/"
 
 code:
-  title: "نحوه تبدیل فایل های پی دی اف در سی شارپ"
+  title: "نحوه تبدیل فایل های PDF در سی شارپ"
   more: "نمونه های بیشتر"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
@@ -55,18 +57,18 @@ code:
     // فایل PDF منبع را بارگیری کنید
     using (var converter = new Converter("resume.pdf"))
     {
-      // گزینه های تبدیل را تنظیم کنید
-      var convertOptions = new WordProcessingConvertOptions();
-
-      // تبدیل PDF به DOCX
-      converter.Convert("resume.docx", convertOptions);
+        // گزینه های تبدیل را تنظیم کنید
+        var convertOptions = new WordProcessingConvertOptions();
+        
+        // تبدیل PDF به DOCX        
+        converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
 overview:
   enable: true
   title: "GroupDocs.Conversion در یک نگاه"
-  description: "قابلیت‌های API را برای تبدیل سریع و بدون نقص PDF، Microsoft Office، HTML، کتاب الکترونیکی و فایل‌های تصویری در برنامه‌های NET بررسی کنید."
+  description: "قابلیت‌های API را برای تبدیل سریع و بی‌عیب فایل‌های PDF، Microsoft Office، HTML، کتاب الکترونیکی و تصویر در برنامه‌های NET بررسی کنید."
   features:
     # feature loop
     - title: "تبدیل ساده"
@@ -110,6 +112,7 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -121,7 +124,7 @@ formats:
     - color: "green"
       content: |
         ### فرمت های سند
-        * **اسناد:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -131,28 +134,28 @@ formats:
     - color: "blue"
       content: |
         ### تصاویر و چند رسانه ای
-        * **تصاویر:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **نمودار:** VSDX, DRAW, LUCIDCHART
-        * **CAD و GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **سمعی:** MP3, WAV, FLAC, AAC, OGG
-        * **ویدیو:** MP4, AVI, MKV, MOV, WMV
-        * **سه بعدی و وکتور:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB        
       # group loop
     - color: "red"
       content: |
-        ### فرمت های دیگر
+        ### فرمت های دیگر        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **وب:**  HTML, MHTML, MHT
-        * **آرشیوها:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **ایمیل و چشم انداز:** PST, OST, MSG, EML
-        * **دارایی، مالیه، سرمایه گذاری:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "ویژگی های GroupDocs.Conversion"
-  description: "تبدیل یکپارچه PDF و اسناد اداری به HTML، JPG، PNG، BMP، TIFF، SVG و بسیاری از فرمت های دیگر. GroupDocs.Conversion for .NET API طوری طراحی شده است که استفاده از آن و ادغام در پروژه شما آسان باشد. از تمام فرمت های سند محبوب با قابلیت سفارشی سازی فرآیند تبدیل پشتیبانی می کند."
+  description: "تبدیل یکپارچه PDF و اسناد اداری به HTML، JPG، PNG، BMP، TIFF، SVG و بسیاری از فرمت های دیگر. GroupDocs.Conversion for C# API به گونه ای طراحی شده است که استفاده از آن آسان باشد و در پروژه شما ادغام شود. از تمام فرمت های سند محبوب با قابلیت سفارشی سازی فرآیند تبدیل پشتیبانی می کند."
 
   items:
     # feature loop
@@ -178,7 +181,7 @@ features:
     # feature loop
     - icon: "rotate"
       title: "تنظیمات قابل تنظیم"
-      content: "پارامترهای تبدیل مانند وضوح، کیفیت و طرح را برای برآوردن نیازهای خاص تنظیم کنید."
+      content: "پارامترهای تبدیل مانند وضوح، کیفیت، و طرح را برای برآوردن نیازهای خاص تنظیم کنید."
 
     # feature loop
     - icon: "swap"
@@ -188,7 +191,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "یکپارچه سازی API"
-      content: "یکپارچه قابلیت های تبدیل را در برنامه های دات نت خود ادغام کنید و آن را به بخشی از گردش کار خود تبدیل کنید."
+      content: "یکپارچه قابلیت های تبدیل را در برنامه های کاربردی C# خود ادغام کنید و آن را به بخشی یکپارچه از گردش کار خود تبدیل کنید."
 
     # feature loop
     - icon: "orientation"
@@ -204,65 +207,63 @@ features:
 code_samples:
   enable: true
   title: "نمونه کد"
-  description: "برخی از موارد معمولی GroupDocs.Conversion برای عملیات NET استفاده می کنند"
+  description: "برخی از موارد معمولی GroupDocs.Conversion برای عملیات دات نت استفاده می کنند"
   items:
     # code sample loop
     - title: "تبدیل PDF به تصویر"
       content: |
-        سناریویی که معمولاً با آن مواجه می‌شوید شامل تبدیل کل یک سند PDF یا صفحات خاص به مجموعه‌ای از تصاویر است. GroupDocs.Conversion برای دات نت قابلیت تبدیل PDF به فرمت های تصویری مختلف مانند TIFF، JPG، PNG، GIF، BMP و غیره را ارائه می دهد. 
-        برخلاف سایر تبدیل‌ها، این فرآیند نیاز به اعلام یک نماینده SavePageStream دارد که فرمت نام‌گذاری تصاویر ذخیره‌شده را مشخص می‌کند. با استفاده از کلاس ImageFileType می توانید فرمت تصویر دلخواه خود را انتخاب کنید.
+        سناریویی که معمولاً با آن مواجه می‌شوید شامل تبدیل کل یک سند PDF یا صفحات خاص به مجموعه‌ای از تصاویر است. GroupDocs.Conversion برای دات نت قابلیت تبدیل PDF به فرمت های تصویری مختلف مانند TIFF، JPG، PNG، GIF، BMP و غیره را ارائه می دهد.
+        برخلاف سایر تبدیل‌ها، این فرآیند نیاز به اعلان یک نماینده SavePageStream دارد که فرمت نام‌گذاری تصاویر ذخیره‌شده را مشخص می‌کند. با استفاده از کلاس ImageFileType می توانید فرمت تصویر دلخواه خود را انتخاب کنید.
         {{< landing/code title="تبدیل PDF به PNG در سی شارپ">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
-
+        
         // فایل PDF منبع را بارگیری کنید
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // گزینه های تبدیل را تنظیم کرده و نوع تصویر خروجی را مشخص کنید
-          var convertOptions = new ImageConvertOptions { 
+            // گزینه های تبدیل را تنظیم کرده و نوع تصویر خروجی را مشخص کنید
+            var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
-          };
-          
-          // هر صفحه از سند PDF را به PNG تبدیل کنید
-          converter.Convert(getPageStream, convertOptions);
+            };          
+            
+            // هر صفحه از سند PDF را به PNG تبدیل کنید
+            converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "تبدیل بخشی از یک سند بزرگ"
       content: |
-        با GroupDocs.Conversion برای دات نت، می توانید بدون زحمت صفحات خاصی را از یک سند طولانی تبدیل کنید. 
+        با GroupDocs.Conversion برای دات نت، می توانید بدون زحمت صفحات خاصی را از یک سند طولانی تبدیل کنید.
         بسته به نیاز شما دو روش برای انجام این کار دارید. شما می توانید محدوده ای از صفحات را تبدیل کنید یا صفحات خاصی را تبدیل کنید.
         {{< landing/code title="تبدیل DOCX (صفحات 2-4) به PDF در سی شارپ">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // فایل منبع DOCX را بارگیری کنید
+        // فایل منبع DOCX را بارگیری کنید  
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // گزینه های تبدیل را تنظیم کرده و محدوده صفحاتی را که باید ارائه شوند را مشخص کنید
-           var convertOptions = new PdfConvertOptions 
-           { 
+            // گزینه ها را تنظیم کنید و محدوده صفحات را برای تبدیل مشخص کنید       
+            var convertOptions = new PdfConvertOptions 
+            { 
               PageNumber = 2, 
               PagesCount = 3 
-           };
-
-           // صفحات 2-4 را به PDF تبدیل کنید                                     
-           converter.Convert("pages-2-4.pdf", convertOptions);
-        }  
+            };
+            
+            // صفحات 2-4 را به PDF تبدیل کنید       
+            converter.Convert("pages-2-4.pdf", convertOptions);
+        }
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "نحو روان: یک رویکرد کارآمد"
       content: |
-        سینتکس Fluent یک نماد مختصر برای اقدامات معمول در GroupDocs.Conversion برای NET API ارائه می دهد. 
+        سینتکس Fluent یک نماد مختصر برای اقدامات معمول در GroupDocs.Conversion برای NET API ارائه می دهد.
         نمونه کد زیر نحوه استفاده از نحو روان را نشان می دهد:
         {{< landing/code title="با استفاده از سینتکس روان، DOCX را به PDF در سی شارپ تبدیل کنید">}}
         ```csharp {style=abap}  
@@ -274,22 +275,5 @@ code_samples:
             .Convert();
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "بررسی محصولات GroupDocs"
-# description: "فقط حرف ما را قبول نکنید. ببینید سایر توسعه دهندگان در مورد API های ما چه می گویند"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "خدمات عالی و محصولات عالی. آنها در طول فرآیند اجرای GroupDocs.Conversion برای دات نت بسیار مفید و پاسخگو بودند، نمی توان آنها را به اندازه کافی توصیه کرد."
-#     author: "مارتین لاسارگا"
-#     company: "مدیر محصول در Axentria ECM توسط G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "پس از پیاده سازی و استفاده از GroupDocs.Conversion برای دات نت در پروژه، به نظر می رسد که بسیار خوب کار می کند. من با مدارک زیادی تست کردم و تا الان خیلی خوبه. همه چیزهایی که به آن پرتاب کرده‌ام به خوبی رندر می‌شوند و به همان خوبی که در یک نمایشگر PDF یا MS Word به نظر می‌رسند."
-#     author: "ماتس اوستاد"
-#     company: "مشاور ارشد/شریک در Novanet AS"
+        
 ---

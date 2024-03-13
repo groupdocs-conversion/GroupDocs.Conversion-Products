@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
 product: "Conversion"
@@ -22,15 +22,16 @@ supported_platforms:
     - title: "Node.js"
       tag: "nodejs-java" 
 
+
 ############################# Head ############################
 head_title: "API การแปลงเอกสาร Java | แปลง PDF, Word, Excel, PPTX, HTML และรูปภาพ"
 head_description: "API การแปลงเอกสาร Java แปลง PDF, Word, DOC, DOCX, Excel, สเปรดชีต, PPT, PPTX, HTML, PSD, MPT, MPP, อีเมล, MSG, EMLX, AutoCAD และรูปแบบไฟล์รูปภาพ"
 
 ############################# Header ############################
-title: "การแปลงเอกสาร<br>ผ่านทางจาวา API"
+title: "การแปลงเอกสารผ่าน Java API"
 description: "API การแปลงอันทรงพลังเพื่อแปลงไฟล์ PDF, Microsoft Office, HTML, eBook และรูปภาพ"
 words:
-  for: "สำหรับ"
+  for: "for"
 
 actions:
   main: "ดาวน์โหลดฟรี Maven"
@@ -44,17 +45,20 @@ release:
   title: "เวอร์ชัน {0}  ออกแล้ว"
   notes: "ดูว่ามีอะไรใหม่"
   downloads: "ดาวน์โหลด"
+  link: "https://releases.groupdocs.com/conversion/java/release-notes/latest/"
 
 code:
   title: "วิธีแปลงไฟล์ PDF ใน Java"
   more: "ตัวอย่างเพิ่มเติม"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
   install: |
-    <dependency>
-      <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-conversion</artifactId>
-      <version>{0}</version>
-    </dependency>
+    <dependencies>
+      <dependency>
+        <groupId>com.groupdocs</groupId>
+        <artifactId>groupdocs-conversion</artifactId>
+        <version>{0}</version>
+      </dependency>
+    </dependencies>
 
     <repositories>
       <repository>
@@ -64,11 +68,11 @@ code:
       </repository>
     </repositories>
   content: |
-    ```java {style=abap}   
-    // โหลดไฟล์ PDF ต้นฉบับ
+    ```java {style=abap}
+    // โหลดไฟล์ PDF ต้นฉบับ 
     Converter converter = new Converter("resume.pdf");
     
-    // ตั้งค่าตัวเลือกการแปลง
+    // ตั้งค่าตัวเลือกการแปลง  
     WordProcessingConvertOptions convertOptions = 
         new WordProcessingConvertOptions();
 
@@ -123,6 +127,8 @@ platforms:
     # platform loop
     - title: "Maven"
       image: "maven"
+
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -134,7 +140,7 @@ formats:
     - color: "green"
       content: |
         ### รูปแบบเอกสาร
-        * **เอกสาร:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -144,21 +150,21 @@ formats:
     - color: "blue"
       content: |
         ### รูปภาพและมัลติมีเดีย
-        * **รูปภาพ:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **แผนภาพ:** VSDX, DRAW, LUCIDCHART
-        * **CAD และภูมิสารสนเทศ:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **เสียง:** MP3, WAV, FLAC, AAC, OGG
-        * **วีดีโอ:** MP4, AVI, MKV, MOV, WMV
-        * **3 มิติและเวกเตอร์:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB     
       # group loop
     - color: "red"
       content: |
-        ### รูปแบบอื่นๆ
+        ### รูปแบบอื่นๆ        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **เว็บ:**  HTML, MHTML, MHT
-        * **หอจดหมายเหตุ:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **อีเมลและ Outlook:** PST, OST, MSG, EML
-        * **การเงิน:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
@@ -222,10 +228,10 @@ code_samples:
     # code sample loop
     - title: "แปลง PDF เป็นรูปภาพ"
       content: |
-        สถานการณ์ที่พบบ่อยเกี่ยวข้องกับการแปลงเอกสาร PDF ทั้งหมดหรือหน้าใดหน้าหนึ่งเป็นคอลเลกชั่นรูปภาพ GroupDocs.Conversion สำหรับ Java นำเสนอความสามารถในการแปลง PDF เป็นรูปแบบภาพต่างๆ เช่น TIFF, JPG, PNG, GIF, BMP และอื่นๆ 
+        สถานการณ์ที่พบบ่อยเกี่ยวข้องกับการแปลงเอกสาร PDF ทั้งหมดหรือหน้าใดหน้าหนึ่งเป็นคอลเลกชั่นรูปภาพ GroupDocs.Conversion สำหรับ Java นำเสนอความสามารถในการแปลง PDF เป็นรูปแบบรูปภาพต่างๆ เช่น TIFF, JPG, PNG, GIF, BMP และอื่นๆ  
         คุณสามารถเลือกรูปแบบภาพที่คุณต้องการได้โดยใช้คลาส ImageFileType
         {{< landing/code title="การแปลง PDF เป็น PNG ใน Java">}}
-        ```java {style=abap} 
+        ```java {style=abap}
         import com.groupdocs.conversion.Converter;
         import com.groupdocs.conversion.filetypes.ImageFileType;
         import com.groupdocs.conversion.options.convert.ImageConvertOptions;
@@ -242,11 +248,10 @@ code_samples:
         converter.convert("page.png", convertOptions);
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "แปลงส่วนของเอกสารขนาดใหญ่"
       content: |
-        ด้วย GroupDocs.Conversion สำหรับ Java คุณสามารถแปลงหน้าเฉพาะจากเอกสารที่มีความยาวได้อย่างง่ายดาย 
+        ด้วย GroupDocs.Conversion สำหรับ Java คุณสามารถแปลงหน้าเฉพาะจากเอกสารที่มีความยาวได้อย่างง่ายดาย  
         คุณมีสองวิธีในการบรรลุเป้าหมายนี้ ขึ้นอยู่กับความต้องการของคุณ คุณสามารถแปลงช่วงของหน้าหรือแปลงหน้าเฉพาะได้
         {{< landing/code title="แปลง DOCX (หน้า 2-4) เป็น PDF ในภาษา Java">}}
         ```java {style=abap}   
@@ -256,8 +261,8 @@ code_samples:
 
         // โหลดไฟล์ DOCX ต้นฉบับ
         Converter converter = new Converter("booklet.docx");
-
-        // ตั้งค่าตัวเลือกการแปลงและระบุช่วงของหน้าที่จะแสดง
+           
+        // ตั้งค่าตัวเลือกและระบุช่วงของหน้าที่จะแปลง
         PdfConvertOptions convertOptions = new PdfConvertOptions();
         convertOptions.setPageNumber(2);
         convertOptions.setPagesCount(3);
@@ -266,22 +271,5 @@ code_samples:
         converter.convert("pages-2-4.pdf", convertOptions);
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "บทวิจารณ์ผลิตภัณฑ์ GroupDocs"
-# description: "อย่าเพิ่งเชื่อคำพูดของเรา ดูว่านักพัฒนารายอื่นพูดถึง API ของเราอย่างไร"
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "บริการที่เป็นเลิศและผลิตภัณฑ์ที่เป็นเลิศ พวกเขามีประโยชน์และตอบสนองอย่างมากในระหว่างกระบวนการใช้งาน GroupDocs.Viewer สำหรับ Java ไม่สามารถแนะนำได้มากพอ"
-#     author: "มาร์ติน ลาซาร์กา"
-#     company: "Product Manager ที่ Axentria ECM by G.S.I."
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "หลังจากใช้งานและใช้งาน GroupDocs.Viewer สำหรับ Java ในโปรเจ็กต์แล้ว ดูเหมือนว่าจะทำงานได้ดีมาก ฉันได้ทดสอบกับเอกสารจำนวนมากและจนถึงตอนนี้ก็ดีมาก ทุกสิ่งที่ฉันใส่ลงไปนั้นเรนเดอร์ได้อย่างสวยงามและดูดีพอๆ กับในโปรแกรมดู PDF หรือ MS Word"
-#     author: "มัตส์ อูสตัด"
-#     company: "ที่ปรึกษาอาวุโส/หุ้นส่วนของ Novanet AS"
+        
 ---

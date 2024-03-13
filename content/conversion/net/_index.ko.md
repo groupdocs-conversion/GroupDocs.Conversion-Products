@@ -1,9 +1,10 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-11-22T13:47:37
+date: 2024-03-29T12:38:08
 draft: false
 
+lang: ko
 product: "Conversion"
 product_tag: "conversion"
 platform: .NET
@@ -27,10 +28,10 @@ head_title: "C# .NET 문서 변환 API | PDF, Word, Excel, PPTX, HTML 및 이미
 head_description: "C# .NET 문서 변환 API. PDF, Word, DOC, DOCX, Excel, 스프레드시트, PPT, PPTX, HTML, PSD, MPT, MPP, 이메일, MSG, EMLX, AutoCAD 및 이미지 파일 형식을 변환합니다."
 
 ############################# Header ############################
-title: "문서 변환<br>.NET API를 통해"
+title: ".NET API를 통한 문서 변환"
 description: "PDF, Microsoft Office, HTML, eBook 및 이미지 파일을 변환하는 강력한 변환 API"
 words:
-  for: "~을 위한"
+  for: "for"
 
 actions:
   main: "무료 NuGet 다운로드"
@@ -44,6 +45,7 @@ release:
   title: "버전 {0} 출시됨"
   notes: "새로운 소식 보기"
   downloads: "다운로드"
+  link: "https://releases.groupdocs.com/conversion/net/release-notes/latest/"
 
 code:
   title: "C#에서 PDF 파일을 변환하는 방법"
@@ -55,11 +57,11 @@ code:
     // 소스 PDF 파일 로드
     using (var converter = new Converter("resume.pdf"))
     {
-      // 변환 옵션 설정
-      var convertOptions = new WordProcessingConvertOptions();
-
-      // PDF를 DOCX로 변환
-      converter.Convert("resume.docx", convertOptions);
+        // 변환 옵션 설정
+        var convertOptions = new WordProcessingConvertOptions();
+        
+        // PDF를 DOCX로 변환        
+        converter.Convert("resume.docx", convertOptions);
     }
     ```
 ############################# Overview ############################
@@ -110,6 +112,7 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+
 ############################# File formats ############################
 formats:
   enable: true
@@ -121,7 +124,7 @@ formats:
     - color: "green"
       content: |
         ### 문서 형식
-        * **서류:** PDF, XPS, TEX
+        * **Documents:** PDF, XPS, TEX
         * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
         * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
         * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
@@ -131,28 +134,28 @@ formats:
     - color: "blue"
       content: |
         ### 이미지 및 멀티미디어
-        * **이미지:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
-        * **도표:** VSDX, DRAW, LUCIDCHART
-        * **CAD 및 GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
-        * **오디오:** MP3, WAV, FLAC, AAC, OGG
-        * **동영상:** MP4, AVI, MKV, MOV, WMV
-        * **3D 및 벡터:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB        
       # group loop
     - color: "red"
       content: |
-        ### 기타 형식
+        ### 기타 형식        
         * **eBook:** EPUB, MOBI, AZW, FB2
-        * **편물:**  HTML, MHTML, MHT
-        * **아카이브:** ZIP, TAR, RAR, 7Z, BZ2, GZ
-        * **이메일 및 전망:** PST, OST, MSG, EML
-        * **재원:** QFX, OFX
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
         * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
   enable: true
   title: "GroupDocs.Conversion 기능"
-  description: "PDF 및 사무용 문서를 HTML, JPG, PNG, BMP, TIFF, SVG 및 기타 다양한 형식으로 원활하게 변환합니다. .NET API용 GroupDocs.Conversion은 쉽게 사용하고 프로젝트에 통합할 수 있도록 설계되었습니다. 변환 프로세스를 사용자 정의하는 기능을 통해 널리 사용되는 모든 문서 형식을 지원합니다."
+  description: "PDF 및 사무용 문서를 HTML, JPG, PNG, BMP, TIFF, SVG 및 기타 다양한 형식으로 원활하게 변환합니다. C# API용 GroupDocs.Conversion은 사용하기 쉽고 프로젝트에 통합되도록 설계되었습니다. 변환 프로세스를 사용자 정의하는 기능을 통해 널리 사용되는 모든 문서 형식을 지원합니다."
 
   items:
     # feature loop
@@ -188,7 +191,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "API 통합"
-      content: "변환 기능을 .NET 애플리케이션에 완벽하게 통합하여 워크플로의 일부로 완벽하게 만듭니다."
+      content: "변환 기능을 C# 애플리케이션에 원활하게 통합하여 워크플로의 일부로 매끄럽게 만듭니다."
 
     # feature loop
     - icon: "orientation"
@@ -209,61 +212,59 @@ code_samples:
     # code sample loop
     - title: "PDF를 이미지로 변환"
       content: |
-        일반적으로 발생하는 시나리오에는 전체 PDF 문서 또는 특정 페이지를 이미지 모음으로 변환하는 것이 포함됩니다. .NET용 GroupDocs.Conversion은 PDF를 TIFF, JPG, PNG, GIF, BMP 등과 같은 다양한 이미지 형식으로 변환하는 기능을 제공합니다. 
+        일반적으로 발생하는 시나리오에는 전체 PDF 문서 또는 특정 페이지를 이미지 모음으로 변환하는 것이 포함됩니다. .NET용 GroupDocs.Conversion은 PDF를 TIFF, JPG, PNG, GIF, BMP 등과 같은 다양한 이미지 형식으로 변환하는 기능을 제공합니다.
         다른 변환과 달리 이 프로세스에는 저장된 이미지의 이름 지정 형식을 지정하는 SavePageStream 대리자의 선언이 필요합니다. ImageFileType 클래스를 사용하여 원하는 이미지 형식을 선택할 수 있습니다.
         {{< landing/code title="C#에서 PDF를 PNG로 변환">}}
-        ```csharp {style=abap}   
+        ```csharp {style=abap}
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
-
+        
         // 소스 PDF 파일 로드
         using (var converter = new Converter("resume.pdf"))
         {
           var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
 
-          // 변환 옵션을 설정하고 출력 이미지 유형을 지정합니다.
-          var convertOptions = new ImageConvertOptions { 
+            // 변환 옵션을 설정하고 출력 이미지 유형을 지정합니다.
+            var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
-          };
-          
-          // PDF 문서의 각 페이지를 PNG로 변환
-          converter.Convert(getPageStream, convertOptions);
+            };          
+            
+            // PDF 문서의 각 페이지를 PNG로 변환
+            converter.Convert(getPageStream, convertOptions);
         }
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "큰 문서의 세그먼트 변환"
       content: |
-        .NET용 GroupDocs.Conversion을 사용하면 긴 문서의 특정 페이지를 쉽게 변환할 수 있습니다. 
+        .NET용 GroupDocs.Conversion을 사용하면 긴 문서의 특정 페이지를 쉽게 변환할 수 있습니다.
         요구 사항에 따라 이를 수행하는 방법에는 두 가지가 있습니다. 다양한 페이지를 변환하거나 특정 페이지를 변환할 수 있습니다.
         {{< landing/code title="C#에서 DOCX(2~4페이지)를 PDF로 변환">}}
         ```csharp {style=abap}   
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.Options.Convert;
         
-        // 소스 DOCX 파일 로드
+        // 소스 DOCX 파일 로드  
         using (Converter converter = new Converter("booklet.docx"))
         {
-           // 변환 옵션을 설정하고 렌더링할 페이지 범위를 지정하세요.
-           var convertOptions = new PdfConvertOptions 
-           { 
+            // 옵션을 설정하고 변환할 페이지 범위를 지정하세요.       
+            var convertOptions = new PdfConvertOptions 
+            { 
               PageNumber = 2, 
               PagesCount = 3 
-           };
-
-           // 2-4페이지를 PDF로 변환                                     
-           converter.Convert("pages-2-4.pdf", convertOptions);
-        }  
+            };
+            
+            // 2-4페이지를 PDF로 변환       
+            converter.Convert("pages-2-4.pdf", convertOptions);
+        }
         ```
         {{< /landing/code >}}
-
     # code sample loop
     - title: "유창한 구문: 간소화된 접근 방식"
       content: |
-        Fluent 구문은 .NET API용 GroupDocs.Conversion 내의 일반적인 작업에 대한 간결한 표기법을 제공합니다. 
-        아래 코드 샘플은 Fluent 구문을 활용하는 방법을 보여줍니다.
+        Fluent 구문은 .NET API용 GroupDocs.Conversion 내의 일반적인 작업에 대한 간결한 표기법을 제공합니다.
+        아래 코드 샘플은 유창한 구문을 활용하는 방법을 보여줍니다.:
         {{< landing/code title="유연한 구문을 사용하여 C#에서 DOCX를 PDF로 변환">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;
@@ -274,22 +275,5 @@ code_samples:
             .Convert();
         ```
         {{< /landing/code >}}
-############################# Reviews ############################
-# reviews:
-# enable: true
-# title: "GroupDocs 제품 리뷰"
-# description: "우리의 말만 받아들이지 마십시오. 다른 개발자가 우리 API에 대해 어떻게 말하는지 확인하세요."
-
-# items:
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "우수한 서비스와 우수한 제품. GroupDocs.Conversion for .NET 구현 프로세스 동안 매우 도움이 되고 응답이 빨랐기 때문에 충분히 추천할 수는 없습니다."
-#     author: "마틴 라사르가"
-#     company: "G.S.I의 Axentria ECM 제품 관리자"
-
-#   # review loop
-#   - title: "GroupDocs.Viewer"
-#     content: "프로젝트에서 .NET용 GroupDocs.Conversion을 구현하고 사용한 후에는 매우 잘 작동하는 것으로 보입니다. 나는 많은 문서를 가지고 테스트해 보았는데 지금까지는 아주 좋았다. 내가 던진 모든 것은 PDF 뷰어나 MS Word에서와 마찬가지로 멋지게 렌더링되고 보기에도 좋습니다."
-#     author: "마츠 우스타드"
-#     company: "Novanet AS의 수석 컨설턴트/파트너"
+        
 ---

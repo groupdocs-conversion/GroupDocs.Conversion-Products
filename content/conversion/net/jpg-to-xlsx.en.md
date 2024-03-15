@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:05
+date: 2024-02-27T06:39:57
 draft: false
-lang: en
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jpg")             // Set up input JPG file
+            .Load("input.jpg")               // Set up input JPG file
             .ConvertTo("converted.xlsx")     // Specify output path for converted file
             .Convert();                     // Convert JPG to XLSX file        
         ```            

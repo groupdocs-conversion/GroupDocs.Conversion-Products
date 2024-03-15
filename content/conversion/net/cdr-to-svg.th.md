@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:33
+date: 2024-02-27T06:39:57
 draft: false
-lang: th
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cdr")             // ตั้งค่าไฟล์ CDR เข้าสู่ระบบ
+            .Load("input.cdr")               // ตั้งค่าไฟล์ CDR เข้าสู่ระบบ
             .ConvertTo("converted.svg")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ CDR เป็นไฟล์ SVG        
         ```            

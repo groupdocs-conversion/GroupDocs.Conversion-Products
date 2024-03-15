@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:23
+date: 2024-02-27T06:39:57
 draft: false
-lang: ja
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.msg")             // MSG ファイルを入力設定
+            .Load("input.msg")               // MSG ファイルを入力設定
             .ConvertTo("converted.pdf")     // 変換されたファイルの出力パスを指定
             .Convert();                     // MSG ファイルを PDF ファイルに変換        
         ```            

@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:51
+date: 2024-02-27T06:39:57
 draft: false
-lang: fa
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // تنظیم فایل ورودی JSON
             .convertTo("converted.svg")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                     // تبدیل فایل JSON به SVG        
+            .convert();                    // تبدیل فایل JSON به SVG        
         ```            
 
 ############################# Actions ############################

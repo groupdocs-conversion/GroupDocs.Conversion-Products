@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:25
+date: 2024-02-27T06:39:57
 draft: false
-lang: ko
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dgn")             // DGN 파일을 입력 설정
+            .Load("input.dgn")               // DGN 파일을 입력 설정
             .ConvertTo("converted.json")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // DGN 파일을 JSON 파일로 변환        
         ```            

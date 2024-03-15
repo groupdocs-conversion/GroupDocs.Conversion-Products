@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:53
+date: 2024-02-27T06:39:57
 draft: false
-lang: fr
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.prn")              // Configurer le fichier PRN d'entrée
             .convertTo("converted.bmp")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                     // Convertir le fichier PRN en BMP        
+            .convert();                    // Convertir le fichier PRN en BMP        
         ```            
 
 ############################# Actions ############################

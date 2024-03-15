@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:59
+date: 2024-02-27T06:39:57
 draft: false
-lang: pt
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.wmf")              // Configurar arquivo de entrada WMF
             .convertTo("converted.png")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                     // Converter arquivo WMF para PNG        
+            .convert();                    // Converter arquivo WMF para PNG        
         ```            
 
 ############################# Actions ############################

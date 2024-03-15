@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:18
+date: 2024-02-27T06:39:57
 draft: false
-lang: id
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.plt")             // Atur file PLT input
+            .Load("input.plt")               // Atur file PLT input
             .ConvertTo("converted.ai")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file PLT ke AI        
         ```            

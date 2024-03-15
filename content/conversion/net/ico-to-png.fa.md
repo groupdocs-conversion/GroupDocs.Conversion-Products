@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:13
+date: 2024-02-27T06:39:57
 draft: false
-lang: fa
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ico")             // تنظیم فایل ورودی ICO
+            .Load("input.ico")               // تنظیم فایل ورودی ICO
             .ConvertTo("converted.png")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل ICO به PNG        
         ```            

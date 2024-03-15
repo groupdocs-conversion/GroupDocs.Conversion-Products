@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:50
+date: 2024-02-27T06:39:57
 draft: false
-lang: es
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.webp")              // Configurar archivo de entrada WEBP
             .convertTo("converted.gif")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                     // Convertir archivo WEBP a GIF        
+            .convert();                    // Convertir archivo WEBP a GIF        
         ```            
 
 ############################# Actions ############################

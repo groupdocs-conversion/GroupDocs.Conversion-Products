@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:10
+date: 2024-02-27T06:39:57
 draft: false
-lang: es
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dxf")             // Configurar archivo de entrada DXF
+            .Load("input.dxf")               // Configurar archivo de entrada DXF
             .ConvertTo("converted.txt")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo DXF a TXT        
         ```            

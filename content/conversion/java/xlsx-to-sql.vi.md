@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:04
+date: 2024-02-27T06:39:57
 draft: false
-lang: vi
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // Thiết lập tệp XLSX đầu vào
             .convertTo("converted.sql")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                     // Chuyển đổi tệp XLSX thành tệp SQL        
+            .convert();                    // Chuyển đổi tệp XLSX thành tệp SQL        
         ```            
 
 ############################# Actions ############################

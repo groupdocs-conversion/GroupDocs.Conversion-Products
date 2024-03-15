@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:49
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.png")              // Richten Sie die Eingabedatei PNG ein
             .convertTo("converted.odg")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                     // PNG in ODG Datei konvertieren        
+            .convert();                    // PNG in ODG Datei konvertieren        
         ```            
 
 ############################# Actions ############################

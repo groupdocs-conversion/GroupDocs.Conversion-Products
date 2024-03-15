@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:30
+date: 2024-02-27T06:39:57
 draft: false
-lang: pt
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xls")             // Configurar arquivo de entrada XLS
+            .Load("input.xls")               // Configurar arquivo de entrada XLS
             .ConvertTo("converted.pdf")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo XLS para PDF        
         ```            

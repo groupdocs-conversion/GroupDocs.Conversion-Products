@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:49
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Richten Sie die Eingabedatei PDF ein
             .convertTo("converted.tiff")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                     // PDF in TIFF Datei konvertieren        
+            .convert();                    // PDF in TIFF Datei konvertieren        
         ```            
 
 ############################# Actions ############################

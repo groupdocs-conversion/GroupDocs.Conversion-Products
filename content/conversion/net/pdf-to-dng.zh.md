@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:44
+date: 2024-02-27T06:39:57
 draft: false
-lang: zh
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pdf")             // 设置输入 PDF 文件
+            .Load("input.pdf")               // 设置输入 PDF 文件
             .ConvertTo("converted.dng")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 PDF 转换为 DNG 文件        
         ```            

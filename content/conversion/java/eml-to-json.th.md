@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:01
+date: 2024-02-27T06:39:57
 draft: false
-lang: th
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eml")              // ตั้งค่าไฟล์ EML เข้าสู่ระบบ
             .convertTo("converted.json")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                     // แปลงไฟล์ EML เป็นไฟล์ JSON        
+            .convert();                    // แปลงไฟล์ EML เป็นไฟล์ JSON        
         ```            
 
 ############################# Actions ############################

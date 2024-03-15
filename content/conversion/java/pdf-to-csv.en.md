@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:48
+date: 2024-02-27T06:39:57
 draft: false
-lang: en
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Set up input PDF file
             .convertTo("converted.csv")    // Specify output path for converted file
-            .convert();                     // Convert PDF to CSV file        
+            .convert();                    // Convert PDF to CSV file        
         ```            
 
 ############################# Actions ############################

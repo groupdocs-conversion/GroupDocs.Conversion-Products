@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:09
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vsdx")             // Richten Sie die Eingabedatei VSDX ein
+            .Load("input.vsdx")               // Richten Sie die Eingabedatei VSDX ein
             .ConvertTo("converted.pdf")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // VSDX in PDF Datei konvertieren        
         ```            

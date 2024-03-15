@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:22
+date: 2024-02-27T06:39:57
 draft: false
-lang: it
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xls")             // Imposta il file XLS di input
+            .Load("input.xls")               // Imposta il file XLS di input
             .ConvertTo("converted.xlsb")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file XLS in XLSB        
         ```            

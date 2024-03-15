@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:14
+date: 2024-02-27T06:39:57
 draft: false
-lang: fa
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xslfo")             // تنظیم فایل ورودی XSLFO
+            .Load("input.xslfo")               // تنظیم فایل ورودی XSLFO
             .ConvertTo("converted.pdf")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل XSLFO به PDF        
         ```            

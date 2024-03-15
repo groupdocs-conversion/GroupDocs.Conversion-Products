@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:09
+date: 2024-02-27T06:39:57
 draft: false
-lang: es
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cdr")             // Configurar archivo de entrada CDR
+            .Load("input.cdr")               // Configurar archivo de entrada CDR
             .ConvertTo("converted.jpg")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo CDR a JPG        
         ```            

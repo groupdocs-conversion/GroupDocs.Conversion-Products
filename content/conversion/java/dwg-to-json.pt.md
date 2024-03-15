@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:58
+date: 2024-02-27T06:39:57
 draft: false
-lang: pt
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // Configurar arquivo de entrada DWG
             .convertTo("converted.json")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                     // Converter arquivo DWG para JSON        
+            .convert();                    // Converter arquivo DWG para JSON        
         ```            
 
 ############################# Actions ############################

@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:03
+date: 2024-02-27T06:39:57
 draft: false
-lang: vi
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Thiết lập tệp PDF đầu vào
             .convertTo("converted.epub")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                     // Chuyển đổi tệp PDF thành tệp EPUB        
+            .convert();                    // Chuyển đổi tệp PDF thành tệp EPUB        
         ```            
 
 ############################# Actions ############################

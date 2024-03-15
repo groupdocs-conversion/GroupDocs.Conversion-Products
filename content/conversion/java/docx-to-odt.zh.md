@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:04
+date: 2024-02-27T06:39:57
 draft: false
-lang: zh
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // 设置输入 DOCX 文件
             .convertTo("converted.odt")    // 为转换后的文件指定输出路径
-            .convert();                     // 将 DOCX 转换为 ODT 文件        
+            .convert();                    // 将 DOCX 转换为 ODT 文件        
         ```            
 
 ############################# Actions ############################

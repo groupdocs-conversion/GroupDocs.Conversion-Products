@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:31
+date: 2024-02-27T06:39:57
 draft: false
-lang: ru
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -15,8 +15,8 @@ head_title: "MHTML в PDF Конвертер API для .NET - конверти�
 head_description: ".NET конвертер файлов API для преобразования MHTML в PDF в любом типе приложений C#, ASP.NET, VB.NET и .NET Core."
 
 ############################# Header ############################
-title: "Конвертер файлов от MHTML к PDF для приложений C# .NET" 
-description: "API конвертации документов .NET для беспрерывного преобразования MHTML в формат PDF в приложениях C#, ASP.NET, VB.NET и .NET Core. Обеспечьте точное форматирование и сохранение макета в процессе конвертации, минимизируя при этом усилия по кодированию." 
+title: "Конвертер MHTML в PDF для приложений C# .NET" 
+description: "API конвертации документов .NET для преобразования MHTML в формат PDF в приложениях C#, ASP.NET, VB.NET и .NET Core. Обеспечьте точное форматирование и сохранение макета в процессе конвертации, минимизируя при этом усилия по кодированию." 
 subtitle: "Решение по преобразованию документов" 
 
 header_actions:
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mhtml")             // Настройте входной файл MHTML
+            .Load("input.mhtml")               // Настройте входной файл MHTML
             .ConvertTo("converted.pdf")     // Укажите путь к конвертированному файлу
             .Convert();                     // Конвертировать файл MHTML в файл PDF        
         ```            
@@ -93,132 +93,132 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Преобразовать другие форматы файлов, используя C#"
+    title: "Конвертировать другие форматы файлов, используя C#"
     exclude: "MHTML to PDF"
     description: "Получите доступ к универсальному мультиформатному API конвертации документов и изображений для .NET. Переключайтесь между различными популярными форматами файлов ниже без необходимости внешнего программного обеспечения."
     items: 
         # format loop 1
-        - name: "Преобразовать DOCX в HTML"
+        - name: "Конвертер DOCX в HTML"
           format: "DOCX to HTML"
           link: "/conversion/net/docx-to-html/"
           description: "Hypertext Markup Language File" 
 
         # format loop 2
-        - name: "Преобразовать DICOM в JPG" 
+        - name: "Конвертер DICOM в JPG" 
           format: "DICOM to JPG"
           link: "/conversion/net/dicom-to-jpg/"
           description: "JPEG Image" 
 
         # format loop 3
-        - name: "Преобразовать DJVU в PDF"
+        - name: "Конвертер DJVU в PDF"
           format: "DJVU to PDF"
           link: "/conversion/net/djvu-to-pdf/"
           description: "Portable Document Format File" 
 
         # format loop 4
-        - name: "Преобразовать AI в PNG"
+        - name: "Конвертер AI в PNG"
           format: "AI to PNG"
           link: "/conversion/net/ai-to-png/"
           description: "Portable Network Graphic" 
 
         # format loop 5
-        - name: "Преобразовать BMP в GIF"
+        - name: "Конвертер BMP в GIF"
           format: "BMP to GIF"
           link: "/conversion/net/bmp-to-gif/"
           description: "Graphics Interchange Format"
 
         # format loop 6
-        - name: "Преобразовать CAD в XML"
+        - name: "Конвертер CAD в XML"
           format: "CAD to XML"
           link: "/conversion/net/cad-to-xml/"
           description: "XML File"
 
         # format loop 7
-        - name: "Преобразовать PDF в PPTX"
+        - name: "Конвертер PDF в PPTX"
           format: "PDF to PPTX"
           link: "/conversion/net/pdf-to-pptx/"
           description: "Open XML presentation Format"
 
         # format loop 8
-        - name: "Преобразовать HTML в DOCX"
+        - name: "Конвертер HTML в DOCX"
           format: "HTML to DOCX"
           link: "/conversion/net/html-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop 9
-        - name: "Преобразовать PDF в TIFF"
+        - name: "Конвертер PDF в TIFF"
           format: "PDF to TIFF"
           link: "/conversion/net/pdf-to-tiff/"
           description: "Tagged Image File Format" 
 
         # format loop 10
-        - name: "Преобразовать CSV в JSON" 
+        - name: "Конвертер CSV в JSON" 
           format: "CSV to JSON"
           link: "/conversion/net/csv-to-json/"
           description: "JavaScript Object Notation" 
 
         # format loop 11
-        - name: "Преобразовать CSV в XLSX" 
+        - name: "Конвертер CSV в XLSX" 
           format: "XML to XLSX"
           link: "/conversion/net/xml-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"  
           
         # format loop 12
-        - name: "Преобразовать EML в MHT"
+        - name: "Конвертер EML в MHT"
           format: "EML to MHT"
           link: "/conversion/net/eml-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"  
               
         # format loop 13
-        - name: "Преобразовать PDF в XPS"
+        - name: "Конвертер PDF в XPS"
           format: "PDF to XPS"
           link: "/conversion/net/pdf-to-xps/"
           description: "Open XML Paper Specification" 
           
         # format loop 14
-        - name: "Преобразовать PNG в SVG"
+        - name: "Конвертер PNG в SVG"
           format: "PNG to SVG"
           link: "/conversion/net/png-to-svg/"
           description: "Scalable Vector Graphics File" 
           
         # format loop 15
-        - name: "Преобразовать XML в RTF"
+        - name: "Конвертер XML в RTF"
           format: "XML to RTF"
           link: "/conversion/net/xml-to-rtf/"
           description: "Rich Text File Format"
           
         # format loop 16
-        - name: "Преобразовать PDF в TXT"
+        - name: "Конвертер PDF в TXT"
           format: "PDF to TXT"
           link: "/conversion/net/pdf-to-txt/"
           description: "Plain Text File Format"              
         
         # format loop 17
-        - name: "Преобразовать DOCX в PDF"
+        - name: "Конвертер DOCX в PDF"
           format: "DOCX to PDF"
           link: "/conversion/net/docx-to-pdf/"
           description: "Portable Document Format File"
  
         # format loop 18
-        - name: "Преобразовать CSV в XLSX"
+        - name: "Конвертер CSV в XLSX"
           format: "CSV to XLSX"
           link: "/conversion/net/csv-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet File"
  
         # format loop 19
-        - name: "Преобразовать EML в MSG"
+        - name: "Конвертер EML в MSG"
           format: "EML to MSG"
           link: "/conversion/net/eml-to-msg/"
           description: "Microsoft Outlook Email Message File"
 
         # format loop 20
-        - name: "Преобразовать PNG в JPG"
+        - name: "Конвертер PNG в JPG"
           format: "PNG to JPG"
           link: "/conversion/net/png-to-jpg/"
           description: "Joint Photographic Experts Group Image File"
 
         # format loop 13
-        - name: "Преобразовать PDF в EPUB"
+        - name: "Конвертер PDF в EPUB"
           format: "PDF to EPUB"
           link: "/conversion/net/pdf-to-epub/"
           description: "Electronic Publication File"

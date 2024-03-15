@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:08
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mpx")             // Richten Sie die Eingabedatei MPX ein
+            .Load("input.mpx")               // Richten Sie die Eingabedatei MPX ein
             .ConvertTo("converted.docx")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // MPX in DOCX Datei konvertieren        
         ```            

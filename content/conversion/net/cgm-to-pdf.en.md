@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:05
+date: 2024-02-27T06:39:57
 draft: false
-lang: en
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cgm")             // Set up input CGM file
+            .Load("input.cgm")               // Set up input CGM file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert CGM to PDF file        
         ```            

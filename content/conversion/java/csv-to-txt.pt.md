@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:58
+date: 2024-02-27T06:39:57
 draft: false
-lang: pt
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.csv")              // Configurar arquivo de entrada CSV
             .convertTo("converted.txt")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                     // Converter arquivo CSV para TXT        
+            .convert();                    // Converter arquivo CSV para TXT        
         ```            
 
 ############################# Actions ############################

@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:55
+date: 2024-02-27T06:39:57
 draft: false
-lang: id
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // Atur file XML input
             .convertTo("converted.mpx")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                     // Konversi file XML ke MPX        
+            .convert();                    // Konversi file XML ke MPX        
         ```            
 
 ############################# Actions ############################

@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:05
+date: 2024-02-27T06:39:57
 draft: false
-lang: en
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwg")             // Set up input DWG file
+            .Load("input.dwg")               // Set up input DWG file
             .ConvertTo("converted.jpg")     // Specify output path for converted file
             .Convert();                     // Convert DWG to JPG file        
         ```            

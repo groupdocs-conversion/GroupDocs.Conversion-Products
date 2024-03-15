@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:00
+date: 2024-02-27T06:39:57
 draft: false
-lang: ru
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mhtml")              // Настройте входной файл MHTML
             .convertTo("converted.xml")    // Укажите путь к конвертированному файлу
-            .convert();                     // Конвертировать файл MHTML в файл XML        
+            .convert();                    // Конвертировать файл MHTML в файл XML        
         ```            
 
 ############################# Actions ############################
@@ -108,132 +108,132 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Преобразовать другие форматы файлов, используя Java"
+    title: "Конвертировать другие форматы файлов, используя Java"
     exclude: "MHTML to XML"
     description: "Получите доступ к универсальному API для конвертации документов и изображений между различными форматами в Java. Мгновенно переключайтесь между некоторыми из самых распространенных форматов файлов, перечисленных ниже, без необходимости использования внешних инструментов."
     items: 
       # format loop 1
-      - name: "Преобразовать DOCX в PDF"
+      - name: "Конвертер DOCX в PDF"
         format: "DOCX to PDF"
         link: "/conversion/java/docx-to-pdf/"
         description: "Portable Document Format File"
 
       # format loop 2
-      - name: "Преобразовать DOC в HTML"
+      - name: "Конвертер DOC в HTML"
         format: "DOC to HTML"
         link: "/conversion/java/doc-to-html/"
         description: "Hypertext Markup Language File"
 
       # format loop 3
-      - name: "Преобразовать CSV в XLSX"
+      - name: "Конвертер CSV в XLSX"
         format: "CSV to XLSX"
         link: "/conversion/java/csv-to-xlsx/"
         description: "Microsoft Excel Open XML Spreadsheet File"
 
       # format loop 4
-      - name: "Преобразовать EML в MSG"
+      - name: "Конвертер EML в MSG"
         format: "EML to MSG"
         link: "/conversion/java/eml-to-msg/"
         description: "Microsoft Outlook Email Message File"
 
       # format loop 5
-      - name: "Преобразовать HTML в DOCX"
+      - name: "Конвертер HTML в DOCX"
         format: "HTML to DOCX"
         link: "/conversion/java/html-to-docx/"
         description: "Microsoft Word Open XML Document"
 
       # format loop 6
-      - name: "Преобразовать HTML в PNG"
+      - name: "Конвертер HTML в PNG"
         format: "HTML to PNG"
         link: "/conversion/java/html-to-png/"
         description: "Portable Network Graphics File"
 
       # format loop 7
-      - name: "Преобразовать JPG в TIFF"
+      - name: "Конвертер JPG в TIFF"
         format: "JPG to TIFF"
         link: "/conversion/java/jpg-to-tiff/"
         description: "Tagged Image File Format"
 
       # format loop 8
-      - name: "Преобразовать PDF в EPUB"
+      - name: "Конвертер PDF в EPUB"
         format: "PDF to EPUB"
         link: "/conversion/java/pdf-to-epub/"
         description: "Electronic Publication File"
 
       # format loop 9
-      - name: "Преобразовать PNG в JPG"
+      - name: "Конвертер PNG в JPG"
         format: "PNG to JPG"
         link: "/conversion/java/png-to-jpg/"
         description: "Joint Photographic Experts Group Image File"
 
       # format loop 10
-      - name: "Преобразовать SVG в PNG"
+      - name: "Конвертер SVG в PNG"
         format: "SVG to PNG"
         link: "/conversion/java/svg-to-png/"
         description: "Portable Network Graphics File"
 
       # format loop 11
-      - name: "Преобразовать TXT в XML"
+      - name: "Конвертер TXT в XML"
         format: "TXT to XML"
         link: "/conversion/java/txt-to-xml/"
         description: "Extensible Markup Language File"
 
       # format loop 12
-      - name: "Преобразовать XLS в JSON"
+      - name: "Конвертер XLS в JSON"
         format: "XLS to JSON"
         link: "/conversion/java/xls-to-json/"
         description: "JavaScript Object Notation File"
 
       # format loop 13
-      - name: "Преобразовать XML в DOCX"
+      - name: "Конвертер XML в DOCX"
         format: "XML to DOCX"
         link: "/conversion/java/xml-to-docx/"
         description: "Microsoft Word Open XML Document"
 
       # format loop 14
-      - name: "Преобразовать DOCX в HTML"
+      - name: "Конвертер DOCX в HTML"
         format: "DOCX to HTML"
         link: "/conversion/java/docx-to-html/"
         description: "Hypertext Markup Language File" 
 
       # format loop 15
-      - name: "Преобразовать DICOM в JPG" 
+      - name: "Конвертер DICOM в JPG" 
         format: "DICOM to JPG"
         link: "/conversion/java/dicom-to-jpg/"
         description: "JPEG Image" 
 
       # format loop 16
-      - name: "Преобразовать DJVU в PDF"
+      - name: "Конвертер DJVU в PDF"
         format: "DJVU to PDF"
         link: "/conversion/java/djvu-to-pdf/"
         description: "Portable Document Format File" 
 
       # format loop 17
-      - name: "Преобразовать AI в PNG"
+      - name: "Конвертер AI в PNG"
         format: "AI to PNG"
         link: "/conversion/java/ai-to-png/"
         description: "Portable Network Graphic" 
       
       # format loop 18
-      - name: "Преобразовать BMP в SVG"
+      - name: "Конвертер BMP в SVG"
         format: "BMP to SVG"
         link: "/conversion/java/bmp-to-svg/"
         description: "Graphics Interchange Format"
 
       # format loop 19
-      - name: "Преобразовать DOT в VSDX"
+      - name: "Конвертер DOT в VSDX"
         format: "DOT to VSDX"
         link: "/conversion/java/dot-to-vsdx/"
         description: "Microsoft Visio File"
 
       # format loop 20
-      - name: "Преобразовать MHTML в DOCX"
+      - name: "Конвертер MHTML в DOCX"
         format: "MHTML to DOCX"
         link: "/conversion/java/mhtml-to-docx/"
         description: "Microsoft Word Open XML Document"
 
       # format loop 21
-      - name: "Преобразовать TXT в EML"
+      - name: "Конвертер TXT в EML"
         format: "TXT to EML"
         link: "/conversion/java/txt-to-eml/"
         description: "Microsoft Outlook File"

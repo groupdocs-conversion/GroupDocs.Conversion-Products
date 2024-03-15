@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:47
+date: 2024-02-27T06:39:57
 draft: false
-lang: en
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.chm")              // Set up input CHM file
             .convertTo("converted.pdf")    // Specify output path for converted file
-            .convert();                     // Convert CHM to PDF file        
+            .convert();                    // Convert CHM to PDF file        
         ```            
 
 ############################# Actions ############################

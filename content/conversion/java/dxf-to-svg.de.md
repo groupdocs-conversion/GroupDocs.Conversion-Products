@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:49
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dxf")              // Richten Sie die Eingabedatei DXF ein
             .convertTo("converted.svg")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                     // DXF in SVG Datei konvertieren        
+            .convert();                    // DXF in SVG Datei konvertieren        
         ```            
 
 ############################# Actions ############################

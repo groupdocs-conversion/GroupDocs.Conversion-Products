@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:53
+date: 2024-02-27T06:39:57
 draft: false
-lang: id
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // Atur file DOCX input
             .convertTo("converted.doc")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                     // Konversi file DOCX ke DOC        
+            .convert();                    // Konversi file DOCX ke DOC        
         ```            
 
 ############################# Actions ############################

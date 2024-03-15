@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:54
+date: 2024-02-27T06:39:57
 draft: false
-lang: id
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dxf")              // Atur file DXF input
             .convertTo("converted.txt")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                     // Konversi file DXF ke TXT        
+            .convert();                    // Konversi file DXF ke TXT        
         ```            
 
 ############################# Actions ############################

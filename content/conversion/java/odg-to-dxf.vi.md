@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:03
+date: 2024-02-27T06:39:57
 draft: false
-lang: vi
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.odg")              // Thiết lập tệp ODG đầu vào
             .convertTo("converted.dxf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                     // Chuyển đổi tệp ODG thành tệp DXF        
+            .convert();                    // Chuyển đổi tệp ODG thành tệp DXF        
         ```            
 
 ############################# Actions ############################

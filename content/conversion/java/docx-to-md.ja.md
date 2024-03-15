@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:56
+date: 2024-02-27T06:39:57
 draft: false
-lang: ja
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // DOCX ファイルを入力設定
             .convertTo("converted.md")    // 変換されたファイルの出力パスを指定
-            .convert();                     // DOCX ファイルを MD ファイルに変換        
+            .convert();                    // DOCX ファイルを MD ファイルに変換        
         ```            
 
 ############################# Actions ############################

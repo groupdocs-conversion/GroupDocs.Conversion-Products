@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:51
+date: 2024-02-27T06:39:57
 draft: false
-lang: es
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // Configurar archivo de entrada XML
             .convertTo("converted.pdf")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                     // Convertir archivo XML a PDF        
+            .convert();                    // Convertir archivo XML a PDF        
         ```            
 
 ############################# Actions ############################

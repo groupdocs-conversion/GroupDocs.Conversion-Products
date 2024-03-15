@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:04
+date: 2024-02-27T06:39:57
 draft: false
-lang: vi
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.rtf")              // Thiết lập tệp RTF đầu vào
             .convertTo("converted.md")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                     // Chuyển đổi tệp RTF thành tệp MD        
+            .convert();                    // Chuyển đổi tệp RTF thành tệp MD        
         ```            
 
 ############################# Actions ############################

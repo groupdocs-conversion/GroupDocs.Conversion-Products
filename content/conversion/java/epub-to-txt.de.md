@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:49
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.epub")              // Richten Sie die Eingabedatei EPUB ein
             .convertTo("converted.txt")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                     // EPUB in TXT Datei konvertieren        
+            .convert();                    // EPUB in TXT Datei konvertieren        
         ```            
 
 ############################# Actions ############################

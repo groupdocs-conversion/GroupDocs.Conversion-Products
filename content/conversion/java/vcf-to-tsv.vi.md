@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:04
+date: 2024-02-27T06:39:57
 draft: false
-lang: vi
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.vcf")              // Thiết lập tệp VCF đầu vào
             .convertTo("converted.tsv")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                     // Chuyển đổi tệp VCF thành tệp TSV        
+            .convert();                    // Chuyển đổi tệp VCF thành tệp TSV        
         ```            
 
 ############################# Actions ############################

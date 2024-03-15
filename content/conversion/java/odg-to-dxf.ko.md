@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:58
+date: 2024-02-27T06:39:57
 draft: false
-lang: ko
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.odg")              // ODG 파일을 입력 설정
             .convertTo("converted.dxf")    // 변환된 파일의 출력 경로 지정
-            .convert();                     // ODG 파일을 DXF 파일로 변환        
+            .convert();                    // ODG 파일을 DXF 파일로 변환        
         ```            
 
 ############################# Actions ############################

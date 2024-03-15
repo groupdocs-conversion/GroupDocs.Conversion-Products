@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:45
+date: 2024-02-27T06:39:57
 draft: false
-lang: zh
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.svg")             // 设置输入 SVG 文件
+            .Load("input.svg")               // 设置输入 SVG 文件
             .ConvertTo("converted.webp")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 SVG 转换为 WEBP 文件        
         ```            

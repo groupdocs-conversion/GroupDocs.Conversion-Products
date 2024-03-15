@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:03
+date: 2024-02-27T06:39:57
 draft: false
-lang: uk
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tif")              // Налаштування вхідного файлу TIF
             .convertTo("converted.tiff")    // Вказівка шляху виведення для конвертованого файлу
-            .convert();                     // Конвертування файлу TIF у файл TIFF        
+            .convert();                    // Конвертування файлу TIF у файл TIFF        
         ```            
 
 ############################# Actions ############################

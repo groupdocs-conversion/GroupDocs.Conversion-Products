@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:53
+date: 2024-02-27T06:39:57
 draft: false
-lang: fr
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.svg")              // Configurer le fichier SVG d'entrée
             .convertTo("converted.html")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                     // Convertir le fichier SVG en HTML        
+            .convert();                    // Convertir le fichier SVG en HTML        
         ```            
 
 ############################# Actions ############################

@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:08
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.numbers")             // Richten Sie die Eingabedatei NUMBERS ein
+            .Load("input.numbers")               // Richten Sie die Eingabedatei NUMBERS ein
             .ConvertTo("converted.json")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // NUMBERS in JSON Datei konvertieren        
         ```            

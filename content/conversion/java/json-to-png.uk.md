@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:02
+date: 2024-02-27T06:39:57
 draft: false
-lang: uk
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // Налаштування вхідного файлу JSON
             .convertTo("converted.png")    // Вказівка шляху виведення для конвертованого файлу
-            .convert();                     // Конвертування файлу JSON у файл PNG        
+            .convert();                    // Конвертування файлу JSON у файл PNG        
         ```            
 
 ############################# Actions ############################

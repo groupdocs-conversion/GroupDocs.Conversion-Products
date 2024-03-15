@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:55
+date: 2024-02-27T06:39:57
 draft: false
-lang: it
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.odg")              // Imposta il file ODG di input
             .convertTo("converted.vsdx")    // Specificare il percorso di output per il file convertito
-            .convert();                     // Converti il file ODG in VSDX        
+            .convert();                    // Converti il file ODG in VSDX        
         ```            
 
 ############################# Actions ############################

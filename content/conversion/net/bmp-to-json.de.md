@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:06
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.bmp")             // Richten Sie die Eingabedatei BMP ein
+            .Load("input.bmp")               // Richten Sie die Eingabedatei BMP ein
             .ConvertTo("converted.json")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // BMP in JSON Datei konvertieren        
         ```            

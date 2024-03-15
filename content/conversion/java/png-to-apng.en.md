@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:48
+date: 2024-02-27T06:39:57
 draft: false
-lang: en
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.png")              // Set up input PNG file
             .convertTo("converted.apng")    // Specify output path for converted file
-            .convert();                     // Convert PNG to APNG file        
+            .convert();                    // Convert PNG to APNG file        
         ```            
 
 ############################# Actions ############################

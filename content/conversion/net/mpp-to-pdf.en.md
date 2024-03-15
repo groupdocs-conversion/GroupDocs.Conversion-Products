@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:06
+date: 2024-02-27T06:39:57
 draft: false
-lang: en
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mpp")             // Set up input MPP file
+            .Load("input.mpp")               // Set up input MPP file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert MPP to PDF file        
         ```            

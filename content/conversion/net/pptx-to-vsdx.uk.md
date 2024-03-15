@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:42
+date: 2024-02-27T06:39:57
 draft: false
-lang: uk
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pptx")             // Налаштування вхідного файлу PPTX
+            .Load("input.pptx")               // Налаштування вхідного файлу PPTX
             .ConvertTo("converted.vsdx")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу PPTX у файл VSDX        
         ```            

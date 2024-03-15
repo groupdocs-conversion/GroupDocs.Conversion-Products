@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:16
+date: 2024-02-27T06:39:57
 draft: false
-lang: fr
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ods")             // Configurer le fichier ODS d'entrée
+            .Load("input.ods")               // Configurer le fichier ODS d'entrée
             .ConvertTo("converted.json")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier ODS en JSON        
         ```            

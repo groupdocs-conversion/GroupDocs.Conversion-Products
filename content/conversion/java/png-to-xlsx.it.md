@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:55
+date: 2024-02-27T06:39:57
 draft: false
-lang: it
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.png")              // Imposta il file PNG di input
             .convertTo("converted.xlsx")    // Specificare il percorso di output per il file convertito
-            .convert();                     // Converti il file PNG in XLSX        
+            .convert();                    // Converti il file PNG in XLSX        
         ```            
 
 ############################# Actions ############################

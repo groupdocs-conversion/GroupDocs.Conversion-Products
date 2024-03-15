@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:07
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.docx")             // Richten Sie die Eingabedatei DOCX ein
+            .Load("input.docx")               // Richten Sie die Eingabedatei DOCX ein
             .ConvertTo("converted.xps")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // DOCX in XPS Datei konvertieren        
         ```            

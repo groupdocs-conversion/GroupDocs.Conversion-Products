@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:15
+date: 2024-02-27T06:39:57
 draft: false
-lang: fr
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.json")             // Configurer le fichier JSON d'entrée
+            .Load("input.json")               // Configurer le fichier JSON d'entrée
             .ConvertTo("converted.gif")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier JSON en GIF        
         ```            

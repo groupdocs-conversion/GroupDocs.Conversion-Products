@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:03
+date: 2024-02-27T06:39:57
 draft: false
-lang: uk
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.txt")              // Налаштування вхідного файлу TXT
             .convertTo("converted.msg")    // Вказівка шляху виведення для конвертованого файлу
-            .convert();                     // Конвертування файлу TXT у файл MSG        
+            .convert();                    // Конвертування файлу TXT у файл MSG        
         ```            
 
 ############################# Actions ############################

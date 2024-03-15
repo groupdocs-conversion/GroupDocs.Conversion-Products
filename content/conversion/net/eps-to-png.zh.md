@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:44
+date: 2024-02-27T06:39:57
 draft: false
-lang: zh
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eps")             // 设置输入 EPS 文件
+            .Load("input.eps")               // 设置输入 EPS 文件
             .ConvertTo("converted.png")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 EPS 转换为 PNG 文件        
         ```            

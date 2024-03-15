@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:01
+date: 2024-02-27T06:39:57
 draft: false
-lang: th
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jpg")              // ตั้งค่าไฟล์ JPG เข้าสู่ระบบ
             .convertTo("converted.pdf")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                     // แปลงไฟล์ JPG เป็นไฟล์ PDF        
+            .convert();                    // แปลงไฟล์ JPG เป็นไฟล์ PDF        
         ```            
 
 ############################# Actions ############################

@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:48
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dcm")              // Richten Sie die Eingabedatei DCM ein
             .convertTo("converted.json")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                     // DCM in JSON Datei konvertieren        
+            .convert();                    // DCM in JSON Datei konvertieren        
         ```            
 
 ############################# Actions ############################

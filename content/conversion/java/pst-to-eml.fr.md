@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:53
+date: 2024-02-27T06:39:57
 draft: false
-lang: fr
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pst")              // Configurer le fichier PST d'entrée
             .convertTo("converted.eml")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                     // Convertir le fichier PST en EML        
+            .convert();                    // Convertir le fichier PST en EML        
         ```            
 
 ############################# Actions ############################

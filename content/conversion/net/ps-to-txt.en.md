@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:06
+date: 2024-02-27T06:39:57
 draft: false
-lang: en
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ps")             // Set up input PS file
+            .Load("input.ps")               // Set up input PS file
             .ConvertTo("converted.txt")     // Specify output path for converted file
             .Convert();                     // Convert PS to TXT file        
         ```            

@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:12:15
+date: 2024-02-27T06:39:57
 draft: false
-lang: fr
+
 product: "Conversion"
 product_tag: "conversion"
 platform: ".NET"
@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.emf")             // Configurer le fichier EMF d'entrée
+            .Load("input.emf")               // Configurer le fichier EMF d'entrée
             .ConvertTo("converted.wmf")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier EMF en WMF        
         ```            

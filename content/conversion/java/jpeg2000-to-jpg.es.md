@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:50
+date: 2024-02-27T06:39:57
 draft: false
-lang: es
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jpeg2000")              // Configurar archivo de entrada JPEG2000
             .convertTo("converted.jpg")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                     // Convertir archivo JPEG2000 a JPG        
+            .convert();                    // Convertir archivo JPEG2000 a JPG        
         ```            
 
 ############################# Actions ############################

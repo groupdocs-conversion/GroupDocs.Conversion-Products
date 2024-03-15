@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:52
+date: 2024-02-27T06:39:57
 draft: false
-lang: fr
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dxf")              // Configurer le fichier DXF d'entrée
             .convertTo("converted.xml")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                     // Convertir le fichier DXF en XML        
+            .convert();                    // Convertir le fichier DXF en XML        
         ```            
 
 ############################# Actions ############################

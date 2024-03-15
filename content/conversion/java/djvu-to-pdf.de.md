@@ -2,9 +2,9 @@
 ---
 ############################# Static ############################
 layout: "format"
-date: 2024-03-15T11:11:49
+date: 2024-02-27T06:39:57
 draft: false
-lang: de
+
 product: "Conversion"
 product_tag: "conversion"
 platform: "Java"
@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.djvu")              // Richten Sie die Eingabedatei DJVU ein
             .convertTo("converted.pdf")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                     // DJVU in PDF Datei konvertieren        
+            .convert();                    // DJVU in PDF Datei konvertieren        
         ```            
 
 ############################# Actions ############################

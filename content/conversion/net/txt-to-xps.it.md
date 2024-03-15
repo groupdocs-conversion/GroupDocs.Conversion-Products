@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:14:54
+layout: "format"
+date: 2024-03-15T11:12:22
 draft: false
-otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: TXT a XPS in C#
+lang: it
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "Convertitore da TXT a XPS in C#"
-head_description: "Converti TXT in XPS in .NET utilizzando poche righe di codice. Utilizza l'API di conversione dei documenti di GroupDocs per convertire oltre 160 formati di file."
+############################# Head #############################
+head_title: "API Convertitore TXT in XPS per .NET - converti in C# VB.NET"
+head_description: "API convertitore file .NET per convertire TXT in XPS in qualsiasi tipo di applicazione C#, ASP.NET, VB.NET e .NET Core."
 
 ############################# Header ############################
-title: "Converti TXT in XPS in C#"
-description: "Conversione da TXT a XPS con poche righe di codice .NET"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Convertitore file TXT in XPS per applicazioni C# .NET" 
+description: "API di conversione documenti .NET per una trasformazione senza soluzione di continuità da TXT a XPS all'interno di applicazioni C#, ASP.NET, VB.NET e .NET Core. Assicura una formattazione precisa e la conservazione del layout durante il processo di conversione, riducendo al minimo gli sforzi di codifica." 
+subtitle: "Soluzione di conversione dei documenti" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Nuget Download"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Informazioni sull'API GroupDocs.Conversion for .NET"
+    title: "Informazioni su GroupDocs.Conversion per API .NET"
+    link: "/conversion/net/"
+    link_title: "Scopri di più"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) può essere utilizzato per convertire Microsoft Word, Excel, PowerPoint, PDF, Visio e altri formati. GroupDocs.Conversion è un'API standalone adatta per sistemi interni e back-end in cui sono richieste prestazioni elevate. Non dipende da alcun software come Microsoft o Open Office.
-    
-
-overview:
-    enable: true
-    content: |
-        Converti facilmente i tuoi file TXT in XPS in .NET. Puoi utilizzare solo un paio di righe di codice C# in qualsiasi piattaforma a tua scelta come: Windows, Linux, macOS.
-        Puoi provare gratuitamente la conversione da TXT a XPS e valutare la qualità dei risultati della conversione. Insieme a semplici scenari di conversione di file, puoi provare opzioni più avanzate per caricare il file di origine TXT e per salvare il risultato di output XPS. 
-        
-        Ad esempio, per il file di origine TXT puoi utilizzare le seguenti opzioni di caricamento:
-
-        * rileva automaticamente il formato del file;
-        * specificare la password per i file protetti (se il formato del file lo supporta);
-        * sostituire i caratteri mancanti per preservare l'aspetto del documento.
-        
-        Ci sono anche opzioni di conversione avanzate per il file XPS:
-
-        * convertire una pagina o un intervallo di pagine specifico del documento;
-        * aggiungi una filigrana al file XPS convertito e molti altri.
-
-        Una volta completata la conversione, puoi salvare il tuo file XPS nel percorso del file locale o in qualsiasi archivio di terze parti come FTP, Amazon S3, Google Drive, Dropbox ecc. Nota: per convertire TXT in {{ TO}} non è necessario alcun software aggiuntivo installato, come MS Office, Open Office, Adobe Acrobat Reader ecc.
+      Inizia ad integrare il supporto per oltre 60 formati di documento ampiamente utilizzati nelle tue applicazioni .NET con facilità, sfruttando le API GroupDocs.Conversion per .NET. Con poche righe di codice, gli sviluppatori possono convertire senza problemi PDF, documenti Word, fogli di calcolo Excel, presentazioni, file Visio, file di progetto, documenti Outlook e numerosi altri formati nel formato di documento o immagine desiderato. Goditi un rapido processo di elaborazione del documento senza la necessità di installare software aggiuntivi o librerie esterne.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Passaggi per convertire TXT in XPS in C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) consente agli sviluppatori di convertire facilmente un file TXT in XPS con poche righe di codice.
-        
-        * Crea un'istanza della classe Converter e fornisci al file TXT il percorso completo
-        * Crea e imposta ConvertOptions per il tipo XPS.
-        * Chiama il metodo Converter.Convert e passa il percorso completo e il formato (XPS) come parametro
-
-    title_right: "Requisiti di sistema"
-    content_right: |
-        La conversione di base con GroupDocs.Conversion for .NET può essere eseguita in pochi semplici passaggi. Le nostre API sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
-
-        * Sistemi operativi: Microsoft Windows, Linux, MacOS
-        * Ambienti di sviluppo: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Ricevi l'ultimo GroupDocs.Conversion for .NET da [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-         
-    code: |
-        ```csharp    
-        // Carica il file di origine TXT per la conversione
-          var converter = new GroupDocs.Conversion.Converter("input.txt");
-          // Prepara le opzioni di conversione per il formato target XPS
-          var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
-          // Converti nel formato XPS
-          converter.Convert("output.xps", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "Da TXT a XPS Demo dal vivo"
+    title: "Passaggi per convertire il file TXT in XPS nel linguaggio C#" 
     content: |
-       Converti TXT in XPS ora visitando il sito web [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). La demo online presenta i seguenti vantaggi
+      Con <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a> puoi trasformare TXT in XPS in pochi semplici passaggi.
+      
+      1. Installa <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion per .NET</a> utilizzando il tuo gestore di pacchetti preferito. 
+      2. Crea un'istanza della classe FluentConverter.  
+      3. Carica il file TXT con il percorso completo. 
+      4. Converti il file e controlla l'output nella directory corrente. 
+   
+    code:
+      platform: "net"
+      copy_title: "Copia"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "clicca per copiare"
+        copy_done: "copiato"
+      links:
+        #  loop
+        - title: "Altri esempi"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "Documentazione"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.txt")             // Imposta il file TXT di input
+            .ConvertTo("converted.xps")     // Specificare il percorso di output per il file convertito
+            .Convert();                     // Converti il file TXT in XPS        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Pronto per iniziare?"
+  description: "Prova le funzionalità di GroupDocs.Conversion gratuitamente o richiedi una licenza"
+  items:
+    #  loop
+    - title: "Nuget Download"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "Licenze"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Altre conversioni TXT supportate in C#"
-    content: "Puoi anche convertire TXT in molti altri formati di file. Si prega di consultare l'elenco di seguito."
-       
-       
-back_to_top:
-    enable: true
+    title: "Converti altri formati di file utilizzando C#"
+    exclude: "TXT to XPS"
+    description: "Accedi a un'API di conversione documenti e immagini multi-formato versatile per .NET. Converti senza problemi tra vari formati di file popolari di seguito senza la necessità di software esterni."
+    items: 
+        # format loop 1
+        - name: "Converti DOCX in HTML"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "Converti DICOM in JPG" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "Converti DJVU in PDF"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "Converti AI in PNG"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "Converti BMP in GIF"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "Converti CAD in XML"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "Converti PDF in PPTX"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "Converti HTML in DOCX"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "Converti PDF in TIFF"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "Converti CSV in JSON" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "Converti XML in XLSX" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "Converti EML in MHT"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "Converti PDF in XPS"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "Converti PNG in SVG"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "Converti XML in RTF"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "Converti PDF in TXT"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "Converti DOCX in PDF"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "Converti CSV in XLSX"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "Converti EML in MSG"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "Converti PNG in JPG"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "Converti PDF in EPUB"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

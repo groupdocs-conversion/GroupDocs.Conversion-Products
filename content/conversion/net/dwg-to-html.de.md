@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:11:10
+layout: "format"
+date: 2024-03-15T11:12:07
 draft: false
-otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: DWG bis HTML in C#
+lang: de
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "DWG nach HTML Konverter in C#"
-head_description: "Wandeln Sie DWG in .NET mit ein paar Zeilen Code in HTML um. Verwenden Sie die GroupDocs Document Conversion API, um über 160 Dateiformate zu konvertieren."
+############################# Head #############################
+head_title: "DWG zu HTML Konverter API für .NET - konvertieren in C# VB.NET"
+head_description: ".NET Dateikonverter-API zum Konvertieren von DWG zu HTML in jeder Art von C#, ASP.NET, VB.NET & .NET Core Anwendungen."
 
 ############################# Header ############################
-title: "Konvertiere DWG in HTML in C#"
-description: "Umwandlung von DWG in HTML mit ein paar Zeilen .NET-Code"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "DWG zu HTML Dateikonverter für C# .NET Anwendungen" 
+description: ".NET Dokumentenkonvertierungs-API für nahtlose Transformation von DWG in HTML Format innerhalb von C#, ASP.NET, VB.NET & .NET Core Anwendungen. Gewährleisten Sie präzise Formatierung und Layouterhalt während des Konvertierungsprozesses und minimieren Sie gleichzeitig den Codieraufwand." 
+subtitle: "Dokumentenkonvertierungslösung" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Nuget-Download"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Über die GroupDocs.Conversion for .NET-API"
+    title: "Über GroupDocs.Conversion für .NET API"
+    link: "/conversion/net/"
+    link_title: "Erfahren Sie mehr"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) kann verwendet werden, um Microsoft Word, Excel, PowerPoint, PDF, Visio und andere Formate zu konvertieren. GroupDocs.Conversion ist eine eigenständige API, die sich für Backend- und interne Systeme eignet, bei denen eine hohe Leistung erforderlich ist. Es ist unabhängig von Software wie Microsoft oder Open Office.
-    
-
-overview:
-    enable: true
-    content: |
-        Konvertieren Sie Ihre DWG-Dateien einfach in HTML in .NET. Sie können nur ein paar C#-Codezeilen auf jeder Plattform Ihrer Wahl verwenden, z. B. Windows, Linux, macOS.
-        Sie können die Konvertierung von DWG nach HTML kostenlos ausprobieren und die Qualität der Konvertierungsergebnisse bewerten. Neben einfachen Dateikonvertierungsszenarien können Sie erweiterte Optionen zum Laden der Quelldatei DWG und zum Speichern des Ausgabeergebnisses HTML ausprobieren. 
-        
-        Beispielsweise können Sie für die Quelldatei DWG die folgenden Ladeoptionen verwenden:
-
-        * Dateiformat automatisch erkennen;
-        * Passwort für geschützte Dateien festlegen (sofern Dateiformat dies unterstützt);
-        * Ersetzen Sie fehlende Schriftarten, um das Erscheinungsbild des Dokuments beizubehalten.
-        
-        Es gibt auch erweiterte Konvertierungsoptionen für die HTML-Datei:
-
-        * Konvertieren Sie eine bestimmte Dokumentseite oder einen Seitenbereich;
-        * Fügen Sie der konvertierten HTML-Datei ein Wasserzeichen hinzu und vieles mehr.
-
-        Sobald die Konvertierung abgeschlossen ist, können Sie Ihre HTML-Datei im lokalen Dateipfad oder auf einem Speicher von Drittanbietern wie FTP, Amazon S3, Google Drive, Dropbox usw. speichern. Bitte beachten Sie, dass Sie DWG in HTML muss keine zusätzliche Software installiert werden - wie MS Office, Open Office, Adobe Acrobat Reader etc.
+      Beginnen Sie mit der problemlosen Integration von Unterstützung für über 60 weit verbreitete Dokumentenformate in Ihre .NET-Anwendungen und nutzen Sie die GroupDocs.Conversion für .NET APIs. Mit nur wenigen Zeilen Code können Entwickler problemlos PDFs, Word-Dokumente, Excel-Tabellen, Präsentationen, Visio-Dateien, Projektdateien, Outlook-Dokumente und zahlreiche andere Formate in das gewünschte Dokument- oder Bildformat konvertieren. Genießen Sie eine schnelle Dokumentenverarbeitung ohne zusätzliche Software oder externe Bibliotheken installieren zu müssen.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Schritte zum Konvertieren von DWG in HTML in C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) erleichtert Entwicklern das Konvertieren einer DWG-Datei in HTML mit wenigen Codezeilen.
-        
-        * Erstellen Sie eine Instanz der Converter-Klasse und geben Sie die Datei DWG mit dem vollständigen Pfad an
-        * Erstellen und legen Sie ConvertOptions für den Typ HTML fest.
-        * Rufen Sie die Methode Converter.Convert auf und übergeben Sie den vollständigen Pfad und das Format (HTML) als Parameter
-
-    title_right: "System Anforderungen"
-    content_right: |
-        Die grundlegende Konvertierung mit GroupDocs.Conversion for .NET kann in nur wenigen einfachen Schritten durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
-
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Entwicklungsumgebungen: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Holen Sie sich das neueste GroupDocs.Conversion for .NET von [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-         
-    code: |
-        ```csharp    
-        // Quelldatei DWG zur Konvertierung laden
-          var converter = new GroupDocs.Conversion.Converter("input.dwg");
-          // Konvertierungsoptionen für das Zielformat HTML vorbereiten
-          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-          // In das HTML-Format konvertieren
-          converter.Convert("output.html", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "Live-Demo von DWG bis HTML"
+    title: "Schritte zur Konvertierung von DWG in HTML Datei in C#" 
     content: |
-       Wandeln Sie jetzt DWG in HTML um, indem Sie die Website [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) besuchen. Die Online-Demo hat die folgenden Vorteile
+      Mit <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a> können Sie DWG in HTML in wenigen Schritten umwandeln.
+      
+      1. Installieren Sie <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion für .NET</a> mit Ihrem bevorzugten Paketmanager. 
+      2. Erstellen Sie eine Instanz der FluentConverter-Klasse.  
+      3. Laden Sie die DWG Datei mit vollständigem Pfad. 
+      4. Datei konvertieren und Ausgabe im aktuellen Verzeichnis überprüfen. 
+   
+    code:
+      platform: "net"
+      copy_title: "Kopieren"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "Klicken Sie zum Kopieren"
+        copy_done: "kopiert"
+      links:
+        #  loop
+        - title: "Weitere Beispiele"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "Dokumentation"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.dwg")             // Richten Sie die Eingabedatei DWG ein
+            .ConvertTo("converted.html")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
+            .Convert();                     // DWG in HTML Datei konvertieren        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Bereit, loszulegen?"
+  description: "Probieren Sie GroupDocs.Conversion Funktionen kostenlos aus oder fordern Sie eine Lizenz an"
+  items:
+    #  loop
+    - title: "Nuget-Download"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "Lizenzierung"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Andere unterstützte DWG-Konvertierungen in C#"
-    content: "Sie können DWG auch in viele andere Dateiformate konvertieren. Bitte sehen Sie sich die Liste unten an."
-       
-       
-back_to_top:
-    enable: true
+    title: "Andere Dateiformate mit C# konvertieren"
+    exclude: "DWG to HTML"
+    description: "Greifen Sie auf die vielseitige Multi-Format-Dokumenten- und Bildkonvertierungs-API für .NET zu. Konvertieren Sie nahtlos zwischen verschiedenen beliebten Dateiformaten unten, ohne externe Software zu benötigen."
+    items: 
+        # format loop 1
+        - name: "DOCX in HTML konvertieren"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "DICOM in JPG konvertieren" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "DJVU in PDF konvertieren"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "AI in PNG konvertieren"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "BMP in GIF konvertieren"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "CAD in XML konvertieren"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "PDF in PPTX konvertieren"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "HTML in DOCX konvertieren"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "PDF in TIFF konvertieren"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "CSV in JSON konvertieren" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "CSV in XLSX konvertieren" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "EML in MHT konvertieren"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "PDF in XPS konvertieren"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "PNG in SVG konvertieren"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "XML in RTF konvertieren"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "PDF in TXT konvertieren"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "DOCX in PDF konvertieren"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "CSV in XLSX konvertieren"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "EML in MSG konvertieren"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "PNG in JPG konvertieren"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "PDF in EPUB konvertieren"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

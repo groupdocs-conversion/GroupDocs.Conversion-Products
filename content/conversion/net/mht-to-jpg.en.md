@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:11:43
+layout: "format"
+date: 2024-03-15T11:12:06
 draft: false
-otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: MHT to JPG in C#
+lang: en
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "MHT to JPG Converter in C#"
-head_description: "Convert MHT to JPG in .NET using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
+############################# Head #############################
+head_title: "MHT to JPG Converter API for .NET - convert in C# VB.NET"
+head_description: ".NET file converter API to convert MHT to JPG in any type of C#, ASP.NET, VB.NET & .NET Core applications."
 
 ############################# Header ############################
-title: "Convert MHT to JPG in C#"
-description: "MHT to JPG conversion with a few lines of .NET code"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "MHT to JPG file converter for C# .NET applications" 
+description: ".NET document conversion API for seamless transformation MHT to JPG format within C#, ASP.NET, VB.NET & .NET Core applications. Ensure precision formatting and layout preservation during the conversion process, all while minimizing coding efforts." 
+subtitle: "Document conversion solution" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Nuget download"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for .NET API"
+    link: "/conversion/net/"
+    link_title: "Learn more"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
-    
-
-overview:
-    enable: true
-    content: |
-        Convert your MHT files to JPG in .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can try MHT to JPG conversion for free and evaluate conversion results quality.  Along with simple file conversion scenarios you can try more advanced options for loading source MHT file and for saving output JPG result. 
-        
-        For example, for the source MHT file you may use the following load options:
-
-        * auto-detect file format;
-        * specify password for protected files (if file format supports it);
-        * replace missing fonts to preserve document appearance.
-        
-        There are also advanced convert options for the JPG file:
-
-        * convert specific document page or page range;
-        * add a watermark to the converted JPG file and many more.
-
-        Once conversion is completed you can save your JPG file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc. Please note - to convert MHT to JPG there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
+      Begin incorporating support for over 60 widely-used document formats into your .NET applications with ease, leveraging the GroupDocs.Conversion for .NET APIs. With just a few lines of code, developers can seamlessly convert PDFs, Word documents, Excel spreadsheets, presentations, Visio files, Project files, Outlook documents, and numerous other formats into desired document or image formats. Enjoy swift document processing without the need for installing extra software or external libraries.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to convert MHT to JPG in C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a MHT file to JPG with a few lines of code.
-        
-        * Create an instance of the Converter class and provide the file MHT with the full path
-        * Create and set ConvertOptions for JPG type.
-        * Call the Converter.Convert method and pass the full path and format (JPG) as a parameter
-
-    title_right: "System Requirements"
-    content_right: |
-        Basic conversion with GroupDocs.Conversion for .NET can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
-
-        * Operating systems: Microsoft Windows, Linux, MacOS
-        * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Get the latest GroupDocs.Conversion for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-         
-    code: |
-        ```csharp    
-        // Load source file MHT for conversion
-          var converter = new GroupDocs.Conversion.Converter("input.mht");
-          // Prepare conversion options for target format JPG
-          var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
-          // Convert to JPG format
-          converter.Convert("output.jpg", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "MHT to JPG Live Demo"
+    title: "Steps to convert MHT to JPG file in C#" 
     content: |
-       Convert MHT to JPG now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+      With <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a> you can transform MHT to JPG in a few steps.
+      
+      1. Install <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion for .NET</a> using your favorite package manager. 
+      2. Create an instance of FluentConverter class.  
+      3. Load the MHT file with full path. 
+      4. Transform file and check output in the current directory. 
+   
+    code:
+      platform: "net"
+      copy_title: "Copy"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "click to copy"
+        copy_done: "copied"
+      links:
+        #  loop
+        - title: "More examples"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.mht")             // Set up input MHT file
+            .ConvertTo("converted.jpg")     // Specify output path for converted file
+            .Convert();                     // Convert MHT to JPG file        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Conversion features for free or request a license"
+  items:
+    #  loop
+    - title: "Nuget download"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "Licensing"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Other supported MHT conversions in C#"
-    content: "You can also convert MHT to many other file formats. Please see the list below."
-       
-       
-back_to_top:
-    enable: true
+    title: "Convert other file formats using C#"
+    exclude: "MHT to JPG"
+    description: "Access the versatile multi-format document and image conversion API for .NET. Seamlessly convert between various popular file formats below without the need for external software."
+    items: 
+        # format loop 1
+        - name: "Convert DOCX to HTML"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "Convert DICOM to JPG" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "Convert DJVU to PDF"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "Convert AI to PNG"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "Convert BMP to GIF"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "Convert CAD to XML"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "Convert PDF to PPTX"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "Convert HTML to DOCX"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "Convert PDF to TIFF"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "Convert CSV to JSON" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "Convert CSV to XLSX" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "Convert EML to MHT"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "Convert PDF to XPS"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "Convert PNG to SVG"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "Convert XML to RTF"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "Convert PDF to TXT"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "Convert DOCX to PDF"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "Convert CSV to XLSX"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "Convert EML to MSG"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "Convert PNG to JPG"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "Convert PDF to EPUB"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

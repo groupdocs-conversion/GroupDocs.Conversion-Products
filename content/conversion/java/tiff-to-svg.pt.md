@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:18:37
+layout: "format"
+date: 2024-03-15T11:11:59
 draft: false
-otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: TIFF para SVG em Java
+lang: pt
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "Converter TIFF para SVG em Java"
-head_description: "Conversão de TIFF para SVG em Java com algumas linhas de código. Converta mais de 160 formatos de arquivo usando a API de conversão de documentos do GroupDocs para Java"
+############################# Head #############################
+head_title: "API de conversão de TIFF para SVG em Java - transforme TIFF em aplicativos Java"
+head_description: "Veja arquivos TIFF para SVG em aplicativos Java, J2EE, J2SE. Suporta visualização de mais de 180 formatos de arquivo de documentos e imagens em modo HTML, PDF ou imagem com recursos avançados para gerenciar opções de visualização de documentos."
 
 ############################# Header ############################
-title: "Converter TIFF para SVG em Java"
-description: "Conversão de TIFF para SVG com algumas linhas de código Java"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Converter TIFF para SVG em Java" 
+description: "Experimente a eficiência de uma API de conversão de arquivos TIFF para SVG nativa e de alto desempenho projetada para aplicativos Java, J2EE e J2SE. Aproveite o suporte a um extenso conjunto de recursos adicionais, permitindo a personalização da aparência do documento de saída." 
+subtitle: "Solução de conversão de documentos" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Download do Maven"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Sobre a API GroupDocs.Conversion for Java"
+    title: "Sobre a API GroupDocs.Conversion para Java"
+    link: "/conversion/java/"
+    link_title: "Saiba mais"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) é uma API avançada de conversão de formato de arquivo para conversão entre formatos populares de imagem e documento, como Microsoft Office, OpenDocument, PDF, HTML, e-mail, CAD. e muito mais com apenas algumas linhas de código. A API nativa detecta automaticamente os formatos dos documentos originais e oferece muitas opções para personalizar os documentos convertidos. Juntamente com a função de extrair informações de um documento, ele também suporta o armazenamento em cache dos resultados da conversão para o disco local por padrão. No entanto, qualquer tipo de armazenamento em cache pode ser suportado pela implementação das interfaces apropriadas - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis ou quaisquer outras.
-    
-
-overview:
-    enable: true
-    content: |
-        Converta seus arquivos TIFF para SVG em Java. Leva apenas algumas linhas de código Java em qualquer plataforma de sua escolha, como Windows, Linux, macOS.
-        Você pode tentar converter TIFF para SVG gratuitamente e avaliar a qualidade dos resultados da conversão. Junto com scripts de conversão de arquivo simples, você pode tentar opções mais sofisticadas para carregar o arquivo de origem TIFF e armazenar a saída SVG. 
-        
-        Por exemplo, para o arquivo de origem TIFF, você pode usar as seguintes opções de carregamento:
-
-        * detecção automática do formato do arquivo;
-        * especifique uma senha para arquivos protegidos (se o formato de arquivo for compatível);
-        * substitua as fontes ausentes para preservar a aparência do documento.
-        
-        Há também opções avançadas de conversão para o arquivo SVG:
-
-        * converter uma página específica de um documento ou um intervalo de páginas;
-        * adicione uma marca d'água ao SVG convertido.
-
-        Quando a conversão estiver concluída, você pode salvar o arquivo SVG no caminho do arquivo local ou em qualquer armazenamento de terceiros, como FTP, Amazon S3, Google Drive, Dropbox etc. Observe - para converter TIFF para SVG, você não precisa instalar nenhum software adicional, como MS Office, Open Office, Adobe Acrobat Reader etc.
+      Incorpore suporte para mais de 60 formatos de documentos populares de forma transparente em seus aplicativos Java usando as APIs GroupDocs.Conversion para Java. Com apenas algumas linhas de código, os desenvolvedores podem converter PDFs, documentos do Word, planilhas do Excel, apresentações, arquivos do Visio, arquivos de projeto, documentos do Outlook e muitos outros formatos em documentos ou imagens desejados. Desfrute do processamento rápido de documentos sem a necessidade de instalar software adicional ou bibliotecas externas.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Etapas para converter TIFF em SVG em Java"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) permite que os desenvolvedores convertam facilmente o arquivo TIFF para SVG com algumas linhas de código.
-        
-        * Crie uma nova instância da classe Converter e carregue o arquivo TIFF com o caminho completo
-        * Defina ConvertOptions para o tipo de documento como SVG
-        * Chame o método convert() e passe o nome do documento (caminho completo) e formato (SVG) como parâmetro
-
-    title_right: "Requisitos de sistema"
-    content_right: |
-        A conversão básica com a API GroupDocs.Conversion for Java pode ser feita com apenas algumas linhas de código. Nossas APIs são suportadas em todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.
-
-        * Sistemas operacionais: Microsoft Windows, Linux, MacOS
-        * Ambientes de desenvolvimento: NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * Obtenha o GroupDocs.Conversion for Java mais recente de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-         
-    code: |
-        ```java    
-        // Carregar arquivo de origem TIFF para conversão
-          Converter converter = new Converter("input.tiff");
-          // Preparar opções de conversão para o formato de destino SVG
-          ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
-          // Converter para o formato SVG
-          converter.convert("output.svg", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "TIFF para SVG Demonstração ao vivo"
+    title: "Passos para converter arquivo TIFF para SVG em Java" 
     content: |
-       Visite nosso site do [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) e experimente a conversão de TIFF para SVG agora. A demonstração gratuita tem os seguintes benefícios
-          
+      Transformar TIFF para SVG é simples com <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a>, requerendo apenas alguns passos simples.
+      
+      1. Adicione <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion para Java</a> como uma dependência ao seu projeto. 
+      2. Crie uma instância da classe Converter.  
+      3. Carregue o arquivo TIFF com o caminho completo. 
+      4. Converta o arquivo e verifique a saída no diretório atual. 
+   
+    code:
+      platform: "java"
+      copy_title: "Copiar"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "clique para copiar"
+        copy_done: "copiado"
+      links:
+        #  loop
+        - title: "Mais exemplos"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "Documentação"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.tiff")              // Configurar arquivo de entrada TIFF
+            .convertTo("converted.svg")    // Especificar o caminho de saída para o arquivo convertido
+            .convert();                     // Converter arquivo TIFF para SVG        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Pronto para começar?"
+  description: "Experimente os recursos do GroupDocs.Conversion gratuitamente ou solicite uma licença"
+  items:
+    #  loop
+    - title: "Download do Maven"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "Licenciamento"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Outras conversões de TIFF suportadas em Java"
-    content: "Você também pode converter TIFF para muitos outros formatos de arquivo. Por favor, veja a lista abaixo."
-       
-       
-back_to_top:
-    enable: true
+    title: "Converter outros formatos de arquivo usando Java"
+    exclude: "TIFF to SVG"
+    description: "Acesse uma API versátil para converter documentos e imagens entre vários formatos em Java. Mude facilmente entre alguns dos formatos de arquivo mais comumente usados listados abaixo sem depender de ferramentas externas."
+    items: 
+      # format loop 1
+      - name: "Converter DOCX para PDF"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "Converter DOC para HTML"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "Converter CSV para XLSX"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "Converter EML para MSG"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "Converter HTML para DOCX"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "Converter HTML para PNG"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "Converter JPG para TIFF"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "Converter PDF para EPUB"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "Converter PNG para JPG"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "Converter SVG para PNG"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "Converter TXT para XML"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "Converter XLS para JSON"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "Converter XML para DOCX"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "Converter DOCX para HTML"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "Converter DICOM para JPG" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "Converter DJVU para PDF"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "Converter AI para PNG"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "Converter BMP para SVG"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "Converter DOT para VSDX"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "Converter MHTML para DOCX"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "Converter TXT para EML"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

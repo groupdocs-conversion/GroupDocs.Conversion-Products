@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:12:24
+layout: "format"
+date: 2024-03-15T11:12:12
 draft: false
-otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: EMF به WMF در C#
+lang: fa
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "مبدل EMF به WMF در C#"
-head_description: "با استفاده از چند خط کد، EMF را به WMF در .NET تبدیل کنید. برای تبدیل بیش از 160 فرمت فایل از GroupDocs Document Conversion API استفاده کنید."
+############################# Head #############################
+head_title: "API تبدیل EMF به WMF برای .NET - تبدیل در C# و VB.NET"
+head_description: "API تبدیل فایل .NET برای تبدیل EMF به WMF در هر نوع برنامه C#، ASP.NET، VB.NET و .NET Core."
 
 ############################# Header ############################
-title: "تبدیل EMF به WMF در C#"
-description: "تبدیل EMF به WMF با چند خط کد .NET"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "تبدیل فایل EMF به WMF برای برنامه‌های C# .NET" 
+description: "API تبدیل سند .NET برای تبدیل بی‌درنگ EMF به WMF داخل برنامه‌های C#، ASP.NET، VB.NET و .NET Core. اطمینان از فرمت‌بندی دقیق و حفظ طرح در طول فرآیند تبدیل، همه در حالی که کدگذاری را حداقل می‌کنید." 
+subtitle: "راه‌حل تبدیل سند" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Nuget دانلود میونت"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "درباره GroupDocs.Conversion for .NET API"
+    title: "درباره GroupDocs.Conversion برای .NET API"
+    link: "/conversion/net/"
+    link_title: "اطلاعات بیشتر"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) را می توان برای تبدیل مایکروسافت ورد، اکسل، پاورپوینت، پی دی اف، ویزیو و فرمت های دیگر استفاده کرد. GroupDocs.Conversion یک API مستقل است که برای سیستم‌های بک‌اند و داخلی که به کارایی بالا نیاز است، مناسب است. به هیچ نرم افزاری مانند Microsoft یا Open Office بستگی ندارد.
-    
-
-overview:
-    enable: true
-    content: |
-        فایل های EMF خود را به راحتی در .NET به WMF تبدیل کنید. شما می توانید فقط چند خط کد C# را در هر پلتفرم مورد نظر خود مانند Windows، Linux، macOS استفاده کنید.
-        می توانید تبدیل EMF به WMF را به صورت رایگان امتحان کنید و کیفیت نتایج تبدیل را ارزیابی کنید. همراه با سناریوهای ساده تبدیل فایل، می‌توانید گزینه‌های پیشرفته‌تری را برای بارگیری فایل منبع EMF و برای ذخیره خروجی WMF امتحان کنید. 
-        
-        به عنوان مثال، برای فایل منبع EMF می‌توانید از گزینه‌های بارگذاری زیر استفاده کنید:
-
-        * فرمت فایل شناسایی خودکار;
-        * رمز عبور فایل های محافظت شده را مشخص کنید (اگر فرمت فایل از آن پشتیبانی می کند);
-        * برای حفظ ظاهر سند، فونت های از دست رفته را جایگزین کنید.
-        
-        همچنین گزینه های تبدیل پیشرفته ای برای فایل WMF وجود دارد:
-
-        * صفحه سند خاص یا محدوده صفحه را تبدیل کنید;
-        * یک واترمارک به فایل تبدیل شده WMF و بسیاری موارد دیگر اضافه کنید.
-
-        پس از تکمیل تبدیل، می‌توانید فایل WMF خود را در مسیر فایل محلی یا هر ذخیره‌سازی شخص ثالث مانند FTP، Amazon S3، Google Drive، Dropbox و غیره ذخیره کنید. لطفاً توجه داشته باشید - برای تبدیل EMF به {{ TO}} نیازی به نصب نرم افزار اضافی نیست - مانند MS Office، Open Office، Adobe Acrobat Reader و غیره.
+      شروع به یکپارچه‌سازی پشتیبانی از بیش از 60 فرمت سند معروف در برنامه‌های .NET با آسانی، با بهره‌گیری از APIهای GroupDocs.Conversion برای .NET کنید. با فقط چند خط کد، توسعه‌دهندگان می‌توانند بدون مشکل PDFها، اسناد Word، صفحات اکسل، ارائه‌ها، فایل‌های Visio، فایل‌های پروژه، اسناد Outlook و فرمت‌های دیگر را به فرمت سند یا تصویر موردنظر تبدیل کنند. لذت ببرید از پردازش سند سریع بدون نیاز به نصب نرم‌افزار یا کتابخانه‌های خارجی.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "مراحل تبدیل EMF به WMF در C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) تبدیل فایل EMF به WMF را با چند خط کد برای توسعه دهندگان آسان می کند.
-        
-        * یک نمونه از کلاس Converter ایجاد کنید و فایل EMF را با مسیر کامل ارائه دهید
-        * ConvertOptions را برای نوع WMF ایجاد و تنظیم کنید.
-        * متد Converter.Convert را فراخوانی کنید و مسیر و قالب کامل (WMF) را به عنوان پارامتر ارسال کنید.
-
-    title_right: "سیستم مورد نیاز"
-    content_right: |
-        تبدیل اولیه با GroupDocs.Conversion for .NET را می توان تنها در چند مرحله ساده انجام داد. API های ما در تمام سیستم عامل ها و سیستم عامل های اصلی پشتیبانی می شوند. قبل از اجرای کد زیر، مطمئن شوید که پیش نیازهای زیر را روی سیستم خود نصب کرده اید.
-
-        * سیستم عامل: مایکروسافت ویندوز، لینوکس، MacOS
-        * محیط های توسعه: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * آخرین GroupDocs.Conversion for .NET را از [Nuget](https://www.nuget.org/packages/groupdocs.conversion) دریافت کنید
-         
-    code: |
-        ```csharp    
-        // فایل منبع EMF را برای تبدیل بارگیری کنید
-          var converter = new GroupDocs.Conversion.Converter("input.emf");
-          // آماده سازی گزینه های تبدیل برای قالب هدف WMF
-          var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
-          // به قالب WMF تبدیل کنید
-          converter.Convert("output.wmf", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "EMF به WMF نسخه نمایشی زنده"
+    title: "مراحل تبدیل فایل EMF به WMF در C#" 
     content: |
-       اکنون با مراجعه به وب سایت [GroupDocs.Conversion] (https://products.groupdocs.app/conversion/family) EMF را به WMF تبدیل کنید. نسخه ی نمایشی آنلاین دارای مزایای زیر است
+      با <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a> می‌توانید EMF به WMF را در چند مرحله تبدیل کنید.
+      
+      1. نصب <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion برای .NET</a> با استفاده از مدیر بسته مورد علاقه‌تان. 
+      2. ایجاد یک نمونه از کلاس FluentConverter.  
+      3. بارگذاری فایل EMF با مسیر کامل. 
+      4. تبدیل فایل و بررسی خروجی در دایرکتوری فعلی. 
+   
+    code:
+      platform: "net"
+      copy_title: "کپی"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "برای کپی کردن کلیک کنید"
+        copy_done: "کپی شده"
+      links:
+        #  loop
+        - title: "مثال‌های بیشتر"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "مستندات"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.emf")             // تنظیم فایل ورودی EMF
+            .ConvertTo("converted.wmf")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
+            .Convert();                     // تبدیل فایل EMF به WMF        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "آماده برای شروع هستید؟"
+  description: "ویژگی‌های GroupDocs.Conversion را رایگان امتحان کنید یا یک لایسنس درخواست کنید"
+  items:
+    #  loop
+    - title: "Nuget دانلود میونت"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "لایسنس‌دهی"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "سایر تبدیل های پشتیبانی شده EMF در C#"
-    content: "همچنین می‌توانید EMF را به بسیاری از فرمت‌های فایل دیگر تبدیل کنید. لطفا لیست زیر را ببینید."
-       
-       
-back_to_top:
-    enable: true
+    title: "تبدیل سایر فرمت‌های فایل با استفاده از C#"
+    exclude: "EMF to WMF"
+    description: "دسترسی به یک API چندفرمتی چندوظیفه‌ای برای تبدیل سند و تصویر برای .NET. تبدیل بی‌درنگ بین انواع فرمت‌های فایل محبوب زیر بدون نیاز به نرم‌افزارهای خارجی."
+    items: 
+        # format loop 1
+        - name: "تبدیل DOCX به HTML"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "تبدیل DICOM به JPG" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "تبدیل DJVU به PDF"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "تبدیل AI به PNG"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "تبدیل BMP به GIF"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "تبدیل CAD به XML"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "تبدیل PDF به PPTX"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "تبدیل HTML به DOCX"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "تبدیل PDF به TIFF"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "تبدیل CSV به JSON" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "تبدیل CSV به XLSX" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "تبدیل EML به MHT"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "تبدیل PDF به XPS"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "تبدیل PNG به SVG"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "تبدیل XML به RTF"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "تبدیل PDF به TXT"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "تبدیل DOCX به PDF"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "تبدیل CSV به XLSX"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "تبدیل EML به MSG"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "تبدیل PNG به JPG"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "تبدیل PDF به EPUB"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

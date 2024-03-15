@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:14:20
+layout: "format"
+date: 2024-03-15T11:12:17
 draft: false
-otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: BMP ke SVG di C#
+lang: id
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "Konverter BMP ke SVG di C#"
-head_description: "Konversikan BMP ke SVG di .NET menggunakan beberapa baris kode. Gunakan API Konversi Dokumen GroupDocs untuk mengonversi lebih dari 160 format file."
+############################# Head #############################
+head_title: "API Konverter BMP ke SVG untuk .NET - konversi dalam C# VB.NET"
+head_description: "API konverter file .NET untuk mengkonversi BMP ke SVG dalam berbagai jenis aplikasi C#, ASP.NET, VB.NET, dan .NET Core."
 
 ############################# Header ############################
-title: "Konversi BMP ke SVG di C#"
-description: "Konversi BMP ke SVG dengan beberapa baris kode .NET"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Konverter file BMP ke SVG untuk aplikasi C# .NET" 
+description: "API konversi dokumen .NET untuk transformasi tanpa gangguan dari BMP ke SVG dalam aplikasi C#, ASP.NET, VB.NET, dan .NET Core. Pastikan format dan penataan presisi tetap terjaga selama proses konversi, semua itu sambil meminimalkan upaya pengkodean." 
+subtitle: "Solusi konversi dokumen" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Nuget Unduhan"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Conversion for .NET API"
+    title: "Tentang GroupDocs.Conversion untuk API .NET"
+    link: "/conversion/net/"
+    link_title: "Pelajari lebih lanjut"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) dapat digunakan untuk mengonversi Microsoft Word, Excel, PowerPoint, PDF, Visio, dan format lainnya. GroupDocs.Conversion adalah API mandiri yang cocok untuk sistem back-end dan internal yang membutuhkan kinerja tinggi. Itu tidak tergantung pada perangkat lunak apa pun seperti Microsoft atau Open Office.
-    
-
-overview:
-    enable: true
-    content: |
-        Konversikan file BMP Anda ke SVG di .NET dengan mudah. Anda dapat menggunakan hanya beberapa baris kode C# di platform pilihan Anda seperti - Windows, Linux, macOS.
-        Anda dapat mencoba konversi BMP ke SVG secara gratis dan mengevaluasi kualitas hasil konversi. Bersama dengan skenario konversi file sederhana, Anda dapat mencoba opsi lanjutan lainnya untuk memuat file sumber BMP dan untuk menyimpan hasil SVG keluaran. 
-        
-        Misalnya, untuk file sumber BMP Anda dapat menggunakan opsi pemuatan berikut:
-
-        * format file deteksi otomatis;
-        * tentukan kata sandi untuk file yang dilindungi (jika format file mendukungnya);
-        * ganti font yang hilang untuk mempertahankan tampilan dokumen.
-        
-        Ada juga opsi konversi lanjutan untuk file SVG:
-
-        * mengonversi halaman dokumen atau rentang halaman tertentu;
-        * tambahkan tanda air ke file SVG yang dikonversi dan banyak lagi.
-
-        Setelah konversi selesai, Anda dapat menyimpan file SVG Anda ke jalur file lokal atau penyimpanan pihak ketiga mana pun seperti FTP, Amazon S3, Google Drive, Dropbox, dll. Harap diperhatikan - untuk mengonversi BMP ke {{ TO}} tidak perlu menginstal perangkat lunak tambahan apa pun - seperti MS Office, Open Office, Adobe Acrobat Reader, dll.
+      Mulailah memasukkan dukungan untuk lebih dari 60 format dokumen yang banyak digunakan ke dalam aplikasi .NET Anda dengan mudah, dengan memanfaatkan API GroupDocs.Conversion untuk .NET. Dengan hanya beberapa baris kode, pengembang dapat dengan lancar mengkonversi PDF, dokumen Word, spreadsheet Excel, presentasi, file Visio, file proyek, dokumen Outlook, dan banyak format lainnya menjadi format dokumen atau gambar yang diinginkan. Nikmati pemrosesan dokumen yang cepat tanpa perlu menginstal perangkat lunak tambahan atau pustaka eksternal.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk mengonversi BMP ke SVG di C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) memudahkan pengembang untuk mengonversi file BMP ke SVG dengan beberapa baris kode.
-        
-        * Buat instance kelas Converter dan berikan file BMP dengan path lengkap
-        * Buat dan atur ConvertOptions untuk tipe SVG.
-        * Panggil metode Converter.Convert dan berikan jalur dan format lengkap (SVG) sebagai parameter
-
-    title_right: "Persyaratan sistem"
-    content_right: |
-        Konversi dasar dengan GroupDocs.Conversion for .NET dapat dilakukan hanya dalam beberapa langkah sederhana. API kami didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
-
-        * Sistem operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan pengembangan: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Dapatkan GroupDocs.Conversion for .NET terbaru dari [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-         
-    code: |
-        ```csharp    
-        // Muat file sumber BMP untuk konversi
-          var converter = new GroupDocs.Conversion.Converter("input.bmp");
-          // Siapkan opsi konversi untuk format target SVG
-          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-          // Konversikan ke format SVG
-          converter.Convert("output.svg", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "BMP ke SVG Demo Langsung"
+    title: "Langkah-langkah untuk mengonversi file BMP ke SVG dalam C#" 
     content: |
-       Konversikan BMP ke SVG sekarang dengan mengunjungi situs web [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Demo online memiliki keuntungan sebagai berikut:
+      Dengan <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a>, Anda dapat mentransformasikan BMP ke SVG dalam beberapa langkah sederhana.
+      
+      1. Pasang <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion untuk .NET</a> menggunakan manajer paket favorit Anda. 
+      2. Buat sebuah instans dari kelas FluentConverter.  
+      3. Muat file BMP dengan jalur lengkap. 
+      4. Konversi file dan periksa output di direktori saat ini. 
+   
+    code:
+      platform: "net"
+      copy_title: "Salin"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "klik untuk menyalin"
+        copy_done: "disalin"
+      links:
+        #  loop
+        - title: "Contoh lebih lanjut"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "Dokumentasi"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.bmp")             // Atur file BMP input
+            .ConvertTo("converted.svg")     // Tentukan jalur output untuk file yang dikonversi
+            .Convert();                     // Konversi file BMP ke SVG        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Siap untuk memulai?"
+  description: "Coba fitur-fitur GroupDocs.Conversion secara gratis atau minta lisensi"
+  items:
+    #  loop
+    - title: "Nuget Unduhan"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "Pemberian lisensi"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Konversi BMP lain yang didukung di C#"
-    content: "Anda juga dapat mengonversi BMP ke banyak format file lainnya. Silakan lihat daftarnya di bawah ini."
-       
-       
-back_to_top:
-    enable: true
+    title: "Konversi format file lain menggunakan C#"
+    exclude: "BMP to SVG"
+    description: "Akses API konversi dokumen dan gambar serbaguna multi-format untuk .NET. Konversi dengan lancar antara berbagai format file populer di bawah tanpa perlu perangkat lunak eksternal."
+    items: 
+        # format loop 1
+        - name: "Konversi DOCX ke HTML"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "Konversi DICOM ke JPG" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "Konversi DJVU ke PDF"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "Konversi AI ke PNG"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "Konversi BMP ke GIF"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "Konversi CAD ke XML"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "Konversi PDF ke PPTX"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "Konversi HTML ke DOCX"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "Konversi PDF ke TIFF"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "Konversi CSV ke JSON" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "Konversi XML ke XLSX" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "Konversi EML ke MHT"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "Konversi PDF ke XPS"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "Konversi PNG ke SVG"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "Konversi XML ke RTF"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "Konversi PDF ke TXT"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "Konversi DOCX ke PDF"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "Konversi CSV ke XLSX"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "Konversi EML ke MSG"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "Konversi PNG ke JPG"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "Konversi PDF ke EPUB"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

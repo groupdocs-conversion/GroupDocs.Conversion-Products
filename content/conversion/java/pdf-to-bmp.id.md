@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:14:31
+layout: "format"
+date: 2024-03-15T11:11:54
 draft: false
-otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: PDF ke BMP di Java
+lang: id
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "Konversi PDF ke BMP di Java"
-head_description: "Konversi PDF ke BMP di Java dengan beberapa baris kode. Konversi lebih dari 160 format file menggunakan API konversi dokumen GroupDocs untuk Java"
+############################# Head #############################
+head_title: "API Konverter PDF ke BMP untuk Java - konversi dalam aplikasi Java"
+head_description: "Tampilkan file PDF ke BMP dalam aplikasi Java, J2EE, J2SE. Mendukung penampilan lebih dari 180 format file dokumen dan gambar dalam mode HTML, PDF, atau gambar dengan fitur lanjutan untuk mengelola opsi penampilan dokumen."
 
 ############################# Header ############################
-title: "Konversi PDF ke BMP di Java"
-description: "Konversi PDF ke BMP dengan beberapa baris kode Java"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Konversi PDF ke BMP dalam Java" 
+description: "Rasakan efisiensi dari API konverter file yang asli dan berkinerja tinggi dari PDF ke BMP yang dirancang untuk aplikasi Java, J2EE, dan J2SE. Nikmati dukungan untuk serangkaian fitur tambahan yang luas, memungkinkan penyesuaian penampilan dokumen output." 
+subtitle: "Solusi konversi dokumen" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Maven Unduhan"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Conversion for Java API"
+    title: "Tentang GroupDocs.Conversion untuk API Java"
+    link: "/conversion/java/"
+    link_title: "Pelajari lebih lanjut"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) adalah API konversi format file tingkat lanjut untuk mengonversi antara format gambar dan dokumen populer seperti Microsoft Office, OpenDocument, PDF, HTML, email, CAD. dan banyak lagi hanya dengan beberapa baris kode. API asli secara otomatis mendeteksi format dokumen asli dan menawarkan banyak opsi untuk menyesuaikan dokumen yang dikonversi. Seiring dengan fungsi mengekstrak informasi dari dokumen, ini juga mendukung caching hasil konversi ke disk lokal secara default. Namun, semua jenis penyimpanan cache dapat didukung dengan menerapkan antarmuka yang sesuai - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, atau lainnya.
-    
-
-overview:
-    enable: true
-    content: |
-        Konversikan file PDF Anda menjadi BMP di Java. Hanya membutuhkan beberapa baris kode Java pada platform pilihan Anda, seperti Windows, Linux, macOS.
-        Anda dapat mencoba mengonversi PDF ke BMP secara gratis dan mengevaluasi kualitas hasil konversi. Bersama dengan skrip konversi file sederhana, Anda dapat mencoba opsi yang lebih canggih untuk memuat file sumber PDF dan menyimpan output BMP. 
-        
-        Misalnya, untuk file sumber PDF Anda dapat menggunakan opsi pemuatan berikut:
-
-        * deteksi otomatis format file;
-        * tentukan kata sandi untuk file yang dilindungi (jika format file mendukungnya);
-        * ganti font yang hilang untuk mempertahankan tampilan dokumen.
-        
-        Ada juga opsi konversi lanjutan untuk file BMP:
-
-        * mengonversi halaman tertentu dari dokumen atau rentang halaman;
-        * tambahkan tanda air ke BMP yang dikonversi.
-
-        Setelah konversi selesai, Anda dapat menyimpan file BMP ke jalur file lokal Anda atau ke penyimpanan pihak ketiga mana pun seperti FTP, Amazon S3, Google Drive, Dropbox, dll. Harap diperhatikan - untuk mengonversi PDF untuk BMP, Anda tidak perlu menginstal software tambahan apapun, seperti MS Office, Open Office, Adobe Acrobat Reader dll.
+      Integrasikan dukungan untuk lebih dari 60 format dokumen populer secara mulus ke dalam aplikasi Java Anda menggunakan API GroupDocs.Conversion untuk Java. Dengan hanya beberapa baris kode, para pengembang dapat dengan mudah mengkonversi PDF, dokumen Word, spreadsheet Excel, presentasi, file Visio, file proyek, dokumen Outlook, dan banyak format lainnya menjadi format dokumen atau gambar yang diinginkan. Nikmati pemrosesan dokumen yang cepat tanpa memerlukan instalasi perangkat lunak tambahan atau pustaka eksternal.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk mengonversi PDF ke BMP di Java"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) memungkinkan pengembang untuk dengan mudah mengonversi file PDF ke BMP dengan beberapa baris kode.
-        
-        * Buat instance baru dari kelas Converter dan unggah file PDF dengan path lengkap
-        * Setel ConvertOptions untuk jenis dokumen ke BMP
-        * Panggil metode convert() dan berikan nama dokumen (path lengkap) dan format (BMP) sebagai parameter
-
-    title_right: "Persyaratan sistem"
-    content_right: |
-        Konversi dasar dengan GroupDocs.Conversion for Java API dapat dilakukan hanya dengan beberapa baris kode. API kami didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
-
-        * Sistem operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan pengembangan: NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * Dapatkan GroupDocs.Conversion for Java terbaru dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-         
-    code: |
-        ```java    
-        // Muat file sumber PDF untuk konversi
-          Converter converter = new Converter("input.pdf");
-          // Siapkan opsi konversi untuk format target BMP
-          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-          // Konversikan ke format BMP
-          converter.convert("output.bmp", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "PDF ke BMP Demo Langsung"
+    title: "Langkah-langkah untuk mengonversi file PDF ke BMP dalam Java" 
     content: |
-       Kunjungi situs web [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) kami dan coba konversi PDF ke BMP sekarang. Demo gratis memiliki manfaat sebagai berikut
-          
+      Pemrosesan PDF ke BMP dibuat sederhana dengan <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a>, hanya memerlukan beberapa langkah sederhana.
+      
+      1. Tambahkan <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion untuk Java</a> sebagai dependensi pada proyek Anda. 
+      2. Buat sebuah instans dari kelas Converter.  
+      3. Muat file PDF dengan jalur lengkap. 
+      4. Konversikan file dan periksa output di direktori saat ini. 
+   
+    code:
+      platform: "java"
+      copy_title: "Salin"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "klik untuk menyalin"
+        copy_done: "disalin"
+      links:
+        #  loop
+        - title: "Contoh lebih lanjut"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "Dokumentasi"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.pdf")              // Atur file PDF input
+            .convertTo("converted.bmp")    // Tentukan jalur output untuk file yang dikonversi
+            .convert();                     // Konversi file PDF ke BMP        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Siap untuk memulai?"
+  description: "Coba fitur-fitur GroupDocs.Conversion secara gratis atau minta lisensi"
+  items:
+    #  loop
+    - title: "Maven Unduhan"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "Pemberian lisensi"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Konversi PDF lain yang didukung di Java"
-    content: "Anda juga dapat mengonversi PDF ke banyak format file lainnya. Silakan lihat daftarnya di bawah ini."
-       
-       
-back_to_top:
-    enable: true
+    title: "Konversi format file lain menggunakan Java"
+    exclude: "PDF to BMP"
+    description: "Akses API serbaguna untuk mengonversi dokumen dan gambar di antara berbagai format dalam Java. Beralih dengan lancar antara beberapa format file yang paling umum digunakan yang tercantum di bawah tanpa bergantung pada alat eksternal."
+    items: 
+      # format loop 1
+      - name: "Konversi DOCX ke PDF"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "Konversi DOC ke HTML"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "Konversi CSV ke XLSX"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "Konversi EML ke MSG"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "Konversi HTML ke DOCX"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "Konversi HTML ke PNG"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "Konversi JPG ke TIFF"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "Konversi PDF ke EPUB"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "Konversi PNG ke JPG"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "Konversi SVG ke PNG"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "Konversi TXT ke XML"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "Konversi XLS ke JSON"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "Konversi XML ke DOCX"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "Konversi DOCX ke HTML"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "Konversi DICOM ke JPG" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "Konversi DJVU ke PDF"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "Konversi AI ke PNG"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "Konversi BMP ke SVG"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "Konversi DOT ke VSDX"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "Konversi MHTML ke DOCX"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "Konversi TXT ke EML"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

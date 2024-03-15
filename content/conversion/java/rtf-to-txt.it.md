@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:15:01
+layout: "format"
+date: 2024-03-15T11:11:55
 draft: false
-otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: RTF a TXT in Java
+lang: it
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "Converti RTF in TXT in Java"
-head_description: "Conversione da RTF a TXT in Java con poche righe di codice. Converti oltre 160 formati di file utilizzando l'API di conversione dei documenti GroupDocs per Java"
+############################# Head #############################
+head_title: "API Convertitore RTF in TXT per Java - converti in applicazioni Java"
+head_description: "Visualizza file RTF in TXT in applicazioni Java, J2EE, J2SE. Supporta la visualizzazione di oltre 180 formati di file documento e immagine in modalità HTML, PDF o immagine con funzionalità avanzate per gestire le opzioni di visualizzazione del documento."
 
 ############################# Header ############################
-title: "Converti RTF in TXT in Java"
-description: "Conversione da RTF a TXT con poche righe di codice Java"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Converti RTF in TXT in Java" 
+description: "Sperimenta l'efficienza di un API convertitore di file nativo e ad alte prestazioni da RTF a TXT progettato per applicazioni Java, J2EE e J2SE. Goditi il supporto per un insieme esteso di funzionalità aggiuntive, consentendo la personalizzazione dell'aspetto del documento di output." 
+subtitle: "Soluzione di conversione dei documenti" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Maven Download"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Informazioni sull'API GroupDocs.Conversion for Java"
+    title: "Informazioni su GroupDocs.Conversion per API Java"
+    link: "/conversion/java/"
+    link_title: "Scopri di più"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) è un'API di conversione di formati di file avanzata per la conversione tra formati di immagini e documenti popolari come Microsoft Office, OpenDocument, PDF, HTML, e-mail, CAD. e molto altro ancora con poche righe di codice. L'API nativa rileva automaticamente i formati dei documenti originali e offre molte opzioni per personalizzare i documenti convertiti. Insieme alla funzione di estrazione delle informazioni da un documento, supporta anche la memorizzazione nella cache dei risultati della conversione sul disco locale per impostazione predefinita. Tuttavia, qualsiasi tipo di archiviazione della cache può essere supportato implementando le interfacce appropriate: Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis o qualsiasi altro.
-    
-
-overview:
-    enable: true
-    content: |
-        Converti i tuoi file RTF in TXT in Java. Occorrono solo un paio di righe di codice Java su qualsiasi piattaforma di tua scelta, come Windows, Linux, macOS.
-        Puoi provare a convertire da RTF a TXT gratuitamente e valutare la qualità dei risultati della conversione. Insieme a semplici script di conversione file, puoi provare opzioni più sofisticate per caricare il file sorgente RTF e memorizzare l'output TXT. 
-        
-        Ad esempio, per il file di origine RTF puoi utilizzare le seguenti opzioni di caricamento:
-
-        * rilevamento automatico del formato del file;
-        * specificare una password per i file protetti (se il formato del file lo supporta);
-        * sostituire i caratteri mancanti per preservare l'aspetto del documento.
-        
-        Ci sono anche opzioni di conversione avanzate per il file TXT:
-
-        * convertire una pagina specifica di un documento o un intervallo di pagine;
-        * aggiungi una filigrana al TXT convertito.
-
-        Una volta completata la conversione, puoi salvare il file TXT nel tuo percorso file locale o in qualsiasi archivio di terze parti come FTP, Amazon S3, Google Drive, Dropbox ecc. Nota: per convertire RTF a TXT, non è necessario installare alcun software aggiuntivo, come MS Office, Open Office, Adobe Acrobat Reader ecc.
+      Incorpora il supporto per oltre 60 formati di documento popolari in modo trasparente nelle tue applicazioni Java utilizzando le API GroupDocs.Conversion per Java. Con poche righe di codice, gli sviluppatori possono convertire senza sforzo PDF, documenti Word, fogli di calcolo Excel, presentazioni, file Visio, file di progetto, documenti Outlook e molti altri formati nel formato di documento o immagine desiderato. Goditi un rapido processo di elaborazione del documento senza la necessità di installare software aggiuntivi o librerie esterne.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Passaggi per convertire RTF in TXT in Java"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) consente agli sviluppatori di convertire facilmente il file RTF in TXT con poche righe di codice.
-        
-        * Crea una nuova istanza della classe Converter e carica il file RTF con il percorso completo
-        * Imposta ConvertOptions per il tipo di documento su TXT
-        * Chiama il metodo convert() e passa il nome del documento (percorso completo) e il formato (TXT) come parametro
-
-    title_right: "Requisiti di sistema"
-    content_right: |
-        La conversione di base con l'API GroupDocs.Conversion for Java può essere eseguita con poche righe di codice. Le nostre API sono supportate su tutte le principali piattaforme e sistemi operativi. Prima di eseguire il codice seguente, assicurati di avere i seguenti prerequisiti installati sul tuo sistema.
-
-        * Sistemi operativi: Microsoft Windows, Linux, MacOS
-        * Ambienti di sviluppo: NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * Ricevi l'ultimo GroupDocs.Conversion for Java da [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-         
-    code: |
-        ```java    
-        // Carica il file di origine RTF per la conversione
-          Converter converter = new Converter("input.rtf");
-          // Prepara le opzioni di conversione per il formato target TXT
-          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
-          // Converti nel formato TXT
-          converter.convert("output.txt", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "Da RTF a TXT Demo dal vivo"
+    title: "Passaggi per convertire il file RTF in TXT nel linguaggio Java" 
     content: |
-       Visita il nostro sito web [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) e prova subito la conversione da RTF a TXT. La demo gratuita ha i seguenti vantaggi
-          
+      La trasformazione da RTF a TXT è resa semplice con <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a>, richiedendo solo pochi semplici passaggi.
+      
+      1. Aggiungi <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion per Java</a> come dipendenza al tuo progetto. 
+      2. Crea un'istanza della classe Converter.  
+      3. Carica il file RTF con il percorso completo. 
+      4. Converti il file e controlla l'output nella directory corrente. 
+   
+    code:
+      platform: "java"
+      copy_title: "Copia"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "clicca per copiare"
+        copy_done: "copiato"
+      links:
+        #  loop
+        - title: "Altri esempi"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "Documentazione"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.rtf")              // Imposta il file RTF di input
+            .convertTo("converted.txt")    // Specificare il percorso di output per il file convertito
+            .convert();                     // Converti il file RTF in TXT        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Pronto per iniziare?"
+  description: "Prova le funzionalità di GroupDocs.Conversion gratuitamente o richiedi una licenza"
+  items:
+    #  loop
+    - title: "Maven Download"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "Licenze"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Altre conversioni RTF supportate in Java"
-    content: "Puoi anche convertire RTF in molti altri formati di file. Si prega di consultare l'elenco di seguito."
-       
-       
-back_to_top:
-    enable: true
+    title: "Converti altri formati di file utilizzando Java"
+    exclude: "RTF to TXT"
+    description: "Accedi a un'API versatile per convertire documenti e immagini tra vari formati in Java. Passa senza problemi tra alcuni dei formati di file più comunemente utilizzati elencati di seguito senza dipendere da strumenti esterni."
+    items: 
+      # format loop 1
+      - name: "Converti DOCX in PDF"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "Converti DOC in HTML"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "Converti CSV in XLSX"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "Converti EML in MSG"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "Converti HTML in DOCX"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "Converti HTML in PNG"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "Converti JPG in TIFF"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "Converti PDF in EPUB"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "Converti PNG in JPG"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "Converti SVG in PNG"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "Converti TXT in XML"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "Converti XLS in JSON"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "Converti XML in DOCX"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "Converti DOCX in HTML"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "Converti DICOM in JPG" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "Converti DJVU in PDF"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "Converti AI in PNG"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "Converti BMP in SVG"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "Converti DOT in VSDX"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "Converti MHTML in DOCX"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "Converti TXT in EML"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:19:02
+layout: "format"
+date: 2024-03-15T11:12:00
 draft: false
-otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: JP2 в TIFF на Java
+lang: ru
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "Конвертировать JP2 в TIFF на Java"
-head_description: "Конвертация JP2 в TIFF в Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java"
+############################# Head #############################
+head_title: "Java API конвертер JP2 в TIFF - конвертировать в Java приложениях"
+head_description: "Просматривайте файлы JP2 в Java, J2EE, J2SE приложениях. Поддерживается просмотр более 180 форматов файлов документов и изображений в режиме HTML, PDF или изображения с расширенными функциями управления опциями просмотра документов."
 
 ############################# Header ############################
-title: "Конвертировать JP2 в TIFF на Java"
-description: "Преобразование JP2 в TIFF с помощью нескольких строк кода Java"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Конвертировать JP2 в TIFF на Java" 
+description: "Опыт высокопроизводительного нативного API конвертации файлов JP2 в TIFF для Java, J2EE и J2SE приложений. Наслаждайтесь поддержкой широкого набора дополнительных функций, позволяющих настраивать внешний вид выходного документа." 
+subtitle: "Решение по преобразованию документов" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Скачать из Maven"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Об API GroupDocs.Conversion for Java"
+    title: "О GroupDocs.Conversion для Java API"
+    link: "/conversion/java/"
+    link_title: "Узнать больше"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое с помощью всего нескольких строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество вариантов настройки преобразованных документов. Наряду с функцией извлечения информации из документа по умолчанию также поддерживается кеширование результатов конвертации на локальный диск. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
-    
-
-overview:
-    enable: true
-    content: |
-        Преобразуйте ваши JP2 файлы в TIFF в Java. Это займет всего пару строк кода Java на любой платформе по вашему выбору, такой как Windows, Linux, macOS.
-        Вы можете бесплатно попробовать преобразовать JP2 в TIFF и оценить качество результатов преобразования. Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла JP2 и сохранения вывода TIFF. 
-        
-        Например, для исходного файла JP2 вы можете использовать следующие параметры загрузки:
-
-        * автоматическое определение формата файла;
-        * указать пароль для защищенных файлов (если формат файла это поддерживает);
-        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
-        
-        Существуют также расширенные параметры преобразования для файла TIFF:
-
-        * конвертировать определенную страницу документа или диапазон страниц;
-        * добавить водяной знак к преобразованному TIFF.
-
-        После завершения преобразования вы можете сохранить файл TIFF по своему локальному пути к файлу или в любом стороннем хранилище, таком как FTP, Amazon S3, Google Drive, Dropbox и т. д. Обратите внимание: для преобразования JP2 до TIFF вам не нужно устанавливать какое-либо дополнительное программное обеспечение, такое как MS Office, Open Office, Adobe Acrobat Reader и т. д.
+      Внедрите поддержку более 60 популярных форматов документов без проблем в ваши Java приложения, используя API GroupDocs.Conversion для Java. Всего несколькими строками кода разработчики могут легко конвертировать PDF, документы Word, электронные таблицы Excel, презентации, файлы Visio, файлы проектов, документы Outlook и множество других форматов в желаемые документы или изображения. Наслаждайтесь быстрой обработкой документов без необходимости установки дополнительного программного обеспечения или внешних библиотек.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по преобразованию JP2 в TIFF на Java"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) позволяет разработчикам легко преобразовать файл JP2 в TIFF с помощью нескольких строк кода.
-        
-        * Создайте новый экземпляр класса Converter и загрузите файл JP2 с полным путем
-        * Установите ConvertOptions для типа документа на TIFF
-        * Вызовите метод convert() и передайте имя документа (полный путь) и формат (TIFF) в качестве параметра
-
-    title_right: "Системные Требования"
-    content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion for Java API можно выполнить всего несколькими строками кода. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * Получите последнюю версию GroupDocs.Conversion for Java из [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-         
-    code: |
-        ```java    
-        // Загрузить исходный файл JP2 для преобразования
-          Converter converter = new Converter("input.jp2");
-          // Подготовьте параметры преобразования для целевого формата TIFF
-          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-          // Преобразование в формат TIFF
-          converter.convert("output.tiff", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "JP2 до TIFF Демо"
+    title: "Шаги для преобразования файла JP2 в файл TIFF на Java" 
     content: |
-       Посетите наш веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) и попробуйте преобразовать JP2 в TIFF прямо сейчас. Бесплатная демоверсия имеет следующие преимущества
-          
+      Преобразование JP2 в TIFF становится простым с помощью <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a>, требующим всего нескольких простых шагов.
+      
+      1. Добавьте <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion для Java</a> в зависимости вашего проекта. 
+      2. Создайте экземпляр класса Converter.  
+      3. Загрузите файл JP2 с полным путем. 
+      4. Преобразуйте файл и проверьте вывод в текущем каталоге. 
+   
+    code:
+      platform: "java"
+      copy_title: "Копировать"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "нажмите, чтобы скопировать"
+        copy_done: "скопировано"
+      links:
+        #  loop
+        - title: "Больше примеров"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "Документация"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.jp2")              // Настройте входной файл JP2
+            .convertTo("converted.tiff")    // Укажите путь к конвертированному файлу
+            .convert();                     // Конвертировать файл JP2 в файл TIFF        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Conversion бесплатно или запросите лицензию"
+  items:
+    #  loop
+    - title: "Скачать из Maven"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "Лицензирование"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования JP2 на Java"
-    content: "Вы также можете конвертировать JP2 во многие другие форматы файлов. См. список ниже."
-       
-       
-back_to_top:
-    enable: true
+    title: "Преобразовать другие форматы файлов, используя Java"
+    exclude: "JP2 to TIFF"
+    description: "Получите доступ к универсальному API для конвертации документов и изображений между различными форматами в Java. Мгновенно переключайтесь между некоторыми из самых распространенных форматов файлов, перечисленных ниже, без необходимости использования внешних инструментов."
+    items: 
+      # format loop 1
+      - name: "Преобразовать DOCX в PDF"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "Преобразовать DOC в HTML"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "Преобразовать CSV в XLSX"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "Преобразовать EML в MSG"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "Преобразовать HTML в DOCX"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "Преобразовать HTML в PNG"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "Преобразовать JPG в TIFF"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "Преобразовать PDF в EPUB"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "Преобразовать PNG в JPG"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "Преобразовать SVG в PNG"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "Преобразовать TXT в XML"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "Преобразовать XLS в JSON"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "Преобразовать XML в DOCX"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "Преобразовать DOCX в HTML"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "Преобразовать DICOM в JPG" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "Преобразовать DJVU в PDF"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "Преобразовать AI в PNG"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "Преобразовать BMP в SVG"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "Преобразовать DOT в VSDX"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "Преобразовать MHTML в DOCX"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "Преобразовать TXT в EML"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

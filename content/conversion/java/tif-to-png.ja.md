@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:15:16
+layout: "format"
+date: 2024-03-15T11:11:57
 draft: false
-otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: JavaでTIFからPNGへ
+lang: ja
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "Java で TIF を PNG に変換します"
-head_description: "Java での TIF から PNG への変換を、数行のコードで行います。 Java の GroupDocs ドキュメント変換 API を使用して、160 を超えるファイル形式を変換します"
+############################# Head #############################
+head_title: "Java アプリケーションでの TIF から PNG コンバーター API - Java アプリケーションで変換"
+head_description: "Java、J2EE、J2SE アプリケーションで TIF を PNG に変換します。180 を超えるドキュメントおよび画像ファイル形式を HTML、PDF、または画像モードで表示するための高度な機能を備えています。"
 
 ############################# Header ############################
-title: "Java で TIF を PNG に変換します"
-description: "数行の Java コードによる TIF から PNG への変換"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Java で TIF を PNG に変換" 
+description: "Java、J2EE、および J2SE アプリケーション向けに設計された高性能なネイティブの TIF から PNG ファイルコンバーター API の効率を体験してください。追加の機能セットをサポートし、出力ドキュメントの外観をカスタマイズします。" 
+subtitle: "ドキュメント変換ソリューション" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Maven のダウンロード"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Conversion for Java API について"
+    title: "Java API 用 GroupDocs.Conversion について"
+    link: "/conversion/java/"
+    link_title: "詳細を見る"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) は、Microsoft Office、OpenDocument、PDF、HTML、電子メール、CAD などの一般的な画像とドキュメント形式の間で変換するための高度なファイル形式変換 API です。ほんの数行のコードでさらに多くのことができます。ネイティブ API は、元のドキュメントの形式を自動的に検出し、変換されたドキュメントをカスタマイズするための多くのオプションを提供します。ドキュメントから情報を抽出する機能に加えて、デフォルトで変換結果のローカル ディスクへのキャッシュもサポートしています。ただし、Amazon S3、Dropbox、Google Drive、Windows Azure、Reddis、またはその他の適切なインターフェイスを実装することで、あらゆるタイプのキャッシュ ストレージをサポートできます。
-    
-
-overview:
-    enable: true
-    content: |
-        Java で TIF ファイルを PNG に変換します。 Windows、Linux、macOS など、任意のプラットフォームで数行の Java コードを実行するだけです。
-        TIF を PNG に無料で変換してみて、変換結果の品質を評価できます。シンプルなファイル変換スクリプトに加えて、TIF ソース ファイルをロードし、PNG 出力を保存するためのより洗練されたオプションを試すことができます。 
-        
-        たとえば、ソース TIF ファイルの場合、次のロード オプションを使用できます。
-
-        * ファイル形式の自動検出;
-        * 保護されたファイルのパスワードを指定する (ファイル形式がサポートしている場合);
-        * ドキュメントの外観を維持するために不足しているフォントを置き換えます.
-        
-        PNG ファイルの高度な変換オプションもあります。
-
-        * ドキュメントの特定のページまたはページ範囲を変換する;
-        * 変換された PNG に透かしを追加します.
-
-        変換が完了したら、PNG ファイルをローカル ファイル パス、または FTP、Amazon S3、Google ドライブ、Dropbox などのサード パーティのストレージに保存できます。注意してください - TIF を変換するにはPNG に、MS Office、Open Office、Adobe Acrobat Reader などの追加のソフトウェアをインストールする必要はありません。
+      GroupDocs.Conversion for Java API を使用して、60 を超える人気のあるドキュメント形式を Java アプリケーションにシームレスに統合します。数行のコードで、PDF、Word ドキュメント、Excel スプレッドシート、プレゼンテーション、Visio ファイル、プロジェクトファイル、Outlook ドキュメントなど、さまざまな形式を目的のドキュメントまたは画像形式に変換できます。追加のソフトウェアや外部ライブラリをインストールする必要なく、スムーズなドキュメント処理を楽しめます。
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Java で TIF を PNG に変換する手順"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) を使用すると、開発者は数行のコードで TIF ファイルを PNG に簡単に変換できます。
-        
-        * Converter クラスの新しいインスタンスを作成し、ファイル TIF をフル パスでアップロードします。
-        * ドキュメント タイプの ConvertOptions を PNG に設定します
-        * convert() メソッドを呼び出し、ドキュメント名 (フル パス) と形式 (PNG) をパラメーターとして渡します。
-
-    title_right: "システム要求"
-    content_right: |
-        GroupDocs.Conversion for Java API を使用した基本的な変換は、わずか数行のコードで実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
-
-        * オペレーティング システム: Microsoft Windows、Linux、MacOS
-        * 開発環境: NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion) から最新の GroupDocs.Conversion for Java を取得します
-         
-    code: |
-        ```java    
-        // 変換のためにソース ファイル TIF を読み込みます
-          Converter converter = new Converter("input.tif");
-          // ターゲット形式の変換オプションを準備 PNG
-          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-          // PNG形式に変換
-          converter.convert("output.png", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "TIFからPNGまでのライブデモ"
+    title: "Java で TIF ファイルを PNG ファイルに変換する手順" 
     content: |
-       [GroupDocs.Conversion アプリ](https://products.groupdocs.app/conversion/family) ウェブサイトにアクセスして、今すぐ TIF から PNG への変換を試してください。無料デモには次の利点があります
-          
+      <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a> を使用して、TIF を PNG に変換する手順はいくつかの簡単なステップだけです。
+      
+      1. プロジェクトに <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion for Java</a> を依存関係として追加します。 
+      2. Converter クラスのインスタンスを作成します。  
+      3. 完全なパスで TIF ファイルを読み込みます。 
+      4. ファイルを変換し、現在のディレクトリで出力を確認します。 
+   
+    code:
+      platform: "java"
+      copy_title: "コピー"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "クリックしてコピー"
+        copy_done: "コピーされました"
+      links:
+        #  loop
+        - title: "さらなる例"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "ドキュメント"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.tif")              // TIF ファイルを入力設定
+            .convertTo("converted.png")    // 変換されたファイルの出力パスを指定
+            .convert();                     // TIF ファイルを PNG ファイルに変換        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "はじめませんか？"
+  description: "GroupDocs.Conversion の機能を無料でお試しください、またはライセンスをリクエストしてください"
+  items:
+    #  loop
+    - title: "Maven のダウンロード"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "ライセンス"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Java でサポートされているその他の TIF 変換"
-    content: "TIF を他の多くのファイル形式に変換することもできます。以下のリストをご覧ください。"
-       
-       
-back_to_top:
-    enable: true
+    title: "Java を使用して他のファイル形式を変換する"
+    exclude: "TIF to PNG"
+    description: "外部のソフトウェアを必要とせずに、Java でよく使用されるさまざまなファイル形式の間をスムーズに切り替えます。"
+    items: 
+      # format loop 1
+      - name: "DOCX を PDF に変換"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "DOC を HTML に変換"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "CSV を XLSX に変換"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "EML を MSG に変換"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "HTML を DOCX に変換"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "HTML を PNG に変換"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "JPG を TIFF に変換"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "PDF を EPUB に変換"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "PNG を JPG に変換"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "SVG を PNG に変換"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "TXT を XML に変換"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "XLS を JSON に変換"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "XML を DOCX に変換"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "DOCX を HTML に変換"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "DICOM を JPG に変換" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "DJVU を PDF に変換"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "AI を PNG に変換"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "BMP を SVG に変換"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "DOT を VSDX に変換"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "MHTML を DOCX に変換"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "TXT を EML に変換"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

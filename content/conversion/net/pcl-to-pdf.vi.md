@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:20:56
+layout: "format"
+date: 2024-03-15T11:12:43
 draft: false
-otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: PCL đến PDF trong C#
+lang: vi
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "Chuyển đổi PCL sang PDF trong C#"
-head_description: "Chuyển đổi PCL thành PDF trong .NET bằng cách sử dụng một vài dòng mã. Sử dụng API chuyển đổi tài liệu GroupDocs để chuyển đổi hơn 160 định dạng tệp."
+############################# Head #############################
+head_title: "API Chuyển đổi PCL thành PDF cho .NET - chuyển đổi trong C# VB.NET"
+head_description: "API chuyển đổi tệp .NET để chuyển đổi PCL thành PDF trong bất kỳ loại ứng dụng C#, ASP.NET, VB.NET & .NET Core nào."
 
 ############################# Header ############################
-title: "Chuyển đổi PCL thành PDF trong C#"
-description: "Chuyển đổi PCL thành PDF với một vài dòng mã .NET"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Chuyển đổi tệp PCL thành PDF cho ứng dụng C# .NET" 
+description: "API chuyển đổi tài liệu .NET cho phép chuyển đổi tệp PCL thành PDF một cách mượt mà trong ứng dụng C#, ASP.NET, VB.NET & .NET Core. Đảm bảo định dạng chính xác và bảo toàn bố cục trong quá trình chuyển đổi, tất cả đều giảm thiểu công việc lập trình." 
+subtitle: "Giải pháp chuyển đổi tài liệu" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Tải về Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Giới thiệu về API GroupDocs.Conversion for .NET"
+    title: "Về GroupDocs.Conversion cho API .NET"
+    link: "/conversion/net/"
+    link_title: "Tìm hiểu thêm"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET] (https://products.groupdocs.com/conversion/net/) có thể được sử dụng để chuyển đổi Microsoft Word, Excel, PowerPoint, PDF, Visio và các định dạng khác. GroupDocs.Conversion là một API độc lập phù hợp với các hệ thống nội bộ và nội bộ, nơi yêu cầu hiệu suất cao. Nó không phụ thuộc vào bất kỳ phần mềm nào như Microsoft hoặc Open Office.
-    
-
-overview:
-    enable: true
-    content: |
-        Chuyển đổi các tệp PCL của bạn thành PDF trong .NET một cách dễ dàng. Bạn chỉ có thể sử dụng một vài dòng mã C# trong bất kỳ nền tảng nào bạn chọn như - Windows, Linux, macOS.
-        Bạn có thể thử chuyển đổi PCL thành PDF miễn phí và đánh giá chất lượng kết quả chuyển đổi. Cùng với các tình huống chuyển đổi tệp đơn giản, bạn có thể thử các tùy chọn nâng cao hơn để tải tệp PCL nguồn và để lưu kết quả đầu ra PDF. 
-        
-        Ví dụ: đối với tệp nguồn PCL, bạn có thể sử dụng các tùy chọn tải sau:
-
-        * định dạng tệp tự động phát hiện;
-        * chỉ định mật khẩu cho các tệp được bảo vệ (nếu định dạng tệp hỗ trợ nó);
-        * thay thế các phông chữ bị thiếu để duy trì hình thức tài liệu.
-        
-        Ngoài ra còn có các tùy chọn chuyển đổi nâng cao cho tệp PDF:
-
-        * chuyển đổi trang tài liệu cụ thể hoặc phạm vi trang;
-        * thêm hình mờ vào tệp PDF đã chuyển đổi và nhiều tệp khác.
-
-        Sau khi chuyển đổi xong, bạn có thể lưu tệp PDF của mình vào đường dẫn tệp cục bộ hoặc bất kỳ bộ nhớ bên thứ ba nào như FTP, Amazon S3, Google Drive, Dropbox, v.v. Xin lưu ý - để chuyển đổi PCL thành {{ TO}} không cần cài đặt thêm bất kỳ phần mềm nào - như MS Office, Open Office, Adobe Acrobat Reader, v.v.
+      Bắt đầu tích hợp hỗ trợ cho hơn 60 định dạng tài liệu phổ biến vào ứng dụng .NET của bạn một cách dễ dàng, tận dụng các API GroupDocs.Conversion cho .NET. Chỉ với một vài dòng mã, các nhà phát triển có thể dễ dàng chuyển đổi PDF, tài liệu Word, bảng tính Excel, bài thuyết trình, tệp Visio, tệp Project, tài liệu Outlook và nhiều định dạng khác thành các định dạng tài liệu hoặc hình ảnh mong muốn. Tận hưởng việc xử lý tài liệu nhanh chóng mà không cần cài đặt phần mềm hoặc thư viện bên ngoài.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Các bước chuyển đổi PCL thành PDF trong C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET] (https://products.groupdocs.com/conversion/net/) giúp các nhà phát triển dễ dàng chuyển đổi tệp PCL thành PDF bằng một vài dòng mã.
-        
-        * Tạo một phiên bản của lớp Chuyển đổi và cung cấp cho tệp PCL với đường dẫn đầy đủ
-        * Tạo và đặt ConvertOptions cho loại PDF.
-        * Gọi phương thức Converter.Convert và chuyển đường dẫn và định dạng đầy đủ (PDF) làm tham số
-
-    title_right: "yêu cầu hệ thống"
-    content_right: |
-        Chuyển đổi cơ bản với GroupDocs.Conversion for .NET có thể được thực hiện chỉ trong một vài bước đơn giản. API của chúng tôi được hỗ trợ trên tất cả các nền tảng và hệ điều hành chính. Trước khi thực thi mã bên dưới, hãy đảm bảo rằng bạn đã cài đặt các điều kiện tiên quyết sau trên hệ thống của mình.
-
-        * Hệ điều hành: Microsoft Windows, Linux, MacOS
-        * Môi trường phát triển: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Nhận GroupDocs.Conversion for .NET mới nhất từ ​​[Nuget] (https://www.nuget.org/packages/groupdocs.conversion)
-         
-    code: |
-        ```csharp    
-        // Tải tệp nguồn PCL để chuyển đổi
-          var converter = new GroupDocs.Conversion.Converter("input.pcl");
-          // Chuẩn bị các tùy chọn chuyển đổi cho định dạng mục tiêu PDF
-          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-          // Chuyển sang định dạng PDF
-          converter.Convert("output.pdf", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "Bản trình diễn trực tiếp từ PCL đến PDF"
+    title: "Các bước để chuyển đổi tệp PCL thành tệp PDF trong C#" 
     content: |
-       Chuyển đổi PCL thành PDF ngay bây giờ bằng cách truy cập trang web [GroupDocs.Conversion App] (https://products.groupdocs.app/conversion/family). Bản demo trực tuyến có những ưu điểm sau
+      Với <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a> bạn có thể chuyển đổi PCL thành PDF trong vài bước đơn giản.
+      
+      1. Cài đặt <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion cho .NET</a> bằng trình quản lý gói ưa thích của bạn. 
+      2. Tạo một thể hiện của lớp FluentConverter.  
+      3. Tải tệp PCL với đường dẫn đầy đủ. 
+      4. Chuyển đổi tệp và kiểm tra đầu ra trong thư mục hiện tại. 
+   
+    code:
+      platform: "net"
+      copy_title: "Sao chép"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "nhấp để sao chép"
+        copy_done: "đã sao chép"
+      links:
+        #  loop
+        - title: "Các ví dụ khác"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "Tài liệu"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.pcl")             // Thiết lập tệp PCL đầu vào
+            .ConvertTo("converted.pdf")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
+            .Convert();                     // Chuyển đổi tệp PCL thành tệp PDF        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Sẵn sàng để bắt đầu?"
+  description: "Hãy thử các tính năng của GroupDocs.Conversion miễn phí hoặc yêu cầu một giấy phép"
+  items:
+    #  loop
+    - title: "Tải về Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "Cấp phép"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Các chuyển đổi PCL được hỗ trợ khác trong C#"
-    content: "Bạn cũng có thể chuyển đổi PCL sang nhiều định dạng tệp khác. Vui lòng xem danh sách bên dưới."
-       
-       
-back_to_top:
-    enable: true
+    title: "Chuyển đổi các định dạng tệp khác bằng C#"
+    exclude: "PCL to PDF"
+    description: "Truy cập vào API chuyển đổi tài liệu và hình ảnh đa định dạng đa năng cho .NET. Chuyển đổi mượt mà giữa các định dạng tệp phổ biến dưới đây mà không cần phải dùng đến phần mềm bên ngoài."
+    items: 
+        # format loop 1
+        - name: "Chuyển đổi DOCX thành HTML"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "Chuyển đổi DICOM thành JPG" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "Chuyển đổi DJVU thành PDF"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "Chuyển đổi AI thành PNG"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "Chuyển đổi BMP thành GIF"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "Chuyển đổi CAD thành XML"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "Chuyển đổi PDF thành PPTX"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "Chuyển đổi HTML thành DOCX"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "Chuyển đổi PDF thành TIFF"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "Chuyển đổi CSV thành JSON" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "Chuyển đổi CSV thành XLSX" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "Chuyển đổi EML thành MHT"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "Chuyển đổi PDF thành XPS"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "Chuyển đổi PNG thành SVG"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "Chuyển đổi XML thành RTF"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "Chuyển đổi PDF thành TXT"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "Chuyển đổi DOCX thành PDF"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "Chuyển đổi CSV thành XLSX"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "Chuyển đổi EML thành MSG"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "Chuyển đổi PNG thành JPG"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "Chuyển đổi PDF thành EPUB"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

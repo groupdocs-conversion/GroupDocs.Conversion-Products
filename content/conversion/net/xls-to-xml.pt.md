@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:18:31
+layout: "format"
+date: 2024-03-15T11:12:30
 draft: false
-otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: XLS para XML em C#
+lang: pt
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "Conversor de XLS para XML em C#"
-head_description: "Converta XLS para XML em .NET usando algumas linhas de código. Use a API de conversão de documentos do GroupDocs para converter mais de 160 formatos de arquivo."
+############################# Head #############################
+head_title: "API de conversão de XLS para XML para .NET - converter em C# VB.NET"
+head_description: "API de conversão de arquivos .NET para converter XLS para XML em qualquer tipo de aplicativo C#, ASP.NET, VB.NET e .NET Core."
 
 ############################# Header ############################
-title: "Converter XLS para XML em C#"
-description: "Conversão de XLS para XML com algumas linhas de código .NET"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Conversor de arquivos de XLS para XML para aplicativos C# .NET" 
+description: "API de conversão de documentos .NET para transformação sem interrupções de XLS para formato XML dentro de aplicativos C#, ASP.NET, VB.NET e .NET Core. Garanta a formatação de precisão e a preservação do layout durante o processo de conversão, tudo isso minimizando os esforços de codificação." 
+subtitle: "Solução de conversão de documentos" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Download do Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Sobre a API GroupDocs.Conversion for .NET"
+    title: "Sobre a API GroupDocs.Conversion para .NET"
+    link: "/conversion/net/"
+    link_title: "Saiba mais"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) pode ser usado para converter Microsoft Word, Excel, PowerPoint, PDF, Visio e outros formatos. GroupDocs.Conversion é uma API independente que é adequada para sistemas internos e de back-end onde é necessário alto desempenho. Não depende de nenhum software como Microsoft ou Open Office.
-    
-
-overview:
-    enable: true
-    content: |
-        Converta seus arquivos XLS para XML em .NET facilmente. Você pode usar apenas algumas linhas de código C# em qualquer plataforma de sua escolha, como - Windows, Linux, macOS.
-        Você pode experimentar a conversão de XLS para XML gratuitamente e avaliar a qualidade dos resultados da conversão. Juntamente com cenários de conversão de arquivo simples, você pode tentar opções mais avançadas para carregar o arquivo de origem XLS e para salvar o resultado de saída XML. 
-        
-        Por exemplo, para o arquivo de origem XLS, você pode usar as seguintes opções de carregamento:
-
-        * formato de arquivo de detecção automática;
-        * especifique a senha para arquivos protegidos (se o formato de arquivo suportar);
-        * substituir fontes ausentes para preservar a aparência do documento.
-        
-        Há também opções avançadas de conversão para o arquivo XML:
-
-        * converter página específica do documento ou intervalo de páginas;
-        * adicione uma marca d'água ao arquivo XML convertido e muito mais.
-
-        Quando a conversão estiver concluída, você pode salvar seu arquivo XML no caminho do arquivo local ou em qualquer armazenamento de terceiros, como FTP, Amazon S3, Google Drive, Dropbox etc. Observe - para converter XLS para {{ TO}} não há necessidade de nenhum software adicional instalado - como MS Office, Open Office, Adobe Acrobat Reader etc.
+      Comece a incorporar suporte para mais de 60 formatos de documentos amplamente utilizados em seus aplicativos .NET com facilidade, aproveitando as APIs GroupDocs.Conversion para .NET. Com apenas algumas linhas de código, os desenvolvedores podem converter PDFs, documentos do Word, planilhas do Excel, apresentações, arquivos do Visio, arquivos de projeto, documentos do Outlook e muitos outros formatos em documentos ou imagens desejados. Desfrute do processamento rápido de documentos sem a necessidade de instalar software extra ou bibliotecas externas.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Etapas para converter XLS em XML em C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) torna mais fácil para os desenvolvedores converter um arquivo XLS para XML com algumas linhas de código.
-        
-        * Crie uma instância da classe Converter e forneça o arquivo XLS com o caminho completo
-        * Crie e defina ConvertOptions para o tipo XML.
-        * Chame o método Converter.Convert e passe o caminho completo e o formato (XML) como parâmetro
-
-    title_right: "Requisitos de sistema"
-    content_right: |
-        A conversão básica com GroupDocs.Conversion for .NET pode ser feita em apenas algumas etapas simples. Nossas APIs são suportadas em todas as principais plataformas e sistemas operacionais. Antes de executar o código abaixo, certifique-se de ter os seguintes pré-requisitos instalados em seu sistema.
-
-        * Sistemas operacionais: Microsoft Windows, Linux, MacOS
-        * Ambientes de desenvolvimento: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Obtenha o GroupDocs.Conversion for .NET mais recente de [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-         
-    code: |
-        ```csharp    
-        // Carregar arquivo de origem XLS para conversão
-          var converter = new GroupDocs.Conversion.Converter("input.xls");
-          // Preparar opções de conversão para o formato de destino XML
-          var convertOptions = converter.GetPossibleConversions()["xml"].ConvertOptions;
-          // Converter para o formato XML
-          converter.Convert("output.xml", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "XLS para XML Demonstração ao vivo"
+    title: "Passos para converter arquivo XLS para XML em C#" 
     content: |
-       Converta XLS para XML agora visitando o site [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). A demonstração online tem as seguintes vantagens
+      Com <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a>, você pode transformar XLS para XML em poucos passos.
+      
+      1. Instale <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion para .NET</a> usando seu gerenciador de pacotes favorito. 
+      2. Crie uma instância da classe FluentConverter.  
+      3. Carregue o arquivo XLS com o caminho completo. 
+      4. Transforme o arquivo e verifique a saída no diretório atual. 
+   
+    code:
+      platform: "net"
+      copy_title: "Copiar"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "clique para copiar"
+        copy_done: "copiado"
+      links:
+        #  loop
+        - title: "Mais exemplos"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "Documentação"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.xls")             // Configurar arquivo de entrada XLS
+            .ConvertTo("converted.xml")     // Especificar o caminho de saída para o arquivo convertido
+            .Convert();                     // Converter arquivo XLS para XML        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Pronto para começar?"
+  description: "Experimente os recursos do GroupDocs.Conversion gratuitamente ou solicite uma licença"
+  items:
+    #  loop
+    - title: "Download do Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "Licenciamento"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Outras conversões de XLS suportadas em C#"
-    content: "Você também pode converter XLS para muitos outros formatos de arquivo. Por favor, veja a lista abaixo."
-       
-       
-back_to_top:
-    enable: true
+    title: "Converter outros formatos de arquivo usando C#"
+    exclude: "XLS to XML"
+    description: "Acesse a versátil API de conversão de documentos e imagens multi-formato para .NET. Converta entre vários formatos de arquivo populares abaixo sem a necessidade de software externo."
+    items: 
+        # format loop 1
+        - name: "Converter DOCX para HTML"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "Converter DICOM para JPG" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "Converter DJVU para PDF"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "Converter AI para PNG"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "Converter BMP para GIF"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "Converter CAD para XML"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "Converter PDF para PPTX"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "Converter HTML para DOCX"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "Converter PDF para TIFF"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "Converter CSV para JSON" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "Converter CSV para XLSX" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "Converter EML para MHT"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "Converter PDF para XPS"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "Converter PNG para SVG"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "Converter XML para RTF"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "Converter PDF para TXT"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "Converter DOCX para PDF"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "Converter CSV para XLSX"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "Converter EML para MSG"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "Converter PNG para JPG"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "Converter PDF para EPUB"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

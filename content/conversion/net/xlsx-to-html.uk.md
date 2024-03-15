@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:20:29
+layout: "format"
+date: 2024-03-15T11:12:42
 draft: false
-otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: XLSX в HTML на C#
+lang: uk
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "Конвертер XLSX в HTML на C#"
-head_description: "Перетворіть XLSX на HTML у .NET за допомогою кількох рядків коду. Використовуйте API перетворення документів GroupDocs, щоб конвертувати понад 160 форматів файлів."
+############################# Head #############################
+head_title: "API конвертування XLSX у HTML для .NET - конвертувати в C# VB.NET"
+head_description: "API конвертування файлів .NET для конвертації XLSX у HTML в будь-якому типі C#, ASP.NET, VB.NET та додатках .NET Core."
 
 ############################# Header ############################
-title: "Перетворіть XLSX на HTML у C#"
-description: "Перетворення XLSX у HTML за допомогою кількох рядків коду .NET"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Конвертер файлів XLSX у HTML для застосунків C# .NET" 
+description: "API конвертування документів .NET для безшовного перетворення XLSX у формат HTML у межах застосунків C#, ASP.NET, VB.NET та .NET Core. Забезпечте точне форматування та збереження макету під час процесу конвертації, мінімізуючи зусилля з написання коду." 
+subtitle: "Рішення для конвертації документів" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Завантажити з Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Про API GroupDocs.Conversion for .NET"
+    title: "Про GroupDocs.Conversion для .NET API"
+    link: "/conversion/net/"
+    link_title: "Дізнатися більше"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) можна використовувати для конвертації Microsoft Word, Excel, PowerPoint, PDF, Visio та інших форматів. GroupDocs.Conversion — це окремий API, який підходить для серверних і внутрішніх систем, де потрібна висока продуктивність. Він не залежить від будь-якого програмного забезпечення, такого як Microsoft або Open Office.
-    
-
-overview:
-    enable: true
-    content: |
-        Легко конвертуйте файли XLSX у HTML на .NET. Ви можете використовувати всього пару рядків коду C# на будь-якій платформі за вашим вибором, такі як Windows, Linux, macOS.
-        Ви можете безкоштовно спробувати перетворення XLSX у HTML і оцінити якість результатів перетворення. Разом із простими сценаріями перетворення файлів ви можете спробувати розширені параметри для завантаження вихідного файлу XLSX і збереження результату HTML. 
-        
-        Наприклад, для вихідного файлу XLSX ви можете використовувати такі параметри завантаження:
-
-        * автоматичне визначення формату файлу;
-        * вказати пароль для захищених файлів (якщо підтримує формат файлу);
-        * замінити відсутні шрифти, щоб зберегти зовнішній вигляд документа.
-        
-        Для файлу HTML також є розширені параметри перетворення:
-
-        * конвертувати певну сторінку документа або діапазон сторінок;
-        * додати водяний знак до перетвореного файлу HTML та багато іншого.
-
-        Після завершення перетворення ви можете зберегти свій файл HTML у локальному файлі або будь-якому сторонньому сховищі, такому як FTP, Amazon S3, Google Drive, Dropbox тощо. Зауважте: щоб конвертувати XLSX у HTML не потрібно встановлювати додаткове програмне забезпечення, таке як MS Office, Open Office, Adobe Acrobat Reader тощо.
+      Почніть включати підтримку понад 60 широко використовуваних форматів документів у ваших застосунках .NET з легкістю, використовуючи GroupDocs.Conversion для .NET APIs. Лише кілька рядків коду дозволять розпочати безперервне перетворення PDF-файлів, документів Word, електронних таблиць Excel, презентацій, файлів Visio, файлів проектів, документів Outlook та численних інших форматів у бажані формати документів або зображень. Насолоджуйтеся швидкою обробкою документів без необхідності встановлення додаткового програмного забезпечення або зовнішніх бібліотек.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Кроки для перетворення XLSX на HTML у C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) дозволяє розробникам легко конвертувати файл XLSX у HTML за допомогою кількох рядків коду.
-        
-        * Створіть екземпляр класу Converter і надайте файлу XLSX повний шлях
-        * Створіть і встановіть ConvertOptions для типу HTML.
-        * Викличте метод Converter.Convert і передайте повний шлях та формат (HTML) як параметр
-
-    title_right: "Системні вимоги"
-    content_right: |
-        Базове перетворення за допомогою GroupDocs.Conversion for .NET можна виконати за кілька простих кроків. Наші API підтримуються на всіх основних платформах і операційних системах. Перш ніж виконувати наведений нижче код, переконайтеся, що ваша система відповідає цим передумовам.
-
-        * Операційні системи: Microsoft Windows, Linux, MacOS
-        * Середовища розробки: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Отримайте останню версію GroupDocs.Conversion for .NET від [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-         
-    code: |
-        ```csharp    
-        // Завантажте вхідний файл XLSX для конвертації
-          var converter = new GroupDocs.Conversion.Converter("input.xlsx");
-          // Задайте параметри перетворення для цільового формату HTML
-          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-          // Перетворіть файл у HTML формат
-          converter.Convert("output.html", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "XLSX до HTML Демо"
+    title: "Кроки для конвертації файлу XLSX у файл HTML у C#" 
     content: |
-       Перетворіть XLSX на HTML зараз, відвідавши веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн-демонстрація має такі переваги
+      З <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a> ви можете перетворити XLSX у HTML за декілька кроків.
+      
+      1. Встановіть <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion для .NET</a> за допомогою вашого улюбленого менеджера пакетів. 
+      2. Створіть екземпляр класу FluentConverter.  
+      3. Завантажте файл XLSX з повним шляхом. 
+      4. Перетворіть файл та перевірте вивід у поточному каталозі. 
+   
+    code:
+      platform: "net"
+      copy_title: "Копіювати"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "клацніть, щоб скопіювати"
+        copy_done: "скопійовано"
+      links:
+        #  loop
+        - title: "Додаткові приклади"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "Документація"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.xlsx")             // Налаштування вхідного файлу XLSX
+            .ConvertTo("converted.html")     // Вказівка шляху виведення для конвертованого файлу
+            .Convert();                     // Конвертування файлу XLSX у файл HTML        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готові розпочати?"
+  description: "Спробуйте можливості GroupDocs.Conversion безкоштовно або запитайте ліцензію"
+  items:
+    #  loop
+    - title: "Завантажити з Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "Ліцензування"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Інші підтримувані перетворення XLSX у C#"
-    content: "Ви також можете конвертувати XLSX у багато інших форматів файлів. Перегляньте список нижче."
-       
-       
-back_to_top:
-    enable: true
+    title: "Конвертування інших форматів файлів за допомогою C#"
+    exclude: "XLSX to HTML"
+    description: "Отримайте доступ до універсального API для конвертації документів та зображень у різні формати в .NET. Перемикайтеся між найпоширенішими форматами файлів нижче без необхідності використання зовнішніх інструментів."
+    items: 
+        # format loop 1
+        - name: "Конвертувати DOCX у HTML"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "Конвертувати DICOM у JPG" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "Конвертувати DJVU у PDF"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "Конвертувати AI у PNG"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "Конвертувати BMP у GIF"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "Конвертувати CAD у XML"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "Конвертувати PDF у PPTX"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "Конвертувати HTML у DOCX"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "Конвертувати PDF у TIFF"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "Конвертувати CSV у JSON" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "Конвертувати CSV у XLSX" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "Конвертувати EML у MHT"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "Конвертувати PDF у XPS"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "Конвертувати PNG у SVG"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "Конвертувати XML у RTF"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "Конвертувати PDF у TXT"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "Конвертувати DOCX у PDF"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "Конвертувати CSV у XLSX"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "Конвертувати EML у MSG"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "Конвертувати PNG у JPG"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "Конвертувати PDF у EPUB"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:13:06
+layout: "format"
+date: 2024-03-15T11:11:53
 draft: false
-otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: XML à CSV en Java
+lang: fr
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "Convertir XML en CSV en Java"
-head_description: "Conversion de XML à CSV dans Java avec quelques lignes de code. Convertissez plus de 160 formats de fichiers à l'aide de l'API de conversion de documents GroupDocs pour Java"
+############################# Head #############################
+head_title: "API de convertisseur de XML en CSV pour Java - convertir dans les applications Java"
+head_description: "Afficher des fichiers XML en CSV dans des applications Java, J2EE, J2SE. Prend en charge l'affichage de plus de 180 formats de fichier de document et d'image en mode HTML, PDF ou image avec des fonctionnalités avancées pour gérer les options d'affichage de document."
 
 ############################# Header ############################
-title: "Convertir XML en CSV en Java"
-description: "Conversion XML à CSV avec quelques lignes de code Java"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Convertir XML en CSV en Java" 
+description: "Découvrez l'efficacité d'une API de convertisseur de fichier native et haute performance de XML en CSV conçue pour les applications Java, J2EE et J2SE. Profitez du support pour un ensemble étendu de fonctionnalités supplémentaires, permettant de personnaliser l'apparence du document de sortie." 
+subtitle: "Solution de conversion de documents" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Maven Téléchargement"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "À propos de l'API GroupDocs.Conversion for Java"
+    title: "À propos de GroupDocs.Conversion pour l'API Java"
+    link: "/conversion/java/"
+    link_title: "En savoir plus"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) est une API de conversion de format de fichier avancée pour la conversion entre les formats d'image et de document populaires tels que Microsoft Office, OpenDocument, PDF, HTML, e-mail, CAO. et bien plus encore avec seulement quelques lignes de code. L'API native détecte automatiquement les formats des documents originaux et propose de nombreuses options de personnalisation des documents convertis. Outre la fonction d'extraction d'informations d'un document, il prend également en charge la mise en cache des résultats de conversion sur le disque local par défaut. Cependant, tout type de stockage de cache peut être pris en charge en implémentant les interfaces appropriées - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis ou tout autre.
-    
-
-overview:
-    enable: true
-    content: |
-        Convertissez vos fichiers XML en CSV dans Java. Cela ne prend que quelques lignes de code Java sur n'importe quelle plate-forme de votre choix, telle que Windows, Linux, macOS.
-        Vous pouvez essayer de convertir gratuitement XML en CSV et évaluer la qualité des résultats de conversion. En plus des scripts de conversion de fichiers simples, vous pouvez essayer des options plus sophistiquées pour charger le fichier source XML et stocker la sortie CSV. 
-        
-        Par exemple, pour le fichier source XML, vous pouvez utiliser les options de chargement suivantes :
-
-        * détection automatique du format de fichier;
-        * spécifier un mot de passe pour les fichiers protégés (si le format de fichier le prend en charge);
-        * remplacer les polices manquantes pour préserver l'apparence du document.
-        
-        Il existe également des options de conversion avancées pour le fichier CSV :
-
-        * convertir une page spécifique d'un document ou une plage de pages;
-        * ajouter un filigrane au CSV converti.
-
-        Une fois la conversion terminée, vous pouvez enregistrer le fichier CSV dans votre chemin de fichier local ou dans un stockage tiers tel que FTP, Amazon S3, Google Drive, Dropbox, etc. Veuillez noter - pour convertir XML à CSV, vous n'avez pas besoin d'installer de logiciel supplémentaire, tel que MS Office, Open Office, Adobe Acrobat Reader, etc.
+      Intégrez le support de plus de 60 formats de documents populaires de manière transparente dans vos applications Java en utilisant les API GroupDocs.Conversion pour Java. Avec seulement quelques lignes de code, les développeurs peuvent convertir sans effort des PDF, des documents Word, des feuilles de calcul Excel, des présentations, des fichiers Visio, des fichiers de projet, des documents Outlook et de nombreux autres formats en format de document ou d'image souhaité. Profitez d'un traitement de document rapide sans avoir besoin d'installer de logiciel supplémentaire ou de bibliothèques externes.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Étapes pour convertir XML en CSV en Java"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) permet aux développeurs de convertir facilement le fichier XML en CSV avec quelques lignes de code.
-        
-        * Créez une nouvelle instance de la classe Converter et téléchargez le fichier XML avec le chemin complet
-        * Définissez ConvertOptions pour le type de document sur CSV
-        * Appelez la méthode convert() et passez le nom du document (chemin complet) et le format (CSV) en tant que paramètre
-
-    title_right: "Configuration requise"
-    content_right: |
-        La conversion de base avec l'API GroupDocs.Conversion for Java peut être effectuée avec seulement quelques lignes de code. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
-
-        * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
-        * Environnements de développement : NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * Obtenez le dernier GroupDocs.Conversion for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-         
-    code: |
-        ```java    
-        // Charger le fichier source XML pour la conversion
-          Converter converter = new Converter("input.xml");
-          // Préparer les options de conversion pour le format cible CSV
-          ConvertOptions convertOptions = new FileType().fromExtension("csv").getConvertOptions();
-          // Convertir au format CSV
-          converter.convert("output.csv", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "XML à CSV Démo en direct"
+    title: "Étapes pour convertir le fichier XML en CSV dans Java" 
     content: |
-       Visitez notre site Web [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) et essayez la conversion XML à CSV maintenant. La démo gratuite présente les avantages suivants
-          
+      La transformation de XML en CSV est simplifiée avec <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a>, nécessitant seulement quelques étapes simples.
+      
+      1. Ajoutez <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion pour Java</a> en tant que dépendance à votre projet. 
+      2. Créez une instance de la classe Converter.  
+      3. Chargez le fichier XML avec le chemin complet. 
+      4. Convertissez le fichier et vérifiez la sortie dans le répertoire actuel. 
+   
+    code:
+      platform: "java"
+      copy_title: "Copier"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "cliquez pour copier"
+        copy_done: "copié"
+      links:
+        #  loop
+        - title: "Plus d'exemples"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.xml")              // Configurer le fichier XML d'entrée
+            .convertTo("converted.csv")    // Spécifier le chemin de sortie pour le fichier converti
+            .convert();                     // Convertir le fichier XML en CSV        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Prêt à commencer?"
+  description: "Essayez gratuitement les fonctionnalités de GroupDocs.Conversion ou demandez une licence"
+  items:
+    #  loop
+    - title: "Maven Téléchargement"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "Licences"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Autres conversions XML prises en charge dans Java"
-    content: "Vous pouvez également convertir XML dans de nombreux autres formats de fichiers. Veuillez consulter la liste ci-dessous."
-       
-       
-back_to_top:
-    enable: true
+    title: "Convertir d'autres formats de fichier en utilisant Java"
+    exclude: "XML to CSV"
+    description: "Accédez à une API polyvalente pour convertir des documents et des images entre plusieurs formats en Java. Passez facilement entre certains des formats de fichier les plus couramment utilisés énumérés ci-dessous sans avoir besoin d'outils externes."
+    items: 
+      # format loop 1
+      - name: "Convertir DOCX en PDF"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "Convertir DOC en HTML"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "Convertir CSV en XLSX"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "Convertir EML en MSG"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "Convertir HTML en DOCX"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "Convertir HTML en PNG"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "Convertir JPG en TIFF"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "Convertir PDF en EPUB"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "Convertir PNG en JPG"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "Convertir SVG en PNG"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "Convertir TXT en XML"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "Convertir XLS en JSON"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "Convertir XML en DOCX"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "Convertir DOCX en HTML"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "Convertir DICOM en JPG" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "Convertir DJVU en PDF"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "Convertir AI en PNG"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "Convertir BMP en SVG"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "Convertir DOT en VSDX"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "Convertir MHTML en DOCX"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "Convertir TXT en EML"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:12:30
+layout: "format"
+date: 2024-03-15T11:11:51
 draft: false
-otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: AI به PNG در Java
+lang: fa
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "تبدیل AI به PNG در Java"
-head_description: "تبدیل AI به PNG در Java با چند خط کد. تبدیل بیش از 160 فرمت فایل با استفاده از API تبدیل سند GroupDocs برای Java"
+############################# Head #############################
+head_title: "API تبدیل AI به PNG برای جاوا - تبدیل AI به PNG در برنامه‌های جاوا"
+head_description: "نمایش فایل‌های AI به PNG در برنامه‌های جاوا، J2EE، J2SE. پشتیبانی از مشاهده بیش از 180 فرمت فایل سند و تصویر در حالت HTML، PDF یا تصویر با ویژگی‌های پیشرفته برای مدیریت گزینه‌های مشاهده سند."
 
 ############################# Header ############################
-title: "تبدیل AI به PNG در Java"
-description: "تبدیل AI به PNG با چند خط کد Java"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "تبدیل AI به PNG در جاوا" 
+description: "تجربه کارایی یک API تبدیل فایل بومی و با عملکرد بالا از AI به PNG طراحی شده برای برنامه‌های جاوا، J2EE و J2SE. لذت ببرید از پشتیبانی از مجموعه گسترده‌ای از ویژگی‌های اضافی که اجازه می‌دهد ظاهر سند خروجی را سفارشی‌سازی کنید." 
+subtitle: "راه‌حل تبدیل سند" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Maven دانلود میونت"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "درباره GroupDocs.Conversion for Java API"
+    title: "درباره GroupDocs.Conversion برای Java API"
+    link: "/conversion/java/"
+    link_title: "اطلاعات بیشتر"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) یک API تبدیل فرمت فایل پیشرفته برای تبدیل بین فرمت‌های تصویر و سند محبوب مانند Microsoft Office، OpenDocument، PDF، HTML، ایمیل، CAD است. و خیلی بیشتر فقط با چند خط کد. API بومی به طور خودکار فرمت های اسناد اصلی را شناسایی می کند و گزینه های زیادی برای سفارشی سازی اسناد تبدیل شده ارائه می دهد. همراه با عملکرد استخراج اطلاعات از یک سند، به طور پیش فرض از ذخیره نتایج تبدیل به دیسک محلی نیز پشتیبانی می کند. با این حال، هر نوع ذخیره سازی کش را می توان با پیاده سازی رابط های مناسب پشتیبانی کرد - Amazon S3، Dropbox، Google Drive، Windows Azure، Reddis یا هر چیز دیگری.
-    
-
-overview:
-    enable: true
-    content: |
-        فایل های AI خود را در Java به PNG تبدیل کنید. این فقط چند خط کد Java را در هر پلتفرم مورد نظر شما مانند Windows، Linux، macOS می‌گیرد.
-        می‌توانید AI را به صورت رایگان به PNG تبدیل کنید و کیفیت نتایج تبدیل را ارزیابی کنید. همراه با اسکریپت های ساده تبدیل فایل، می توانید گزینه های پیچیده تری را برای بارگیری فایل منبع AI و ذخیره خروجی PNG امتحان کنید. 
-        
-        به عنوان مثال، برای فایل منبع AI می‌توانید از گزینه‌های بارگذاری زیر استفاده کنید:
-
-        * تشخیص خودکار فرمت فایل;
-        * یک رمز عبور برای فایل های محافظت شده مشخص کنید (اگر فرمت فایل از آن پشتیبانی می کند);
-        * فونت های از دست رفته را جایگزین کنید تا ظاهر سند حفظ شود.
-        
-        همچنین گزینه های تبدیل پیشرفته ای برای فایل PNG وجود دارد:
-
-        * یک صفحه خاص از یک سند یا محدوده ای از صفحات را تبدیل کنید;
-        * اضافه کردن یک واترمارک به PNG تبدیل شده.
-
-        پس از تکمیل تبدیل، می‌توانید فایل PNG را در مسیر فایل محلی خود یا هر حافظه شخص ثالثی مانند FTP، Amazon S3، Google Drive، Dropbox و غیره ذخیره کنید. لطفاً توجه داشته باشید - برای تبدیل AI برای PNG، نیازی به نصب نرم افزار اضافی مانند MS Office، Open Office، Adobe Acrobat Reader و غیره ندارید.
+      یکپارچه‌سازی پشتیبانی از بیش از 60 فرمت سند محبوب به صورت بی‌درنگ در برنامه‌های جاوا با استفاده از APIهای GroupDocs.Conversion برای Java. با فقط چند خط کد، توسعه‌دهندگان می‌توانند بدون مشکل PDFها، اسناد Word، صفحات اکسل، ارائه‌ها، فایل‌های Visio، فایل‌های پروژه، اسناد Outlook و فرمت‌های دیگر را به فرمت سند یا تصویر موردنظر تبدیل کنند. لذت ببرید از پردازش سند سریع بدون نیاز به نصب نرم‌افزارهای اضافی یا کتابخانه‌های خارجی.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "مراحل تبدیل AI به PNG در Java"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) به توسعه دهندگان این امکان را می دهد که به راحتی فایل AI را با چند خط کد به PNG تبدیل کنند.
-        
-        * یک نمونه جدید از کلاس Converter ایجاد کنید و فایل AI را با مسیر کامل آپلود کنید.
-        * ConvertOptions را برای نوع سند روی PNG تنظیم کنید
-        * متد convert() را فراخوانی کنید و نام سند (مسیر کامل) و قالب (PNG) را به عنوان پارامتر ارسال کنید.
-
-    title_right: "سیستم مورد نیاز"
-    content_right: |
-        تبدیل اولیه با GroupDocs.Conversion for Java API را می توان تنها با چند خط کد انجام داد. API های ما در تمام سیستم عامل ها و سیستم عامل های اصلی پشتیبانی می شوند. قبل از اجرای کد زیر، مطمئن شوید که پیش نیازهای زیر را روی سیستم خود نصب کرده اید.
-
-        * سیستم عامل: مایکروسافت ویندوز، لینوکس، MacOS
-        * محیط های توسعه: NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * آخرین GroupDocs.Conversion for Java را از [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion) دریافت کنید
-         
-    code: |
-        ```java    
-        // فایل منبع AI را برای تبدیل بارگیری کنید
-          Converter converter = new Converter("input.ai");
-          // آماده سازی گزینه های تبدیل برای قالب هدف PNG
-          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-          // به قالب PNG تبدیل کنید
-          converter.convert("output.png", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "AI به PNG نسخه نمایشی زنده"
+    title: "مراحل تبدیل فایل AI به PNG در Java" 
     content: |
-       از وب‌سایت [GroupDocs.Conversion App] (https://products.groupdocs.app/conversion/family) ما دیدن کنید و اکنون تبدیل AI به PNG را امتحان کنید. نسخه ی نمایشی رایگان دارای مزایای زیر است
-          
+      تبدیل AI به PNG با <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a> راحت است، تنها چند مرحله ساده مورد نیاز است.
+      
+      1. افزودن <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion برای Java</a> به عنوان وابستگی به پروژه‌تان. 
+      2. ایجاد یک نمونه از کلاس Converter.  
+      3. بارگذاری فایل AI با مسیر کامل. 
+      4. تبدیل فایل و بررسی خروجی در دایرکتوری فعلی. 
+   
+    code:
+      platform: "java"
+      copy_title: "کپی"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "برای کپی کردن کلیک کنید"
+        copy_done: "کپی شده"
+      links:
+        #  loop
+        - title: "مثال‌های بیشتر"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "مستندات"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.ai")              // تنظیم فایل ورودی AI
+            .convertTo("converted.png")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
+            .convert();                     // تبدیل فایل AI به PNG        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "آماده برای شروع هستید؟"
+  description: "ویژگی‌های GroupDocs.Conversion را رایگان امتحان کنید یا یک لایسنس درخواست کنید"
+  items:
+    #  loop
+    - title: "Maven دانلود میونت"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "لایسنس‌دهی"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "سایر تبدیل های پشتیبانی شده AI در Java"
-    content: "همچنین می‌توانید AI را به بسیاری از فرمت‌های فایل دیگر تبدیل کنید. لطفا لیست زیر را ببینید."
-       
-       
-back_to_top:
-    enable: true
+    title: "تبدیل سایر فرمت‌های فایل با استفاده از Java"
+    exclude: "AI to PNG"
+    description: "دسترسی به یک API چندفرمتی برای تبدیل سند و تصویر بین چندین فرمت در جاوا. به‌سادگی بین برخی از فرمت‌های فایل متداول زیر بدون وابستگی به ابزارهای خارجی."
+    items: 
+      # format loop 1
+      - name: "تبدیل DOCX به PDF"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "تبدیل DOC به HTML"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "تبدیل CSV به XLSX"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "تبدیل EML به MSG"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "تبدیل HTML به DOCX"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "تبدیل HTML به PNG"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "تبدیل JPG به TIFF"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "تبدیل PDF به EPUB"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "تبدیل PNG به JPG"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "تبدیل SVG به PNG"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "تبدیل TXT به XML"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "تبدیل XLS به JSON"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "تبدیل XML به DOCX"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "تبدیل DOCX به HTML"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "تبدیل DICOM به JPG" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "تبدیل DJVU به PDF"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "تبدیل AI به PNG"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "تبدیل BMP به SVG"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "تبدیل DOT به VSDX"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "تبدیل MHTML به DOCX"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "تبدیل TXT به EML"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

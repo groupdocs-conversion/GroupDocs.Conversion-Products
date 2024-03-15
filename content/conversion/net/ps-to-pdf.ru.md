@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:18:58
+layout: "format"
+date: 2024-03-15T11:12:32
 draft: false
-otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: PS в PDF на C#
+lang: ru
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "Конвертер PS в PDF на C#"
-head_description: "Преобразуйте PS в PDF на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+############################# Head #############################
+head_title: "PS в PDF Конвертер API для .NET - конвертировать в C# VB.NET"
+head_description: ".NET конвертер файлов API для преобразования PS в PDF в любом типе приложений C#, ASP.NET, VB.NET и .NET Core."
 
 ############################# Header ############################
-title: "Преобразование PS в PDF в C#"
-description: "Конвертировать PS в PDF с помощью нескольких строк кода .NET"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Конвертер файлов от PS к PDF для приложений C# .NET" 
+description: "API конвертации документов .NET для беспрерывного преобразования PS в формат PDF в приложениях C#, ASP.NET, VB.NET и .NET Core. Обеспечьте точное форматирование и сохранение макета в процессе конвертации, минимизируя при этом усилия по кодированию." 
+subtitle: "Решение по преобразованию документов" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Скачать из Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Conversion for .NET API"
+    title: "О GroupDocs.Conversion для .NET API"
+    link: "/conversion/net/"
+    link_title: "Узнать больше"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
-    
-
-overview:
-    enable: true
-    content: |
-        Легко конвертируйте файлы PS в PDF на .NET. Вы можете использовать всего пару строк кода C# на любой платформе по вашему выбору, например - Windows, Linux, macOS.
-        Вы можете бесплатно попробовать преобразование PS в PDF и оценить качество результатов преобразования. Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PS и сохранения выходного результата в формат PDF. 
-        
-        Например, для исходного файла PS вы можете использовать следующие параметры загрузки:
-
-        * автоматическое определение формата файла;
-        * указать пароль для защищенных файлов (если формат файла поддерживает это);
-        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
-        
-        Существуют также расширенные параметры преобразования для файла PDF:
-
-        * преобразовать определенную страницу документа или диапазон страниц;
-        * добавить водяной знак в преобразованный файл PDF и многое другое.
-
-        После завершения преобразования вы можете сохранить файл PDF в локальный путь к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д. Обратите внимание: чтобы преобразовать PS в PDF нет необходимости в установке какого-либо дополнительного программного обеспечения - такого как MS Office, Open Office, Adobe Acrobat Reader и т.д.
+      Начните интегрировать поддержку более 60 широко используемых форматов документов в ваши .NET приложения с легкостью, используя API GroupDocs.Conversion для .NET. Всего несколькими строками кода разработчики могут без проблем конвертировать PDF, документы Word, электронные таблицы Excel, презентации, файлы Visio, файлы проектов, документы Outlook и множество других форматов в желаемые документы или изображения. Наслаждайтесь быстрой обработкой документов без необходимости установки дополнительного программного обеспечения или внешних библиотек.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию PS в PDF в C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать файл PS в PDF с помощью нескольких строк кода.
-        
-        * Создайте экземпляр класса Converter и укажите полный путь к файлу PS.
-        * Создайте и установите ConvertOptions для типа PDF.
-        * Вызовите метод Converter.Convert и передайте полный путь и формат (PDF) в качестве параметра.
-
-    title_right: "Системные Требования"
-    content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-         
-    code: |
-        ```csharp    
-        // Загрузите исходный файл PS для конвертации
-          var converter = new GroupDocs.Conversion.Converter("input.ps");
-          // Задайте параметры преобразования для целевого формата PDF
-          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-          // Преобразуйте файл в PDF формат
-          converter.Convert("output.pdf", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "PS в PDF Демо"
+    title: "Шаги для преобразования файла PS в файл PDF на C#" 
     content: |
-       Преобразуйте PS в PDF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+      С помощью <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a> вы можете преобразовать PS в PDF всего в несколько шагов.
+      
+      1. Установите <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion для .NET</a> с помощью вашего любимого менеджера пакетов. 
+      2. Создайте экземпляр класса FluentConverter.  
+      3. Загрузите файл PS с полным путем. 
+      4. Преобразуйте файл и проверьте вывод в текущем каталоге. 
+   
+    code:
+      platform: "net"
+      copy_title: "Копировать"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "нажмите, чтобы скопировать"
+        copy_done: "скопировано"
+      links:
+        #  loop
+        - title: "Больше примеров"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "Документация"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.ps")             // Настройте входной файл PS
+            .ConvertTo("converted.pdf")     // Укажите путь к конвертированному файлу
+            .Convert();                     // Конвертировать файл PS в файл PDF        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Conversion бесплатно или запросите лицензию"
+  items:
+    #  loop
+    - title: "Скачать из Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "Лицензирование"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования PS в C#"
-    content: "Вы также можете конвертировать PS во многие другие форматы файлов. См. список ниже."
-       
-       
-back_to_top:
-    enable: true
+    title: "Преобразовать другие форматы файлов, используя C#"
+    exclude: "PS to PDF"
+    description: "Получите доступ к универсальному мультиформатному API конвертации документов и изображений для .NET. Переключайтесь между различными популярными форматами файлов ниже без необходимости внешнего программного обеспечения."
+    items: 
+        # format loop 1
+        - name: "Преобразовать DOCX в HTML"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "Преобразовать DICOM в JPG" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "Преобразовать DJVU в PDF"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "Преобразовать AI в PNG"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "Преобразовать BMP в GIF"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "Преобразовать CAD в XML"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "Преобразовать PDF в PPTX"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "Преобразовать HTML в DOCX"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "Преобразовать PDF в TIFF"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "Преобразовать CSV в JSON" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "Преобразовать CSV в XLSX" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "Преобразовать EML в MHT"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "Преобразовать PDF в XPS"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "Преобразовать PNG в SVG"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "Преобразовать XML в RTF"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "Преобразовать PDF в TXT"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "Преобразовать DOCX в PDF"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "Преобразовать CSV в XLSX"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "Преобразовать EML в MSG"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "Преобразовать PNG в JPG"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "Преобразовать PDF в EPUB"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

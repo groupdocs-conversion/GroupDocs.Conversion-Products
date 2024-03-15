@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:11:20
+layout: "format"
+date: 2024-03-15T11:11:49
 draft: false
-otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: ODS bis PDF in Java
+lang: de
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "Konvertiere ODS in PDF in Java"
-head_description: "Umwandlung von ODS in PDF in Java mit ein paar Zeilen Code. Konvertieren Sie über 160 Dateiformate mit der GroupDocs-Dokumentkonvertierungs-API für Java"
+############################# Head #############################
+head_title: "Java ODS zu PDF Konverter API - ODS in Java-Anwendungen transformieren"
+head_description: "ODS zu PDF Dateien in Java, J2EE, J2SE Anwendungen anzeigen. Unterstützt die Anzeige von 180+ Dokumenten- und Bildformate im HTML-, PDF- oder Bildmodus mit erweiterten Funktionen zur Verwaltung von Dokumentanzeigeoptionen."
 
 ############################# Header ############################
-title: "Konvertiere ODS in PDF in Java"
-description: "Umwandlung von ODS in PDF mit ein paar Zeilen Java-Code"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "ODS in PDF in Java konvertieren" 
+description: "Erleben Sie die Effizienz einer nativen, leistungsstarken ODS zu PDF Dateikonverter-API, die für Java-, J2EE- und J2SE-Anwendungen entwickelt wurde. Genießen Sie Unterstützung für eine umfangreiche Reihe zusätzlicher Funktionen, die eine Anpassung des Erscheinungsbilds des Ausgabedokuments ermöglichen." 
+subtitle: "Dokumentenkonvertierungslösung" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Maven-Download"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "Über die GroupDocs.Conversion for Java-API"
+    title: "Über GroupDocs.Conversion für Java API"
+    link: "/conversion/java/"
+    link_title: "Erfahren Sie mehr"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) ist eine erweiterte Dateiformat-Konvertierungs-API zum Konvertieren zwischen gängigen Bild- und Dokumentformaten wie Microsoft Office, OpenDocument, PDF, HTML, E-Mail, CAD. und vieles mehr mit nur wenigen Codezeilen. Die native API erkennt automatisch die Formate der Originaldokumente und bietet viele Optionen zur Anpassung der konvertierten Dokumente. Neben der Funktion zum Extrahieren von Informationen aus einem Dokument unterstützt es standardmäßig auch das Zwischenspeichern der Konvertierungsergebnisse auf der lokalen Festplatte. Es kann jedoch jede Art von Cache-Speicher unterstützt werden, indem die entsprechenden Schnittstellen implementiert werden – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis oder andere.
-    
-
-overview:
-    enable: true
-    content: |
-        Konvertieren Sie Ihre ODS-Dateien in PDF in Java. Es dauert nur ein paar Zeilen Java-Code auf jeder Plattform Ihrer Wahl, wie Windows, Linux, macOS.
-        Sie können kostenlos versuchen, ODS in PDF umzuwandeln und die Qualität der Umwandlungsergebnisse zu bewerten. Neben einfachen Dateiumwandlungsskripten können Sie anspruchsvollere Optionen zum Laden der ODS-Quelldatei und zum Speichern der PDF-Ausgabe ausprobieren. 
-        
-        Beispielsweise können Sie für die Quelldatei ODS die folgenden Ladeoptionen verwenden:
-
-        * automatische Erkennung des Dateiformats;
-        * Geben Sie ein Passwort für geschützte Dateien an (sofern das Dateiformat dies unterstützt).;
-        * Ersetzen Sie fehlende Schriftarten, um das Erscheinungsbild des Dokuments beizubehalten.
-        
-        Es gibt auch erweiterte Konvertierungsoptionen für die PDF-Datei:
-
-        * Konvertieren Sie eine bestimmte Seite eines Dokuments oder eine Reihe von Seiten;
-        * füge dem konvertierten PDF ein Wasserzeichen hinzu.
-
-        Sobald die Konvertierung abgeschlossen ist, können Sie die PDF-Datei in Ihrem lokalen Dateipfad oder auf einem beliebigen Speicher eines Drittanbieters wie FTP, Amazon S3, Google Drive, Dropbox usw. speichern. Bitte beachten Sie - um ODS zu konvertieren zu PDF müssen Sie keine zusätzliche Software wie MS Office, Open Office, Adobe Acrobat Reader etc. installieren.
+      Integrieren Sie Unterstützung für über 60 beliebte Dokumentenformate nahtlos in Ihre Java-Anwendungen mit den GroupDocs.Conversion für Java APIs. Mit nur wenigen Zeilen Code können Entwickler problemlos PDFs, Word-Dokumente, Excel-Tabellen, Präsentationen, Visio-Dateien, Projektdateien, Outlook-Dokumente und viele andere Formate in das gewünschte Dokument- oder Bildformat konvertieren. Genießen Sie eine schnelle Dokumentenverarbeitung, ohne zusätzliche Software oder externe Bibliotheken installieren zu müssen.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Schritte zum Konvertieren von ODS in PDF in Java"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) ermöglicht Entwicklern die einfache Konvertierung der ODS-Datei in PDF mit ein paar Codezeilen.
-        
-        * Erstellen Sie eine neue Instanz der Converter-Klasse und laden Sie die Datei ODS mit dem vollständigen Pfad hoch
-        * Legen Sie ConvertOptions für den Dokumenttyp auf PDF fest
-        * Rufen Sie die Methode convert() auf und übergeben Sie den Dokumentnamen (vollständiger Pfad) und das Format (PDF) als Parameter
-
-    title_right: "System Anforderungen"
-    content_right: |
-        Die grundlegende Konvertierung mit der GroupDocs.Conversion for Java-API kann mit nur wenigen Codezeilen durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
-
-        * Betriebssysteme: Microsoft Windows, Linux, MacOS
-        * Entwicklungsumgebungen: NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * Holen Sie sich das neueste GroupDocs.Conversion for Java von [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-         
-    code: |
-        ```java    
-        // Quelldatei ODS zur Konvertierung laden
-          Converter converter = new Converter("input.ods");
-          // Konvertierungsoptionen für das Zielformat PDF vorbereiten
-          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-          // In das PDF-Format konvertieren
-          converter.convert("output.pdf", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "Live-Demo von ODS bis PDF"
+    title: "Schritte zur Konvertierung von ODS in PDF Datei in Java" 
     content: |
-       Besuchen Sie unsere Website [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) und versuchen Sie jetzt die Konvertierung von ODS in PDF. Die kostenlose Demo hat die folgenden Vorteile
-          
+      Die Transformation von ODS in PDF wird mit <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a> durch nur wenige einfache Schritte vereinfacht.
+      
+      1. Fügen Sie <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion für Java</a> als Abhängigkeit zu Ihrem Projekt hinzu. 
+      2. Erstellen Sie eine Instanz der Converter-Klasse.  
+      3. Laden Sie die ODS Datei mit vollständigem Pfad. 
+      4. Datei konvertieren und Ausgabe im aktuellen Verzeichnis überprüfen. 
+   
+    code:
+      platform: "java"
+      copy_title: "Kopieren"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "Klicken Sie zum Kopieren"
+        copy_done: "kopiert"
+      links:
+        #  loop
+        - title: "Weitere Beispiele"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "Dokumentation"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.ods")              // Richten Sie die Eingabedatei ODS ein
+            .convertTo("converted.pdf")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
+            .convert();                     // ODS in PDF Datei konvertieren        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Bereit, loszulegen?"
+  description: "Probieren Sie GroupDocs.Conversion Funktionen kostenlos aus oder fordern Sie eine Lizenz an"
+  items:
+    #  loop
+    - title: "Maven-Download"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "Lizenzierung"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Andere unterstützte ODS-Konvertierungen in Java"
-    content: "Sie können ODS auch in viele andere Dateiformate konvertieren. Bitte sehen Sie sich die Liste unten an."
-       
-       
-back_to_top:
-    enable: true
+    title: "Andere Dateiformate mit Java konvertieren"
+    exclude: "ODS to PDF"
+    description: "Greifen Sie in Java auf eine vielseitige API zur Konvertierung von Dokumenten und Bildern in mehrere Formate zu. Wechseln Sie nahtlos zwischen einigen der unten aufgeführten am häufigsten verwendeten Dateiformate, ohne auf externe Tools angewiesen zu sein."
+    items: 
+      # format loop 1
+      - name: "DOCX in PDF konvertieren"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "DOC in HTML konvertieren"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "CSV in XLSX konvertieren"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "EML in MSG konvertieren"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "HTML in DOCX konvertieren"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "HTML in PNG konvertieren"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "JPG in TIFF konvertieren"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "PDF in EPUB konvertieren"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "PNG in JPG konvertieren"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "SVG in PNG konvertieren"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "TXT in XML konvertieren"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "XLS in JSON konvertieren"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "XML in DOCX konvertieren"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "DOCX in HTML konvertieren"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "DICOM in JPG konvertieren" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "DJVU in PDF konvertieren"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "AI in PNG konvertieren"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "BMP in SVG konvertieren"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "DOT in VSDX konvertieren"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "MHTML in DOCX konvertieren"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "TXT in EML konvertieren"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

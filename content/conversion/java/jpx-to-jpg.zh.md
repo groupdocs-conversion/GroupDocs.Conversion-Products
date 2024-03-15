@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:21:16
+layout: "format"
+date: 2024-03-15T11:12:04
 draft: false
-otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: Java 中的 JPX 到 JPG
+lang: zh
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "在 Java 中将 JPX 转换为 JPG"
-head_description: "Java 中的 JPX 到 JPG 转换只需几行代码。使用用于 Java 的 GroupDocs 文档转换 API 转换 160 多种文件格式"
+############################# Head #############################
+head_title: "Java JPX 到 JPG 转换器 API - 在 Java 应用程序中转换 JPX 到 JPG"
+head_description: "在 Java、J2EE、J2SE 应用程序中查看 JPX 到 JPG 文件。支持使用高级功能在 HTML、PDF 或图像模式下查看 180+ 文档和图像文件格式。"
 
 ############################# Header ############################
-title: "在 Java 中将 JPX 转换为 JPG"
-description: "使用几行 Java 代码将 JPX 转换为 JPG"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "在 Java 中将 JPX 转换为 JPG" 
+description: "体验为 Java、J2EE 和 J2SE 应用程序设计的本地、高性能 JPX 到 JPG 文件转换器 API 的效率。享受对一系列额外功能的支持，允许自定义输出文档的外观。" 
+subtitle: "文件转换解决方案" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Maven 下载"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
     title: "关于 GroupDocs.Conversion for Java API"
+    link: "/conversion/java/"
+    link_title: "了解更多"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) 是一种高级文件格式转换 API，用于在 Microsoft Office、OpenDocument、PDF、HTML、电子邮件、CAD 等流行图像和文档格式之间进行转换。只需几行代码即可完成更多工作。本机 API 会自动检测原始文档的格式，并提供许多选项来自定义转换后的文档。除了从文档中提取信息的功能外，它还默认支持将转换结果缓存到本地磁盘。但是，任何类型的缓存存储都可以通过实施适当的接口来支持 - Amazon S3、Dropbox、Google Drive、Windows Azure、Reddis 或任何其他接口。
-    
-
-overview:
-    enable: true
-    content: |
-        将您的 JPX 文件转换为 Java 中的 JPG。在您选择的任何平台（例如 Windows、Linux、macOS）上，只需几行 Java 代码。
-        您可以尝试免费将 JPX 转换为 JPG 并评估转换结果的质量。除了简单的文件转换脚本外，您还可以尝试更复杂的选项来加载 JPX 源文件并存储 JPG 输出。 
-        
-        例如，对于源 JPX 文件，您可以使用以下加载选项：
-
-        * 自动检测文件格式;
-        * 指定受保护文件的密码（如果文件格式支持）;
-        * 替换丢失的字体以保留文档的外观.
-        
-        JPG 文件还有高级转换选项：
-
-        * 转换文档的特定页面或页面范围;
-        * 为转换后的 JPG 添加水印.
-
-        转换完成后，您可以将 JPG 文件保存到本地文件路径或任何第三方存储，例如 FTP、Amazon S3、Google Drive、Dropbox 等。请注意 - 转换 JPX到 JPG，您不需要安装任何额外的软件，例如 MS Office、Open Office、Adobe Acrobat Reader 等。
+      使用 GroupDocs.Conversion for Java API 将支持超过 60 种常用文档格式无缝集成到您的 Java 应用程序中。只需几行代码，开发人员就可以轻松地将 PDF、Word 文档、Excel 电子表格、演示文稿、Visio 文件、项目文件、Outlook 文档和许多其他格式转换为所需的文档或图像格式。在转换过程中确保精确的格式和布局保留，同时尽量减少编码工作。
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "在 Java 中将 JPX 转换为 JPG 的步骤"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) 允许开发人员使用几行代码轻松地将 JPX 文件转换为 JPG。
-        
-        * 创建一个 Converter 类的新实例并上传带有完整路径的文件 JPX
-        * 将文档类型的 ConvertOptions 设置为 JPG
-        * 调用 convert() 方法并将文档名称（完整路径）和格式（JPG）作为参数传递
-
-    title_right: "系统要求"
-    content_right: |
-        使用 GroupDocs.Conversion for Java API 的基本转换只需几行代码即可完成。所有主要平台和操作系统都支持我们的 API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
-
-        * 操作系统：Microsoft Windows、Linux、MacOS
-        * 开发环境：NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * 从 [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion) 获取最新的 GroupDocs.Conversion for Java
-         
-    code: |
-        ```java    
-        // 加载源文件 JPX 进行转换
-          Converter converter = new Converter("input.jpx");
-          // 为目标格式 JPG 准备转换选项
-          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-          // 转换为 JPG 格式
-          converter.convert("output.jpg", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "JPX 到 JPG 现场演示"
+    title: "Java 中将 JPX 转换为 JPG 文件的步骤" 
     content: |
-       访问我们的 [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) 网站并立即尝试 JPX 到 JPG 转换。免费演示具有以下好处
-          
+      使用 <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a> 将 JPX 转换为 JPG 只需几个简单步骤。
+      
+      1. 将 <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion for Java</a> 添加为项目的依赖项。 
+      2. 创建 Converter 类的实例。  
+      3. 使用完整路径加载 JPX 文件。 
+      4. 转换文件并在当前目录中检查输出。 
+   
+    code:
+      platform: "java"
+      copy_title: "复制"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "点击复制"
+        copy_done: "已复制"
+      links:
+        #  loop
+        - title: "更多示例"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "文档"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.jpx")              // 设置输入 JPX 文件
+            .convertTo("converted.jpg")    // 为转换后的文件指定输出路径
+            .convert();                     // 将 JPX 转换为 JPG 文件        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "准备好开始了吗？"
+  description: "免费尝试 GroupDocs.Conversion 功能，或请求许可证"
+  items:
+    #  loop
+    - title: "Maven 下载"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "许可"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Java 中支持的其他 JPX 转换"
-    content: "您还可以将 JPX 转换为许多其他文件格式。请参阅下面的列表。"
-       
-       
-back_to_top:
-    enable: true
+    title: "使用 Java 转换其他文件格式"
+    exclude: "JPX to JPG"
+    description: "在 Java 中访问一个通用的 API，用于在多种格式之间转换文档和图像。无需依赖外部工具，轻松切换下面列出的一些最常用的文件格式。"
+    items: 
+      # format loop 1
+      - name: "将 DOCX 转换为 PDF"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "将 DOC 转换为 HTML"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "将 CSV 转换为 XLSX"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "将 EML 转换为 MSG"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "将 HTML 转换为 DOCX"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "将 HTML 转换为 PNG"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "将 JPG 转换为 TIFF"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "将 PDF 转换为 EPUB"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "将 PNG 转换为 JPG"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "将 SVG 转换为 PNG"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "将 TXT 转换为 XML"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "将 XLS 转换为 JSON"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "将 XML 转换为 DOCX"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "将 DOCX 转换为 HTML"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "将 DICOM 转换为 JPG" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "将 DJVU 转换为 PDF"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "将 AI 转换为 PNG"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "将 BMP 转换为 SVG"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "将 DOT 转换为 VSDX"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "将 MHTML 转换为 DOCX"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "将 TXT 转换为 EML"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

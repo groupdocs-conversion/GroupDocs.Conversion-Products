@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:15:53
+layout: "format"
+date: 2024-03-15T11:12:26
 draft: false
-otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: C#의 MHT에서 PNG까지
+lang: ko
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "C#에서 MHT에서 PNG로 변환기"
-head_description: "몇 줄의 코드를 사용하여 .NET에서 MHT을 PNG로 변환합니다. GroupDocs 문서 변환 API를 사용하여 160개 이상의 파일 형식을 변환합니다."
+############################# Head #############################
+head_title: ".NET용 MHT에서 PNG 변환기 API - C# VB.NET으로 변환"
+head_description: "MHT을(를) PNG로 변환하는 .NET 파일 변환기 API. C#, ASP.NET, VB.NET 및 .NET Core 애플리케이션에서 사용 가능."
 
 ############################# Header ############################
-title: "C#에서 MHT을(를) PNG로 변환"
-description: "몇 줄의 .NET 코드로 MHT에서 PNG로 변환"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "C# .NET 응용 프로그램용 MHT에서 PNG 파일 변환기" 
+description: "MHT에서 PNG로의 원활한 변환을 위한 .NET 문서 변환 API. 변환 과정에서 정확한 서식 및 레이아웃 보존을 보장하면서 코딩 작업을 최소화합니다." 
+subtitle: "문서 변환 솔루션" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Nuget 다운로드"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Conversion for .NET API 정보"
+    title: ".NET API용 GroupDocs.Conversion 정보"
+    link: "/conversion/net/"
+    link_title: "더 알아보기"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/)은(는) Microsoft Word, Excel, PowerPoint, PDF, Visio 및 기타 형식을 변환하는 데 사용할 수 있습니다. GroupDocs.Conversion은 고성능이 요구되는 백엔드 및 내부 시스템에 적합한 독립 실행형 API입니다. Microsoft 또는 Open Office와 같은 소프트웨어에 의존하지 않습니다.
-    
-
-overview:
-    enable: true
-    content: |
-        .NET에서 MHT 파일을 PNG로 쉽게 변환하세요. Windows, Linux, macOS와 같이 선택한 플랫폼에서 몇 개의 C# 코드 줄만 사용할 수 있습니다.
-        무료로 MHT에서 PNG로의 변환을 시도하고 변환 결과 품질을 평가할 수 있습니다. 간단한 파일 변환 시나리오와 함께 소스 MHT 파일을 로드하고 출력 PNG 결과를 저장하기 위한 고급 옵션을 시도할 수 있습니다. 
-        
-        예를 들어, 소스 MHT 파일의 경우 다음 로드 옵션을 사용할 수 있습니다.
-
-        * 자동 감지 파일 형식;
-        * 보호된 파일의 비밀번호 지정(파일 형식이 지원하는 경우);
-        * 누락된 글꼴을 교체하여 문서 모양 유지.
-        
-        PNG 파일에 대한 고급 변환 옵션도 있습니다.
-
-        * 특정 문서 페이지 또는 페이지 범위 변환;
-        * 변환된 PNG 파일 등에 워터마크 추가.
-
-        변환이 완료되면 PNG 파일을 로컬 파일 경로나 FTP, Amazon S3, Google Drive, Dropbox 등과 같은 타사 저장소에 저장할 수 있습니다. 참고 - MHT을(를) PNG MS Office, Open Office, Adobe Acrobat Reader 등과 같은 추가 소프트웨어를 설치할 필요가 없습니다.
+      GroupDocs.Conversion for .NET API를 사용하여 60가지 이상의 널리 사용되는 문서 형식을 애플리케이션에 쉽게 통합할 수 있습니다. 몇 줄의 코드로 PDF, 워드 문서, Excel 스프레드시트, 프레젠테이션, 비지오 파일, 프로젝트 파일, Outlook 문서등을 원하는 문서 또는 이미지 형식으로 손쉽게 변환할 수 있습니다. 추가 소프트웨어나 외부 라이브러리를 설치할 필요 없이 신속한 문서 처리를 즐길 수 있습니다.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "C#에서 MHT을(를) PNG로 변환하는 단계"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/)을 사용하면 몇 줄의 코드로 개발자가 MHT 파일을 PNG로 쉽게 변환할 수 있습니다.
-        
-        * Converter 클래스의 인스턴스를 만들고 MHT 파일에 전체 경로를 제공합니다.
-        * PNG 유형에 대한 ConvertOptions를 생성하고 설정합니다.
-        * Converter.Convert 메서드를 호출하고 전체 경로 및 형식(PNG)을 매개변수로 전달합니다.
-
-    title_right: "시스템 요구 사항"
-    content_right: |
-        GroupDocs.Conversion for .NET을(를) 사용한 기본 변환은 몇 가지 간단한 단계로 수행할 수 있습니다. 당사의 API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
-
-        * 운영 체제: Microsoft Windows, Linux, MacOS
-        * 개발 환경: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * [Nuget](https://www.nuget.org/packages/groupdocs.conversion)에서 최신 GroupDocs.Conversion for .NET 가져오기
-         
-    code: |
-        ```csharp    
-        // 변환을 위해 소스 파일 MHT 로드
-          var converter = new GroupDocs.Conversion.Converter("input.mht");
-          // 대상 형식 PNG에 대한 변환 옵션 준비
-          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-          // PNG 형식으로 변환
-          converter.Convert("output.png", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "MHT에서 PNG 라이브 데모"
+    title: "C#에서 MHT 파일을 PNG 파일로 변환하는 단계" 
     content: |
-       지금 [GroupDocs.Conversion 앱](https://products.groupdocs.app/conversion/family) 웹사이트를 방문하여 MHT을(를) PNG로 변환하세요. 온라인 데모에는 다음과 같은 장점이 있습니다.
+      <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a>를 사용하면 MHT을(를) PNG로 변환하는 과정이 몇 가지 간단한 단계로 가능합니다.
+      
+      1. 선호하는 패키지 관리자를 사용하여 <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion for .NET</a>을(를) 설치합니다. 
+      2. FluentConverter 클래스의 인스턴스를 생성합니다.  
+      3. 전체 경로로 MHT 파일을 로드합니다. 
+      4. 파일을 변환하고 현재 디렉토리에서 출력을 확인합니다. 
+   
+    code:
+      platform: "net"
+      copy_title: "복사"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "클릭하여 복사"
+        copy_done: "복사됨"
+      links:
+        #  loop
+        - title: "더 많은 예제"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "문서"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.mht")             // MHT 파일을 입력 설정
+            .ConvertTo("converted.png")     // 변환된 파일의 출력 경로 지정
+            .Convert();                     // MHT 파일을 PNG 파일로 변환        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "시작 준비되셨나요?"
+  description: "GroupDocs.Conversion 기능을 무료로 사용해보거나 라이선스를 요청하세요"
+  items:
+    #  loop
+    - title: "Nuget 다운로드"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "라이선스"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "C#에서 지원되는 기타 MHT 변환"
-    content: "MHT을 다른 많은 파일 형식으로 변환할 수도 있습니다. 아래 목록을 참조하십시오."
-       
-       
-back_to_top:
-    enable: true
+    title: "C#를 사용하여 다른 파일 형식 변환"
+    exclude: "MHT to PNG"
+    description: "외부 도구에 의존하지 않고 Java에서 자주 사용되는 여러 일반적인 파일 형식 간에 매끄럽게 전환하세요."
+    items: 
+        # format loop 1
+        - name: "DOCX를 HTML로 변환"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "DICOM을 JPG로 변환" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "DJVU를 PDF로 변환"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "AI를 PNG로 변환"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "BMP를 GIF로 변환"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "CAD를 XML로 변환"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "PDF를 PPTX로 변환"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "HTML을 DOCX로 변환"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "PDF를 TIFF로 변환"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "CSV를 JSON으로 변환" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "XML을 XLSX로 변환" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "EML을 MHT로 변환"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "PDF를 XPS로 변환"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "PNG를 SVG로 변환"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "XML을 RTF로 변환"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "PDF를 TXT로 변환"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "DOCX를 PDF로 변환"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "CSV를 XLSX로 변환"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "EML을 MSG로 변환"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "PNG를 JPG로 변환"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "PDF를 EPUB로 변환"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

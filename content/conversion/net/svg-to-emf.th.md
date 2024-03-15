@@ -1,106 +1,226 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:19:57
+layout: "format"
+date: 2024-03-15T11:12:38
 draft: false
-otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: SVG ถึง EMF ใน C#
+lang: th
+product: "Conversion"
+product_tag: "conversion"
+platform: ".NET"
+platform_tag: "net"
 
-############################# Head ############################
-head_title: "ตัวแปลง SVG เป็น EMF ใน C#"
-head_description: "แปลง SVG เป็น EMF ใน .NET โดยใช้โค้ดสองสามบรรทัด ใช้ GroupDocs Document Conversion API เพื่อแปลงรูปแบบไฟล์มากกว่า 160 รูปแบบ"
+############################# Head #############################
+head_title: "API แปลง SVG เป็น EMF สำหรับ .NET - แปลงใน C# VB.NET"
+head_description: "API แปลงไฟล์ .NET เพื่อแปลง SVG เป็น EMF ในประเภทของ C#, ASP.NET, VB.NET และ .NET Core"
 
 ############################# Header ############################
-title: "แปลง SVG เป็น EMF ใน C#"
-description: "การแปลง SVG เป็น EMF ด้วยโค้ด .NET สองสามบรรทัด"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "โปรแกรมแปลงไฟล์จาก SVG เป็น EMF สำหรับแอปพลิเคชัน C# .NET" 
+description: "API แปลงเอกสาร .NET สำหรับการแปลง SVG เป็นรูปแบบ EMF ในแอปพลิเคชัน C#, ASP.NET, VB.NET และ .NET Core ให้มั่นใจได้ว่าจะมีการจัดรูปแบบและการรักษาเค้าโครงเอกสารอย่างเชื่อถือได้ในขั้นตอนการแปลง ทั้งนี้ยังลดการเขียนโค้ดอีกด้วย" 
+subtitle: "โซลูชันการแปลงเอกสาร" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "ดาวน์โหลดผ่าน Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
 
 
 ############################# About ############################
 about:
     enable: true
-    title: "เกี่ยวกับ GroupDocs.Conversion for .NET API"
+    title: "เกี่ยวกับ GroupDocs.Conversion สำหรับ .NET API"
+    link: "/conversion/net/"
+    link_title: "เรียนรู้เพิ่มเติม"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) สามารถใช้ในการแปลง Microsoft Word, Excel, PowerPoint, PDF, Visio และรูปแบบอื่นๆ GroupDocs.Conversion เป็น API แบบสแตนด์อโลนที่เหมาะสำหรับระบบส่วนหลังและระบบภายในที่ต้องการประสิทธิภาพสูง ไม่ขึ้นกับซอฟต์แวร์ใดๆ เช่น Microsoft หรือ Open Office
-    
-
-overview:
-    enable: true
-    content: |
-        แปลงไฟล์ SVG ของคุณเป็น EMF ใน .NET อย่างง่ายดาย คุณสามารถใช้โค้ดได้สองสามบรรทัด C# ในแพลตฟอร์มใดก็ได้ที่คุณเลือก เช่น Windows, Linux, macOS
-        คุณสามารถลองแปลงจาก SVG ถึง EMF ได้ฟรี และประเมินคุณภาพผลลัพธ์ของการแปลง นอกจากสถานการณ์การแปลงไฟล์อย่างง่ายแล้ว คุณสามารถลองใช้ตัวเลือกขั้นสูงเพิ่มเติมสำหรับการโหลดไฟล์ซอร์ส SVG และสำหรับการบันทึกผลลัพธ์ EMF 
-        
-        ตัวอย่างเช่น สำหรับไฟล์ต้นทาง SVG คุณอาจใช้ตัวเลือกการโหลดต่อไปนี้:
-
-        * รูปแบบไฟล์ตรวจจับอัตโนมัติ;
-        * ระบุรหัสผ่านสำหรับไฟล์ที่มีการป้องกัน (หากรูปแบบไฟล์รองรับ);
-        * แทนที่แบบอักษรที่ขาดหายไปเพื่อรักษาลักษณะที่ปรากฏของเอกสาร.
-        
-        นอกจากนี้ยังมีตัวเลือกการแปลงขั้นสูงสำหรับไฟล์ EMF:
-
-        * แปลงหน้าเอกสารเฉพาะหรือช่วงหน้า;
-        * เพิ่มลายน้ำให้กับไฟล์ EMF ที่แปลงแล้วและอีกมากมาย.
-
-        เมื่อการแปลงเสร็จสิ้น คุณสามารถบันทึกไฟล์ EMF ของคุณไปยังเส้นทางไฟล์ในเครื่องหรือที่เก็บข้อมูลของบุคคลที่สาม เช่น FTP, Amazon S3, Google Drive, Dropbox เป็นต้น โปรดทราบ - หากต้องการแปลง SVG เป็น {{ TO}} ไม่จำเป็นต้องติดตั้งซอฟต์แวร์เพิ่มเติมใดๆ เช่น MS Office, Open Office, Adobe Acrobat Reader เป็นต้น
+      เริ่มต้นการใช้งาน API GroupDocs.Conversion สำหรับ .NET ด้วยความสะดวกด้วยการรวมรอยการสนับสนุนสำหรับกว่า 60 รูปแบบเอกสารที่นิยมเข้าถึงได้อย่างต่อเนื่องในแอปพลิเคชัน .NET ด้วยเพียงไม่กี่บรรทัดของโค้ด นักพัฒนาสามารถแปลง PDF, เอกสาร Word, สเปรดชีต Excel, การนำเสนอ, ไฟล์ Visio, ไฟล์โปรเจกต์, เอกสาร Outlook และรูปแบบอื่นๆ มากมายเป็นเอกสารหรือภาพที่ต้องการ สนุกกับการประมวลผลเอกสารอย่างรวดเร็วโดยไม่ต้องติดตั้งซอฟต์แวร์เสริมหรือไลบรารีภายนอก
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "ขั้นตอนในการแปลง SVG เป็น EMF ใน C#"
-    content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) ช่วยให้นักพัฒนาแปลงไฟล์ SVG เป็น EMF ได้อย่างง่ายดายด้วยโค้ดไม่กี่บรรทัด
-        
-        * สร้างอินสแตนซ์ของคลาส Converter และจัดเตรียมไฟล์ SVG ด้วยพาธแบบเต็ม
-        * สร้างและตั้งค่า ConvertOptions สำหรับประเภท EMF
-        * เรียกใช้เมธอด Converter.Convert และส่งเส้นทางและรูปแบบแบบเต็ม (EMF) เป็นพารามิเตอร์
-
-    title_right: "ความต้องการของระบบ"
-    content_right: |
-        การแปลงพื้นฐานด้วย GroupDocs.Conversion for .NET สามารถทำได้ในไม่กี่ขั้นตอนง่ายๆ API ของเราได้รับการสนับสนุนบนแพลตฟอร์มและระบบปฏิบัติการหลักทั้งหมด ก่อนดำเนินการโค้ดด้านล่าง ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งข้อกำหนดเบื้องต้นต่อไปนี้ไว้ในระบบของคุณแล้ว
-
-        * ระบบปฏิบัติการ: Microsoft Windows, Linux, MacOS
-        * สภาพแวดล้อมการพัฒนา: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * รับ GroupDocs.Conversion for .NET ล่าสุดจาก [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-         
-    code: |
-        ```csharp    
-        // โหลดไฟล์ต้นฉบับ SVG สำหรับการแปลง
-          var converter = new GroupDocs.Conversion.Converter("input.svg");
-          // เตรียมตัวเลือกการแปลงสำหรับรูปแบบเป้าหมาย EMF
-          var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-          // แปลงเป็นรูปแบบ EMF
-          converter.Convert("output.emf", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "SVG ถึง EMF สาธิตสด"
+    title: "ขั้นตอนในการแปลงไฟล์ SVG เป็นไฟล์ EMF ใน C#" 
     content: |
-       แปลง SVG เป็น EMF ตอนนี้โดยไปที่เว็บไซต์ [แอป GroupDocs.Conversion](https://products.groupdocs.app/conversion/family) การสาธิตออนไลน์มีข้อดีดังต่อไปนี้
+      ด้วย <a href='https://products.groupdocs.com/conversion/net/'>GroupDocs.Conversion</a> คุณสามารถแปลง SVG เป็น EMF ได้ในขั้นตอนเพียงไม่กี่ขั้นตอน
+      
+      1. ติดตั้ง <a href='https://www.nuget.org/packages/groupdocs.conversion'>GroupDocs.Conversion สำหรับ .NET</a> โดยใช้ตัวจัดการแพคเกจที่คุณชื่นชอบ 
+      2. สร้างอินสแตนซ์ของคลาส FluentConverter  
+      3. โหลดไฟล์ SVG ด้วยเส้นทางเต็ม 
+      4. แปลงไฟล์และตรวจสอบผลลัพธ์ในไดเรกทอรีปัจจุบัน 
+   
+    code:
+      platform: "net"
+      copy_title: "คัดลอก"
+      install:
+        command: "dotnet add package GroupDocs.Conversion"
+        copy_tip: "คลิกเพื่อคัดลอก"
+        copy_done: "คัดลอกแล้ว"
+      links:
+        #  loop
+        - title: "ตัวอย่างเพิ่มเติม"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+        #  loop
+        - title: "เอกสาร"
+          link: "https://docs.groupdocs.com/conversion/net/"
           
+      content: |
+        ```csharp {style=abap}
+        FluentConverter
+            .Load("input.svg")             // ตั้งค่าไฟล์ SVG เข้าสู่ระบบ
+            .ConvertTo("converted.emf")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
+            .Convert();                     // แปลงไฟล์ SVG เป็นไฟล์ EMF        
+        ```            
 
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "พร้อมที่จะเริ่มต้นหรือไม่?"
+  description: "ลองคุณลักษณะของ GroupDocs.Conversion ฟรีหรือขอใบอนุญาต"
+  items:
+    #  loop
+    - title: "ดาวน์โหลดผ่าน Nuget"
+      link: "https://www.nuget.org/packages/groupdocs.conversion"
+      color: "red"
+        #  loop
+    - title: "การอนุญาต"
+      link: "https://purchase.groupdocs.com/pricing/conversion/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "การแปลง SVG อื่นๆ ที่สนับสนุนใน C#"
-    content: "คุณยังสามารถแปลง SVG เป็นรูปแบบไฟล์อื่นๆ ได้มากมาย โปรดดูรายการด้านล่าง"
-       
-       
-back_to_top:
-    enable: true
+    title: "แปลงรูปแบบไฟล์อื่นๆ โดยใช้ C#"
+    exclude: "SVG to EMF"
+    description: "เข้าถึง API สำหรับการแปลงเอกสารและภาพรูปแบบหลายรูปแบบใน .NET สลับระหว่างรูปแบบไฟล์ที่ได้รับการใช้ที่แพร่ไปด้านล่างโดยไม่ต้องพึ่งพาเครื่องมือภายนอก"
+    items: 
+        # format loop 1
+        - name: "แปลง DOCX เป็น HTML"
+          format: "DOCX to HTML"
+          link: "/conversion/net/docx-to-html/"
+          description: "Hypertext Markup Language File" 
+
+        # format loop 2
+        - name: "แปลง DICOM เป็น JPG" 
+          format: "DICOM to JPG"
+          link: "/conversion/net/dicom-to-jpg/"
+          description: "JPEG Image" 
+
+        # format loop 3
+        - name: "แปลง DJVU เป็น PDF"
+          format: "DJVU to PDF"
+          link: "/conversion/net/djvu-to-pdf/"
+          description: "Portable Document Format File" 
+
+        # format loop 4
+        - name: "แปลง AI เป็น PNG"
+          format: "AI to PNG"
+          link: "/conversion/net/ai-to-png/"
+          description: "Portable Network Graphic" 
+
+        # format loop 5
+        - name: "แปลง BMP เป็น GIF"
+          format: "BMP to GIF"
+          link: "/conversion/net/bmp-to-gif/"
+          description: "Graphics Interchange Format"
+
+        # format loop 6
+        - name: "แปลง CAD เป็น XML"
+          format: "CAD to XML"
+          link: "/conversion/net/cad-to-xml/"
+          description: "XML File"
+
+        # format loop 7
+        - name: "แปลง PDF เป็น PPTX"
+          format: "PDF to PPTX"
+          link: "/conversion/net/pdf-to-pptx/"
+          description: "Open XML presentation Format"
+
+        # format loop 8
+        - name: "แปลง HTML เป็น DOCX"
+          format: "HTML to DOCX"
+          link: "/conversion/net/html-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 9
+        - name: "แปลง PDF เป็น TIFF"
+          format: "PDF to TIFF"
+          link: "/conversion/net/pdf-to-tiff/"
+          description: "Tagged Image File Format" 
+
+        # format loop 10
+        - name: "แปลง CSV เป็น JSON" 
+          format: "CSV to JSON"
+          link: "/conversion/net/csv-to-json/"
+          description: "JavaScript Object Notation" 
+
+        # format loop 11
+        - name: "แปลง CSV เป็น XLSX" 
+          format: "XML to XLSX"
+          link: "/conversion/net/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"  
+          
+        # format loop 12
+        - name: "แปลง EML เป็น MHT"
+          format: "EML to MHT"
+          link: "/conversion/net/eml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"  
+              
+        # format loop 13
+        - name: "แปลง PDF เป็น XPS"
+          format: "PDF to XPS"
+          link: "/conversion/net/pdf-to-xps/"
+          description: "Open XML Paper Specification" 
+          
+        # format loop 14
+        - name: "แปลง PNG เป็น SVG"
+          format: "PNG to SVG"
+          link: "/conversion/net/png-to-svg/"
+          description: "Scalable Vector Graphics File" 
+          
+        # format loop 15
+        - name: "แปลง XML เป็น RTF"
+          format: "XML to RTF"
+          link: "/conversion/net/xml-to-rtf/"
+          description: "Rich Text File Format"
+          
+        # format loop 16
+        - name: "แปลง PDF เป็น TXT"
+          format: "PDF to TXT"
+          link: "/conversion/net/pdf-to-txt/"
+          description: "Plain Text File Format"              
+        
+        # format loop 17
+        - name: "แปลง DOCX เป็น PDF"
+          format: "DOCX to PDF"
+          link: "/conversion/net/docx-to-pdf/"
+          description: "Portable Document Format File"
+ 
+        # format loop 18
+        - name: "แปลง CSV เป็น XLSX"
+          format: "CSV to XLSX"
+          link: "/conversion/net/csv-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet File"
+ 
+        # format loop 19
+        - name: "แปลง EML เป็น MSG"
+          format: "EML to MSG"
+          link: "/conversion/net/eml-to-msg/"
+          description: "Microsoft Outlook Email Message File"
+
+        # format loop 20
+        - name: "แปลง PNG เป็น JPG"
+          format: "PNG to JPG"
+          link: "/conversion/net/png-to-jpg/"
+          description: "Joint Photographic Experts Group Image File"
+
+        # format loop 13
+        - name: "แปลง PDF เป็น EPUB"
+          format: "PDF to EPUB"
+          link: "/conversion/net/pdf-to-epub/"
+          description: "Electronic Publication File"
+
 ---

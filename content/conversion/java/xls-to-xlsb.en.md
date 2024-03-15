@@ -1,106 +1,241 @@
+ 
 ---
 ############################# Static ############################
-layout: "auto-gen-conversion"
-date: 2023-10-27T14:11:54
+layout: "format"
+date: 2024-03-15T11:11:48
 draft: false
-otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: XLS to XLSB in Java
+lang: en
+product: "Conversion"
+product_tag: "conversion"
+platform: "Java"
+platform_tag: "java"
 
-############################# Head ############################
-head_title: "Convert XLS to XLSB in Java"
-head_description: "XLS to XLSB conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs document conversion API for Java"
+############################# Head #############################
+head_title: "Java XLS to XLSB Converter API - transform XLS to XLSB in Java apps"
+head_description: "View XLS to XLSB files in Java, J2EE, J2SE applications. Supports viewing 180+ document and image file formats in HTML, PDF or image mode with advanced features to manage document viewing options."
 
 ############################# Header ############################
-title: "Convert XLS to XLSB in Java"
-description: "XLS to XLSB conversion with a few lines of Java code"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
+title: "Convert XLS to XLSB in Java" 
+description: "Experience the efficiency of a native, high-performance XLS to XLSB file converter API designed for Java, J2EE, and J2SE applications. Enjoy support for an extensive set of additional features, allowing customization of the output document's appearance." 
+subtitle: "Document conversion solution" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Maven download"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
 
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
+    link: "/conversion/java/"
+    link_title: "Learn more"
+    picture: "about_conversion.svg" # 480 X 400
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
-    
-
-overview:
-    enable: true
-    content: |
-        Convert your XLS files to XLSB in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
-        You can try converting XLS to XLSB for free and evaluate the quality of the conversion results. Along with simple file conversion scripts, you can try more sophisticated options for loading the XLS source file and storing the XLSB output. 
-        
-        For example, for the source XLS file you may use the following load options:
-
-        * automatic detection of the file format;
-        * specify a password for protected files (if the file format supports it);
-        * replace missing fonts to preserve the appearance of the document.
-        
-        There are also advanced convert options for the XLSB file:
-
-        * convert a specific page of a document or a range of pages;
-        * add a watermark to the converted XLSB.
-
-        Once the conversion is complete, you can save the XLSB file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc. Please note - to convert XLS to XLSB, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc.
+      Incorporate support for over 60 popular document formats seamlessly into your Java applications using the GroupDocs.Conversion for Java APIs. With just a few lines of code, developers can effortlessly convert PDFs, Word documents, Excel spreadsheets, presentations, Visio files, Project files, Outlook documents, and many other formats into the desired document or image formats. Enjoy swift document processing without the requirement for installing additional software or external libraries.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to convert XLS to XLSB in Java"
-    content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) allows developers to easily convert XLS file to XLSB with a few lines of code.
-        
-        * Create a new instance of the Converter class and upload the file XLS with the full path
-        * Set ConvertOptions for document type to XLSB
-        * Call the convert() method and pass the document name (full path) and format (XLSB) as a parameter
-
-    title_right: "System Requirements"
-    content_right: |
-        Basic conversion with GroupDocs.Conversion for Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
-
-        * Operating systems: Microsoft Windows, Linux, MacOS
-        * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.
-        * Java runtime: J2SE 6.0 and above
-        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-         
-    code: |
-        ```java    
-        // Load source file XLS for conversion
-          Converter converter = new Converter("input.xls");
-          // Prepare conversion options for target format XLSB
-          ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
-          // Convert to XLSB format
-          converter.convert("output.xlsb", convertOptions);
-        ```
-
-demos:
-    enable: true
-    title: "XLS to XLSB Live Demo"
+    title: "Steps to convert XLS to XLSB file in Java" 
     content: |
-       Visit our [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website and try XLS to XLSB conversion now. The free demo has the following benefits
-          
+      Transforming XLS to XLSB is made simple with <a href='https://products.groupdocs.com/conversion/java/'>GroupDocs.Conversion</a>, requiring just a few straightforward steps.
+      
+      1. Add <a href='https://releases.groupdocs.com/conversion/java/'>GroupDocs.Conversion for Java</a> as a dependency to your project. 
+      2. Create an instance of Converter class.  
+      3. Load the XLS file with full path. 
+      4. Convert file and check output in the current directory. 
+   
+    code:
+      platform: "java"
+      copy_title: "Copy"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-conversion</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "click to copy"
+        copy_done: "copied"
+      links:
+        #  loop
+        - title: "More examples"
+          link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/conversion/java/"
+          
+      content: |
+        ```java {style=abap}
+        new Converter()
+            .load("input.xls")              // Set up input XLS file
+            .convertTo("converted.xlsb")    // Specify output path for converted file
+            .convert();                     // Convert XLS to XLSB file        
+        ```            
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Conversion features for free or request a license"
+  items:
+    #  loop
+    - title: "Maven download"
+      link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
+      color: "red"
+        #  loop
+    - title: "Licensing"
+      link: "https://purchase.groupdocs.com/pricing/conversion/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Other supported XLS conversions in Java"
-    content: "You can also convert XLS to many other file formats. Please see the list below."
-       
-       
-back_to_top:
-    enable: true
+    title: "Convert other file formats using Java"
+    exclude: "XLS to XLSB"
+    description: "Access a versatile API for converting documents and images across multiple formats in Java. Seamlessly switch between some of the most commonly used file formats listed below without relying on external tools."
+    items: 
+      # format loop 1
+      - name: "Convert DOCX to PDF"
+        format: "DOCX to PDF"
+        link: "/conversion/java/docx-to-pdf/"
+        description: "Portable Document Format File"
+
+      # format loop 2
+      - name: "Convert DOC to HTML"
+        format: "DOC to HTML"
+        link: "/conversion/java/doc-to-html/"
+        description: "Hypertext Markup Language File"
+
+      # format loop 3
+      - name: "Convert CSV to XLSX"
+        format: "CSV to XLSX"
+        link: "/conversion/java/csv-to-xlsx/"
+        description: "Microsoft Excel Open XML Spreadsheet File"
+
+      # format loop 4
+      - name: "Convert EML to MSG"
+        format: "EML to MSG"
+        link: "/conversion/java/eml-to-msg/"
+        description: "Microsoft Outlook Email Message File"
+
+      # format loop 5
+      - name: "Convert HTML to DOCX"
+        format: "HTML to DOCX"
+        link: "/conversion/java/html-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 6
+      - name: "Convert HTML to PNG"
+        format: "HTML to PNG"
+        link: "/conversion/java/html-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 7
+      - name: "Convert JPG to TIFF"
+        format: "JPG to TIFF"
+        link: "/conversion/java/jpg-to-tiff/"
+        description: "Tagged Image File Format"
+
+      # format loop 8
+      - name: "Convert PDF to EPUB"
+        format: "PDF to EPUB"
+        link: "/conversion/java/pdf-to-epub/"
+        description: "Electronic Publication File"
+
+      # format loop 9
+      - name: "Convert PNG to JPG"
+        format: "PNG to JPG"
+        link: "/conversion/java/png-to-jpg/"
+        description: "Joint Photographic Experts Group Image File"
+
+      # format loop 10
+      - name: "Convert SVG to PNG"
+        format: "SVG to PNG"
+        link: "/conversion/java/svg-to-png/"
+        description: "Portable Network Graphics File"
+
+      # format loop 11
+      - name: "Convert TXT to XML"
+        format: "TXT to XML"
+        link: "/conversion/java/txt-to-xml/"
+        description: "Extensible Markup Language File"
+
+      # format loop 12
+      - name: "Convert XLS to JSON"
+        format: "XLS to JSON"
+        link: "/conversion/java/xls-to-json/"
+        description: "JavaScript Object Notation File"
+
+      # format loop 13
+      - name: "Convert XML to DOCX"
+        format: "XML to DOCX"
+        link: "/conversion/java/xml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 14
+      - name: "Convert DOCX to HTML"
+        format: "DOCX to HTML"
+        link: "/conversion/java/docx-to-html/"
+        description: "Hypertext Markup Language File" 
+
+      # format loop 15
+      - name: "Convert DICOM to JPG" 
+        format: "DICOM to JPG"
+        link: "/conversion/java/dicom-to-jpg/"
+        description: "JPEG Image" 
+
+      # format loop 16
+      - name: "Convert DJVU to PDF"
+        format: "DJVU to PDF"
+        link: "/conversion/java/djvu-to-pdf/"
+        description: "Portable Document Format File" 
+
+      # format loop 17
+      - name: "Convert AI to PNG"
+        format: "AI to PNG"
+        link: "/conversion/java/ai-to-png/"
+        description: "Portable Network Graphic" 
+      
+      # format loop 18
+      - name: "Convert BMP to SVG"
+        format: "BMP to SVG"
+        link: "/conversion/java/bmp-to-svg/"
+        description: "Graphics Interchange Format"
+
+      # format loop 19
+      - name: "Convert DOT to VSDX"
+        format: "DOT to VSDX"
+        link: "/conversion/java/dot-to-vsdx/"
+        description: "Microsoft Visio File"
+
+      # format loop 20
+      - name: "Convert MHTML to DOCX"
+        format: "MHTML to DOCX"
+        link: "/conversion/java/mhtml-to-docx/"
+        description: "Microsoft Word Open XML Document"
+
+      # format loop 21
+      - name: "Convert TXT to EML"
+        format: "TXT to EML"
+        link: "/conversion/java/txt-to-eml/"
+        description: "Microsoft Outlook File"
+
 ---

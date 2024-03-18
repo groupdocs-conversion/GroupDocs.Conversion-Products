@@ -1,1 +1,0 @@
-MarkupGenerator.Shell.exe -s ..\src\index -o ..\..\content\conversion

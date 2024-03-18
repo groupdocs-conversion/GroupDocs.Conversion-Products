@@ -1,3 +1,0 @@
-call _build_index_landings.bat
-call _build_product_index_landings.bat
-call _build_product_pairs_landings.bat

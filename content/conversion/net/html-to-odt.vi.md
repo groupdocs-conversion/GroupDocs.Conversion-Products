@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.html")               // Thiết lập tệp HTML đầu vào
+            .Load("input.html")             // Thiết lập tệp HTML đầu vào
             .ConvertTo("converted.odt")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp HTML thành tệp ODT        
         ```            

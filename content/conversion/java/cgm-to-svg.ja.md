@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.cgm")              // CGM ファイルを入力設定
             .convertTo("converted.svg")    // 変換されたファイルの出力パスを指定
-            .convert();                    // CGM ファイルを SVG ファイルに変換        
+            .convert();                     // CGM ファイルを SVG ファイルに変換        
         ```            
 
 ############################# Actions ############################

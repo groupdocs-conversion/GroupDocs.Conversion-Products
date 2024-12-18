@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xml")               // تنظیم فایل ورودی XML
+            .Load("input.xml")             // تنظیم فایل ورودی XML
             .ConvertTo("converted.txt")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل XML به TXT        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // Configurar archivo de entrada DOCX
             .convertTo("converted.rtf")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo DOCX a RTF        
+            .convert();                     // Convertir archivo DOCX a RTF        
         ```            
 
 ############################# Actions ############################

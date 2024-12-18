@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eml")              // Set up input EML file
             .convertTo("converted.pdf")    // Specify output path for converted file
-            .convert();                    // Convert EML to PDF file        
+            .convert();                     // Convert EML to PDF file        
         ```            
 
 ############################# Actions ############################

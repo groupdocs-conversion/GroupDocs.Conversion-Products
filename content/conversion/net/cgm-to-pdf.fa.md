@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cgm")               // تنظیم فایل ورودی CGM
+            .Load("input.cgm")             // تنظیم فایل ورودی CGM
             .ConvertTo("converted.pdf")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل CGM به PDF        
         ```            

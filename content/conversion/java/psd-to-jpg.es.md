@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.psd")              // Configurar archivo de entrada PSD
             .convertTo("converted.jpg")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo PSD a JPG        
+            .convert();                     // Convertir archivo PSD a JPG        
         ```            
 
 ############################# Actions ############################

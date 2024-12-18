@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.vcf")              // Configurar arquivo de entrada VCF
             .convertTo("converted.txt")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo VCF para TXT        
+            .convert();                     // Converter arquivo VCF para TXT        
         ```            
 
 ############################# Actions ############################

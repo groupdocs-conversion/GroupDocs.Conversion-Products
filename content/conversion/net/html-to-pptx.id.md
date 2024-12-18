@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.html")               // Atur file HTML input
+            .Load("input.html")             // Atur file HTML input
             .ConvertTo("converted.pptx")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file HTML ke PPTX        
         ```            

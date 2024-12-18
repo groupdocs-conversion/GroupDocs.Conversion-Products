@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dxf")               // Configurar arquivo de entrada DXF
+            .Load("input.dxf")             // Configurar arquivo de entrada DXF
             .ConvertTo("converted.png")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo DXF para PNG        
         ```            

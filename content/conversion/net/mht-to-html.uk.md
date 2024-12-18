@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mht")               // Налаштування вхідного файлу MHT
+            .Load("input.mht")             // Налаштування вхідного файлу MHT
             .ConvertTo("converted.html")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу MHT у файл HTML        
         ```            

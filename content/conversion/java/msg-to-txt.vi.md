@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.msg")              // Thiết lập tệp MSG đầu vào
             .convertTo("converted.txt")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp MSG thành tệp TXT        
+            .convert();                     // Chuyển đổi tệp MSG thành tệp TXT        
         ```            
 
 ############################# Actions ############################

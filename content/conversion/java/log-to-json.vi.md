@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.log")              // Thiết lập tệp LOG đầu vào
             .convertTo("converted.json")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp LOG thành tệp JSON        
+            .convert();                     // Chuyển đổi tệp LOG thành tệp JSON        
         ```            
 
 ############################# Actions ############################

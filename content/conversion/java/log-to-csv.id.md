@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.log")              // Atur file LOG input
             .convertTo("converted.csv")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file LOG ke CSV        
+            .convert();                     // Konversi file LOG ke CSV        
         ```            
 
 ############################# Actions ############################

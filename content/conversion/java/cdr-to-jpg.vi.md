@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.cdr")              // Thiết lập tệp CDR đầu vào
             .convertTo("converted.jpg")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp CDR thành tệp JPG        
+            .convert();                     // Chuyển đổi tệp CDR thành tệp JPG        
         ```            
 
 ############################# Actions ############################

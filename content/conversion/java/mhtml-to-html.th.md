@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mhtml")              // ตั้งค่าไฟล์ MHTML เข้าสู่ระบบ
             .convertTo("converted.html")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ MHTML เป็นไฟล์ HTML        
+            .convert();                     // แปลงไฟล์ MHTML เป็นไฟล์ HTML        
         ```            
 
 ############################# Actions ############################

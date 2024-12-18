@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.odt")              // Configurar archivo de entrada ODT
             .convertTo("converted.pdf")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo ODT a PDF        
+            .convert();                     // Convertir archivo ODT a PDF        
         ```            
 
 ############################# Actions ############################

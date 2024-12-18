@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.numbers")               // Configurar arquivo de entrada NUMBERS
+            .Load("input.numbers")             // Configurar arquivo de entrada NUMBERS
             .ConvertTo("converted.json")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo NUMBERS para JSON        
         ```            

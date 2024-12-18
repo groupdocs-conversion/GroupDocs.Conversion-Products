@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.psd")               // Richten Sie die Eingabedatei PSD ein
+            .Load("input.psd")             // Richten Sie die Eingabedatei PSD ein
             .ConvertTo("converted.pptx")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // PSD in PPTX Datei konvertieren        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // Set up input JSON file
             .convertTo("converted.txt")    // Specify output path for converted file
-            .convert();                    // Convert JSON to TXT file        
+            .convert();                     // Convert JSON to TXT file        
         ```            
 
 ############################# Actions ############################

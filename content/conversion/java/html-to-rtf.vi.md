@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Thiết lập tệp HTML đầu vào
             .convertTo("converted.rtf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp HTML thành tệp RTF        
+            .convert();                     // Chuyển đổi tệp HTML thành tệp RTF        
         ```            
 
 ############################# Actions ############################

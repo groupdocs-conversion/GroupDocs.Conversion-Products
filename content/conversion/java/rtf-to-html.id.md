@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.rtf")              // Atur file RTF input
             .convertTo("converted.html")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file RTF ke HTML        
+            .convert();                     // Konversi file RTF ke HTML        
         ```            
 
 ############################# Actions ############################

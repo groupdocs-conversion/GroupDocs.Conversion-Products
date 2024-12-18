@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.emf")               // Atur file EMF input
+            .Load("input.emf")             // Atur file EMF input
             .ConvertTo("converted.svg")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file EMF ke SVG        
         ```            

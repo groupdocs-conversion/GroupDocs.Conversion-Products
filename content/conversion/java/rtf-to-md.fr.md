@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.rtf")              // Configurer le fichier RTF d'entrée
             .convertTo("converted.md")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier RTF en MD        
+            .convert();                     // Convertir le fichier RTF en MD        
         ```            
 
 ############################# Actions ############################

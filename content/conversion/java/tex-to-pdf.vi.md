@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tex")              // Thiết lập tệp TEX đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp TEX thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp TEX thành tệp PDF        
         ```            
 
 ############################# Actions ############################

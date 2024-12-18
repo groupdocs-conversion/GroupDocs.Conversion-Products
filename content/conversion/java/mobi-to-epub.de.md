@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mobi")              // Richten Sie die Eingabedatei MOBI ein
             .convertTo("converted.epub")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // MOBI in EPUB Datei konvertieren        
+            .convert();                     // MOBI in EPUB Datei konvertieren        
         ```            
 
 ############################# Actions ############################

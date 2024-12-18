@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.gif")               // تنظیم فایل ورودی GIF
+            .Load("input.gif")             // تنظیم فایل ورودی GIF
             .ConvertTo("converted.dicom")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل GIF به DICOM        
         ```            

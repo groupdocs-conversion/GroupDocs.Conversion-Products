@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.chm")              // 设置输入 CHM 文件
             .convertTo("converted.pdf")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 CHM 转换为 PDF 文件        
+            .convert();                     // 将 CHM 转换为 PDF 文件        
         ```            
 
 ############################# Actions ############################

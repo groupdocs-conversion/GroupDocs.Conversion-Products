@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.vcf")              // Richten Sie die Eingabedatei VCF ein
             .convertTo("converted.pdf")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // VCF in PDF Datei konvertieren        
+            .convert();                     // VCF in PDF Datei konvertieren        
         ```            
 
 ############################# Actions ############################

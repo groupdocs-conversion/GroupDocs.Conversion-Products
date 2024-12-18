@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mobi")              // Configurar arquivo de entrada MOBI
             .convertTo("converted.pdf")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo MOBI para PDF        
+            .convert();                     // Converter arquivo MOBI para PDF        
         ```            
 
 ############################# Actions ############################

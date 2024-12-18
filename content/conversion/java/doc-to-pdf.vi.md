@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // Thiết lập tệp DOC đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp DOC thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp DOC thành tệp PDF        
         ```            
 
 ############################# Actions ############################

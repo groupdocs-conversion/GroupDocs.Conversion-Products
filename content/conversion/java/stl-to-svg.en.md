@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.stl")              // Set up input STL file
             .convertTo("converted.svg")    // Specify output path for converted file
-            .convert();                    // Convert STL to SVG file        
+            .convert();                     // Convert STL to SVG file        
         ```            
 
 ############################# Actions ############################

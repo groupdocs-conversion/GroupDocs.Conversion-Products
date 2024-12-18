@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.md")               // Configurer le fichier MD d'entrée
+            .Load("input.md")             // Configurer le fichier MD d'entrée
             .ConvertTo("converted.html")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier MD en HTML        
         ```            

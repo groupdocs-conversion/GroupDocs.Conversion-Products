@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // 设置输入 PDF 文件
             .convertTo("converted.doc")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 PDF 转换为 DOC 文件        
+            .convert();                     // 将 PDF 转换为 DOC 文件        
         ```            
 
 ############################# Actions ############################

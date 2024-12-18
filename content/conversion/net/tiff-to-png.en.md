@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tiff")               // Set up input TIFF file
+            .Load("input.tiff")             // Set up input TIFF file
             .ConvertTo("converted.png")     // Specify output path for converted file
             .Convert();                     // Convert TIFF to PNG file        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.json")               // تنظیم فایل ورودی JSON
+            .Load("input.json")             // تنظیم فایل ورودی JSON
             .ConvertTo("converted.txt")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل JSON به TXT        
         ```            

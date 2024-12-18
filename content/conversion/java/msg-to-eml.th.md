@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.msg")              // ตั้งค่าไฟล์ MSG เข้าสู่ระบบ
             .convertTo("converted.eml")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ MSG เป็นไฟล์ EML        
+            .convert();                     // แปลงไฟล์ MSG เป็นไฟล์ EML        
         ```            
 
 ############################# Actions ############################

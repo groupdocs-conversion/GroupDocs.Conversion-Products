@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // تنظیم فایل ورودی PDF
             .convertTo("converted.jpg")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل PDF به JPG        
+            .convert();                     // تبدیل فایل PDF به JPG        
         ```            
 
 ############################# Actions ############################

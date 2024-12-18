@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mhtml")              // Imposta il file MHTML di input
             .convertTo("converted.jpg")    // Specificare il percorso di output per il file convertito
-            .convert();                    // Converti il file MHTML in JPG        
+            .convert();                     // Converti il file MHTML in JPG        
         ```            
 
 ############################# Actions ############################

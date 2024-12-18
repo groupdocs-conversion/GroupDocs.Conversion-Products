@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pcl")               // Imposta il file PCL di input
+            .Load("input.pcl")             // Imposta il file PCL di input
             .ConvertTo("converted.pdf")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file PCL in PDF        
         ```            

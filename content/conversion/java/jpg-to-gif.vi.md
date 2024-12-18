@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jpg")              // Thiết lập tệp JPG đầu vào
             .convertTo("converted.gif")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp JPG thành tệp GIF        
+            .convert();                     // Chuyển đổi tệp JPG thành tệp GIF        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // Thiết lập tệp JSON đầu vào
             .convertTo("converted.md")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp JSON thành tệp MD        
+            .convert();                     // Chuyển đổi tệp JSON thành tệp MD        
         ```            
 
 ############################# Actions ############################

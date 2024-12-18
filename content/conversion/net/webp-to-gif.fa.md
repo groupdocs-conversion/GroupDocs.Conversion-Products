@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.webp")               // تنظیم فایل ورودی WEBP
+            .Load("input.webp")             // تنظیم فایل ورودی WEBP
             .ConvertTo("converted.gif")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل WEBP به GIF        
         ```            

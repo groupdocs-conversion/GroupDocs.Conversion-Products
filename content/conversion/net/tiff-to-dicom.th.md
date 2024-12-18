@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tiff")               // ตั้งค่าไฟล์ TIFF เข้าสู่ระบบ
+            .Load("input.tiff")             // ตั้งค่าไฟล์ TIFF เข้าสู่ระบบ
             .ConvertTo("converted.dicom")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ TIFF เป็นไฟล์ DICOM        
         ```            

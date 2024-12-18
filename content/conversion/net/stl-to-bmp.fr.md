@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.stl")               // Configurer le fichier STL d'entrée
+            .Load("input.stl")             // Configurer le fichier STL d'entrée
             .ConvertTo("converted.bmp")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier STL en BMP        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.emz")               // Налаштування вхідного файлу EMZ
+            .Load("input.emz")             // Налаштування вхідного файлу EMZ
             .ConvertTo("converted.jpg")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу EMZ у файл JPG        
         ```            

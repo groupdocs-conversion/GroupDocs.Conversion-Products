@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jpg")              // ตั้งค่าไฟล์ JPG เข้าสู่ระบบ
             .convertTo("converted.png")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ JPG เป็นไฟล์ PNG        
+            .convert();                     // แปลงไฟล์ JPG เป็นไฟล์ PNG        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // Imposta il file DWG di input
             .convertTo("converted.txt")    // Specificare il percorso di output per il file convertito
-            .convert();                    // Converti il file DWG in TXT        
+            .convert();                     // Converti il file DWG in TXT        
         ```            
 
 ############################# Actions ############################

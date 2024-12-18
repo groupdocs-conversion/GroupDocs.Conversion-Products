@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ai")               // Set up input AI file
+            .Load("input.ai")             // Set up input AI file
             .ConvertTo("converted.svg")     // Specify output path for converted file
             .Convert();                     // Convert AI to SVG file        
         ```            

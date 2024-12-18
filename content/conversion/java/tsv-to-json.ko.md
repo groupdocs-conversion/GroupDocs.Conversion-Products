@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tsv")              // TSV 파일을 입력 설정
             .convertTo("converted.json")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // TSV 파일을 JSON 파일로 변환        
+            .convert();                     // TSV 파일을 JSON 파일로 변환        
         ```            
 
 ############################# Actions ############################

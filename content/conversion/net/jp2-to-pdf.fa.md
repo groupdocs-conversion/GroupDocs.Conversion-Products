@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jp2")               // تنظیم فایل ورودی JP2
+            .Load("input.jp2")             // تنظیم فایل ورودی JP2
             .ConvertTo("converted.pdf")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل JP2 به PDF        
         ```            

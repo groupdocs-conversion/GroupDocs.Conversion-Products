@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tex")              // Configurar archivo de entrada TEX
             .convertTo("converted.pdf")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo TEX a PDF        
+            .convert();                     // Convertir archivo TEX a PDF        
         ```            
 
 ############################# Actions ############################

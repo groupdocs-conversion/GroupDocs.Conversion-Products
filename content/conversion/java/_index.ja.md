@@ -21,7 +21,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
 
 ############################# Head ############################
 head_title: "Java ドキュメント変換 API | PDF、Word、Excel、PPTX、HTML、画像を変換"

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.txt")              // Configurar archivo de entrada TXT
             .convertTo("converted.png")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo TXT a PNG        
+            .convert();                     // Convertir archivo TXT a PNG        
         ```            
 
 ############################# Actions ############################

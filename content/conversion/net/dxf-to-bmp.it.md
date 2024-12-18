@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dxf")               // Imposta il file DXF di input
+            .Load("input.dxf")             // Imposta il file DXF di input
             .ConvertTo("converted.bmp")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file DXF in BMP        
         ```            

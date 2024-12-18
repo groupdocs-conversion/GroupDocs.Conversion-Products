@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tex")              // Atur file TEX input
             .convertTo("converted.pdf")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file TEX ke PDF        
+            .convert();                     // Konversi file TEX ke PDF        
         ```            
 
 ############################# Actions ############################

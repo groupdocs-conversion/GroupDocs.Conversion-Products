@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // تنظیم فایل ورودی PDF
             .convertTo("converted.md")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل PDF به MD        
+            .convert();                     // تبدیل فایل PDF به MD        
         ```            
 
 ############################# Actions ############################

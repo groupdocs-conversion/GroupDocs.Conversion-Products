@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.txt")              // Thiết lập tệp TXT đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp TXT thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp TXT thành tệp PDF        
         ```            
 
 ############################# Actions ############################

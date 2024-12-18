@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tiff")               // Configurar archivo de entrada TIFF
+            .Load("input.tiff")             // Configurar archivo de entrada TIFF
             .ConvertTo("converted.jpg")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo TIFF a JPG        
         ```            

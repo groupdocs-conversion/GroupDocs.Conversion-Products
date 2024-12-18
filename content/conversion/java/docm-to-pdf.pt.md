@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docm")              // Configurar arquivo de entrada DOCM
             .convertTo("converted.pdf")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo DOCM para PDF        
+            .convert();                     // Converter arquivo DOCM para PDF        
         ```            
 
 ############################# Actions ############################

@@ -22,7 +22,10 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
+      
 ############################# Head ############################
 head_title: "C# .NET 文档转换 API |转换 PDF、Word、Excel、PPTX、HTML 和图像"
 head_description: "C# .NET 文档转换 API。转换 PDF、Word、DOC、DOCX、Excel、电子表格、PPT、PPTX、HTML、PSD、MPT、MPP、电子邮件、MSG、EMLX、A​​utoCAD 和图像文件格式。"
@@ -85,7 +88,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "平台独立性"
+  title: "平台支持"
   description: "GroupDocs.Conversion for .NET 支持以下操作系统、框架和包管理器"
   items:
     # platform loop
@@ -112,6 +115,21 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Windows 专用包"
+      content: |
+        * 支持.NET Framework 4.6.2+ 和 .NET 6.0
+        * 取决于 System.Drawing.Common
+      action: "NuGet下载"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
+    # packages loop
+    - title: "跨平台包" 
+      content: |
+        * 支持.NET 6.0及更高版本 
+        * 适用于 Windows、Linux 和 macOS 
+      action: "NuGet下载" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

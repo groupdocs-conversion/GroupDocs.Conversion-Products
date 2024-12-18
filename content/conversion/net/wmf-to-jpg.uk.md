@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.wmf")               // Налаштування вхідного файлу WMF
+            .Load("input.wmf")             // Налаштування вхідного файлу WMF
             .ConvertTo("converted.jpg")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу WMF у файл JPG        
         ```            

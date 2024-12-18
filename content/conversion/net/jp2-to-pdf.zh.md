@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jp2")               // 设置输入 JP2 文件
+            .Load("input.jp2")             // 设置输入 JP2 文件
             .ConvertTo("converted.pdf")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 JP2 转换为 PDF 文件        
         ```            

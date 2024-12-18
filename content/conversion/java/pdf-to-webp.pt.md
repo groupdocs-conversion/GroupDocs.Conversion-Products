@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Configurar arquivo de entrada PDF
             .convertTo("converted.webp")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo PDF para WEBP        
+            .convert();                     // Converter arquivo PDF para WEBP        
         ```            
 
 ############################# Actions ############################

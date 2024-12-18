@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwfx")               // Set up input DWFX file
+            .Load("input.dwfx")             // Set up input DWFX file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert DWFX to PDF file        
         ```            

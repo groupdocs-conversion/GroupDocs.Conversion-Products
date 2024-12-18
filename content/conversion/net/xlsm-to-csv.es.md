@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsm")               // Configurar archivo de entrada XLSM
+            .Load("input.xlsm")             // Configurar archivo de entrada XLSM
             .ConvertTo("converted.csv")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo XLSM a CSV        
         ```            

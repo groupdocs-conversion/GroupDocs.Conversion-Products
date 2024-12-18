@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // DOCX 파일을 입력 설정
             .convertTo("converted.pdf")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // DOCX 파일을 PDF 파일로 변환        
+            .convert();                     // DOCX 파일을 PDF 파일로 변환        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.log")              // Configurar archivo de entrada LOG
             .convertTo("converted.json")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo LOG a JSON        
+            .convert();                     // Convertir archivo LOG a JSON        
         ```            
 
 ############################# Actions ############################

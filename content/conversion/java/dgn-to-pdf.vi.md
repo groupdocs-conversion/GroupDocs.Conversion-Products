@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dgn")              // Thiết lập tệp DGN đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp DGN thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp DGN thành tệp PDF        
         ```            
 
 ############################# Actions ############################

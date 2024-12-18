@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pst")              // PST 파일을 입력 설정
             .convertTo("converted.eml")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // PST 파일을 EML 파일로 변환        
+            .convert();                     // PST 파일을 EML 파일로 변환        
         ```            
 
 ############################# Actions ############################

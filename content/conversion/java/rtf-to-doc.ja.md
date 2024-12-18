@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.rtf")              // RTF ファイルを入力設定
             .convertTo("converted.doc")    // 変換されたファイルの出力パスを指定
-            .convert();                    // RTF ファイルを DOC ファイルに変換        
+            .convert();                     // RTF ファイルを DOC ファイルに変換        
         ```            
 
 ############################# Actions ############################

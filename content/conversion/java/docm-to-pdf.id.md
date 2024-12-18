@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docm")              // Atur file DOCM input
             .convertTo("converted.pdf")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file DOCM ke PDF        
+            .convert();                     // Konversi file DOCM ke PDF        
         ```            
 
 ############################# Actions ############################

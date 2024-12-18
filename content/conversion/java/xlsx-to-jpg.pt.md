@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // Configurar arquivo de entrada XLSX
             .convertTo("converted.jpg")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo XLSX para JPG        
+            .convert();                     // Converter arquivo XLSX para JPG        
         ```            
 
 ############################# Actions ############################

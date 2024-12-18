@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ai")               // Thiết lập tệp AI đầu vào
+            .Load("input.ai")             // Thiết lập tệp AI đầu vào
             .ConvertTo("converted.jpg")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp AI thành tệp JPG        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eps")               // ตั้งค่าไฟล์ EPS เข้าสู่ระบบ
+            .Load("input.eps")             // ตั้งค่าไฟล์ EPS เข้าสู่ระบบ
             .ConvertTo("converted.pptx")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ EPS เป็นไฟล์ PPTX        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwg")               // Налаштування вхідного файлу DWG
+            .Load("input.dwg")             // Налаштування вхідного файлу DWG
             .ConvertTo("converted.png")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу DWG у файл PNG        
         ```            

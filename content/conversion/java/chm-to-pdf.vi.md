@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.chm")              // Thiết lập tệp CHM đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp CHM thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp CHM thành tệp PDF        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ai")              // Configurar archivo de entrada AI
             .convertTo("converted.svg")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo AI a SVG        
+            .convert();                     // Convertir archivo AI a SVG        
         ```            
 
 ############################# Actions ############################

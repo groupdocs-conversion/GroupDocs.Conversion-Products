@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.chm")              // Configurer le fichier CHM d'entrée
             .convertTo("converted.pdf")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier CHM en PDF        
+            .convert();                     // Convertir le fichier CHM en PDF        
         ```            
 
 ############################# Actions ############################

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.png")               // PNG ファイルを入力設定
+            .Load("input.png")             // PNG ファイルを入力設定
             .ConvertTo("converted.ppt")     // 変換されたファイルの出力パスを指定
             .Convert();                     // PNG ファイルを PPT ファイルに変換        
         ```            

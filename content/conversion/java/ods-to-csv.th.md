@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ods")              // ตั้งค่าไฟล์ ODS เข้าสู่ระบบ
             .convertTo("converted.csv")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ ODS เป็นไฟล์ CSV        
+            .convert();                     // แปลงไฟล์ ODS เป็นไฟล์ CSV        
         ```            
 
 ############################# Actions ############################

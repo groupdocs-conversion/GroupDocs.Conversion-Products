@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.gif")               // Set up input GIF file
+            .Load("input.gif")             // Set up input GIF file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert GIF to PDF file        
         ```            

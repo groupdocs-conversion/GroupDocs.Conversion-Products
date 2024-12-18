@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tiff")              // Richten Sie die Eingabedatei TIFF ein
             .convertTo("converted.webp")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // TIFF in WEBP Datei konvertieren        
+            .convert();                     // TIFF in WEBP Datei konvertieren        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // Richten Sie die Eingabedatei DOC ein
             .convertTo("converted.epub")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // DOC in EPUB Datei konvertieren        
+            .convert();                     // DOC in EPUB Datei konvertieren        
         ```            
 
 ############################# Actions ############################

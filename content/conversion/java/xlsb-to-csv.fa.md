@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsb")              // تنظیم فایل ورودی XLSB
             .convertTo("converted.csv")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل XLSB به CSV        
+            .convert();                     // تبدیل فایل XLSB به CSV        
         ```            
 
 ############################# Actions ############################

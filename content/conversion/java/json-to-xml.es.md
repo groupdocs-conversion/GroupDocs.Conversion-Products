@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // Configurar archivo de entrada JSON
             .convertTo("converted.xml")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo JSON a XML        
+            .convert();                     // Convertir archivo JSON a XML        
         ```            
 
 ############################# Actions ############################

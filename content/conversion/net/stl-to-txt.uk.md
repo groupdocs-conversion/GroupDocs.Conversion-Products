@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.stl")               // Налаштування вхідного файлу STL
+            .Load("input.stl")             // Налаштування вхідного файлу STL
             .ConvertTo("converted.txt")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу STL у файл TXT        
         ```            

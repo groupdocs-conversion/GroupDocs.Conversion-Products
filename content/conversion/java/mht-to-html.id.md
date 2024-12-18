@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mht")              // Atur file MHT input
             .convertTo("converted.html")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file MHT ke HTML        
+            .convert();                     // Konversi file MHT ke HTML        
         ```            
 
 ############################# Actions ############################

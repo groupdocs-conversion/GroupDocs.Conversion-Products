@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsm")              // Thiết lập tệp XLSM đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp XLSM thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp XLSM thành tệp PDF        
         ```            
 
 ############################# Actions ############################

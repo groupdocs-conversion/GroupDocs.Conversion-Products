@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ods")              // Thiết lập tệp ODS đầu vào
             .convertTo("converted.xlsx")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp ODS thành tệp XLSX        
+            .convert();                     // Chuyển đổi tệp ODS thành tệp XLSX        
         ```            
 
 ############################# Actions ############################

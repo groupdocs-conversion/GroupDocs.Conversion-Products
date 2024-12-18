@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.csv")              // CSV 파일을 입력 설정
             .convertTo("converted.xls")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // CSV 파일을 XLS 파일로 변환        
+            .convert();                     // CSV 파일을 XLS 파일로 변환        
         ```            
 
 ############################# Actions ############################

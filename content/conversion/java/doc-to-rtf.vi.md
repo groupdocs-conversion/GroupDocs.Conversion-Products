@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // Thiết lập tệp DOC đầu vào
             .convertTo("converted.rtf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp DOC thành tệp RTF        
+            .convert();                     // Chuyển đổi tệp DOC thành tệp RTF        
         ```            
 
 ############################# Actions ############################

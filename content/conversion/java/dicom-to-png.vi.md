@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dicom")              // Thiết lập tệp DICOM đầu vào
             .convertTo("converted.png")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp DICOM thành tệp PNG        
+            .convert();                     // Chuyển đổi tệp DICOM thành tệp PNG        
         ```            
 
 ############################# Actions ############################

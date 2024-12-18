@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.odt")              // Thiết lập tệp ODT đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp ODT thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp ODT thành tệp PDF        
         ```            
 
 ############################# Actions ############################

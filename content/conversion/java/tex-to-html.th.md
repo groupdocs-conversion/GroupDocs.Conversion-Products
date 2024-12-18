@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tex")              // ตั้งค่าไฟล์ TEX เข้าสู่ระบบ
             .convertTo("converted.html")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ TEX เป็นไฟล์ HTML        
+            .convert();                     // แปลงไฟล์ TEX เป็นไฟล์ HTML        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.csv")              // CSV ファイルを入力設定
             .convertTo("converted.pdf")    // 変換されたファイルの出力パスを指定
-            .convert();                    // CSV ファイルを PDF ファイルに変換        
+            .convert();                     // CSV ファイルを PDF ファイルに変換        
         ```            
 
 ############################# Actions ############################

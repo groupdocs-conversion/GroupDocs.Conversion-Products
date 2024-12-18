@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tex")               // Configurer le fichier TEX d'entrée
+            .Load("input.tex")             // Configurer le fichier TEX d'entrée
             .ConvertTo("converted.html")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier TEX en HTML        
         ```            

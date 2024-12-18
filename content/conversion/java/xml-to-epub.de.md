@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // Richten Sie die Eingabedatei XML ein
             .convertTo("converted.epub")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // XML in EPUB Datei konvertieren        
+            .convert();                     // XML in EPUB Datei konvertieren        
         ```            
 
 ############################# Actions ############################

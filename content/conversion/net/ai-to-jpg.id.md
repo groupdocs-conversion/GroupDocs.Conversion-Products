@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ai")               // Atur file AI input
+            .Load("input.ai")             // Atur file AI input
             .ConvertTo("converted.jpg")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file AI ke JPG        
         ```            

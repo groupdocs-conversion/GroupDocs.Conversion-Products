@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.psd")              // Atur file PSD input
             .convertTo("converted.pptx")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file PSD ke PPTX        
+            .convert();                     // Konversi file PSD ke PPTX        
         ```            
 
 ############################# Actions ############################

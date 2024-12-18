@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // Thiết lập tệp DOCX đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp DOCX thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp DOCX thành tệp PDF        
         ```            
 
 ############################# Actions ############################

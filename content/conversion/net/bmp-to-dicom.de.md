@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.bmp")               // Richten Sie die Eingabedatei BMP ein
+            .Load("input.bmp")             // Richten Sie die Eingabedatei BMP ein
             .ConvertTo("converted.dicom")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // BMP in DICOM Datei konvertieren        
         ```            

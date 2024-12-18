@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ods")              // Richten Sie die Eingabedatei ODS ein
             .convertTo("converted.xls")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // ODS in XLS Datei konvertieren        
+            .convert();                     // ODS in XLS Datei konvertieren        
         ```            
 
 ############################# Actions ############################

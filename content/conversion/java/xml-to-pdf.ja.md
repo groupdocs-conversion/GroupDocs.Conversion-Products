@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // XML ファイルを入力設定
             .convertTo("converted.pdf")    // 変換されたファイルの出力パスを指定
-            .convert();                    // XML ファイルを PDF ファイルに変換        
+            .convert();                     // XML ファイルを PDF ファイルに変換        
         ```            
 
 ############################# Actions ############################

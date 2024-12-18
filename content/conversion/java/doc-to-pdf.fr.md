@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // Configurer le fichier DOC d'entrée
             .convertTo("converted.pdf")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier DOC en PDF        
+            .convert();                     // Convertir le fichier DOC en PDF        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.png")              // Richten Sie die Eingabedatei PNG ein
             .convertTo("converted.wmf")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // PNG in WMF Datei konvertieren        
+            .convert();                     // PNG in WMF Datei konvertieren        
         ```            
 
 ############################# Actions ############################

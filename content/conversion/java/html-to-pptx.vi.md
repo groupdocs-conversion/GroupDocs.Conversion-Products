@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Thiết lập tệp HTML đầu vào
             .convertTo("converted.pptx")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp HTML thành tệp PPTX        
+            .convert();                     // Chuyển đổi tệp HTML thành tệp PPTX        
         ```            
 
 ############################# Actions ############################

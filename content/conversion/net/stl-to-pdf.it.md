@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.stl")               // Imposta il file STL di input
+            .Load("input.stl")             // Imposta il file STL di input
             .ConvertTo("converted.pdf")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file STL in PDF        
         ```            

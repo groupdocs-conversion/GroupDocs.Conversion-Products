@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.svg")              // Thiết lập tệp SVG đầu vào
             .convertTo("converted.jpg")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp SVG thành tệp JPG        
+            .convert();                     // Chuyển đổi tệp SVG thành tệp JPG        
         ```            
 
 ############################# Actions ############################

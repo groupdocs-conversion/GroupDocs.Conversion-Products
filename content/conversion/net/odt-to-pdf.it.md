@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.odt")               // Imposta il file ODT di input
+            .Load("input.odt")             // Imposta il file ODT di input
             .ConvertTo("converted.pdf")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file ODT in PDF        
         ```            

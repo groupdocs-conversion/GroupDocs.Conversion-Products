@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // ตั้งค่าไฟล์ DOC เข้าสู่ระบบ
             .convertTo("converted.txt")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ DOC เป็นไฟล์ TXT        
+            .convert();                     // แปลงไฟล์ DOC เป็นไฟล์ TXT        
         ```            
 
 ############################# Actions ############################

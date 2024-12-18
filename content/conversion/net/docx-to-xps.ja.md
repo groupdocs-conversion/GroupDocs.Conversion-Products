@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.docx")               // DOCX ファイルを入力設定
+            .Load("input.docx")             // DOCX ファイルを入力設定
             .ConvertTo("converted.xps")     // 変換されたファイルの出力パスを指定
             .Convert();                     // DOCX ファイルを XPS ファイルに変換        
         ```            

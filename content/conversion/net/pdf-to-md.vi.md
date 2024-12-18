@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pdf")               // Thiết lập tệp PDF đầu vào
+            .Load("input.pdf")             // Thiết lập tệp PDF đầu vào
             .ConvertTo("converted.md")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp PDF thành tệp MD        
         ```            

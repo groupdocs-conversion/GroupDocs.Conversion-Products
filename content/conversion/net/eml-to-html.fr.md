@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eml")               // Configurer le fichier EML d'entrée
+            .Load("input.eml")             // Configurer le fichier EML d'entrée
             .ConvertTo("converted.html")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier EML en HTML        
         ```            

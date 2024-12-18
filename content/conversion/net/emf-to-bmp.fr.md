@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.emf")               // Configurer le fichier EMF d'entrée
+            .Load("input.emf")             // Configurer le fichier EMF d'entrée
             .ConvertTo("converted.bmp")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier EMF en BMP        
         ```            

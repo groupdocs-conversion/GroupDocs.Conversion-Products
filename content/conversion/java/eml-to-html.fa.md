@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eml")              // تنظیم فایل ورودی EML
             .convertTo("converted.html")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل EML به HTML        
+            .convert();                     // تبدیل فایل EML به HTML        
         ```            
 
 ############################# Actions ############################

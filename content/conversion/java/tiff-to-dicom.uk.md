@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tiff")              // Налаштування вхідного файлу TIFF
             .convertTo("converted.dicom")    // Вказівка шляху виведення для конвертованого файлу
-            .convert();                    // Конвертування файлу TIFF у файл DICOM        
+            .convert();                     // Конвертування файлу TIFF у файл DICOM        
         ```            
 
 ############################# Actions ############################

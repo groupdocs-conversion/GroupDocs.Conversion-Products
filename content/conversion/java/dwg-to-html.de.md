@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // Richten Sie die Eingabedatei DWG ein
             .convertTo("converted.html")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // DWG in HTML Datei konvertieren        
+            .convert();                     // DWG in HTML Datei konvertieren        
         ```            
 
 ############################# Actions ############################

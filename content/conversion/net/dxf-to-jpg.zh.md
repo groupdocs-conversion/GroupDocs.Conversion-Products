@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dxf")               // 设置输入 DXF 文件
+            .Load("input.dxf")             // 设置输入 DXF 文件
             .ConvertTo("converted.jpg")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 DXF 转换为 JPG 文件        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.webp")               // Richten Sie die Eingabedatei WEBP ein
+            .Load("input.webp")             // Richten Sie die Eingabedatei WEBP ein
             .ConvertTo("converted.png")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // WEBP in PNG Datei konvertieren        
         ```            

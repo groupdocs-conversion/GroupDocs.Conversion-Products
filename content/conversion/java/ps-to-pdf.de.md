@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ps")              // Richten Sie die Eingabedatei PS ein
             .convertTo("converted.pdf")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // PS in PDF Datei konvertieren        
+            .convert();                     // PS in PDF Datei konvertieren        
         ```            
 
 ############################# Actions ############################

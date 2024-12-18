@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.epub")              // Configurar arquivo de entrada EPUB
             .convertTo("converted.txt")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo EPUB para TXT        
+            .convert();                     // Converter arquivo EPUB para TXT        
         ```            
 
 ############################# Actions ############################

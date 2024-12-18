@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dcm")               // Richten Sie die Eingabedatei DCM ein
+            .Load("input.dcm")             // Richten Sie die Eingabedatei DCM ein
             .ConvertTo("converted.pdf")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // DCM in PDF Datei konvertieren        
         ```            

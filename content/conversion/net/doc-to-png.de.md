@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.doc")               // Richten Sie die Eingabedatei DOC ein
+            .Load("input.doc")             // Richten Sie die Eingabedatei DOC ein
             .ConvertTo("converted.png")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // DOC in PNG Datei konvertieren        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.djvu")              // Configurar arquivo de entrada DJVU
             .convertTo("converted.pdf")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo DJVU para PDF        
+            .convert();                     // Converter arquivo DJVU para PDF        
         ```            
 
 ############################# Actions ############################

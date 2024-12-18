@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // Atur file DOCX input
             .convertTo("converted.png")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file DOCX ke PNG        
+            .convert();                     // Konversi file DOCX ke PNG        
         ```            
 
 ############################# Actions ############################

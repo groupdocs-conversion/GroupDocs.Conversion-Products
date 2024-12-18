@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.png")               // Atur file PNG input
+            .Load("input.png")             // Atur file PNG input
             .ConvertTo("converted.pptx")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file PNG ke PPTX        
         ```            

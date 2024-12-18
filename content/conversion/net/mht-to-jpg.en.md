@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mht")               // Set up input MHT file
+            .Load("input.mht")             // Set up input MHT file
             .ConvertTo("converted.jpg")     // Specify output path for converted file
             .Convert();                     // Convert MHT to JPG file        
         ```            

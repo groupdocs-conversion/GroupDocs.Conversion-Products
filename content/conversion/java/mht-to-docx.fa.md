@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mht")              // تنظیم فایل ورودی MHT
             .convertTo("converted.docx")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل MHT به DOCX        
+            .convert();                     // تبدیل فایل MHT به DOCX        
         ```            
 
 ############################# Actions ############################

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.svgz")               // ตั้งค่าไฟล์ SVGZ เข้าสู่ระบบ
+            .Load("input.svgz")             // ตั้งค่าไฟล์ SVGZ เข้าสู่ระบบ
             .ConvertTo("converted.png")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ SVGZ เป็นไฟล์ PNG        
         ```            

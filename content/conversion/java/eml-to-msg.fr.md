@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eml")              // Configurer le fichier EML d'entrée
             .convertTo("converted.msg")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier EML en MSG        
+            .convert();                     // Convertir le fichier EML en MSG        
         ```            
 
 ############################# Actions ############################

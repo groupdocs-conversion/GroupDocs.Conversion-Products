@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Set up input PDF file
             .convertTo("converted.png")    // Specify output path for converted file
-            .convert();                    // Convert PDF to PNG file        
+            .convert();                     // Convert PDF to PNG file        
         ```            
 
 ############################# Actions ############################

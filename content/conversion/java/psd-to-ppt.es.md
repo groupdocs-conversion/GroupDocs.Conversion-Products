@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.psd")              // Configurar archivo de entrada PSD
             .convertTo("converted.ppt")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo PSD a PPT        
+            .convert();                     // Convertir archivo PSD a PPT        
         ```            
 
 ############################# Actions ############################

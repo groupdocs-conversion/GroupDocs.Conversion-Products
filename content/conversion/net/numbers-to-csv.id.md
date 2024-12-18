@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.numbers")               // Atur file NUMBERS input
+            .Load("input.numbers")             // Atur file NUMBERS input
             .ConvertTo("converted.csv")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file NUMBERS ke CSV        
         ```            

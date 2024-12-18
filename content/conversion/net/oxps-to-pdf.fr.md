@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.oxps")               // Configurer le fichier OXPS d'entrée
+            .Load("input.oxps")             // Configurer le fichier OXPS d'entrée
             .ConvertTo("converted.pdf")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier OXPS en PDF        
         ```            

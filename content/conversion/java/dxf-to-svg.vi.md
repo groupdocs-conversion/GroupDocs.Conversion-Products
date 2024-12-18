@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dxf")              // Thiết lập tệp DXF đầu vào
             .convertTo("converted.svg")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp DXF thành tệp SVG        
+            .convert();                     // Chuyển đổi tệp DXF thành tệp SVG        
         ```            
 
 ############################# Actions ############################

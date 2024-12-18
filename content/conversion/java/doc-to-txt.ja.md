@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // DOC ファイルを入力設定
             .convertTo("converted.txt")    // 変換されたファイルの出力パスを指定
-            .convert();                    // DOC ファイルを TXT ファイルに変換        
+            .convert();                     // DOC ファイルを TXT ファイルに変換        
         ```            
 
 ############################# Actions ############################

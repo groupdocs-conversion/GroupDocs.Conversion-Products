@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ppt")              // Configurar archivo de entrada PPT
             .convertTo("converted.pdf")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo PPT a PDF        
+            .convert();                     // Convertir archivo PPT a PDF        
         ```            
 
 ############################# Actions ############################

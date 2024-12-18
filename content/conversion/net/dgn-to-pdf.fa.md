@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dgn")               // تنظیم فایل ورودی DGN
+            .Load("input.dgn")             // تنظیم فایل ورودی DGN
             .ConvertTo("converted.pdf")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل DGN به PDF        
         ```            

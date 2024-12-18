@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jp2")              // Thiết lập tệp JP2 đầu vào
             .convertTo("converted.jpg")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp JP2 thành tệp JPG        
+            .convert();                     // Chuyển đổi tệp JP2 thành tệp JPG        
         ```            
 
 ############################# Actions ############################

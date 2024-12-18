@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dxf")               // DXF 파일을 입력 설정
+            .Load("input.dxf")             // DXF 파일을 입력 설정
             .ConvertTo("converted.txt")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // DXF 파일을 TXT 파일로 변환        
         ```            

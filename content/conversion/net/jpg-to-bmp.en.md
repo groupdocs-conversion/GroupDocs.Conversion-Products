@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jpg")               // Set up input JPG file
+            .Load("input.jpg")             // Set up input JPG file
             .ConvertTo("converted.bmp")     // Specify output path for converted file
             .Convert();                     // Convert JPG to BMP file        
         ```            

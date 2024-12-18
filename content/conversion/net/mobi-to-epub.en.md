@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mobi")               // Set up input MOBI file
+            .Load("input.mobi")             // Set up input MOBI file
             .ConvertTo("converted.epub")     // Specify output path for converted file
             .Convert();                     // Convert MOBI to EPUB file        
         ```            

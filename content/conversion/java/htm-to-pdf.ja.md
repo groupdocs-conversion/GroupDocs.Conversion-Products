@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.htm")              // HTM ファイルを入力設定
             .convertTo("converted.pdf")    // 変換されたファイルの出力パスを指定
-            .convert();                    // HTM ファイルを PDF ファイルに変換        
+            .convert();                     // HTM ファイルを PDF ファイルに変換        
         ```            
 
 ############################# Actions ############################

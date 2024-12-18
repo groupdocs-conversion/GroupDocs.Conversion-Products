@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwfx")               // DWFX 파일을 입력 설정
+            .Load("input.dwfx")             // DWFX 파일을 입력 설정
             .ConvertTo("converted.pdf")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // DWFX 파일을 PDF 파일로 변환        
         ```            

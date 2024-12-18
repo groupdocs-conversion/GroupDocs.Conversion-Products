@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xml")               // Налаштування вхідного файлу XML
+            .Load("input.xml")             // Налаштування вхідного файлу XML
             .ConvertTo("converted.docx")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу XML у файл DOCX        
         ```            

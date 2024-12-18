@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pdf")               // Richten Sie die Eingabedatei PDF ein
+            .Load("input.pdf")             // Richten Sie die Eingabedatei PDF ein
             .ConvertTo("converted.emf")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // PDF in EMF Datei konvertieren        
         ```            

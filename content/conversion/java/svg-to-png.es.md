@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.svg")              // Configurar archivo de entrada SVG
             .convertTo("converted.png")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo SVG a PNG        
+            .convert();                     // Convertir archivo SVG a PNG        
         ```            
 
 ############################# Actions ############################

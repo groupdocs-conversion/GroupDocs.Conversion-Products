@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.docx")               // Налаштування вхідного файлу DOCX
+            .Load("input.docx")             // Налаштування вхідного файлу DOCX
             .ConvertTo("converted.tex")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу DOCX у файл TEX        
         ```            

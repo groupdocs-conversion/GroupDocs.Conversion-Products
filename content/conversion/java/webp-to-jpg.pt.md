@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.webp")              // Configurar arquivo de entrada WEBP
             .convertTo("converted.jpg")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo WEBP para JPG        
+            .convert();                     // Converter arquivo WEBP para JPG        
         ```            
 
 ############################# Actions ############################

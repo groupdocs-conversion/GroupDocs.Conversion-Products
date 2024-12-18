@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.epub")              // Configurar archivo de entrada EPUB
             .convertTo("converted.html")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo EPUB a HTML        
+            .convert();                     // Convertir archivo EPUB a HTML        
         ```            
 
 ############################# Actions ############################

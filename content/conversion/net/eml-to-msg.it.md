@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eml")               // Imposta il file EML di input
+            .Load("input.eml")             // Imposta il file EML di input
             .ConvertTo("converted.msg")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file EML in MSG        
         ```            

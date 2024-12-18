@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xls")              // ตั้งค่าไฟล์ XLS เข้าสู่ระบบ
             .convertTo("converted.xml")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ XLS เป็นไฟล์ XML        
+            .convert();                     // แปลงไฟล์ XLS เป็นไฟล์ XML        
         ```            
 
 ############################# Actions ############################

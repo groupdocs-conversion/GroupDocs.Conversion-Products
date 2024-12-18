@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsm")               // Set up input XLSM file
+            .Load("input.xlsm")             // Set up input XLSM file
             .ConvertTo("converted.json")     // Specify output path for converted file
             .Convert();                     // Convert XLSM to JSON file        
         ```            

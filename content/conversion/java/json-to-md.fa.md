@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // تنظیم فایل ورودی JSON
             .convertTo("converted.md")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل JSON به MD        
+            .convert();                     // تبدیل فایل JSON به MD        
         ```            
 
 ############################# Actions ############################

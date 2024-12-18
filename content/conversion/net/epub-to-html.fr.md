@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.epub")               // Configurer le fichier EPUB d'entrée
+            .Load("input.epub")             // Configurer le fichier EPUB d'entrée
             .ConvertTo("converted.html")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier EPUB en HTML        
         ```            

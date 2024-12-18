@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.bmp")              // Set up input BMP file
             .convertTo("converted.dicom")    // Specify output path for converted file
-            .convert();                    // Convert BMP to DICOM file        
+            .convert();                     // Convert BMP to DICOM file        
         ```            
 
 ############################# Actions ############################

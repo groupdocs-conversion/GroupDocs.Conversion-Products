@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tsv")              // Configurar archivo de entrada TSV
             .convertTo("converted.xls")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo TSV a XLS        
+            .convert();                     // Convertir archivo TSV a XLS        
         ```            
 
 ############################# Actions ############################

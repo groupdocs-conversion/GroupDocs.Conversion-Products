@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eps")               // Thiết lập tệp EPS đầu vào
+            .Load("input.eps")             // Thiết lập tệp EPS đầu vào
             .ConvertTo("converted.svg")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp EPS thành tệp SVG        
         ```            

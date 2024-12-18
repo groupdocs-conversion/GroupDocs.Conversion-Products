@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mhtml")              // Configurar archivo de entrada MHTML
             .convertTo("converted.docx")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo MHTML a DOCX        
+            .convert();                     // Convertir archivo MHTML a DOCX        
         ```            
 
 ############################# Actions ############################

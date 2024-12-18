@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tsv")               // Configurar archivo de entrada TSV
+            .Load("input.tsv")             // Configurar archivo de entrada TSV
             .ConvertTo("converted.xls")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo TSV a XLS        
         ```            

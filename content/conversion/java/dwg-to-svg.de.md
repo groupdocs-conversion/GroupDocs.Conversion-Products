@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // Richten Sie die Eingabedatei DWG ein
             .convertTo("converted.svg")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // DWG in SVG Datei konvertieren        
+            .convert();                     // DWG in SVG Datei konvertieren        
         ```            
 
 ############################# Actions ############################

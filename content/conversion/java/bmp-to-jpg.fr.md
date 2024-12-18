@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.bmp")              // Configurer le fichier BMP d'entrée
             .convertTo("converted.jpg")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier BMP en JPG        
+            .convert();                     // Convertir le fichier BMP en JPG        
         ```            
 
 ############################# Actions ############################

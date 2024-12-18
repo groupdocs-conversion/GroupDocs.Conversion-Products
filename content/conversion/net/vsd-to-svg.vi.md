@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vsd")               // Thiết lập tệp VSD đầu vào
+            .Load("input.vsd")             // Thiết lập tệp VSD đầu vào
             .ConvertTo("converted.svg")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp VSD thành tệp SVG        
         ```            

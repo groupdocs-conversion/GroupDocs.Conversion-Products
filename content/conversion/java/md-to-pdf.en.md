@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.md")              // Set up input MD file
             .convertTo("converted.pdf")    // Specify output path for converted file
-            .convert();                    // Convert MD to PDF file        
+            .convert();                     // Convert MD to PDF file        
         ```            
 
 ############################# Actions ############################

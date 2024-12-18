@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.txt")              // 设置输入 TXT 文件
             .convertTo("converted.rtf")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 TXT 转换为 RTF 文件        
+            .convert();                     // 将 TXT 转换为 RTF 文件        
         ```            
 
 ############################# Actions ############################

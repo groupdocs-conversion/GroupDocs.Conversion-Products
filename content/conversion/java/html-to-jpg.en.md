@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Set up input HTML file
             .convertTo("converted.jpg")    // Specify output path for converted file
-            .convert();                    // Convert HTML to JPG file        
+            .convert();                     // Convert HTML to JPG file        
         ```            
 
 ############################# Actions ############################

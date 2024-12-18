@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.emf")              // تنظیم فایل ورودی EMF
             .convertTo("converted.png")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل EMF به PNG        
+            .convert();                     // تبدیل فایل EMF به PNG        
         ```            
 
 ############################# Actions ############################

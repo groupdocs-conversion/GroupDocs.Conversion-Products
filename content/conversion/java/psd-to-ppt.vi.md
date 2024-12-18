@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.psd")              // Thiết lập tệp PSD đầu vào
             .convertTo("converted.ppt")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp PSD thành tệp PPT        
+            .convert();                     // Chuyển đổi tệp PSD thành tệp PPT        
         ```            
 
 ############################# Actions ############################

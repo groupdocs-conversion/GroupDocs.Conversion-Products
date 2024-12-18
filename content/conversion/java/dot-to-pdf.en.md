@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dot")              // Set up input DOT file
             .convertTo("converted.pdf")    // Specify output path for converted file
-            .convert();                    // Convert DOT to PDF file        
+            .convert();                     // Convert DOT to PDF file        
         ```            
 
 ############################# Actions ############################

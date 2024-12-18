@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // Set up input DWG file
             .convertTo("converted.png")    // Specify output path for converted file
-            .convert();                    // Convert DWG to PNG file        
+            .convert();                     // Convert DWG to PNG file        
         ```            
 
 ############################# Actions ############################

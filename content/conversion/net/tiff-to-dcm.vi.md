@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tiff")               // Thiết lập tệp TIFF đầu vào
+            .Load("input.tiff")             // Thiết lập tệp TIFF đầu vào
             .ConvertTo("converted.dcm")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp TIFF thành tệp DCM        
         ```            

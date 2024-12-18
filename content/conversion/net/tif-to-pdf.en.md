@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tif")               // Set up input TIF file
+            .Load("input.tif")             // Set up input TIF file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert TIF to PDF file        
         ```            

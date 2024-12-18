@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ppsm")               // Configurar arquivo de entrada PPSM
+            .Load("input.ppsm")             // Configurar arquivo de entrada PPSM
             .ConvertTo("converted.pdf")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo PPSM para PDF        
         ```            

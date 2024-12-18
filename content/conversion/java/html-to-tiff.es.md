@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Configurar archivo de entrada HTML
             .convertTo("converted.tiff")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo HTML a TIFF        
+            .convert();                     // Convertir archivo HTML a TIFF        
         ```            
 
 ############################# Actions ############################

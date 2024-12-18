@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dgn")              // Configurer le fichier DGN d'entrée
             .convertTo("converted.pdf")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier DGN en PDF        
+            .convert();                     // Convertir le fichier DGN en PDF        
         ```            
 
 ############################# Actions ############################

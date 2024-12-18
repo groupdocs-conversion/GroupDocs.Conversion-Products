@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.emf")              // Configurar archivo de entrada EMF
             .convertTo("converted.svg")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo EMF a SVG        
+            .convert();                     // Convertir archivo EMF a SVG        
         ```            
 
 ############################# Actions ############################

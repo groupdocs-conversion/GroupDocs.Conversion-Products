@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xls")               // Atur file XLS input
+            .Load("input.xls")             // Atur file XLS input
             .ConvertTo("converted.pdf")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file XLS ke PDF        
         ```            

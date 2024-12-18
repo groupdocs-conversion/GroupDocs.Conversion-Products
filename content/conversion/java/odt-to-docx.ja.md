@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.odt")              // ODT ファイルを入力設定
             .convertTo("converted.docx")    // 変換されたファイルの出力パスを指定
-            .convert();                    // ODT ファイルを DOCX ファイルに変換        
+            .convert();                     // ODT ファイルを DOCX ファイルに変換        
         ```            
 
 ############################# Actions ############################

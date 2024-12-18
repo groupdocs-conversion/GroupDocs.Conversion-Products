@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.html")               // Налаштування вхідного файлу HTML
+            .Load("input.html")             // Налаштування вхідного файлу HTML
             .ConvertTo("converted.xps")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу HTML у файл XPS        
         ```            

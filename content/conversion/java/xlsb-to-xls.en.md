@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsb")              // Set up input XLSB file
             .convertTo("converted.xls")    // Specify output path for converted file
-            .convert();                    // Convert XLSB to XLS file        
+            .convert();                     // Convert XLSB to XLS file        
         ```            
 
 ############################# Actions ############################

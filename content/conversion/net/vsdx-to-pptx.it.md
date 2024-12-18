@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vsdx")               // Imposta il file VSDX di input
+            .Load("input.vsdx")             // Imposta il file VSDX di input
             .ConvertTo("converted.pptx")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file VSDX in PPTX        
         ```            

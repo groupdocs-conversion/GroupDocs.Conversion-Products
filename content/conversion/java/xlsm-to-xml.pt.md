@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsm")              // Configurar arquivo de entrada XLSM
             .convertTo("converted.xml")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo XLSM para XML        
+            .convert();                     // Converter arquivo XLSM para XML        
         ```            
 
 ############################# Actions ############################

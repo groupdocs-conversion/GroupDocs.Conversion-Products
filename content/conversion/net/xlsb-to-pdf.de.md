@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsb")               // Richten Sie die Eingabedatei XLSB ein
+            .Load("input.xlsb")             // Richten Sie die Eingabedatei XLSB ein
             .ConvertTo("converted.pdf")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // XLSB in PDF Datei konvertieren        
         ```            

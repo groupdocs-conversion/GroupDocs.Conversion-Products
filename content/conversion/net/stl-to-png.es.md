@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.stl")               // Configurar archivo de entrada STL
+            .Load("input.stl")             // Configurar archivo de entrada STL
             .ConvertTo("converted.png")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo STL a PNG        
         ```            

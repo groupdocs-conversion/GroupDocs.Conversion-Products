@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mhtml")              // Richten Sie die Eingabedatei MHTML ein
             .convertTo("converted.pdf")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // MHTML in PDF Datei konvertieren        
+            .convert();                     // MHTML in PDF Datei konvertieren        
         ```            
 
 ############################# Actions ############################

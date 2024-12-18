@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsm")              // Configurar archivo de entrada XLSM
             .convertTo("converted.json")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo XLSM a JSON        
+            .convert();                     // Convertir archivo XLSM a JSON        
         ```            
 
 ############################# Actions ############################

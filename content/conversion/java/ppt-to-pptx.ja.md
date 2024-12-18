@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ppt")              // PPT ファイルを入力設定
             .convertTo("converted.pptx")    // 変換されたファイルの出力パスを指定
-            .convert();                    // PPT ファイルを PPTX ファイルに変換        
+            .convert();                     // PPT ファイルを PPTX ファイルに変換        
         ```            
 
 ############################# Actions ############################

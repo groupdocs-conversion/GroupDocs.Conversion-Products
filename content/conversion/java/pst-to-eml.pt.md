@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pst")              // Configurar arquivo de entrada PST
             .convertTo("converted.eml")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo PST para EML        
+            .convert();                     // Converter arquivo PST para EML        
         ```            
 
 ############################# Actions ############################

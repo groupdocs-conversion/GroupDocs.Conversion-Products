@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.docx")               // تنظیم فایل ورودی DOCX
+            .Load("input.docx")             // تنظیم فایل ورودی DOCX
             .ConvertTo("converted.pptx")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل DOCX به PPTX        
         ```            

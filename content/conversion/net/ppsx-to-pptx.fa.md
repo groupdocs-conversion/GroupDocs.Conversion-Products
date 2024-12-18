@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ppsx")               // تنظیم فایل ورودی PPSX
+            .Load("input.ppsx")             // تنظیم فایل ورودی PPSX
             .ConvertTo("converted.pptx")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل PPSX به PPTX        
         ```            

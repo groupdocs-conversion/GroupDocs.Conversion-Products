@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsx")               // Richten Sie die Eingabedatei XLSX ein
+            .Load("input.xlsx")             // Richten Sie die Eingabedatei XLSX ein
             .ConvertTo("converted.ods")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // XLSX in ODS Datei konvertieren        
         ```            

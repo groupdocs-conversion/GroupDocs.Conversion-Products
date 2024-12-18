@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.emf")               // Richten Sie die Eingabedatei EMF ein
+            .Load("input.emf")             // Richten Sie die Eingabedatei EMF ein
             .ConvertTo("converted.wmf")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // EMF in WMF Datei konvertieren        
         ```            

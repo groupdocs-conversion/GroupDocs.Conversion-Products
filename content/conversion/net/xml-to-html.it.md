@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xml")               // Imposta il file XML di input
+            .Load("input.xml")             // Imposta il file XML di input
             .ConvertTo("converted.html")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file XML in HTML        
         ```            

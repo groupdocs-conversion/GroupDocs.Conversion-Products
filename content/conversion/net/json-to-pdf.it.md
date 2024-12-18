@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.json")               // Imposta il file JSON di input
+            .Load("input.json")             // Imposta il file JSON di input
             .ConvertTo("converted.pdf")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file JSON in PDF        
         ```            

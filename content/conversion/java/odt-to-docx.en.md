@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.odt")              // Set up input ODT file
             .convertTo("converted.docx")    // Specify output path for converted file
-            .convert();                    // Convert ODT to DOCX file        
+            .convert();                     // Convert ODT to DOCX file        
         ```            
 
 ############################# Actions ############################

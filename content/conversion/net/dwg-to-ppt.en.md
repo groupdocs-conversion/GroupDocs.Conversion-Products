@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwg")               // Set up input DWG file
+            .Load("input.dwg")             // Set up input DWG file
             .ConvertTo("converted.ppt")     // Specify output path for converted file
             .Convert();                     // Convert DWG to PPT file        
         ```            

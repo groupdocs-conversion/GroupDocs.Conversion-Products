@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // تنظیم فایل ورودی PDF
             .convertTo("converted.pdf")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل PDF به PDF        
+            .convert();                     // تبدیل فایل PDF به PDF        
         ```            
 
 ############################# Actions ############################

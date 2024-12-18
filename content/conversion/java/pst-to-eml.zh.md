@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pst")              // 设置输入 PST 文件
             .convertTo("converted.eml")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 PST 转换为 EML 文件        
+            .convert();                     // 将 PST 转换为 EML 文件        
         ```            
 
 ############################# Actions ############################

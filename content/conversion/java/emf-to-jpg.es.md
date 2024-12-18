@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.emf")              // Configurar archivo de entrada EMF
             .convertTo("converted.jpg")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo EMF a JPG        
+            .convert();                     // Convertir archivo EMF a JPG        
         ```            
 
 ############################# Actions ############################

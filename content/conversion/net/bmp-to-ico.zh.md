@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.bmp")               // 设置输入 BMP 文件
+            .Load("input.bmp")             // 设置输入 BMP 文件
             .ConvertTo("converted.ico")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 BMP 转换为 ICO 文件        
         ```            

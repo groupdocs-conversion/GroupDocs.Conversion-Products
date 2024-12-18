@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ppt")               // Configurer le fichier PPT d'entrée
+            .Load("input.ppt")             // Configurer le fichier PPT d'entrée
             .ConvertTo("converted.pdf")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier PPT en PDF        
         ```            

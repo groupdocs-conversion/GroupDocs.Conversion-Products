@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // Configurer le fichier DOCX d'entrée
             .convertTo("converted.doc")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier DOCX en DOC        
+            .convert();                     // Convertir le fichier DOCX en DOC        
         ```            
 
 ############################# Actions ############################

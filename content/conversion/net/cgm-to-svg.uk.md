@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cgm")               // Налаштування вхідного файлу CGM
+            .Load("input.cgm")             // Налаштування вхідного файлу CGM
             .ConvertTo("converted.svg")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу CGM у файл SVG        
         ```            

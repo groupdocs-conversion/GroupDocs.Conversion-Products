@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tiff")               // تنظیم فایل ورودی TIFF
+            .Load("input.tiff")             // تنظیم فایل ورودی TIFF
             .ConvertTo("converted.svg")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل TIFF به SVG        
         ```            

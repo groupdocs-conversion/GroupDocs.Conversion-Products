@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Richten Sie die Eingabedatei HTML ein
             .convertTo("converted.xps")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // HTML in XPS Datei konvertieren        
+            .convert();                     // HTML in XPS Datei konvertieren        
         ```            
 
 ############################# Actions ############################

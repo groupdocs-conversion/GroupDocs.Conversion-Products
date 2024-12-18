@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.webp")               // Налаштування вхідного файлу WEBP
+            .Load("input.webp")             // Налаштування вхідного файлу WEBP
             .ConvertTo("converted.png")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу WEBP у файл PNG        
         ```            

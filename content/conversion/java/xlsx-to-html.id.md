@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // Atur file XLSX input
             .convertTo("converted.html")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file XLSX ke HTML        
+            .convert();                     // Konversi file XLSX ke HTML        
         ```            
 
 ############################# Actions ############################

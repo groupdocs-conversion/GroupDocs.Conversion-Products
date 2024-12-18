@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cgm")               // Richten Sie die Eingabedatei CGM ein
+            .Load("input.cgm")             // Richten Sie die Eingabedatei CGM ein
             .ConvertTo("converted.png")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // CGM in PNG Datei konvertieren        
         ```            

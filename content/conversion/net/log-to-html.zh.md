@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.log")               // 设置输入 LOG 文件
+            .Load("input.log")             // 设置输入 LOG 文件
             .ConvertTo("converted.html")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 LOG 转换为 HTML 文件        
         ```            

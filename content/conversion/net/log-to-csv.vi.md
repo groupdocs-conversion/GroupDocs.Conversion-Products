@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.log")               // Thiết lập tệp LOG đầu vào
+            .Load("input.log")             // Thiết lập tệp LOG đầu vào
             .ConvertTo("converted.csv")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp LOG thành tệp CSV        
         ```            

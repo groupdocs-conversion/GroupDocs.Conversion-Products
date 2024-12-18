@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.wmf")              // Configurer le fichier WMF d'entrée
             .convertTo("converted.png")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier WMF en PNG        
+            .convert();                     // Convertir le fichier WMF en PNG        
         ```            
 
 ############################# Actions ############################

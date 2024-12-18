@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Set up input PDF file
             .convertTo("converted.svg")    // Specify output path for converted file
-            .convert();                    // Convert PDF to SVG file        
+            .convert();                     // Convert PDF to SVG file        
         ```            
 
 ############################# Actions ############################

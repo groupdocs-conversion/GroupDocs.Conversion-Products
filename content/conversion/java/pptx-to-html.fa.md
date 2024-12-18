@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pptx")              // تنظیم فایل ورودی PPTX
             .convertTo("converted.html")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل PPTX به HTML        
+            .convert();                     // تبدیل فایل PPTX به HTML        
         ```            
 
 ############################# Actions ############################

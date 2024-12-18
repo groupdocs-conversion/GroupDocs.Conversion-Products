@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // Atur file DWG input
             .convertTo("converted.pdf")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file DWG ke PDF        
+            .convert();                     // Konversi file DWG ke PDF        
         ```            
 
 ############################# Actions ############################

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.emf")               // 设置输入 EMF 文件
+            .Load("input.emf")             // 设置输入 EMF 文件
             .ConvertTo("converted.jpg")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 EMF 转换为 JPG 文件        
         ```            

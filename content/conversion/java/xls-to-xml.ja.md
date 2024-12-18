@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xls")              // XLS ファイルを入力設定
             .convertTo("converted.xml")    // 変換されたファイルの出力パスを指定
-            .convert();                    // XLS ファイルを XML ファイルに変換        
+            .convert();                     // XLS ファイルを XML ファイルに変換        
         ```            
 
 ############################# Actions ############################

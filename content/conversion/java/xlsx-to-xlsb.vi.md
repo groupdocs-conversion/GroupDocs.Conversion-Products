@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // Thiết lập tệp XLSX đầu vào
             .convertTo("converted.xlsb")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp XLSX thành tệp XLSB        
+            .convert();                     // Chuyển đổi tệp XLSX thành tệp XLSB        
         ```            
 
 ############################# Actions ############################

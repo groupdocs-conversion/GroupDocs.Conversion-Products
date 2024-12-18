@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // ตั้งค่าไฟล์ PDF เข้าสู่ระบบ
             .convertTo("converted.gif")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ PDF เป็นไฟล์ GIF        
+            .convert();                     // แปลงไฟล์ PDF เป็นไฟล์ GIF        
         ```            
 
 ############################# Actions ############################

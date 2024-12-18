@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.png")              // ตั้งค่าไฟล์ PNG เข้าสู่ระบบ
             .convertTo("converted.bmp")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ PNG เป็นไฟล์ BMP        
+            .convert();                     // แปลงไฟล์ PNG เป็นไฟล์ BMP        
         ```            
 
 ############################# Actions ############################

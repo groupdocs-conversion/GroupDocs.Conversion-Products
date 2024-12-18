@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vssx")               // Richten Sie die Eingabedatei VSSX ein
+            .Load("input.vssx")             // Richten Sie die Eingabedatei VSSX ein
             .ConvertTo("converted.svg")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // VSSX in SVG Datei konvertieren        
         ```            

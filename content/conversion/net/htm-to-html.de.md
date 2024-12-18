@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.htm")               // Richten Sie die Eingabedatei HTM ein
+            .Load("input.htm")             // Richten Sie die Eingabedatei HTM ein
             .ConvertTo("converted.html")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // HTM in HTML Datei konvertieren        
         ```            

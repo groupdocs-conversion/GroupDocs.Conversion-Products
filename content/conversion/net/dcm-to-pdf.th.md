@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dcm")               // ตั้งค่าไฟล์ DCM เข้าสู่ระบบ
+            .Load("input.dcm")             // ตั้งค่าไฟล์ DCM เข้าสู่ระบบ
             .ConvertTo("converted.pdf")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ DCM เป็นไฟล์ PDF        
         ```            

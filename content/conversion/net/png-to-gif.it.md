@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.png")               // Imposta il file PNG di input
+            .Load("input.png")             // Imposta il file PNG di input
             .ConvertTo("converted.gif")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file PNG in GIF        
         ```            

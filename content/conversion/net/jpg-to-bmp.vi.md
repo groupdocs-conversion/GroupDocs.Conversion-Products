@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jpg")               // Thiết lập tệp JPG đầu vào
+            .Load("input.jpg")             // Thiết lập tệp JPG đầu vào
             .ConvertTo("converted.bmp")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp JPG thành tệp BMP        
         ```            

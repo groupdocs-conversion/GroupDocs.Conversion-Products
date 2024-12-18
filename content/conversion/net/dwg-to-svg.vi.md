@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwg")               // Thiết lập tệp DWG đầu vào
+            .Load("input.dwg")             // Thiết lập tệp DWG đầu vào
             .ConvertTo("converted.svg")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp DWG thành tệp SVG        
         ```            

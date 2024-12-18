@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jpg")              // Configurar archivo de entrada JPG
             .convertTo("converted.gif")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo JPG a GIF        
+            .convert();                     // Convertir archivo JPG a GIF        
         ```            
 
 ############################# Actions ############################

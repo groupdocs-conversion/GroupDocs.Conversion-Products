@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.msg")               // Thiết lập tệp MSG đầu vào
+            .Load("input.msg")             // Thiết lập tệp MSG đầu vào
             .ConvertTo("converted.txt")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp MSG thành tệp TXT        
         ```            

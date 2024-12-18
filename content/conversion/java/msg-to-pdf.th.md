@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.msg")              // ตั้งค่าไฟล์ MSG เข้าสู่ระบบ
             .convertTo("converted.pdf")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ MSG เป็นไฟล์ PDF        
+            .convert();                     // แปลงไฟล์ MSG เป็นไฟล์ PDF        
         ```            
 
 ############################# Actions ############################

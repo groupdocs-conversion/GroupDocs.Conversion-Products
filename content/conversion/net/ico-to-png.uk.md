@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ico")               // Налаштування вхідного файлу ICO
+            .Load("input.ico")             // Налаштування вхідного файлу ICO
             .ConvertTo("converted.png")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу ICO у файл PNG        
         ```            

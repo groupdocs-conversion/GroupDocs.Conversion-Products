@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tga")               // 设置输入 TGA 文件
+            .Load("input.tga")             // 设置输入 TGA 文件
             .ConvertTo("converted.png")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 TGA 转换为 PNG 文件        
         ```            

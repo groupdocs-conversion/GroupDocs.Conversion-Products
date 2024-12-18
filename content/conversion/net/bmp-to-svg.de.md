@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.bmp")               // Richten Sie die Eingabedatei BMP ein
+            .Load("input.bmp")             // Richten Sie die Eingabedatei BMP ein
             .ConvertTo("converted.svg")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // BMP in SVG Datei konvertieren        
         ```            

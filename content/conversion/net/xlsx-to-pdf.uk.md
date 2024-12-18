@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsx")               // Налаштування вхідного файлу XLSX
+            .Load("input.xlsx")             // Налаштування вхідного файлу XLSX
             .ConvertTo("converted.pdf")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу XLSX у файл PDF        
         ```            

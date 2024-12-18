@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwg")               // Imposta il file DWG di input
+            .Load("input.dwg")             // Imposta il file DWG di input
             .ConvertTo("converted.jpg")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file DWG in JPG        
         ```            

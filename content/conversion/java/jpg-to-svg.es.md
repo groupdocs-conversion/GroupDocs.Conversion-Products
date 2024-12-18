@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jpg")              // Configurar archivo de entrada JPG
             .convertTo("converted.svg")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo JPG a SVG        
+            .convert();                     // Convertir archivo JPG a SVG        
         ```            
 
 ############################# Actions ############################

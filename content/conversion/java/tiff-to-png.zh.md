@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tiff")              // 设置输入 TIFF 文件
             .convertTo("converted.png")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 TIFF 转换为 PNG 文件        
+            .convert();                     // 将 TIFF 转换为 PNG 文件        
         ```            
 
 ############################# Actions ############################

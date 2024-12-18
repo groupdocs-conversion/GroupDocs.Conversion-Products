@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eml")              // Configurar archivo de entrada EML
             .convertTo("converted.html")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo EML a HTML        
+            .convert();                     // Convertir archivo EML a HTML        
         ```            
 
 ############################# Actions ############################

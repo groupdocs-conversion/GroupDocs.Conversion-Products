@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Atur file PDF input
             .convertTo("converted.docx")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file PDF ke DOCX        
+            .convert();                     // Konversi file PDF ke DOCX        
         ```            
 
 ############################# Actions ############################

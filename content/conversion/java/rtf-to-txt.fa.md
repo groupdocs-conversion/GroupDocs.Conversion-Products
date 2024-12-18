@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.rtf")              // تنظیم فایل ورودی RTF
             .convertTo("converted.txt")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل RTF به TXT        
+            .convert();                     // تبدیل فایل RTF به TXT        
         ```            
 
 ############################# Actions ############################

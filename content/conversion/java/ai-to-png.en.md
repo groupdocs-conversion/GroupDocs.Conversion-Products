@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ai")              // Set up input AI file
             .convertTo("converted.png")    // Specify output path for converted file
-            .convert();                    // Convert AI to PNG file        
+            .convert();                     // Convert AI to PNG file        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Set up input HTML file
             .convertTo("converted.pdf")    // Specify output path for converted file
-            .convert();                    // Convert HTML to PDF file        
+            .convert();                     // Convert HTML to PDF file        
         ```            
 
 ############################# Actions ############################

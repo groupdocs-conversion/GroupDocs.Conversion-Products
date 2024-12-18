@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Configurar arquivo de entrada PDF
             .convertTo("converted.txt")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo PDF para TXT        
+            .convert();                     // Converter arquivo PDF para TXT        
         ```            
 
 ############################# Actions ############################

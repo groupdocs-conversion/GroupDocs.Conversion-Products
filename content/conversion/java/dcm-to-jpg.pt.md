@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dcm")              // Configurar arquivo de entrada DCM
             .convertTo("converted.jpg")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo DCM para JPG        
+            .convert();                     // Converter arquivo DCM para JPG        
         ```            
 
 ############################# Actions ############################

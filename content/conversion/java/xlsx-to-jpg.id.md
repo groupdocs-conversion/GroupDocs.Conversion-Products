@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // Atur file XLSX input
             .convertTo("converted.jpg")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file XLSX ke JPG        
+            .convert();                     // Konversi file XLSX ke JPG        
         ```            
 
 ############################# Actions ############################

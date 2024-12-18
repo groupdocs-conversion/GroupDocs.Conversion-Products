@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dxf")               // Set up input DXF file
+            .Load("input.dxf")             // Set up input DXF file
             .ConvertTo("converted.svg")     // Specify output path for converted file
             .Convert();                     // Convert DXF to SVG file        
         ```            

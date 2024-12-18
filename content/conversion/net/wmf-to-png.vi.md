@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.wmf")               // Thiết lập tệp WMF đầu vào
+            .Load("input.wmf")             // Thiết lập tệp WMF đầu vào
             .ConvertTo("converted.png")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp WMF thành tệp PNG        
         ```            

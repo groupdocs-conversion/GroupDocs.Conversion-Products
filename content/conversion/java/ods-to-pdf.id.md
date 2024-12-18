@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ods")              // Atur file ODS input
             .convertTo("converted.pdf")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file ODS ke PDF        
+            .convert();                     // Konversi file ODS ke PDF        
         ```            
 
 ############################# Actions ############################

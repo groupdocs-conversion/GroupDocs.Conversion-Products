@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xls")               // Configurar arquivo de entrada XLS
+            .Load("input.xls")             // Configurar arquivo de entrada XLS
             .ConvertTo("converted.json")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo XLS para JSON        
         ```            

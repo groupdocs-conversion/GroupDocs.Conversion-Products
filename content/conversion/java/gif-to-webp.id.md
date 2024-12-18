@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.gif")              // Atur file GIF input
             .convertTo("converted.webp")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file GIF ke WEBP        
+            .convert();                     // Konversi file GIF ke WEBP        
         ```            
 
 ############################# Actions ############################

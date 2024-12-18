@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.epub")               // Configurar archivo de entrada EPUB
+            .Load("input.epub")             // Configurar archivo de entrada EPUB
             .ConvertTo("converted.pdf")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo EPUB a PDF        
         ```            

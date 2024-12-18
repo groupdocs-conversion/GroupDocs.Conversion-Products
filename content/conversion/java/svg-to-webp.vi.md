@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.svg")              // Thiết lập tệp SVG đầu vào
             .convertTo("converted.webp")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp SVG thành tệp WEBP        
+            .convert();                     // Chuyển đổi tệp SVG thành tệp WEBP        
         ```            
 
 ############################# Actions ############################

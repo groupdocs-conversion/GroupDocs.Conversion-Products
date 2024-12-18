@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.cgm")              // Configurer le fichier CGM d'entrée
             .convertTo("converted.png")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier CGM en PNG        
+            .convert();                     // Convertir le fichier CGM en PNG        
         ```            
 
 ############################# Actions ############################

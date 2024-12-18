@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dot")               // Imposta il file DOT di input
+            .Load("input.dot")             // Imposta il file DOT di input
             .ConvertTo("converted.png")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file DOT in PNG        
         ```            

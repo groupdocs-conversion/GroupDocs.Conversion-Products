@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dcm")               // تنظیم فایل ورودی DCM
+            .Load("input.dcm")             // تنظیم فایل ورودی DCM
             .ConvertTo("converted.jpg")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل DCM به JPG        
         ```            

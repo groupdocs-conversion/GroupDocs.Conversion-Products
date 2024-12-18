@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwg")               // Richten Sie die Eingabedatei DWG ein
+            .Load("input.dwg")             // Richten Sie die Eingabedatei DWG ein
             .ConvertTo("converted.pptx")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // DWG in PPTX Datei konvertieren        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jpg")              // Configurar arquivo de entrada JPG
             .convertTo("converted.dicom")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo JPG para DICOM        
+            .convert();                     // Converter arquivo JPG para DICOM        
         ```            
 
 ############################# Actions ############################

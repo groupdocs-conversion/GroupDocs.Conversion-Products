@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwf")              // Set up input DWF file
             .convertTo("converted.pdf")    // Specify output path for converted file
-            .convert();                    // Convert DWF to PDF file        
+            .convert();                     // Convert DWF to PDF file        
         ```            
 
 ############################# Actions ############################

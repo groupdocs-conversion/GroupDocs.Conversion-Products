@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.rtf")               // Налаштування вхідного файлу RTF
+            .Load("input.rtf")             // Налаштування вхідного файлу RTF
             .ConvertTo("converted.png")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу RTF у файл PNG        
         ```            

@@ -22,7 +22,10 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
+      
 ############################# Head ############################
 head_title: "C# .NET تبدیل سند API | تبدیل PDF، Word، Excel، PPTX، HTML و تصاویر"
 head_description: "API تبدیل سند C#.NET. فرمت های PDF، Word، DOC، DOCX، Excel، Spreadsheets، PPT، PPTX، HTML، PSD، MPT، MPP، ایمیل، MSG، EMLX، AutoCAD و فایل های تصویری را تبدیل کنید."
@@ -85,7 +88,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "استقلال سکو"
+  title: "پشتیبانی از پلتفرم ها"
   description: "GroupDocs.Conversion برای دات نت از سیستم عامل ها، فریم ورک ها و مدیران بسته های زیر پشتیبانی می کند"
   items:
     # platform loop
@@ -112,6 +115,21 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "بسته مخصوص ویندوز"
+      content: |
+        * از .NET Framework 4.6.2+ و .NET 6.0 پشتیبانی می کند
+        * بستگی به System.Drawing.Common دارد
+      action: "دانلود NuGet"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
+    # packages loop
+    - title: "بسته کراس پلت فرم" 
+      content: |
+        * پشتیبانی از دات نت 6.0 و نسخه های بالاتر 
+        * روی ویندوز، لینوکس و macOS کار می کند 
+      action: "دانلود NuGet" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

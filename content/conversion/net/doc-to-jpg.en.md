@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.doc")               // Set up input DOC file
+            .Load("input.doc")             // Set up input DOC file
             .ConvertTo("converted.jpg")     // Specify output path for converted file
             .Convert();                     // Convert DOC to JPG file        
         ```            

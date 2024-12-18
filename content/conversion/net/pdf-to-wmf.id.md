@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pdf")               // Atur file PDF input
+            .Load("input.pdf")             // Atur file PDF input
             .ConvertTo("converted.wmf")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file PDF ke WMF        
         ```            

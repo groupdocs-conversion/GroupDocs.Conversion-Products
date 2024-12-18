@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // ตั้งค่าไฟล์ DWG เข้าสู่ระบบ
             .convertTo("converted.html")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ DWG เป็นไฟล์ HTML        
+            .convert();                     // แปลงไฟล์ DWG เป็นไฟล์ HTML        
         ```            
 
 ############################# Actions ############################

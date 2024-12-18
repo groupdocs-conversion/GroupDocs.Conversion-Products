@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlt")               // Configurar archivo de entrada XLT
+            .Load("input.xlt")             // Configurar archivo de entrada XLT
             .ConvertTo("converted.xml")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo XLT a XML        
         ```            

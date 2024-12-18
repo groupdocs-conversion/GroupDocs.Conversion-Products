@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jp2")               // Imposta il file JP2 di input
+            .Load("input.jp2")             // Imposta il file JP2 di input
             .ConvertTo("converted.bmp")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file JP2 in BMP        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // Atur file DOC input
             .convertTo("converted.docx")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file DOC ke DOCX        
+            .convert();                     // Konversi file DOC ke DOCX        
         ```            
 
 ############################# Actions ############################

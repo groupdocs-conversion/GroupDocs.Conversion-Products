@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xml")               // Configurar archivo de entrada XML
+            .Load("input.xml")             // Configurar archivo de entrada XML
             .ConvertTo("converted.mobi")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo XML a MOBI        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.md")              // Thiết lập tệp MD đầu vào
             .convertTo("converted.html")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp MD thành tệp HTML        
+            .convert();                     // Chuyển đổi tệp MD thành tệp HTML        
         ```            
 
 ############################# Actions ############################

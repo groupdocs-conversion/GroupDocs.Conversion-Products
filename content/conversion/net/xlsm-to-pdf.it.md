@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsm")               // Imposta il file XLSM di input
+            .Load("input.xlsm")             // Imposta il file XLSM di input
             .ConvertTo("converted.pdf")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file XLSM in PDF        
         ```            

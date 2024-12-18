@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.svg")               // تنظیم فایل ورودی SVG
+            .Load("input.svg")             // تنظیم فایل ورودی SVG
             .ConvertTo("converted.jpg")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل SVG به JPG        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.bmp")               // BMP 파일을 입력 설정
+            .Load("input.bmp")             // BMP 파일을 입력 설정
             .ConvertTo("converted.wmf")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // BMP 파일을 WMF 파일로 변환        
         ```            

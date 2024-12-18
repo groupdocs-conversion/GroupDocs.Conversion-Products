@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dxf")              // Set up input DXF file
             .convertTo("converted.svg")    // Specify output path for converted file
-            .convert();                    // Convert DXF to SVG file        
+            .convert();                     // Convert DXF to SVG file        
         ```            
 
 ############################# Actions ############################

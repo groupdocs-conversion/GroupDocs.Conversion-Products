@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dot")               // Richten Sie die Eingabedatei DOT ein
+            .Load("input.dot")             // Richten Sie die Eingabedatei DOT ein
             .ConvertTo("converted.svg")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // DOT in SVG Datei konvertieren        
         ```            

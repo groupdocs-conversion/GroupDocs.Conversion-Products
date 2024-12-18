@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // Richten Sie die Eingabedatei DOCX ein
             .convertTo("converted.jpg")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // DOCX in JPG Datei konvertieren        
+            .convert();                     // DOCX in JPG Datei konvertieren        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Configurar arquivo de entrada PDF
             .convertTo("converted.bmp")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo PDF para BMP        
+            .convert();                     // Converter arquivo PDF para BMP        
         ```            
 
 ############################# Actions ############################

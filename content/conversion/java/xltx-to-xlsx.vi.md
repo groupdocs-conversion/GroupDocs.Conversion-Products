@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xltx")              // Thiết lập tệp XLTX đầu vào
             .convertTo("converted.xlsx")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp XLTX thành tệp XLSX        
+            .convert();                     // Chuyển đổi tệp XLTX thành tệp XLSX        
         ```            
 
 ############################# Actions ############################

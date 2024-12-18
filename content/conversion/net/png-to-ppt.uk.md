@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.png")               // Налаштування вхідного файлу PNG
+            .Load("input.png")             // Налаштування вхідного файлу PNG
             .ConvertTo("converted.ppt")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу PNG у файл PPT        
         ```            

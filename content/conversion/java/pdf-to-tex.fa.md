@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // تنظیم فایل ورودی PDF
             .convertTo("converted.tex")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل PDF به TEX        
+            .convert();                     // تبدیل فایل PDF به TEX        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mhtml")              // MHTML ファイルを入力設定
             .convertTo("converted.docx")    // 変換されたファイルの出力パスを指定
-            .convert();                    // MHTML ファイルを DOCX ファイルに変換        
+            .convert();                     // MHTML ファイルを DOCX ファイルに変換        
         ```            
 
 ############################# Actions ############################

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsm")               // Налаштування вхідного файлу XLSM
+            .Load("input.xlsm")             // Налаштування вхідного файлу XLSM
             .ConvertTo("converted.html")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу XLSM у файл HTML        
         ```            

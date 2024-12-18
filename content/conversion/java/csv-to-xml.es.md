@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.csv")              // Configurar archivo de entrada CSV
             .convertTo("converted.xml")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo CSV a XML        
+            .convert();                     // Convertir archivo CSV a XML        
         ```            
 
 ############################# Actions ############################

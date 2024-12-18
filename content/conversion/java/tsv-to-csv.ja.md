@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tsv")              // TSV ファイルを入力設定
             .convertTo("converted.csv")    // 変換されたファイルの出力パスを指定
-            .convert();                    // TSV ファイルを CSV ファイルに変換        
+            .convert();                     // TSV ファイルを CSV ファイルに変換        
         ```            
 
 ############################# Actions ############################

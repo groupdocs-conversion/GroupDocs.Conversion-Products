@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mpx")               // Thiết lập tệp MPX đầu vào
+            .Load("input.mpx")             // Thiết lập tệp MPX đầu vào
             .ConvertTo("converted.docx")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp MPX thành tệp DOCX        
         ```            

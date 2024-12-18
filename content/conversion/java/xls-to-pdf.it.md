@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xls")              // Imposta il file XLS di input
             .convertTo("converted.pdf")    // Specificare il percorso di output per il file convertito
-            .convert();                    // Converti il file XLS in PDF        
+            .convert();                     // Converti il file XLS in PDF        
         ```            
 
 ############################# Actions ############################

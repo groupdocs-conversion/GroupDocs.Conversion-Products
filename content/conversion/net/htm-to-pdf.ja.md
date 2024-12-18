@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.htm")               // HTM ファイルを入力設定
+            .Load("input.htm")             // HTM ファイルを入力設定
             .ConvertTo("converted.pdf")     // 変換されたファイルの出力パスを指定
             .Convert();                     // HTM ファイルを PDF ファイルに変換        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.numbers")               // NUMBERS 파일을 입력 설정
+            .Load("input.numbers")             // NUMBERS 파일을 입력 설정
             .ConvertTo("converted.xls")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // NUMBERS 파일을 XLS 파일로 변환        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tsv")               // Imposta il file TSV di input
+            .Load("input.tsv")             // Imposta il file TSV di input
             .ConvertTo("converted.json")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file TSV in JSON        
         ```            

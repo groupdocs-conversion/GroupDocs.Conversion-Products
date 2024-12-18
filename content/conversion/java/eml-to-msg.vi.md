@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eml")              // Thiết lập tệp EML đầu vào
             .convertTo("converted.msg")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp EML thành tệp MSG        
+            .convert();                     // Chuyển đổi tệp EML thành tệp MSG        
         ```            
 
 ############################# Actions ############################

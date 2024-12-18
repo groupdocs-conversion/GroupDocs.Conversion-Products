@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eml")              // Configurar archivo de entrada EML
             .convertTo("converted.jpg")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo EML a JPG        
+            .convert();                     // Convertir archivo EML a JPG        
         ```            
 
 ############################# Actions ############################

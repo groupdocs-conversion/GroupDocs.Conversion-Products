@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.rtf")              // RTF ファイルを入力設定
             .convertTo("converted.pdf")    // 変換されたファイルの出力パスを指定
-            .convert();                    // RTF ファイルを PDF ファイルに変換        
+            .convert();                     // RTF ファイルを PDF ファイルに変換        
         ```            
 
 ############################# Actions ############################

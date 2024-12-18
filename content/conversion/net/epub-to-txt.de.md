@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.epub")               // Richten Sie die Eingabedatei EPUB ein
+            .Load("input.epub")             // Richten Sie die Eingabedatei EPUB ein
             .ConvertTo("converted.txt")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // EPUB in TXT Datei konvertieren        
         ```            

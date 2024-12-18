@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xps")               // ตั้งค่าไฟล์ XPS เข้าสู่ระบบ
+            .Load("input.xps")             // ตั้งค่าไฟล์ XPS เข้าสู่ระบบ
             .ConvertTo("converted.svg")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ XPS เป็นไฟล์ SVG        
         ```            

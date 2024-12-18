@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.json")               // JSON 파일을 입력 설정
+            .Load("input.json")             // JSON 파일을 입력 설정
             .ConvertTo("converted.xml")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // JSON 파일을 XML 파일로 변환        
         ```            

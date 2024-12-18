@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.stl")               // تنظیم فایل ورودی STL
+            .Load("input.stl")             // تنظیم فایل ورودی STL
             .ConvertTo("converted.svg")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل STL به SVG        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vss")               // Налаштування вхідного файлу VSS
+            .Load("input.vss")             // Налаштування вхідного файлу VSS
             .ConvertTo("converted.vsdx")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу VSS у файл VSDX        
         ```            

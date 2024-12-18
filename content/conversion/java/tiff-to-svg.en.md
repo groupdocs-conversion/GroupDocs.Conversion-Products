@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tiff")              // Set up input TIFF file
             .convertTo("converted.svg")    // Specify output path for converted file
-            .convert();                    // Convert TIFF to SVG file        
+            .convert();                     // Convert TIFF to SVG file        
         ```            
 
 ############################# Actions ############################

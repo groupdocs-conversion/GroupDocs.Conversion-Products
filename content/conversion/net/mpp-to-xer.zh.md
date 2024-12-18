@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mpp")               // 设置输入 MPP 文件
+            .Load("input.mpp")             // 设置输入 MPP 文件
             .ConvertTo("converted.xer")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 MPP 转换为 XER 文件        
         ```            

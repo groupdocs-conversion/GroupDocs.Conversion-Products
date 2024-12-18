@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.csv")              // Configurer le fichier CSV d'entrée
             .convertTo("converted.pdf")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier CSV en PDF        
+            .convert();                     // Convertir le fichier CSV en PDF        
         ```            
 
 ############################# Actions ############################

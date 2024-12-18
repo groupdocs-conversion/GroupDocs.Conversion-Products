@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pptx")               // PPTX 파일을 입력 설정
+            .Load("input.pptx")             // PPTX 파일을 입력 설정
             .ConvertTo("converted.html")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // PPTX 파일을 HTML 파일로 변환        
         ```            

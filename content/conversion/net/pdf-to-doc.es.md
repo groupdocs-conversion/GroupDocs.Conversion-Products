@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pdf")               // Configurar archivo de entrada PDF
+            .Load("input.pdf")             // Configurar archivo de entrada PDF
             .ConvertTo("converted.doc")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo PDF a DOC        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.svg")               // Налаштування вхідного файлу SVG
+            .Load("input.svg")             // Налаштування вхідного файлу SVG
             .ConvertTo("converted.pptx")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу SVG у файл PPTX        
         ```            

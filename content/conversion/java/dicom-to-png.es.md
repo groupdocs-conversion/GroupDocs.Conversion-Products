@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dicom")              // Configurar archivo de entrada DICOM
             .convertTo("converted.png")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo DICOM a PNG        
+            .convert();                     // Convertir archivo DICOM a PNG        
         ```            
 
 ############################# Actions ############################

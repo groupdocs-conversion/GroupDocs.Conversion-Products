@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // Richten Sie die Eingabedatei XLSX ein
             .convertTo("converted.pdf")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // XLSX in PDF Datei konvertieren        
+            .convert();                     // XLSX in PDF Datei konvertieren        
         ```            
 
 ############################# Actions ############################

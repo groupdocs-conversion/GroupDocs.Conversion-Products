@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ifc")               // Configurar archivo de entrada IFC
+            .Load("input.ifc")             // Configurar archivo de entrada IFC
             .ConvertTo("converted.pdf")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo IFC a PDF        
         ```            

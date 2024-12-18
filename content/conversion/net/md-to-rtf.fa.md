@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.md")               // تنظیم فایل ورودی MD
+            .Load("input.md")             // تنظیم فایل ورودی MD
             .ConvertTo("converted.rtf")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل MD به RTF        
         ```            

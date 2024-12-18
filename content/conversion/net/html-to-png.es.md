@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.html")               // Configurar archivo de entrada HTML
+            .Load("input.html")             // Configurar archivo de entrada HTML
             .ConvertTo("converted.png")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo HTML a PNG        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.svg")              // SVG ファイルを入力設定
             .convertTo("converted.jpg")    // 変換されたファイルの出力パスを指定
-            .convert();                    // SVG ファイルを JPG ファイルに変換        
+            .convert();                     // SVG ファイルを JPG ファイルに変換        
         ```            
 
 ############################# Actions ############################

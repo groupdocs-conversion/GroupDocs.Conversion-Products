@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Set up input HTML file
             .convertTo("converted.doc")    // Specify output path for converted file
-            .convert();                    // Convert HTML to DOC file        
+            .convert();                     // Convert HTML to DOC file        
         ```            
 
 ############################# Actions ############################

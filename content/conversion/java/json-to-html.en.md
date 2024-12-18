@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // Set up input JSON file
             .convertTo("converted.html")    // Specify output path for converted file
-            .convert();                    // Convert JSON to HTML file        
+            .convert();                     // Convert JSON to HTML file        
         ```            
 
 ############################# Actions ############################

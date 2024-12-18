@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Atur file PDF input
             .convertTo("converted.ps")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file PDF ke PS        
+            .convert();                     // Konversi file PDF ke PS        
         ```            
 
 ############################# Actions ############################

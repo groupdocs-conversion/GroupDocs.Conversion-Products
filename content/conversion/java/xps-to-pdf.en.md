@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xps")              // Set up input XPS file
             .convertTo("converted.pdf")    // Specify output path for converted file
-            .convert();                    // Convert XPS to PDF file        
+            .convert();                     // Convert XPS to PDF file        
         ```            
 
 ############################# Actions ############################

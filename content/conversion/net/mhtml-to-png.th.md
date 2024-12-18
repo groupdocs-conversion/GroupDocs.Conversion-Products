@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mhtml")               // ตั้งค่าไฟล์ MHTML เข้าสู่ระบบ
+            .Load("input.mhtml")             // ตั้งค่าไฟล์ MHTML เข้าสู่ระบบ
             .ConvertTo("converted.png")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ MHTML เป็นไฟล์ PNG        
         ```            

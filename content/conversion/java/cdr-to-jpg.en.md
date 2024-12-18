@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.cdr")              // Set up input CDR file
             .convertTo("converted.jpg")    // Specify output path for converted file
-            .convert();                    // Convert CDR to JPG file        
+            .convert();                     // Convert CDR to JPG file        
         ```            
 
 ############################# Actions ############################

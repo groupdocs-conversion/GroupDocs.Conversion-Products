@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.csv")              // تنظیم فایل ورودی CSV
             .convertTo("converted.xls")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل CSV به XLS        
+            .convert();                     // تبدیل فایل CSV به XLS        
         ```            
 
 ############################# Actions ############################

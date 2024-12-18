@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.msg")              // Set up input MSG file
             .convertTo("converted.pdf")    // Specify output path for converted file
-            .convert();                    // Convert MSG to PDF file        
+            .convert();                     // Convert MSG to PDF file        
         ```            
 
 ############################# Actions ############################

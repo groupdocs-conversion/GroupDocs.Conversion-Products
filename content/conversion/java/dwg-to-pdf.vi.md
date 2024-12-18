@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // Thiết lập tệp DWG đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp DWG thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp DWG thành tệp PDF        
         ```            
 
 ############################# Actions ############################

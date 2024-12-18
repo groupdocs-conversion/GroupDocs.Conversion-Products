@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.psd")              // Configurar arquivo de entrada PSD
             .convertTo("converted.pptx")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo PSD para PPTX        
+            .convert();                     // Converter arquivo PSD para PPTX        
         ```            
 
 ############################# Actions ############################

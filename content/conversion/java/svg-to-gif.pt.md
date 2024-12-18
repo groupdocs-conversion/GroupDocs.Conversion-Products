@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.svg")              // Configurar arquivo de entrada SVG
             .convertTo("converted.gif")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo SVG para GIF        
+            .convert();                     // Converter arquivo SVG para GIF        
         ```            
 
 ############################# Actions ############################

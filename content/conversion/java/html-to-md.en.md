@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Set up input HTML file
             .convertTo("converted.md")    // Specify output path for converted file
-            .convert();                    // Convert HTML to MD file        
+            .convert();                     // Convert HTML to MD file        
         ```            
 
 ############################# Actions ############################

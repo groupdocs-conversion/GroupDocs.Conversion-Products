@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.svgz")               // Configurar arquivo de entrada SVGZ
+            .Load("input.svgz")             // Configurar arquivo de entrada SVGZ
             .ConvertTo("converted.svg")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo SVGZ para SVG        
         ```            

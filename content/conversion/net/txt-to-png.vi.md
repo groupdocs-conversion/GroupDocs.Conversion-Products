@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.txt")               // Thiết lập tệp TXT đầu vào
+            .Load("input.txt")             // Thiết lập tệp TXT đầu vào
             .ConvertTo("converted.png")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp TXT thành tệp PNG        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.csv")              // تنظیم فایل ورودی CSV
             .convertTo("converted.json")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل CSV به JSON        
+            .convert();                     // تبدیل فایل CSV به JSON        
         ```            
 
 ############################# Actions ############################

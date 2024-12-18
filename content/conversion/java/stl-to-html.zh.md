@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.stl")              // 设置输入 STL 文件
             .convertTo("converted.html")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 STL 转换为 HTML 文件        
+            .convert();                     // 将 STL 转换为 HTML 文件        
         ```            
 
 ############################# Actions ############################

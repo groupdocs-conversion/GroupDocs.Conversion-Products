@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.csv")              // Atur file CSV input
             .convertTo("converted.ods")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file CSV ke ODS        
+            .convert();                     // Konversi file CSV ke ODS        
         ```            
 
 ############################# Actions ############################

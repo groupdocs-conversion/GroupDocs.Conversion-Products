@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xltx")              // XLTX ファイルを入力設定
             .convertTo("converted.xlsx")    // 変換されたファイルの出力パスを指定
-            .convert();                    // XLTX ファイルを XLSX ファイルに変換        
+            .convert();                     // XLTX ファイルを XLSX ファイルに変換        
         ```            
 
 ############################# Actions ############################

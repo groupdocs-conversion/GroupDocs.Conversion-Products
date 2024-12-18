@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xps")               // Set up input XPS file
+            .Load("input.xps")             // Set up input XPS file
             .ConvertTo("converted.txt")     // Specify output path for converted file
             .Convert();                     // Convert XPS to TXT file        
         ```            

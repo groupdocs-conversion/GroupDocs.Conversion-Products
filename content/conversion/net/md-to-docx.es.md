@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.md")               // Configurar archivo de entrada MD
+            .Load("input.md")             // Configurar archivo de entrada MD
             .ConvertTo("converted.docx")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo MD a DOCX        
         ```            

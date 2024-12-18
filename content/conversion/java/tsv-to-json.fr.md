@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tsv")              // Configurer le fichier TSV d'entrée
             .convertTo("converted.json")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier TSV en JSON        
+            .convert();                     // Convertir le fichier TSV en JSON        
         ```            
 
 ############################# Actions ############################

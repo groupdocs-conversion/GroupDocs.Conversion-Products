@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.odt")               // Richten Sie die Eingabedatei ODT ein
+            .Load("input.odt")             // Richten Sie die Eingabedatei ODT ein
             .ConvertTo("converted.jpg")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // ODT in JPG Datei konvertieren        
         ```            

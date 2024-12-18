@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.plt")               // تنظیم فایل ورودی PLT
+            .Load("input.plt")             // تنظیم فایل ورودی PLT
             .ConvertTo("converted.pdf")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل PLT به PDF        
         ```            

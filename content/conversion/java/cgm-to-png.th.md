@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.cgm")              // ตั้งค่าไฟล์ CGM เข้าสู่ระบบ
             .convertTo("converted.png")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ CGM เป็นไฟล์ PNG        
+            .convert();                     // แปลงไฟล์ CGM เป็นไฟล์ PNG        
         ```            
 
 ############################# Actions ############################

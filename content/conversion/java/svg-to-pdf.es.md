@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.svg")              // Configurar archivo de entrada SVG
             .convertTo("converted.pdf")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo SVG a PDF        
+            .convert();                     // Convertir archivo SVG a PDF        
         ```            
 
 ############################# Actions ############################

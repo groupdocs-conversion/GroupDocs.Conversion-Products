@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eps")               // Configurer le fichier EPS d'entrée
+            .Load("input.eps")             // Configurer le fichier EPS d'entrée
             .ConvertTo("converted.pdf")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier EPS en PDF        
         ```            

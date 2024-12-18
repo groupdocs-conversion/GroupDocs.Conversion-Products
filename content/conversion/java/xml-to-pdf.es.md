@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // Configurar archivo de entrada XML
             .convertTo("converted.pdf")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo XML a PDF        
+            .convert();                     // Convertir archivo XML a PDF        
         ```            
 
 ############################# Actions ############################

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pst")               // Configurar archivo de entrada PST
+            .Load("input.pst")             // Configurar archivo de entrada PST
             .ConvertTo("converted.eml")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo PST a EML        
         ```            

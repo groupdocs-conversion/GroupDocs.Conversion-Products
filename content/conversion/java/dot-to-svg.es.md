@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dot")              // Configurar archivo de entrada DOT
             .convertTo("converted.svg")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo DOT a SVG        
+            .convert();                     // Convertir archivo DOT a SVG        
         ```            
 
 ############################# Actions ############################

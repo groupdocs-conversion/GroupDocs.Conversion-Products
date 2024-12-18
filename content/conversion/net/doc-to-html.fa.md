@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.doc")               // تنظیم فایل ورودی DOC
+            .Load("input.doc")             // تنظیم فایل ورودی DOC
             .ConvertTo("converted.html")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل DOC به HTML        
         ```            

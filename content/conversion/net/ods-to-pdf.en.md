@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ods")               // Set up input ODS file
+            .Load("input.ods")             // Set up input ODS file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert ODS to PDF file        
         ```            

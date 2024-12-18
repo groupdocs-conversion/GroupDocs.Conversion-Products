@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vss")               // Thiết lập tệp VSS đầu vào
+            .Load("input.vss")             // Thiết lập tệp VSS đầu vào
             .ConvertTo("converted.vsdx")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp VSS thành tệp VSDX        
         ```            

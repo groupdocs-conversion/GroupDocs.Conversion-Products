@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dotx")              // Configurar arquivo de entrada DOTX
             .convertTo("converted.docx")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo DOTX para DOCX        
+            .convert();                     // Converter arquivo DOTX para DOCX        
         ```            
 
 ############################# Actions ############################

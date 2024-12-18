@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwfx")               // Configurar archivo de entrada DWFX
+            .Load("input.dwfx")             // Configurar archivo de entrada DWFX
             .ConvertTo("converted.pdf")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo DWFX a PDF        
         ```            

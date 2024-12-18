@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xml")               // Richten Sie die Eingabedatei XML ein
+            .Load("input.xml")             // Richten Sie die Eingabedatei XML ein
             .ConvertTo("converted.rtf")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // XML in RTF Datei konvertieren        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ai")               // Imposta il file AI di input
+            .Load("input.ai")             // Imposta il file AI di input
             .ConvertTo("converted.pptx")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file AI in PPTX        
         ```            

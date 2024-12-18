@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.png")              // Configurar archivo de entrada PNG
             .convertTo("converted.tiff")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo PNG a TIFF        
+            .convert();                     // Convertir archivo PNG a TIFF        
         ```            
 
 ############################# Actions ############################

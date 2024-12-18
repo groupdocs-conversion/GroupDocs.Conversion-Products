@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eps")               // Richten Sie die Eingabedatei EPS ein
+            .Load("input.eps")             // Richten Sie die Eingabedatei EPS ein
             .ConvertTo("converted.png")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // EPS in PNG Datei konvertieren        
         ```            

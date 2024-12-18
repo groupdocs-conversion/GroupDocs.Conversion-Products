@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.svg")              // 设置输入 SVG 文件
             .convertTo("converted.webp")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 SVG 转换为 WEBP 文件        
+            .convert();                     // 将 SVG 转换为 WEBP 文件        
         ```            
 
 ############################# Actions ############################

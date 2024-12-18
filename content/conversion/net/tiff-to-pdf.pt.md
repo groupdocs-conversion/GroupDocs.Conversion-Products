@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tiff")               // Configurar arquivo de entrada TIFF
+            .Load("input.tiff")             // Configurar arquivo de entrada TIFF
             .ConvertTo("converted.pdf")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo TIFF para PDF        
         ```            

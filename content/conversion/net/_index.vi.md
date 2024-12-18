@@ -22,7 +22,10 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
+      
 ############################# Head ############################
 head_title: "API chuyển đổi tài liệu C# .NET | Chuyển đổi PDF, Word, Excel, PPTX, HTML và hình ảnh"
 head_description: "API chuyển đổi tài liệu C# .NET. Chuyển đổi các định dạng tệp PDF, Word, DOC, DOCX, Excel, Bảng tính, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD và tệp hình ảnh."
@@ -85,7 +88,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Nền tảng độc lập"
+  title: "Hỗ trợ nền tảng"
   description: "GroupDocs.Conversion for .NET hỗ trợ các hệ điều hành, khung và trình quản lý gói sau"
   items:
     # platform loop
@@ -112,6 +115,21 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Gói dành riêng cho Windows"
+      content: |
+        * Hỗ trợ .NET Framework 4.6.2+ và .NET 6.0
+        * Phụ thuộc vào System.draw.Common
+      action: "Tải xuống NuGet"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
+    # packages loop
+    - title: "Gói đa nền tảng" 
+      content: |
+        * Hỗ trợ .NET 6.0 và các phiên bản cao hơn 
+        * Hoạt động trên Windows, Linux và macOS 
+      action: "Tải xuống NuGet" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tga")              // تنظیم فایل ورودی TGA
             .convertTo("converted.png")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل TGA به PNG        
+            .convert();                     // تبدیل فایل TGA به PNG        
         ```            
 
 ############################# Actions ############################

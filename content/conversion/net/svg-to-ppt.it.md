@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.svg")               // Imposta il file SVG di input
+            .Load("input.svg")             // Imposta il file SVG di input
             .ConvertTo("converted.ppt")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file SVG in PPT        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Thiết lập tệp PDF đầu vào
             .convertTo("converted.bmp")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp PDF thành tệp BMP        
+            .convert();                     // Chuyển đổi tệp PDF thành tệp BMP        
         ```            
 
 ############################# Actions ############################

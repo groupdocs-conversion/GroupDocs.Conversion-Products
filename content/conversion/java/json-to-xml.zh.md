@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // 设置输入 JSON 文件
             .convertTo("converted.xml")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 JSON 转换为 XML 文件        
+            .convert();                     // 将 JSON 转换为 XML 文件        
         ```            
 
 ############################# Actions ############################

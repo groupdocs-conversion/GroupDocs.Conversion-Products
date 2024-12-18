@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xps")              // Thiết lập tệp XPS đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp XPS thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp XPS thành tệp PDF        
         ```            
 
 ############################# Actions ############################

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xslfo")               // Set up input XSLFO file
+            .Load("input.xslfo")             // Set up input XSLFO file
             .ConvertTo("converted.docx")     // Specify output path for converted file
             .Convert();                     // Convert XSLFO to DOCX file        
         ```            

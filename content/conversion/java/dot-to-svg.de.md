@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dot")              // Richten Sie die Eingabedatei DOT ein
             .convertTo("converted.svg")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // DOT in SVG Datei konvertieren        
+            .convert();                     // DOT in SVG Datei konvertieren        
         ```            
 
 ############################# Actions ############################

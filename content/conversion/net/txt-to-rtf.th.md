@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.txt")               // ตั้งค่าไฟล์ TXT เข้าสู่ระบบ
+            .Load("input.txt")             // ตั้งค่าไฟล์ TXT เข้าสู่ระบบ
             .ConvertTo("converted.rtf")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ TXT เป็นไฟล์ RTF        
         ```            

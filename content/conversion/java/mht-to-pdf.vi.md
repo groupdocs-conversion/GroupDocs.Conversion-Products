@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mht")              // Thiết lập tệp MHT đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp MHT thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp MHT thành tệp PDF        
         ```            
 
 ############################# Actions ############################

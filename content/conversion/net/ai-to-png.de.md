@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ai")               // Richten Sie die Eingabedatei AI ein
+            .Load("input.ai")             // Richten Sie die Eingabedatei AI ein
             .ConvertTo("converted.png")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // AI in PNG Datei konvertieren        
         ```            

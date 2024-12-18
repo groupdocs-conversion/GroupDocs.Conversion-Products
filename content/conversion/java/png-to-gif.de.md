@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.png")              // Richten Sie die Eingabedatei PNG ein
             .convertTo("converted.gif")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // PNG in GIF Datei konvertieren        
+            .convert();                     // PNG in GIF Datei konvertieren        
         ```            
 
 ############################# Actions ############################

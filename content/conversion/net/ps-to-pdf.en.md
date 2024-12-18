@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ps")               // Set up input PS file
+            .Load("input.ps")             // Set up input PS file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert PS to PDF file        
         ```            

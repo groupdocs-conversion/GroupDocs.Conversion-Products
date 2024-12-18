@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.wmf")               // Configurer le fichier WMF d'entrée
+            .Load("input.wmf")             // Configurer le fichier WMF d'entrée
             .ConvertTo("converted.svg")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier WMF en SVG        
         ```            

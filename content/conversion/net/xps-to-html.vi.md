@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xps")               // Thiết lập tệp XPS đầu vào
+            .Load("input.xps")             // Thiết lập tệp XPS đầu vào
             .ConvertTo("converted.html")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp XPS thành tệp HTML        
         ```            

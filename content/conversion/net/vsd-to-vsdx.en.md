@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vsd")               // Set up input VSD file
+            .Load("input.vsd")             // Set up input VSD file
             .ConvertTo("converted.vsdx")     // Specify output path for converted file
             .Convert();                     // Convert VSD to VSDX file        
         ```            

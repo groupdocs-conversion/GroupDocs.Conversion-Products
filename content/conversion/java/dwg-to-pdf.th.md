@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // ตั้งค่าไฟล์ DWG เข้าสู่ระบบ
             .convertTo("converted.pdf")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ DWG เป็นไฟล์ PDF        
+            .convert();                     // แปลงไฟล์ DWG เป็นไฟล์ PDF        
         ```            
 
 ############################# Actions ############################

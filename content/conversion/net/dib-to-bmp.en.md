@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dib")               // Set up input DIB file
+            .Load("input.dib")             // Set up input DIB file
             .ConvertTo("converted.bmp")     // Specify output path for converted file
             .Convert();                     // Convert DIB to BMP file        
         ```            

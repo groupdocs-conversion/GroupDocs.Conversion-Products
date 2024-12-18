@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.numbers")              // Thiết lập tệp NUMBERS đầu vào
             .convertTo("converted.xls")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp NUMBERS thành tệp XLS        
+            .convert();                     // Chuyển đổi tệp NUMBERS thành tệp XLS        
         ```            
 
 ############################# Actions ############################

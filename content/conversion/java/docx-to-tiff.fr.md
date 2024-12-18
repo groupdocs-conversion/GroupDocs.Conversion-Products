@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // Configurer le fichier DOCX d'entrée
             .convertTo("converted.tiff")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier DOCX en TIFF        
+            .convert();                     // Convertir le fichier DOCX en TIFF        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dxf")              // Richten Sie die Eingabedatei DXF ein
             .convertTo("converted.txt")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // DXF in TXT Datei konvertieren        
+            .convert();                     // DXF in TXT Datei konvertieren        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.htm")              // Atur file HTM input
             .convertTo("converted.pdf")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file HTM ke PDF        
+            .convert();                     // Konversi file HTM ke PDF        
         ```            
 
 ############################# Actions ############################

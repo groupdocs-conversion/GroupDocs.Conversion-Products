@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tiff")              // Configurar archivo de entrada TIFF
             .convertTo("converted.bmp")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo TIFF a BMP        
+            .convert();                     // Convertir archivo TIFF a BMP        
         ```            
 
 ############################# Actions ############################

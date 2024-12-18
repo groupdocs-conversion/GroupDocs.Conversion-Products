@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mobi")               // Configurer le fichier MOBI d'entrée
+            .Load("input.mobi")             // Configurer le fichier MOBI d'entrée
             .ConvertTo("converted.pdf")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier MOBI en PDF        
         ```            

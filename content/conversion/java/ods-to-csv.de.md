@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ods")              // Richten Sie die Eingabedatei ODS ein
             .convertTo("converted.csv")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // ODS in CSV Datei konvertieren        
+            .convert();                     // ODS in CSV Datei konvertieren        
         ```            
 
 ############################# Actions ############################

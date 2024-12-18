@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ifc")              // Configurar archivo de entrada IFC
             .convertTo("converted.html")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo IFC a HTML        
+            .convert();                     // Convertir archivo IFC a HTML        
         ```            
 
 ############################# Actions ############################

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dng")               // Atur file DNG input
+            .Load("input.dng")             // Atur file DNG input
             .ConvertTo("converted.jpg")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file DNG ke JPG        
         ```            

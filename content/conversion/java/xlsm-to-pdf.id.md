@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsm")              // Atur file XLSM input
             .convertTo("converted.pdf")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file XLSM ke PDF        
+            .convert();                     // Konversi file XLSM ke PDF        
         ```            
 
 ############################# Actions ############################

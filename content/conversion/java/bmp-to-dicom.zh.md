@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.bmp")              // 设置输入 BMP 文件
             .convertTo("converted.dicom")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 BMP 转换为 DICOM 文件        
+            .convert();                     // 将 BMP 转换为 DICOM 文件        
         ```            
 
 ############################# Actions ############################

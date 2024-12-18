@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ppt")              // Atur file PPT input
             .convertTo("converted.pptx")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file PPT ke PPTX        
+            .convert();                     // Konversi file PPT ke PPTX        
         ```            
 
 ############################# Actions ############################

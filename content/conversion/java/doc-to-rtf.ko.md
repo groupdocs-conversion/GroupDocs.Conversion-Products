@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // DOC 파일을 입력 설정
             .convertTo("converted.rtf")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // DOC 파일을 RTF 파일로 변환        
+            .convert();                     // DOC 파일을 RTF 파일로 변환        
         ```            
 
 ############################# Actions ############################

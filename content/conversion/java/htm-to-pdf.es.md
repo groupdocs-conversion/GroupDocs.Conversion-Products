@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.htm")              // Configurar archivo de entrada HTM
             .convertTo("converted.pdf")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo HTM a PDF        
+            .convert();                     // Convertir archivo HTM a PDF        
         ```            
 
 ############################# Actions ############################

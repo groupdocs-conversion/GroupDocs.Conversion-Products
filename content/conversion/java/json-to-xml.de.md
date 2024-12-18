@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // Richten Sie die Eingabedatei JSON ein
             .convertTo("converted.xml")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // JSON in XML Datei konvertieren        
+            .convert();                     // JSON in XML Datei konvertieren        
         ```            
 
 ############################# Actions ############################

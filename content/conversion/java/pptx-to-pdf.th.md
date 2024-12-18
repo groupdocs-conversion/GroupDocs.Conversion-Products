@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pptx")              // ตั้งค่าไฟล์ PPTX เข้าสู่ระบบ
             .convertTo("converted.pdf")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ PPTX เป็นไฟล์ PDF        
+            .convert();                     // แปลงไฟล์ PPTX เป็นไฟล์ PDF        
         ```            
 
 ############################# Actions ############################

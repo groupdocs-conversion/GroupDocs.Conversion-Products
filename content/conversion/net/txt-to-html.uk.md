@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.txt")               // Налаштування вхідного файлу TXT
+            .Load("input.txt")             // Налаштування вхідного файлу TXT
             .ConvertTo("converted.html")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу TXT у файл HTML        
         ```            

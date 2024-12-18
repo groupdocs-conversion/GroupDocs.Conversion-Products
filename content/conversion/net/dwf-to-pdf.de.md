@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwf")               // Richten Sie die Eingabedatei DWF ein
+            .Load("input.dwf")             // Richten Sie die Eingabedatei DWF ein
             .ConvertTo("converted.pdf")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // DWF in PDF Datei konvertieren        
         ```            

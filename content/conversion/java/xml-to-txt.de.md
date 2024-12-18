@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // Richten Sie die Eingabedatei XML ein
             .convertTo("converted.txt")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // XML in TXT Datei konvertieren        
+            .convert();                     // XML in TXT Datei konvertieren        
         ```            
 
 ############################# Actions ############################

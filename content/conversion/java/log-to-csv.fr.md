@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.log")              // Configurer le fichier LOG d'entrée
             .convertTo("converted.csv")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier LOG en CSV        
+            .convert();                     // Convertir le fichier LOG en CSV        
         ```            
 
 ############################# Actions ############################

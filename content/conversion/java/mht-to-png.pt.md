@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mht")              // Configurar arquivo de entrada MHT
             .convertTo("converted.png")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo MHT para PNG        
+            .convert();                     // Converter arquivo MHT para PNG        
         ```            
 
 ############################# Actions ############################

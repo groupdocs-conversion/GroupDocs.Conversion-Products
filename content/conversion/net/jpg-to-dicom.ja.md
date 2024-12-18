@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jpg")               // JPG ファイルを入力設定
+            .Load("input.jpg")             // JPG ファイルを入力設定
             .ConvertTo("converted.dicom")     // 変換されたファイルの出力パスを指定
             .Convert();                     // JPG ファイルを DICOM ファイルに変換        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.doc")               // Configurer le fichier DOC d'entrée
+            .Load("input.doc")             // Configurer le fichier DOC d'entrée
             .ConvertTo("converted.txt")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier DOC en TXT        
         ```            

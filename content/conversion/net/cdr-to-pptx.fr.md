@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cdr")               // Configurer le fichier CDR d'entrée
+            .Load("input.cdr")             // Configurer le fichier CDR d'entrée
             .ConvertTo("converted.pptx")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier CDR en PPTX        
         ```            

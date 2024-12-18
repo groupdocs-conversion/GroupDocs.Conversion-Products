@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vcf")               // Set up input VCF file
+            .Load("input.vcf")             // Set up input VCF file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert VCF to PDF file        
         ```            

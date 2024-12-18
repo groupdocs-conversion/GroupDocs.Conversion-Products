@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // Imposta il file XLSX di input
             .convertTo("converted.xml")    // Specificare il percorso di output per il file convertito
-            .convert();                    // Converti il file XLSX in XML        
+            .convert();                     // Converti il file XLSX in XML        
         ```            
 
 ############################# Actions ############################

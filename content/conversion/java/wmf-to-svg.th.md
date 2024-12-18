@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.wmf")              // ตั้งค่าไฟล์ WMF เข้าสู่ระบบ
             .convertTo("converted.svg")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ WMF เป็นไฟล์ SVG        
+            .convert();                     // แปลงไฟล์ WMF เป็นไฟล์ SVG        
         ```            
 
 ############################# Actions ############################

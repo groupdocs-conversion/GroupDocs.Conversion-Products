@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mhtml")              // Configurer le fichier MHTML d'entrée
             .convertTo("converted.png")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier MHTML en PNG        
+            .convert();                     // Convertir le fichier MHTML en PNG        
         ```            
 
 ############################# Actions ############################

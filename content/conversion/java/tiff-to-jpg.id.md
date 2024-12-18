@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tiff")              // Atur file TIFF input
             .convertTo("converted.jpg")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file TIFF ke JPG        
+            .convert();                     // Konversi file TIFF ke JPG        
         ```            
 
 ############################# Actions ############################

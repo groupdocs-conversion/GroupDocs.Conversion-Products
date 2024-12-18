@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mpx")               // Imposta il file MPX di input
+            .Load("input.mpx")             // Imposta il file MPX di input
             .ConvertTo("converted.mpp")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file MPX in MPP        
         ```            

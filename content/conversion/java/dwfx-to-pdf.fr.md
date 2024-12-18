@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwfx")              // Configurer le fichier DWFX d'entrée
             .convertTo("converted.pdf")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier DWFX en PDF        
+            .convert();                     // Convertir le fichier DWFX en PDF        
         ```            
 
 ############################# Actions ############################

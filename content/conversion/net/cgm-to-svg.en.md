@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cgm")               // Set up input CGM file
+            .Load("input.cgm")             // Set up input CGM file
             .ConvertTo("converted.svg")     // Specify output path for converted file
             .Convert();                     // Convert CGM to SVG file        
         ```            

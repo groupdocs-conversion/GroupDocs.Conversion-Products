@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jpg")               // Configurar archivo de entrada JPG
+            .Load("input.jpg")             // Configurar archivo de entrada JPG
             .ConvertTo("converted.psd")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo JPG a PSD        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // PDF 파일을 입력 설정
             .convertTo("converted.png")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // PDF 파일을 PNG 파일로 변환        
+            .convert();                     // PDF 파일을 PNG 파일로 변환        
         ```            
 
 ############################# Actions ############################

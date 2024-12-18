@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.cgm")              // تنظیم فایل ورودی CGM
             .convertTo("converted.svg")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل CGM به SVG        
+            .convert();                     // تبدیل فایل CGM به SVG        
         ```            
 
 ############################# Actions ############################

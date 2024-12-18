@@ -22,7 +22,10 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
+      
 ############################# Head ############################
 head_title: "API konversi dokumen C# .NET | Konversi PDF, Word, Excel, PPTX, HTML, dan gambar"
 head_description: "API konversi dokumen C# .NET. Konversi PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan format file gambar."
@@ -85,7 +88,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Independensi platform"
+  title: "Dukungan platform"
   description: "GroupDocs.Conversion untuk .NET mendukung sistem operasi, kerangka kerja, dan manajer paket berikut"
   items:
     # platform loop
@@ -112,6 +115,21 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Paket khusus Windows"
+      content: |
+        * Mendukung .NET Framework 4.6.2+ dan .NET 6.0
+        * Tergantung pada System.Drawing.Common
+      action: "Unduhan NuGet"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
+    # packages loop
+    - title: "Paket lintas platform" 
+      content: |
+        * Mendukung .NET 6.0 dan versi yang lebih tinggi 
+        * Bekerja di Windows, Linux dan macOS 
+      action: "Unduhan NuGet" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

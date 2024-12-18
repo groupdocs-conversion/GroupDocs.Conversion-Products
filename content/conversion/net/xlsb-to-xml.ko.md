@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsb")               // XLSB 파일을 입력 설정
+            .Load("input.xlsb")             // XLSB 파일을 입력 설정
             .ConvertTo("converted.xml")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // XLSB 파일을 XML 파일로 변환        
         ```            

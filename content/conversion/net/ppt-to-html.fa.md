@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ppt")               // تنظیم فایل ورودی PPT
+            .Load("input.ppt")             // تنظیم فایل ورودی PPT
             .ConvertTo("converted.html")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل PPT به HTML        
         ```            

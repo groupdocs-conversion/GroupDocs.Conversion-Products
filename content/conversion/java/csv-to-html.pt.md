@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.csv")              // Configurar arquivo de entrada CSV
             .convertTo("converted.html")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo CSV para HTML        
+            .convert();                     // Converter arquivo CSV para HTML        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jp2")              // Imposta il file JP2 di input
             .convertTo("converted.jpg")    // Specificare il percorso di output per il file convertito
-            .convert();                    // Converti il file JP2 in JPG        
+            .convert();                     // Converti il file JP2 in JPG        
         ```            
 
 ############################# Actions ############################

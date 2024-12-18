@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tiff")              // TIFF 파일을 입력 설정
             .convertTo("converted.bmp")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // TIFF 파일을 BMP 파일로 변환        
+            .convert();                     // TIFF 파일을 BMP 파일로 변환        
         ```            
 
 ############################# Actions ############################

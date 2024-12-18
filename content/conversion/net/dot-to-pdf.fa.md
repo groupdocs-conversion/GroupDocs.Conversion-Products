@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dot")               // تنظیم فایل ورودی DOT
+            .Load("input.dot")             // تنظیم فایل ورودی DOT
             .ConvertTo("converted.pdf")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل DOT به PDF        
         ```            

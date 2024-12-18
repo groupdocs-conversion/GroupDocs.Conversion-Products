@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dwg")               // 设置输入 DWG 文件
+            .Load("input.dwg")             // 设置输入 DWG 文件
             .ConvertTo("converted.pptx")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 DWG 转换为 PPTX 文件        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsb")              // 设置输入 XLSB 文件
             .convertTo("converted.xls")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 XLSB 转换为 XLS 文件        
+            .convert();                     // 将 XLSB 转换为 XLS 文件        
         ```            
 
 ############################# Actions ############################

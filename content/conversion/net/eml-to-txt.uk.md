@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eml")               // Налаштування вхідного файлу EML
+            .Load("input.eml")             // Налаштування вхідного файлу EML
             .ConvertTo("converted.txt")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу EML у файл TXT        
         ```            

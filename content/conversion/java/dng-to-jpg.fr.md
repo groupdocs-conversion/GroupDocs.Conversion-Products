@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dng")              // Configurer le fichier DNG d'entrée
             .convertTo("converted.jpg")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier DNG en JPG        
+            .convert();                     // Convertir le fichier DNG en JPG        
         ```            
 
 ############################# Actions ############################

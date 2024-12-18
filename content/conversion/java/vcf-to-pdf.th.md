@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.vcf")              // ตั้งค่าไฟล์ VCF เข้าสู่ระบบ
             .convertTo("converted.pdf")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ VCF เป็นไฟล์ PDF        
+            .convert();                     // แปลงไฟล์ VCF เป็นไฟล์ PDF        
         ```            
 
 ############################# Actions ############################

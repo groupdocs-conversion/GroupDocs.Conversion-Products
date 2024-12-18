@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Set up input HTML file
             .convertTo("converted.bmp")    // Specify output path for converted file
-            .convert();                    // Convert HTML to BMP file        
+            .convert();                     // Convert HTML to BMP file        
         ```            
 
 ############################# Actions ############################

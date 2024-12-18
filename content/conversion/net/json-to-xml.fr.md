@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.json")               // Configurer le fichier JSON d'entrée
+            .Load("input.json")             // Configurer le fichier JSON d'entrée
             .ConvertTo("converted.xml")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier JSON en XML        
         ```            

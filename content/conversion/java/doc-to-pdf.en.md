@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // Set up input DOC file
             .convertTo("converted.pdf")    // Specify output path for converted file
-            .convert();                    // Convert DOC to PDF file        
+            .convert();                     // Convert DOC to PDF file        
         ```            
 
 ############################# Actions ############################

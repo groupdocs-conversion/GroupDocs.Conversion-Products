@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ps")               // ตั้งค่าไฟล์ PS เข้าสู่ระบบ
+            .Load("input.ps")             // ตั้งค่าไฟล์ PS เข้าสู่ระบบ
             .ConvertTo("converted.txt")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ PS เป็นไฟล์ TXT        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eps")              // Configurar arquivo de entrada EPS
             .convertTo("converted.jpg")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo EPS para JPG        
+            .convert();                     // Converter arquivo EPS para JPG        
         ```            
 
 ############################# Actions ############################

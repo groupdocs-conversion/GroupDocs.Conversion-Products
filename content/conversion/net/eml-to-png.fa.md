@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eml")               // تنظیم فایل ورودی EML
+            .Load("input.eml")             // تنظیم فایل ورودی EML
             .ConvertTo("converted.png")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل EML به PNG        
         ```            

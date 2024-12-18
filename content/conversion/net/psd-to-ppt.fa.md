@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.psd")               // تنظیم فایل ورودی PSD
+            .Load("input.psd")             // تنظیم فایل ورودی PSD
             .ConvertTo("converted.ppt")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل PSD به PPT        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dwg")              // Thiết lập tệp DWG đầu vào
             .convertTo("converted.png")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp DWG thành tệp PNG        
+            .convert();                     // Chuyển đổi tệp DWG thành tệp PNG        
         ```            
 
 ############################# Actions ############################

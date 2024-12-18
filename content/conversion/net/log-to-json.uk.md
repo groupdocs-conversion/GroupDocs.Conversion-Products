@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.log")               // Налаштування вхідного файлу LOG
+            .Load("input.log")             // Налаштування вхідного файлу LOG
             .ConvertTo("converted.json")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу LOG у файл JSON        
         ```            

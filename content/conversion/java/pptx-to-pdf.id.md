@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pptx")              // Atur file PPTX input
             .convertTo("converted.pdf")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file PPTX ke PDF        
+            .convert();                     // Konversi file PPTX ke PDF        
         ```            
 
 ############################# Actions ############################

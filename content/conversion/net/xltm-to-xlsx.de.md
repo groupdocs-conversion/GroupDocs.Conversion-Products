@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xltm")               // Richten Sie die Eingabedatei XLTM ein
+            .Load("input.xltm")             // Richten Sie die Eingabedatei XLTM ein
             .ConvertTo("converted.xlsx")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // XLTM in XLSX Datei konvertieren        
         ```            

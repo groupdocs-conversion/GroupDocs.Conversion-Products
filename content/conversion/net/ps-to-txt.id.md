@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ps")               // Atur file PS input
+            .Load("input.ps")             // Atur file PS input
             .ConvertTo("converted.txt")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file PS ke TXT        
         ```            

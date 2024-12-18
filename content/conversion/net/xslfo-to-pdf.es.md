@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xslfo")               // Configurar archivo de entrada XSLFO
+            .Load("input.xslfo")             // Configurar archivo de entrada XSLFO
             .ConvertTo("converted.pdf")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo XSLFO a PDF        
         ```            

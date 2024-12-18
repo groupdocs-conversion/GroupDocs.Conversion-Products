@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vcf")               // Configurar arquivo de entrada VCF
+            .Load("input.vcf")             // Configurar arquivo de entrada VCF
             .ConvertTo("converted.txt")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo VCF para TXT        
         ```            

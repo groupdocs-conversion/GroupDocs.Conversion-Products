@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.docx")              // Richten Sie die Eingabedatei DOCX ein
             .convertTo("converted.html")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // DOCX in HTML Datei konvertieren        
+            .convert();                     // DOCX in HTML Datei konvertieren        
         ```            
 
 ############################# Actions ############################

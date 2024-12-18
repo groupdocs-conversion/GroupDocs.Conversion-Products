@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jp2")               // Atur file JP2 input
+            .Load("input.jp2")             // Atur file JP2 input
             .ConvertTo("converted.png")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file JP2 ke PNG        
         ```            

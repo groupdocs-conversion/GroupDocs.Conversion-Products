@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xls")               // Thiết lập tệp XLS đầu vào
+            .Load("input.xls")             // Thiết lập tệp XLS đầu vào
             .ConvertTo("converted.xlsx")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp XLS thành tệp XLSX        
         ```            

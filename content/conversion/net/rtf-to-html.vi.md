@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.rtf")               // Thiết lập tệp RTF đầu vào
+            .Load("input.rtf")             // Thiết lập tệp RTF đầu vào
             .ConvertTo("converted.html")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp RTF thành tệp HTML        
         ```            

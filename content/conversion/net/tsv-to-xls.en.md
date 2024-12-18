@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tsv")               // Set up input TSV file
+            .Load("input.tsv")             // Set up input TSV file
             .ConvertTo("converted.xls")     // Specify output path for converted file
             .Convert();                     // Convert TSV to XLS file        
         ```            

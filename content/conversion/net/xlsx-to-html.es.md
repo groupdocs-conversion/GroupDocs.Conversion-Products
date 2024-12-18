@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsx")               // Configurar archivo de entrada XLSX
+            .Load("input.xlsx")             // Configurar archivo de entrada XLSX
             .ConvertTo("converted.html")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo XLSX a HTML        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xltx")               // Configurar archivo de entrada XLTX
+            .Load("input.xltx")             // Configurar archivo de entrada XLTX
             .ConvertTo("converted.xlsx")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo XLTX a XLSX        
         ```            

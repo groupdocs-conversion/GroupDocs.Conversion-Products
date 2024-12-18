@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // XLSX 파일을 입력 설정
             .convertTo("converted.ods")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // XLSX 파일을 ODS 파일로 변환        
+            .convert();                     // XLSX 파일을 ODS 파일로 변환        
         ```            
 
 ############################# Actions ############################

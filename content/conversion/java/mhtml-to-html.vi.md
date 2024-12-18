@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mhtml")              // Thiết lập tệp MHTML đầu vào
             .convertTo("converted.html")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp MHTML thành tệp HTML        
+            .convert();                     // Chuyển đổi tệp MHTML thành tệp HTML        
         ```            
 
 ############################# Actions ############################

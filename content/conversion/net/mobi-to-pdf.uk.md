@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mobi")               // Налаштування вхідного файлу MOBI
+            .Load("input.mobi")             // Налаштування вхідного файлу MOBI
             .ConvertTo("converted.pdf")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу MOBI у файл PDF        
         ```            

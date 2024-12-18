@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ppt")              // Configurer le fichier PPT d'entrée
             .convertTo("converted.html")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier PPT en HTML        
+            .convert();                     // Convertir le fichier PPT en HTML        
         ```            
 
 ############################# Actions ############################

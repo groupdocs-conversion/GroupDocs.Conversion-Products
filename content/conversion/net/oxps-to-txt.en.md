@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.oxps")               // Set up input OXPS file
+            .Load("input.oxps")             // Set up input OXPS file
             .ConvertTo("converted.txt")     // Specify output path for converted file
             .Convert();                     // Convert OXPS to TXT file        
         ```            

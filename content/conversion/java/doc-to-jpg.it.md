@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // Imposta il file DOC di input
             .convertTo("converted.jpg")    // Specificare il percorso di output per il file convertito
-            .convert();                    // Converti il file DOC in JPG        
+            .convert();                     // Converti il file DOC in JPG        
         ```            
 
 ############################# Actions ############################

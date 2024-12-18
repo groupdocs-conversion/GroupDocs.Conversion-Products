@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.rtf")               // Set up input RTF file
+            .Load("input.rtf")             // Set up input RTF file
             .ConvertTo("converted.bmp")     // Specify output path for converted file
             .Convert();                     // Convert RTF to BMP file        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cdr")               // تنظیم فایل ورودی CDR
+            .Load("input.cdr")             // تنظیم فایل ورودی CDR
             .ConvertTo("converted.png")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل CDR به PNG        
         ```            

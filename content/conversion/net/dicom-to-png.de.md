@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dicom")               // Richten Sie die Eingabedatei DICOM ein
+            .Load("input.dicom")             // Richten Sie die Eingabedatei DICOM ein
             .ConvertTo("converted.png")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // DICOM in PNG Datei konvertieren        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pst")              // ตั้งค่าไฟล์ PST เข้าสู่ระบบ
             .convertTo("converted.eml")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ PST เป็นไฟล์ EML        
+            .convert();                     // แปลงไฟล์ PST เป็นไฟล์ EML        
         ```            
 
 ############################# Actions ############################

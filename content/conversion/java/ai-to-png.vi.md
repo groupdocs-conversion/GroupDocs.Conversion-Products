@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ai")              // Thiết lập tệp AI đầu vào
             .convertTo("converted.png")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp AI thành tệp PNG        
+            .convert();                     // Chuyển đổi tệp AI thành tệp PNG        
         ```            
 
 ############################# Actions ############################

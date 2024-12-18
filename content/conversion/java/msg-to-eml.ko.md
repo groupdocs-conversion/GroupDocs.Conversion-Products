@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.msg")              // MSG 파일을 입력 설정
             .convertTo("converted.eml")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // MSG 파일을 EML 파일로 변환        
+            .convert();                     // MSG 파일을 EML 파일로 변환        
         ```            
 
 ############################# Actions ############################

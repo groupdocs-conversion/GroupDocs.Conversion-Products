@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.psd")              // PSD 파일을 입력 설정
             .convertTo("converted.pptx")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // PSD 파일을 PPTX 파일로 변환        
+            .convert();                     // PSD 파일을 PPTX 파일로 변환        
         ```            
 
 ############################# Actions ############################

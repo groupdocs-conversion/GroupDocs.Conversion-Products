@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsx")               // Thiết lập tệp XLSX đầu vào
+            .Load("input.xlsx")             // Thiết lập tệp XLSX đầu vào
             .ConvertTo("converted.tsv")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp XLSX thành tệp TSV        
         ```            

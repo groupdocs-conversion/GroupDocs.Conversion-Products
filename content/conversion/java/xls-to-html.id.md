@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xls")              // Atur file XLS input
             .convertTo("converted.html")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file XLS ke HTML        
+            .convert();                     // Konversi file XLS ke HTML        
         ```            
 
 ############################# Actions ############################

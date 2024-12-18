@@ -22,7 +22,10 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
+      
 ############################# Head ############################
 head_title: "C# .NET document conversion API | Convert PDF, Word, Excel, PPTX, HTML, and images"
 head_description: "C# .NET document conversion API. Convert PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, and image file formats."
@@ -85,7 +88,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "Platform independence"
+  title: "Platforms support"
   description: "GroupDocs.Conversion for .NET supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
@@ -112,6 +115,21 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Windows-specific package"
+      content: |
+        * Supports .NET Framework 4.6.2+ and .NET 6.0
+        * Depends on System.Drawing.Common
+      action: "NuGet download"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
+    # packages loop
+    - title: "Cross-platform package" 
+      content: |
+        * Supports .NET 6.0 and higher versions 
+        * Works on Windows, Linux and macOS 
+      action: "NuGet download" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

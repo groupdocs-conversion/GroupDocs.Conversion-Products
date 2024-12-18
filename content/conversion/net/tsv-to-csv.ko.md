@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tsv")               // TSV 파일을 입력 설정
+            .Load("input.tsv")             // TSV 파일을 입력 설정
             .ConvertTo("converted.csv")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // TSV 파일을 CSV 파일로 변환        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.msg")              // تنظیم فایل ورودی MSG
             .convertTo("converted.txt")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل MSG به TXT        
+            .convert();                     // تبدیل فایل MSG به TXT        
         ```            
 
 ############################# Actions ############################

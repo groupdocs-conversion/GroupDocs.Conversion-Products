@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.tex")               // ตั้งค่าไฟล์ TEX เข้าสู่ระบบ
+            .Load("input.tex")             // ตั้งค่าไฟล์ TEX เข้าสู่ระบบ
             .ConvertTo("converted.pdf")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ TEX เป็นไฟล์ PDF        
         ```            

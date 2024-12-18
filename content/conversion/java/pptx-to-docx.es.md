@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pptx")              // Configurar archivo de entrada PPTX
             .convertTo("converted.docx")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo PPTX a DOCX        
+            .convert();                     // Convertir archivo PPTX a DOCX        
         ```            
 
 ############################# Actions ############################

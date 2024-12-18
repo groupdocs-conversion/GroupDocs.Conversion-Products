@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pptx")              // Thiết lập tệp PPTX đầu vào
             .convertTo("converted.ppt")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp PPTX thành tệp PPT        
+            .convert();                     // Chuyển đổi tệp PPTX thành tệp PPT        
         ```            
 
 ############################# Actions ############################

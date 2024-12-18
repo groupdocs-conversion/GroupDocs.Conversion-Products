@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.eps")               // Set up input EPS file
+            .Load("input.eps")             // Set up input EPS file
             .ConvertTo("converted.jpg")     // Specify output path for converted file
             .Convert();                     // Convert EPS to JPG file        
         ```            

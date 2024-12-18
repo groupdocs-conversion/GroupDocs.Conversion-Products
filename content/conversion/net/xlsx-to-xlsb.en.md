@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlsx")               // Set up input XLSX file
+            .Load("input.xlsx")             // Set up input XLSX file
             .ConvertTo("converted.xlsb")     // Specify output path for converted file
             .Convert();                     // Convert XLSX to XLSB file        
         ```            

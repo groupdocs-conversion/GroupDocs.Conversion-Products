@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.vsdx")               // Configurar arquivo de entrada VSDX
+            .Load("input.vsdx")             // Configurar arquivo de entrada VSDX
             .ConvertTo("converted.pdf")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo VSDX para PDF        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dot")               // Configurar archivo de entrada DOT
+            .Load("input.dot")             // Configurar archivo de entrada DOT
             .ConvertTo("converted.dotx")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo DOT a DOTX        
         ```            

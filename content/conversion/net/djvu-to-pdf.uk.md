@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.djvu")               // Налаштування вхідного файлу DJVU
+            .Load("input.djvu")             // Налаштування вхідного файлу DJVU
             .ConvertTo("converted.pdf")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу DJVU у файл PDF        
         ```            

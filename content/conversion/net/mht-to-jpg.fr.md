@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mht")               // Configurer le fichier MHT d'entrée
+            .Load("input.mht")             // Configurer le fichier MHT d'entrée
             .ConvertTo("converted.jpg")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier MHT en JPG        
         ```            

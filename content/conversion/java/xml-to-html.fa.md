@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // تنظیم فایل ورودی XML
             .convertTo("converted.html")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل XML به HTML        
+            .convert();                     // تبدیل فایل XML به HTML        
         ```            
 
 ############################# Actions ############################

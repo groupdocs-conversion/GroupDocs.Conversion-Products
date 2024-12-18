@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.svg")               // Configurar archivo de entrada SVG
+            .Load("input.svg")             // Configurar archivo de entrada SVG
             .ConvertTo("converted.png")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo SVG a PNG        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.log")              // Richten Sie die Eingabedatei LOG ein
             .convertTo("converted.html")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // LOG in HTML Datei konvertieren        
+            .convert();                     // LOG in HTML Datei konvertieren        
         ```            
 
 ############################# Actions ############################

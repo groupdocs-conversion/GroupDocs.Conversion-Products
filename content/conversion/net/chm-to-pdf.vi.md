@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.chm")               // Thiết lập tệp CHM đầu vào
+            .Load("input.chm")             // Thiết lập tệp CHM đầu vào
             .ConvertTo("converted.pdf")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp CHM thành tệp PDF        
         ```            

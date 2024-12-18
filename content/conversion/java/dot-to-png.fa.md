@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.dot")              // تنظیم فایل ورودی DOT
             .convertTo("converted.png")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل DOT به PNG        
+            .convert();                     // تبدیل فایل DOT به PNG        
         ```            
 
 ############################# Actions ############################

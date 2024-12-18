@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ai")              // Thiết lập tệp AI đầu vào
             .convertTo("converted.svg")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp AI thành tệp SVG        
+            .convert();                     // Chuyển đổi tệp AI thành tệp SVG        
         ```            
 
 ############################# Actions ############################

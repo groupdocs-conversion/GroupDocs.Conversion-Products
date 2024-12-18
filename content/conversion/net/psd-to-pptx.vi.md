@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.psd")               // Thiết lập tệp PSD đầu vào
+            .Load("input.psd")             // Thiết lập tệp PSD đầu vào
             .ConvertTo("converted.pptx")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp PSD thành tệp PPTX        
         ```            

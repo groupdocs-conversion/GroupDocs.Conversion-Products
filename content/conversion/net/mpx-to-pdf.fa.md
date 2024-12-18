@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mpx")               // تنظیم فایل ورودی MPX
+            .Load("input.mpx")             // تنظیم فایل ورودی MPX
             .ConvertTo("converted.pdf")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل MPX به PDF        
         ```            

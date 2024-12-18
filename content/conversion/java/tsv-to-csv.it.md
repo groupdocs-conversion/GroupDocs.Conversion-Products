@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tsv")              // Imposta il file TSV di input
             .convertTo("converted.csv")    // Specificare il percorso di output per il file convertito
-            .convert();                    // Converti il file TSV in CSV        
+            .convert();                     // Converti il file TSV in CSV        
         ```            
 
 ############################# Actions ############################

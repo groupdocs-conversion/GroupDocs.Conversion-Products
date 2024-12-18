@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.igs")               // Configurar archivo de entrada IGS
+            .Load("input.igs")             // Configurar archivo de entrada IGS
             .ConvertTo("converted.pdf")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo IGS a PDF        
         ```            

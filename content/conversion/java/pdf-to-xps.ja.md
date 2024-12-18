@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // PDF ファイルを入力設定
             .convertTo("converted.xps")    // 変換されたファイルの出力パスを指定
-            .convert();                    // PDF ファイルを XPS ファイルに変換        
+            .convert();                     // PDF ファイルを XPS ファイルに変換        
         ```            
 
 ############################# Actions ############################

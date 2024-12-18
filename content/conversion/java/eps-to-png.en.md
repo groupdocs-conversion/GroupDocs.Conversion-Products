@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eps")              // Set up input EPS file
             .convertTo("converted.png")    // Specify output path for converted file
-            .convert();                    // Convert EPS to PNG file        
+            .convert();                     // Convert EPS to PNG file        
         ```            
 
 ############################# Actions ############################

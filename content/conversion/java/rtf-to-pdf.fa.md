@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.rtf")              // تنظیم فایل ورودی RTF
             .convertTo("converted.pdf")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل RTF به PDF        
+            .convert();                     // تبدیل فایل RTF به PDF        
         ```            
 
 ############################# Actions ############################

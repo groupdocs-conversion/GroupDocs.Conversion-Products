@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Configurar archivo de entrada PDF
             .convertTo("converted.tiff")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo PDF a TIFF        
+            .convert();                     // Convertir archivo PDF a TIFF        
         ```            
 
 ############################# Actions ############################

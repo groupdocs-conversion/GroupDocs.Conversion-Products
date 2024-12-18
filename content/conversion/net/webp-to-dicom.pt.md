@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.webp")               // Configurar arquivo de entrada WEBP
+            .Load("input.webp")             // Configurar arquivo de entrada WEBP
             .ConvertTo("converted.dicom")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo WEBP para DICOM        
         ```            

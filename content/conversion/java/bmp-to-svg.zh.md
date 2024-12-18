@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.bmp")              // 设置输入 BMP 文件
             .convertTo("converted.svg")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 BMP 转换为 SVG 文件        
+            .convert();                     // 将 BMP 转换为 SVG 文件        
         ```            
 
 ############################# Actions ############################

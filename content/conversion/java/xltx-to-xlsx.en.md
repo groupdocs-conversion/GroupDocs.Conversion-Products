@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xltx")              // Set up input XLTX file
             .convertTo("converted.xlsx")    // Specify output path for converted file
-            .convert();                    // Convert XLTX to XLSX file        
+            .convert();                     // Convert XLTX to XLSX file        
         ```            
 
 ############################# Actions ############################

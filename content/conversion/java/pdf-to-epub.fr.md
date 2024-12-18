@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pdf")              // Configurer le fichier PDF d'entrée
             .convertTo("converted.epub")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier PDF en EPUB        
+            .convert();                     // Convertir le fichier PDF en EPUB        
         ```            
 
 ############################# Actions ############################

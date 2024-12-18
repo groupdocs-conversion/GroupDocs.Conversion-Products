@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.docx")               // 设置输入 DOCX 文件
+            .Load("input.docx")             // 设置输入 DOCX 文件
             .ConvertTo("converted.tiff")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 DOCX 转换为 TIFF 文件        
         ```            

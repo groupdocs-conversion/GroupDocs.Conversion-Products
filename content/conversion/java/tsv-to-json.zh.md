@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.tsv")              // 设置输入 TSV 文件
             .convertTo("converted.json")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 TSV 转换为 JSON 文件        
+            .convert();                     // 将 TSV 转换为 JSON 文件        
         ```            
 
 ############################# Actions ############################

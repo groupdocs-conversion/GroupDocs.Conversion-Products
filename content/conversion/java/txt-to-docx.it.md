@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.txt")              // Imposta il file TXT di input
             .convertTo("converted.docx")    // Specificare il percorso di output per il file convertito
-            .convert();                    // Converti il file TXT in DOCX        
+            .convert();                     // Converti il file TXT in DOCX        
         ```            
 
 ############################# Actions ############################

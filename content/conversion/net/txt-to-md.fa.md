@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.txt")               // تنظیم فایل ورودی TXT
+            .Load("input.txt")             // تنظیم فایل ورودی TXT
             .ConvertTo("converted.md")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل TXT به MD        
         ```            

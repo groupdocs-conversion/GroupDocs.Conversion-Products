@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mhtml")               // Configurer le fichier MHTML d'entrée
+            .Load("input.mhtml")             // Configurer le fichier MHTML d'entrée
             .ConvertTo("converted.pdf")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier MHTML en PDF        
         ```            

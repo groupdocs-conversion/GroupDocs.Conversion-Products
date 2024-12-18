@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.cgm")              // Atur file CGM input
             .convertTo("converted.png")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file CGM ke PNG        
+            .convert();                     // Konversi file CGM ke PNG        
         ```            
 
 ############################# Actions ############################

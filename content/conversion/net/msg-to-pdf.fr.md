@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.msg")               // Configurer le fichier MSG d'entrée
+            .Load("input.msg")             // Configurer le fichier MSG d'entrée
             .ConvertTo("converted.pdf")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier MSG en PDF        
         ```            

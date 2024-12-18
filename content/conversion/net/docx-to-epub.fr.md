@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.docx")               // Configurer le fichier DOCX d'entrée
+            .Load("input.docx")             // Configurer le fichier DOCX d'entrée
             .ConvertTo("converted.epub")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier DOCX en EPUB        
         ```            

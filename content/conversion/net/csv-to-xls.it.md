@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.csv")               // Imposta il file CSV di input
+            .Load("input.csv")             // Imposta il file CSV di input
             .ConvertTo("converted.xls")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file CSV in XLS        
         ```            

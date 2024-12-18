@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jpg")               // Configurer le fichier JPG d'entrée
+            .Load("input.jpg")             // Configurer le fichier JPG d'entrée
             .ConvertTo("converted.jpg")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier JPG en JPG        
         ```            

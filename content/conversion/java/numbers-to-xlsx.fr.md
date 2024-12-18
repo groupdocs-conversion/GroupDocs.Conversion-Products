@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.numbers")              // Configurer le fichier NUMBERS d'entrée
             .convertTo("converted.xlsx")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier NUMBERS en XLSX        
+            .convert();                     // Convertir le fichier NUMBERS en XLSX        
         ```            
 
 ############################# Actions ############################

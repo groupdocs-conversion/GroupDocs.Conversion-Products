@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.psd")               // ตั้งค่าไฟล์ PSD เข้าสู่ระบบ
+            .Load("input.psd")             // ตั้งค่าไฟล์ PSD เข้าสู่ระบบ
             .ConvertTo("converted.png")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ PSD เป็นไฟล์ PNG        
         ```            

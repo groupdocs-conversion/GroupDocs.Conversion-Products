@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pptx")              // PPTX ファイルを入力設定
             .convertTo("converted.md")    // 変換されたファイルの出力パスを指定
-            .convert();                    // PPTX ファイルを MD ファイルに変換        
+            .convert();                     // PPTX ファイルを MD ファイルに変換        
         ```            
 
 ############################# Actions ############################

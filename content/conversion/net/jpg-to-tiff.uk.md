@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.jpg")               // Налаштування вхідного файлу JPG
+            .Load("input.jpg")             // Налаштування вхідного файлу JPG
             .ConvertTo("converted.tiff")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу JPG у файл TIFF        
         ```            

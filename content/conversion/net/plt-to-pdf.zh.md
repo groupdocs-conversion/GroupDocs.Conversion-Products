@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.plt")               // 设置输入 PLT 文件
+            .Load("input.plt")             // 设置输入 PLT 文件
             .ConvertTo("converted.pdf")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 PLT 转换为 PDF 文件        
         ```            

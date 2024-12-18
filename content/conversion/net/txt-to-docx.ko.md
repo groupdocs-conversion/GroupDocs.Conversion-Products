@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.txt")               // TXT 파일을 입력 설정
+            .Load("input.txt")             // TXT 파일을 입력 설정
             .ConvertTo("converted.docx")     // 변환된 파일의 출력 경로 지정
             .Convert();                     // TXT 파일을 DOCX 파일로 변환        
         ```            

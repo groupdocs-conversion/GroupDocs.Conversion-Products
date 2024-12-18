@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.md")              // تنظیم فایل ورودی MD
             .convertTo("converted.docx")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل MD به DOCX        
+            .convert();                     // تبدیل فایل MD به DOCX        
         ```            
 
 ############################# Actions ############################

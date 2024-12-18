@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.gif")               // Configurar arquivo de entrada GIF
+            .Load("input.gif")             // Configurar arquivo de entrada GIF
             .ConvertTo("converted.bmp")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo GIF para BMP        
         ```            

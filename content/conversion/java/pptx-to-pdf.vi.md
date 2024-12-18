@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pptx")              // Thiết lập tệp PPTX đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp PPTX thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp PPTX thành tệp PDF        
         ```            
 
 ############################# Actions ############################

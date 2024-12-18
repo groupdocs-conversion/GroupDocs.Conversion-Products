@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.html")               // Configurar arquivo de entrada HTML
+            .Load("input.html")             // Configurar arquivo de entrada HTML
             .ConvertTo("converted.emf")     // Especificar o caminho de saída para o arquivo convertido
             .Convert();                     // Converter arquivo HTML para EMF        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.txt")              // Atur file TXT input
             .convertTo("converted.pdf")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file TXT ke PDF        
+            .convert();                     // Konversi file TXT ke PDF        
         ```            
 
 ############################# Actions ############################

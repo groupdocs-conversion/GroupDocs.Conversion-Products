@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // ตั้งค่าไฟล์ JSON เข้าสู่ระบบ
             .convertTo("converted.xls")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ JSON เป็นไฟล์ XLS        
+            .convert();                     // แปลงไฟล์ JSON เป็นไฟล์ XLS        
         ```            
 
 ############################# Actions ############################

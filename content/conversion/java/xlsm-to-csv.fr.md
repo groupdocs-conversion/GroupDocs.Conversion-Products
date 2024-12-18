@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsm")              // Configurer le fichier XLSM d'entrée
             .convertTo("converted.csv")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier XLSM en CSV        
+            .convert();                     // Convertir le fichier XLSM en CSV        
         ```            
 
 ############################# Actions ############################

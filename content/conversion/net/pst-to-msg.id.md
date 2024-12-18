@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pst")               // Atur file PST input
+            .Load("input.pst")             // Atur file PST input
             .ConvertTo("converted.msg")     // Tentukan jalur output untuk file yang dikonversi
             .Convert();                     // Konversi file PST ke MSG        
         ```            

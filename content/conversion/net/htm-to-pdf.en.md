@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.htm")               // Set up input HTM file
+            .Load("input.htm")             // Set up input HTM file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert HTM to PDF file        
         ```            

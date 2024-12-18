@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsm")              // Atur file XLSM input
             .convertTo("converted.xlsx")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file XLSM ke XLSX        
+            .convert();                     // Konversi file XLSM ke XLSX        
         ```            
 
 ############################# Actions ############################

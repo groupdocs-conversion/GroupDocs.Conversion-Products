@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.odt")               // Configurer le fichier ODT d'entrée
+            .Load("input.odt")             // Configurer le fichier ODT d'entrée
             .ConvertTo("converted.docx")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier ODT en DOCX        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ifc")               // Thiết lập tệp IFC đầu vào
+            .Load("input.ifc")             // Thiết lập tệp IFC đầu vào
             .ConvertTo("converted.pdf")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp IFC thành tệp PDF        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Richten Sie die Eingabedatei HTML ein
             .convertTo("converted.png")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // HTML in PNG Datei konvertieren        
+            .convert();                     // HTML in PNG Datei konvertieren        
         ```            
 
 ############################# Actions ############################

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.bmp")               // ตั้งค่าไฟล์ BMP เข้าสู่ระบบ
+            .Load("input.bmp")             // ตั้งค่าไฟล์ BMP เข้าสู่ระบบ
             .ConvertTo("converted.tiff")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ BMP เป็นไฟล์ TIFF        
         ```            

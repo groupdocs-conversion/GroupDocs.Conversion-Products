@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // تنظیم فایل ورودی XML
             .convertTo("converted.doc")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل XML به DOC        
+            .convert();                     // تبدیل فایل XML به DOC        
         ```            
 
 ############################# Actions ############################

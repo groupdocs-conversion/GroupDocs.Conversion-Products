@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pcl")               // Configurar archivo de entrada PCL
+            .Load("input.pcl")             // Configurar archivo de entrada PCL
             .ConvertTo("converted.html")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo PCL a HTML        
         ```            

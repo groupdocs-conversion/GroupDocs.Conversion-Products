@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.rtf")              // Atur file RTF input
             .convertTo("converted.docx")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file RTF ke DOCX        
+            .convert();                     // Konversi file RTF ke DOCX        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.numbers")              // Configurar arquivo de entrada NUMBERS
             .convertTo("converted.csv")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo NUMBERS para CSV        
+            .convert();                     // Converter arquivo NUMBERS para CSV        
         ```            
 
 ############################# Actions ############################

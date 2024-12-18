@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.dotx")               // DOTX ファイルを入力設定
+            .Load("input.dotx")             // DOTX ファイルを入力設定
             .ConvertTo("converted.pdf")     // 変換されたファイルの出力パスを指定
             .Convert();                     // DOTX ファイルを PDF ファイルに変換        
         ```            

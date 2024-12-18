@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.djvu")               // Set up input DJVU file
+            .Load("input.djvu")             // Set up input DJVU file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert DJVU to PDF file        
         ```            

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.numbers")              // NUMBERS ファイルを入力設定
             .convertTo("converted.xlsx")    // 変換されたファイルの出力パスを指定
-            .convert();                    // NUMBERS ファイルを XLSX ファイルに変換        
+            .convert();                     // NUMBERS ファイルを XLSX ファイルに変換        
         ```            
 
 ############################# Actions ############################

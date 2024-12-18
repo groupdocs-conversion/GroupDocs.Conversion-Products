@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // Thiết lập tệp XML đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp XML thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp XML thành tệp PDF        
         ```            
 
 ############################# Actions ############################

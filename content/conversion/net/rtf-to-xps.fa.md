@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.rtf")               // تنظیم فایل ورودی RTF
+            .Load("input.rtf")             // تنظیم فایل ورودی RTF
             .ConvertTo("converted.xps")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل RTF به XPS        
         ```            

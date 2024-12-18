@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.doc")               // ตั้งค่าไฟล์ DOC เข้าสู่ระบบ
+            .Load("input.doc")             // ตั้งค่าไฟล์ DOC เข้าสู่ระบบ
             .ConvertTo("converted.pdf")     // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
             .Convert();                     // แปลงไฟล์ DOC เป็นไฟล์ PDF        
         ```            

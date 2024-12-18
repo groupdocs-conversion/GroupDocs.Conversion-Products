@@ -22,7 +22,10 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
+      
 ############################# Head ############################
 head_title: "API การแปลงเอกสาร C# .NET | แปลง PDF, Word, Excel, PPTX, HTML และรูปภาพ"
 head_description: "API การแปลงเอกสาร C# .NET แปลง PDF, Word, DOC, DOCX, Excel, สเปรดชีต, PPT, PPTX, HTML, PSD, MPT, MPP, อีเมล, MSG, EMLX, AutoCAD และรูปแบบไฟล์รูปภาพ"
@@ -85,7 +88,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "ความเป็นอิสระของแพลตฟอร์ม"
+  title: "รองรับแพลตฟอร์ม"
   description: "GroupDocs.Conversion สำหรับ .NET รองรับระบบปฏิบัติการ เฟรมเวิร์ก และตัวจัดการแพ็คเกจต่อไปนี้"
   items:
     # platform loop
@@ -112,6 +115,21 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "แพ็คเกจเฉพาะของ Windows"
+      content: |
+        * รองรับ .NET Framework 4.6.2+ และ .NET 6.0
+        * ขึ้นอยู่กับระบบ Drawing.Common
+      action: "ดาวน์โหลด NuGet"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
+    # packages loop
+    - title: "แพ็คเกจข้ามแพลตฟอร์ม" 
+      content: |
+        * รองรับ .NET 6.0 และเวอร์ชันที่สูงกว่า 
+        * ทำงานบน Windows, Linux และ macOS 
+      action: "ดาวน์โหลด NuGet" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

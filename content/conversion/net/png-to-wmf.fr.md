@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.png")               // Configurer le fichier PNG d'entrée
+            .Load("input.png")             // Configurer le fichier PNG d'entrée
             .ConvertTo("converted.wmf")     // Spécifier le chemin de sortie pour le fichier converti
             .Convert();                     // Convertir le fichier PNG en WMF        
         ```            

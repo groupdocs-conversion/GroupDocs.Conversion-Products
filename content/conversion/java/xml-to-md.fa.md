@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // تنظیم فایل ورودی XML
             .convertTo("converted.md")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل XML به MD        
+            .convert();                     // تبدیل فایل XML به MD        
         ```            
 
 ############################# Actions ############################

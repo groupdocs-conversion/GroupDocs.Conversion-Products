@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xps")              // Configurer le fichier XPS d'entrée
             .convertTo("converted.pdf")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier XPS en PDF        
+            .convert();                     // Convertir le fichier XPS en PDF        
         ```            
 
 ############################# Actions ############################

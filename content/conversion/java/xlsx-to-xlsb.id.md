@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // Atur file XLSX input
             .convertTo("converted.xlsb")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file XLSX ke XLSB        
+            .convert();                     // Konversi file XLSX ke XLSB        
         ```            
 
 ############################# Actions ############################

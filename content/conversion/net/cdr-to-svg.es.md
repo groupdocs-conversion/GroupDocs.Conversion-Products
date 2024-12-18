@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cdr")               // Configurar archivo de entrada CDR
+            .Load("input.cdr")             // Configurar archivo de entrada CDR
             .ConvertTo("converted.svg")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo CDR a SVG        
         ```            

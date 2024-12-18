@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xls")              // Richten Sie die Eingabedatei XLS ein
             .convertTo("converted.xlsx")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // XLS in XLSX Datei konvertieren        
+            .convert();                     // XLS in XLSX Datei konvertieren        
         ```            
 
 ############################# Actions ############################

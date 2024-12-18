@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.pptx")               // Thiết lập tệp PPTX đầu vào
+            .Load("input.pptx")             // Thiết lập tệp PPTX đầu vào
             .ConvertTo("converted.md")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp PPTX thành tệp MD        
         ```            

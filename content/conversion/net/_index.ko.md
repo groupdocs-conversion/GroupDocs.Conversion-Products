@@ -22,7 +22,10 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
+      
 ############################# Head ############################
 head_title: "C# .NET 문서 변환 API | PDF, Word, Excel, PPTX, HTML 및 이미지 변환"
 head_description: "C# .NET 문서 변환 API. PDF, Word, DOC, DOCX, Excel, 스프레드시트, PPT, PPTX, HTML, PSD, MPT, MPP, 이메일, MSG, EMLX, AutoCAD 및 이미지 파일 형식을 변환합니다."
@@ -85,7 +88,7 @@ overview:
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "플랫폼 독립성"
+  title: "플랫폼 지원"
   description: ".NET용 GroupDocs.Conversion은 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다."
   items:
     # platform loop
@@ -112,6 +115,21 @@ platforms:
     # platform loop
     - title: "NuGet"
       image: "nuget"
+  packages:
+    # packages loop
+    - title: "Windows 전용 패키지"
+      content: |
+        * .NET Framework 4.6.2+ 및 .NET 6.0 지원
+        * System. Drawing.Common에 따라 다릅니다.
+      action: "NuGet 다운로드"
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
+    # packages loop
+    - title: "크로스 플랫폼 패키지" 
+      content: |
+        * .NET 6.0 이상 버전 지원 
+        * Windows, Linux 및 macOS에서 작동 
+      action: "NuGet 다운로드" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
 
 ############################# File formats ############################
 formats:

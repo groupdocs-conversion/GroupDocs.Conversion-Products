@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.jpg")              // Atur file JPG input
             .convertTo("converted.ppt")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file JPG ke PPT        
+            .convert();                     // Konversi file JPG ke PPT        
         ```            
 
 ############################# Actions ############################

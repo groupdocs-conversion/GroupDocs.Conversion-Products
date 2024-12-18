@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.psd")              // Atur file PSD input
             .convertTo("converted.jpg")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file PSD ke JPG        
+            .convert();                     // Konversi file PSD ke JPG        
         ```            
 
 ############################# Actions ############################

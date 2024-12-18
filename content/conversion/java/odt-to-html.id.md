@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.odt")              // Atur file ODT input
             .convertTo("converted.html")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file ODT ke HTML        
+            .convert();                     // Konversi file ODT ke HTML        
         ```            
 
 ############################# Actions ############################

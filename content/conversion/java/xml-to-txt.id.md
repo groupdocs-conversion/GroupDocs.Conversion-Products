@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xml")              // Atur file XML input
             .convertTo("converted.txt")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file XML ke TXT        
+            .convert();                     // Konversi file XML ke TXT        
         ```            
 
 ############################# Actions ############################

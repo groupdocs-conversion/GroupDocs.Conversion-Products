@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xls")               // Set up input XLS file
+            .Load("input.xls")             // Set up input XLS file
             .ConvertTo("converted.html")     // Specify output path for converted file
             .Convert();                     // Convert XLS to HTML file        
         ```            

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.webp")               // 设置输入 WEBP 文件
+            .Load("input.webp")             // 设置输入 WEBP 文件
             .ConvertTo("converted.jpg")     // 为转换后的文件指定输出路径
             .Convert();                     // 将 WEBP 转换为 JPG 文件        
         ```            

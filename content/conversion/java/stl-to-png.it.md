@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.stl")              // Imposta il file STL di input
             .convertTo("converted.png")    // Specificare il percorso di output per il file convertito
-            .convert();                    // Converti il file STL in PNG        
+            .convert();                     // Converti il file STL in PNG        
         ```            
 
 ############################# Actions ############################

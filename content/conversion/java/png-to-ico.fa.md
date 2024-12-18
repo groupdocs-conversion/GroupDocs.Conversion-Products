@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.png")              // تنظیم فایل ورودی PNG
             .convertTo("converted.ico")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل PNG به ICO        
+            .convert();                     // تبدیل فایل PNG به ICO        
         ```            
 
 ############################# Actions ############################

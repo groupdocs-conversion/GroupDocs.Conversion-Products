@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.txt")              // ตั้งค่าไฟล์ TXT เข้าสู่ระบบ
             .convertTo("converted.html")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ TXT เป็นไฟล์ HTML        
+            .convert();                     // แปลงไฟล์ TXT เป็นไฟล์ HTML        
         ```            
 
 ############################# Actions ############################

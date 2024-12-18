@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mhtml")               // Set up input MHTML file
+            .Load("input.mhtml")             // Set up input MHTML file
             .ConvertTo("converted.jpg")     // Specify output path for converted file
             .Convert();                     // Convert MHTML to JPG file        
         ```            

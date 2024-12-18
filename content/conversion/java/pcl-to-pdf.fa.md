@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.pcl")              // تنظیم فایل ورودی PCL
             .convertTo("converted.pdf")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل PCL به PDF        
+            .convert();                     // تبدیل فایل PCL به PDF        
         ```            
 
 ############################# Actions ############################

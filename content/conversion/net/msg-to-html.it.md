@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.msg")               // Imposta il file MSG di input
+            .Load("input.msg")             // Imposta il file MSG di input
             .ConvertTo("converted.html")     // Specificare il percorso di output per il file convertito
             .Convert();                     // Converti il file MSG in HTML        
         ```            

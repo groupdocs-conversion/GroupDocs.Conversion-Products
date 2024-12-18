@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // Atur file XLSX input
             .convertTo("converted.ods")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file XLSX ke ODS        
+            .convert();                     // Konversi file XLSX ke ODS        
         ```            
 
 ############################# Actions ############################

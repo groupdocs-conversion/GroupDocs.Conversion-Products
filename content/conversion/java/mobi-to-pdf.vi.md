@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mobi")              // Thiết lập tệp MOBI đầu vào
             .convertTo("converted.pdf")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp MOBI thành tệp PDF        
+            .convert();                     // Chuyển đổi tệp MOBI thành tệp PDF        
         ```            
 
 ############################# Actions ############################

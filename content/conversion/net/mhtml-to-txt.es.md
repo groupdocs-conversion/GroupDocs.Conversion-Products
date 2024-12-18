@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mhtml")               // Configurar archivo de entrada MHTML
+            .Load("input.mhtml")             // Configurar archivo de entrada MHTML
             .ConvertTo("converted.txt")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo MHTML a TXT        
         ```            

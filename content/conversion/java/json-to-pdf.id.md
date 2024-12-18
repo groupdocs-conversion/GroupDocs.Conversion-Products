@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // Atur file JSON input
             .convertTo("converted.pdf")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file JSON ke PDF        
+            .convert();                     // Konversi file JSON ke PDF        
         ```            
 
 ############################# Actions ############################

@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xps")               // Налаштування вхідного файлу XPS
+            .Load("input.xps")             // Налаштування вхідного файлу XPS
             .ConvertTo("converted.pdf")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу XPS у файл PDF        
         ```            

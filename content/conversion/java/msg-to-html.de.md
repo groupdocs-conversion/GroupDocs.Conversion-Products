@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.msg")              // Richten Sie die Eingabedatei MSG ein
             .convertTo("converted.html")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // MSG in HTML Datei konvertieren        
+            .convert();                     // MSG in HTML Datei konvertieren        
         ```            
 
 ############################# Actions ############################

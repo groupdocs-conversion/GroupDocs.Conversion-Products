@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.ppsm")               // تنظیم فایل ورودی PPSM
+            .Load("input.ppsm")             // تنظیم فایل ورودی PPSM
             .ConvertTo("converted.ppt")     // مشخص کردن مسیر خروجی برای فایل تبدیل شده
             .Convert();                     // تبدیل فایل PPSM به PPT        
         ```            

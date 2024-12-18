@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.mpp")               // Configurar archivo de entrada MPP
+            .Load("input.mpp")             // Configurar archivo de entrada MPP
             .ConvertTo("converted.pdf")     // Especificar la ruta de salida para el archivo convertido
             .Convert();                     // Convertir archivo MPP a PDF        
         ```            

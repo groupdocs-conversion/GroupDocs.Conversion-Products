@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xltx")              // ตั้งค่าไฟล์ XLTX เข้าสู่ระบบ
             .convertTo("converted.xlsx")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ XLTX เป็นไฟล์ XLSX        
+            .convert();                     // แปลงไฟล์ XLTX เป็นไฟล์ XLSX        
         ```            
 
 ############################# Actions ############################

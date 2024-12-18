@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mobi")              // MOBI 파일을 입력 설정
             .convertTo("converted.epub")    // 변환된 파일의 출력 경로 지정
-            .convert();                    // MOBI 파일을 EPUB 파일로 변환        
+            .convert();                     // MOBI 파일을 EPUB 파일로 변환        
         ```            
 
 ############################# Actions ############################

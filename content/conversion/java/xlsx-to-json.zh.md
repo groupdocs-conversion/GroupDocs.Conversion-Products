@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // 设置输入 XLSX 文件
             .convertTo("converted.json")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 XLSX 转换为 JSON 文件        
+            .convert();                     // 将 XLSX 转换为 JSON 文件        
         ```            
 
 ############################# Actions ############################

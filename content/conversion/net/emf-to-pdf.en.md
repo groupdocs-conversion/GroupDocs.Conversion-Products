@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.emf")               // Set up input EMF file
+            .Load("input.emf")             // Set up input EMF file
             .ConvertTo("converted.pdf")     // Specify output path for converted file
             .Convert();                     // Convert EMF to PDF file        
         ```            

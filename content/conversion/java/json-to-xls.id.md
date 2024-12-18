@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // Atur file JSON input
             .convertTo("converted.xls")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file JSON ke XLS        
+            .convert();                     // Konversi file JSON ke XLS        
         ```            
 
 ############################# Actions ############################

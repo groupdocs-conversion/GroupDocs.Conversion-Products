@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Atur file HTML input
             .convertTo("converted.mhtml")    // Tentukan jalur output untuk file yang dikonversi
-            .convert();                    // Konversi file HTML ke MHTML        
+            .convert();                     // Konversi file HTML ke MHTML        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mhtml")              // Налаштування вхідного файлу MHTML
             .convertTo("converted.html")    // Вказівка шляху виведення для конвертованого файлу
-            .convert();                    // Конвертування файлу MHTML у файл HTML        
+            .convert();                     // Конвертування файлу MHTML у файл HTML        
         ```            
 
 ############################# Actions ############################

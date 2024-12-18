@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.ppt")              // Configurer le fichier PPT d'entrée
             .convertTo("converted.pptx")    // Spécifier le chemin de sortie pour le fichier converti
-            .convert();                    // Convertir le fichier PPT en PPTX        
+            .convert();                     // Convertir le fichier PPT en PPTX        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.psd")              // Thiết lập tệp PSD đầu vào
             .convertTo("converted.png")    // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
-            .convert();                    // Chuyển đổi tệp PSD thành tệp PNG        
+            .convert();                     // Chuyển đổi tệp PSD thành tệp PNG        
         ```            
 
 ############################# Actions ############################

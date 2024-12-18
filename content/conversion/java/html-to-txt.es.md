@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Configurar archivo de entrada HTML
             .convertTo("converted.txt")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo HTML a TXT        
+            .convert();                     // Convertir archivo HTML a TXT        
         ```            
 
 ############################# Actions ############################

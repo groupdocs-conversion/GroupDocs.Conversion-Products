@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // HTML ファイルを入力設定
             .convertTo("converted.ppt")    // 変換されたファイルの出力パスを指定
-            .convert();                    // HTML ファイルを PPT ファイルに変換        
+            .convert();                     // HTML ファイルを PPT ファイルに変換        
         ```            
 
 ############################# Actions ############################

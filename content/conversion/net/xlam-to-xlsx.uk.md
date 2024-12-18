@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.xlam")               // Налаштування вхідного файлу XLAM
+            .Load("input.xlam")             // Налаштування вхідного файлу XLAM
             .ConvertTo("converted.xlsx")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу XLAM у файл XLSX        
         ```            

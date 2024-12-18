@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.wmf")              // Richten Sie die Eingabedatei WMF ein
             .convertTo("converted.jpg")    // Geben Sie den Ausgabepfad für die konvertierte Datei an
-            .convert();                    // WMF in JPG Datei konvertieren        
+            .convert();                     // WMF in JPG Datei konvertieren        
         ```            
 
 ############################# Actions ############################

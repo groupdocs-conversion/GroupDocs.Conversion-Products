@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.mht")              // ตั้งค่าไฟล์ MHT เข้าสู่ระบบ
             .convertTo("converted.pdf")    // ระบุเส้นทางการเข้าถึงสำหรับไฟล์ที่แปลง
-            .convert();                    // แปลงไฟล์ MHT เป็นไฟล์ PDF        
+            .convert();                     // แปลงไฟล์ MHT เป็นไฟล์ PDF        
         ```            
 
 ############################# Actions ############################

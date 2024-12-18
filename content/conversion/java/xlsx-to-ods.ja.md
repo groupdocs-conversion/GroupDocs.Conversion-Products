@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.xlsx")              // XLSX ファイルを入力設定
             .convertTo("converted.ods")    // 変換されたファイルの出力パスを指定
-            .convert();                    // XLSX ファイルを ODS ファイルに変換        
+            .convert();                     // XLSX ファイルを ODS ファイルに変換        
         ```            
 
 ############################# Actions ############################

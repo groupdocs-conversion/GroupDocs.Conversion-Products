@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.docm")               // Налаштування вхідного файлу DOCM
+            .Load("input.docm")             // Налаштування вхідного файлу DOCM
             .ConvertTo("converted.pdf")     // Вказівка шляху виведення для конвертованого файлу
             .Convert();                     // Конвертування файлу DOCM у файл PDF        
         ```            

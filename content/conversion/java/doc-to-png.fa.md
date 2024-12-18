@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.doc")              // تنظیم فایل ورودی DOC
             .convertTo("converted.png")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل DOC به PNG        
+            .convert();                     // تبدیل فایل DOC به PNG        
         ```            
 
 ############################# Actions ############################

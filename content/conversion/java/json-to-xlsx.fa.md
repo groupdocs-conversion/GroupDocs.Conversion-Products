@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.json")              // تنظیم فایل ورودی JSON
             .convertTo("converted.xlsx")    // مشخص کردن مسیر خروجی برای فایل تبدیل شده
-            .convert();                    // تبدیل فایل JSON به XLSX        
+            .convert();                     // تبدیل فایل JSON به XLSX        
         ```            
 
 ############################# Actions ############################

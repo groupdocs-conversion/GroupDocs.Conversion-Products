@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.cf2")               // Thiết lập tệp CF2 đầu vào
+            .Load("input.cf2")             // Thiết lập tệp CF2 đầu vào
             .ConvertTo("converted.pdf")     // Chỉ định đường dẫn đầu ra cho tệp đã chuyển đổi
             .Convert();                     // Chuyển đổi tệp CF2 thành tệp PDF        
         ```            

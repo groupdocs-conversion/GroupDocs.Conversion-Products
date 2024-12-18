@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.html")              // Configurar archivo de entrada HTML
             .convertTo("converted.gif")    // Especificar la ruta de salida para el archivo convertido
-            .convert();                    // Convertir archivo HTML a GIF        
+            .convert();                     // Convertir archivo HTML a GIF        
         ```            
 
 ############################# Actions ############################

@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.cdr")              // 设置输入 CDR 文件
             .convertTo("converted.png")    // 为转换后的文件指定输出路径
-            .convert();                    // 将 CDR 转换为 PNG 文件        
+            .convert();                     // 将 CDR 转换为 PNG 文件        
         ```            
 
 ############################# Actions ############################

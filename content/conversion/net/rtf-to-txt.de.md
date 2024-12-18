@@ -68,7 +68,7 @@ steps:
       content: |
         ```csharp {style=abap}
         FluentConverter
-            .Load("input.rtf")               // Richten Sie die Eingabedatei RTF ein
+            .Load("input.rtf")             // Richten Sie die Eingabedatei RTF ein
             .ConvertTo("converted.txt")     // Geben Sie den Ausgabepfad für die konvertierte Datei an
             .Convert();                     // RTF in TXT Datei konvertieren        
         ```            

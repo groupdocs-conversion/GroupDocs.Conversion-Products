@@ -85,7 +85,7 @@ steps:
         new Converter()
             .load("input.eps")              // Configurar arquivo de entrada EPS
             .convertTo("converted.svg")    // Especificar o caminho de saída para o arquivo convertido
-            .convert();                    // Converter arquivo EPS para SVG        
+            .convert();                     // Converter arquivo EPS para SVG        
         ```            
 
 ############################# Actions ############################

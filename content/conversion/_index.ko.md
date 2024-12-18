@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
 layout: "family"
-date: 2024-02-27T06:39:57
+date: 2024-11-11T06:39:57
 draft: false
 
 product: "Conversion"
@@ -82,6 +82,24 @@ supported_platforms:
         - content:  "3천 개 이상의 변환 쌍"
           rows: "1"
 
+    # supported_platforms loop
+    - title: "Python"
+      description: "GroupDocs.Conversion for Python"
+      color: "yellow"
+      tag: "python-net"
+      link: "/conversion/python-net/"
+      features_link: "https://docs.groupdocs.com/conversion/python-net/system-requirements/"
+      features:
+        # features loop
+        - content: "Python 3.9+  <br>  and .Net 6+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, macOS"
+          rows: "1"
+        # features loop
+        - content:  "3천 개 이상의 변환 쌍"
+          rows: "1"
+
 
 ############################# Features ############################
 
@@ -116,7 +134,7 @@ features:
 code_samples:
   enable: true
   title: "GroupDocs.Conversion 코드 샘플"
-  description: "C#, Java, TypeScript에서 일반적인 GroupDocs.Conversion 작업의 사용 사례"
+  description: "C#, Java, TypeScript, Python에서 일반적인 GroupDocs.Conversion 작업의 사용 사례"
   items:
     # code sample loop
     - title: "몇 줄의 코드로 PDF를 DOCX로 변환"
@@ -160,6 +178,17 @@ code_samples:
             const options = new groupdocs.conversion.WordProcessingConvertOptions();
             // DOCX 형식으로 변환합니다.
             converter.convert("converted.docx", options);
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            # 소스 PDF 파일을 로드합니다.
+            converter = Converter("sample.pdf")
+            # DOCX 형식의 변환 옵션을 설정합니다.
+            convert_options = WordProcessingConvertOptions()
+            # DOCX 형식으로 변환합니다.
+            converter.convert("converted.docx", convert_options);
             ```
 
 
@@ -252,14 +281,18 @@ actions:
     - title: ".NET"
       link: "/conversion/net/"
       color: "blue"
-        #  loop
+    #  loop
     - title: "Java"
       link: "/conversion/java/"
       color: "red"
-        #  loop
+    #  loop
     - title: "Node.js"
       link: "/conversion/nodejs-java/"
       color: "green"
+    #  loop
+    - title: "Python"
+      link: "/conversion/python-net/"
+      color: "yellow"
 
 
 ############################# Faq ############################
@@ -304,7 +337,6 @@ cloud_links:
       title: "GroupDocs.Conversion Cloud for cURL"
       link: "https://products.groupdocs.cloud/conversion/curl"
       content: "cURL RESTful 파일 변환 API를 활용하여 Microsoft Office, PDF, 이메일, 프로젝트, HTML 등 다양한 파일 형식을 응용 프로그램 내에서 쉽게 변환합니다."
-
     #  loop
     - icon: "groupdocs_conversion-for-net"
       title: "GroupDocs.Conversion Cloud for .NET"

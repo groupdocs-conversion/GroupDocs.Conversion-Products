@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
 layout: "family"
-date: 2024-02-27T06:39:57
+date: 2024-11-11T06:39:57
 draft: false
 
 product: "Conversion"
@@ -82,6 +82,24 @@ supported_platforms:
         - content:  "3K+ Konvertierungspaare"
           rows: "1"
 
+    # supported_platforms loop
+    - title: "Python"
+      description: "GroupDocs.Conversion for Python"
+      color: "yellow"
+      tag: "python-net"
+      link: "/conversion/python-net/"
+      features_link: "https://docs.groupdocs.com/conversion/python-net/system-requirements/"
+      features:
+        # features loop
+        - content: "Python 3.9+  <br>  and .Net 6+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, macOS"
+          rows: "1"
+        # features loop
+        - content:  "3K+ Konvertierungspaare"
+          rows: "1"
+
 
 ############################# Features ############################
 
@@ -116,7 +134,7 @@ features:
 code_samples:
   enable: true
   title: "Codebeispiele für GroupDocs.Conversion"
-  description: "Einige Anwendungsfälle typischer GroupDocs.Conversion-Operationen in C#, Java, TypeScript"
+  description: "Einige Anwendungsfälle typischer GroupDocs.Conversion-Operationen in C#, Java, TypeScript, Python"
   items:
     # code sample loop
     - title: "PDF in DOCX in wenigen Zeilen Code konvertieren"
@@ -160,6 +178,17 @@ code_samples:
             const options = new groupdocs.conversion.WordProcessingConvertOptions();
             // In das DOCX-Format konvertieren
             converter.convert("converted.docx", options);
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            # Die Ausgangs-PDF-Datei laden
+            converter = Converter("sample.pdf")
+            # Die Konvertierungsoptionen für das DOCX-Format festlegen
+            convert_options = WordProcessingConvertOptions()
+            # In das DOCX-Format konvertieren
+            converter.convert("converted.docx", convert_options);
             ```
 
 
@@ -252,14 +281,18 @@ actions:
     - title: ".NET"
       link: "/conversion/net/"
       color: "blue"
-        #  loop
+    #  loop
     - title: "Java"
       link: "/conversion/java/"
       color: "red"
-        #  loop
+    #  loop
     - title: "Node.js"
       link: "/conversion/nodejs-java/"
       color: "green"
+    #  loop
+    - title: "Python"
+      link: "/conversion/python-net/"
+      color: "yellow"
 
 
 ############################# Faq ############################
@@ -304,7 +337,6 @@ cloud_links:
       title: "GroupDocs.Conversion Cloud for cURL"
       link: "https://products.groupdocs.cloud/conversion/curl"
       content: "Nutzen Sie die cURL-RESTful-Dateikonvertierungs-API, um eine Vielzahl von Dateiformaten wie Microsoft Office, PDF, E-Mail, Projekt, HTML und mehr innerhalb Ihrer Anwendungen mühelos zu konvertieren."
-
     #  loop
     - icon: "groupdocs_conversion-for-net"
       title: "GroupDocs.Conversion Cloud for .NET"

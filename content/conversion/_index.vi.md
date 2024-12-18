@@ -1,7 +1,7 @@
 ---
 ############################# Static ##########################
 layout: "family"
-date: 2024-02-27T06:39:57
+date: 2024-11-11T06:39:57
 draft: false
 
 product: "Conversion"
@@ -82,6 +82,24 @@ supported_platforms:
         - content:  "Hơn 3K cặp chuyển đổi"
           rows: "1"
 
+    # supported_platforms loop
+    - title: "Python"
+      description: "GroupDocs.Conversion for Python"
+      color: "yellow"
+      tag: "python-net"
+      link: "/conversion/python-net/"
+      features_link: "https://docs.groupdocs.com/conversion/python-net/system-requirements/"
+      features:
+        # features loop
+        - content: "Python 3.9+  <br>  and .Net 6+"
+          rows: "3"
+        # features loop
+        - content:  "Windows, macOS"
+          rows: "1"
+        # features loop
+        - content:  "Hơn 3K cặp chuyển đổi"
+          rows: "1"
+
 
 ############################# Features ############################
 
@@ -116,7 +134,7 @@ features:
 code_samples:
   enable: true
   title: "Mẫu mã của GroupDocs.Conversion"
-  description: "Một số trường hợp sử dụng của các thao tác GroupDocs.Conversion điển hình trong C#, Java, TypeScript"
+  description: "Một số trường hợp sử dụng của các thao tác GroupDocs.Conversion điển hình trong C#, Java, TypeScript, Python"
   items:
     # code sample loop
     - title: "Chuyển đổi PDF sang DOCX trong vài dòng mã"
@@ -160,6 +178,17 @@ code_samples:
             const options = new groupdocs.conversion.WordProcessingConvertOptions();
             // Chuyển đổi sang định dạng DOCX
             converter.convert("converted.docx", options);
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            # Tải tệp PDF nguồn
+            converter = Converter("sample.pdf")
+            # Thiết lập các tùy chọn chuyển đổi cho định dạng DOCX
+            convert_options = WordProcessingConvertOptions()
+            # Chuyển đổi sang định dạng DOCX
+            converter.convert("converted.docx", convert_options);
             ```
 
 
@@ -252,14 +281,18 @@ actions:
     - title: ".NET"
       link: "/conversion/net/"
       color: "blue"
-        #  loop
+    #  loop
     - title: "Java"
       link: "/conversion/java/"
       color: "red"
-        #  loop
+    #  loop
     - title: "Node.js"
       link: "/conversion/nodejs-java/"
       color: "green"
+    #  loop
+    - title: "Python"
+      link: "/conversion/python-net/"
+      color: "yellow"
 
 
 ############################# Faq ############################
@@ -304,7 +337,6 @@ cloud_links:
       title: "GroupDocs.Conversion Cloud for cURL"
       link: "https://products.groupdocs.cloud/conversion/curl"
       content: "Tận dụng cURL RESTful API để dễ dàng chuyển đổi nhiều định dạng tệp, bao gồm Microsoft Office, PDF, Email, Project, HTML và nhiều hơn nữa trong các ứng dụng của bạn."
-
     #  loop
     - icon: "groupdocs_conversion-for-net"
       title: "GroupDocs.Conversion Cloud for .NET"

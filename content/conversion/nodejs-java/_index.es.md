@@ -22,7 +22,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
 
 ############################# Head ############################
 head_title: "API de conversión de documentos JavaScript | Convierta PDF, Word, Excel, PPTX, HTML e imágenes"

@@ -22,7 +22,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java" 
-
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net" 
 
 ############################# Head ############################
 head_title: "API konversi dokumen JavaScript | Konversi PDF, Word, Excel, PPTX, HTML, dan gambar"

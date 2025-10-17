@@ -126,7 +126,7 @@ platforms:
     # packages loop
     - title: ".NET Framework package" 
       content: |
-        * Supports .NET Framework 4.6.2 and higher versions 
+        * Supports .NET Framework 4.6.2+ 
         * Depends on System.Drawing.Common 
       action: "NuGet download" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 

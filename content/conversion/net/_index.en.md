@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "Windows-specific package"
+    - title: ".NET 6 package"
       content: |
-        * Supports .NET Framework 4.6.2+ and .NET 6.0
-        * Depends on System.Drawing.Common
+        * Supports .NET 6.0 and higher versions
+        * Works on Windows, Linux and macOS
       action: "NuGet download"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "Cross-platform package" 
+    - title: ".NET Framework package" 
       content: |
-        * Supports .NET 6.0 and higher versions 
-        * Works on Windows, Linux and macOS 
+        * Supports .NET Framework 4.6.2 and higher versions 
+        * Depends on System.Drawing.Common 
       action: "NuGet download" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         Unlike other conversions, this process requires the declaration of a SavePageStream delegate, which specifies the naming format for the saved images. You can select your preferred image format using the ImageFileType class.
         {{< landing/code title="Convert PDF to PNG in C#">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // Load the source PDF file
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // Set the convert options and specify the output image type
             var convertOptions = new ImageConvertOptions { 

@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "Pacchetto specifico per Windows"
+    - title: "{index-content-net.platforms_packages_main_title}"
       content: |
-        * Supporta .NET Framework 4.6.2+ e .NET 6.0
-        * Dipende da System.Drawing.Common
-      action: "Scarica NuGet"
+        * {index-content-net.platforms_packages_main_content_1}
+        * {index-content-net.platforms_packages_main_content_2}
+      action: "{index-content-net.platforms_packages_main_action}"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "Pacchetto multipiattaforma" 
+    - title: "{index-content-net.platforms_packages_net_framework_title}" 
       content: |
-        * Supporta .NET 6.0 e versioni successive 
-        * Funziona su Windows, Linux e macOS 
-      action: "Scarica NuGet" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+        * {index-content-net.platforms_packages_net_framework_content_1} 
+        * {index-content-net.platforms_packages_net_framework_content_2} 
+      action: "{index-content-net.platforms_packages_net_framework_action}" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         A differenza di altre conversioni, questo processo richiede la dichiarazione di un delegato SavePageStream, che specifica il formato di denominazione per le immagini salvate. Puoi selezionare il formato immagine preferito utilizzando la classe ImageFileType.
         {{< landing/code title="Converti PDF in PNG in C#">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // Carica il file PDF di origine
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // Imposta le opzioni di conversione e specifica il tipo di immagine di output
             var convertOptions = new ImageConvertOptions { 

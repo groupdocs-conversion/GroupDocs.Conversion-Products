@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "بسته مخصوص ویندوز"
+    - title: "{index-content-net.platforms_packages_main_title}"
       content: |
-        * از .NET Framework 4.6.2+ و .NET 6.0 پشتیبانی می کند
-        * بستگی به System.Drawing.Common دارد
-      action: "دانلود NuGet"
+        * {index-content-net.platforms_packages_main_content_1}
+        * {index-content-net.platforms_packages_main_content_2}
+      action: "{index-content-net.platforms_packages_main_action}"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "بسته کراس پلت فرم" 
+    - title: "{index-content-net.platforms_packages_net_framework_title}" 
       content: |
-        * پشتیبانی از دات نت 6.0 و نسخه های بالاتر 
-        * روی ویندوز، لینوکس و macOS کار می کند 
-      action: "دانلود NuGet" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+        * {index-content-net.platforms_packages_net_framework_content_1} 
+        * {index-content-net.platforms_packages_net_framework_content_2} 
+      action: "{index-content-net.platforms_packages_net_framework_action}" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         برخلاف سایر تبدیل‌ها، این فرآیند نیاز به اعلان یک نماینده SavePageStream دارد که فرمت نام‌گذاری تصاویر ذخیره‌شده را مشخص می‌کند. با استفاده از کلاس ImageFileType می توانید فرمت تصویر دلخواه خود را انتخاب کنید.
         {{< landing/code title="تبدیل PDF به PNG در سی شارپ">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // فایل PDF منبع را بارگیری کنید
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // گزینه های تبدیل را تنظیم کرده و نوع تصویر خروجی را مشخص کنید
             var convertOptions = new ImageConvertOptions { 

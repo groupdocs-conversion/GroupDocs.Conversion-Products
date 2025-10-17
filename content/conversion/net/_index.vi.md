@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "Gói dành riêng cho Windows"
+    - title: "{index-content-net.platforms_packages_main_title}"
       content: |
-        * Hỗ trợ .NET Framework 4.6.2+ và .NET 6.0
-        * Phụ thuộc vào System.draw.Common
-      action: "Tải xuống NuGet"
+        * {index-content-net.platforms_packages_main_content_1}
+        * {index-content-net.platforms_packages_main_content_2}
+      action: "{index-content-net.platforms_packages_main_action}"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "Gói đa nền tảng" 
+    - title: "{index-content-net.platforms_packages_net_framework_title}" 
       content: |
-        * Hỗ trợ .NET 6.0 và các phiên bản cao hơn 
-        * Hoạt động trên Windows, Linux và macOS 
-      action: "Tải xuống NuGet" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+        * {index-content-net.platforms_packages_net_framework_content_1} 
+        * {index-content-net.platforms_packages_net_framework_content_2} 
+      action: "{index-content-net.platforms_packages_net_framework_action}" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         Không giống như các chuyển đổi khác, quá trình này yêu cầu khai báo một đại biểu SavePageStream, chỉ định định dạng đặt tên cho các hình ảnh đã lưu. Bạn có thể chọn định dạng hình ảnh ưa thích của mình bằng cách sử dụng lớp ImageFileType.
         {{< landing/code title="Chuyển đổi PDF sang PNG trong C#">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // Tải tệp PDF nguồn
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // Đặt tùy chọn chuyển đổi và chỉ định loại hình ảnh đầu ra
             var convertOptions = new ImageConvertOptions { 

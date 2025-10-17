@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "Windows 전용 패키지"
+    - title: "{index-content-net.platforms_packages_main_title}"
       content: |
-        * .NET Framework 4.6.2+ 및 .NET 6.0 지원
-        * System. Drawing.Common에 따라 다릅니다.
-      action: "NuGet 다운로드"
+        * {index-content-net.platforms_packages_main_content_1}
+        * {index-content-net.platforms_packages_main_content_2}
+      action: "{index-content-net.platforms_packages_main_action}"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "크로스 플랫폼 패키지" 
+    - title: "{index-content-net.platforms_packages_net_framework_title}" 
       content: |
-        * .NET 6.0 이상 버전 지원 
-        * Windows, Linux 및 macOS에서 작동 
-      action: "NuGet 다운로드" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+        * {index-content-net.platforms_packages_net_framework_content_1} 
+        * {index-content-net.platforms_packages_net_framework_content_2} 
+      action: "{index-content-net.platforms_packages_net_framework_action}" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         다른 변환과 달리 이 프로세스에는 저장된 이미지의 이름 지정 형식을 지정하는 SavePageStream 대리자의 선언이 필요합니다. ImageFileType 클래스를 사용하여 원하는 이미지 형식을 선택할 수 있습니다.
         {{< landing/code title="C#에서 PDF를 PNG로 변환">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // 소스 PDF 파일 로드
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // 변환 옵션을 설정하고 출력 이미지 유형을 지정합니다.
             var convertOptions = new ImageConvertOptions { 

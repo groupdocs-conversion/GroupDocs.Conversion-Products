@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "Paket khusus Windows"
+    - title: "{index-content-net.platforms_packages_main_title}"
       content: |
-        * Mendukung .NET Framework 4.6.2+ dan .NET 6.0
-        * Tergantung pada System.Drawing.Common
-      action: "Unduhan NuGet"
+        * {index-content-net.platforms_packages_main_content_1}
+        * {index-content-net.platforms_packages_main_content_2}
+      action: "{index-content-net.platforms_packages_main_action}"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "Paket lintas platform" 
+    - title: "{index-content-net.platforms_packages_net_framework_title}" 
       content: |
-        * Mendukung .NET 6.0 dan versi yang lebih tinggi 
-        * Bekerja di Windows, Linux dan macOS 
-      action: "Unduhan NuGet" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+        * {index-content-net.platforms_packages_net_framework_content_1} 
+        * {index-content-net.platforms_packages_net_framework_content_2} 
+      action: "{index-content-net.platforms_packages_net_framework_action}" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         Tidak seperti konversi lainnya, proses ini memerlukan deklarasi delegasi SavePageStream, yang menentukan format penamaan untuk gambar yang disimpan. Anda dapat memilih format gambar pilihan Anda menggunakan kelas ImageFileType.
         {{< landing/code title="Konversi PDF ke PNG di C#">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // Muat file PDF sumber
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // Atur opsi konversi dan tentukan jenis gambar keluaran
             var convertOptions = new ImageConvertOptions { 

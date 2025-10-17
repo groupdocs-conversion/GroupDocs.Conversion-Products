@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "Спеціальний пакет для Windows"
+    - title: "{index-content-net.platforms_packages_main_title}"
       content: |
-        * Підтримує .NET Framework 4.6.2+ і .NET 6.0
-        * Залежить від System.Drawing.Common
-      action: "Завантажити NuGet"
+        * {index-content-net.platforms_packages_main_content_1}
+        * {index-content-net.platforms_packages_main_content_2}
+      action: "{index-content-net.platforms_packages_main_action}"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "Кросплатформенний пакет" 
+    - title: "{index-content-net.platforms_packages_net_framework_title}" 
       content: |
-        * Підтримує .NET 6.0 і новіші версії 
-        * Працює на Windows, Linux і macOS 
-      action: "Завантажити NuGet" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+        * {index-content-net.platforms_packages_net_framework_content_1} 
+        * {index-content-net.platforms_packages_net_framework_content_2} 
+      action: "{index-content-net.platforms_packages_net_framework_action}" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         На відміну від інших перетворень, цей процес вимагає оголошення делегату SavePageStream, який визначає формат імен для збережених зображень. Ви можете вибрати бажаний формат зображення за допомогою класу ImageFileType.
         {{< landing/code title="Перетворення PDF на PNG у C#">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // Завантажте вихідний файл PDF
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // Встановіть параметри перетворення та вкажіть тип вихідного зображення
             var convertOptions = new ImageConvertOptions { 

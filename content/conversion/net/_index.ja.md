@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "Windows 固有のパッケージ"
+    - title: "{index-content-net.platforms_packages_main_title}"
       content: |
-        * .NET Framework 4.6.2+および.NET 6.0をサポート
-        * System.Drawing.Common に依存
-      action: "NuGetのダウンロード"
+        * {index-content-net.platforms_packages_main_content_1}
+        * {index-content-net.platforms_packages_main_content_2}
+      action: "{index-content-net.platforms_packages_main_action}"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "クロスプラットフォームパッケージ" 
+    - title: "{index-content-net.platforms_packages_net_framework_title}" 
       content: |
-        * .NET 6.0以降のバージョンをサポート 
-        * Windows、Linux、macOS で動作します 
-      action: "NuGetのダウンロード" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+        * {index-content-net.platforms_packages_net_framework_content_1} 
+        * {index-content-net.platforms_packages_net_framework_content_2} 
+      action: "{index-content-net.platforms_packages_net_framework_action}" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         他の変換とは異なり、このプロセスでは、保存された画像の命名形式を指定する SavePageStream デリゲートの宣言が必要です。 ImageFileType クラスを使用して、好みの画像形式を選択できます。
         {{< landing/code title="C# で PDF を PNG に変換する">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // ソース PDF ファイルをロードします
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // 変換オプションを設定し、出力画像タイプを指定します
             var convertOptions = new ImageConvertOptions { 

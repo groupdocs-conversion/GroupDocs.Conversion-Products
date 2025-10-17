@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "แพ็คเกจเฉพาะของ Windows"
+    - title: "{index-content-net.platforms_packages_main_title}"
       content: |
-        * รองรับ .NET Framework 4.6.2+ และ .NET 6.0
-        * ขึ้นอยู่กับระบบ Drawing.Common
-      action: "ดาวน์โหลด NuGet"
+        * {index-content-net.platforms_packages_main_content_1}
+        * {index-content-net.platforms_packages_main_content_2}
+      action: "{index-content-net.platforms_packages_main_action}"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "แพ็คเกจข้ามแพลตฟอร์ม" 
+    - title: "{index-content-net.platforms_packages_net_framework_title}" 
       content: |
-        * รองรับ .NET 6.0 และเวอร์ชันที่สูงกว่า 
-        * ทำงานบน Windows, Linux และ macOS 
-      action: "ดาวน์โหลด NuGet" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+        * {index-content-net.platforms_packages_net_framework_content_1} 
+        * {index-content-net.platforms_packages_net_framework_content_2} 
+      action: "{index-content-net.platforms_packages_net_framework_action}" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         ไม่เหมือนกับการแปลงอื่นๆ กระบวนการนี้จำเป็นต้องมีการประกาศของผู้รับมอบสิทธิ์ SavePageStream ซึ่งระบุรูปแบบการตั้งชื่อสำหรับภาพที่บันทึกไว้ คุณสามารถเลือกรูปแบบภาพที่คุณต้องการได้โดยใช้คลาส ImageFileType
         {{< landing/code title="แปลง PDF เป็น PNG ใน C #">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // โหลดไฟล์ PDF ต้นฉบับ
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // ตั้งค่าตัวเลือกการแปลงและระบุประเภทภาพที่ส่งออก
             var convertOptions = new ImageConvertOptions { 

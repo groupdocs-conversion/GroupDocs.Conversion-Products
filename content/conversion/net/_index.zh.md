@@ -117,19 +117,19 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "Windows 专用包"
+    - title: "{index-content-net.platforms_packages_main_title}"
       content: |
-        * 支持.NET Framework 4.6.2+ 和 .NET 6.0
-        * 取决于 System.Drawing.Common
-      action: "NuGet下载"
+        * {index-content-net.platforms_packages_main_content_1}
+        * {index-content-net.platforms_packages_main_content_2}
+      action: "{index-content-net.platforms_packages_main_action}"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "跨平台包" 
+    - title: "{index-content-net.platforms_packages_net_framework_title}" 
       content: |
-        * 支持.NET 6.0及更高版本 
-        * 适用于 Windows、Linux 和 macOS 
-      action: "NuGet下载" 
-      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.CrossPlatform" 
+        * {index-content-net.platforms_packages_net_framework_content_1} 
+        * {index-content-net.platforms_packages_net_framework_content_2} 
+      action: "{index-content-net.platforms_packages_net_framework_action}" 
+      action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
 formats:
@@ -234,6 +234,7 @@ code_samples:
         与其他转换不同，此过程需要声明 SavePageStream 委托，该委托指定保存图像的命名格式。您可以使用 ImageFileType 类选择您喜欢的图像格式。
         {{< landing/code title="在 C# 中将 PDF 转换为 PNG">}}
         ```csharp {style=abap}
+        using System.IO;
         using GroupDocs.Conversion;
         using GroupDocs.Conversion.FileTypes;
         using GroupDocs.Conversion.Options.Convert;
@@ -241,7 +242,7 @@ code_samples:
         // 加载源 PDF 文件
         using (var converter = new Converter("resume.pdf"))
         {
-          var getPageStream = (int page) => File.Create($"resume-page-{page}.png");
+          var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
             // 设置转换选项并指定输出图像类型
             var convertOptions = new ImageConvertOptions { 

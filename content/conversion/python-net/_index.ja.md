@@ -33,7 +33,7 @@ head_description: "強力な Python ドキュメント変換 API。 PDF、Word�
 
 ############################# Header ############################
 title: "Python APIによるドキュメント変換"
-description: ".NET 経由で GroupDocs.Conversion for Python を使用して、PDF、Office、HTML、eBook、および画像形式を変換します。"
+description: ".NET 経由で GroupDocs.Conversion for Python を使用して、PDF、Office、HTML、電子書籍、および画像形式を変換します。"
 words:
   for: "for"
 
@@ -82,7 +82,7 @@ overview:
       content: "単一のメソッド呼び出しと効率的な変換のための簡単なオプションでドキュメント形式を切り替えます。"
 
     # feature loop
-    - title: "クロスプラットフォーム互換性"
+    - title: "クロスプラットフォームの互換性"
       content: "クロスプラットフォーム操作をサポートしているため、Python 開発者は Windows および macOS システムでの変換を簡単に処理できます。"
 
 ############################# Platforms ############################
@@ -144,7 +144,7 @@ formats:
       # group loop
     - color: "red"
       content: |
-        ### その他のフォーマット        
+        ### その他の形式        
         * **eBook:** EPUB, MOBI, AZW, FB2
         * **Web:**  HTML, MHTML, MHT
         * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
@@ -187,7 +187,7 @@ features:
     # feature loop
     - icon: "swap"
       title: "安全な処理"
-      content: "パスワードで保護されたファイル変換オプションでデータのプライバシーを確​​保します。"
+      content: "パスワードで保護されたファイル変換オプションにより、データのプライバシーを確​​保します。"
 
     # feature loop
     - icon: "extract"
@@ -202,7 +202,7 @@ features:
     # feature loop
     - icon: "preview"
       title: "アーカイブからドキュメントを変換する"
-      content: "アーカイブからドキュメントを抽出して変換し、圧縮ファイル内に保存されているコンテンツの変換を可能にします。"
+      content: "アーカイブからドキュメントを抽出して変換し、圧縮ファイル内に保存されているコンテンツを変換できます。"
 
 ############################# Code samples ############################
 code_samples:

@@ -28,7 +28,7 @@ supported_platforms:
       
 ############################# Head ############################
 head_title: "API konversi dokumen C# .NET | Konversi PDF, Word, Excel, PPTX, HTML, dan gambar"
-head_description: "API konversi dokumen C# .NET. Konversi PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan format file gambar."
+head_description: "API konversi dokumen C# .NET. Konversi format file PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan gambar."
 
 ############################# Header ############################
 title: "Konversi dokumen melalui .NET API"
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "Paket .NET 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * Mendukung .NET 6.0 dan versi yang lebih tinggi
+        * Bekerja di Windows, Linux, dan macOS
+      action: "Unduhan NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "Paket .NET Framework" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * Mendukung .NET Framework 4.6.2+ 
+        * Tergantung pada System.Drawing.Common 
+      action: "Unduhan NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -257,7 +257,7 @@ code_samples:
     # code sample loop
     - title: "Konversikan segmen dokumen besar"
       content: |
-        Dengan GroupDocs.Conversion for .NET, Anda dapat dengan mudah mengonversi halaman tertentu dari dokumen yang panjang.
+        Dengan GroupDocs.Conversion untuk .NET, Anda dapat dengan mudah mengonversi halaman tertentu dari dokumen yang panjang.
         Anda memiliki dua metode untuk mencapai hal ini, tergantung pada kebutuhan Anda. Anda dapat mengonversi sejumlah halaman atau mengonversi halaman tertentu.
         {{< landing/code title="Konversi DOCX (halaman 2-4) ke PDF di C#">}}
         ```csharp {style=abap}   

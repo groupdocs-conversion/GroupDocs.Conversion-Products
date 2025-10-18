@@ -8,23 +8,23 @@ product: "Conversion"
 product_tag: "conversion"
 
 ############################# Head ############################
-head_title: "API Konverter Berkas | API On Premise dan Layanan Online"
-head_description: "Konversi berkas Word, PDF, Excel, Powerpoint, atau gambar dengan mudah dan gratis"
+head_title: "API Pengonversi File | API Lokal dan layanan online"
+head_description: "Konversi file Word, PDF, Excel, Powerpoint atau Gambar dengan mudah dan gratis"
 
 ############################# Header ##########################
-title: "Sihir konversi: ubah berkas di berbagai format"
+title: "Keajaiban konversi: mengubah file dalam berbagai format"
 description: |
-  Konversikan dokumen dengan mudah dari berbagai format sumber ke berbagai format target yang berbeda. Nikmati berbagai konversi yang didukung tanpa perlu perangkat lunak tambahan, seperti MS Office, Apache Open Office, Adobe Acrobat Reader, dan lainnya.
+  Konversi dokumen dengan mudah dari berbagai format sumber ke format target berbeda. Nikmati berbagai konversi yang didukung tanpa perangkat lunak tambahan, seperti MS Office, Apache Open Office, Adobe Acrobat Reader, dan banyak lagi.
 
-  Muat dokumen dari berbagai sumber, termasuk berkas, aliran, URL, server FTP, Amazon S3, Azure Blob Storage, dan lainnya.
+  Memuat dokumen dari berbagai sumber, termasuk file, aliran, URL, server FTP, Amazon S3, Azure Blob Storage, dan banyak lagi.
 
-  Gunakan jenis penyimpanan cache apa pun, seperti Amazon S3, Dropbox, Google Drive, Windows Azure, Redis, atau yang lainnya, dengan mengimplementasikan antarmuka yang diperlukan.
+  Gunakan jenis penyimpanan cache apa pun, seperti Amazon S3, Dropbox, Google Drive, Windows Azure, Redis, atau lainnya, dengan mengimplementasikan antarmuka yang diperlukan.
 
 ############################# Platforms ############################
 supported_platforms:
   enable: true  
   head_title: "Pilih platform Anda"
-  title: "Platform yang Didukung"
+  title: "Platform yang didukung"
   description: "Pustaka GroupDocs.Conversion mendukung sistem operasi dan kerangka kerja berikut"
   details_link_title: "Pelajari lebih lanjut"
   items:
@@ -43,7 +43,7 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "Lebih dari 3K pasangan konversi"
+        - content: "3K+ pasangan konversi"
           rows: "1"        
     
     # supported_platforms loop
@@ -61,7 +61,7 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content: "Lebih dari 3K pasangan konversi"
+        - content: "3K+ pasangan konversi"
           rows: "1"        
 
     # supported_platforms loop
@@ -79,7 +79,7 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "Lebih dari 3K pasangan konversi"
+        - content:  "3K+ pasangan konversi"
           rows: "1"
 
     # supported_platforms loop
@@ -97,7 +97,7 @@ supported_platforms:
         - content:  "Windows, macOS"
           rows: "1"
         # features loop
-        - content:  "Lebih dari 3K pasangan konversi"
+        - content:  "3K+ pasangan konversi"
           rows: "1"
 
 
@@ -106,51 +106,51 @@ supported_platforms:
 features:
   enable: true
   title: "Kumpulan fitur GroupDocs.Conversion"
-  description: "API untuk mengkonversi berkas antar berbagai jenis seperti HTML, PDF, Word, Excel, PNG, dan banyak lagi tanpa perangkat lunak pihak ketiga."
+  description: "API untuk mengonversi file antara berbagai jenis seperti HTML, PDF, Word, Excel, PNG dan banyak lagi tanpa perangkat lunak pihak ketiga."
 
   items:
     # feature loop
     - icon: "convert"
       title: "Konversi dokumen dan gambar"
-      content: "Ubah berkas dari sumber yang berbeda menjadi berbagai format target."
+      content: "Ubah file dari sumber berbeda ke berbagai format target."
 
     # feature loop
     - icon: "password"
-      title: "Buka dokumen yang diamankan"
+      title: "Buka dokumen aman"
       content: "Tentukan kata sandi untuk membuka dokumen terenkripsi."
 
     # feature loop
     - icon: "load"
-      title: "Muat berkas dari mana pun"
-      content: "Muat dokumen dari berbagai berkas, URL, server FTP, Amazon S3, dan lainnya."
+      title: "Muat file dari mana saja"
+      content: "Muat dokumen dari berbagai file, URL, server FTP, Amazon S3, dan lainnya."
     
     # feature loop
     - icon: "settings"
       title: "Kelola pengaturan keluaran"
-      content: "Putar dan susun ulang halaman, tentukan apakah akan merender catatan dan komentar."
+      content: "Putar dan susun ulang halaman, tentukan apakah akan membuat catatan dan komentar."
 
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "Contoh kode GroupDocs.Conversion"
-  description: "Beberapa kasus penggunaan operasi tipikal GroupDocs.Conversion dalam C#, Java, TypeScript, Python"
+  title: "GroupDocs.Contoh kode konversi"
+  description: "Beberapa kasus penggunaan operasi GroupDocs.Conversion yang umum di C#, Java, TypeScript, Python"
   items:
     # code sample loop
     - title: "Konversi PDF ke DOCX dalam beberapa baris kode"
       content: |
-       Dengan GroupDocs.Conversion, Anda dapat mengkonversi berkas PDF ke DOCX dengan mudah - yang Anda butuhkan hanyalah beberapa baris kode. Ini juga tidak memerlukan perangkat lunak pihak ketiga seperti Microsoft Word atau Adobe Acrobat. Berikut contoh bagaimana hal itu bisa dicapai:
+       Dengan GroupDocs.Conversion, Anda dapat mengonversi file PDF ke DOCX dengan mudah - yang Anda perlukan hanyalah beberapa baris kode. Itu juga tidak memerlukan perangkat lunak pihak ketiga seperti Microsoft Word atau Adobe Acrobat. Berikut ini contoh cara mencapainya:
       samples:
         - language: "C#"
           color: "blue"
           content: |
             ```csharp {style=abap}   
-            // Muat berkas PDF sumber
+            // Muat file PDF sumber
             using (var converter = new GroupDocs.Conversion.Converter("sample.pdf"))
             {
                 // Atur opsi konversi untuk format DOCX
                 var options = new WordProcessingConvertOptions();
-                // Konversi ke format DOCX
+                // Konversikan ke format DOCX
                 converter.Convert("converted.docx", options);
             }
             ```
@@ -161,33 +161,33 @@ code_samples:
             import com.groupdocs.conversion.Converter;
             import com.groupdocs.conversion.options.convert.WordProcessingConvertOptions;
             ...
-            // Muat berkas PDF sumber
+            // Muat file PDF sumber
             Converter converter = new Converter("sample.pdf");
             // Atur opsi konversi untuk format DOCX
             WordProcessingConvertOptions options = new WordProcessingConvertOptions();
-            // Konversi ke format DOCX
+            // Konversikan ke format DOCX
             converter.convert("converted.docx", options);
             ```
         - language: "TypeScript"
           color: "green"
           content: |
             ```javascript {style=abap}  
-            // Muat berkas PDF sumber
+            // Muat file PDF sumber
             const converter = new groupdocs.conversion.Converter("sample.pdf");
             // Atur opsi konversi untuk format DOCX
             const options = new groupdocs.conversion.WordProcessingConvertOptions();
-            // Konversi ke format DOCX
+            // Konversikan ke format DOCX
             converter.convert("converted.docx", options);
             ```
         - language: "Python"
           color: "yellow"
           content: |
             ```python {style=abap}  
-            # Muat berkas PDF sumber
+            # Muat file PDF sumber
             converter = Converter("sample.pdf")
             # Atur opsi konversi untuk format DOCX
             convert_options = WordProcessingConvertOptions()
-            # Konversi ke format DOCX
+            # Konversikan ke format DOCX
             converter.convert("converted.docx", convert_options);
             ```
 
@@ -195,8 +195,8 @@ code_samples:
 ############################# Formats ############################
 formats:
   enable: true
-  title:  "Lebih dari 60 format berkas didukung"
-  description: "GroupDocs.Conversion mendukung operasi dengan format berkas paling populer [](https://docs.groupdocs.com/conversion/net/supported-file-formats/)."
+  title:  "60+ format file didukung"
+  description: "GroupDocs.Conversion mendukung operasi dengan [format file] paling populer(https://docs.groupdocs.com/conversion/net/supported-file-formats/)."
 
 
 ############################# Metrics ############################
@@ -204,27 +204,27 @@ formats:
 metrics:
   enable: true
   title: "Metrik mendalam dan wawasan statistik"
-  description: "Telusuri rincian lengkap angka-angka kunci kami, menyediakan metrik komprehensif dan wawasan statistik tentang pencapaian kami, dampak, dan pertumbuhan."
+  description: "Pelajari rincian angka-angka penting kami, yang memberikan metrik komprehensif dan wawasan statistik mengenai pencapaian, dampak, dan pertumbuhan kami."
 
   items:
     # metrics loop
     - number: "3K+"
       title: "Pasangan konversi yang didukung"
-      content: "Mudah mengonversi berkas di ribuan pasangan yang didukung - Microsoft Office, PDF, gambar, video, audio, dan database. Memungkinkan pengguna untuk secara mulus mengubah jenis berkas yang berbeda untuk fleksibilitas dan kenyamanan."
+      content: "Konversi file dengan mudah di ribuan pasangan yang didukung - Microsoft Office, PDF, gambar, video, audio, dan database. Berdayakan pengguna untuk mengubah beragam jenis file dengan lancar demi fleksibilitas dan kenyamanan."
     # metrics loop
     - number: "1.0M"
       title: "Unduhan NuGet"
-      content: "Bergabunglah dengan pengguna puas kami yang telah memilih paket NuGet kami. Solusi kami telah menjadi sumber yang dipercaya dan banyak diadopsi dalam komunitas pengembang, menyediakan integrasi yang mulus dan fungsionalitas berharga untuk proyek-proyek tak terhitung jumlahnya."
+      content: "Bergabunglah dengan pengguna kami yang puas yang telah memilih paket NuGet kami. Solusi kami telah menjadi sumber daya tepercaya dan diadopsi secara luas di komunitas pengembang, menyediakan integrasi tanpa batas dan fungsionalitas berharga untuk banyak proyek."
 
     # metrics loop
     - number: "10+"
-      title: "Pustaka"
-      content: "Produk kami mencakup lebih dari 10 pustaka, menawarkan fitur-fitur canggih untuk mengoptimalkan kinerja. Pustaka-pustaka ini dirancang untuk memenuhi kebutuhan pengembangan yang berbeda dengan kemampuan tak tertandingi."
+      title: "Perpustakaan"
+      content: "Produk kami mencakup 10+ perpustakaan, menawarkan fitur-fitur canggih untuk mengoptimalkan kinerja. Perpustakaan ini dirancang untuk memenuhi kebutuhan pengembangan yang berbeda dengan kemampuan yang tak tertandingi."
     
     # metrics loop
     - number: "100+"
-      title: "Pelanggan puas"
-      content: "Berkembang dengan keunggulan, produk kami telah memperoleh kepercayaan dari lebih dari 100 pelanggan yang puas yang mengandalkan fitur-fitur tangguhnya dan kinerja yang andal. Temukan keberhasilan dan efisiensi dengan solusi inovatif kami."
+      title: "Pelanggan yang senang"
+      content: "Berkembang dalam keunggulan, produk kami telah mendapatkan kepercayaan lebih dari 100 pelanggan yang mengandalkan fitur-fitur canggih dan kinerja andal. Temukan kesuksesan dan efisiensi dengan solusi inovatif kami."
 
 
 ############################# Customers ############################
@@ -233,7 +233,7 @@ metrics:
 customers:
   enable: true
   title: "Pelanggan kami yang bahagia"
-  description: "Pustaka GroupDocs digunakan oleh merek-merek terkenal dan terkemuka secara global."
+  description: "Perpustakaan GroupDocs digunakan oleh merek-merek terkenal dan terkemuka secara global di seluruh dunia."
 
   items:
     # customers loop
@@ -274,7 +274,7 @@ customers:
 actions:
   enable: true
   title: "Siap untuk memulai?"
-  description: "Coba fitur-fitur GroupDocs.Conversion secara gratis atau minta lisensi"
+  description: "Coba fitur GroupDocs.Conversion secara gratis atau minta lisensi"
 
   items:
     #  loop
@@ -300,79 +300,79 @@ actions:
 faq:
   enable: true
   title: "Pertanyaan dan kekhawatiran umum"
-  description: "Temukan jawaban untuk pertanyaan umum di bagian FAQ kami untuk menangani pertanyaan dan kekhawatiran Anda dengan cepat."
+  description: "Temukan jawaban atas pertanyaan umum di bagian FAQ kami untuk menjawab pertanyaan dan kekhawatiran Anda dengan cepat."
 
   items:
     #  loop
-    - question: "Apakah saya bisa mengevaluasi produk-produk GroupDocs sebelum membelinya?"
+    - question: "Bisakah saya mengevaluasi produk GroupDocs sebelum membeli?"
       answer: |
-        Ya! Semua produk GroupDocs memiliki versi evaluasi tanpa risiko yang tersedia. Kami sangat menyarankan para pengembang untuk mengunduh dan mencoba API kami sebelum membelinya untuk memastikan bahwa mereka akan memenuhi kebutuhan Anda 100%.
+        Ya! Semua produk GroupDocs memiliki versi evaluasi yang bebas risiko. Kami sangat menganjurkan pengembang untuk mengunduh dan mencoba API kami sebelum membeli untuk memastikan bahwa API tersebut akan memenuhi kebutuhan Anda 100%.
     #  loop
     - question: "Apakah GroupDocs melakukan demonstrasi produk?"
       answer: |
-        Tidak, fokus kami adalah pada API kami dan membuat produk yang paling fungsional dan stabil. Kami menawarkan uji coba lengkap dan gratis dalam bentuk [lisensi sementara](https://purchase.groupdocs.com/temporary-license/) sehingga Anda dapat menguji produknya sendiri.
+        Tidak, fokus kami adalah pada API kami dan membuat produk yang paling fungsional dan stabil. Kami menawarkan uji coba yang berfungsi penuh dan gratis dalam bentuk [lisensi sementara](https://purchase.groupdocs.com/temporary-license/) sehingga Anda dapat menguji sendiri produk tersebut.
     #  loop
-    - question: "Di mana saya bisa mengunduh produk tersebut?"
+    - question: "Dimana saya bisa mendownload produknya?"
       answer: |
-        Semua produk tersedia untuk diunduh dari [situs web](https://releases.groupdocs.com). Kami tidak mengirim salinan fisik perangkat lunak kami melalui pos.    
+        Semua produk tersedia untuk diunduh dari [situs web](https://releases.groupdocs.com). Kami tidak mengirimkan salinan fisik perangkat lunak kami melalui surat.    
     #  loop
-    - question: "Apakah lisensi pengembang GroupDocs per pengguna atau per pengguna yang dinamai?"
+    - question: "Apakah lisensi pengembang GroupDocs per pengguna, atau per pengguna yang disebutkan namanya?"
       answer: |
-        Lisensi pengembang GroupDocs adalah per pengguna, bukan per pengguna yang dinamai. Kami memahami bahwa anggota tim pengodean dapat berubah dari waktu ke waktu dan bahwa tidak praktis untuk harus memperbarui lisensi setiap kali itu terjadi.
+        Lisensi Pengembang GroupDocs adalah per pengguna, bukan per pengguna yang disebutkan namanya. Kami memahami bahwa anggota tim coding dapat berubah seiring berjalannya waktu dan tidak praktis jika harus memperbarui lisensi setiap kali hal tersebut terjadi.
     #  loop
-    - question: "Apakah kita memerlukan lisensi terpisah untuk server pembangunan atau CI (Continuous Integration) kita?"
+    - question: "Apakah kami memerlukan lisensi terpisah untuk server build atau CI (Continuous Integration) kami?"
       answer: |
-        Tidak, kami senang bahwa pelanggan menggunakan produk GroupDocs pada satu server untuk membangun solusi tanpa biaya tambahan. Instalasi ini tidak boleh digunakan untuk menghindari syarat lisensi dalam perjanjian Anda dengan GroupDocs dan harus menghormati batasan redistribusi atau lokasi yang diberlakukan oleh lisensi yang Anda beli.
+        Tidak, kami senang pelanggan menggunakan produk GroupDocs di satu server untuk tujuan pembuatan solusi tanpa biaya tambahan. Instalasi ini tidak boleh digunakan untuk menghindari ketentuan lisensi perjanjian Anda dengan GroupDocs dan harus menghormati batasan lokasi atau distribusi ulang yang diberlakukan oleh lisensi yang Anda beli.
 
 ############################# Cloud ############################
 
 cloud_links:
   enable: true
-  title: "API GroupDocs.Conversion tanpa kode"
-  description: "Percepat konversi dokumen atau gambar dalam berbagai jenis aplikasi dengan API REST berbasis awan kami"
+  title: "GroupDocs.Konversi API kode rendah"
+  description: "Percepat konversi dokumen atau gambar di semua jenis aplikasi dengan REST API kami yang berbasis cloud"
 
   items:
     #  loop
     - icon: "groupdocs_conversion-for-curl"
       title: "GroupDocs.Conversion Cloud for cURL"
       link: "https://products.groupdocs.cloud/conversion/curl"
-      content: "Manfaatkan API konversi berkas RESTful cURL untuk dengan mudah mengkonversi berbagai format berkas, termasuk Microsoft Office, PDF, Email, Project, HTML, dan lainnya, dalam aplikasi Anda."
+      content: "Manfaatkan API konversi file cURL RESTful untuk dengan mudah mengonversi berbagai format file, termasuk Microsoft Office, PDF, Email, Project, HTML, dan banyak lagi, dalam aplikasi Anda."
     #  loop
     - icon: "groupdocs_conversion-for-net"
       title: "GroupDocs.Conversion Cloud for .NET"
       link: "https://products.groupdocs.cloud/conversion/net"
-      content: "Gunakan API konversi berkas .NET REST untuk konversi yang mulus dari format berkas umum seperti Microsoft Office, PDF, Email, Project, HTML, dan berbagai format umum lainnya di berbagai platform dengan SDK Cloud."
+      content: "Gunakan REST API konversi file .NET untuk konversi Microsoft Office, PDF, Email, Project, HTML, dan berbagai format file umum yang lancar di platform apa pun dengan Cloud SDK."
     #  loop
     - icon: "groupdocs_conversion-for-java"
       title: "GroupDocs.Conversion Cloud for Java"
       link: "https://products.groupdocs.cloud/conversion/java"
-      content: "Perkaya aplikasi Java berbasis awan Anda dengan kemampuan konversi dokumen yang canggih, dapat diakses pada setiap platform yang mampu melakukan panggilan API REST."
+      content: "Tingkatkan aplikasi Java berbasis cloud Anda dengan kemampuan konversi dokumen tingkat lanjut, yang dapat diakses di platform apa pun yang mampu melakukan panggilan REST API."
 
 ############################# Apps ############################
 
 app_links:
   enable: true
-  title: "Aplikasi GroupDocs.Conversion tanpa kode"
-  description: "Aplikasi online yang memungkinkan Anda mengkonversi lebih dari 100 format berkas populer di browser Anda"
+  title: "Aplikasi GroupDocs.Conversion NoCode"
+  description: "Aplikasi online memungkinkan Anda mengonversi 100+ format file populer di browser"
 
   items:
     #  loop
     - icon: "groupdocs_conversion-app"
       title: "GroupDocs.Conversion <br> Total"
       link: "https://products.groupdocs.app/conversion/total"
-      content: "Konversikan dengan mudah lebih dari ratusan format ke PDF, XLSX, DOCX, XPS, HTML, dan lainnya dengan mudah."
+      content: "Konversikan ratusan format dengan mudah ke PDF, XLSX, DOCX, XPS, HTML, dan lainnya dengan mudah."
 
     #  loop
     - icon: "groupdocs_words-app"
       title:  "GroupDocs.Conversion <br> DOC to XLS"
       link: "https://products.groupdocs.app/conversion/doc-to-xls"
-      content: "Aplikasi online gratis untuk mengkonversi DOC ke format XLS langsung dari browser web Anda."
+      content: "Aplikasi online gratis untuk mengonversi format DOC ke XLS langsung dari browser web Anda."
 
     #  loop
     - icon: "groupdocs_pdf-app"
       title:  "GroupDocs.Conversion <br> PDF to DOCX"
       link: "https://products.groupdocs.app/conversion/pdf-to-docx"
-      content: "Konversikan dokumen PDF Anda ke format Word (DOCX) dengan mudah dengan mengunggahnya melalui antarmuka yang ramah pengguna kami."
+      content: "Konversikan dokumen PDF Anda ke format Word (DOCX) dengan mudah dengan mengunggahnya melalui antarmuka kami yang ramah pengguna."
     
 
 ---

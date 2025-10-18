@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "แพ็คเกจ .NET 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * รองรับ .NET 6.0 และเวอร์ชันที่สูงกว่า
+        * ทำงานบน Windows, Linux และ macOS
+      action: "ดาวน์โหลด NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "แพ็คเกจ.NET Framework" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * รองรับ .NET Framework 4.6.2+ 
+        * ขึ้นอยู่กับระบบ Drawing.Common 
+      action: "ดาวน์โหลด NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -199,7 +199,7 @@ features:
     # feature loop
     - icon: "rotate"
       title: "การตั้งค่าที่ปรับแต่งได้"
-      content: "ปรับแต่งพารามิเตอร์การแปลงอย่างละเอียด เช่น ความละเอียด คุณภาพ และเค้าโครงเพื่อให้ตรงตามข้อกำหนดเฉพาะ"
+      content: "ปรับแต่งพารามิเตอร์การแปลงอย่างละเอียด เช่น ความละเอียด คุณภาพ และเค้าโครงให้ตรงตามข้อกำหนดเฉพาะ"
 
     # feature loop
     - icon: "swap"
@@ -283,7 +283,7 @@ code_samples:
     - title: "ไวยากรณ์ที่คล่องแคล่ว: แนวทางที่มีความคล่องตัว"
       content: |
         ไวยากรณ์ Fluent นำเสนอรูปแบบที่กระชับสำหรับการดำเนินการทั่วไปภายใน GroupDocs.Conversion สำหรับ .NET API
-        ตัวอย่างโค้ดด้านล่างสาธิตวิธีการใช้ประโยชน์จากไวยากรณ์อย่างคล่องแคล่ว:
+        ตัวอย่างโค้ดด้านล่างสาธิตวิธีใช้ประโยชน์จากไวยากรณ์อย่างคล่องแคล่ว:
         {{< landing/code title="แปลง DOCX เป็น PDF ใน C# โดยใช้ไวยากรณ์ที่คล่องแคล่ว">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;

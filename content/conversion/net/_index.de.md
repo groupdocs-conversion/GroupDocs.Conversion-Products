@@ -41,18 +41,18 @@ actions:
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
   alt: "Lizenzierung"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "Bereit anzufangen?"
+  title: "Bereit, loszulegen?"
   description: "Testen Sie die Funktionen von GroupDocs.Conversion kostenlos oder fordern Sie eine Lizenz an"
 
 release:
   title: "Version {0} veröffentlicht"
-  notes: "Schau was neu ist"
+  notes: "Sehen Sie, was es Neues gibt"
   downloads: "Downloads"
   link: "https://releases.groupdocs.com/conversion/net/release-notes/latest/"
 
 code:
   title: "So konvertieren Sie PDF-Dateien in C#"
-  more: "Mehr Beispiele"
+  more: "Weitere Beispiele"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
@@ -79,7 +79,7 @@ overview:
 
     # feature loop
     - title: "Müheloser Wechsel zwischen Formaten"
-      content: "Der Prozess der Verwendung der GroupDocs.Conversion-API ist unglaublich unkompliziert und erfordert nur eine Methode und eine Reihe von Optionen, um mühelos zwischen verschiedenen Formaten zu wechseln."
+      content: "Der Prozess der Verwendung der GroupDocs.Conversion-API ist unglaublich einfach und erfordert nur eine Methode und eine Reihe von Optionen, um mühelos zwischen verschiedenen Formaten zu wechseln."
 
     # feature loop
     - title: "Plattformübergreifende Kompatibilität"
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: ".NET 6-Paket"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * Unterstützt .NET 6.0 und höhere Versionen
+        * Funktioniert unter Windows, Linux und macOS
+      action: "NuGet-Download"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: ".NET Framework-Paket" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * Unterstützt .NET Framework 4.6.2+ 
+        * Hängt von System.Drawing.Common ab 
+      action: "NuGet-Download" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -179,7 +179,7 @@ features:
     # feature loop
     - icon: "merge"
       title: "Konvertierung in mehrere Formate"
-      content: "Konvertieren Sie Dateien ganz einfach zwischen verschiedenen Formaten, darunter PDF, DOCX, XLSX, PPTX und mehr."
+      content: "Konvertieren Sie Dateien ganz einfach zwischen verschiedenen Formaten, einschließlich PDF, DOCX, XLSX, PPTX und mehr."
 
     # feature loop
     - icon: "split"

@@ -52,7 +52,7 @@ release:
 
 code:
   title: "C#에서 PDF 파일을 변환하는 방법"
-  more: "더 많은 예시"
+  more: "더 많은 예"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
   content: |
@@ -79,7 +79,7 @@ overview:
 
     # feature loop
     - title: "형식 간 간편한 전환"
-      content: "GroupDocs.Conversion API를 사용하는 프로세스는 매우 간단합니다. 단 하나의 방법과 다양한 형식 간에 쉽게 전환할 수 있는 옵션 세트가 필요합니다."
+      content: "GroupDocs.Conversion API를 사용하는 프로세스는 매우 간단합니다. 단 하나의 방법과 다양한 형식 간에 쉽게 전환할 수 있는 옵션 집합이 필요합니다."
 
     # feature loop
     - title: "플랫폼 간 호환성"
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: ".NET 6 패키지"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * .NET 6.0 이상 버전 지원
+        * Windows, Linux 및 macOS에서 작동
+      action: "NuGet 다운로드"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: ".NET 프레임워크 패키지" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * .NET 프레임워크 4.6.2+ 지원 
+        * System. Drawing.Common에 따라 다릅니다. 
+      action: "NuGet 다운로드" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -209,7 +209,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "API 통합"
-      content: "변환 기능을 C# 애플리케이션에 원활하게 통합하여 워크플로의 일부로 매끄럽게 만듭니다."
+      content: "변환 기능을 C# 애플리케이션에 원활하게 통합하여 워크플로우의 일부로 매끄럽게 만듭니다."
 
     # feature loop
     - icon: "orientation"
@@ -244,7 +244,7 @@ code_samples:
         {
           var getPageStream = (SavePageContext context) => File.Create($"resume-page-{context.Page}.png");
 
-            // 변환 옵션을 설정하고 출력 이미지 유형을 지정합니다.
+            // 변환 옵션 설정 및 출력 이미지 유형 지정
             var convertOptions = new ImageConvertOptions { 
               Format = ImageFileType.Png
             };          

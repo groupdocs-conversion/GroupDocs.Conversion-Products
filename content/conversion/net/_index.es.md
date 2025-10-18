@@ -39,14 +39,14 @@ words:
 actions:
   main: "Descarga gratuita de NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
-  alt: "Licencia"
+  alt: "Licencias"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "¿Listo para comenzar?"
+  title: "¿Listo para empezar?"
   description: "Pruebe las funciones de GroupDocs.Conversion de forma gratuita o solicite una licencia"
 
 release:
   title: "Versión {0} lanzada"
-  notes: "Ver qué hay de nuevo"
+  notes: "Ver que hay de nuevo"
   downloads: "Descargas"
   link: "https://releases.groupdocs.com/conversion/net/release-notes/latest/"
 
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "Paquete .NET 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * Soporta .NET 6.0 y versiones superiores
+        * Funciona en Windows, Linux y macOS
+      action: "Descarga NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "Paquete de marco .NET" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * Compatible con .NET Framework 4.6.2+ 
+        * Depende de System.Drawing.Common 
+      action: "Descarga NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -172,7 +172,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "Funciones de GroupDocs.Conversion"
+  title: "Funciones de conversión de GroupDocs."
   description: "Convierta sin problemas documentos PDF y de Office a HTML, JPG, PNG, BMP, TIFF, SVG y muchos otros formatos. GroupDocs.Conversion para la API C# está diseñada para ser fácil de usar e integrar en su proyecto. Admite todos los formatos de documentos populares con la capacidad de personalizar el proceso de conversión."
 
   items:
@@ -283,7 +283,7 @@ code_samples:
     - title: "Sintaxis fluida: un enfoque simplificado"
       content: |
         La sintaxis fluida ofrece una notación concisa para acciones comunes dentro de GroupDocs.Conversion para .NET API.
-        Los ejemplos de código siguientes demuestran cómo aprovechar la sintaxis fluida.:
+        Los ejemplos de código siguientes demuestran cómo aprovechar la sintaxis fluida:
         {{< landing/code title="Convierta DOCX a PDF en C# usando una sintaxis fluida">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;

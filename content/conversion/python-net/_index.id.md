@@ -32,7 +32,7 @@ head_title: "API Konversi Dokumen Python | Konversi PDF, Word, Excel, PPTX, HTML
 head_description: "API konversi dokumen Python yang kuat. Konversi PDF, Word, DOC, DOCX, Excel, PPT, HTML, AutoCAD, dan format gambar dengan mudah."
 
 ############################# Header ############################
-title: "Konversi Dokumen melalui Python API"
+title: "Konversi dokumen melalui Python API"
 description: "Konversi format PDF, Office, HTML, eBook, dan gambar menggunakan GroupDocs.Conversion untuk Python melalui .NET."
 words:
   for: "for"
@@ -74,15 +74,15 @@ overview:
   description: "GroupDocs.Conversion menawarkan konversi dokumen berkualitas tinggi dan fleksibel dari format PDF, Office, HTML, dan gambar dalam aplikasi Python."
   features:
     # feature loop
-    - title: "Proses Konversi yang Efisien"
+    - title: "Proses konversi yang disederhanakan"
       content: "Konversikan dokumen dengan mudah ke format PDF, Office, HTML, eBook, dan gambar dengan API andal yang menjaga integritas konten dan struktur."
 
     # feature loop
-    - title: "Peralihan Format yang Mulus"
+    - title: "Peralihan format yang mulus"
       content: "Beralih di antara format dokumen dengan satu pemanggilan metode dan opsi langsung untuk konversi yang efisien."
 
     # feature loop
-    - title: "Kompatibilitas Lintas Platform"
+    - title: "Kompatibilitas lintas platform"
       content: "Mendukung operasi lintas platform, memungkinkan pengembang Python menangani konversi di sistem Windows dan macOS dengan mudah."
 
 ############################# Platforms ############################
@@ -221,7 +221,7 @@ code_samples:
         from groupdocs.conversion.options.convert import PdfConvertOptions
 
         def convert_document_to_another_format():
-            # Buat Instansiasi Konverter dengan dokumen masukan
+            # Instantiate Converter dengan dokumen input
             with Converter("./business-plan.docx") as converter:
                 # Buat instance opsi konversi untuk menentukan format output
                 pdf_convert_options = PdfConvertOptions()
@@ -245,7 +245,7 @@ code_samples:
         from groupdocs.conversion.options.convert import ImageConvertOptions
 
         def convert_all_document_pages():
-            # Buat Instansiasi Konverter dengan dokumen masukan 
+            # Instantiate Converter dengan dokumen input 
             with Converter("./basic-presentation.pptx") as converter:
                 # Buat instance opsi konversi dan tentukan format output sebagai PNG
                 png_convert_options = ImageConvertOptions()
@@ -269,7 +269,7 @@ code_samples:
         from groupdocs.conversion.options.convert import PdfConvertOptions
 
         def convert_files_within_document_container():
-            # Buat Instansiasi Konverter dengan dokumen masukan
+            # Instantiate Converter dengan dokumen input
             with Converter("./compressed.zip") as converter:
                 # Buat instance opsi konversi untuk menentukan format keluaran sebagai PDF
                 pdf_convert_options = PdfConvertOptions()

@@ -27,7 +27,7 @@ supported_platforms:
 
 ############################# Head ############################
 head_title: "API konversi dokumen Java | Konversi PDF, Word, Excel, PPTX, HTML, dan gambar"
-head_description: "API konversi dokumen Java. Konversi PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan format file gambar."
+head_description: "API konversi dokumen Java. Konversi format file PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan gambar."
 
 ############################# Header ############################
 title: "Konversi dokumen melalui Java API"
@@ -230,7 +230,7 @@ code_samples:
     # code sample loop
     - title: "Konversi PDF ke gambar"
       content: |
-        Skenario yang umum ditemui melibatkan konversi seluruh dokumen PDF atau halaman tertentu menjadi kumpulan gambar. GroupDocs.Conversion untuk Java menawarkan kemampuan untuk mengkonversi PDF ke berbagai format gambar, seperti TIFF, JPG, PNG, GIF, BMP, dan banyak lagi.  
+        Skenario yang umum ditemui melibatkan konversi seluruh dokumen PDF atau halaman tertentu menjadi kumpulan gambar. GroupDocs.Conversion untuk Java menawarkan kemampuan untuk mengonversi PDF ke berbagai format gambar, seperti TIFF, JPG, PNG, GIF, BMP, dan banyak lagi.  
         Anda dapat memilih format gambar pilihan Anda menggunakan kelas ImageFileType.
         {{< landing/code title="Mengonversi PDF ke PNG di Java">}}
         ```java {style=abap}

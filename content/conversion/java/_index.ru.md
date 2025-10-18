@@ -26,11 +26,11 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "Java API преобразования документов | Конвертируйте PDF, Word, Excel, PPTX, HTML и изображения."
-head_description: "Java API преобразования документов. Конвертируйте PDF, Word, DOC, DOCX, Excel, электронные таблицы, PPT, PPTX, HTML, PSD, MPT, MPP, электронную почту, MSG, EMLX, AutoCAD и форматы файлов изображений."
+head_title: "API преобразования документов Java | Конвертируйте PDF, Word, Excel, PPTX, HTML и изображения."
+head_description: "API преобразования документов Java. Конвертируйте PDF, Word, DOC, DOCX, Excel, электронные таблицы, PPT, PPTX, HTML, PSD, MPT, MPP, электронную почту, MSG, EMLX, AutoCAD и форматы файлов изображений."
 
 ############################# Header ############################
-title: "Конвертация документов через Java API"
+title: "Преобразование документов через Java API"
 description: "Мощный API-интерфейс для преобразования файлов PDF, Microsoft Office, HTML, электронных книг и изображений."
 words:
   for: "for"

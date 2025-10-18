@@ -41,12 +41,12 @@ actions:
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
   alt: "Licence"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
-  title: "Prêt à commencer?"
+  title: "Prêt à commencer ?"
   description: "Essayez les fonctionnalités de GroupDocs.Conversion gratuitement ou demandez une licence"
 
 release:
   title: "Version {0} publiée"
-  notes: "Regardez ce qu'il y a de nouveau"
+  notes: "Voir les nouveautés"
   downloads: "Téléchargements"
   link: "https://releases.groupdocs.com/conversion/nodejs-java/release-notes/latest/"
 
@@ -168,7 +168,7 @@ features:
     # feature loop
     - icon: "split"
       title: "Sortie haute fidélité"
-      content: "Préservez la qualité et le formatage d'origine des documents pendant le processus de conversion."
+      content: "Préservez la qualité et le formatage d’origine des documents pendant le processus de conversion."
 
     # feature loop
     - icon: "move"

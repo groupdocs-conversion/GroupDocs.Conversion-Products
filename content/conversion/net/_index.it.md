@@ -41,7 +41,7 @@ actions:
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
   alt: "Licenza"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "Pronto per iniziare?"
+  title: "Pronti per iniziare?"
   description: "Prova gratuitamente le funzionalità di GroupDocs.Conversion o richiedi una licenza"
 
 release:
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "Pacchetto .NET 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * Supporta .NET 6.0 e versioni successive
+        * Funziona su Windows, Linux e macOS
+      action: "Scarica NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "Pacchetto .NET Framework" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * Supporta .NET Framework 4.6.2+ 
+        * Dipende da System.Drawing.Common 
+      action: "Scarica NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -257,7 +257,7 @@ code_samples:
     # code sample loop
     - title: "Converti un segmento di un documento di grandi dimensioni"
       content: |
-        Con GroupDocs.Conversion per .NET, puoi convertire facilmente pagine specifiche da un documento lungo.
+        Con GroupDocs.Conversion per .NET, puoi convertire facilmente pagine specifiche da un lungo documento.
         Hai due metodi per raggiungere questo obiettivo, a seconda delle tue esigenze. Puoi convertire un intervallo di pagine o convertire pagine specifiche.
         {{< landing/code title="Converti DOCX (pagine 2-4) in PDF in C#">}}
         ```csharp {style=abap}   

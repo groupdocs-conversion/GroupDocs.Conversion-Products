@@ -39,14 +39,14 @@ words:
 actions:
   main: "Descarga gratuita de NPM"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
-  alt: "Licencia"
+  alt: "Licencias"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/nodejs-java"
-  title: "¿Listo para comenzar?"
+  title: "¿Listo para empezar?"
   description: "Pruebe las funciones de GroupDocs.Conversion de forma gratuita o solicite una licencia"
 
 release:
   title: "Versión {0} lanzada"
-  notes: "Ver qué hay de nuevo"
+  notes: "Ver que hay de nuevo"
   downloads: "Descargas"
   link: "https://releases.groupdocs.com/conversion/nodejs-java/release-notes/latest/"
 
@@ -156,7 +156,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "Funciones de GroupDocs.Conversion"
+  title: "Funciones de conversión de GroupDocs."
   description: "Convierta sin problemas documentos PDF y de Office a HTML, JPG, PNG, BMP, TIFF, SVG y muchos otros formatos. GroupDocs.Conversion para la API JavaScript está diseñada para ser fácil de usar e integrar en su proyecto. Admite todos los formatos de documentos populares con la capacidad de personalizar el proceso de conversión."
 
   items:

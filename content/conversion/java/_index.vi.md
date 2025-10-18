@@ -136,7 +136,7 @@ formats:
   enable: true
   title: "Các định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Conversion for Java hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/conversion/java/supported-file-formats/).
+    GroupDocs.Conversion cho Java hỗ trợ các thao tác với [định dạng tệp] sau (https://docs.groupdocs.com/conversion/java/supported-file-formats/).
   groups:
     # group loop
     - color: "green"
@@ -204,12 +204,12 @@ features:
     # feature loop
     - icon: "swap"
       title: "Xử lý an toàn"
-      content: "Đảm bảo quyền riêng tư dữ liệu với các tùy chọn chuyển đổi tệp được bảo vệ bằng mật khẩu."
+      content: "Đảm bảo quyền riêng tư của dữ liệu với các tùy chọn chuyển đổi tệp được bảo vệ bằng mật khẩu."
 
     # feature loop
     - icon: "extract"
       title: "Tích hợp API"
-      content: "Tích hợp liền mạch các khả năng chuyển đổi vào các ứng dụng Java của bạn, biến nó thành một phần liền mạch trong quy trình làm việc của bạn."
+      content: "Tích hợp liền mạch khả năng chuyển đổi vào các ứng dụng Java của bạn, biến nó thành một phần liền mạch trong quy trình làm việc của bạn."
 
     # feature loop
     - icon: "orientation"

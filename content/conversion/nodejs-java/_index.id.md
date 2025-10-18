@@ -28,7 +28,7 @@ supported_platforms:
 
 ############################# Head ############################
 head_title: "API konversi dokumen JavaScript | Konversi PDF, Word, Excel, PPTX, HTML, dan gambar"
-head_description: "API konversi dokumen JavaScript. Konversi PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan format file gambar."
+head_description: "API konversi dokumen JavaScript. Konversi format file PDF, Word, DOC, DOCX, Excel, Spreadsheets, PPT, PPTX, HTML, PSD, MPT, MPP, Email, MSG, EMLX, AutoCAD, dan gambar."
 
 ############################# Header ############################
 title: "Konversi dokumen melalui API Node.js"
@@ -70,7 +70,7 @@ code:
 overview:
   enable: true
   title: "Sekilas tentang GroupDocs.Conversion"
-  description: "Jelajahi kemampuan API untuk konversi PDF, Microsoft Office, HTML, eBook, dan file gambar dengan cepat dan sempurna dalam aplikasi JavaScript"
+  description: "Jelajahi kemampuan API untuk konversi file PDF, Microsoft Office, HTML, eBook, dan gambar dengan cepat dan sempurna dalam aplikasi JavaScript"
   features:
     # feature loop
     - title: "Konversi yang disederhanakan"

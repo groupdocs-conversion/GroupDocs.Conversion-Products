@@ -136,7 +136,7 @@ formats:
   enable: true
   title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    GroupDocs.Conversion สำหรับ Java รองรับการทำงานด้วย [รูปแบบไฟล์](https://docs.groupdocs.com/conversion/java/supported-file-formats/) ต่อไปนี้
+    GroupDocs.Conversion สำหรับ Java รองรับการดำเนินการกับ [รูปแบบไฟล์](https://docs.groupdocs.com/conversion/java/supported-file-formats/) ต่อไปนี้
   groups:
     # group loop
     - color: "green"
@@ -199,7 +199,7 @@ features:
     # feature loop
     - icon: "rotate"
       title: "การตั้งค่าที่ปรับแต่งได้"
-      content: "ปรับแต่งพารามิเตอร์การแปลงอย่างละเอียด เช่น ความละเอียด คุณภาพ และเค้าโครงเพื่อให้ตรงตามข้อกำหนดเฉพาะ"
+      content: "ปรับแต่งพารามิเตอร์การแปลงอย่างละเอียด เช่น ความละเอียด คุณภาพ และเค้าโครงให้ตรงตามข้อกำหนดเฉพาะ"
 
     # feature loop
     - icon: "swap"

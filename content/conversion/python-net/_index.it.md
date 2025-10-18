@@ -42,7 +42,7 @@ actions:
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
   alt: "Licenza"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/python-net"
-  title: "Pronto per iniziare?"
+  title: "Pronti per iniziare?"
   description: "Prova gratuitamente le funzionalità di GroupDocs.Conversion o richiedi una licenza"
 
 release:

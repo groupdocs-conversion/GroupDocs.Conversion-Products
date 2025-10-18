@@ -40,7 +40,7 @@ actions:
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-conversion/"
   alt: "Licenza"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/java"
-  title: "Pronto per iniziare?"
+  title: "Pronti per iniziare?"
   description: "Prova gratuitamente le funzionalità di GroupDocs.Conversion o richiedi una licenza"
 
 release:

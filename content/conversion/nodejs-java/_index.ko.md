@@ -52,7 +52,7 @@ release:
 
 code:
   title: "JavaScript로 PDF 파일을 변환하는 방법"
-  more: "더 많은 예시"
+  more: "더 많은 예"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java"
   install: "npm i @groupdocs/groupdocs.conversion"
   content: |
@@ -78,7 +78,7 @@ overview:
 
     # feature loop
     - title: "형식 간 간편한 전환"
-      content: "GroupDocs.Conversion API를 사용하는 프로세스는 매우 간단합니다. 단 하나의 방법과 다양한 형식 간에 쉽게 전환할 수 있는 옵션 세트가 필요합니다."
+      content: "GroupDocs.Conversion API를 사용하는 프로세스는 매우 간단합니다. 단 하나의 방법과 다양한 형식 간에 쉽게 전환할 수 있는 옵션 집합이 필요합니다."
 
     # feature loop
     - title: "플랫폼 간 호환성"
@@ -193,7 +193,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "API 통합"
-      content: "변환 기능을 JavaScript 애플리케이션에 원활하게 통합하여 워크플로의 일부로 매끄럽게 만듭니다."
+      content: "변환 기능을 JavaScript 애플리케이션에 원활하게 통합하여 워크플로우의 일부로 매끄럽게 만듭니다."
 
     # feature loop
     - icon: "orientation"
@@ -223,7 +223,7 @@ code_samples:
         // 소스 PDF 파일 로드
         const converter = new Converter("resume.pdf");
 
-        // 변환 옵션을 설정하고 출력 이미지 유형을 지정합니다.
+        // 변환 옵션 설정 및 출력 이미지 유형 지정
         const convertOptions = new ImageConvertOptions();
         convertOptions.setFormat(ImageFileType.Png);
 

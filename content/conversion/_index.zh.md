@@ -8,17 +8,17 @@ product: "Conversion"
 product_tag: "conversion"
 
 ############################# Head ############################
-head_title: "文件转换 API | 在本地 API 和在线服务"
-head_description: "轻松免费转换 Word、PDF、Excel、Powerpoint 或图像文件"
+head_title: "文件转换器 API |本地API和在线服务"
+head_description: "轻松免费地转换 Word、PDF、Excel、Powerpoint 或图像文件"
 
 ############################# Header ##########################
 title: "转换魔法：跨格式转换文件"
 description: |
-  轻松地将各种源格式的文档转换为不同的目标格式。享受广泛支持的转换，无需额外的软件，如 MS Office、Apache Open Office、Adobe Acrobat Reader 等。
+  轻松地将文档从各种源格式转换为不同的目标格式。无需额外软件即可享受各种受支持的转换，例如 MS Office、Apache Open Office、Adobe Acrobat Reader 等。
 
   从各种来源加载文档，包括文件、流、URL、FTP 服务器、Amazon S3、Azure Blob 存储等。
 
-  通过实现必要的接口使用任何缓存存储类型，例如 Amazon S3、Dropbox、Google Drive、Windows Azure、Redis 等。
+  通过实现必要的接口，使用任何缓存存储类型，例如 Amazon S3、Dropbox、Google Drive、Windows Azure、Redis 或其他类型。
 
 ############################# Platforms ############################
 supported_platforms:
@@ -43,7 +43,7 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "3K+ 转换对"
+        - content: "3K+ 转化对"
           rows: "1"        
     
     # supported_platforms loop
@@ -61,7 +61,7 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content: "3K+ 转换对"
+        - content: "3K+ 转化对"
           rows: "1"        
 
     # supported_platforms loop
@@ -79,7 +79,7 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "3K+ 转换对"
+        - content:  "3K+ 转化对"
           rows: "1"
 
     # supported_platforms loop
@@ -97,7 +97,7 @@ supported_platforms:
         - content:  "Windows, macOS"
           rows: "1"
         # features loop
-        - content:  "3K+ 转换对"
+        - content:  "3K+ 转化对"
           rows: "1"
 
 
@@ -106,18 +106,18 @@ supported_platforms:
 features:
   enable: true
   title: "GroupDocs.Conversion 的功能集"
-  description: "API 可在多种类型之间转换文件，如 HTML、PDF、Word、Excel、PNG 等，无需第三方软件。"
+  description: "API 可在 HTML、PDF、Word、Excel、PNG 等多种类型之间转换文件，无需第三方软件。"
 
   items:
     # feature loop
     - icon: "convert"
       title: "转换文档和图像"
-      content: "将不同源格式的文件转换为各种目标格式。"
+      content: "将文件从不同源转换为各种目标格式。"
 
     # feature loop
     - icon: "password"
       title: "打开受保护的文档"
-      content: "指定密码以打开加密的文档。"
+      content: "指定打开加密文档的密码。"
 
     # feature loop
     - icon: "load"
@@ -127,7 +127,7 @@ features:
     # feature loop
     - icon: "settings"
       title: "管理输出设置"
-      content: "旋转和重新排序页面，指定是否呈现备注和评论。"
+      content: "旋转和重新排序页面，指定是否呈现注释和评论。"
 
 
 ############################# Code samples ############################
@@ -137,9 +137,9 @@ code_samples:
   description: "C#、Java、TypeScript、Python 中典型 GroupDocs.Conversion 操作的一些用例"
   items:
     # code sample loop
-    - title: "几行代码将 PDF 转换为 DOCX"
+    - title: "只需几行代码即可将 PDF 转换为 DOCX"
       content: |
-       使用 GroupDocs.Conversion，您可以轻松地将 PDF 文件转换为 DOCX - 您只需要几行代码。它也不需要像 Microsoft Word 或 Adobe Acrobat 这样的第三方软件。以下是一个实现方式的示例：
+       使用 GroupDocs.Conversion，您可以轻松地将 PDF 文件转换为 DOCX - 您只需要几行代码。它还不需要任何第三方软件，如 Microsoft Word 或 Adob​​e Acrobat。以下是如何实现这一目标的示例：
       samples:
         - language: "C#"
           color: "blue"
@@ -195,8 +195,8 @@ code_samples:
 ############################# Formats ############################
 formats:
   enable: true
-  title:  "支持 60+ 文件格式"
-  description: "GroupDocs.Conversion 支持与最流行的 [文件格式](https://docs.groupdocs.com/conversion/net/supported-file-formats/) 进行操作。"
+  title:  "支持 60 多种文件格式"
+  description: "GroupDocs.Conversion 支持最流行的[文件格式](https://docs.groupdocs.com/conversion/net/supported-file-formats/) 的操作。"
 
 
 ############################# Metrics ############################
@@ -204,27 +204,27 @@ formats:
 metrics:
   enable: true
   title: "深入的指标和统计见解"
-  description: "深入分析我们的关键数字，提供全面的指标和统计见解，展示我们的成就、影响和增长。"
+  description: "深入了解我们的关键数据的详细分类，提供有关我们的成就、影响和增长的全面指标和统计见解。"
 
   items:
     # metrics loop
     - number: "3K+"
       title: "支持的转换对"
-      content: "轻松转换成千上万个支持的对 - Microsoft Office、PDF、图像、视频、音频和数据库。赋予用户转换多样文件类型的灵活性和便利性。"
+      content: "轻松转换数千种受支持的文件对 - Microsoft Office、PDF、图像、视频、音频和数据库。使用户能够无缝转换不同的文件类型，以实现灵活性和便利性。"
     # metrics loop
     - number: "1.0M"
       title: "NuGet 下载"
-      content: "加入我们满意的用户，选择我们的 NuGet 包。我们的解决方案已成为开发者社区中备受信赖和广泛采用的资源，为无数项目提供了无缝集成和宝贵功能。"
+      content: "加入我们满意的用户，选择我们的 NuGet 包。我们的解决方案已成为开发人员社区中值得信赖且广泛采用的资源，为无数项目提供无缝集成和有价值的功能。"
 
     # metrics loop
     - number: "10+"
-      title: "库"
-      content: "我们的产品包括 10+ 库，提供高级功能以优化性能。这些库旨在满足不同的开发需求，具有无与伦比的能力。"
+      title: "图书馆"
+      content: "我们的产品包括 10 多个库，提供先进的功能来优化性能。这些库旨在以无与伦比的功能满足不同的开发需求。"
     
     # metrics loop
     - number: "100+"
-      title: "满意的客户"
-      content: "凭借卓越的品质，我们的产品赢得了超过 100 名满意的客户的信任，他们依赖其强大的功能和可靠的性能。通过我们创新的解决方案找到成功和效率。"
+      title: "快乐的顾客"
+      content: "我们的产品凭借卓越的品质而蓬勃发展，凭借其强大的功能和可靠的性能赢得了 100 多家满意的客户的信任。通过我们的创新解决方案获得成功并提高效率。"
 
 
 ############################# Customers ############################
@@ -232,8 +232,8 @@ metrics:
 
 customers:
   enable: true
-  title: "我们的快乐客户"
-  description: "GroupDocs 库被世界各地的知名品牌和杰出公司采用。"
+  title: "我们满意的客户"
+  description: "GroupDocs 库被世界各地的全球知名和杰出品牌所采用。"
 
   items:
     # customers loop
@@ -299,80 +299,80 @@ actions:
 
 faq:
   enable: true
-  title: "常见问题和关注点"
-  description: "在我们的常见问题解答部分找到常见问题的答案，以快速解决您的疑问和关注。"
+  title: "常见问题和疑虑"
+  description: "在我们的常见问题解答部分查找常见问题的答案，以快速解决您的疑问和疑虑。"
 
   items:
     #  loop
-    - question: "我可以在购买之前评估 GroupDocs 产品吗？"
+    - question: "我可以在购买前评估 GroupDocs 产品吗？"
       answer: |
-        是的！所有 GroupDocs 产品都有一个无风险的评估版本可供使用。我们强烈建议开发者在购买之前下载并尝试我们的 API，以确保它们完全满足您的需求。
+        是的！所有 GroupDocs 产品均提供无风险评估版本。我们强烈鼓励开发人员在购买前下载并试用我们的 API，以确保它们 100% 满足您的需求。
     #  loop
     - question: "GroupDocs 是否进行产品演示？"
       answer: |
-        不，我们的重点是我们的 API，使产品功能最强大和最稳定。我们提供完全功能和免费试 用的临时许可证，以便您自己测试产品。
+        不，我们的重点是 API 并打造功能最强大、最稳定的产品。我们确实以[临时许可证](https://purchase.groupdocs.com/temporary-license/)的形式提供功能齐全的免费试用版，以便您可以亲自测试该产品。
     #  loop
-    - question: "我从哪里下载产品？"
+    - question: "我在哪里可以下载该产品？"
       answer: |
-        所有产品都可以从网站下载。我们不会通过邮寄方式发送我们的软件的实体副本。    
+        所有产品都可以从[网站](https://releases.groupdocs.com)下载。我们不会通过邮件发送我们软件的物理副本。    
     #  loop
-    - question: "GroupDocs 开发者许可证是按用户还是按具名用户计费？"
+    - question: "GroupDocs 开发人员许可证是按用户还是按指定用户授予的？"
       answer: |
-        GroupDocs 开发者许可证按用户计费，而不是按具名用户计费。我们理解编码团队的成员可能会随时间而变化，更新许可证每次发生这种情况并不现实。
+        GroupDocs 开发人员许可证是按用户授予的，而不是按指定用户授予的。我们了解编码团队的成员可能会随着时间的推移而发生变化，并且每次发生时都必须更新许可是不切实际的。
     #  loop
-    - question: "我们的构建或 CI (持续集成) 服务器需要单独的许可证吗？"
+    - question: "我们的构建或 CI（持续集成）服务器是否需要单独的许可证？"
       answer: |
-        不，我们很高兴客户在一个服务器上免费使用 GroupDocs 产品进行解决方案构建，无需额外费用。此安装不应用于绕过您与 GroupDocs 的协议的许可条款，并且应尊重您已购买的许可证所施加的任何可再分配或位置限制。
+        不会，我们很高兴客户可以在一台服务器上使用 GroupDocs 产品来构建解决方案，而无需支付额外费用。此安装不应用于规避您与 GroupDocs 签订的协议的许可条款，并且应尊重您购买的许可证所施加的任何可再分发或位置限制。
 
 ############################# Cloud ############################
 
 cloud_links:
   enable: true
   title: "GroupDocs.Conversion 低代码 API"
-  description: "通过我们的基于云的 REST API 在任何类型的应用程序中加速文档或图像转换"
+  description: "使用我们基于云的 REST API 加速任何类型应用程序中的文档或图像转换"
 
   items:
     #  loop
     - icon: "groupdocs_conversion-for-curl"
       title: "GroupDocs.Conversion Cloud for cURL"
       link: "https://products.groupdocs.cloud/conversion/curl"
-      content: "利用 cURL RESTful 文件转换 API，在您的应用程序中轻松转换各种文件格式，包括 Microsoft Office、PDF、Email、Project、HTML 等。"
+      content: "利用 cURL RESTful 文件转换 API 在您的应用程序中轻松转换各种文件格式，包括 Microsoft Office、PDF、电子邮件、项目、HTML 等。"
     #  loop
     - icon: "groupdocs_conversion-for-net"
       title: "GroupDocs.Conversion Cloud for .NET"
       link: "https://products.groupdocs.cloud/conversion/net"
-      content: "使用 .NET 文件转换 REST API，在任何平台上无缝转换 Microsoft Office、PDF、Email、Project、HTML 和各种常见文件格式，使用 Cloud SDK。"
+      content: "使用 .NET 文件转换 REST API 通过 Cloud SDK 在任何平台上无缝转换 Microsoft Office、PDF、电子邮件、项目、HTML 和各种常见文件格式。"
     #  loop
     - icon: "groupdocs_conversion-for-java"
       title: "GroupDocs.Conversion Cloud for Java"
       link: "https://products.groupdocs.cloud/conversion/java"
-      content: "通过访问任何平台均能进行 REST API 调用的高级文档转换功能，增强您的基于云的 Java 应用程序。"
+      content: "通过高级文档转换功能增强基于云的 Java 应用程序，这些功能可在任何能够进行 REST API 调用的平台上访问。"
 
 ############################# Apps ############################
 
 app_links:
   enable: true
-  title: "GroupDocs.Conversion 无代码应用程序"
-  description: "在线应用程序，允许您在浏览器中转换 100+ 种流行文件格式"
+  title: "GroupDocs.Conversion NoCode 应用程序"
+  description: "在线应用程序允许您在浏览器中转换 100 多种流行的文件格式"
 
   items:
     #  loop
     - icon: "groupdocs_conversion-app"
       title: "GroupDocs.Conversion <br> Total"
       link: "https://products.groupdocs.app/conversion/total"
-      content: "轻松将超过数百种格式转换为 PDF、XLSX、DOCX、XPS、HTML 等。"
+      content: "轻松将数百种格式轻松转换为 PDF、XLSX、DOCX、XPS、HTML 等。"
 
     #  loop
     - icon: "groupdocs_words-app"
       title:  "GroupDocs.Conversion <br> DOC to XLS"
       link: "https://products.groupdocs.app/conversion/doc-to-xls"
-      content: "免费在线应用程序，允许直接从您的 Web 浏览器将 DOC 转换为 XLS 格式。"
+      content: "免费在线应用程序，可直接从 Web 浏览器将 DOC 转换为 XLS 格式。"
 
     #  loop
     - icon: "groupdocs_pdf-app"
       title:  "GroupDocs.Conversion <br> PDF to DOCX"
       link: "https://products.groupdocs.app/conversion/pdf-to-docx"
-      content: "通过我们用户友好的界面轻松将您的 PDF 文档转换为 Word (DOCX) 格式。"
+      content: "通过我们的用户友好界面上传 PDF 文档，轻松将其转换为 Word (DOCX) 格式。"
     
 
 ---

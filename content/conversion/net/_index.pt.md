@@ -46,7 +46,7 @@ actions:
 
 release:
   title: "Versão {0} lançada"
-  notes: "Veja o que é novo"
+  notes: "Veja o que há de novo"
   downloads: "Transferências"
   link: "https://releases.groupdocs.com/conversion/net/release-notes/latest/"
 
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "Pacote .NET 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * Suporta .NET 6.0 e versões superiores
+        * Funciona em Windows, Linux e macOS
+      action: "Baixar NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "Pacote .NET Framework" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * Suporta .NET Framework 4.6.2+ 
+        * Depende de System.Drawing.Common 
+      action: "Baixar NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################

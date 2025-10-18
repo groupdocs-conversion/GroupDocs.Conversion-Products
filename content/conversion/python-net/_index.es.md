@@ -40,14 +40,14 @@ words:
 actions:
   main: "Descargar desde Lanzamientos"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
-  alt: "Licencia"
+  alt: "Licencias"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/python-net"
-  title: "¿Listo para comenzar?"
+  title: "¿Listo para empezar?"
   description: "Pruebe las funciones de GroupDocs.Conversion de forma gratuita o solicite una licencia"
 
 release:
   title: "Versión {0} lanzada"
-  notes: "Ver qué hay de nuevo"
+  notes: "Ver que hay de nuevo"
   downloads: "Descargas"
   link: "https://releases.groupdocs.com/conversion/python-net/release-notes/latest/"
 
@@ -78,7 +78,7 @@ overview:
       content: "Convierta documentos sin esfuerzo a formatos PDF, Office, HTML, libros electrónicos e imágenes con una API confiable que mantiene la integridad del contenido y la estructura."
 
     # feature loop
-    - title: "Cambio de formato sin problemas"
+    - title: "Cambio de formato fluido"
       content: "Cambie entre formatos de documentos con una única llamada a un método y opciones sencillas para conversiones eficientes."
 
     # feature loop
@@ -155,7 +155,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "Funciones de GroupDocs.Conversion"
+  title: "Funciones de conversión de GroupDocs."
   description: "Convierta sin problemas documentos PDF y de Office a HTML, JPG, PNG, BMP, TIFF, SVG y muchos otros formatos. GroupDocs.Conversion para la API  está diseñada para ser fácil de usar e integrar en su proyecto. Admite todos los formatos de documentos populares con la capacidad de personalizar el proceso de conversión."
 
   items:
@@ -263,7 +263,7 @@ code_samples:
       content: |
         Convierta archivos incrustados en contenedores de documentos, como archivos comprimidos o empaquetados, en archivos de salida individuales.  
         El siguiente ejemplo demuestra cómo convertir cada archivo comprimido en un archivo ZIP a PDF.
-        {{< landing/code title="Convierta archivos en formato ZIP a PDF en Python">}}
+        {{< landing/code title="Convierta archivos en un archivo ZIP a PDF en Python">}}
         ```python {style=abap}   
         from groupdocs.conversion import Converter
         from groupdocs.conversion.options.convert import PdfConvertOptions

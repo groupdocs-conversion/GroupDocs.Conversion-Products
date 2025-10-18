@@ -45,7 +45,7 @@ actions:
 
 release:
   title: "Versão {0} lançada"
-  notes: "Veja o que é novo"
+  notes: "Veja o que há de novo"
   downloads: "Transferências"
   link: "https://releases.groupdocs.com/conversion/java/release-notes/latest/"
 

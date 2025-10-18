@@ -85,7 +85,7 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Conversion در یک نگاه"
-  description: "قابلیت‌های API را برای تبدیل سریع و بی‌عیب PDF، مایکروسافت آفیس، HTML، کتاب الکترونیکی و فایل‌های تصویری در برنامه‌های جاوا کاوش کنید."
+  description: "قابلیت‌های API را برای تبدیل سریع و بی‌عیب فایل‌های PDF، مایکروسافت آفیس، HTML، کتاب الکترونیکی و تصویر در برنامه‌های جاوا کاوش کنید."
   features:
     # feature loop
     - title: "تبدیل ساده"
@@ -173,7 +173,7 @@ formats:
 features:
   enable: true
   title: "ویژگی های GroupDocs.Conversion"
-  description: "تبدیل یکپارچه PDF و اسناد اداری به HTML، JPG، PNG، BMP، TIFF، SVG و بسیاری از فرمت های دیگر. GroupDocs.Conversion for Java API به گونه ای طراحی شده است که استفاده از آن آسان باشد و در پروژه شما ادغام شود. از تمام فرمت های سند محبوب با قابلیت سفارشی سازی فرآیند تبدیل پشتیبانی می کند."
+  description: "تبدیل یکپارچه PDF و اسناد اداری به HTML، JPG، PNG، BMP، TIFF، SVG و بسیاری از فرمت های دیگر. GroupDocs.Conversion for Java API طوری طراحی شده است که استفاده از آن و ادغام در پروژه شما آسان باشد. از تمام فرمت های سند محبوب با قابلیت سفارشی سازی فرآیند تبدیل پشتیبانی می کند."
 
   items:
     # feature loop
@@ -199,7 +199,7 @@ features:
     # feature loop
     - icon: "rotate"
       title: "تنظیمات قابل تنظیم"
-      content: "پارامترهای تبدیل مانند وضوح، کیفیت، و طرح را برای برآوردن نیازهای خاص تنظیم کنید."
+      content: "پارامترهای تبدیل مانند وضوح، کیفیت و طرح را برای برآوردن نیازهای خاص تنظیم کنید."
 
     # feature loop
     - icon: "swap"

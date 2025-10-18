@@ -27,11 +27,11 @@ supported_platforms:
       tag: "python-net" 
       
 ############################# Head ############################
-head_title: "C# .NET API преобразования документов | Конвертируйте PDF, Word, Excel, PPTX, HTML и изображения."
-head_description: "C# .NET API преобразования документов. Конвертируйте PDF, Word, DOC, DOCX, Excel, электронные таблицы, PPT, PPTX, HTML, PSD, MPT, MPP, электронную почту, MSG, EMLX, AutoCAD и форматы файлов изображений."
+head_title: "API преобразования документов C# .NET | Конвертируйте PDF, Word, Excel, PPTX, HTML и изображения."
+head_description: "API преобразования документов C# .NET. Конвертируйте PDF, Word, DOC, DOCX, Excel, электронные таблицы, PPT, PPTX, HTML, PSD, MPT, MPP, электронную почту, MSG, EMLX, AutoCAD и форматы файлов изображений."
 
 ############################# Header ############################
-title: "Конвертация документов через .NET API"
+title: "Преобразование документов через .NET API"
 description: "Мощный API-интерфейс для преобразования файлов PDF, Microsoft Office, HTML, электронных книг и изображений."
 words:
   for: "for"
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "пакет .NET 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * Поддерживает .NET 6.0 и более поздние версии.
+        * Работает на Windows, Linux и macOS
+      action: "Загрузка NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "Пакет .NET Framework" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * Поддерживает .NET Framework 4.6.2+. 
+        * Зависит от System.Drawing.Common 
+      action: "Загрузка NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -283,7 +283,7 @@ code_samples:
     - title: "Свободный синтаксис: оптимизированный подход"
       content: |
         Свободный синтаксис предлагает краткое обозначение общих действий в API GroupDocs.Conversion для .NET.
-        В приведенных ниже примерах кода показано, как использовать свободный синтаксис.:
+        Примеры кода ниже демонстрируют, как использовать свободный синтаксис.:
         {{< landing/code title="Преобразование DOCX в PDF на C# с использованием гибкого синтаксиса">}}
         ```csharp {style=abap}  
         using GroupDocs.Conversion;

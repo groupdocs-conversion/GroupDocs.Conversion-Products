@@ -41,12 +41,12 @@ actions:
   main_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
   alt: "Licence"
   alt_link: "https://purchase.groupdocs.com/pricing/conversion/net"
-  title: "Prêt à commencer?"
+  title: "Prêt à commencer ?"
   description: "Essayez les fonctionnalités de GroupDocs.Conversion gratuitement ou demandez une licence"
 
 release:
   title: "Version {0} publiée"
-  notes: "Regardez ce qu'il y a de nouveau"
+  notes: "Voir les nouveautés"
   downloads: "Téléchargements"
   link: "https://releases.groupdocs.com/conversion/net/release-notes/latest/"
 
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "Paquet .NET 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * Prend en charge .NET 6.0 et les versions supérieures
+        * Fonctionne sous Windows, Linux et macOS
+      action: "Téléchargement de NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "Paquet .NET Framework" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * Prend en charge .NET Framework 4.6.2+ 
+        * Dépend de System.Drawing.Common 
+      action: "Téléchargement de NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -184,7 +184,7 @@ features:
     # feature loop
     - icon: "split"
       title: "Sortie haute fidélité"
-      content: "Préservez la qualité et le formatage d'origine des documents pendant le processus de conversion."
+      content: "Préservez la qualité et le formatage d’origine des documents pendant le processus de conversion."
 
     # feature loop
     - icon: "move"

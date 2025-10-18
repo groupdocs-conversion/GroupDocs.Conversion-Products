@@ -27,8 +27,8 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "JavaScript API перетворення документів | Конвертуйте PDF, Word, Excel, PPTX, HTML і зображення"
-head_description: "JavaScript API перетворення документів. Конвертуйте PDF, Word, DOC, DOCX, Excel, електронні таблиці, PPT, PPTX, HTML, PSD, MPT, MPP, електронну пошту, MSG, EMLX, AutoCAD і формати файлів зображень."
+head_title: "API перетворення документів JavaScript | Конвертуйте PDF, Word, Excel, PPTX, HTML і зображення"
+head_description: "API перетворення документів JavaScript. Конвертуйте PDF, Word, DOC, DOCX, Excel, електронні таблиці, PPT, PPTX, HTML, PSD, MPT, MPP, електронну пошту, MSG, EMLX, AutoCAD і формати файлів зображень."
 
 ############################# Header ############################
 title: "Перетворення документів через API Node.js"
@@ -183,7 +183,7 @@ features:
     # feature loop
     - icon: "rotate"
       title: "Настроювані параметри"
-      content: "Тонко налаштуйте такі параметри перетворення, як роздільна здатність, якість і макет, відповідно до конкретних вимог."
+      content: "Тонко налаштуйте такі параметри перетворення, як роздільна здатність, якість і макет, щоб відповідати конкретним вимогам."
 
     # feature loop
     - icon: "swap"

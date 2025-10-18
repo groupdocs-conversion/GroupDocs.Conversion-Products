@@ -83,7 +83,7 @@ overview:
 
     # feature loop
     - title: "クロスプラットフォームの互換性"
-      content: "固有のクロスプラットフォーム互換性を備えた変換ソリューションを検討して、より広範なユーザー ベースに対応し、あらゆるドキュメント変換要件に対してさまざまな環境で最適なパフォーマンスを保証します。"
+      content: "固有のクロスプラットフォーム互換性を備えた変換ソリューションを検討して、幅広いユーザー ベースに対応し、あらゆるドキュメント変換要件に対してさまざまな環境で最適なパフォーマンスを保証します。"
 
 ############################# Platforms ############################
 platforms:
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: ".NET 6 パッケージ"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * .NET 6.0以降のバージョンをサポート
+        * Windows、Linux、macOS で動作します
+      action: "NuGetのダウンロード"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: ".NET Framework パッケージ" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * .NET Framework 4.6.2以降をサポート 
+        * System.Drawing.Common に依存 
+      action: "NuGetのダウンロード" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -161,7 +161,7 @@ formats:
       # group loop
     - color: "red"
       content: |
-        ### その他のフォーマット        
+        ### その他の形式        
         * **eBook:** EPUB, MOBI, AZW, FB2
         * **Web:**  HTML, MHTML, MHT
         * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
@@ -204,7 +204,7 @@ features:
     # feature loop
     - icon: "swap"
       title: "安全な処理"
-      content: "パスワードで保護されたファイル変換オプションでデータのプライバシーを確​​保します。"
+      content: "パスワードで保護されたファイル変換オプションにより、データのプライバシーを確​​保します。"
 
     # feature loop
     - icon: "extract"
@@ -219,7 +219,7 @@ features:
     # feature loop
     - icon: "preview"
       title: "アーカイブからドキュメントを変換する"
-      content: "アーカイブからドキュメントを抽出して変換し、圧縮ファイル内に保存されているコンテンツの変換を可能にします。"
+      content: "アーカイブからドキュメントを抽出して変換し、圧縮ファイル内に保存されているコンテンツを変換できます。"
 
 ############################# Code samples ############################
 code_samples:

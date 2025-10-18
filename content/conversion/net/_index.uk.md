@@ -27,8 +27,8 @@ supported_platforms:
       tag: "python-net" 
       
 ############################# Head ############################
-head_title: "C# .NET API перетворення документів | Конвертуйте PDF, Word, Excel, PPTX, HTML і зображення"
-head_description: "C# .NET API перетворення документів. Конвертуйте PDF, Word, DOC, DOCX, Excel, електронні таблиці, PPT, PPTX, HTML, PSD, MPT, MPP, електронну пошту, MSG, EMLX, AutoCAD і формати файлів зображень."
+head_title: "API перетворення документів C# .NET | Конвертуйте PDF, Word, Excel, PPTX, HTML і зображення"
+head_description: "API перетворення документів C# .NET. Конвертуйте PDF, Word, DOC, DOCX, Excel, електронні таблиці, PPT, PPTX, HTML, PSD, MPT, MPP, електронну пошту, MSG, EMLX, AutoCAD і формати файлів зображень."
 
 ############################# Header ############################
 title: "Перетворення документів через .NET API"
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "Пакет .NET 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * Підтримує .NET 6.0 і новіші версії
+        * Працює на Windows, Linux і macOS
+      action: "Завантажити NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "Пакет .NET Framework" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * Підтримує .NET Framework 4.6.2+ 
+        * Залежить від System.Drawing.Common 
+      action: "Завантажити NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -199,7 +199,7 @@ features:
     # feature loop
     - icon: "rotate"
       title: "Настроювані параметри"
-      content: "Тонко налаштуйте такі параметри перетворення, як роздільна здатність, якість і макет, відповідно до конкретних вимог."
+      content: "Тонко налаштуйте такі параметри перетворення, як роздільна здатність, якість і макет, щоб відповідати конкретним вимогам."
 
     # feature loop
     - icon: "swap"

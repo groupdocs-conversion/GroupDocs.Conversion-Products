@@ -8,25 +8,25 @@ product: "Conversion"
 product_tag: "conversion"
 
 ############################# Head ############################
-head_title: "ファイルコンバータAPI | オンプレミスAPIとオンラインサービス"
-head_description: "Word、PDF、Excel、PowerPoint、または画像ファイルを簡単に無料で変換します"
+head_title: "ファイルコンバーターAPI |オンプレミスAPIとオンラインサービス"
+head_description: "Word、PDF、Excel、Powerpoint、または画像ファイルを簡単かつ無料で変換します"
 
 ############################# Header ##########################
-title: "変換魔法：さまざまな形式間でファイルを変換する"
+title: "変換マジック: さまざまな形式でファイルを変換します"
 description: |
-  さまざまなソース形式から異なるターゲット形式に文書を簡単に変換します。MS Office、Apache Open Office、Adobe Acrobat Readerなどの追加のソフトウェアなしで、幅広いサポートされる変換をお楽しみください。
+  ドキュメントをさまざまなソース形式から異なるターゲット形式に簡単に変換します。 MS Office、Apache Open Office、Adobe Acrobat Reader など、追加のソフトウェアを必要とせずに、サポートされている幅広い変換をお楽しみください。
 
-  ファイル、ストリーム、URL、FTPサーバー、Amazon S3、Azure Blob Storageなど、さまざまなソースからドキュメントをロードします。
+  ファイル、ストリーム、URL、FTP サーバー、Amazon S3、Azure Blob Storage など、さまざまなソースからドキュメントを読み込みます。
 
-  必要なインターフェイスを実装して、Amazon S3、Dropbox、Google Drive、Windows Azure、RedisなどのAmazon S3、Dropbox、Google Drive、Windows Azure、Redisなどの任意のキャッシュストレージタイプを使用します。
+  必要なインターフェイスを実装することで、Amazon S3、Dropbox、Google Drive、Windows Azure、Redis などのキャッシュ ストレージ タイプを使用できます。
 
 ############################# Platforms ############################
 supported_platforms:
   enable: true  
   head_title: "プラットフォームを選択してください"
-  title: "サポートされているプラットフォーム"
-  description: "GroupDocs.Conversionライブラリは、次のオペレーティングシステムとフレームワークをサポートしています"
-  details_link_title: "詳細を見る"
+  title: "サポートされているプラ​​ットフォーム"
+  description: "GroupDocs.Conversion ライブラリは、次のオペレーティング システムとフレームワークをサポートしています。"
+  details_link_title: "もっと詳しく知る"
   items:
     # supported_platforms loop
     - title: ".NET"
@@ -43,7 +43,7 @@ supported_platforms:
         - content: "Windows, Linux"
           rows: "1"
         # features loop
-        - content: "3,000以上の変換ペア"
+        - content: "3,000 以上のコンバージョン ペア"
           rows: "1"        
     
     # supported_platforms loop
@@ -61,7 +61,7 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"       
         # features loop
-        - content: "3,000以上の変換ペア"
+        - content: "3,000 以上のコンバージョン ペア"
           rows: "1"        
 
     # supported_platforms loop
@@ -79,7 +79,7 @@ supported_platforms:
         - content:  "Windows, Linux, macOS"
           rows: "1"
         # features loop
-        - content:  "3,000以上の変換ペア"
+        - content:  "3,000 以上のコンバージョン ペア"
           rows: "1"
 
     # supported_platforms loop
@@ -97,7 +97,7 @@ supported_platforms:
         - content:  "Windows, macOS"
           rows: "1"
         # features loop
-        - content:  "3,000以上の変換ペア"
+        - content:  "3,000 以上のコンバージョン ペア"
           rows: "1"
 
 
@@ -105,52 +105,52 @@ supported_platforms:
 
 features:
   enable: true
-  title: "GroupDocs.Conversionの機能セット"
-  description: "サードパーティのソフトウェアなしで、HTML、PDF、Word、Excel、PNGなどの複数のタイプのファイルを変換するAPI。"
+  title: "GroupDocs.Conversion の機能セット"
+  description: "サードパーティ ソフトウェアを使用せずに、HTML、PDF、Word、Excel、PNG などの複数のタイプの間でファイルを変換する API。"
 
   items:
     # feature loop
     - icon: "convert"
       title: "ドキュメントと画像を変換する"
-      content: "異なるソースからさまざまなターゲット形式にファイルを変換します。"
+      content: "ファイルをさまざまなソースからさまざまなターゲット形式に変換します。"
 
     # feature loop
     - icon: "password"
-      title: "セキュアドキュメントを開く"
+      title: "保護された文書を開く"
       content: "暗号化されたドキュメントを開くためのパスワードを指定します。"
 
     # feature loop
     - icon: "load"
-      title: "どこからでもファイルをロードする"
-      content: "ファイル、URL、FTPサーバー、Amazon S3など、さまざまな場所からドキュメントをロードします。"
+      title: "どこからでもファイルをロード"
+      content: "さまざまなファイル、URL、FTP サーバー、Amazon S3 などからドキュメントを読み込みます。"
     
     # feature loop
     - icon: "settings"
       title: "出力設定を管理する"
-      content: "ページの回転と並べ替え、ノートとコメントをレンダリングするかどうかを指定します。"
+      content: "ページを回転および並べ替えたり、メモやコメントを表示するかどうかを指定したりできます。"
 
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "GroupDocs.Conversionコードサンプル"
-  description: "C＃、Java、TypeScript、PythonでのGroupDocs.Conversion操作の典型的な使用例"
+  title: "GroupDocs.Conversion コードサンプル"
+  description: "C#、Java、TypeScript、Python での典型的な GroupDocs.Conversion 操作のいくつかの使用例"
   items:
     # code sample loop
-    - title: "数行のコードでPDFをDOCXに変換する"
+    - title: "数行のコードで PDF を DOCX に変換"
       content: |
-       GroupDocs.Conversionを使用して、数行のコードでPDFファイルをDOCXに変換できます。 Microsoft WordやAdobe Acrobatのようなサードパーティのソフトウェアは必要ありません。 これが実現できる方法の例です：
+       GroupDocs.Conversion を使用すると、数行のコードを記述するだけで PDF ファイルを DOCX に簡単に変換できます。また、Microsoft Word や Adob​​e Acrobat などのサードパーティ ソフトウェアも必要ありません。これを実現する方法の例を次に示します。
       samples:
         - language: "C#"
           color: "blue"
           content: |
             ```csharp {style=abap}   
-            // ソースPDFファイルをロードする
+            // ソース PDF ファイルをロードします
             using (var converter = new GroupDocs.Conversion.Converter("sample.pdf"))
             {
-                // DOCX形式の変換オプションを設定します
+                // DOCX 形式の変換オプションを設定する
                 var options = new WordProcessingConvertOptions();
-                // DOCX形式に変換します
+                // DOCX形式に変換
                 converter.Convert("converted.docx", options);
             }
             ```
@@ -161,33 +161,33 @@ code_samples:
             import com.groupdocs.conversion.Converter;
             import com.groupdocs.conversion.options.convert.WordProcessingConvertOptions;
             ...
-            // ソースPDFファイルをロードする
+            // ソース PDF ファイルをロードします
             Converter converter = new Converter("sample.pdf");
-            // DOCX形式の変換オプションを設定します
+            // DOCX 形式の変換オプションを設定する
             WordProcessingConvertOptions options = new WordProcessingConvertOptions();
-            // DOCX形式に変換します
+            // DOCX形式に変換
             converter.convert("converted.docx", options);
             ```
         - language: "TypeScript"
           color: "green"
           content: |
             ```javascript {style=abap}  
-            // ソースPDFファイルをロードする
+            // ソース PDF ファイルをロードします
             const converter = new groupdocs.conversion.Converter("sample.pdf");
-            // DOCX形式の変換オプションを設定します
+            // DOCX 形式の変換オプションを設定する
             const options = new groupdocs.conversion.WordProcessingConvertOptions();
-            // DOCX形式に変換します
+            // DOCX形式に変換
             converter.convert("converted.docx", options);
             ```
         - language: "Python"
           color: "yellow"
           content: |
             ```python {style=abap}  
-            # ソースPDFファイルをロードする
+            # ソース PDF ファイルをロードします
             converter = Converter("sample.pdf")
-            # DOCX形式の変換オプションを設定します
+            # DOCX 形式の変換オプションを設定する
             convert_options = WordProcessingConvertOptions()
-            # DOCX形式に変換します
+            # DOCX形式に変換
             converter.convert("converted.docx", convert_options);
             ```
 
@@ -195,36 +195,36 @@ code_samples:
 ############################# Formats ############################
 formats:
   enable: true
-  title:  "60以上のファイル形式がサポートされています"
-  description: "GroupDocs.Conversionは、最も人気のあるファイル形式での操作をサポートしています。"
+  title:  "60 以上のファイル形式をサポート"
+  description: "GroupDocs.Conversion は、最も一般的な [ファイル形式](https://docs.groupdocs.com/conversion/net/supported-file-formats/) での操作をサポートします。"
 
 
 ############################# Metrics ############################
 
 metrics:
   enable: true
-  title: "詳細なメトリクスと統計的洞察"
-  description: "主要な数字の詳細な分析にダイブし、成果、影響、および成長について包括的なメトリクスと統計的洞察を提供します。"
+  title: "詳細な指標と統計的洞察"
+  description: "当社の主要な数値を詳細に分析し、当社の業績、影響、成長に関する包括的な指標と統計的洞察を提供します。"
 
   items:
     # metrics loop
     - number: "3K+"
       title: "サポートされている変換ペア"
-      content: "Microsoft Office、PDF、画像、ビデオ、オーディオ、およびデータベースなど、サポートされている数千のペアでファイルを簡単に変換します。 ユーザーが様々なファイルタイプを柔軟性と便利さのためにシームレスに変換できるようにします。"
+      content: "Microsoft Office、PDF、画像、ビデオ、オーディオ、データベースなど、サポートされている何千ものペアにわたるファイルを簡単に変換します。ユーザーは、柔軟性と利便性を高めるために、さまざまな種類のファイルをシームレスに変換できるようになります。"
     # metrics loop
     - number: "1.0M"
       title: "NuGetのダウンロード"
-      content: "私たちのNuGetパッケージを選んだ満足のいくユーザーに参加してください。 私たちのソリューションは、開発者コミュニティで信頼され、広く採用されているリソースとなり、数え切れないほどのプロジェクトにシームレスな統合と貴重な機能を提供しています。"
+      content: "NuGet パッケージを選択して満足したユーザーの仲間入りをしてください。当社のソリューションは開発者コミュニティで信頼され広く採用されており、無数のプロジェクトにシームレスな統合と貴重な機能を提供しています。"
 
     # metrics loop
     - number: "10+"
-      title: "ライブラリ"
-      content: "私たちの製品には10以上のライブラリが含まれており、パ フォーマンスを最適化するための高度な機能を提供しています。 これらのライブラリは、無類の機能を備えたさまざまな開発ニーズを満たすように設計されています。"
+      title: "図書館"
+      content: "当社の製品には 10 以上のライブラリが含まれており、パフォーマンスを最適化する高度な機能を提供します。これらのライブラリは、比類のない機能でさまざまな開発ニーズを満たすように設計されています。"
     
     # metrics loop
     - number: "100+"
-      title: "満足した顧客"
-      content: "卓越性に基づいて、製品は100人以上の満足した顧客の信頼を得ており、その堅牢な機能と信頼性の高いパフォーマンスに依存しています。 当社の革新的なソリューションで成功と効率性を見つけてください。"
+      title: "幸せな顧客"
+      content: "卓越性を追求した当社の製品は、その堅牢な機能と信頼性の高いパフォーマンスを信頼する 100 名を超える顧客からの信頼を獲得しています。当社の革新的なソリューションで成功と効率を実現しましょう。"
 
 
 ############################# Customers ############################
@@ -232,8 +232,8 @@ metrics:
 
 customers:
   enable: true
-  title: "私たちの幸せな顧客"
-  description: "GroupDocsライブラリは、世界中の有名なブランドによって使用されています。"
+  title: "幸せなお客様"
+  description: "GroupDocs ライブラリは、世界中の世界的に有名な有名ブランドで採用されています。"
 
   items:
     # customers loop
@@ -273,8 +273,8 @@ customers:
 
 actions:
   enable: true
-  title: "開始の準備ができましたか？"
-  description: "GroupDocs.Conversionの機能を無料で試してみるか、ライセンスをリクエストしてください"
+  title: "始める準備はできていますか?"
+  description: "GroupDocs.Conversion 機能を無料で試すか、ライセンスをリクエストしてください"
 
   items:
     #  loop
@@ -299,80 +299,80 @@ actions:
 
 faq:
   enable: true
-  title: "よくある質問と懸念"
-  description: "FAQセクションでよくある質問に迅速に対処して、お客様の疑問や懸念を解決します。"
+  title: "よくある質問と懸念事項"
+  description: "よくある質問への回答を FAQ セクションで見つけて、質問や懸念事項にすばやく対処します。"
 
   items:
     #  loop
-    - question: "GroupDocs製品を購入前に評価できますか？"
+    - question: "購入前に GroupDocs 製品を評価できますか?"
       answer: |
-        はい！ GroupDocs製品にはリスクフリーの評価版が用意されています。 開発者がAPIをダウンロードして試して、必要なものを100％確認してから購入することを強くお勧めします。
+        はい！すべての GroupDocs 製品には、リスクのない評価版が用意されています。開発者には、お客様のニーズを 100% 満たすことを確認するために、購入前に API をダウンロードして試してみることを強くお勧めします。
     #  loop
-    - question: "GroupDocsは製品デモを行っていますか？"
+    - question: "GroupDocs は製品のデモンストレーションを行いますか?"
       answer: |
-        いいえ、私たちの焦点はAPIにあり、可能な限り最も機能的で安定した製品を提供することです。 プロダクトを自分でテストするための[一時ライセンス](https://purchase.groupdocs.com/temporary-license/)として、完全に機能する無料トライアルを提供しています。
+        いいえ、私たちは API と、可能な限り最も機能的で安定した製品を作ることに重点を置いています。製品をご自身でテストできるように、[一時ライセンス](https://purchase.groupdocs.com/temporary-license/) の形式で完全な機能の無料トライアルを提供しています。
     #  loop
-    - question: "どこから製品をダウンロードできますか？"
+    - question: "製品はどこでダウンロードできますか?"
       answer: |
-        すべての製品は[ウェブサイト](https://releases.groupdocs.com)からダウンロードできます。 ソフトウェアの物理的なコピーを郵送することはありません。    
+        すべての製品は、[Web サイト](https://releases.groupdocs.com) からダウンロードできます。ソフトウェアの物理コピーを郵送することはありません。    
     #  loop
-    - question: "GroupDocsの開発者ライセンスはユーザーごとですか、それとも名前のあるユーザーごとですか？"
+    - question: "GroupDocs 開発者ライセンスはユーザーごとですか、それとも指定ユーザーごとですか?"
       answer: |
-        GroupDocsの開発者ライセンスはユーザーごとになっています。 コーディングチームのメンバーが時間の経過とともに変わることがあり、そのたびにライセンスを更新することは実用的ではないためです。
+        GroupDocs Developer ライセンスは、指定ユーザーごとではなく、ユーザーごとに付与されます。私たちは、コーディング チームのメンバーは時間の経過とともに変わる可能性があり、そのたびにライセンスを更新する必要があるのは現実的ではないことを理解しています。
     #  loop
-    - question: "ビルドまたはCI（Continuous Integration）サーバーには別のライセンスが必要ですか？"
+    - question: "ビルドまたは CI (継続的インテグレーション) サーバーに別のライセンスが必要ですか?"
       answer: |
-        いいえ、GroupDocs製品を別のサーバーにインストールしてソリューションを構築する目的でお使いいただけるのは嬉しいです。 これは追加料金はかからず、GroupDocsとの契約条件を回避するためにこのインストールを使用しないでください。 購入したライセンスによって課される再配布または場所の制限を尊重してください。
+        いいえ、お客様がソリューション構築の目的で 1 台のサーバー上で GroupDocs 製品を追加料金なしで使用できることを嬉しく思います。このインストールは、GroupDocs との契約のライセンス条項を回避するために使用されるべきではなく、購入したライセンスによって課される再配布可能または場所の制限を尊重する必要があります。
 
 ############################# Cloud ############################
 
 cloud_links:
   enable: true
-  title: "GroupDocs.ConversionのローコードAPI"
-  description: "クラウドベースのREST APIを使用して、任意のアプリケーションでドキュメントまたは画像の変換を高速化します"
+  title: "GroupDocs.Conversion ローコード API"
+  description: "クラウドベースの REST API を使用して、あらゆる種類のアプリケーションでドキュメントまたは画像の変換を高速化します。"
 
   items:
     #  loop
     - icon: "groupdocs_conversion-for-curl"
       title: "GroupDocs.Conversion Cloud for cURL"
       link: "https://products.groupdocs.cloud/conversion/curl"
-      content: "cURL RESTfulファイル変換APIを活用して、Microsoft Office、PDF、Eメール、プロジェクト、HTMLなどさまざまなファイル形式をアプリケーション内で簡単に変換します。"
+      content: "cURL RESTful ファイル変換 API を利用して、アプリケーション内で Microsoft Office、PDF、電子メール、プロジェクト、HTML などのさまざまなファイル形式を簡単に変換できます。"
     #  loop
     - icon: "groupdocs_conversion-for-net"
       title: "GroupDocs.Conversion Cloud for .NET"
       link: "https://products.groupdocs.cloud/conversion/net"
-      content: "Cloud SDKを使用して、Microsoft Office、PDF、Eメール、プロジェクト、HTML、およびさまざまな一般的なファイル形式を任意のプラットフォームでシームレスに変換するための.NETファイル変換REST API。"
+      content: ".NET ファイル変換 REST API を使用すると、Cloud SDK を使用して、Microsoft Office、PDF、電子メール、プロジェクト、HTML、およびさまざまな一般的なファイル形式をあらゆるプラットフォーム上でシームレスに変換できます。"
     #  loop
     - icon: "groupdocs_conversion-for-java"
       title: "GroupDocs.Conversion Cloud for Java"
       link: "https://products.groupdocs.cloud/conversion/java"
-      content: "高度なドキュメント変換機能でクラウドベースのJavaアプリケーションを強化し、REST API呼び出しを行うことができる任意のプラットフォームで利用できます。"
+      content: "REST API 呼び出しを実行できる任意のプラットフォームでアクセスできる高度なドキュメント変換機能を使用して、クラウドベースの Java アプリケーションを強化します。"
 
 ############################# Apps ############################
 
 app_links:
   enable: true
-  title: "GroupDocs.Conversion NoCodeアプリ"
-  description: "ブラウザで100以上の人気のあるファイル形式を変換できるオンラインアプリケーション"
+  title: "GroupDocs.Conversion NoCode アプリ"
+  description: "100 以上の一般的なファイル形式をブラウザで変換できるオンライン アプリケーション"
 
   items:
     #  loop
     - icon: "groupdocs_conversion-app"
       title: "GroupDocs.Conversion <br> Total"
       link: "https://products.groupdocs.app/conversion/total"
-      content: "PDF、XLSX、DOCX、XPS、HTMLなどの数百の形式を簡単に変換します。"
+      content: "数百以上の形式を PDF、XLSX、DOCX、XPS、HTML などに簡単に変換できます。"
 
     #  loop
     - icon: "groupdocs_words-app"
       title:  "GroupDocs.Conversion <br> DOC to XLS"
       link: "https://products.groupdocs.app/conversion/doc-to-xls"
-      content: "Webブラウザーから直接、DOCをXLS形式に変換するための無料のオンラインアプリケーション。"
+      content: "Web ブラウザから直接 DOC を XLS 形式に変換するための無料のオンライン アプリケーションです。"
 
     #  loop
     - icon: "groupdocs_pdf-app"
       title:  "GroupDocs.Conversion <br> PDF to DOCX"
       link: "https://products.groupdocs.app/conversion/pdf-to-docx"
-      content: "ユーザーフレンドリーなインターフェースを介して、PDFドキュメントをWord（DOCX）形式に簡単に変換します。"
+      content: "ユーザーフレンドリーなインターフェイスを通じて PDF ドキュメントをアップロードすることで、PDF ドキュメントを Word (DOCX) 形式に簡単に変換できます。"
     
 
 ---

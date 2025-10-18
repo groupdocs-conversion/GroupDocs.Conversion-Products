@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "Gói .NET 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * Hỗ trợ .NET 6.0 và các phiên bản cao hơn
+        * Hoạt động trên Windows, Linux và macOS
+      action: "Tải xuống NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "Gói .NET Framework" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * Hỗ trợ .NET Framework 4.6.2+ 
+        * Phụ thuộc vào System.draw.Common 
+      action: "Tải xuống NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -204,12 +204,12 @@ features:
     # feature loop
     - icon: "swap"
       title: "Xử lý an toàn"
-      content: "Đảm bảo quyền riêng tư dữ liệu với các tùy chọn chuyển đổi tệp được bảo vệ bằng mật khẩu."
+      content: "Đảm bảo quyền riêng tư của dữ liệu với các tùy chọn chuyển đổi tệp được bảo vệ bằng mật khẩu."
 
     # feature loop
     - icon: "extract"
       title: "Tích hợp API"
-      content: "Tích hợp liền mạch các khả năng chuyển đổi vào các ứng dụng C# của bạn, biến nó thành một phần liền mạch trong quy trình làm việc của bạn."
+      content: "Tích hợp liền mạch khả năng chuyển đổi vào các ứng dụng C# của bạn, biến nó thành một phần liền mạch trong quy trình làm việc của bạn."
 
     # feature loop
     - icon: "orientation"

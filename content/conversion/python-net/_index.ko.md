@@ -53,7 +53,7 @@ release:
 
 code:
   title: "Python에서 DOCX 파일을 PDF로 변환하는 방법"
-  more: "더 많은 예시"
+  more: "더 많은 예"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Python-via-.NET"
   install: "pip install groupdocs-conversion-net"
   content: |
@@ -75,7 +75,7 @@ overview:
   features:
     # feature loop
     - title: "간소화된 변환 프로세스"
-      content: "콘텐츠와 구조 무결성을 유지하는 안정적인 API를 사용하여 문서를 PDF, Office, HTML, eBook 및 이미지 형식으로 쉽게 변환하세요."
+      content: "콘텐츠와 구조 무결성을 유지하는 안정적인 API를 사용하여 문서를 PDF, Office, HTML, eBook 및 이미지 형식으로 손쉽게 변환하세요."
 
     # feature loop
     - title: "원활한 형식 전환"
@@ -83,7 +83,7 @@ overview:
 
     # feature loop
     - title: "플랫폼 간 호환성"
-      content: "크로스 플랫폼 작업을 지원하므로 Python 개발자가 Windows 및 macOS 시스템에서 쉽게 변환을 처리할 수 있습니다."
+      content: "크로스 플랫폼 작업을 지원하므로 Python 개발자는 Windows 및 macOS 시스템에서 변환을 쉽게 처리할 수 있습니다."
 
 ############################# Platforms ############################
 platforms:
@@ -192,7 +192,7 @@ features:
     # feature loop
     - icon: "extract"
       title: "API 통합"
-      content: "변환 기능을  애플리케이션에 원활하게 통합하여 워크플로의 일부로 매끄럽게 만듭니다."
+      content: "변환 기능을  애플리케이션에 원활하게 통합하여 워크플로우의 일부로 매끄럽게 만듭니다."
 
     # feature loop
     - icon: "orientation"

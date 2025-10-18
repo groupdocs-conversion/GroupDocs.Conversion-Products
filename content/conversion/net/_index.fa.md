@@ -51,7 +51,7 @@ release:
   link: "https://releases.groupdocs.com/conversion/net/release-notes/latest/"
 
 code:
-  title: "نحوه تبدیل فایل های PDF در سی شارپ"
+  title: "نحوه تبدیل فایل های پی دی اف در سی شارپ"
   more: "نمونه های بیشتر"
   more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
   install: "dotnet add package GroupDocs.Conversion"
@@ -71,7 +71,7 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Conversion در یک نگاه"
-  description: "قابلیت‌های API را برای تبدیل سریع و بی‌عیب فایل‌های PDF، Microsoft Office، HTML، کتاب الکترونیکی و تصویر در برنامه‌های NET بررسی کنید."
+  description: "قابلیت‌های API را برای تبدیل سریع و بدون نقص PDF، Microsoft Office، HTML، کتاب الکترونیکی و فایل‌های تصویری در برنامه‌های NET بررسی کنید."
   features:
     # feature loop
     - title: "تبدیل ساده"
@@ -117,18 +117,18 @@ platforms:
       image: "nuget"
   packages:
     # packages loop
-    - title: "{index-content-net.platforms_packages_main_title}"
+    - title: "پکیج دات نت 6"
       content: |
-        * {index-content-net.platforms_packages_main_content_1}
-        * {index-content-net.platforms_packages_main_content_2}
-      action: "{index-content-net.platforms_packages_main_action}"
+        * پشتیبانی از دات نت 6.0 و نسخه های بالاتر
+        * روی ویندوز، لینوکس و macOS کار می کند
+      action: "دانلود NuGet"
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion"
     # packages loop
-    - title: "{index-content-net.platforms_packages_net_framework_title}" 
+    - title: "بسته فریم ورک دات نت" 
       content: |
-        * {index-content-net.platforms_packages_net_framework_content_1} 
-        * {index-content-net.platforms_packages_net_framework_content_2} 
-      action: "{index-content-net.platforms_packages_net_framework_action}" 
+        * پشتیبانی از دات نت فریم ورک 4.6.2+ 
+        * بستگی به System.Drawing.Common دارد 
+      action: "دانلود NuGet" 
       action_link: "https://www.nuget.org/packages/GroupDocs.Conversion.NETFramework" 
 
 ############################# File formats ############################
@@ -173,7 +173,7 @@ formats:
 features:
   enable: true
   title: "ویژگی های GroupDocs.Conversion"
-  description: "تبدیل یکپارچه PDF و اسناد اداری به HTML، JPG، PNG، BMP، TIFF، SVG و بسیاری از فرمت های دیگر. GroupDocs.Conversion for C# API به گونه ای طراحی شده است که استفاده از آن آسان باشد و در پروژه شما ادغام شود. از تمام فرمت های سند محبوب با قابلیت سفارشی سازی فرآیند تبدیل پشتیبانی می کند."
+  description: "تبدیل یکپارچه PDF و اسناد اداری به HTML، JPG، PNG، BMP، TIFF، SVG و بسیاری از فرمت های دیگر. GroupDocs.Conversion for C# API طوری طراحی شده است که استفاده از آن و ادغام در پروژه شما آسان باشد. از تمام فرمت های سند محبوب با قابلیت سفارشی سازی فرآیند تبدیل پشتیبانی می کند."
 
   items:
     # feature loop
@@ -199,7 +199,7 @@ features:
     # feature loop
     - icon: "rotate"
       title: "تنظیمات قابل تنظیم"
-      content: "پارامترهای تبدیل مانند وضوح، کیفیت، و طرح را برای برآوردن نیازهای خاص تنظیم کنید."
+      content: "پارامترهای تبدیل مانند وضوح، کیفیت و طرح را برای برآوردن نیازهای خاص تنظیم کنید."
 
     # feature loop
     - icon: "swap"
@@ -225,13 +225,13 @@ features:
 code_samples:
   enable: true
   title: "نمونه کد"
-  description: "برخی از موارد معمولی GroupDocs.Conversion برای عملیات دات نت استفاده می کنند"
+  description: "برخی از موارد معمولی GroupDocs.Conversion برای عملیات NET استفاده می کنند"
   items:
     # code sample loop
     - title: "تبدیل PDF به تصویر"
       content: |
         سناریویی که معمولاً با آن مواجه می‌شوید شامل تبدیل کل یک سند PDF یا صفحات خاص به مجموعه‌ای از تصاویر است. GroupDocs.Conversion برای دات نت قابلیت تبدیل PDF به فرمت های تصویری مختلف مانند TIFF، JPG، PNG، GIF، BMP و غیره را ارائه می دهد.
-        برخلاف سایر تبدیل‌ها، این فرآیند نیاز به اعلان یک نماینده SavePageStream دارد که فرمت نام‌گذاری تصاویر ذخیره‌شده را مشخص می‌کند. با استفاده از کلاس ImageFileType می توانید فرمت تصویر دلخواه خود را انتخاب کنید.
+        برخلاف سایر تبدیل‌ها، این فرآیند نیاز به اعلام یک نماینده SavePageStream دارد که فرمت نام‌گذاری تصاویر ذخیره‌شده را مشخص می‌کند. با استفاده از کلاس ImageFileType می توانید فرمت تصویر دلخواه خود را انتخاب کنید.
         {{< landing/code title="تبدیل PDF به PNG در سی شارپ">}}
         ```csharp {style=abap}
         using System.IO;

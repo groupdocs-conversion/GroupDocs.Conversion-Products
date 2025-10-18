@@ -27,8 +27,8 @@ supported_platforms:
       tag: "python-net" 
 
 ############################# Head ############################
-head_title: "JavaScript API преобразования документов | Конвертируйте PDF, Word, Excel, PPTX, HTML и изображения."
-head_description: "JavaScript API преобразования документов. Конвертируйте PDF, Word, DOC, DOCX, Excel, электронные таблицы, PPT, PPTX, HTML, PSD, MPT, MPP, электронную почту, MSG, EMLX, AutoCAD и форматы файлов изображений."
+head_title: "API преобразования документов JavaScript | Конвертируйте PDF, Word, Excel, PPTX, HTML и изображения."
+head_description: "API преобразования документов JavaScript. Конвертируйте PDF, Word, DOC, DOCX, Excel, электронные таблицы, PPT, PPTX, HTML, PSD, MPT, MPP, электронную почту, MSG, EMLX, AutoCAD и форматы файлов изображений."
 
 ############################# Header ############################
 title: "Преобразование документов через Node.js API"
